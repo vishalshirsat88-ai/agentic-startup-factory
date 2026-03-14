@@ -1,0 +1,28 @@
+I am building an Agentic Startup Factory.
+
+Agents:
+CEO → generates startup ideas
+CTO → architecture
+Developer → generates Flask MVP
+QA → auto-debug loop
+GitHub → create repo and push code
+Deployment → deploy to Railway
+
+System uses a Flask dashboard.
+
+Pipeline:
+approve idea → threaded background run → build app → debug → push to GitHub → deploy to Railway → retrieve domain → update ideas.json → show live URL.
+
+Railway deployment uses:
+railway init
+railway link
+railway up --detach
+railway domain
+
+Deployment now works.
+
+Next goals:
+- SaaS landing page generation
+- database model generation
+- growth marketing agent
+- autonomous startup factory mode
