@@ -1,0 +1,14 @@
+
+```python
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/", methods=["GET"])
+def index():
+    """Homepage route for Freelancer Contract Manager"""
+    return "Welcome to Freelancer Contract Manager!"
+
+if __name__ == "__main__":
+    app.run(debug=True)
+```

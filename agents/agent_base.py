@@ -23,7 +23,6 @@ class AgentBase:
 
         return response
 
-
     def execute(self, task):
 
         prompt = f"""

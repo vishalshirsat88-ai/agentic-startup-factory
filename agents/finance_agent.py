@@ -1,8 +1,14 @@
 from agents.agent_base import AgentBase
 
-class FinanceAgent(AgentBase):
-    def __init__(self):
-        super().__init__("Finance Agent")
+class FinanceAgent:
 
-    def track_revenue(self, product):
-        return self.execute(f"Tracking revenue for {product}")
+    def track_revenue(self, build):
+
+        return """
+Revenue Tracking
+
+• Track subscriptions
+• Monitor MRR
+• Calculate CAC
+• Track conversion rate
+"""

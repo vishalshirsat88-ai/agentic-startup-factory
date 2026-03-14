@@ -1,0 +1,1 @@
+This project is a simple Flask MVP for AI-driven Lead Generation Tool. To get started, create a virtual environment with `python -m venv venv` and activate it with `source venv/bin/activate`. Then, install dependencies with `pip install -r requirements.txt`. Run the application with `gunicorn -w 1 app:app`.

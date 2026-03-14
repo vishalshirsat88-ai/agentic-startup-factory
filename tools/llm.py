@@ -1,26 +1,26 @@
 from dotenv import load_dotenv
 import os
-
-load_dotenv()
-
-import os
 from groq import Groq
 
-LLM_PROVIDER = "groq"
+# Load environment variables
+load_dotenv()
 
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+# Get API key
+api_key = os.getenv("GROQ_API_KEY")
+
+if not api_key:
+    raise ValueError("GROQ_API_KEY not found. Check your .env file.")
+
+# Initialize Groq client
+client = Groq(api_key=api_key)
+
 
 def generate(prompt):
 
-    if LLM_PROVIDER == "groq":
+    chat_completion = client.chat.completions.create(
+        model="llama-3.1-8b-instant",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.7
+    )
 
-        chat_completion = client.chat.completions.create(
-            messages=[
-                {"role": "user", "content": prompt}
-            ],
-            model="llama3-70b-8192"
-        )
-
-        return chat_completion.choices[0].message.content
-
-    return "No LLM provider configured."
+    return chat_completion.choices[0].message.content

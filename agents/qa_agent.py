@@ -1,8 +1,14 @@
 from agents.agent_base import AgentBase
 
-class QAAgent(AgentBase):
-    def __init__(self):
-        super().__init__("QA Agent")
+class QAAgent:
 
     def test_product(self, build):
-        return self.execute(f"Testing {build}")
+
+        return """
+QA Checklist
+
+• Run the application
+• Test API endpoints
+• Check error handling
+• Validate responses
+"""

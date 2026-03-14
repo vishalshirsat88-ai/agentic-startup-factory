@@ -1,0 +1,30 @@
+```markdown
+# AI-powered Sales Forecasting Tool MVP
+
+## Project Description
+
+This is a simple Flask MVP for an AI-powered Sales Forecasting Tool. The tool aims to predict sales performance based on historical data and market trends.
+
+## Run Instructions
+
+1. Install the required dependencies by running `pip install -r requirements.txt`.
+2. Run the application by executing `python app.py`.
+3. Open your web browser and navigate to `http://localhost:5000/` to access the homepage.
+
+## Project Structure
+
+This project consists of a single file `app.py` that contains the Flask backend code. The homepage route is defined in this file.
+
+## Future Development
+
+This MVP serves as a starting point for further development. Potential features include:
+* Integration with machine learning libraries to predict sales performance
+* Data ingestion from various sources (e.g. CSV files, APIs)
+* User authentication and authorization
+```
+
+To run the application, navigate to the project directory and execute the following commands:
+
+1. `pip install -r requirements.txt` (install dependencies)
+2. `python app.py` (run the application)
+3. Open your web browser and navigate to `http://localhost:5000/` to access the homepage
