@@ -16,43 +16,40 @@ def generate_codebase_context():
 
     context.append("## Project Structure\n")
 
+    python_files = []
+
     for root, dirs, files in os.walk(PROJECT_ROOT):
 
-        if ".git" in root or "projects/" in root:
+        if ".git" in root or root.startswith("./projects") or "__pycache__" in root:
             continue
 
         context.append(f"\n### Folder: {root}")
 
         for file in files:
+
             if file.endswith(".py") or file.endswith(".md"):
                 context.append(f"- {file}")
+
+            if file.endswith(".py"):
+                python_files.append(os.path.join(root, file))
 
     context.append("\n---\n")
     context.append("## File Contents (truncated)\n")
 
-    for root, dirs, files in os.walk(PROJECT_ROOT):
+    for path in python_files:
 
-        if ".git" in root or "projects/" in root:
-            continue
+        context.append(f"\n### {path}\n")
 
-        for file in files:
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                content = f.read()
 
-            if file.endswith(".py"):
+            context.append("```python")
+            context.append(content[:2000])
+            context.append("```")
 
-                path = os.path.join(root, file)
-
-                context.append(f"\n### {path}\n")
-
-                try:
-                    with open(path, "r", encoding="utf-8") as f:
-                        content = f.read()
-
-                    context.append("```python")
-                    context.append(content[:2000])
-                    context.append("```")
-
-                except:
-                    context.append("Could not read file")
+        except:
+            context.append("Could not read file")
 
     with open(CODEBASE_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(context))
@@ -65,7 +62,7 @@ def generate_project_context():
 
     for root, dirs, files in os.walk(PROJECT_ROOT):
 
-        if ".git" in root:
+        if ".git" in root or root.startswith("./projects") or "__pycache__" in root:
             continue
 
         for file in files:
@@ -90,7 +87,7 @@ def generate_project_context():
 
     context.append("\n## Main Folders\n")
 
-    for f in set(folders):
+    for f in sorted(set(folders)):
         context.append(f"- {f}")
 
     context.append("\n## Generated\n")
