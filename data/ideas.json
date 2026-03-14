@@ -1,185 +1,5 @@
 [
   {
-    "id": 64,
-    "idea": {
-      "name": "AI-powered Chatbot for Customer Support",
-      "description": "Automate customer support with AI-powered chatbots"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 65,
-    "idea": {
-      "name": "E-commerce Product Variant Generator",
-      "description": "Automate product variant generation for e-commerce businesses"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 66,
-    "idea": {
-      "name": "AI-powered Competitor Analysis Tool",
-      "description": "Analyze and compare competitors' strategies and market performance"
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 67,
-    "idea": {
-      "name": "Freelance Time Tracking and Billing Tool",
-      "description": "Streamline time tracking and invoicing for freelancers"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 68,
-    "idea": {
-      "name": "E-learning Quizzes and Assessments Generator",
-      "description": "Automate quiz and assessment generation for e-learning courses"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 69,
-    "idea": {
-      "name": "Virtual Team Collaboration Platform",
-      "description": "Enhance team collaboration and communication with AI-powered tools"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 70,
-    "idea": {
-      "name": "AI-powered Website Speed Optimization Tool",
-      "description": "Improve website speed and performance with AI-driven recommendations"
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 71,
-    "idea": {
-      "name": "E-commerce Product Research",
-      "description": "Automate product research and data collection for e-commerce businesses"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 72,
-    "idea": {
-      "name": "AI-powered Website Content Generator",
-      "description": "Automatically generate high-quality website content"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 73,
-    "idea": {
-      "name": "AI-driven Customer Segmentation",
-      "description": "Automate customer segmentation for targeted marketing"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 74,
-    "idea": {
-      "name": "E-commerce Product Review Analyzer",
-      "description": "Analyze and visualize e-commerce product reviews"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 75,
-    "idea": {
-      "name": "AI-powered Meeting Scheduling Assistant",
-      "description": "Automate meeting scheduling and reminders"
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 76,
-    "idea": {
-      "name": "Influencer Marketing Platform",
-      "description": "Connect influencers with brands for partnerships"
-    },
-    "score": 4,
-    "status": "pending"
-  },
-  {
-    "id": 77,
-    "idea": {
-      "name": "AI-driven SEO Audit Tool",
-      "description": "Automate SEO audits and provide actionable recommendations"
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 78,
-    "idea": {
-      "name": "Virtual Team Goal Setting Tool",
-      "description": "Help virtual teams set and achieve goals"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 79,
-    "idea": {
-      "name": "AI-powered Email Warm-up Tool",
-      "description": "Automate email warm-up and increase deliverability"
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 80,
-    "idea": {
-      "name": "E-commerce Product Comparison Tool",
-      "description": "Allow customers to compare e-commerce products"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 81,
-    "idea": {
-      "name": "AI-driven Social Media Monitoring",
-      "description": "Monitor social media conversations and sentiment"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 82,
-    "idea": {
-      "name": "Virtual Event Registration Platform",
-      "description": "Streamline virtual event registration and ticketing"
-    },
-    "score": 4,
-    "status": "pending"
-  },
-  {
-    "id": 83,
-    "idea": {
-      "name": "AI-powered Content Calendar for Bloggers",
-      "description": "Help bloggers plan and schedule content in advance"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
     "id": 84,
     "idea": {
       "name": "E-commerce Product Recommendation Engine",
@@ -1931,6 +1751,226 @@
     "name": "ContractCoach",
     "description": "AI-driven contract negotiation and coaching tool",
     "score": 7,
+    "status": "approved"
+  },
+  {
+    "id": 263,
+    "idea": {
+      "name": "TaskTask",
+      "description": "AI-powered task prioritization and organization tool for teams"
+    },
+    "name": "TaskTask",
+    "description": "AI-powered task prioritization and organization tool for teams",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 264,
+    "idea": {
+      "name": "Browser Buddy",
+      "description": "AI-driven browser extension for personalized content recommendations"
+    },
+    "name": "Browser Buddy",
+    "description": "AI-driven browser extension for personalized content recommendations",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 265,
+    "idea": {
+      "name": "Content Composer",
+      "description": "AI-assisted content generation tool for businesses"
+    },
+    "name": "Content Composer",
+    "description": "AI-assisted content generation tool for businesses",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 266,
+    "idea": {
+      "name": "Email Elevate",
+      "description": "AI-powered email writing assistant for professionals"
+    },
+    "name": "Email Elevate",
+    "description": "AI-powered email writing assistant for professionals",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 267,
+    "idea": {
+      "name": "Product Pulse",
+      "description": "AI-driven product recommendation engine for e-commerce businesses"
+    },
+    "name": "Product Pulse",
+    "description": "AI-driven product recommendation engine for e-commerce businesses",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 268,
+    "idea": {
+      "name": "Social Sphere",
+      "description": "AI-powered social media analytics and engagement tool"
+    },
+    "name": "Social Sphere",
+    "description": "AI-powered social media analytics and engagement tool",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 269,
+    "idea": {
+      "name": "Contract Catalyst",
+      "description": "AI-assisted contract review and negotiation platform"
+    },
+    "name": "Contract Catalyst",
+    "description": "AI-assisted contract review and negotiation platform",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 270,
+    "idea": {
+      "name": "Time Trader",
+      "description": "AI-driven time management and scheduling tool for freelancers"
+    },
+    "name": "Time Trader",
+    "description": "AI-driven time management and scheduling tool for freelancers",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 271,
+    "idea": {
+      "name": "Meeting Mate",
+      "description": "AI-powered meeting scheduling and organization platform"
+    },
+    "name": "Meeting Mate",
+    "description": "AI-powered meeting scheduling and organization platform",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 272,
+    "idea": {
+      "name": "Browser Boost",
+      "description": "AI-driven browser extension for website speed optimization"
+    },
+    "name": "Browser Boost",
+    "description": "AI-driven browser extension for website speed optimization",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 273,
+    "idea": {
+      "name": "Content Critic",
+      "description": "AI-assisted content quality and grammar checking tool"
+    },
+    "name": "Content Critic",
+    "description": "AI-assisted content quality and grammar checking tool",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 274,
+    "idea": {
+      "name": "Email Encore",
+      "description": "AI-powered email follow-up and tracking platform"
+    },
+    "name": "Email Encore",
+    "description": "AI-powered email follow-up and tracking platform",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 275,
+    "idea": {
+      "name": "Product Pro",
+      "description": "AI-driven product research and competitor analysis tool"
+    },
+    "name": "Product Pro",
+    "description": "AI-driven product research and competitor analysis tool",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 276,
+    "idea": {
+      "name": "Social Scan",
+      "description": "AI-powered social media monitoring and reputation management tool"
+    },
+    "name": "Social Scan",
+    "description": "AI-powered social media monitoring and reputation management tool",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 277,
+    "idea": {
+      "name": "Contract Craft",
+      "description": "AI-assisted contract automation and workflow management platform"
+    },
+    "name": "Contract Craft",
+    "description": "AI-assisted contract automation and workflow management platform",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 278,
+    "idea": {
+      "name": "Time Tracker",
+      "description": "AI-driven time tracking and billing platform for freelancers"
+    },
+    "name": "Time Tracker",
+    "description": "AI-driven time tracking and billing platform for freelancers",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 279,
+    "idea": {
+      "name": "Meeting Matrix",
+      "description": "AI-powered meeting planning and organization tool"
+    },
+    "name": "Meeting Matrix",
+    "description": "AI-powered meeting planning and organization tool",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 280,
+    "idea": {
+      "name": "Browser Bridge",
+      "description": "AI-driven browser extension for cross-browser compatibility testing"
+    },
+    "name": "Browser Bridge",
+    "description": "AI-driven browser extension for cross-browser compatibility testing",
+    "score": 6,
+    "status": "approved"
+  },
+  {
+    "id": 281,
+    "idea": {
+      "name": "Content Connect",
+      "description": "AI-assisted content collaboration and workflow management platform"
+    },
+    "name": "Content Connect",
+    "description": "AI-assisted content collaboration and workflow management platform",
+    "score": 5,
+    "status": "approved"
+  },
+  {
+    "id": 282,
+    "idea": {
+      "name": "Email Elevate Pro",
+      "description": "AI-powered email writing and automation platform for businesses"
+    },
+    "name": "Email Elevate Pro",
+    "description": "AI-powered email writing and automation platform for businesses",
+    "score": 6,
     "status": "approved"
   }
 ]

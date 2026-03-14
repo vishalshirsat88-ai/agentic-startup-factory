@@ -45,6 +45,26 @@ class DeveloperAgent(AgentBase):
 
         return "startup"
 
+    def detect_dependencies(self, code):
+
+        deps = set()
+
+        if "flask_sqlalchemy" in code:
+            deps.add("Flask-SQLAlchemy==3.0.5")
+
+        if "flask_login" in code:
+            deps.add("Flask-Login==0.6.3")
+
+        if "requests" in code:
+            deps.add("requests==2.31.0")
+
+        if "pandas" in code:
+            deps.add("pandas==2.2.2")
+
+        return deps
+
+
+
     def build_mvp(self, idea):
 
         print("DEBUG IDEA TEXT:")
@@ -61,14 +81,33 @@ class DeveloperAgent(AgentBase):
         Build a simple Flask MVP for this startup idea.
 
         Rules:
+
         - Use Flask
-        - Use a single file app.py
-        - Include "import os" at the top (REQUIRED)
-        - Use: port = int(os.environ.get("PORT", 5000))
-        - Use: app.run(host="0.0.0.0", port=port)
-        - Keep it minimal and working
-        - Do not use render_template.
-        - Return plain text from the route.
+        - Generate a SaaS web application
+        - You MAY use templates
+        - Use render_template
+        - Include signup, login and dashboard pages
+        - Include SQLite database for users
+        - Include import os at the top
+        - The Flask server must start using:
+
+        if __name__ == "__main__":
+            port = int(os.environ.get("PORT", 5000))
+            app.run(host="0.0.0.0", port=port)
+
+        Do NOT run app.run() outside this block.
+
+        Project structure:
+
+        FILE: app.py
+        FILE: requirements.txt
+        FILE: Procfile
+        FILE: README.md
+        FILE: templates/index.html
+        FILE: templates/signup.html
+        FILE: templates/login.html
+        FILE: templates/dashboard.html
+        FILE: static/style.css
 
         Idea Name: {idea.get("name","") if isinstance(idea, dict) else idea}
         Description: {idea.get("description","") if isinstance(idea, dict) else ""}
@@ -81,6 +120,25 @@ class DeveloperAgent(AgentBase):
         Flask==2.3.3
         gunicorn==21.2.0
         Werkzeug==2.3.7
+
+        Additional requirements:
+
+        The app must be a real SaaS style product.
+
+        app.py must include:
+        - Flask routes
+        - SQLite database initialization
+        - Signup endpoint
+        - Login endpoint
+        - Dashboard route
+
+        The landing page should explain the product clearly.
+
+        Use clean readable code.
+
+        Avoid placeholder comments like:
+        # TODO
+        # implement later
 
         FILE: Procfile
         web: gunicorn app:app --bind 0.0.0.0:$PORT
@@ -98,7 +156,9 @@ class DeveloperAgent(AgentBase):
             return project_dir
         response = response.replace("**", "")
         # fallback conversion if LLM returns headings instead of FILE labels
-       
+        response = response.replace("###", "")
+        response = response.replace("##", "")
+        response = response.replace("#", "")
         response = response.replace("**app.py**", "FILE: app.py")
         response = response.replace("**requirements.txt**", "FILE: requirements.txt")
         response = response.replace("**Procfile**", "FILE: Procfile")
@@ -109,7 +169,7 @@ class DeveloperAgent(AgentBase):
 
         for line in response.splitlines():
 
-            line_clean = line.replace("*", "").strip()
+            line_clean = line.replace("*", "").replace("`", "").strip()
 
             if "FILE:" in line_clean:
 
@@ -137,13 +197,85 @@ class DeveloperAgent(AgentBase):
         if current_file:
             content = "\n".join(buffer)
             content = content.replace("```python", "").replace("```", "")
-            
-            # --- ADD THIS PATCH HERE ---
-            if current_file == "app.py" and "import os" not in content:
-                content = "import os\n" + content
-            # ---------------------------
+
+            # Ensure Railway compatibility
+            if current_file == "app.py":
+
+                # ensure os import
+                if "import os" not in content:
+                    content = "import os\n" + content
+
+                # prevent Railway double-server crash
+                if "app.run(" in content and "__main__" not in content:
+                    content = content.replace(
+                        "app.run(",
+                        'if __name__ == "__main__":\n    app.run('
+                    )
+
+                # remove common LLM inline explanation errors
+                content = re.sub(
+                    r"(app\.config\['SECRET_KEY'\]\s*=\s*['\"].*?['\"])\s+.*",
+                    r"\1",
+                    content
+                )
 
             write_file(f"{project_dir}/{current_file}", content)
+
+        # Ensure templates directory exists
+        templates_dir = f"{project_dir}/templates"
+        os.makedirs(templates_dir, exist_ok=True)
+
+        required_templates = [
+            "index.html",
+            "signup.html",
+            "login.html",
+            "dashboard.html"
+        ]
+
+        for template in required_templates:
+
+            path = f"{templates_dir}/{template}"
+
+            if not os.path.exists(path):
+
+                fallback_html = f"""
+<html>
+<head>
+<title>{template}</title>
+</head>
+<body>
+<h1>{template}</h1>
+<p>Placeholder page generated by DeveloperAgent.</p>
+</body>
+</html>
+"""
+
+                write_file(path, fallback_html)
+
+        # Force correct Procfile (LLM sometimes breaks it)
+        procfile_path = f"{project_dir}/Procfile"
+        write_file(procfile_path, "web: gunicorn app:app --bind 0.0.0.0:$PORT")
+
+        # Build requirements dynamically from imports
+        app_path = f"{project_dir}/app.py"
+
+        dependencies = {
+            "Flask==2.2.5",
+            "gunicorn==21.2.0",
+            "Werkzeug==2.2.3"
+        }
+
+        if os.path.exists(app_path):
+
+            with open(app_path) as f:
+                code = f.read()
+
+            detected = self.detect_dependencies(code)
+
+            dependencies.update(detected)
+
+        req_path = f"{project_dir}/requirements.txt"
+        write_file(req_path, "\n".join(sorted(dependencies)))
 
         self.auto_debug(project_dir)
 
