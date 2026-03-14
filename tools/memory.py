@@ -11,8 +11,14 @@ def load_memory(file):
     if not os.path.exists(path):
         return []
 
-    with open(path, "r") as f:
-        return json.load(f)
+    if os.path.getsize(path) == 0:
+        return []
+
+    try:
+        with open(path, "r") as f:
+            return json.load(f)
+    except json.JSONDecodeError:
+        return []
 
 
 def save_memory(file, data):
@@ -28,5 +34,8 @@ def add_entry(file, entry):
     data = load_memory(file)
 
     data.append(entry)
+
+    # keep last 100 startups only
+    data = data[-100:]
 
     save_memory(file, data)

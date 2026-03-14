@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 CODEBASE_CONTEXT.md
 memory/*.json
+projects/

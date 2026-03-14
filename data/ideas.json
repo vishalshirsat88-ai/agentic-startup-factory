@@ -1,392 +1,5 @@
 [
   {
-    "id": 1,
-    "idea": {
-      "name": "ContentCraft",
-      "description": "AI-powered content suggestion and optimization tool for social media managers and content creators."
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 2,
-    "idea": {
-      "name": "MeetingMind",
-      "description": "AI-driven meeting note-taking and action item assignment browser extension for remote teams."
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 3,
-    "idea": {
-      "name": "EmailEase",
-      "description": "AI-based email writing and summarization tool for business professionals and entrepreneurs."
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 4,
-    "idea": {
-      "name": "TaskTwin",
-      "description": "AI-powered task assignment and prioritization SaaS for small business owners and freelancers."
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 5,
-    "idea": {
-      "name": "ResumeRenew",
-      "description": "AI-driven resume building and optimization platform for job seekers and career professionals."
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 6,
-    "idea": {
-      "name": "AI Resume Tailor",
-      "description": "Automatically customize resumes for each job application"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 7,
-    "idea": {
-      "name": "Freelancer Payment Tracker",
-      "description": "Track invoices and late payments for freelancers"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 8,
-    "idea": {
-      "name": "Content Calendar Planner",
-      "description": "Plan and schedule content for social media and blogs"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 9,
-    "idea": {
-      "name": "Virtual Event Organizer",
-      "description": "Manage virtual events, including invitations, scheduling, and follow-ups"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 10,
-    "idea": {
-      "name": "AI Chatbot Builder",
-      "description": "Create custom chatbots for customer support and engagement"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 11,
-    "idea": {
-      "name": "Influencer Research Tool",
-      "description": "Find and analyze influencers for marketing campaigns"
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 12,
-    "idea": {
-      "name": "Website Accessibility Checker",
-      "description": "Check and improve website accessibility for users with disabilities"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 13,
-    "idea": {
-      "name": "Social Media Scheduling Tool",
-      "description": "Schedule social media posts in advance for optimal engagement"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 14,
-    "idea": {
-      "name": "Customer Feedback Analyzer",
-      "description": "Analyze customer feedback and sentiment for business improvement"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 15,
-    "idea": {
-      "name": "E-commerce Product Research Tool",
-      "description": "Research and compare e-commerce products for customers"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 16,
-    "idea": {
-      "name": "Personal Finance Tracker",
-      "description": "Track and manage personal finances, including budgeting and expenses"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 17,
-    "idea": {
-      "name": "Website Speed Optimizer",
-      "description": "Improve website loading speed for better user experience"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 18,
-    "idea": {
-      "name": "Marketing Automation Tool",
-      "description": "Automate marketing tasks, including email and social media campaigns"
-    },
-    "score": 8,
-    "status": "pending"
-  },
-  {
-    "id": 19,
-    "idea": {
-      "name": "Password Manager for Teams",
-      "description": "Securely manage team passwords and access controls"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 20,
-    "idea": {
-      "name": "Social Media Monitoring Tool",
-      "description": "Monitor social media conversations and sentiment for businesses"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 21,
-    "idea": {
-      "name": "AI Writing Assistant",
-      "description": "Automate writing tasks, including content generation and editing"
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 22,
-    "idea": {
-      "name": "E-commerce Inventory Manager",
-      "description": "Manage e-commerce inventory levels, including tracking and restocking"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 23,
-    "idea": {
-      "name": "Customer Service Chatbot",
-      "description": "Provide automated customer support for businesses"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 24,
-    "idea": {
-      "name": "Website Security Scanner",
-      "description": "Scan websites for security vulnerabilities and threats"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 25,
-    "idea": {
-      "name": "Marketing Data Analytics Tool",
-      "description": "Analyze marketing data for businesses, including campaign performance"
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 26,
-    "idea": {
-      "name": "Virtual Wardrobe Advisor",
-      "description": "Recommend outfits and styles based on user preferences"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 27,
-    "idea": {
-      "name": "AI Travel Planner",
-      "description": "Plan trips and itineraries based on user preferences and budget"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 28,
-    "idea": {
-      "name": "E-learning Course Comparator",
-      "description": "Compare e-learning courses on various platforms"
-    },
-    "score": 4,
-    "status": "pending"
-  },
-  {
-    "id": 29,
-    "idea": {
-      "name": "Personal Finance Assistant",
-      "description": "Track expenses and provide budgeting recommendations"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 30,
-    "idea": {
-      "name": "AI-powered Event Planning Tool",
-      "description": "Plan events and send invitations with RSVP tracking"
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 31,
-    "idea": {
-      "name": "Website Heatmap Analyzer",
-      "description": "Analyze website traffic and user behavior with heatmaps"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 32,
-    "idea": {
-      "name": "Content Generation Calendar",
-      "description": "Create a calendar for content generation with suggestions"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 33,
-    "idea": {
-      "name": "AI-powered Translation Memory",
-      "description": "Store and retrieve translated content for future use"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 34,
-    "idea": {
-      "name": "AI-driven Job Search Platform",
-      "description": "Match job seekers with job openings based on skills and experience"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 35,
-    "idea": {
-      "name": "Virtual Event Manager",
-      "description": "Manage virtual events with scheduling and reminders"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 36,
-    "idea": {
-      "name": "AI-powered Sales Forecasting Tool",
-      "description": "Predict sales performance based on historical data and market trends"
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 37,
-    "idea": {
-      "name": "AI-powered Content Recommendation Engine",
-      "description": "Recommend content to users based on their preferences"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 38,
-    "idea": {
-      "name": "Digital Productivity Coach",
-      "description": "Provide personalized productivity recommendations and coaching"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 39,
-    "idea": {
-      "name": "AI-driven Email Marketing Tool",
-      "description": "Automate email marketing campaigns with personalization"
-    },
-    "score": 7,
-    "status": "pending"
-  },
-  {
-    "id": 40,
-    "idea": {
-      "name": "Personalized Job Alert",
-      "description": "Send job alerts based on user skills and preferences"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 41,
-    "idea": {
-      "name": "AI-powered Meeting Minute Taker",
-      "description": "Automatically generate meeting minutes with AI transcription"
-    },
-    "score": 6,
-    "status": "pending"
-  },
-  {
-    "id": 42,
-    "idea": {
-      "name": "E-commerce Product Variations Generator",
-      "description": "Automatically generate product variations for e-commerce stores"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
-    "id": 43,
-    "idea": {
-      "name": "Social Media Content Calendar",
-      "description": "Plan and schedule social media content in advance"
-    },
-    "score": 5,
-    "status": "pending"
-  },
-  {
     "id": 44,
     "idea": {
       "name": "AI-powered Customer Chatbot",
@@ -1662,7 +1275,7 @@
       "description": "Track freelance work hours and generate invoices automatically"
     },
     "score": 5,
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": 186,
@@ -1689,7 +1302,7 @@
       "description": "Automate virtual event planning and organization"
     },
     "score": 6,
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": 189,
@@ -1770,6 +1383,514 @@
       "description": "Plan, schedule, and optimize content for social media"
     },
     "score": 7,
+    "status": "approved"
+  },
+  {
+    "id": 198,
+    "idea": {
+      "name": "Personalized Meal Planner",
+      "description": "Generate customized meal plans based on dietary needs and preferences"
+    },
+    "name": "Personalized Meal Planner",
+    "description": "Generate customized meal plans based on dietary needs and preferences",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 199,
+    "idea": {
+      "name": "AI-powered Social Media Scheduler",
+      "description": "Automate social media posting schedules with personalized content suggestions"
+    },
+    "name": "AI-powered Social Media Scheduler",
+    "description": "Automate social media posting schedules with personalized content suggestions",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 200,
+    "idea": {
+      "name": "E-commerce Product Cloner",
+      "description": "Automate product listing and pricing for e-commerce platforms"
+    },
+    "name": "E-commerce Product Cloner",
+    "description": "Automate product listing and pricing for e-commerce platforms",
+    "score": 4,
+    "status": "pending"
+  },
+  {
+    "id": 201,
+    "idea": {
+      "name": "Influencer Discovery Platform",
+      "description": "Find and connect with influencers in specific niches and industries"
+    },
+    "name": "Influencer Discovery Platform",
+    "description": "Find and connect with influencers in specific niches and industries",
+    "score": 4,
+    "status": "pending"
+  },
+  {
+    "id": 202,
+    "idea": {
+      "name": "AI-driven Content Suggestions",
+      "description": "Provide personalized content suggestions for blog posts, social media, and email marketing"
+    },
+    "name": "AI-driven Content Suggestions",
+    "description": "Provide personalized content suggestions for blog posts, social media, and email marketing",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 203,
+    "idea": {
+      "name": "AI-powered Email Personalization",
+      "description": "Automatically personalize email marketing campaigns with AI-driven suggestions"
+    },
+    "name": "AI-powered Email Personalization",
+    "description": "Automatically personalize email marketing campaigns with AI-driven suggestions",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 204,
+    "idea": {
+      "name": "E-commerce Product Price Tracker",
+      "description": "Track and compare product prices across e-commerce platforms"
+    },
+    "name": "E-commerce Product Price Tracker",
+    "description": "Track and compare product prices across e-commerce platforms",
+    "score": 4,
+    "status": "pending"
+  },
+  {
+    "id": 205,
+    "idea": {
+      "name": "AI-driven Social Media Monitoring Tool",
+      "description": "Monitor social media conversations and provide data-driven insights for improved brand reputation"
+    },
+    "name": "AI-driven Social Media Monitoring Tool",
+    "description": "Monitor social media conversations and provide data-driven insights for improved brand reputation",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 206,
+    "idea": {
+      "name": "Website Security Scanner and Auditor (Alternative: AI-powered Security Audits)",
+      "description": "Automate website security audits and provide recommendations for improvement"
+    },
+    "name": "Website Security Scanner and Auditor (Alternative: AI-powered Security Audits)",
+    "description": "Automate website security audits and provide recommendations for improvement",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 207,
+    "idea": {
+      "name": "AI-powered SEO Audit Tool",
+      "description": "Analyze website SEO and provide recommendations for improvement"
+    },
+    "name": "AI-powered SEO Audit Tool",
+    "description": "Analyze website SEO and provide recommendations for improvement",
+    "score": 7,
+    "status": "approved"
+  },
+  {
+    "id": 208,
+    "idea": {
+      "name": "Task Automation for Event Planners",
+      "description": "AI-powered task automation for event planners to streamline event planning and organization"
+    },
+    "name": "Task Automation for Event Planners",
+    "description": "AI-powered task automation for event planners to streamline event planning and organization",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 209,
+    "idea": {
+      "name": "Automated Social Media Content Suggester",
+      "description": "AI-powered browser extension to suggest social media content based on user behavior and preferences"
+    },
+    "name": "Automated Social Media Content Suggester",
+    "description": "AI-powered browser extension to suggest social media content based on user behavior and preferences",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 210,
+    "idea": {
+      "name": "AI-powered Website Translation and Localization",
+      "description": "AI-powered tool to translate and localize website content for global reach"
+    },
+    "name": "AI-powered Website Translation and Localization",
+    "description": "AI-powered tool to translate and localize website content for global reach",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 211,
+    "idea": {
+      "name": "AI-driven Customer Feedback Analysis",
+      "description": "AI-powered tool to analyze customer feedback and provide insights for business improvement"
+    },
+    "name": "AI-driven Customer Feedback Analysis",
+    "description": "AI-powered tool to analyze customer feedback and provide insights for business improvement",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 212,
+    "idea": {
+      "name": "Automated Email Follow-up Reminder",
+      "description": "AI-powered browser extension to send automated email follow-up reminders to users"
+    },
+    "name": "Automated Email Follow-up Reminder",
+    "description": "AI-powered browser extension to send automated email follow-up reminders to users",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 213,
+    "idea": {
+      "name": "AI-powered Product Research and Comparison",
+      "description": "AI-powered tool to research and compare products based on user preferences and reviews"
+    },
+    "name": "AI-powered Product Research and Comparison",
+    "description": "AI-powered tool to research and compare products based on user preferences and reviews",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 214,
+    "idea": {
+      "name": "Task Management for Remote Teams",
+      "description": "AI-powered task management tool for remote teams to streamline communication and collaboration"
+    },
+    "name": "Task Management for Remote Teams",
+    "description": "AI-powered task management tool for remote teams to streamline communication and collaboration",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 215,
+    "idea": {
+      "name": "AI-driven Website Content Suggestions",
+      "description": "AI-powered tool to suggest website content based on user behavior and preferences"
+    },
+    "name": "AI-driven Website Content Suggestions",
+    "description": "AI-powered tool to suggest website content based on user behavior and preferences",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 216,
+    "idea": {
+      "name": "Automated Password Generator and Manager",
+      "description": "AI-powered browser extension to generate and manage complex passwords"
+    },
+    "name": "Automated Password Generator and Manager",
+    "description": "AI-powered browser extension to generate and manage complex passwords",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 217,
+    "idea": {
+      "name": "AI-powered Lead Qualification and Scoring",
+      "description": "AI-powered tool to qualify and score leads based on user behavior and preferences"
+    },
+    "name": "AI-powered Lead Qualification and Scoring",
+    "description": "AI-powered tool to qualify and score leads based on user behavior and preferences",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 218,
+    "idea": {
+      "name": "AI-driven Chatbot for E-commerce Websites",
+      "description": "AI-powered chatbot to provide customer support and answer frequently asked questions on e-commerce websites"
+    },
+    "name": "AI-driven Chatbot for E-commerce Websites",
+    "description": "AI-powered chatbot to provide customer support and answer frequently asked questions on e-commerce websites",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 219,
+    "idea": {
+      "name": "Automated Time Zone Conversion and Scheduling",
+      "description": "AI-powered tool to convert time zones and schedule meetings across different regions"
+    },
+    "name": "Automated Time Zone Conversion and Scheduling",
+    "description": "AI-powered tool to convert time zones and schedule meetings across different regions",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 220,
+    "idea": {
+      "name": "Task Automation for Marketers",
+      "description": "AI-powered task automation for marketers to streamline marketing campaigns and organization"
+    },
+    "name": "Task Automation for Marketers",
+    "description": "AI-powered task automation for marketers to streamline marketing campaigns and organization",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 221,
+    "idea": {
+      "name": "AI-driven Sales Forecasting and Prediction",
+      "description": "AI-powered tool to forecast and predict sales based on user behavior and industry trends"
+    },
+    "name": "AI-driven Sales Forecasting and Prediction",
+    "description": "AI-powered tool to forecast and predict sales based on user behavior and industry trends",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 222,
+    "idea": {
+      "name": "Automated Browser Extension for Productivity",
+      "description": "AI-powered browser extension to provide productivity features such as task management and time tracking"
+    },
+    "name": "Automated Browser Extension for Productivity",
+    "description": "AI-powered browser extension to provide productivity features such as task management and time tracking",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 223,
+    "idea": {
+      "name": "AI-powered Lead Generation and Nurturing",
+      "description": "AI-powered tool to generate and nurture leads based on user behavior and preferences"
+    },
+    "name": "AI-powered Lead Generation and Nurturing",
+    "description": "AI-powered tool to generate and nurture leads based on user behavior and preferences",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 224,
+    "idea": {
+      "name": "AI-driven Website Analytics and Insights",
+      "description": "AI-powered tool to provide website analytics and insights for business improvement"
+    },
+    "name": "AI-driven Website Analytics and Insights",
+    "description": "AI-powered tool to provide website analytics and insights for business improvement",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 225,
+    "idea": {
+      "name": "Automated Task Delegation and Assignment",
+      "description": "AI-powered tool to delegate and assign tasks to team members based on their skills and workload"
+    },
+    "name": "Automated Task Delegation and Assignment",
+    "description": "AI-powered tool to delegate and assign tasks to team members based on their skills and workload",
+    "score": 7,
+    "status": "approved"
+  },
+  {
+    "id": 201,
+    "idea": {
+      "name": "DreamSynth",
+      "description": "AI-powered music composition and collaboration platform for indie artists and music producers",
+      "market": "Indie music artists, music producers, and small music studios",
+      "revenue_model": "Subscription-based model with premium features and commission on music sales"
+    },
+    "name": "DreamSynth",
+    "description": "AI-powered music composition and collaboration platform for indie artists and music producers",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 226,
+    "idea": {
+      "name": "Email Clarity Pro",
+      "description": "AI-powered email clarity and organization tool for professionals"
+    },
+    "name": "Email Clarity Pro",
+    "description": "AI-powered email clarity and organization tool for professionals",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 227,
+    "idea": {
+      "name": "Social Proof Widget",
+      "description": "Browser extension that displays social proof notifications on e-commerce websites"
+    },
+    "name": "Social Proof Widget",
+    "description": "Browser extension that displays social proof notifications on e-commerce websites",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 228,
+    "idea": {
+      "name": "Automated Social Media Monitoring",
+      "description": "AI-driven social media monitoring and alert system"
+    },
+    "name": "Automated Social Media Monitoring",
+    "description": "AI-driven social media monitoring and alert system",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 229,
+    "idea": {
+      "name": "Personalized Product Recommendation",
+      "description": "AI-driven product recommendation browser extension"
+    },
+    "name": "Personalized Product Recommendation",
+    "description": "AI-driven product recommendation browser extension",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 230,
+    "idea": {
+      "name": "AI-powered Meeting Scheduling",
+      "description": "SaaS tool for scheduling meetings with AI-driven calendar integration"
+    },
+    "name": "AI-powered Meeting Scheduling",
+    "description": "SaaS tool for scheduling meetings with AI-driven calendar integration",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 231,
+    "idea": {
+      "name": "Automated Content Scraping",
+      "description": "AI-driven content scraping and research tool"
+    },
+    "name": "Automated Content Scraping",
+    "description": "AI-driven content scraping and research tool",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 232,
+    "idea": {
+      "name": "AI-driven Sales Enablement",
+      "description": "SaaS tool for providing AI-generated sales content and insights"
+    },
+    "name": "AI-driven Sales Enablement",
+    "description": "SaaS tool for providing AI-generated sales content and insights",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 233,
+    "idea": {
+      "name": "Website Accessibility Checker",
+      "description": "AI-powered website accessibility audit and improvement tool"
+    },
+    "name": "Website Accessibility Checker",
+    "description": "AI-powered website accessibility audit and improvement tool",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 234,
+    "idea": {
+      "name": "AI-driven Employee Onboarding",
+      "description": "SaaS tool for automating employee onboarding and training"
+    },
+    "name": "AI-driven Employee Onboarding",
+    "description": "SaaS tool for automating employee onboarding and training",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 235,
+    "idea": {
+      "name": "Automated Social Media Analytics",
+      "description": "AI-driven social media analytics and reporting tool"
+    },
+    "name": "Automated Social Media Analytics",
+    "description": "AI-driven social media analytics and reporting tool",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 236,
+    "idea": {
+      "name": "AI-powered Customer Support",
+      "description": "SaaS tool for automating customer support with AI-driven chatbots"
+    },
+    "name": "AI-powered Customer Support",
+    "description": "SaaS tool for automating customer support with AI-driven chatbots",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 237,
+    "idea": {
+      "name": "Digital Marketing Strategy",
+      "description": "AI-driven digital marketing strategy and planning tool"
+    },
+    "name": "Digital Marketing Strategy",
+    "description": "AI-driven digital marketing strategy and planning tool",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 238,
+    "idea": {
+      "name": "AI-powered Content Translation",
+      "description": "SaaS tool for AI-powered content translation and localization"
+    },
+    "name": "AI-powered Content Translation",
+    "description": "SaaS tool for AI-powered content translation and localization",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 239,
+    "idea": {
+      "name": "Automated Website Security",
+      "description": "AI-driven website security monitoring and alert system"
+    },
+    "name": "Automated Website Security",
+    "description": "AI-driven website security monitoring and alert system",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 240,
+    "idea": {
+      "name": "AI-driven Event Planning",
+      "description": "SaaS tool for automating event planning and organization"
+    },
+    "name": "AI-driven Event Planning",
+    "description": "SaaS tool for automating event planning and organization",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 241,
+    "idea": {
+      "name": "AI-powered Customer Segmentation",
+      "description": "SaaS tool for AI-driven customer segmentation and analysis"
+    },
+    "name": "AI-powered Customer Segmentation",
+    "description": "SaaS tool for AI-driven customer segmentation and analysis",
+    "score": 7,
+    "status": "pending"
+  },
+  {
+    "id": 242,
+    "idea": {
+      "name": "Browser Extension for Password Management",
+      "description": "AI-powered password management and security browser extension"
+    },
+    "name": "Browser Extension for Password Management",
+    "description": "AI-powered password management and security browser extension",
+    "score": 6,
     "status": "approved"
   }
 ]
