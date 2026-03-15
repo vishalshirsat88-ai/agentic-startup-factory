@@ -65,7 +65,7 @@ class DeveloperAgent(AgentBase):
 
 
 
-    def build_mvp(self, idea):
+    def build_mvp(self, idea, architecture):
 
         print("DEBUG IDEA TEXT:")
         print(json.dumps(idea, indent=2) if isinstance(idea, dict) else idea)
@@ -78,14 +78,24 @@ class DeveloperAgent(AgentBase):
         os.makedirs(project_dir, exist_ok=True)
 
         prompt = f"""
+        arch_text = ""
+
+        if architecture:
+            arch_text = f"""
+
+        Architecture Specification:
+        {json.dumps(architecture, indent=2)}
+
+        Follow this architecture when generating the SaaS application.
+
+        """
         Build a simple Flask MVP for this startup idea.
 
         Rules:
 
         - Use Flask
         - Generate a SaaS web application
-        - You MAY use templates
-        - Use render_template
+        - You MUST use templates with render_template
         - Include signup, login and dashboard pages
         - Include SQLite database for users
         - Include import os at the top
@@ -97,9 +107,19 @@ class DeveloperAgent(AgentBase):
 
         Do NOT run app.run() outside this block.
 
+        Database architecture rules:
+
+        - db.py must initialize the SQLite database connection
+        - models.py must define a User model/table
+        - app.py must import db.py and models.py
+        - Signup route must create users in the database
+        - Login route must authenticate users from the database
+
         Project structure:
 
         FILE: app.py
+        FILE: db.py
+        FILE: models.py
         FILE: requirements.txt
         FILE: Procfile
         FILE: README.md
@@ -117,9 +137,9 @@ class DeveloperAgent(AgentBase):
         FILE: app.py
         ...
         FILE: requirements.txt
-        Flask==2.3.3
+        Flask==2.2.5
         gunicorn==21.2.0
-        Werkzeug==2.3.7
+        Werkzeug==2.2.3
 
         Additional requirements:
 
@@ -151,14 +171,20 @@ class DeveloperAgent(AgentBase):
         """
 
         response = self.think(prompt)
+
         if not response:
             print("[Developer Agent] Empty response from LLM")
             return project_dir
+
+        if "FILE:" not in response:
+            print("[Developer Agent] Invalid LLM output format")
+            return project_dir
+
         response = response.replace("**", "")
         # fallback conversion if LLM returns headings instead of FILE labels
-        response = response.replace("###", "")
-        response = response.replace("##", "")
-        response = response.replace("#", "")
+        response = response.replace("### ", "")
+        response = response.replace("## ", "")
+        response = response.replace("# ", "")
         response = response.replace("**app.py**", "FILE: app.py")
         response = response.replace("**requirements.txt**", "FILE: requirements.txt")
         response = response.replace("**Procfile**", "FILE: Procfile")
@@ -171,7 +197,7 @@ class DeveloperAgent(AgentBase):
 
             line_clean = line.replace("*", "").replace("`", "").strip()
 
-            if "FILE:" in line_clean:
+            if line_clean.startswith("FILE:"):
 
                 if current_file:
                     content = "\n".join(buffer)
@@ -180,7 +206,7 @@ class DeveloperAgent(AgentBase):
                     print(f"[Developer Agent] created {current_file}")
                     buffer = []
 
-                parts = line_clean.split("FILE:")
+                parts = line_clean.split("FILE:", 1)
 
                 if len(parts) > 1:
                     file_part = parts[1].strip()
@@ -188,7 +214,7 @@ class DeveloperAgent(AgentBase):
                     if not file_part:
                         continue
 
-                    current_file = file_part.split()[0].replace(":", "")
+                    current_file = file_part.split()[0].replace(":", "").strip()
 
             else:
                 buffer.append(line)
@@ -225,6 +251,10 @@ class DeveloperAgent(AgentBase):
         templates_dir = f"{project_dir}/templates"
         os.makedirs(templates_dir, exist_ok=True)
 
+        # Ensure static directory exists
+        static_dir = f"{project_dir}/static"
+        os.makedirs(static_dir, exist_ok=True)
+
         required_templates = [
             "index.html",
             "signup.html",
@@ -251,6 +281,25 @@ class DeveloperAgent(AgentBase):
 """
 
                 write_file(path, fallback_html)
+
+        # Ensure default CSS exists
+        css_path = f"{static_dir}/style.css"
+
+        if not os.path.exists(css_path):
+
+            fallback_css = """
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    color: #333;
+}
+"""
+
+            write_file(css_path, fallback_css)
+
 
         # Force correct Procfile (LLM sometimes breaks it)
         procfile_path = f"{project_dir}/Procfile"

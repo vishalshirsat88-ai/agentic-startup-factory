@@ -42,7 +42,8 @@ class Orchestrator:
         project_path = self.safe_run(
             "Developer Agent",
             self.dev.build_mvp,
-            idea
+            idea,
+            arch
         )
 
         if not project_path:

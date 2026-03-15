@@ -21,14 +21,21 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - __pycache__
 - agents
 - constitution
+- css
 - dashboard
 - data
+- engine
+- generated_startups
+- js
 - logs
 - memory
 - orchestrator
 - projects
+- saas_master_template
+- static
+- templates
 - tools
 
 ## Generated
 
-2026-03-14 17:58:27.727637+00:00
+2026-03-15 06:27:29.857131+00:00
