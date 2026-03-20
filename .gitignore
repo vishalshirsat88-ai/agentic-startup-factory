@@ -1,7 +1,4 @@
-.env
-.env.local
+.git/
+*.git
 __pycache__/
 *.pyc
-CODEBASE_CONTEXT.md
-memory/*.json
-projects/
