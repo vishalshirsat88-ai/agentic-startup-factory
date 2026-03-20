@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://github.com/vishalshirsat88-ai/agentic-startup-factory
+	tagOpt = --no-tags
+	fetch = +refs/*:refs/*
+	mirror = true

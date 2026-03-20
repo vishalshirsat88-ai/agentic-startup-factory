@@ -1,14 +1,20 @@
-from agents.agent_base import AgentBase
+from tools.code_runner import run_app
+from tools.llm import generate
+import os
 
 class QAAgent:
 
-    def test_product(self, build):
+    def test_product(self, project_path):
 
-        return """
-QA Checklist
+        print("[QA Agent] Running application tests...")
 
-• Run the application
-• Test API endpoints
-• Check error handling
-• Validate responses
-"""
+        success, output = run_app(project_path)
+
+        if success:
+            print("[QA Agent] App started successfully")
+            return True
+
+        print("[QA Agent] Error detected:")
+        print(output)
+
+        return output

@@ -13,7 +13,8 @@ class AgentBase:
         Task:
         {task}
 
-        Provide a concise professional response.
+        Return ONLY the requested output.
+        Do not include explanations.
         """
 
         response = generate(prompt)

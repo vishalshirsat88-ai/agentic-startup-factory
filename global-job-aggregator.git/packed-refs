@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+17ee65f02accb80bbc4df14467ede3e5107345d4 refs/heads/Main-Copy
+3803b6421e9b14746c2b1766165d78c296b794ef refs/heads/fastapi-backend
+85f66d1b3f11d036709c14a1f5c90e38b7ddbbee refs/heads/main
+7a7908f9be5ec52fb677a1d3a1b022a81cb83c38 refs/heads/streamlit-frontend
+4cd9e30642a71a5761a6bd26ab9873c5d422b8c9 refs/pull/1/head
+b1ddf7405c34e8b4719782c5d0e7bdf9e0ff4748 refs/tags/v1.0.0
+^1869e27aaff1cd6d5367579f34285d16dd3b7b8d

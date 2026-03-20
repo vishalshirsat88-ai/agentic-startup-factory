@@ -1,37 +1,44 @@
-import json
+from agents.agent_base import AgentBase
 from tools.json_parser import extract_json
+import json
 
-def design_architecture(self, idea):
 
-    prompt = f"""
-    You are a senior software architect.
+class CTOAgent(AgentBase):
 
-    Design a simple micro-SaaS architecture.
+    def __init__(self):
+        super().__init__("CTO Agent")
 
-    Startup Idea:
-    {idea}
+    def design_architecture(self, idea):
 
-    Return ONLY valid JSON in this format:
+        prompt = f"""
+        You are a senior software architect.
 
-    {{
-      "backend": "Flask",
-      "database": "SQLite",
-      "models": ["User"],
-      "routes": ["/", "/signup", "/login", "/dashboard"],
-      "pages": ["index.html", "signup.html", "login.html", "dashboard.html"],
-      "features": ["user authentication", "core feature of the startup"]
-    }}
+        Design a simple micro-SaaS architecture.
 
-    Do NOT include explanations.
-    Do NOT include markdown.
-    """
+        Startup Idea:
+        {idea}
 
-    response = self.think(prompt)
+        Return ONLY valid JSON in this format:
 
-    architecture = extract_json(response)
+        {{
+          "backend": "Flask",
+          "database": "SQLite",
+          "models": ["User"],
+          "routes": ["/", "/signup", "/login", "/dashboard"],
+          "pages": ["index.html", "signup.html", "login.html", "dashboard.html"],
+          "features": ["user authentication", "core feature of the startup"]
+        }}
 
-    if not architecture:
-        print("[CTO Agent] Invalid architecture JSON")
-        return None
+        Do NOT include explanations.
+        Do NOT include markdown.
+        """
 
-    return architecture
+        response = self.think(prompt)
+
+        architecture = extract_json(response)
+
+        if not architecture:
+            print("[CTO Agent] Invalid architecture JSON")
+            return None
+
+        return architecture

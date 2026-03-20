@@ -5,6 +5,7 @@ import os
 import re
 import json
 import time
+import shutil
 
 class DeveloperAgent(AgentBase):
 
@@ -49,10 +50,10 @@ class DeveloperAgent(AgentBase):
 
         deps = set()
 
-        if "flask_sqlalchemy" in code:
+        if "flask_sqlalchemy" in code.lower():
             deps.add("Flask-SQLAlchemy==3.0.5")
 
-        if "flask_login" in code:
+        if "flask_login" in code.lower():
             deps.add("Flask-Login==0.6.3")
 
         if "requests" in code:
@@ -64,8 +65,17 @@ class DeveloperAgent(AgentBase):
         return deps
 
 
+   
 
-    def build_mvp(self, idea, architecture):
+    def copy_template(self, project_dir):
+        template_path = "saas_master_template"
+
+        if not os.path.exists(template_path):
+            raise Exception("SaaS template not found")
+
+        shutil.copytree(template_path, project_dir, dirs_exist_ok=True)
+
+    def build_mvp(self, idea, architecture=None):
 
         print("DEBUG IDEA TEXT:")
         print(json.dumps(idea, indent=2) if isinstance(idea, dict) else idea)
@@ -76,8 +86,81 @@ class DeveloperAgent(AgentBase):
 
         project_dir = f"projects/{project_name}"
         os.makedirs(project_dir, exist_ok=True)
+        
+        # ✅ NEW: Copy SaaS template
+        self.copy_template(project_dir)
+        
+        app_file = os.path.join(project_dir, "app.py")
 
-        prompt = f"""
+        if os.path.exists(app_file):
+
+            with open(app_file, "r") as f:
+                content = f.read()
+
+            # Extract idea safely (your CEO agent sends dict)
+            product_name = "AI Tool"
+            product_description = "AI powered solution"
+
+            if isinstance(idea, dict):
+                product_name = idea.get("name", product_name)
+                product_description = idea.get("description", product_description)
+
+            # Replace PRODUCT_NAME
+            content = content.replace(
+                'PRODUCT_NAME = "AI Resume Builder"',
+                f'PRODUCT_NAME = "{product_name}"'
+            )
+
+            # Optional: Inject description if you add it later in template
+            content = content.replace(
+                'product_description="Our AI analyzes job descriptions and builds optimized resumes."',
+                f'product_description="{product_description}"'
+            )
+
+            with open(app_file, "w") as f:
+                f.write(content)
+
+            print("[Developer Agent] Injected idea into SaaS template")
+        else:
+            print("[Developer Agent] app.py not found for injection")
+
+        # ✅ STOP LLM GENERATION — USE TEMPLATE ONLY
+
+        print("[Developer Agent] Using SaaS template — skipping LLM generation")
+
+        # ✅ Ensure requirements.txt exists
+        req_path = f"{project_dir}/requirements.txt"
+
+        requirements = """Flask==2.2.5
+        gunicorn==21.2.0
+        Werkzeug==2.2.3
+        """
+
+        with open(req_path, "w") as f:
+            f.write(requirements)
+
+        print("[Developer Agent] requirements.txt created")
+
+        # ✅ FORCE correct Procfile for Railway
+
+        procfile_path = f"{project_dir}/Procfile"
+
+        with open(procfile_path, "w") as f:
+            f.write("web: gunicorn app:app --bind 0.0.0.0:$PORT")
+
+        print("[Developer Agent] Procfile fixed")
+
+        # Run debug
+        self.auto_debug(project_dir)
+
+        return project_dir
+
+
+        # Optional: still run debug to ensure app runs
+        self.auto_debug(project_dir)
+
+        return project_dir
+        
         arch_text = ""
 
         if architecture:
@@ -89,6 +172,9 @@ class DeveloperAgent(AgentBase):
         Follow this architecture when generating the SaaS application.
 
         """
+        prompt = f"""
+        {arch_text}
+
         Build a simple Flask MVP for this startup idea.
 
         Rules:
@@ -171,6 +257,9 @@ class DeveloperAgent(AgentBase):
         """
 
         response = self.think(prompt)
+        print("\n===== LLM RESPONSE PREVIEW =====")
+        print(response[:1000])
+        print("===== END PREVIEW =====\n")
 
         if not response:
             print("[Developer Agent] Empty response from LLM")
@@ -204,6 +293,9 @@ class DeveloperAgent(AgentBase):
                     content = content.replace("```python", "").replace("```", "")
                     write_file(f"{project_dir}/{current_file}", content)
                     print(f"[Developer Agent] created {current_file}")
+
+                    if "templates/" in current_file:
+                        print(f"[Developer Agent DEBUG] LLM generated template: {current_file}")
                     buffer = []
 
                 parts = line_clean.split("FILE:", 1)
@@ -215,6 +307,11 @@ class DeveloperAgent(AgentBase):
                         continue
 
                     current_file = file_part.split()[0].replace(":", "").strip()
+
+                    # --- FIX TEMPLATE PATHS ---
+                    if current_file in ["index.html", "login.html", "signup.html", "dashboard.html"]:
+                        current_file = f"templates/{current_file}"
+                    # --------------------------
 
             else:
                 buffer.append(line)
@@ -251,6 +348,23 @@ class DeveloperAgent(AgentBase):
         templates_dir = f"{project_dir}/templates"
         os.makedirs(templates_dir, exist_ok=True)
 
+        # -------- DEBUG: SHOW TEMPLATE DIRECTORY STATE --------
+        print("[Developer Agent DEBUG] Current templates directory contents:")
+
+        try:
+            existing_templates = os.listdir(templates_dir)
+
+            if not existing_templates:
+                print("[Developer Agent DEBUG] No templates generated yet.")
+
+            for t in existing_templates:
+                print(f"[Developer Agent DEBUG] Found template: {t}")
+
+        except Exception as e:
+            print("[Developer Agent DEBUG] Failed to read templates directory:", e)
+
+        # ------------------------------------------------------
+
         # Ensure static directory exists
         static_dir = f"{project_dir}/static"
         os.makedirs(static_dir, exist_ok=True)
@@ -280,7 +394,9 @@ class DeveloperAgent(AgentBase):
 </html>
 """
 
+                print(f"[Developer Agent DEBUG] Writing fallback template: {template}")
                 write_file(path, fallback_html)
+                print(f"[Developer Agent DEBUG] Fallback template written: {path}")
 
         # Ensure default CSS exists
         css_path = f"{static_dir}/style.css"
@@ -305,23 +421,28 @@ h1 {
         procfile_path = f"{project_dir}/Procfile"
         write_file(procfile_path, "web: gunicorn app:app --bind 0.0.0.0:$PORT")
 
+        
         # Build requirements dynamically from imports
-        app_path = f"{project_dir}/app.py"
-
         dependencies = {
             "Flask==2.2.5",
             "gunicorn==21.2.0",
-            "Werkzeug==2.2.3"
+            "Werkzeug==2.2.3",
+            "Flask-SQLAlchemy==3.0.5"
         }
 
-        if os.path.exists(app_path):
+        # Scan all generated Python files
+        for file in os.listdir(project_dir):
 
-            with open(app_path) as f:
-                code = f.read()
+            if file.endswith(".py"):
 
-            detected = self.detect_dependencies(code)
+                path = os.path.join(project_dir, file)
 
-            dependencies.update(detected)
+                with open(path) as f:
+                    code = f.read()
+
+                detected = self.detect_dependencies(code)
+
+                dependencies.update(detected)
 
         req_path = f"{project_dir}/requirements.txt"
         write_file(req_path, "\n".join(sorted(dependencies)))
@@ -329,6 +450,8 @@ h1 {
         self.auto_debug(project_dir)
 
         return project_dir
+
+    
 
     def auto_debug(self, project_dir):
 
