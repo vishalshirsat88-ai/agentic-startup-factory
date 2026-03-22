@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Influencer Discovery Platform",
+    "description": "Find and connect with influencers in specific niches and industries",
+    "project_path": "projects/influencer-discovery-plat-92240",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "AI-powered Email Writer",
+    "description": "Writes high-quality email responses and templates",
+    "project_path": "projects/ai-powered-email-writer-92406",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "Email Tracking",
+    "description": "Tracks email opens, clicks, and responses",
+    "project_path": "projects/email-tracking-92843",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "AI-driven Content Suggestions",
+    "description": "Provide personalized content suggestions for blog posts, social media, and email marketing",
+    "project_path": "projects/ai-driven-content-suggest-93002",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "AI-driven Content Suggestions",
+    "description": "Provide personalized content suggestions for blog posts, social media, and email marketing",
+    "project_path": "projects/ai-driven-content-suggest-95088",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "AI-powered Email Personalization",
+    "description": "Automatically personalize email marketing campaigns with AI-driven suggestions",
+    "project_path": "projects/ai-powered-email-personal-96079",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  }
+]

@@ -7,27 +7,28 @@ import threading  # <--- Step 1: Add this import
 app = Flask(__name__)
 orch = Orchestrator()
 
+
 @app.route("/")
 def home():
     return "Founder Control Room Dashboard Running"
 
+
 @app.route("/generate_idea")
 def generate_idea():
-
     idea = orch.ceo.generate_idea()
 
     return "Idea generated. Go to /ideas to approve."
 
+
 @app.route("/generate_batch")
 def generate_batch():
-
     ideas = orch.ceo.generate_multiple_ideas(20)
 
     return f"{len(ideas)} ideas generated. Visit /ideas to review."
-    
+
+
 @app.route("/ideas")
 def show_ideas():
-
     if not os.path.exists("data/ideas.json"):
         return "No ideas yet. Generate one at /generate_idea"
 
@@ -36,23 +37,26 @@ def show_ideas():
 
     html = "<h1>Startup Ideas</h1>"
 
-    
-    
     for idea in ideas:
         # Check if a URL was saved by the Deployment Agent
-        url_display = f"<br><b>URL:</b> <a href='{idea['url']}' target='_blank'>{idea['url']}</a>" if idea.get('url') else ""
-        
+        url_display = (
+            f"<br><b>URL:</b> <a href='{idea['url']}' target='_blank'>{idea['url']}</a>"
+            if idea.get("url")
+            else ""
+        )
+
         html += f"""
         <div style='border:1px solid #ccc;padding:10px;margin:10px;border-radius:10px;'>
-        <h3>Idea #{idea['id']}</h3>
-        <pre>{idea['idea']}</pre>
-        Score: {idea.get('score', 'N/A')} <br>
-        Status: <b>{idea['status']}</b> {url_display} <br>
-        <a href="/approve/{idea['id']}">Approve & Deploy</a>
+        <h3>Idea #{idea["id"]}</h3>
+        <pre>{idea["idea"]}</pre>
+        Score: {idea.get("score", "N/A")} <br>
+        Status: <b>{idea["status"]}</b> {url_display} <br>
+        <a href="/approve/{idea["id"]}">Approve & Deploy</a>
         </div>
         """
 
     return html
+
 
 @app.route("/approve/<int:idea_id>")
 def approve_idea(idea_id):
@@ -60,27 +64,34 @@ def approve_idea(idea_id):
         ideas = json.load(f)
 
     selected_idea = None
+
     for idea in ideas:
         if idea["id"] == idea_id:
-            # Step 1: Mark as approved
             idea["status"] = "approved"
             selected_idea = idea["idea"]
             break
 
     if selected_idea:
-        # Step 2: Save the "Approved" status to the file
+        # Save updated ideas
         with open("data/ideas.json", "w") as f:
             json.dump(ideas, f, indent=2)
 
-        # Step 3: Start the cycle and PASS the idea_id
-        # args must be a tuple: (idea_text, idea_id)
-        thread = threading.Thread(target=orch.run_startup_cycle, args=(selected_idea, idea_id))
+        print("🚀 Starting startup cycle...")
+
+        # ✅ RUN ORCHESTRATOR
+        thread = threading.Thread(
+            target=orch.run_startup_cycle, args=(selected_idea, idea_id)
+        )
         thread.start()
 
-        return f"<h1>Build Started!</h1><p>Idea #{idea_id} is deploying. Refresh this page in 1 minute to see the link.</p><a href='/ideas'>Back to Ideas</a>"
+        return f"""
+        <h1>Build Started!</h1>
+        <p>Idea #{idea_id} is being processed.</p>
+        <a href='/ideas'>Back to Ideas</a>
+        """
 
     return "Idea not found."
 
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
-

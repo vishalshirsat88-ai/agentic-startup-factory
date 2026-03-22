@@ -419,7 +419,7 @@
     "name": "Influencer Discovery Platform",
     "description": "Find and connect with influencers in specific niches and industries",
     "score": 4,
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": 202,
@@ -430,7 +430,7 @@
     "name": "AI-driven Content Suggestions",
     "description": "Provide personalized content suggestions for blog posts, social media, and email marketing",
     "score": 6,
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": 203,
@@ -441,7 +441,7 @@
     "name": "AI-powered Email Personalization",
     "description": "Automatically personalize email marketing campaigns with AI-driven suggestions",
     "score": 6,
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": 204,
@@ -2071,7 +2071,7 @@
     "name": "Email Tracking",
     "description": "Tracks email opens, clicks, and responses",
     "score": 6,
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": 351,
@@ -2116,5 +2116,44 @@
     "description": "Writes high-quality email responses and templates",
     "score": 6,
     "status": "approved"
+  },
+  {
+    "id": 201,
+    "idea": {
+      "name": "Dreamscaper",
+      "description": "AI-powered virtual reality therapy platform for mental health treatment",
+      "market": "Mental health professionals, patients",
+      "revenue_model": "Subscription-based service fees, partnerships with healthcare providers"
+    },
+    "name": "Dreamscaper",
+    "description": "AI-powered virtual reality therapy platform for mental health treatment",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 202,
+    "idea": {
+      "name": "MoodMingle",
+      "description": "AI-powered social platform for people with shared mental health experiences",
+      "market": "Individuals with mental health conditions and mental health professionals",
+      "revenue_model": "Subscription-based and targeted advertising"
+    },
+    "name": "MoodMingle",
+    "description": "AI-powered social platform for people with shared mental health experiences",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 203,
+    "idea": {
+      "name": "MoodMingle AI",
+      "description": "An AI-powered social platform that connects people with similar moods and emotions, fostering empathy and understanding.",
+      "market": "Young adults and individuals experiencing emotional distress",
+      "revenue_model": "Subscription-based premium features and targeted advertising"
+    },
+    "name": "MoodMingle AI",
+    "description": "An AI-powered social platform that connects people with similar moods and emotions, fostering empathy and understanding.",
+    "score": 5,
+    "status": "pending"
   }
 ]
