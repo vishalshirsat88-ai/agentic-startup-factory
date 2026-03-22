@@ -97,18 +97,31 @@ class DeveloperAgent(AgentBase):
             with open(app_file, "r") as f:
                 content = f.read()
 
-            # Extract idea safely (your CEO agent sends dict)
+            # Extract idea safely
             product_name = "AI Tool"
             product_description = "AI powered solution"
-
+            product_features = []
+            
             if isinstance(idea, dict):
                 product_name = idea.get("name", product_name)
                 product_description = idea.get("description", product_description)
+            
+            # ✅ NEW: Extract features from architecture
+            if architecture and isinstance(architecture, dict):
+                product_features = architecture.get("features", [])
 
             # Replace PRODUCT_NAME
             content = content.replace(
                 'PRODUCT_NAME = "AI Resume Builder"',
                 f'PRODUCT_NAME = "{product_name}"'
+            )
+
+            # ✅ Inject features into template (basic version)
+            features_text = ", ".join(product_features) if product_features else "AI-powered features"
+            
+            content = content.replace(
+                'feature_1_title="AI Resume Analysis"',
+                f'feature_1_title="{features_text}"'
             )
 
             # Optional: Inject description if you add it later in template
