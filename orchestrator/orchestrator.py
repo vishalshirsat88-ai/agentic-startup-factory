@@ -1,5 +1,6 @@
 from agents.ceo_agent import CEOAgent
 from agents.cto_agent import CTOAgent
+from agents.product_agent import ProductAgent
 from agents.developer_agent import DeveloperAgent
 from agents.qa_agent import QAAgent
 from agents.deployment_agent import DeploymentAgent
