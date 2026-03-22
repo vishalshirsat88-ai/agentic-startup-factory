@@ -15,8 +15,31 @@ class CTOAgent(AgentBase):
 
         Design a simple micro-SaaS architecture.
 
-        Startup Idea:
+        prompt = f"""
+        You are a senior software architect.
+        
+        Design a production-ready SaaS architecture.
+        
+        Startup Context:
         {idea}
+        
+        IMPORTANT:
+        Use product features to design real APIs and modules.
+        
+        Return ONLY JSON:
+        
+        {{
+          "backend": "Flask",
+          "database": "SQLite",
+          "models": ["User"],
+          "routes": ["/", "/signup", "/login", "/dashboard"],
+          "pages": ["index.html", "dashboard.html"],
+          "features": ["list of features"],
+          "modules": ["auth", "core_logic", "payments"]
+        }}
+        
+        Do NOT explain anything.
+        """
 
         Return ONLY valid JSON in this format:
 
