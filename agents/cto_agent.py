@@ -12,11 +12,6 @@ class CTOAgent(AgentBase):
 
         prompt = f"""
         You are a senior software architect.
-
-        Design a simple micro-SaaS architecture.
-
-        prompt = f"""
-        You are a senior software architect.
         
         Design a production-ready SaaS architecture.
         
@@ -39,21 +34,6 @@ class CTOAgent(AgentBase):
         }}
         
         Do NOT explain anything.
-        """
-
-        Return ONLY valid JSON in this format:
-
-        {{
-          "backend": "Flask",
-          "database": "SQLite",
-          "models": ["User"],
-          "routes": ["/", "/signup", "/login", "/dashboard"],
-          "pages": ["index.html", "signup.html", "login.html", "dashboard.html"],
-          "features": ["user authentication", "core feature of the startup"]
-        }}
-
-        Do NOT include explanations.
-        Do NOT include markdown.
         """
 
         response = self.think(prompt)
