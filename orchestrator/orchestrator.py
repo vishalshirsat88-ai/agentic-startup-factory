@@ -213,7 +213,7 @@ The following Flask application produced an error.
 
         repo = self.safe_run(
             "GitHub Agent",
-            self.github.create_repo_and_push,
+            #self.github.create_repo_and_push,
             project_name
         )
         print(repo)
@@ -221,7 +221,7 @@ The following Flask application produced an error.
         # 2. Update this line to pass the idea_id to your deployment agent
         deploy = self.safe_run(
             "Deployment Agent",
-            self.deploy.deploy,
+            #self.deploy.deploy,
             project_path,
             idea_id=idea_id
         )
