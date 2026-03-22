@@ -18,6 +18,7 @@ class Orchestrator:
 
         self.ceo = CEOAgent()
         self.cto = CTOAgent()
+        self.product = ProductAgent()
         self.dev = DeveloperAgent()
         self.qa = QAAgent()
         self.deploy = DeploymentAgent()
@@ -34,10 +35,23 @@ class Orchestrator:
         print("==============================")
 
         print(idea)
+        print("[Product Agent] defining product features...")
+
+        product = self.safe_run(
+            "Product Agent",
+            self.product.define_product,
+            idea
+        )
+        
+        print("[CTO Agent] designing architecture with product context...")
+        
         arch = self.safe_run(
             "CTO Agent",
             self.cto.design_architecture,
-            idea
+            {
+                "idea": idea,
+                "product": product
+            }
         )
 
         print("[Developer Agent] building MVP...")
