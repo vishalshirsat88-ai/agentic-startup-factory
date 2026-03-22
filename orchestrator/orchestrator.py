@@ -8,6 +8,7 @@ from agents.growth_agent import GrowthAgent
 from agents.finance_agent import FinanceAgent
 from agents.github_agent import GitHubAgent
 from tools.memory import add_entry
+from engine.file_generator import generate_backend_files
 import subprocess
 import os
 from tools.code_runner import run_app
@@ -62,6 +63,9 @@ class Orchestrator:
             arch
         )
 
+        # ✅ NEW: Generate backend files based on architecture
+        generate_backend_files(project_path, arch)
+        
         if not project_path:
             print("Developer failed — aborting startup cycle.")
             return
