@@ -9,9 +9,12 @@ from agents.finance_agent import FinanceAgent
 from agents.github_agent import GitHubAgent
 from tools.memory import add_entry
 from engine.file_generator import generate_backend_files
+from engine.auto_wire import wire_routes
 import subprocess
 import os
 from tools.code_runner import run_app
+
+print("ORCHESTRATOR RECEIVED IDEA:", idea)
 
 
 class Orchestrator:
@@ -49,8 +52,13 @@ class Orchestrator:
         print("[Developer Agent] building MVP...")
         project_path = self.safe_run("Developer Agent", self.dev.build_mvp, idea, arch)
 
-        # ✅ NEW: Generate backend files based on architecture
+        if not project_path:
+            print("Developer failed — aborting startup cycle.")
+            return
+
+        # ✅ NOW SAFE TO RUN
         generate_backend_files(project_path, arch)
+        wire_routes(project_path)
 
         if not project_path:
             print("Developer failed — aborting startup cycle.")

@@ -7,12 +7,10 @@ import re
 
 
 class CEOAgent(AgentBase):
-
     def __init__(self):
         super().__init__("CEO Agent")
 
     def generate_idea(self):
-
         ideas_file = "data/ideas.json"
 
         if not os.path.exists(ideas_file):
@@ -25,9 +23,7 @@ class CEOAgent(AgentBase):
         past_startups = load_memory("startups.json")
 
         past_startup_names = [
-            s.get("name")
-            for s in past_startups
-            if isinstance(s, dict)
+            s.get("name") for s in past_startups if isinstance(s, dict)
         ]
 
         previous_ideas = [
@@ -63,16 +59,16 @@ class CEOAgent(AgentBase):
             print("CEO Agent: Invalid JSON response")
             return None
 
-        #score = 5
+        # score = 5
 
-        next_id = len(ideas) + 1
+        next_id = max([i.get("id", 0) for i in ideas], default=0) + 1
         idea_entry = {
             "id": next_id,
             "idea": idea,
             "name": idea.get("name"),
             "description": idea.get("description"),
             "score": self.score_locally(idea),
-            "status": "pending"
+            "status": "pending",
         }
 
         ideas.append(idea_entry)
@@ -83,7 +79,6 @@ class CEOAgent(AgentBase):
         return idea_entry
 
     def generate_multiple_ideas(self, count=20):
-
         ideas_file = "data/ideas.json"
 
         if not os.path.exists(ideas_file):
@@ -92,13 +87,12 @@ class CEOAgent(AgentBase):
 
         with open(ideas_file, "r") as f:
             existing = json.load(f)
-        
+
         past_startups = load_memory("startups.json")
 
         past_startup_names = set()
 
         for s in past_startups:
-
             if not isinstance(s, dict):
                 continue
 
@@ -154,7 +148,6 @@ class CEOAgent(AgentBase):
         """
 
         for attempt in range(2):
-
             response = self.think(prompt).strip()
 
             json_match = re.search(r"\[[\s\S]*?\]", response)
@@ -183,18 +176,13 @@ class CEOAgent(AgentBase):
 
         saved = []
 
-        next_id = max([i.get("id",0) for i in existing], default=0) + 1
-        existing_names = [
-            i.get("idea", {}).get("name")
-            for i in existing   
-        ]
+        next_id = max([i.get("id", 0) for i in existing], default=0) + 1
+        existing_names = [i.get("idea", {}).get("name") for i in existing]
 
         existing_names = set(existing_names)
         past_startup_names = set(past_startup_names)
 
-        
         for idea in new_ideas:
-
             if not isinstance(idea, dict):
                 continue
 
@@ -207,9 +195,15 @@ class CEOAgent(AgentBase):
             if idea.get("name") in past_startup_names:
                 continue
 
-            bad_words = ["hospital", "government", "satellite", "climate", "manufacturing"]
+            bad_words = [
+                "hospital",
+                "government",
+                "satellite",
+                "climate",
+                "manufacturing",
+            ]
 
-            text = (idea.get("name","") + idea.get("description","")).lower()
+            text = (idea.get("name", "") + idea.get("description", "")).lower()
 
             if any(word in text for word in bad_words):
                 continue
@@ -220,7 +214,7 @@ class CEOAgent(AgentBase):
                 "name": idea.get("name"),
                 "description": idea.get("description"),
                 "score": self.score_locally(idea),
-                "status": "pending"
+                "status": "pending",
             }
 
             next_id += 1
@@ -228,18 +222,17 @@ class CEOAgent(AgentBase):
             existing.append(idea_entry)
             saved.append(idea_entry)
             existing_names.add(idea.get("name"))
-        
+
         existing = existing[-200:]
-        
+
         with open(ideas_file, "w") as f:
             json.dump(existing, f, indent=2)
 
         return saved
 
     def score_locally(self, idea):
-
         score = 5
-        
+
         name = idea.get("name", "")
         description = idea.get("description", "")
         text = (name + " " + description).lower()

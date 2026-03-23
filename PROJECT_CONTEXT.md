@@ -6,7 +6,6 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 
 ## Agents
 
-- ceo_agent
 - deployment_agent
 - developer_agent
 - finance_agent
@@ -15,6 +14,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - product_agent
 - qa_agent
 - cto_agent
+- ceo_agent
 - user_agent
 
 ## Main Folders
@@ -32,16 +32,23 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - 2
 - 3
 - 4
+- 4e-_bpkXH0EH-lgY_AdqY
 - 5
 - 6
 - 7
 - 8
+- 843c1fd5a148da85e523c1b4ee680226f89986aa
 - 9
 - AMUgFOGy-ZiwbNcm5N3fl
+- AtCL61lV06_JqDPEU8Utg
 - BNtMh27dhNuWy-iRrHAyY
 - IuIA4sA6N_YlS4jPKqVFW
 - JY5do29PNeRvlRMA6xpYW
+- LlCSIOtLOc6sBr_AL1yeG
+- OSSmCbl7pGBiHAlBtKt59
 - VGpbOMDmlUuOc2HMVs8io
+- Z-9QW5JczW63R_ehUp_z3
+- ZNoZo25VnfXGRHe_8Op1z
 - _V_C-dKosNF8RvnRMttpi
 - __pycache__
 - _async
@@ -105,7 +112,6 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - click
 - click-8.3.1.dist-info
 - clients
-- code_review
 - competitive-analysis
 - components
 - constants
@@ -197,8 +203,10 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - js
 - json
 - jwt
+- kQHThD0-TCSBxC4RFpWTx
 - kdf
 - krrzOJUmRnMEcnpumUrkO
+- lNfVgo0TMployUbm75JTw
 - layouts
 - legal-contract
 - lib
@@ -216,6 +224,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - mockup-extract
 - mockup-graduate
 - mockup-sandbox
+- models
 - modules
 - nacl
 - nix
@@ -268,6 +277,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - resources
 - resume-maker
 - revenuecat
+- routes
 - routing
 - saas_master_template
 - sansio
@@ -278,6 +288,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - seo-auditor
 - serialization
 - server
+- services
 - shared
 - shared_params
 - site-packages
@@ -290,6 +301,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - src
 - state
 - static
+- stdlib
 - stock-analyzer
 - storage
 - storyboard
@@ -300,6 +312,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - tax-reviewer
 - team
 - templates
+- test_project
 - testimonials
 - tests
 - tools
@@ -307,7 +320,9 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - travel-assistant
 - triggers
 - twofactor
+- ty
 - types
+- typeshed
 - typing_extensions-4.15.0.dist-info
 - typing_inspection
 - typing_inspection-0.4.2.dist-info
@@ -318,9 +333,11 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - used-car-advisor
 - util
 - uwsgi
+- v-ZndEtnrp6QtrUufvjrF
 - v1
 - validation
 - vendor
+- vendored
 - video
 - video-js
 - web-search
@@ -335,4 +352,4 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 
 ## Generated
 
-2026-03-22 16:14:41.400183+00:00
+2026-03-23 13:12:46.452018+00:00

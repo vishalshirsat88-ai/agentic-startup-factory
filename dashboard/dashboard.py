@@ -38,6 +38,8 @@ def show_ideas():
     html = "<h1>Startup Ideas</h1>"
 
     for idea in ideas:
+        if idea.get("processed"):
+            continue  # skip already processed ideas
         # Check if a URL was saved by the Deployment Agent
         url_display = (
             f"<br><b>URL:</b> <a href='{idea['url']}' target='_blank'>{idea['url']}</a>"
@@ -68,7 +70,8 @@ def approve_idea(idea_id):
     for idea in ideas:
         if idea["id"] == idea_id:
             idea["status"] = "approved"
-            selected_idea = idea["idea"]
+            idea["processed"] = True  # ✅ ADD THIS LINE
+            selected_idea = idea
             break
 
     if selected_idea:
@@ -77,6 +80,7 @@ def approve_idea(idea_id):
             json.dump(ideas, f, indent=2)
 
         print("🚀 Starting startup cycle...")
+        print("DEBUG SELECTED IDEA:", selected_idea)
 
         # ✅ RUN ORCHESTRATOR
         thread = threading.Thread(

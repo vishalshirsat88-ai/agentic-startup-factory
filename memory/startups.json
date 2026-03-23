@@ -40,5 +40,47 @@
     "project_path": "projects/ai-powered-email-personal-96079",
     "status": "deployed",
     "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "E-commerce Product Price Tracker",
+    "description": "Track and compare product prices across e-commerce platforms",
+    "project_path": "projects/e-commerce-product-price--69022",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "E-commerce Product Price Tracker",
+    "description": "Track and compare product prices across e-commerce platforms",
+    "project_path": "projects/e-commerce-product-price--69793",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "E-commerce Product Price Tracker",
+    "description": "Track and compare product prices across e-commerce platforms",
+    "project_path": "projects/e-commerce-product-price--70549",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "AI-driven Social Media Monitoring Tool",
+    "description": "Monitor social media conversations and provide data-driven insights for improved brand reputation",
+    "project_path": "projects/ai-driven-social-media-mo-70601",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "AI-driven Social Media Monitoring Tool",
+    "description": "Monitor social media conversations and provide data-driven insights for improved brand reputation",
+    "project_path": "projects/ai-driven-social-media-mo-70733",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "MindMeld",
+    "description": "AI-powered virtual meeting facilitation and note-taking",
+    "project_path": "projects/mindmeld-71565",
+    "status": "deployed",
+    "url": null
   }
 ]

@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-03-22 16:14:41.304354+00:00
+Generated: 2026-03-23 13:12:46.306726+00:00
 
 ## Project Structure
 
@@ -12,6 +12,7 @@ Generated: 2026-03-22 16:14:41.304354+00:00
 - fill_repo.py
 - generate_context.py
 - replit.md
+- test_engine.py
 
 ### Folder: ./.cache
 
@@ -813,6 +814,16 @@ Generated: 2026-03-22 16:14:41.304354+00:00
 
 ### Folder: ./.cache/pip/http-v2/7/0/b/9/c
 
+### Folder: ./.cache/ty
+
+### Folder: ./.cache/ty/vendored
+
+### Folder: ./.cache/ty/vendored/typeshed
+
+### Folder: ./.cache/ty/vendored/typeshed/843c1fd5a148da85e523c1b4ee680226f89986aa
+
+### Folder: ./.cache/ty/vendored/typeshed/843c1fd5a148da85e523c1b4ee680226f89986aa/stdlib
+
 ### Folder: ./.agents
 
 ### Folder: ./.local
@@ -845,15 +856,30 @@ Generated: 2026-03-22 16:14:41.304354+00:00
 
 ### Folder: ./.local/state/workflow-logs/JY5do29PNeRvlRMA6xpYW
 
+### Folder: ./.local/state/workflow-logs/LlCSIOtLOc6sBr_AL1yeG
+
+### Folder: ./.local/state/workflow-logs/kQHThD0-TCSBxC4RFpWTx
+
+### Folder: ./.local/state/workflow-logs/Z-9QW5JczW63R_ehUp_z3
+
+### Folder: ./.local/state/workflow-logs/ZNoZo25VnfXGRHe_8Op1z
+
+### Folder: ./.local/state/workflow-logs/4e-_bpkXH0EH-lgY_AdqY
+
+### Folder: ./.local/state/workflow-logs/lNfVgo0TMployUbm75JTw
+
+### Folder: ./.local/state/workflow-logs/OSSmCbl7pGBiHAlBtKt59
+
+### Folder: ./.local/state/workflow-logs/v-ZndEtnrp6QtrUufvjrF
+
+### Folder: ./.local/state/workflow-logs/AtCL61lV06_JqDPEU8Utg
+
 ### Folder: ./.local/skills
 
 ### Folder: ./.local/skills/agent-inbox
 - SKILL.md
 
 ### Folder: ./.local/skills/database
-- SKILL.md
-
-### Folder: ./.local/skills/code_review
 - SKILL.md
 
 ### Folder: ./.local/skills/diagnostics
@@ -1225,7 +1251,6 @@ Generated: 2026-03-22 16:14:41.304354+00:00
 ### Folder: ./agents
 - __init__.py
 - agent_base.py
-- ceo_agent.py
 - deployment_agent.py
 - developer_agent.py
 - finance_agent.py
@@ -1234,6 +1259,7 @@ Generated: 2026-03-22 16:14:41.304354+00:00
 - product_agent.py
 - qa_agent.py
 - cto_agent.py
+- ceo_agent.py
 
 ### Folder: ./constitution
 - founder-control-room.md
@@ -1246,6 +1272,8 @@ Generated: 2026-03-22 16:14:41.304354+00:00
 
 ### Folder: ./engine
 - template_renderer.py
+- file_generator.py
+- auto_wire.py
 
 ### Folder: ./logs
 
@@ -2656,6 +2684,32 @@ Generated: 2026-03-22 16:14:41.304354+00:00
 
 ### Folder: ./.pythonlibs/bin
 
+### Folder: ./test_project
+
+### Folder: ./test_project/models
+- auth_model.py
+- core_logic_model.py
+- template_engine_model.py
+- email_service_model.py
+- suggestion_engine_model.py
+- payment_gateway_model.py
+
+### Folder: ./test_project/routes
+- auth_routes.py
+- core_logic_routes.py
+- template_engine_routes.py
+- email_service_routes.py
+- suggestion_engine_routes.py
+- payment_gateway_routes.py
+
+### Folder: ./test_project/services
+- auth_service.py
+- core_logic_service.py
+- template_engine_service.py
+- email_service_service.py
+- suggestion_engine_service.py
+- payment_gateway_service.py
+
 ---
 
 ## File Contents (truncated)
@@ -2929,6 +2983,36 @@ def generate_project_context():
     for a in agent
 ```
 
+### ./test_engine.py
+
+```python
+import sys
+import os
+sys.path.append(os.getcwd())
+
+from agents.product_agent import ProductAgent
+from agents.cto_agent import CTOAgent
+from engine.file_generator import generate_backend_files
+
+idea = {
+    "name": "AI Email Tool",
+    "description": "Personalizes emails"
+}
+
+product = ProductAgent().define_product(idea)
+print("PRODUCT:", product)
+
+arch = CTOAgent().design_architecture({
+    "idea": idea,
+    "product": product
+})
+
+print("ARCH:", arch)
+
+generate_backend_files("test_project", arch)
+
+```
+
 ### ./.local/skills/canvas/__init__.py
 
 ```python
@@ -2988,96 +3072,6 @@ class AgentBase:
         print(response)
 
         return response
-```
-
-### ./agents/ceo_agent.py
-
-```python
-from agents.agent_base import AgentBase
-from tools.memory import load_memory
-from tools.json_parser import extract_json
-import json
-import os
-import re
-
-
-class CEOAgent(AgentBase):
-
-    def __init__(self):
-        super().__init__("CEO Agent")
-
-    def generate_idea(self):
-
-        ideas_file = "data/ideas.json"
-
-        if not os.path.exists(ideas_file):
-            with open(ideas_file, "w") as f:
-                json.dump([], f)
-
-        with open(ideas_file, "r") as f:
-            ideas = json.load(f)
-
-        past_startups = load_memory("startups.json")
-
-        past_startup_names = [
-            s.get("name")
-            for s in past_startups
-            if isinstance(s, dict)
-        ]
-
-        previous_ideas = [
-            i.get("idea", {}).get("name")
-            for i in ideas
-            if isinstance(i.get("idea"), dict)
-        ]
-
-        prompt = f"""
-        Generate one innovative startup idea.
-
-        Avoid repeating or being similar to these existing ideas:
-        {previous_ideas}
-
-        Also avoid startups that were already built and deployed:
-        {past_startup_names}
-
-        Return ONLY valid JSON in this format:
-
-        {{
-        "name": "Startup Name",
-        "description": "Short description",
-        "market": "Target users",
-        "revenue_model": "How it makes money"
-        }}
-        """
-
-        response = self.think(prompt)
-
-        idea = extract_json(response)
-
-        if not idea:
-            print("CEO Agent: Invalid JSON response")
-            return None
-
-        #score = 5
-
-        next_id = len(ideas) + 1
-        idea_entry = {
-            "id": next_id,
-            "idea": idea,
-            "name": idea.get("name"),
-            "description": idea.get("description"),
-            "score": self.score_locally(idea),
-            "status": "pending"
-        }
-
-        ideas.append(idea_entry)
-
-        with open(ideas_file, "w") as f:
-            json.dump(ideas, f, indent=2)
-
-        return idea_entry
-
-    def genera
 ```
 
 ### ./agents/deployment_agent.py
@@ -3433,6 +3427,92 @@ class CTOAgent(AgentBase):
 
 ```
 
+### ./agents/ceo_agent.py
+
+```python
+from agents.agent_base import AgentBase
+from tools.memory import load_memory
+from tools.json_parser import extract_json
+import json
+import os
+import re
+
+
+class CEOAgent(AgentBase):
+    def __init__(self):
+        super().__init__("CEO Agent")
+
+    def generate_idea(self):
+        ideas_file = "data/ideas.json"
+
+        if not os.path.exists(ideas_file):
+            with open(ideas_file, "w") as f:
+                json.dump([], f)
+
+        with open(ideas_file, "r") as f:
+            ideas = json.load(f)
+
+        past_startups = load_memory("startups.json")
+
+        past_startup_names = [
+            s.get("name") for s in past_startups if isinstance(s, dict)
+        ]
+
+        previous_ideas = [
+            i.get("idea", {}).get("name")
+            for i in ideas
+            if isinstance(i.get("idea"), dict)
+        ]
+
+        prompt = f"""
+        Generate one innovative startup idea.
+
+        Avoid repeating or being similar to these existing ideas:
+        {previous_ideas}
+
+        Also avoid startups that were already built and deployed:
+        {past_startup_names}
+
+        Return ONLY valid JSON in this format:
+
+        {{
+        "name": "Startup Name",
+        "description": "Short description",
+        "market": "Target users",
+        "revenue_model": "How it makes money"
+        }}
+        """
+
+        response = self.think(prompt)
+
+        idea = extract_json(response)
+
+        if not idea:
+            print("CEO Agent: Invalid JSON response")
+            return None
+
+        # score = 5
+
+        next_id = max([i.get("id", 0) for i in ideas], default=0) + 1
+        idea_entry = {
+            "id": next_id,
+            "idea": idea,
+            "name": idea.get("name"),
+            "description": idea.get("description"),
+            "score": self.score_locally(idea),
+            "status": "pending",
+        }
+
+        ideas.append(idea_entry)
+
+        with open(ideas_file, "w") as f:
+            json.dump(ideas, f, indent=2)
+
+        return idea_entry
+
+ 
+```
+
 ### ./dashboard/__init__.py
 
 ```python
@@ -3482,6 +3562,8 @@ def show_ideas():
     html = "<h1>Startup Ideas</h1>"
 
     for idea in ideas:
+        if idea.get("processed"):
+            continue  # skip already processed ideas
         # Check if a URL was saved by the Deployment Agent
         url_display = (
             f"<br><b>URL:</b> <a href='{idea['url']}' target='_blank'>{idea['url']}</a>"
@@ -3512,15 +3594,12 @@ def approve_idea(idea_id):
     for idea in ideas:
         if idea["id"] == idea_id:
             idea["status"] = "approved"
-            selected_idea = idea["idea"]
+            idea["processed"] = True  # ✅ ADD THIS LINE
+            selected_idea = idea
             break
 
     if selected_idea:
-        # Save updated ideas
-        with open("data/ideas.json", "w") as f:
-            json.dump(ideas, f, indent=2)
-
-        print("🚀 Starting startup cycle
+        # Save updated i
 ```
 
 ### ./engine/template_renderer.py
@@ -3549,6 +3628,112 @@ def render_startup(config_path, output_dir):
 
 ```
 
+### ./engine/file_generator.py
+
+```python
+import os
+from tools.file_writer import write_file
+
+def generate_backend_files(project_dir, architecture):
+    if not architecture:
+        print("[File Generator] No architecture provided")
+        return
+
+    modules = architecture.get("modules", [])
+
+    print("[File Generator] Generating backend structure...")
+
+    folders = ["models", "routes", "services"]
+
+    for folder in folders:
+        os.makedirs(os.path.join(project_dir, folder), exist_ok=True)
+
+    for module in modules:
+
+        safe_name = module.lower().replace(" ", "_")
+
+        model_code = f"""
+class {safe_name.capitalize()}Model:
+    def __init__(self):
+        pass
+"""
+
+        write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
+
+        service_code = f"""
+class {safe_name.capitalize()}Service:
+    def execute(self):
+        return "{module} logic running"
+"""
+
+        write_file(f"{project_dir}/services/{safe_name}_service.py", service_code)
+
+        route_code = f"""
+from flask import Blueprint
+
+{safe_name}_bp = Blueprint('{safe_name}', __name__)
+
+@{safe_name}_bp.route('/{safe_name}')
+def {safe_name}_home():
+    return "{module} route working"
+"""
+
+        write_file(f"{project_dir}/routes/{safe_name}_routes.py", route_code)
+
+    print("[File Generator] Backend files created")
+
+```
+
+### ./engine/auto_wire.py
+
+```python
+import os
+
+
+def wire_routes(project_dir):
+    routes_dir = os.path.join(project_dir, "routes")
+    app_file = os.path.join(project_dir, "app.py")
+
+    if not os.path.exists(routes_dir) or not os.path.exists(app_file):
+        print("[Auto Wire] Missing routes or app.py")
+        return
+
+    route_files = [f for f in os.listdir(routes_dir) if f.endswith("_routes.py")]
+
+    import_lines = []
+    register_lines = []
+
+    for file in route_files:
+        module_name = file.replace(".py", "")
+        bp_name = module_name.replace("_routes", "_bp")
+
+        import_lines.append(f"from routes.{module_name} import {bp_name}")
+        register_lines.append(f"app.register_blueprint({bp_name})")
+
+    with open(app_file, "r") as f:
+        content = f.read()
+
+    # ✅ Avoid duplicate wiring
+    if "[AUTO_WIRE]" in content:
+        print("[Auto Wire] Already wired, skipping")
+        return
+
+    new_content = (
+        "# [AUTO_WIRE IMPORTS]\n"
+        + "\n".join(import_lines)
+        + "\n\n"
+        + content
+        + "\n\n# [AUTO_WIRE REGISTRATION]\n"
+        + "\n".join(register_lines)
+    )
+
+    with open(app_file, "w") as f:
+        f.write(new_content)
+
+    print("[Auto Wire] Routes connected to app.py")
+
+```
+
 ### ./orchestrator/__init__.py
 
 ```python
@@ -3568,9 +3753,13 @@ from agents.growth_agent import GrowthAgent
 from agents.finance_agent import FinanceAgent
 from agents.github_agent import GitHubAgent
 from tools.memory import add_entry
+from engine.file_generator import generate_backend_files
+from engine.auto_wire import wire_routes
 import subprocess
 import os
 from tools.code_runner import run_app
+
+print("ORCHESTRATOR RECEIVED IDEA:", idea)
 
 
 class Orchestrator:
@@ -3611,14 +3800,9 @@ class Orchestrator:
         if not project_path:
             print("Developer failed — aborting startup cycle.")
             return
-        print(project_path)
 
-        project_name = os.path.basename(project_path)
-        print("REPO NAME BEING CREATED:", project_name)
-
-        # -------- TEMPLATE VALIDATION --------
-
-        print("\n[QA CHECK]
+        # ✅ NOW SAFE TO RUN
+        generate_backend_files(project_path, 
 ```
 
 ### ./saas_master_template/app.py
@@ -55491,5 +55675,209 @@ class WorkerTmp:
 
     def close(self):
         return self._tmp.close()
+
+```
+
+### ./test_project/models/auth_model.py
+
+```python
+
+class AuthModel:
+    def __init__(self):
+        pass
+
+```
+
+### ./test_project/models/core_logic_model.py
+
+```python
+
+class Core_logicModel:
+    def __init__(self):
+        pass
+
+```
+
+### ./test_project/models/template_engine_model.py
+
+```python
+
+class Template_engineModel:
+    def __init__(self):
+        pass
+
+```
+
+### ./test_project/models/email_service_model.py
+
+```python
+
+class Email_serviceModel:
+    def __init__(self):
+        pass
+
+```
+
+### ./test_project/models/suggestion_engine_model.py
+
+```python
+
+class Suggestion_engineModel:
+    def __init__(self):
+        pass
+
+```
+
+### ./test_project/models/payment_gateway_model.py
+
+```python
+
+class Payment_gatewayModel:
+    def __init__(self):
+        pass
+
+```
+
+### ./test_project/routes/auth_routes.py
+
+```python
+
+from flask import Blueprint
+
+auth_bp = Blueprint('auth', __name__)
+
+@auth_bp.route('/auth')
+def auth_home():
+    return "auth route working"
+
+```
+
+### ./test_project/routes/core_logic_routes.py
+
+```python
+
+from flask import Blueprint
+
+core_logic_bp = Blueprint('core_logic', __name__)
+
+@core_logic_bp.route('/core_logic')
+def core_logic_home():
+    return "core_logic route working"
+
+```
+
+### ./test_project/routes/template_engine_routes.py
+
+```python
+
+from flask import Blueprint
+
+template_engine_bp = Blueprint('template_engine', __name__)
+
+@template_engine_bp.route('/template_engine')
+def template_engine_home():
+    return "template_engine route working"
+
+```
+
+### ./test_project/routes/email_service_routes.py
+
+```python
+
+from flask import Blueprint
+
+email_service_bp = Blueprint('email_service', __name__)
+
+@email_service_bp.route('/email_service')
+def email_service_home():
+    return "email_service route working"
+
+```
+
+### ./test_project/routes/suggestion_engine_routes.py
+
+```python
+
+from flask import Blueprint
+
+suggestion_engine_bp = Blueprint('suggestion_engine', __name__)
+
+@suggestion_engine_bp.route('/suggestion_engine')
+def suggestion_engine_home():
+    return "suggestion_engine route working"
+
+```
+
+### ./test_project/routes/payment_gateway_routes.py
+
+```python
+
+from flask import Blueprint
+
+payment_gateway_bp = Blueprint('payment_gateway', __name__)
+
+@payment_gateway_bp.route('/payment_gateway')
+def payment_gateway_home():
+    return "payment_gateway route working"
+
+```
+
+### ./test_project/services/auth_service.py
+
+```python
+
+class AuthService:
+    def execute(self):
+        return "auth logic running"
+
+```
+
+### ./test_project/services/core_logic_service.py
+
+```python
+
+class Core_logicService:
+    def execute(self):
+        return "core_logic logic running"
+
+```
+
+### ./test_project/services/template_engine_service.py
+
+```python
+
+class Template_engineService:
+    def execute(self):
+        return "template_engine logic running"
+
+```
+
+### ./test_project/services/email_service_service.py
+
+```python
+
+class Email_serviceService:
+    def execute(self):
+        return "email_service logic running"
+
+```
+
+### ./test_project/services/suggestion_engine_service.py
+
+```python
+
+class Suggestion_engineService:
+    def execute(self):
+        return "suggestion_engine logic running"
+
+```
+
+### ./test_project/services/payment_gateway_service.py
+
+```python
+
+class Payment_gatewayService:
+    def execute(self):
+        return "payment_gateway logic running"
 
 ```
