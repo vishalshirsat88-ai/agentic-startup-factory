@@ -248,7 +248,6 @@ The following Flask application produced an error.
                 "GitHub Agent",
                 self.github.create_repo_and_push,
                 project_name,
-                project_path,
             )
             print("GitHub Repo:", repo)
 
