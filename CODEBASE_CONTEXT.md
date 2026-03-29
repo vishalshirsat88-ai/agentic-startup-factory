@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-03-29 16:52:55.814301+00:00
+Generated: 2026-03-29 18:07:03.550541+00:00
 
 ## Project Structure
 
@@ -840,11 +840,7 @@ Generated: 2026-03-29 16:52:55.814301+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/LlCSIOtLOc6sBr_AL1yeG
-
 ### Folder: ./.local/state/workflow-logs/Z-9QW5JczW63R_ehUp_z3
-
-### Folder: ./.local/state/workflow-logs/ZNoZo25VnfXGRHe_8Op1z
 
 ### Folder: ./.local/state/workflow-logs/4e-_bpkXH0EH-lgY_AdqY
 
@@ -879,6 +875,10 @@ Generated: 2026-03-29 16:52:55.814301+00:00
 ### Folder: ./.local/state/workflow-logs/xh-tku49UHJ0Vh_c5KDju
 
 ### Folder: ./.local/state/workflow-logs/a892B0mZDXI-D-2SQXFin
+
+### Folder: ./.local/state/workflow-logs/w92_DJ-S3YGp1-0Qhd8Y0
+
+### Folder: ./.local/state/workflow-logs/h0-djHFof-RK0IhEYVhNE
 
 ### Folder: ./.local/skills
 
@@ -1254,13 +1254,13 @@ Generated: 2026-03-29 16:52:55.814301+00:00
 - agent_base.py
 - developer_agent.py
 - finance_agent.py
-- github_agent.py
 - growth_agent.py
 - product_agent.py
 - qa_agent.py
 - cto_agent.py
 - ceo_agent.py
 - deployment_agent.py
+- github_agent.py
 
 ### Folder: ./constitution
 - founder-control-room.md
@@ -3184,54 +3184,6 @@ Revenue Tracking
 """
 ```
 
-### ./agents/github_agent.py
-
-```python
-from github import Github
-import os
-import subprocess
-
-
-class GitHubAgent:
-
-    def __init__(self):
-        token = os.getenv("GH_PAT")
-        self.github = Github(token)
-        self.user = self.github.get_user()
-
-    def create_repo_and_push(self, project_name):
-
-        print("[GitHub Agent] preparing repository...")
-
-        try:
-            repo = self.user.get_repo(project_name)
-            print("[GitHub Agent] repo already exists")
-        except:
-            repo = self.user.create_repo(project_name, private=False)
-            print("[GitHub Agent] repository created")
-
-        project_path = f"projects/{project_name}"
-        os.makedirs(project_path, exist_ok=True)
-
-        subprocess.run(["git", "init"], cwd=project_path)
-        subprocess.run(["git", "add", "."], cwd=project_path)
-        subprocess.run(["git", "commit", "-m", "initial commit"], cwd=project_path)
-
-        repo_url = repo.clone_url
-
-        subprocess.run(["git", "remote", "remove", "origin"], cwd=project_path, stderr=subprocess.DEVNULL)
-        token = os.getenv("GH_PAT")
-
-        remote_url = f"https://{token}@github.com/{self.user.login}/{project_name}.git"
-
-        subprocess.run(["git", "remote", "add", "origin", remote_url], cwd=project_path)
-
-        subprocess.run(["git", "branch", "-M", "main"], cwd=project_path)
-        subprocess.run(["git", "push", "-u", "origin", "main"], cwd=project_path)
-
-        return repo.html_url
-```
-
 ### ./agents/growth_agent.py
 
 ```python
@@ -3512,6 +3464,75 @@ class DeploymentAgent(AgentBase):
             )
 
    
+```
+
+### ./agents/github_agent.py
+
+```python
+from github import Github
+import os
+import subprocess
+
+
+class GitHubAgent:
+    def __init__(self):
+        token = os.getenv("GH_PAT")
+
+        print("DEBUG GH_PAT:", "SET" if token else "NOT SET")
+
+        if not token:
+            raise Exception("GH_PAT is missing")
+
+        self.github = Github(token)
+        self.user = self.github.get_user()
+
+    def create_repo_and_push(self, project_name):
+        print("[GitHub Agent] pushing to main factory repo...")
+
+        project_path = f"projects/{project_name}"
+
+        # ✅ DEFINE ROOT PATH FIRST (CRITICAL FIX)
+        root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+        # 🔐 Ensure authenticated remote (AFTER root_path is defined)
+        token = os.getenv("GH_PAT")
+        repo_name = "agentic-startup-factory"
+
+        remote_url = f"https://{token}@github.com/{self.user.login}/{repo_name}.git"
+
+        subprocess.run(
+            ["git", "remote", "set-url", "origin", remote_url],
+            cwd=root_path,
+            stderr=subprocess.DEVNULL,
+        )
+
+        # 🔍 Check git repo exists
+        if not os.path.exists(os.path.join(root_path, ".git")):
+            print("[GitHub Agent] ERROR: Not a git repository")
+            return "Git not initialized"
+
+        # 🔍 Check project exists
+        full_project_path = os.path.join(root_path, project_path)
+        if not os.path.exists(full_project_path):
+            print(f"[GitHub Agent] ERROR: Project not found: {project_path}")
+            return "Project path missing"
+
+        # ✅ ADD
+        add = subprocess.run(
+            ["git", "add", project_path, "CODEBASE_CONTEXT.md"],
+            cwd=root_path,
+            capture_output=True,
+            text=True,
+        )
+
+        if add.returncode != 0:
+            print("[GitHub Agent] git add failed:")
+            print(add.stderr)
+            return "Git add failed"
+
+        # ✅ COMMIT
+        commit = subprocess.run(
+            ["git", "commit", "-m", f"Add project: {project_name
 ```
 
 ### ./dashboard/__init__.py
