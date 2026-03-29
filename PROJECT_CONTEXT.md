@@ -8,13 +8,13 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 
 - developer_agent
 - finance_agent
-- github_agent
 - growth_agent
 - product_agent
 - qa_agent
 - cto_agent
 - ceo_agent
 - deployment_agent
+- github_agent
 - user_agent
 
 ## Main Folders
@@ -46,11 +46,9 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - AtCL61lV06_JqDPEU8Utg
 - G8LyuLs42nFBI78d13HSD
 - HUH5WzLFPi8Sc-cQnBKK6
-- LlCSIOtLOc6sBr_AL1yeG
 - OSSmCbl7pGBiHAlBtKt59
 - P2ghbY9Z9TTTvvtGdriH-
 - Z-9QW5JczW63R_ehUp_z3
-- ZNoZo25VnfXGRHe_8Op1z
 - __pycache__
 - _async
 - _backends
@@ -169,6 +167,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - groq-1.1.1.dist-info
 - gunicorn
 - gunicorn-25.1.0.dist-info
+- h0-djHFof-RK0IhEYVhNE
 - h11
 - h11-0.16.0.dist-info
 - hazmat
@@ -340,6 +339,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - vendored
 - video
 - video-js
+- w92_DJ-S3YGp1-0Qhd8Y0
 - web-search
 - website-cloning
 - werkzeug
@@ -353,4 +353,4 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 
 ## Generated
 
-2026-03-29 16:52:57.715973+00:00
+2026-03-29 18:07:07.879182+00:00

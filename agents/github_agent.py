@@ -4,40 +4,92 @@ import subprocess
 
 
 class GitHubAgent:
-
     def __init__(self):
         token = os.getenv("GH_PAT")
+
+        print("DEBUG GH_PAT:", "SET" if token else "NOT SET")
+
+        if not token:
+            raise Exception("GH_PAT is missing")
+
         self.github = Github(token)
         self.user = self.github.get_user()
 
     def create_repo_and_push(self, project_name):
-
-        print("[GitHub Agent] preparing repository...")
-
-        try:
-            repo = self.user.get_repo(project_name)
-            print("[GitHub Agent] repo already exists")
-        except:
-            repo = self.user.create_repo(project_name, private=False)
-            print("[GitHub Agent] repository created")
+        print("[GitHub Agent] pushing to main factory repo...")
 
         project_path = f"projects/{project_name}"
-        os.makedirs(project_path, exist_ok=True)
 
-        subprocess.run(["git", "init"], cwd=project_path)
-        subprocess.run(["git", "add", "."], cwd=project_path)
-        subprocess.run(["git", "commit", "-m", "initial commit"], cwd=project_path)
+        # ✅ DEFINE ROOT PATH FIRST (CRITICAL FIX)
+        root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-        repo_url = repo.clone_url
-
-        subprocess.run(["git", "remote", "remove", "origin"], cwd=project_path, stderr=subprocess.DEVNULL)
+        # 🔐 Ensure authenticated remote (AFTER root_path is defined)
         token = os.getenv("GH_PAT")
+        repo_name = "agentic-startup-factory"
 
-        remote_url = f"https://{token}@github.com/{self.user.login}/{project_name}.git"
+        remote_url = f"https://{token}@github.com/{self.user.login}/{repo_name}.git"
 
-        subprocess.run(["git", "remote", "add", "origin", remote_url], cwd=project_path)
+        subprocess.run(
+            ["git", "remote", "set-url", "origin", remote_url],
+            cwd=root_path,
+            stderr=subprocess.DEVNULL,
+        )
 
-        subprocess.run(["git", "branch", "-M", "main"], cwd=project_path)
-        subprocess.run(["git", "push", "-u", "origin", "main"], cwd=project_path)
+        # 🔍 Check git repo exists
+        if not os.path.exists(os.path.join(root_path, ".git")):
+            print("[GitHub Agent] ERROR: Not a git repository")
+            return "Git not initialized"
 
-        return repo.html_url
+        # 🔍 Check project exists
+        full_project_path = os.path.join(root_path, project_path)
+        if not os.path.exists(full_project_path):
+            print(f"[GitHub Agent] ERROR: Project not found: {project_path}")
+            return "Project path missing"
+
+        # ✅ ADD
+        add = subprocess.run(
+            ["git", "add", project_path, "CODEBASE_CONTEXT.md"],
+            cwd=root_path,
+            capture_output=True,
+            text=True,
+        )
+
+        if add.returncode != 0:
+            print("[GitHub Agent] git add failed:")
+            print(add.stderr)
+            return "Git add failed"
+
+        # ✅ COMMIT
+        commit = subprocess.run(
+            ["git", "commit", "-m", f"Add project: {project_name}"],
+            cwd=root_path,
+            capture_output=True,
+            text=True,
+        )
+
+        if "nothing to commit" in (commit.stdout + commit.stderr).lower():
+            print("[GitHub Agent] Nothing to commit")
+        elif commit.returncode != 0:
+            print("[GitHub Agent] Commit failed:")
+            print(commit.stderr)
+            return "Commit failed"
+        else:
+            print("[GitHub Agent] Commit successful")
+
+        # ✅ PUSH
+        push = subprocess.run(
+            ["git", "push"], cwd=root_path, capture_output=True, text=True
+        )
+
+        if push.returncode != 0:
+            print("[GitHub Agent] Push failed:")
+            print(push.stderr)
+
+            if "authentication" in push.stderr.lower():
+                print("[GitHub Agent] Likely GH_PAT issue")
+
+            return "Push failed"
+
+        print("[GitHub Agent] Push successful")
+
+        return "Updated main factory repo"
