@@ -24,5 +24,88 @@
     "description": "AI-powered virtual meeting facilitation and note-taking",
     "score": 6,
     "status": "approved"
+  },
+  {
+    "id": 3,
+    "idea": {
+      "name": "Cerebro",
+      "description": "An AI-powered mental wellness and focus app for gamers",
+      "market": "Gaming community",
+      "revenue_model": "Subscription-based with in-app purchases for exclusive content and rewards"
+    },
+    "name": "Cerebro",
+    "description": "An AI-powered mental wellness and focus app for gamers",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 4,
+    "idea": {
+      "name": "DreamWeaver",
+      "description": "AI-powered lucid dreaming assistant",
+      "market": "Young adults and sleep enthusiasts",
+      "revenue_model": "Subscription-based service with in-app purchases"
+    },
+    "name": "DreamWeaver",
+    "description": "AI-powered lucid dreaming assistant",
+    "score": 7,
+    "status": "approved"
+  },
+  {
+    "id": 5,
+    "idea": {
+      "name": "EchoPlex",
+      "description": "A virtual event planning and management platform that utilizes AI to create immersive and engaging experiences",
+      "market": "Event planners, organizers, and companies",
+      "revenue_model": "Subscription-based, commission on ticket sales, and partnerships with vendors"
+    },
+    "name": "EchoPlex",
+    "description": "A virtual event planning and management platform that utilizes AI to create immersive and engaging experiences",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 6,
+    "idea": {
+      "name": "EchoNexus",
+      "description": "An AI-powered platform that generates and sells immersive, interactive 3D experiences for museums, galleries, and cultural institutions.",
+      "market": "Museum and gallery curators, cultural event organizers, and educational institutions",
+      "revenue_model": "Subscription-based licensing model with additional revenue streams from sponsored content and advertising"
+    },
+    "name": "EchoNexus",
+    "description": "An AI-powered platform that generates and sells immersive, interactive 3D experiences for museums, galleries, and cultural institutions.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 7,
+    "idea": {
+      "name": "EchoLumina",
+      "description": "AI-powered personalized emotional wellness and stress management platform for the visually impaired community",
+      "market": "Visually impaired individuals, mental health professionals, and accessible technology enthusiasts",
+      "revenue_model": "Subscription-based model with premium features and data analytics for mental health professionals"
+    },
+    "name": "EchoLumina",
+    "description": "AI-powered personalized emotional wellness and stress management platform for the visually impaired community",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 8,
+    "idea": {
+      "name": "EchoPulse",
+      "description": "AI-powered personalized sound therapy for stress relief and focus enhancement",
+      "market": "Young professionals and individuals with anxiety disorders",
+      "revenue_model": "Subscription-based model with premium features and in-app purchases"
+    },
+    "name": "EchoPulse",
+    "description": "AI-powered personalized sound therapy for stress relief and focus enhancement",
+    "score": 6,
+    "status": "approved",
+    "processed": true
   }
 ]

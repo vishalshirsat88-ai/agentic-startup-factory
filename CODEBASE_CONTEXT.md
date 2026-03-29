@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-03-23 13:12:46.306726+00:00
+Generated: 2026-03-29 16:52:55.814301+00:00
 
 ## Project Structure
 
@@ -824,6 +824,8 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 
 ### Folder: ./.cache/ty/vendored/typeshed/843c1fd5a148da85e523c1b4ee680226f89986aa/stdlib
 
+### Folder: ./.cache/ty/vendored/typeshed/843c1fd5a148da85e523c1b4ee680226f89986aa/stdlib/os
+
 ### Folder: ./.agents
 
 ### Folder: ./.local
@@ -838,27 +840,7 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/AMUgFOGy-ZiwbNcm5N3fl
-
-### Folder: ./.local/state/workflow-logs/krrzOJUmRnMEcnpumUrkO
-
-### Folder: ./.local/state/workflow-logs/VGpbOMDmlUuOc2HMVs8io
-
-### Folder: ./.local/state/workflow-logs/IuIA4sA6N_YlS4jPKqVFW
-
-### Folder: ./.local/state/workflow-logs/_V_C-dKosNF8RvnRMttpi
-
-### Folder: ./.local/state/workflow-logs/1N_-vWL9ZAl6iyJPxJ5vc
-
-### Folder: ./.local/state/workflow-logs/BNtMh27dhNuWy-iRrHAyY
-
-### Folder: ./.local/state/workflow-logs/gTjWddkt8OilpmQjyZYog
-
-### Folder: ./.local/state/workflow-logs/JY5do29PNeRvlRMA6xpYW
-
 ### Folder: ./.local/state/workflow-logs/LlCSIOtLOc6sBr_AL1yeG
-
-### Folder: ./.local/state/workflow-logs/kQHThD0-TCSBxC4RFpWTx
 
 ### Folder: ./.local/state/workflow-logs/Z-9QW5JczW63R_ehUp_z3
 
@@ -874,9 +856,36 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 
 ### Folder: ./.local/state/workflow-logs/AtCL61lV06_JqDPEU8Utg
 
+### Folder: ./.local/state/workflow-logs/nla9IfgEj9K85RlsKexWp
+
+### Folder: ./.local/state/workflow-logs/6ZYJh1OKpaM5KhWLWHnAv
+
+### Folder: ./.local/state/workflow-logs/P2ghbY9Z9TTTvvtGdriH-
+
+### Folder: ./.local/state/workflow-logs/7Cg_bVPz6ud8yr61ubPXg
+
+### Folder: ./.local/state/workflow-logs/5y7VCKFpQ6HyplT03Gin-
+
+### Folder: ./.local/state/workflow-logs/G8LyuLs42nFBI78d13HSD
+
+### Folder: ./.local/state/workflow-logs/5flSNNS-SuUzFRu-L3EWQ
+
+### Folder: ./.local/state/workflow-logs/HUH5WzLFPi8Sc-cQnBKK6
+
+### Folder: ./.local/state/workflow-logs/6lvVWIeTpDAxloiZiN3eB
+
+### Folder: ./.local/state/workflow-logs/rxWSEarUpFOdxfGIH8UCl
+
+### Folder: ./.local/state/workflow-logs/xh-tku49UHJ0Vh_c5KDju
+
+### Folder: ./.local/state/workflow-logs/a892B0mZDXI-D-2SQXFin
+
 ### Folder: ./.local/skills
 
 ### Folder: ./.local/skills/agent-inbox
+- SKILL.md
+
+### Folder: ./.local/skills/delegation
 - SKILL.md
 
 ### Folder: ./.local/skills/database
@@ -892,10 +901,10 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 ### Folder: ./.local/skills/design
 - SKILL.md
 
-### Folder: ./.local/skills/delegation
+### Folder: ./.local/skills/design-exploration
 - SKILL.md
 
-### Folder: ./.local/skills/design-exploration
+### Folder: ./.local/skills/environment-secrets
 - SKILL.md
 
 ### Folder: ./.local/skills/deployment
@@ -904,13 +913,13 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 ### Folder: ./.local/skills/deployment/references
 - deployment-logs.md
 
-### Folder: ./.local/skills/environment-secrets
+### Folder: ./.local/skills/media-generation
 - SKILL.md
 
 ### Folder: ./.local/skills/integrations
 - SKILL.md
 
-### Folder: ./.local/skills/media-generation
+### Folder: ./.local/skills/package-management
 - SKILL.md
 
 ### Folder: ./.local/skills/external_apis
@@ -928,9 +937,6 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 ### Folder: ./.local/skills/mockup-sandbox
 - SKILL.md
 
-### Folder: ./.local/skills/package-management
-- SKILL.md
-
 ### Folder: ./.local/skills/post_merge_setup
 - SKILL.md
 
@@ -946,7 +952,11 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 ### Folder: ./.local/skills/expo/references
 - design_and_aesthetics.md
 - device_features_and_permissions.md
+- first_build.md
 - react_context.md
+
+### Folder: ./.local/skills/security_scan
+- SKILL.md
 
 ### Folder: ./.local/skills/replit-docs
 - SKILL.md
@@ -957,9 +967,6 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 ### Folder: ./.local/skills/slides
 - SKILL.md
 
-### Folder: ./.local/skills/validation
-- SKILL.md
-
 ### Folder: ./.local/skills/repl_setup
 - SKILL.md
 
@@ -968,22 +975,7 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 - react_vite.md
 - vue.md
 
-### Folder: ./.local/skills/web-search
-- SKILL.md
-
-### Folder: ./.local/skills/video-js
-- SKILL.md
-
-### Folder: ./.local/skills/video-js/references
-- finalize_playback.md
-
-### Folder: ./.local/skills/stripe
-- SKILL.md
-
-### Folder: ./.local/skills/stripe/references
-- code-templates.md
-
-### Folder: ./.local/skills/workflows
+### Folder: ./.local/skills/validation
 - SKILL.md
 
 ### Folder: ./.local/skills/revenuecat
@@ -993,6 +985,9 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 - initial-setup.md
 - replit-revenuecat-sdk-docs.md
 - subsequent-management.md
+
+### Folder: ./.local/skills/web-search
+- SKILL.md
 
 ### Folder: ./.local/skills/react-vite
 - SKILL.md
@@ -1004,6 +999,21 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 - shadcn_component_rules.md
 - sidebar_rules.md
 - visual_style_and_contrast.md
+
+### Folder: ./.local/skills/stripe
+- SKILL.md
+
+### Folder: ./.local/skills/stripe/references
+- code-templates.md
+
+### Folder: ./.local/skills/video-js
+- SKILL.md
+
+### Folder: ./.local/skills/video-js/references
+- finalize_playback.md
+
+### Folder: ./.local/skills/workflows
+- SKILL.md
 
 ### Folder: ./.local/skills/artifacts
 - SKILL.md
@@ -1135,46 +1145,43 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 
 ### Folder: ./.local/secondary_skills
 
-### Folder: ./.local/secondary_skills/ai-secretary
+### Folder: ./.local/secondary_skills/content-machine
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/branding-generator
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/ad-creative
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/deep-research
+### Folder: ./.local/secondary_skills/ai-recruiter
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/competitive-analysis
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/ai-recruiter
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/design-thinker
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/content-machine
+### Folder: ./.local/secondary_skills/ai-secretary
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/excel-generator
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/apartment-finder
+### Folder: ./.local/secondary_skills/ad-creative
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/file-converter
 - SKILL.md
 
+### Folder: ./.local/secondary_skills/design-thinker
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/deep-research
+- SKILL.md
+
 ### Folder: ./.local/secondary_skills/flashcard-generator
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/github-solution-finder
+### Folder: ./.local/secondary_skills/interview-prep
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/interview-prep
+### Folder: ./.local/secondary_skills/legal-contract
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/insurance-optimizer
@@ -1186,7 +1193,7 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 ### Folder: ./.local/secondary_skills/meal-planner
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/legal-contract
+### Folder: ./.local/secondary_skills/github-solution-finder
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/invoice-generator
@@ -1195,19 +1202,19 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 ### Folder: ./.local/secondary_skills/personal-shopper
 - SKILL.md
 
+### Folder: ./.local/secondary_skills/photo-editor
+- SKILL.md
+
 ### Folder: ./.local/secondary_skills/podcast-generator
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/recipe-creator
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/product-manager
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/programmatic-seo
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/repl-seo-optimizer
+### Folder: ./.local/secondary_skills/product-manager
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/recipe-creator
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/real-estate-analyzer
@@ -1216,34 +1223,28 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 ### Folder: ./.local/secondary_skills/resume-maker
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/seo-auditor
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/photo-editor
-- SKILL.md
-
 ### Folder: ./.local/secondary_skills/stock-analyzer
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/supplier-research
+### Folder: ./.local/secondary_skills/seo-auditor
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/storyboard
 - SKILL.md
 
+### Folder: ./.local/secondary_skills/repl-seo-optimizer
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/supplier-research
+- SKILL.md
+
 ### Folder: ./.local/secondary_skills/travel-assistant
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/used-car-advisor
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/tax-reviewer
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/website-cloning
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/translation
+### Folder: ./.local/secondary_skills/tax-reviewer
 - SKILL.md
 
 ### Folder: ./agentic-startup-factory
@@ -1251,7 +1252,6 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 ### Folder: ./agents
 - __init__.py
 - agent_base.py
-- deployment_agent.py
 - developer_agent.py
 - finance_agent.py
 - github_agent.py
@@ -1260,6 +1260,7 @@ Generated: 2026-03-23 13:12:46.306726+00:00
 - qa_agent.py
 - cto_agent.py
 - ceo_agent.py
+- deployment_agent.py
 
 ### Folder: ./constitution
 - founder-control-room.md
@@ -3074,61 +3075,6 @@ class AgentBase:
         return response
 ```
 
-### ./agents/deployment_agent.py
-
-```python
-from agents.agent_base import AgentBase
-import subprocess
-import os
-import time
-import re
-
-class DeploymentAgent(AgentBase):
-    def __init__(self):
-        super().__init__("Deployment Agent")
-
-    def deploy(self, build_message, idea_id=None): # New
-        print("[Deployment Agent] Starting deployment pipeline...")
-        try:
-            path = build_message
-            project_dir = os.path.basename(path)
-
-            if not os.path.exists(path):
-                return "Deployment failed: project folder not found"
-
-            # 1. Initialize Railway Project
-            print(f"[Deployment Agent] Initializing: {project_dir}")
-            # We capture output to ensure it finishes before moving to link
-            subprocess.run(["railway", "init", "--name", project_dir], cwd=path, capture_output=True)
-
-            # 2. Link Local Folder (The "No-Argument" Fix)
-            print(f"[Deployment Agent] Linking project context...")
-            # Running 'railway link' without the project name argument 
-            # tells it to use the project we just initialized in this directory.
-            subprocess.run(["railway", "link"], cwd=path, check=False, capture_output=True)
-
-            # 3. Deploy/Upload Code (The Non-Interactive Fix)
-            print("[Deployment Agent] Running 'railway up'...")
-            # Adding --detach stops the CLI from streaming logs, 
-            # which often prevents the "select service" hang.
-            subprocess.run(["railway", "up", "--detach"], cwd=path, check=False)
-
-            # 4. Stability Wait (Increased slightly for domain generation)
-            print("[Deployment Agent] Waiting 12s for URL generation...")
-            time.sleep(12)
-
-            # 5. Generate / Fetch Domain
-            print("[Deployment Agent] Fetching public URL...")
-            domain_process = subprocess.run(
-                ["railway", "domain"],
-                cwd=path,
-                capture_output=True,
-                text=True
-            )
-
-   
-```
-
 ### ./agents/developer_agent.py
 
 ```python
@@ -3513,6 +3459,61 @@ class CEOAgent(AgentBase):
  
 ```
 
+### ./agents/deployment_agent.py
+
+```python
+from agents.agent_base import AgentBase
+import subprocess
+import os
+import time
+import re
+
+class DeploymentAgent(AgentBase):
+    def __init__(self):
+        super().__init__("Deployment Agent")
+
+    def deploy(self, build_message, idea_id=None): # New
+        print("[Deployment Agent] Starting deployment pipeline...")
+        try:
+            path = build_message
+            project_dir = os.path.basename(path)
+
+            if not os.path.exists(path):
+                return "Deployment failed: project folder not found"
+
+            # 1. Initialize Railway Project
+            print(f"[Deployment Agent] Initializing: {project_dir}")
+            # We capture output to ensure it finishes before moving to link
+            subprocess.run(["railway", "init", "--name", project_dir], cwd=path, capture_output=True)
+
+            # 2. Link Local Folder (The "No-Argument" Fix)
+            print(f"[Deployment Agent] Linking project context...")
+            # Running 'railway link' without the project name argument 
+            # tells it to use the project we just initialized in this directory.
+            subprocess.run(["railway", "link"], cwd=path, check=False, capture_output=True)
+
+            # 3. Deploy/Upload Code (The Non-Interactive Fix)
+            print("[Deployment Agent] Running 'railway up'...")
+            # Adding --detach stops the CLI from streaming logs, 
+            # which often prevents the "select service" hang.
+            subprocess.run(["railway", "up", "--detach"], cwd=path, check=False)
+
+            # 4. Stability Wait (Increased slightly for domain generation)
+            print("[Deployment Agent] Waiting 12s for URL generation...")
+            time.sleep(12)
+
+            # 5. Generate / Fetch Domain
+            print("[Deployment Agent] Fetching public URL...")
+            domain_process = subprocess.run(
+                ["railway", "domain"],
+                cwd=path,
+                capture_output=True,
+                text=True
+            )
+
+   
+```
+
 ### ./dashboard/__init__.py
 
 ```python
@@ -3691,11 +3692,26 @@ import os
 
 
 def wire_routes(project_dir):
-    routes_dir = os.path.join(project_dir, "routes")
-    app_file = os.path.join(project_dir, "app.py")
+    print("🔥 AUTO_WIRE FUNCTION CALLED")  # ADD THIS
+    print("[Auto Wire] STARTED for:", project_dir)
 
-    if not os.path.exists(routes_dir) or not os.path.exists(app_file):
-        print("[Auto Wire] Missing routes or app.py")
+    routes_dir = os.path.join(project_dir, "routes")
+    app_file = None
+
+    for file in os.listdir(project_dir):
+        if file.endswith(".py"):
+            path = os.path.join(project_dir, file)
+            with open(path, "r") as f:
+                if "Flask(__name__)" in f.read():
+                    app_file = path
+                    break
+
+    if not app_file:
+        print("[Auto Wire] No Flask app file found")
+        return
+
+    if not os.path.exists(routes_dir):
+        print("[Auto Wire] Routes folder missing")
         return
 
     route_files = [f for f in os.listdir(routes_dir) if f.endswith("_routes.py")]
@@ -3759,8 +3775,6 @@ import subprocess
 import os
 from tools.code_runner import run_app
 
-print("ORCHESTRATOR RECEIVED IDEA:", idea)
-
 
 class Orchestrator:
     def __init__(self):
@@ -3777,6 +3791,7 @@ class Orchestrator:
     # 1. Add 'idea_id=None' here. Keep your 'idea' name exactly as is.
 
     def run_startup_cycle(self, idea, idea_id=None):  # New
+        print("ORCHESTRATOR RECEIVED IDEA:", idea)
         print("\n==============================")
         print("🚀 STARTUP GENERATION STARTED")
         print("==============================")
@@ -3784,25 +3799,23 @@ class Orchestrator:
         print(idea)
         print("[Product Agent] defining product features...")
 
+        print("STEP 1: Entered run_startup_cycle")
+
+        print("STEP 2: Before Product Agent")
         product = self.safe_run("Product Agent", self.product.define_product, idea)
+        print("STEP 3: After Product Agent")
 
-        print("[CTO Agent] designing architecture with product context...")
-
+        print("STEP 4: Before CTO Agent")
         arch = self.safe_run(
             "CTO Agent",
             self.cto.design_architecture,
             {"idea": idea, "product": product},
         )
+        print("STEP 5: After CTO Agent")
 
-        print("[Developer Agent] building MVP...")
+        print("STEP 6: Before Developer Agent")
         project_path = self.safe_run("Developer Agent", self.dev.build_mvp, idea, arch)
-
-        if not project_path:
-            print("Developer failed — aborting startup cycle.")
-            return
-
-        # ✅ NOW SAFE TO RUN
-        generate_backend_files(project_path, 
+        print("STEP 7: After Devel
 ```
 
 ### ./saas_master_template/app.py

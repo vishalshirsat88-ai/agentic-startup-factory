@@ -82,5 +82,75 @@
     "project_path": "projects/mindmeld-71565",
     "status": "deployed",
     "url": null
+  },
+  {
+    "name": "Cerebro",
+    "description": "An AI-powered mental wellness and focus app for gamers",
+    "project_path": "projects/cerebro-72230",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "Cerebro",
+    "description": "An AI-powered mental wellness and focus app for gamers",
+    "project_path": "projects/cerebro-73184",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "Cerebro",
+    "description": "An AI-powered mental wellness and focus app for gamers",
+    "project_path": "projects/cerebro-77910",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "DreamWeaver",
+    "description": "AI-powered lucid dreaming assistant",
+    "project_path": "projects/dreamweaver-77992",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "EchoPlex",
+    "description": "A virtual event planning and management platform that utilizes AI to create immersive and engaging experiences",
+    "project_path": "projects/echoplex-90459",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "EchoNexus",
+    "description": "An AI-powered platform that generates and sells immersive, interactive 3D experiences for museums, galleries, and cultural institutions.",
+    "project_path": "projects/echonexus-86368",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "EchoLumina",
+    "description": "AI-powered personalized emotional wellness and stress management platform for the visually impaired community",
+    "project_path": "projects/echolumina-99540",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "EchoPulse",
+    "description": "AI-powered personalized sound therapy for stress relief and focus enhancement",
+    "project_path": "projects/echopulse-2764",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "Cerebro",
+    "description": "An AI-powered mental wellness and focus app for gamers",
+    "project_path": "projects/cerebro-3058",
+    "status": "deployed",
+    "url": null
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-3172",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
   }
 ]

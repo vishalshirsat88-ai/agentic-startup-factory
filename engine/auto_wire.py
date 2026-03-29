@@ -2,11 +2,26 @@ import os
 
 
 def wire_routes(project_dir):
-    routes_dir = os.path.join(project_dir, "routes")
-    app_file = os.path.join(project_dir, "app.py")
+    print("🔥 AUTO_WIRE FUNCTION CALLED")  # ADD THIS
+    print("[Auto Wire] STARTED for:", project_dir)
 
-    if not os.path.exists(routes_dir) or not os.path.exists(app_file):
-        print("[Auto Wire] Missing routes or app.py")
+    routes_dir = os.path.join(project_dir, "routes")
+    app_file = None
+
+    for file in os.listdir(project_dir):
+        if file.endswith(".py"):
+            path = os.path.join(project_dir, file)
+            with open(path, "r") as f:
+                if "Flask(__name__)" in f.read():
+                    app_file = path
+                    break
+
+    if not app_file:
+        print("[Auto Wire] No Flask app file found")
+        return
+
+    if not os.path.exists(routes_dir):
+        print("[Auto Wire] Routes folder missing")
         return
 
     route_files = [f for f in os.listdir(routes_dir) if f.endswith("_routes.py")]

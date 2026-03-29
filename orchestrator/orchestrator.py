@@ -14,8 +14,6 @@ import subprocess
 import os
 from tools.code_runner import run_app
 
-print("ORCHESTRATOR RECEIVED IDEA:", idea)
-
 
 class Orchestrator:
     def __init__(self):
@@ -32,6 +30,7 @@ class Orchestrator:
     # 1. Add 'idea_id=None' here. Keep your 'idea' name exactly as is.
 
     def run_startup_cycle(self, idea, idea_id=None):  # New
+        print("ORCHESTRATOR RECEIVED IDEA:", idea)
         print("\n==============================")
         print("🚀 STARTUP GENERATION STARTED")
         print("==============================")
@@ -39,31 +38,37 @@ class Orchestrator:
         print(idea)
         print("[Product Agent] defining product features...")
 
+        print("STEP 1: Entered run_startup_cycle")
+
+        print("STEP 2: Before Product Agent")
         product = self.safe_run("Product Agent", self.product.define_product, idea)
+        print("STEP 3: After Product Agent")
 
-        print("[CTO Agent] designing architecture with product context...")
-
+        print("STEP 4: Before CTO Agent")
         arch = self.safe_run(
             "CTO Agent",
             self.cto.design_architecture,
             {"idea": idea, "product": product},
         )
+        print("STEP 5: After CTO Agent")
 
-        print("[Developer Agent] building MVP...")
+        print("STEP 6: Before Developer Agent")
         project_path = self.safe_run("Developer Agent", self.dev.build_mvp, idea, arch)
+        print("STEP 7: After Developer Agent → project_path:", project_path)
 
         if not project_path:
-            print("Developer failed — aborting startup cycle.")
+            print("❌ EXIT: project_path is None")
             return
 
-        # ✅ NOW SAFE TO RUN
+        print("STEP 8: Before file generation")
         generate_backend_files(project_path, arch)
-        wire_routes(project_path)
+        print("STEP 9: After file generation")
 
-        if not project_path:
-            print("Developer failed — aborting startup cycle.")
-            return
-        print(project_path)
+        print("STEP 10: Before auto wire")
+        wire_routes(project_path)
+        print("STEP 11: After auto wire COMPLETED")
+
+        print("PROJECT GENERATED AT:", project_path)
 
         project_name = os.path.basename(project_path)
         print("REPO NAME BEING CREATED:", project_name)
@@ -72,31 +77,43 @@ class Orchestrator:
 
         print("\n[QA CHECK] Validating Flask template usage...")
 
-        app_file = os.path.join(project_path, "app.py")
+        # 🔥 Dynamically find Flask app file
+        app_file = None
 
+        for file in os.listdir(project_path):
+            if file.endswith(".py"):
+                path = os.path.join(project_path, file)
+                with open(path, "r") as f:
+                    for line in f:
+                        if "Flask(__name__)" in line:
+                            app_file = path
+                            break
+                if app_file:
+                    break
         try:
-            if not os.path.exists(app_file):
-                print("[QA CHECK] app.py not found, skipping template validation")
-
+            if not app_file:
+                print("[QA CHECK] No Flask app file found, skipping validation")
             else:
                 with open(app_file, "r") as f:
                     app_code = f.read()
 
                 if "render_template(" not in app_code:
-                    print("[QA CHECK] FAILED: app.py does not use render_template")
+                    print(
+                        f"[QA CHECK] FAILED in {os.path.basename(app_file)}: render_template missing"
+                    )
 
                     fix_prompt = f"""
             The Flask application below does not render templates.
-
+    
             Fix the code so it uses render_template() for pages.
-
+    
             Required routes:
             / -> landing page
             /login -> login page
             /dashboard -> dashboard page
-
-            Return ONLY corrected Python code for app.py.
-
+    
+            Return ONLY corrected Python code for the Flask app file.
+    
             Current code:
             {app_code}
             """
@@ -158,7 +175,7 @@ The following Flask application produced an error.
             Error log:
             {output}
 
-            Provide corrected Python code for app.py only.
+            Provide corrected Python code for the Flask app file only.
             Return ONLY valid Python code.
             """
 
@@ -187,18 +204,19 @@ The following Flask application produced an error.
 
             fixed_code = "\n".join(clean_lines)
 
-            app_file = os.path.join(project_path, "app.py")
+            if not app_file:
+                print("[DEV LOOP] No app file found, skipping fix")
+            else:
+                print("[DEV LOOP] Writing cleaned code to app file")
 
-            print("[DEV LOOP] Writing cleaned code to app.py")
+                try:
+                    with open(app_file, "w") as f:
+                        f.write(fixed_code)
 
-            try:
-                with open(app_file, "w") as f:
-                    f.write(fixed_code)
+                    print(f"[DEV LOOP] Updated {os.path.basename(app_file)} with fix")
 
-                print("[DEV LOOP] Updated app.py with fix")
-
-            except Exception as e:
-                print("[DEV LOOP] Failed to write fix:", e)
+                except Exception as e:
+                    print("[DEV LOOP] Failed to write fix:", e)
 
         if not build_success:
             print("[DEV LOOP] Max attempts reached. Continuing anyway.")
@@ -210,23 +228,35 @@ The following Flask application produced an error.
         # self.github.create_repo_and_push,
         # project_name,
         # )
-        # Skipping GitHub push in Replit
-        repo = None
-        print("[GitHub Agent] Skipped")
+        # -------- ENV-BASED EXECUTION --------
 
-        print("[GitHub Agent] No repo created")
+        print("RAW ENV VALUE:", os.getenv("ENV"))
 
-        # 2. Update this line to pass the idea_id to your deployment agent
-        # deploy = self.safe_run(
-        # "Deployment Agent",
-        # self.deploy.deploy,
-        # project_path,
-        # idea_id=idea_id,
-        # )
+        env = os.getenv("ENV", "local")
+        print(f"[ENV] Running in {env} mode")
 
-        # Skipping Deployment in Replit
-        deploy = None
-        print("[Deployment Agent] Skipped")
+        if env == "local":
+            print("[GitHub Agent] Skipped (local mode)")
+            repo = None
+
+            print("[Deployment Agent] Skipped (local mode)")
+            deploy = None
+
+        else:
+            # ✅ GitHub push
+            repo = self.safe_run(
+                "GitHub Agent",
+                self.github.create_repo_and_push,
+                project_name,
+                project_path,
+            )
+            print("GitHub Repo:", repo)
+
+            # ✅ Deployment
+            deploy = self.safe_run(
+                "Deployment Agent", self.deploy.deploy, project_path, idea_id=idea_id
+            )
+            print("Deployment URL:", deploy)
 
         if deploy:
             print("\n🚀 STARTUP IS LIVE:", deploy)
