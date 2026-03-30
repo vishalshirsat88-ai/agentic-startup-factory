@@ -1,4 +1,2 @@
-
-class HealthService:
-    def execute(self):
-        return "health logic running"
+def get_health():
+    return {"status": "success", "data": {"status": "healthy"}, "error": None}
