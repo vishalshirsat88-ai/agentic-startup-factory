@@ -1,2 +1,6 @@
+
 def get_health():
-    return {"status": "success", "data": {"status": "healthy"}, "error": None}
+    try:
+        return {"status": "success", "message": "Service is healthy"}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
