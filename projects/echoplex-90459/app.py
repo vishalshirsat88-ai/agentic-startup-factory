@@ -5,7 +5,8 @@ from routes.payments_routes import payments_bp
 from routes.event_management_routes import event_management_bp
 from routes.user_management_routes import user_management_bp
 from routes.payment_gateway_routes import payment_gateway_bp
-
+from routes.health_routes import health_bp
+import os
 from flask import Flask, render_template, redirect
 from flask import url_for
 
@@ -13,9 +14,6 @@ PRODUCT_NAME = "EchoPlex"
 
 app = Flask(__name__)
 app.secret_key = "secret123"
-from routes.health_routes import health_bp
-
-app.register_blueprint(health_bp)
 
 
 @app.route("/")
@@ -61,9 +59,6 @@ def logout():
     return redirect("/")
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
-
 # [AUTO_WIRE REGISTRATION]
 app.register_blueprint(auth_bp)
 app.register_blueprint(core_logic_bp)
@@ -71,3 +66,9 @@ app.register_blueprint(payments_bp)
 app.register_blueprint(event_management_bp)
 app.register_blueprint(user_management_bp)
 app.register_blueprint(payment_gateway_bp)
+app.register_blueprint(health_bp)
+
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=True, host="0.0.0.0", port=port)

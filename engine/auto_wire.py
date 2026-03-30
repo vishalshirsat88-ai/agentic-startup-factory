@@ -2,12 +2,13 @@ import os
 
 
 def wire_routes(project_dir):
-    print("🔥 AUTO_WIRE FUNCTION CALLED")  # ADD THIS
+    print("🔥 AUTO_WIRE FUNCTION CALLED")
     print("[Auto Wire] STARTED for:", project_dir)
 
     routes_dir = os.path.join(project_dir, "routes")
     app_file = None
 
+    # 🔍 Find Flask app file
     for file in os.listdir(project_dir):
         if file.endswith(".py"):
             path = os.path.join(project_dir, file)
@@ -39,19 +40,40 @@ def wire_routes(project_dir):
     with open(app_file, "r") as f:
         content = f.read()
 
-    # ✅ Avoid duplicate wiring
-    if "[AUTO_WIRE]" in content:
-        print("[Auto Wire] Already wired, skipping")
-        return
+    # 🔥 REMOVE OLD AUTO-WIRE BLOCKS
+    if "# [AUTO_WIRE IMPORTS]" in content:
+        content = content.split("# [AUTO_WIRE IMPORTS]")[0]
 
-    new_content = (
-        "# [AUTO_WIRE IMPORTS]\n"
-        + "\n".join(import_lines)
-        + "\n\n"
-        + content
-        + "\n\n# [AUTO_WIRE REGISTRATION]\n"
-        + "\n".join(register_lines)
-    )
+    if "# [AUTO_WIRE REGISTRATION]" in content:
+        content = content.split("# [AUTO_WIRE REGISTRATION]")[0]
+
+    # 🔥 INSERT AT CORRECT LOCATION (BEFORE app.run)
+    if 'if __name__ == "__main__":' in content:
+        parts = content.split('if __name__ == "__main__":')
+
+        before_run = parts[0]
+        after_run = 'if __name__ == "__main__":' + parts[1]
+
+        new_content = (
+            "# [AUTO_WIRE IMPORTS]\n"
+            + "\n".join(import_lines)
+            + "\n\n"
+            + before_run
+            + "\n\n# [AUTO_WIRE REGISTRATION]\n"
+            + "\n".join(register_lines)
+            + "\n\n"
+            + after_run
+        )
+    else:
+        # fallback
+        new_content = (
+            "# [AUTO_WIRE IMPORTS]\n"
+            + "\n".join(import_lines)
+            + "\n\n"
+            + content
+            + "\n\n# [AUTO_WIRE REGISTRATION]\n"
+            + "\n".join(register_lines)
+        )
 
     with open(app_file, "w") as f:
         f.write(new_content)
