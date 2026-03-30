@@ -15,6 +15,10 @@ PRODUCT_NAME = "EchoPlex"
 app = Flask(__name__)
 app.secret_key = "secret123"
 
+from db import init_db
+
+init_db()
+
 
 @app.route("/")
 def landing():

@@ -28,15 +28,47 @@ class {safe_name.capitalize()}Model:
         write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
 
         service_code = f"""
+        from db import get_connection
+
+
         def get_{safe_name}():
             try:
-                # TODO: implement real logic for {module}
+                conn = get_connection()
+                cursor = conn.cursor()
+
+                cursor.execute("SELECT * FROM items")
+                rows = cursor.fetchall()
+
+                data = [dict(row) for row in rows]
+
+                conn.close()
 
                 return {{
                     "status": "success",
-                    "data": {{
-                        "message": "{module} working"
-                    }},
+                    "data": data,
+                    "error": None
+                }}
+
+            except Exception as e:
+                return {{
+                    "status": "error",
+                    "data": None,
+                    "error": str(e)
+                }}
+
+
+        def add_{safe_name}(name):
+            try:
+                conn = get_connection()
+                cursor = conn.cursor()
+
+                cursor.execute("INSERT INTO items (name) VALUES (?)", (name,))
+                conn.commit()
+                conn.close()
+
+                return {{
+                    "status": "success",
+                    "data": {{"message": "{module} added"}},
                     "error": None
                 }}
 
@@ -51,19 +83,25 @@ class {safe_name.capitalize()}Model:
         write_file(f"{project_dir}/services/{safe_name}_service.py", service_code)
 
         route_code = f"""
-        from flask import Blueprint, jsonify
-        from services.{safe_name}_service import get_{safe_name}
+        from flask import Blueprint, jsonify, request
+        from services.{safe_name}_service import get_{safe_name}, add_{safe_name}
 
         {safe_name}_bp = Blueprint('{safe_name}', __name__)
+
 
         @{safe_name}_bp.route('/api/{safe_name}', methods=['GET'])
         def {safe_name}_route():
             result = get_{safe_name}()
+            return jsonify(result), 200
 
-            if result["status"] == "success":
-                return jsonify(result), 200
-            else:
-                return jsonify(result), 500
+
+        @{safe_name}_bp.route('/api/{safe_name}', methods=['POST'])
+        def add_{safe_name}_route():
+            data = request.get_json()
+            name = data.get("name")
+
+            result = add_{safe_name}(name)
+            return jsonify(result), 200
         """
 
         write_file(f"{project_dir}/routes/{safe_name}_routes.py", route_code)

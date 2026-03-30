@@ -1,17 +1,29 @@
-import os
-from flask_sqlalchemy import SQLAlchemy
+import sqlite3
 
-db = SQLAlchemy()
+DB_NAME = "app.db"
 
-def init_db(app):
-    database_url = os.environ.get("DATABASE_URL", "sqlite:///echoplex.db")
 
-    app.config["SQLALCHEMY_DATABASE_URI"] = database_url
-    app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+def get_connection():
+    conn = sqlite3.connect(DB_NAME)
+    conn.row_factory = sqlite3.Row
+    return conn
 
-    db.init_app(app)
 
-    with app.app_context():
-        db.create_all()
+def init_db():
+    conn = get_connection()
+    cursor = conn.cursor()
 
-    print(f"[DB] Connected to database: {database_url}")
+    # Example table (generic for all apps)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS items (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        module TEXT,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )
+    """)
+
+    
+
+    conn.commit()
+    conn.close()
