@@ -50,7 +50,8 @@
     "name": "DreamWeaver",
     "description": "AI-powered lucid dreaming assistant",
     "score": 7,
-    "status": "approved"
+    "status": "approved",
+    "processed": true
   },
   {
     "id": 5,
@@ -105,6 +106,146 @@
     "name": "EchoPulse",
     "description": "AI-powered personalized sound therapy for stress relief and focus enhancement",
     "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 9,
+    "idea": {
+      "name": "EchoVita",
+      "description": "AI-powered personalized health and wellness coach",
+      "market": "Individuals seeking healthy lifestyle guidance",
+      "revenue_model": "Subscription-based services with premium content and personalized recommendations"
+    },
+    "name": "EchoVita",
+    "description": "AI-powered personalized health and wellness coach",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 10,
+    "idea": {
+      "name": "EchoScape",
+      "description": "AI-powered 3D virtual reality landscape generator for people with visual impairments",
+      "market": "Visually impaired individuals, assistive technology researchers, and accessibility advocates",
+      "revenue_model": "Subscription-based service for 3D landscape generation, with optional premium features and customization options"
+    },
+    "name": "EchoScape",
+    "description": "AI-powered 3D virtual reality landscape generator for people with visual impairments",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 11,
+    "idea": {
+      "name": "EchoMorph",
+      "description": "AI-powered 3D avatar creation and animation for virtual events and experiences",
+      "market": "Event planners, marketers, and creators",
+      "revenue_model": "Subscription-based platform with premium features and customized services"
+    },
+    "name": "EchoMorph",
+    "description": "AI-powered 3D avatar creation and animation for virtual events and experiences",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 12,
+    "idea": {
+      "name": "EchoFlux",
+      "description": "AI-powered music composition and collaboration platform for indie artists and producers",
+      "market": "Independent music artists, producers, and music labels",
+      "revenue_model": "Subscription-based model for premium features and royalty-sharing with artists"
+    },
+    "name": "EchoFlux",
+    "description": "AI-powered music composition and collaboration platform for indie artists and producers",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 13,
+    "idea": {
+      "name": "EchoVerge",
+      "description": "An AI-powered virtual event planning platform for creators and event organizers.",
+      "market": "Event planners, creators, and organizers",
+      "revenue_model": "Commission-based booking fees and premium features"
+    },
+    "name": "EchoVerge",
+    "description": "An AI-powered virtual event planning platform for creators and event organizers.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 14,
+    "idea": {
+      "name": "EchoVista",
+      "description": "AI-powered virtual interior design tool for architects and home owners",
+      "market": "Architects, Homeowners, Interior Designers",
+      "revenue_model": "Subscription-based software, Commission-based sales of furniture and decor"
+    },
+    "name": "EchoVista",
+    "description": "AI-powered virtual interior design tool for architects and home owners",
+    "score": 7,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 15,
+    "idea": {
+      "name": "EchoGuard",
+      "description": "AI-powered cybersecurity for IoT devices",
+      "market": "Homeowners, small businesses, and IoT device manufacturers",
+      "revenue_model": "Subscription-based security monitoring and threat detection services"
+    },
+    "name": "EchoGuard",
+    "description": "AI-powered cybersecurity for IoT devices",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 16,
+    "idea": {
+      "name": "EcoCycle",
+      "description": "AI-powered waste management and recycling optimization platform",
+      "market": "Municipalities, households, and small businesses",
+      "revenue_model": "Subscription-based services, data analytics, and partnerships with waste management companies"
+    },
+    "name": "EcoCycle",
+    "description": "AI-powered waste management and recycling optimization platform",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 17,
+    "idea": {
+      "name": "EchoMosaic",
+      "description": "AI-powered virtual art studio for non-technical users",
+      "market": "Creative professionals and hobbyists",
+      "revenue_model": "Subscription-based model with in-app purchases for premium assets and features"
+    },
+    "name": "EchoMosaic",
+    "description": "AI-powered virtual art studio for non-technical users",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 18,
+    "idea": {
+      "name": "EchoHive",
+      "description": "AI-powered community platform for creatives to share, collaborate, and monetize their work in a secure, token-based ecosystem.",
+      "market": "Independent artists, writers, musicians, and other creatives.",
+      "revenue_model": "Commission-based sales, premium services, and token-based transactions."
+    },
+    "name": "EchoHive",
+    "description": "AI-powered community platform for creatives to share, collaborate, and monetize their work in a secure, token-based ecosystem.",
+    "score": 5,
     "status": "approved",
     "processed": true
   }

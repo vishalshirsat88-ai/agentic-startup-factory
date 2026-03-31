@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-03-29 18:07:07.715525+00:00
+Generated: 2026-03-31 18:40:54.229673+00:00
 
 ## Project Structure
 
@@ -186,6 +186,14 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 
 ### Folder: ./.cache/pip/http-v2/f/3/e/5/2
 
+### Folder: ./.cache/pip/http-v2/f/0
+
+### Folder: ./.cache/pip/http-v2/f/0/2
+
+### Folder: ./.cache/pip/http-v2/f/0/2/8
+
+### Folder: ./.cache/pip/http-v2/f/0/2/8/8
+
 ### Folder: ./.cache/pip/http-v2/d
 
 ### Folder: ./.cache/pip/http-v2/d/0
@@ -362,6 +370,20 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 
 ### Folder: ./.cache/pip/http-v2/8/4/7/9/9
 
+### Folder: ./.cache/pip/http-v2/8/4/3
+
+### Folder: ./.cache/pip/http-v2/8/4/3/f
+
+### Folder: ./.cache/pip/http-v2/8/4/3/f/2
+
+### Folder: ./.cache/pip/http-v2/8/f
+
+### Folder: ./.cache/pip/http-v2/8/f/0
+
+### Folder: ./.cache/pip/http-v2/8/f/0/a
+
+### Folder: ./.cache/pip/http-v2/8/f/0/a/d
+
 ### Folder: ./.cache/pip/http-v2/c
 
 ### Folder: ./.cache/pip/http-v2/c/e
@@ -477,6 +499,12 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 ### Folder: ./.cache/pip/http-v2/5/d/1/9
 
 ### Folder: ./.cache/pip/http-v2/5/d/1/9/9
+
+### Folder: ./.cache/pip/http-v2/5/d/0
+
+### Folder: ./.cache/pip/http-v2/5/d/0/b
+
+### Folder: ./.cache/pip/http-v2/5/d/0/b/4
 
 ### Folder: ./.cache/pip/http-v2/5/0
 
@@ -630,6 +658,12 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 
 ### Folder: ./.cache/pip/http-v2/6/1/a/6/b
 
+### Folder: ./.cache/pip/http-v2/6/1/6
+
+### Folder: ./.cache/pip/http-v2/6/1/6/5
+
+### Folder: ./.cache/pip/http-v2/6/1/6/5/a
+
 ### Folder: ./.cache/pip/http-v2/6/2
 
 ### Folder: ./.cache/pip/http-v2/6/2/f
@@ -637,6 +671,22 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 ### Folder: ./.cache/pip/http-v2/6/2/f/1
 
 ### Folder: ./.cache/pip/http-v2/6/2/f/1/8
+
+### Folder: ./.cache/pip/http-v2/6/5
+
+### Folder: ./.cache/pip/http-v2/6/5/d
+
+### Folder: ./.cache/pip/http-v2/6/5/d/5
+
+### Folder: ./.cache/pip/http-v2/6/5/d/5/d
+
+### Folder: ./.cache/pip/http-v2/6/8
+
+### Folder: ./.cache/pip/http-v2/6/8/0
+
+### Folder: ./.cache/pip/http-v2/6/8/0/d
+
+### Folder: ./.cache/pip/http-v2/6/8/0/d/4
 
 ### Folder: ./.cache/pip/http-v2/3
 
@@ -707,6 +757,14 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 ### Folder: ./.cache/pip/http-v2/3/c/e/7
 
 ### Folder: ./.cache/pip/http-v2/3/c/e/7/7
+
+### Folder: ./.cache/pip/http-v2/3/8
+
+### Folder: ./.cache/pip/http-v2/3/8/3
+
+### Folder: ./.cache/pip/http-v2/3/8/3/c
+
+### Folder: ./.cache/pip/http-v2/3/8/3/c/6
 
 ### Folder: ./.cache/pip/http-v2/0
 
@@ -786,6 +844,14 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 
 ### Folder: ./.cache/pip/http-v2/0/7/5/4/6
 
+### Folder: ./.cache/pip/http-v2/0/f
+
+### Folder: ./.cache/pip/http-v2/0/f/d
+
+### Folder: ./.cache/pip/http-v2/0/f/d/a
+
+### Folder: ./.cache/pip/http-v2/0/f/d/a/9
+
 ### Folder: ./.cache/pip/http-v2/b
 
 ### Folder: ./.cache/pip/http-v2/b/1
@@ -840,28 +906,6 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/Z-9QW5JczW63R_ehUp_z3
-
-### Folder: ./.local/state/workflow-logs/4e-_bpkXH0EH-lgY_AdqY
-
-### Folder: ./.local/state/workflow-logs/lNfVgo0TMployUbm75JTw
-
-### Folder: ./.local/state/workflow-logs/OSSmCbl7pGBiHAlBtKt59
-
-### Folder: ./.local/state/workflow-logs/v-ZndEtnrp6QtrUufvjrF
-
-### Folder: ./.local/state/workflow-logs/AtCL61lV06_JqDPEU8Utg
-
-### Folder: ./.local/state/workflow-logs/nla9IfgEj9K85RlsKexWp
-
-### Folder: ./.local/state/workflow-logs/6ZYJh1OKpaM5KhWLWHnAv
-
-### Folder: ./.local/state/workflow-logs/P2ghbY9Z9TTTvvtGdriH-
-
-### Folder: ./.local/state/workflow-logs/7Cg_bVPz6ud8yr61ubPXg
-
-### Folder: ./.local/state/workflow-logs/5y7VCKFpQ6HyplT03Gin-
-
 ### Folder: ./.local/state/workflow-logs/G8LyuLs42nFBI78d13HSD
 
 ### Folder: ./.local/state/workflow-logs/5flSNNS-SuUzFRu-L3EWQ
@@ -880,18 +924,46 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 
 ### Folder: ./.local/state/workflow-logs/h0-djHFof-RK0IhEYVhNE
 
+### Folder: ./.local/state/workflow-logs/mOD_F2QkVMuyZBwn2Bln4
+
+### Folder: ./.local/state/workflow-logs/q5El9JetlaFoFLU2V5YIv
+
+### Folder: ./.local/state/workflow-logs/dtsn38eTsWTH67H1HYPED
+
+### Folder: ./.local/state/workflow-logs/81PjLkzyljgmeKjYmSxpA
+
+### Folder: ./.local/state/workflow-logs/de90bPmu-iB7MIoo40SHj
+
+### Folder: ./.local/state/workflow-logs/M1juA_XNF6keafgyXCg0g
+
+### Folder: ./.local/state/workflow-logs/47y1Y2xF9Mfp_x0EMRzGo
+
+### Folder: ./.local/state/workflow-logs/YJcb9aJCqFcqwkWiqDVYQ
+
+### Folder: ./.local/state/workflow-logs/XYdQrJCyQDJxdXWoNLNXK
+
+### Folder: ./.local/state/workflow-logs/ER47w69inMIn2Rg3Ucgnp
+
+### Folder: ./.local/state/workflow-logs/9XzXmaAy-C5uW97AkL-8l
+
 ### Folder: ./.local/skills
 
-### Folder: ./.local/skills/agent-inbox
+### Folder: ./.local/skills/delegation
 - SKILL.md
 
-### Folder: ./.local/skills/delegation
+### Folder: ./.local/skills/agent-inbox
 - SKILL.md
 
 ### Folder: ./.local/skills/database
 - SKILL.md
 
+### Folder: ./.local/skills/environment-secrets
+- SKILL.md
+
 ### Folder: ./.local/skills/diagnostics
+- SKILL.md
+
+### Folder: ./.local/skills/design-exploration
 - SKILL.md
 
 ### Folder: ./.local/skills/canvas
@@ -901,25 +973,22 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 ### Folder: ./.local/skills/design
 - SKILL.md
 
-### Folder: ./.local/skills/design-exploration
-- SKILL.md
-
-### Folder: ./.local/skills/environment-secrets
-- SKILL.md
-
 ### Folder: ./.local/skills/deployment
 - SKILL.md
 
 ### Folder: ./.local/skills/deployment/references
 - deployment-logs.md
 
-### Folder: ./.local/skills/media-generation
-- SKILL.md
-
 ### Folder: ./.local/skills/integrations
 - SKILL.md
 
-### Folder: ./.local/skills/package-management
+### Folder: ./.local/skills/media-generation
+- SKILL.md
+
+### Folder: ./.local/skills/mockup-graduate
+- SKILL.md
+
+### Folder: ./.local/skills/mockup-extract
 - SKILL.md
 
 ### Folder: ./.local/skills/external_apis
@@ -928,10 +997,7 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 ### Folder: ./.local/skills/external_apis/references
 - brave.md
 
-### Folder: ./.local/skills/mockup-extract
-- SKILL.md
-
-### Folder: ./.local/skills/mockup-graduate
+### Folder: ./.local/skills/package-management
 - SKILL.md
 
 ### Folder: ./.local/skills/mockup-sandbox
@@ -955,17 +1021,20 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 - first_build.md
 - react_context.md
 
-### Folder: ./.local/skills/security_scan
+### Folder: ./.local/skills/replit-docs
 - SKILL.md
 
-### Folder: ./.local/skills/replit-docs
+### Folder: ./.local/skills/security_scan
 - SKILL.md
 
 ### Folder: ./.local/skills/skill-authoring
 - SKILL.md
 
-### Folder: ./.local/skills/slides
+### Folder: ./.local/skills/react-vite
 - SKILL.md
+
+### Folder: ./.local/skills/react-vite/references
+- frontend_general_rules.md
 
 ### Folder: ./.local/skills/repl_setup
 - SKILL.md
@@ -974,6 +1043,12 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 - angular.md
 - react_vite.md
 - vue.md
+
+### Folder: ./.local/skills/slides
+- SKILL.md
+
+### Folder: ./.local/skills/threat_modeling
+- SKILL.md
 
 ### Folder: ./.local/skills/validation
 - SKILL.md
@@ -988,17 +1063,6 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 
 ### Folder: ./.local/skills/web-search
 - SKILL.md
-
-### Folder: ./.local/skills/react-vite
-- SKILL.md
-
-### Folder: ./.local/skills/react-vite/references
-- frontend_general_rules.md
-- hover_and_elevation.md
-- layout_and_spacing.md
-- shadcn_component_rules.md
-- sidebar_rules.md
-- visual_style_and_contrast.md
 
 ### Folder: ./.local/skills/stripe
 - SKILL.md
@@ -1145,12 +1209,6 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 
 ### Folder: ./.local/secondary_skills
 
-### Folder: ./.local/secondary_skills/content-machine
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/branding-generator
-- SKILL.md
-
 ### Folder: ./.local/secondary_skills/ai-recruiter
 - SKILL.md
 
@@ -1160,43 +1218,49 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 ### Folder: ./.local/secondary_skills/ai-secretary
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/excel-generator
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/ad-creative
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/file-converter
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/design-thinker
+### Folder: ./.local/secondary_skills/branding-generator
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/deep-research
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/flashcard-generator
+### Folder: ./.local/secondary_skills/ad-creative
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/interview-prep
+### Folder: ./.local/secondary_skills/design-thinker
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/legal-contract
+### Folder: ./.local/secondary_skills/excel-generator
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/insurance-optimizer
+### Folder: ./.local/secondary_skills/file-converter
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/content-machine
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/find-customers
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/meal-planner
-- SKILL.md
-
 ### Folder: ./.local/secondary_skills/github-solution-finder
 - SKILL.md
 
+### Folder: ./.local/secondary_skills/flashcard-generator
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/insurance-optimizer
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/interview-prep
+- SKILL.md
+
 ### Folder: ./.local/secondary_skills/invoice-generator
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/legal-contract
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/meal-planner
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/personal-shopper
@@ -1205,10 +1269,10 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 ### Folder: ./.local/secondary_skills/photo-editor
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/podcast-generator
+### Folder: ./.local/secondary_skills/programmatic-seo
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/programmatic-seo
+### Folder: ./.local/secondary_skills/podcast-generator
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/product-manager
@@ -1220,28 +1284,28 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 ### Folder: ./.local/secondary_skills/real-estate-analyzer
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/resume-maker
+### Folder: ./.local/secondary_skills/repl-seo-optimizer
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/stock-analyzer
+### Folder: ./.local/secondary_skills/resume-maker
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/seo-auditor
 - SKILL.md
 
+### Folder: ./.local/secondary_skills/stock-analyzer
+- SKILL.md
+
 ### Folder: ./.local/secondary_skills/storyboard
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/repl-seo-optimizer
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/supplier-research
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/travel-assistant
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/website-cloning
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/supplier-research
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/tax-reviewer
@@ -1252,7 +1316,6 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 ### Folder: ./agents
 - __init__.py
 - agent_base.py
-- developer_agent.py
 - finance_agent.py
 - growth_agent.py
 - product_agent.py
@@ -1261,6 +1324,7 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 - ceo_agent.py
 - deployment_agent.py
 - github_agent.py
+- developer_agent.py
 
 ### Folder: ./constitution
 - founder-control-room.md
@@ -1273,8 +1337,9 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 
 ### Folder: ./engine
 - template_renderer.py
-- file_generator.py
 - auto_wire.py
+- ai_logic.py
+- file_generator.py
 
 ### Folder: ./logs
 
@@ -2683,7 +2748,371 @@ Generated: 2026-03-29 18:07:07.715525+00:00
 
 ### Folder: ./.pythonlibs/lib/python3.12/site-packages/gunicorn-25.1.0.dist-info/licenses
 
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/greenlet
+- __init__.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/greenlet/platform
+- __init__.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests
+- __init__.py
+- fail_clearing_run_switches.py
+- fail_cpp_exception.py
+- fail_initialstub_already_started.py
+- fail_slp_switch.py
+- fail_switch_three_greenlets.py
+- fail_switch_three_greenlets2.py
+- fail_switch_two_greenlets.py
+- leakcheck.py
+- test_contextvars.py
+- test_cpp.py
+- test_extension_interface.py
+- test_gc.py
+- test_generator.py
+- test_generator_nested.py
+- test_greenlet.py
+- test_greenlet_trash.py
+- test_interpreter_shutdown.py
+- test_leaks.py
+- test_stack_saved.py
+- test_throw.py
+- test_tracing.py
+- test_version.py
+- test_weakref.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/greenlet-3.3.2.dist-info
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/greenlet-3.3.2.dist-info/licenses
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy
+- __init__.py
+- events.py
+- exc.py
+- inspection.py
+- log.py
+- schema.py
+- types.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/connectors
+- __init__.py
+- aioodbc.py
+- asyncio.py
+- pyodbc.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/cyextension
+- __init__.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects
+- __init__.py
+- _typing.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mssql
+- __init__.py
+- aioodbc.py
+- base.py
+- information_schema.py
+- json.py
+- provision.py
+- pymssql.py
+- pyodbc.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql
+- __init__.py
+- aiomysql.py
+- asyncmy.py
+- base.py
+- cymysql.py
+- dml.py
+- enumerated.py
+- expression.py
+- json.py
+- mariadb.py
+- mariadbconnector.py
+- mysqlconnector.py
+- mysqldb.py
+- provision.py
+- pymysql.py
+- pyodbc.py
+- reflection.py
+- reserved_words.py
+- types.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/oracle
+- __init__.py
+- base.py
+- cx_oracle.py
+- dictionary.py
+- oracledb.py
+- provision.py
+- types.py
+- vector.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql
+- __init__.py
+- _psycopg_common.py
+- array.py
+- asyncpg.py
+- base.py
+- dml.py
+- ext.py
+- hstore.py
+- json.py
+- named_types.py
+- operators.py
+- pg8000.py
+- pg_catalog.py
+- provision.py
+- psycopg.py
+- psycopg2.py
+- psycopg2cffi.py
+- ranges.py
+- types.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite
+- __init__.py
+- aiosqlite.py
+- base.py
+- dml.py
+- json.py
+- provision.py
+- pysqlcipher.py
+- pysqlite.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine
+- __init__.py
+- _py_processors.py
+- _py_row.py
+- _py_util.py
+- base.py
+- characteristics.py
+- create.py
+- cursor.py
+- default.py
+- events.py
+- interfaces.py
+- mock.py
+- processors.py
+- reflection.py
+- result.py
+- row.py
+- strategies.py
+- url.py
+- util.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/event
+- __init__.py
+- api.py
+- attr.py
+- base.py
+- legacy.py
+- registry.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext
+- __init__.py
+- associationproxy.py
+- automap.py
+- baked.py
+- compiler.py
+- horizontal_shard.py
+- hybrid.py
+- indexable.py
+- instrumentation.py
+- mutable.py
+- orderinglist.py
+- serializer.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/asyncio
+- __init__.py
+- base.py
+- engine.py
+- exc.py
+- result.py
+- scoping.py
+- session.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/declarative
+- __init__.py
+- extensions.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/mypy
+- __init__.py
+- apply.py
+- decl_class.py
+- infer.py
+- names.py
+- plugin.py
+- util.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/future
+- __init__.py
+- engine.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm
+- __init__.py
+- _orm_constructors.py
+- _typing.py
+- attributes.py
+- base.py
+- bulk_persistence.py
+- clsregistry.py
+- collections.py
+- context.py
+- decl_api.py
+- decl_base.py
+- dependency.py
+- descriptor_props.py
+- dynamic.py
+- evaluator.py
+- events.py
+- exc.py
+- identity.py
+- instrumentation.py
+- interfaces.py
+- loading.py
+- mapped_collection.py
+- mapper.py
+- path_registry.py
+- persistence.py
+- properties.py
+- query.py
+- relationships.py
+- scoping.py
+- session.py
+- state.py
+- state_changes.py
+- strategies.py
+- strategy_options.py
+- sync.py
+- unitofwork.py
+- util.py
+- writeonly.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/pool
+- __init__.py
+- base.py
+- events.py
+- impl.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql
+- __init__.py
+- _dml_constructors.py
+- _elements_constructors.py
+- _orm_types.py
+- _py_util.py
+- _selectable_constructors.py
+- _typing.py
+- annotation.py
+- base.py
+- cache_key.py
+- coercions.py
+- compiler.py
+- crud.py
+- ddl.py
+- default_comparator.py
+- dml.py
+- elements.py
+- events.py
+- expression.py
+- functions.py
+- lambdas.py
+- naming.py
+- operators.py
+- roles.py
+- schema.py
+- selectable.py
+- sqltypes.py
+- traversals.py
+- type_api.py
+- util.py
+- visitors.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing
+- __init__.py
+- assertions.py
+- assertsql.py
+- asyncio.py
+- config.py
+- engines.py
+- entities.py
+- exclusions.py
+- pickleable.py
+- profiling.py
+- provision.py
+- requirements.py
+- schema.py
+- util.py
+- warnings.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/fixtures
+- __init__.py
+- base.py
+- mypy.py
+- orm.py
+- sql.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/plugin
+- __init__.py
+- bootstrap.py
+- plugin_base.py
+- pytestplugin.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite
+- __init__.py
+- test_cte.py
+- test_ddl.py
+- test_deprecations.py
+- test_dialect.py
+- test_insert.py
+- test_reflection.py
+- test_results.py
+- test_rowcount.py
+- test_select.py
+- test_sequence.py
+- test_types.py
+- test_unicode_ddl.py
+- test_update_delete.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util
+- __init__.py
+- _collections.py
+- _concurrency_py3k.py
+- _has_cy.py
+- _py_collections.py
+- compat.py
+- concurrency.py
+- deprecations.py
+- langhelpers.py
+- preloaded.py
+- queue.py
+- tool_support.py
+- topological.py
+- typing.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy-2.0.48.dist-info
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy-2.0.48.dist-info/licenses
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy
+- __init__.py
+- cli.py
+- extension.py
+- model.py
+- pagination.py
+- query.py
+- record_queries.py
+- session.py
+- table.py
+- track_modifications.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy-3.1.1.dist-info
+
 ### Folder: ./.pythonlibs/bin
+
+### Folder: ./.pythonlibs/include
+
+### Folder: ./.pythonlibs/include/python3.12
+
+### Folder: ./.pythonlibs/include/python3.12/greenlet
 
 ### Folder: ./test_project
 
@@ -3075,96 +3504,6 @@ class AgentBase:
         return response
 ```
 
-### ./agents/developer_agent.py
-
-```python
-from agents.agent_base import AgentBase
-from tools.file_writer import write_file
-from tools.code_runner import run_app
-import os
-import re
-import json
-import time
-import shutil
-
-class DeveloperAgent(AgentBase):
-
-    def __init__(self):
-        super().__init__("Developer Agent")
-
-   
-
-    def extract_project_name(self, idea):
-
-        # If idea is dictionary (new CEO agent format)
-        if isinstance(idea, dict):
-
-            name = idea.get("name", "startup")
-
-            # create slug
-            slug = re.sub(r"[^a-zA-Z0-9]+", "-", name.lower()).strip("-")
-
-            # limit length for GitHub repo safety
-            slug = slug[:25]
-
-            return f"{slug}-{int(time.time())%100000}"
-
-        # If idea is text (older format)
-        for line in idea.splitlines():
-
-            if "name" in line.lower():
-
-                words = re.findall(r"[A-Za-z0-9_-]+", line)
-
-                if len(words) >= 2:
-                    return words[1].lower()
-
-        words = re.findall(r"[A-Za-z]+", idea)
-
-        if words:
-            return words[0].lower()
-
-        return "startup"
-
-    def detect_dependencies(self, code):
-
-        deps = set()
-
-        if "flask_sqlalchemy" in code.lower():
-            deps.add("Flask-SQLAlchemy==3.0.5")
-
-        if "flask_login" in code.lower():
-            deps.add("Flask-Login==0.6.3")
-
-        if "requests" in code:
-            deps.add("requests==2.31.0")
-
-        if "pandas" in code:
-            deps.add("pandas==2.2.2")
-
-        return deps
-
-
-   
-
-    def copy_template(self, project_dir):
-        template_path = "saas_master_template"
-
-        if not os.path.exists(template_path):
-            raise Exception("SaaS template not found")
-
-        shutil.copytree(template_path, project_dir, dirs_exist_ok=True)
-
-    def build_mvp(self, idea, architecture=None):
-
-        print("DEBUG IDEA TEXT:")
-        print(json.dumps(idea, indent=2) if isinstance(idea, dict) else idea)
-
-        project_name = self.extract_project_name(idea)
-
-    
-```
-
 ### ./agents/finance_agent.py
 
 ```python
@@ -3535,6 +3874,82 @@ class GitHubAgent:
             ["git", "commit", "-m", f"Add project: {project_name
 ```
 
+### ./agents/developer_agent.py
+
+```python
+from agents.agent_base import AgentBase
+from tools.file_writer import write_file
+from tools.code_runner import run_app
+import os
+import re
+import json
+import time
+import shutil
+
+
+class DeveloperAgent(AgentBase):
+    def __init__(self):
+        super().__init__("Developer Agent")
+
+    def extract_project_name(self, idea):
+        # If idea is dictionary (new CEO agent format)
+        if isinstance(idea, dict):
+            name = idea.get("name", "startup")
+
+            # create slug
+            slug = re.sub(r"[^a-zA-Z0-9]+", "-", name.lower()).strip("-")
+
+            # limit length for GitHub repo safety
+            slug = slug[:25]
+
+            return f"{slug}-{int(time.time()) % 100000}"
+
+        # If idea is text (older format)
+        for line in idea.splitlines():
+            if "name" in line.lower():
+                words = re.findall(r"[A-Za-z0-9_-]+", line)
+
+                if len(words) >= 2:
+                    return words[1].lower()
+
+        words = re.findall(r"[A-Za-z]+", idea)
+
+        if words:
+            return words[0].lower()
+
+        return "startup"
+
+    def detect_dependencies(self, code):
+        deps = set()
+
+        if "flask_sqlalchemy" in code.lower():
+            deps.add("Flask-SQLAlchemy==3.0.5")
+
+        if "flask_login" in code.lower():
+            deps.add("Flask-Login==0.6.3")
+
+        if "requests" in code:
+            deps.add("requests==2.31.0")
+
+        if "pandas" in code:
+            deps.add("pandas==2.2.2")
+
+        return deps
+
+    def validate_backend_structure(self, project_dir):
+        services_dir = os.path.join(project_dir, "services")
+        routes_dir = os.path.join(project_dir, "routes")
+
+        if not os.path.exists(services_dir) or not os.path.exists(routes_dir):
+            print("[Developer Agent] Missing backend folders")
+            return False
+
+        for file in os.listdir(routes_dir):
+            if file.endswith("_routes.py"):
+                service_name = file.replace("_routes.py", "_service.py")
+
+```
+
 ### ./dashboard/__init__.py
 
 ```python
@@ -3650,62 +4065,6 @@ def render_startup(config_path, output_dir):
 
 ```
 
-### ./engine/file_generator.py
-
-```python
-import os
-from tools.file_writer import write_file
-
-def generate_backend_files(project_dir, architecture):
-    if not architecture:
-        print("[File Generator] No architecture provided")
-        return
-
-    modules = architecture.get("modules", [])
-
-    print("[File Generator] Generating backend structure...")
-
-    folders = ["models", "routes", "services"]
-
-    for folder in folders:
-        os.makedirs(os.path.join(project_dir, folder), exist_ok=True)
-
-    for module in modules:
-
-        safe_name = module.lower().replace(" ", "_")
-
-        model_code = f"""
-class {safe_name.capitalize()}Model:
-    def __init__(self):
-        pass
-"""
-
-        write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
-
-        service_code = f"""
-class {safe_name.capitalize()}Service:
-    def execute(self):
-        return "{module} logic running"
-"""
-
-        write_file(f"{project_dir}/services/{safe_name}_service.py", service_code)
-
-        route_code = f"""
-from flask import Blueprint
-
-{safe_name}_bp = Blueprint('{safe_name}', __name__)
-
-@{safe_name}_bp.route('/{safe_name}')
-def {safe_name}_home():
-    return "{module} route working"
-"""
-
-        write_file(f"{project_dir}/routes/{safe_name}_routes.py", route_code)
-
-    print("[File Generator] Backend files created")
-
-```
-
 ### ./engine/auto_wire.py
 
 ```python
@@ -3713,12 +4072,13 @@ import os
 
 
 def wire_routes(project_dir):
-    print("🔥 AUTO_WIRE FUNCTION CALLED")  # ADD THIS
+    print("🔥 AUTO_WIRE FUNCTION CALLED")
     print("[Auto Wire] STARTED for:", project_dir)
 
     routes_dir = os.path.join(project_dir, "routes")
     app_file = None
 
+    # 🔍 Find Flask app file
     for file in os.listdir(project_dir):
         if file.endswith(".py"):
             path = os.path.join(project_dir, file)
@@ -3750,25 +4110,159 @@ def wire_routes(project_dir):
     with open(app_file, "r") as f:
         content = f.read()
 
-    # ✅ Avoid duplicate wiring
-    if "[AUTO_WIRE]" in content:
-        print("[Auto Wire] Already wired, skipping")
+    # 🔥 REMOVE OLD AUTO-WIRE BLOCKS
+    if "# [AUTO_WIRE IMPORTS]" in content:
+        content = content.split("# [AUTO_WIRE IMPORTS]")[0]
+
+    if "# [AUTO_WIRE REGISTRATION]" in content:
+        content = content.split("# [AUTO_WIRE REGISTRATION]")[0]
+
+    # 🔥 INSERT AT CORRECT LOCATION (BEFORE app.run)
+    if 'if __name__ == "__main__":' in content:
+        parts = content.split('if __name__ == "__main__":')
+
+        before_run = parts[0]
+        after_run = 'if __name__ == "__main__":' + parts[1]
+
+        new_content = (
+            "# [AUTO_WIRE IMPORTS]\n"
+            + "\n".join(import_lines)
+            + "\n\n"
+            + before_run
+            + "\n\n# [AUTO_WIRE REGISTRATION]\n"
+            + "\n".join(register_lines)
+            + "\n\n"
+            + after_run
+        )
+    else:
+        # fallb
+```
+
+### ./engine/ai_logic.py
+
+```python
+import requests
+import os
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+print("GROQ KEY:", GROQ_API_KEY[:5] if GROQ_API_KEY else "NOT FOUND")
+
+
+def generate_service_logic(module_name):
+    prompt = f"""
+You are a backend engineer.
+
+Write a Python function for a Flask service.
+
+Module: {module_name}
+
+Rules:
+- Only return Python function code
+- Function name: get_{module_name}
+- Use realistic business logic
+- No explanations
+- No markdown
+
+Example:
+def get_users():
+    return {{"users": []}}
+"""
+
+    url = "https://api.groq.com/openai/v1/chat/completions"
+
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json",
+    }
+
+    data = {
+        "model": "llama3-70b-8192",
+        "messages": [{"role": "user", "content": prompt}],
+    }
+
+    response = requests.post(url, headers=headers, json=data)
+    result = response.json()
+
+    return result["choices"][0]["message"]["content"]
+
+```
+
+### ./engine/file_generator.py
+
+```python
+import os
+from tools.file_writer import write_file
+
+
+def generate_backend_files(project_dir, architecture):
+    if not architecture:
+        print("[File Generator] No architecture provided")
         return
 
-    new_content = (
-        "# [AUTO_WIRE IMPORTS]\n"
-        + "\n".join(import_lines)
-        + "\n\n"
-        + content
-        + "\n\n# [AUTO_WIRE REGISTRATION]\n"
-        + "\n".join(register_lines)
-    )
+    modules = architecture.get("modules", [])
 
-    with open(app_file, "w") as f:
-        f.write(new_content)
+    print("[File Generator] Generating backend structure...")
 
-    print("[Auto Wire] Routes connected to app.py")
+    folders = ["models", "routes", "services"]
 
+    for folder in folders:
+        os.makedirs(os.path.join(project_dir, folder), exist_ok=True)
+
+    for module in modules:
+        safe_name = module.lower().replace(" ", "_")
+
+        model_code = f"""
+class {safe_name.capitalize()}Model:
+    def __init__(self):
+        pass
+"""
+
+        write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
+
+        from engine.ai_logic import generate_service_logic
+
+        ai_logic = generate_service_logic(safe_name)
+        print("AI LOGIC GENERATED:\n", ai_logic)
+
+        service_code = f"""
+        from db import get_connection
+
+        {ai_logic}
+
+
+        def add_{safe_name}(name):
+            try:
+                conn = get_connection()
+                cursor = conn.cursor()
+
+                cursor.execute(
+                    "INSERT INTO items (name, module) VALUES (?, ?)",
+                    (name, "{safe_name}")
+                )
+                conn.commit()
+                conn.close()
+
+                return {{
+                    "status": "success",
+                    "data": {{"message": "{module} added"}},
+                    "error": None
+                }}
+
+            except Exception as e:
+                return {{
+                    "status": "error",
+                    "data": None,
+                    "error": str(e)
+                }}
+        """
+
+        write_file(f"{project_dir}/services/{safe_name}_service.py", service_code)
+
+        route_code = f"""
+        from flask import Blueprint, jsonify, request
+        from services.{safe_name}_service import get_{safe_name}, add_{safe_name}
+
+        {safe_name}_bp = Blueprint('
 ```
 
 ### ./orchestrator/__init__.py
@@ -3795,6 +4289,8 @@ from engine.auto_wire import wire_routes
 import subprocess
 import os
 from tools.code_runner import run_app
+
+print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
 
 class Orchestrator:
@@ -3835,8 +4331,9 @@ class Orchestrator:
         print("STEP 5: After CTO Agent")
 
         print("STEP 6: Before Developer Agent")
-        project_path = self.safe_run("Developer Agent", self.dev.build_mvp, idea, arch)
-        print("STEP 7: After Devel
+        print("\n[Developer Agent] starting...")
+
+        project_pa
 ```
 
 ### ./saas_master_template/app.py
@@ -55710,6 +56207,19762 @@ class WorkerTmp:
     def close(self):
         return self._tmp.close()
 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/__init__.py
+
+```python
+# -*- coding: utf-8 -*-
+"""
+The root of the greenlet package.
+"""
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
+__all__ = [
+    '__version__',
+    '_C_API',
+
+    'GreenletExit',
+    'error',
+
+    'getcurrent',
+    'greenlet',
+
+    'gettrace',
+    'settrace',
+]
+
+# pylint:disable=no-name-in-module
+
+###
+# Metadata
+###
+__version__ = '3.3.2'
+from ._greenlet import _C_API # pylint:disable=no-name-in-module
+
+###
+# Exceptions
+###
+from ._greenlet import GreenletExit
+from ._greenlet import error
+
+###
+# greenlets
+###
+from ._greenlet import getcurrent
+from ._greenlet import greenlet
+
+###
+# tracing
+###
+try:
+    from ._greenlet import gettrace
+    from ._greenlet import settrace
+except ImportError:
+    # Tracing wasn't supported.
+    # XXX: The option to disable it was removed in 1.0,
+    # so this branch should be dead code.
+    pass
+
+###
+# Constants
+# These constants aren't documented and aren't recommended.
+# In 1.0, USE_GC and USE_TRACING are always true, and USE_CONTEXT_VARS
+# is the same as ``sys.version_info[:2] >= 3.7``
+###
+from ._greenlet import GREENLET_USE_CONTEXT_VARS # pylint:disable=unused-import
+from ._greenlet import GREENLET_USE_GC # pylint:disable=unused-import
+from ._greenlet import GREENLET_USE_TRACING # pylint:disable=unused-import
+
+# Controlling the use of the gc module. Provisional API for this greenlet
+# implementation in 2.0.
+from ._greenlet import CLOCKS_PER_SEC # pylint:disable=unused-import
+from ._greenlet import enable_optional_cleanup # pylint:disable=unused-import
+from ._greenlet import get_clocks_used_doing_optional_cleanup # pylint:disable=unused-import
+
+# Other APIS in the _greenlet module are for test support.
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/platform/__init__.py
+
+```python
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/__init__.py
+
+```python
+# -*- coding: utf-8 -*-
+"""
+Tests for greenlet.
+
+"""
+import os
+import sys
+import sysconfig
+import unittest
+
+from gc import collect
+from gc import get_objects
+from threading import active_count as active_thread_count
+from time import sleep
+from time import time
+
+import psutil
+
+from greenlet import greenlet as RawGreenlet
+from greenlet import getcurrent
+
+from greenlet._greenlet import get_pending_cleanup_count
+from greenlet._greenlet import get_total_main_greenlets
+
+from . import leakcheck
+
+PY312 = sys.version_info[:2] >= (3, 12)
+PY313 = sys.version_info[:2] >= (3, 13)
+# XXX: First tested on 3.14a7. Revisit all uses of this on later versions to ensure they
+# are still valid.
+PY314 = sys.version_info[:2] >= (3, 14)
+
+WIN = sys.platform.startswith("win")
+RUNNING_ON_GITHUB_ACTIONS = os.environ.get('GITHUB_ACTIONS')
+RUNNING_ON_TRAVIS = os.environ.get('TRAVIS') or RUNNING_ON_GITHUB_ACTIONS
+RUNNING_ON_APPVEYOR = os.environ.get('APPVEYOR')
+RUNNING_ON_CI = RUNNING_ON_TRAVIS or RUNNING_ON_APPVEYOR
+RUNNING_ON_MANYLINUX = os.environ.get('GREENLET_MANYLINUX')
+
+# Is the current interpreter free-threaded?) Note that this
+# isn't the same as whether the GIL is enabled, this is the build-time
+# value. Certain CPython details, like the garbage collector,
+# work very differently on potentially-free-threaded builds than
+# standard builds.
+RUNNING_ON_FREETHREAD_BUILD = bool(sysconfig.get_config_var("Py_GIL_DISABLED"))
+
+class TestCaseMetaClass(type):
+    # wrap each test method with
+    # a) leak checks
+    def __new__(cls, classname, bases, classDict):
+        # pylint and pep8 fight over what this should be called (mcs or cls).
+        # pylint gets it right, but we can't scope disable pep8, so we go with
+        # its convention.
+        # pylint: disable=bad-mcs-classmethod-argument
+        check_totalrefcount = True
+
+        # Python 3: must copy, we mutate the classDict. Interestingly enough,
+        # it doesn't actually error out, but under 3.6 we wind up wrapping
+        # and re-
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/fail_clearing_run_switches.py
+
+```python
+# -*- coding: utf-8 -*-
+"""
+If we have a run callable passed to the constructor or set as an
+attribute, but we don't actually use that (because ``__getattribute__``
+or the like interferes), then when we clear callable before beginning
+to run, there's an opportunity for Python code to run.
+
+"""
+import greenlet
+
+g = None
+main = greenlet.getcurrent()
+
+results = []
+
+class RunCallable:
+
+    def __del__(self):
+        results.append(('RunCallable', '__del__'))
+        main.switch('from RunCallable')
+
+
+class G(greenlet.greenlet):
+
+    def __getattribute__(self, name):
+        if name == 'run':
+            results.append(('G.__getattribute__', 'run'))
+            return run_func
+        return object.__getattribute__(self, name)
+
+
+def run_func():
+    results.append(('run_func', 'enter'))
+
+
+g = G(RunCallable())
+# Try to start G. It will get to the point where it deletes
+# its run callable C++ variable in inner_bootstrap. That triggers
+# the __del__ method, which switches back to main before g
+# actually even starts running.
+x = g.switch()
+results.append(('main: g.switch()', x))
+# In the C++ code, this results in g->g_switch() appearing to return, even though
+# it has yet to run.
+print('In main with', x, flush=True)
+g.switch()
+print('RESULTS', results)
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/fail_cpp_exception.py
+
+```python
+# -*- coding: utf-8 -*-
+"""
+Helper for testing a C++ exception throw aborts the process.
+
+Takes one argument, the name of the function in :mod:`_test_extension_cpp` to call.
+"""
+import sys
+import greenlet
+from greenlet.tests import _test_extension_cpp
+print('fail_cpp_exception is running')
+
+def run_unhandled_exception_in_greenlet_aborts():
+    def _():
+        _test_extension_cpp.test_exception_switch_and_do_in_g2(
+            _test_extension_cpp.test_exception_throw_nonstd
+        )
+    g1 = greenlet.greenlet(_)
+    g1.switch()
+
+
+func_name = sys.argv[1]
+try:
+    func = getattr(_test_extension_cpp, func_name)
+except AttributeError:
+    if func_name == run_unhandled_exception_in_greenlet_aborts.__name__:
+        func = run_unhandled_exception_in_greenlet_aborts
+    elif func_name == 'run_as_greenlet_target':
+        g = greenlet.greenlet(_test_extension_cpp.test_exception_throw_std)
+        func = g.switch
+    else:
+        raise
+print('raising', func, flush=True)
+func()
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/fail_initialstub_already_started.py
+
+```python
+"""
+Testing initialstub throwing an already started exception.
+"""
+
+import greenlet
+
+a = None
+b = None
+c = None
+main = greenlet.getcurrent()
+
+# If we switch into a dead greenlet,
+# we go looking for its parents.
+# if a parent is not yet started, we start it.
+
+results = []
+
+def a_run(*args):
+    #results.append('A')
+    results.append(('Begin A', args))
+
+
+def c_run():
+    results.append('Begin C')
+    b.switch('From C')
+    results.append('C done')
+
+class A(greenlet.greenlet): pass
+
+class B(greenlet.greenlet):
+    doing_it = False
+    def __getattribute__(self, name):
+        if name == 'run' and not self.doing_it:
+            assert greenlet.getcurrent() is c
+            self.doing_it = True
+            results.append('Switch to b from B.__getattribute__ in '
+                           + type(greenlet.getcurrent()).__name__)
+            b.switch()
+            results.append('B.__getattribute__ back from main in '
+                           + type(greenlet.getcurrent()).__name__)
+        if name == 'run':
+            name = '_B_run'
+        return object.__getattribute__(self, name)
+
+    def _B_run(self, *arg):
+        results.append(('Begin B', arg))
+        results.append('_B_run switching to main')
+        main.switch('From B')
+
+class C(greenlet.greenlet):
+    pass
+a = A(a_run)
+b = B(parent=a)
+c = C(c_run, b)
+
+# Start a child; while running, it will start B,
+# but starting B will ALSO start B.
+result = c.switch()
+results.append(('main from c', result))
+
+# Switch back to C, which was in the middle of switching
+# already. This will throw the ``GreenletStartedWhileInPython``
+# exception, which results in parent A getting started (B is finished)
+c.switch()
+
+results.append(('A dead?', a.dead, 'B dead?', b.dead, 'C dead?', c.dead))
+
+# A and B should both be dead now.
+assert a.dead
+assert b.dead
+assert not c.dead
+
+result = c.switch()
+results.append(('main from c.2', result))
+# Now C is dead
+assert c.dead
+
+print("RESULTS:", results)
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/fail_slp_switch.py
+
+```python
+# -*- coding: utf-8 -*-
+"""
+A test helper for seeing what happens when slp_switch()
+fails.
+"""
+# pragma: no cover
+
+import greenlet
+
+
+print('fail_slp_switch is running', flush=True)
+
+runs = []
+def func():
+    runs.append(1)
+    greenlet.getcurrent().parent.switch()
+    runs.append(2)
+    greenlet.getcurrent().parent.switch()
+    runs.append(3)
+
+g = greenlet._greenlet.UnswitchableGreenlet(func)
+g.switch()
+assert runs == [1]
+g.switch()
+assert runs == [1, 2]
+g.force_slp_switch_error = True
+
+# This should crash.
+g.switch()
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/fail_switch_three_greenlets.py
+
+```python
+"""
+Uses a trace function to switch greenlets at unexpected times.
+
+In the trace function, we switch from the current greenlet to another
+greenlet, which switches
+"""
+import greenlet
+
+g1 = None
+g2 = None
+
+switch_to_g2 = False
+
+def tracefunc(*args):
+    print('TRACE', *args)
+    global switch_to_g2
+    if switch_to_g2:
+        switch_to_g2 = False
+        g2.switch()
+    print('\tLEAVE TRACE', *args)
+
+def g1_run():
+    print('In g1_run')
+    global switch_to_g2
+    switch_to_g2 = True
+    from_parent = greenlet.getcurrent().parent.switch()
+    print('Return to g1_run')
+    print('From parent', from_parent)
+
+def g2_run():
+    #g1.switch()
+    greenlet.getcurrent().parent.switch()
+
+greenlet.settrace(tracefunc)
+
+g1 = greenlet.greenlet(g1_run)
+g2 = greenlet.greenlet(g2_run)
+
+# This switch didn't actually finish!
+# And if it did, it would raise TypeError
+# because g1_run() doesn't take any arguments.
+g1.switch(1)
+print('Back in main')
+g1.switch(2)
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/fail_switch_three_greenlets2.py
+
+```python
+"""
+Like fail_switch_three_greenlets, but the call into g1_run would actually be
+valid.
+"""
+import greenlet
+
+g1 = None
+g2 = None
+
+switch_to_g2 = True
+
+results = []
+
+def tracefunc(*args):
+    results.append(('trace', args[0]))
+    print('TRACE', *args)
+    global switch_to_g2
+    if switch_to_g2:
+        switch_to_g2 = False
+        g2.switch('g2 from tracefunc')
+    print('\tLEAVE TRACE', *args)
+
+def g1_run(arg):
+    results.append(('g1 arg', arg))
+    print('In g1_run')
+    from_parent = greenlet.getcurrent().parent.switch('from g1_run')
+    results.append(('g1 from parent', from_parent))
+    return 'g1 done'
+
+def g2_run(arg):
+    #g1.switch()
+    results.append(('g2 arg', arg))
+    parent = greenlet.getcurrent().parent.switch('from g2_run')
+    global switch_to_g2
+    switch_to_g2 = False
+    results.append(('g2 from parent', parent))
+    return 'g2 done'
+
+
+greenlet.settrace(tracefunc)
+
+g1 = greenlet.greenlet(g1_run)
+g2 = greenlet.greenlet(g2_run)
+
+x = g1.switch('g1 from main')
+results.append(('main g1', x))
+print('Back in main', x)
+x = g1.switch('g2 from main')
+results.append(('main g2', x))
+print('back in amain again', x)
+x = g1.switch('g1 from main 2')
+results.append(('main g1.2', x))
+x = g2.switch()
+results.append(('main g2.2', x))
+print("RESULTS:", results)
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/fail_switch_two_greenlets.py
+
+```python
+"""
+Uses a trace function to switch greenlets at unexpected times.
+
+In the trace function, we switch from the current greenlet to another
+greenlet, which switches
+"""
+import greenlet
+
+g1 = None
+g2 = None
+
+switch_to_g2 = False
+
+def tracefunc(*args):
+    print('TRACE', *args)
+    global switch_to_g2
+    if switch_to_g2:
+        switch_to_g2 = False
+        g2.switch()
+    print('\tLEAVE TRACE', *args)
+
+def g1_run():
+    print('In g1_run')
+    global switch_to_g2
+    switch_to_g2 = True
+    greenlet.getcurrent().parent.switch()
+    print('Return to g1_run')
+    print('Falling off end of g1_run')
+
+def g2_run():
+    g1.switch()
+    print('Falling off end of g2')
+
+greenlet.settrace(tracefunc)
+
+g1 = greenlet.greenlet(g1_run)
+g2 = greenlet.greenlet(g2_run)
+
+g1.switch()
+print('Falling off end of main')
+g2.switch()
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/leakcheck.py
+
+```python
+# Copyright (c) 2018 gevent community
+# Copyright (c) 2021 greenlet community
+#
+# This was originally part of gevent's test suite. The main author
+# (Jason Madden) vendored a copy of it into greenlet.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+from __future__ import print_function
+
+import os
+import sys
+import gc
+
+from functools import wraps
+import unittest
+
+
+import objgraph
+
+# graphviz 0.18 (Nov 7 2021), available only on Python 3.6 and newer,
+# has added type hints (sigh). It wants to use ``typing.Literal`` for
+# some stuff, but that's only available on Python 3.9+. If that's not
+# found, it creates a ``unittest.mock.MagicMock`` object and annotates
+# with that. These are GC'able objects, and doing almost *anything*
+# with them results in an explosion of objects. For example, trying to
+# compare them for equality creates new objects. This causes our
+# leakchecks to fail, with reports like:
+#
+# greenlet.tests.leakcheck.LeakCheckError: refcount increased by [337, 1333, 343
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_contextvars.py
+
+```python
+from __future__ import print_function
+
+import gc
+import sys
+import unittest
+
+from functools import partial
+from unittest import skipUnless
+from unittest import skipIf
+
+from greenlet import greenlet
+from greenlet import getcurrent
+from . import TestCase
+from . import PY314
+
+try:
+    from contextvars import Context
+    from contextvars import ContextVar
+    from contextvars import copy_context
+    # From the documentation:
+    #
+    # Important: Context Variables should be created at the top module
+    # level and never in closures. Context objects hold strong
+    # references to context variables which prevents context variables
+    # from being properly garbage collected.
+    ID_VAR = ContextVar("id", default=None)
+    VAR_VAR = ContextVar("var", default=None)
+    ContextVar = None
+except ImportError:
+    Context = ContextVar = copy_context = None
+
+# We don't support testing if greenlet's built-in context var support is disabled.
+@skipUnless(Context is not None, "ContextVar not supported")
+class ContextVarsTests(TestCase):
+    def _new_ctx_run(self, *args, **kwargs):
+        return copy_context().run(*args, **kwargs)
+
+    def _increment(self, greenlet_id, callback, counts, expect):
+        ctx_var = ID_VAR
+        if expect is None:
+            self.assertIsNone(ctx_var.get())
+        else:
+            self.assertEqual(ctx_var.get(), expect)
+        ctx_var.set(greenlet_id)
+        for _ in range(2):
+            counts[ctx_var.get()] += 1
+            callback()
+
+    def _test_context(self, propagate_by):
+        # pylint:disable=too-many-branches
+        ID_VAR.set(0)
+
+        callback = getcurrent().switch
+        counts = dict((i, 0) for i in range(5))
+
+        lets = [
+            greenlet(partial(
+                partial(
+                    copy_context().run,
+                    self._increment
+                ) if propagate_by == "run" else self._increment,
+                greenlet_id=i,
+                callback=callback,
+                counts=counts,
+      
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_cpp.py
+
+```python
+from __future__ import print_function
+from __future__ import absolute_import
+
+import subprocess
+import unittest
+
+import greenlet
+from . import _test_extension_cpp
+from . import TestCase
+from . import WIN
+
+class CPPTests(TestCase):
+    def test_exception_switch(self):
+        greenlets = []
+        for i in range(4):
+            g = greenlet.greenlet(_test_extension_cpp.test_exception_switch)
+            g.switch(i)
+            greenlets.append(g)
+        for i, g in enumerate(greenlets):
+            self.assertEqual(g.switch(), i)
+
+    def _do_test_unhandled_exception(self, target):
+        import os
+        import sys
+        script = os.path.join(
+            os.path.dirname(__file__),
+            'fail_cpp_exception.py',
+        )
+        args = [sys.executable, script, target.__name__ if not isinstance(target, str) else target]
+        __traceback_info__ = args
+        with self.assertRaises(subprocess.CalledProcessError) as exc:
+            subprocess.check_output(
+                args,
+                encoding='utf-8',
+                stderr=subprocess.STDOUT
+            )
+
+        ex = exc.exception
+        expected_exit = self.get_expected_returncodes_for_aborted_process()
+        self.assertIn(ex.returncode, expected_exit)
+        self.assertIn('fail_cpp_exception is running', ex.output)
+        return ex.output
+
+
+    def test_unhandled_nonstd_exception_aborts(self):
+        # verify that plain unhandled throw aborts
+        self._do_test_unhandled_exception(_test_extension_cpp.test_exception_throw_nonstd)
+
+    def test_unhandled_std_exception_aborts(self):
+        # verify that plain unhandled throw aborts
+        self._do_test_unhandled_exception(_test_extension_cpp.test_exception_throw_std)
+
+    @unittest.skipIf(WIN, "XXX: This does not crash on Windows")
+    # Meaning the exception is getting lost somewhere...
+    def test_unhandled_std_exception_as_greenlet_function_aborts(self):
+        # verify that plain unhandled throw aborts
+        output = self.
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_extension_interface.py
+
+```python
+from __future__ import print_function
+from __future__ import absolute_import
+
+import sys
+
+import greenlet
+from . import _test_extension
+from . import TestCase
+
+# pylint:disable=c-extension-no-member
+
+class CAPITests(TestCase):
+    def test_switch(self):
+        self.assertEqual(
+            50, _test_extension.test_switch(greenlet.greenlet(lambda: 50)))
+
+    def test_switch_kwargs(self):
+        def adder(x, y):
+            return x * y
+        g = greenlet.greenlet(adder)
+        self.assertEqual(6, _test_extension.test_switch_kwargs(g, x=3, y=2))
+
+    def test_setparent(self):
+        # pylint:disable=disallowed-name
+        def foo():
+            def bar():
+                greenlet.getcurrent().parent.switch()
+
+                # This final switch should go back to the main greenlet, since
+                # the test_setparent() function in the C extension should have
+                # reparented this greenlet.
+                greenlet.getcurrent().parent.switch()
+                raise AssertionError("Should never have reached this code")
+            child = greenlet.greenlet(bar)
+            child.switch()
+            greenlet.getcurrent().parent.switch(child)
+            greenlet.getcurrent().parent.throw(
+                AssertionError("Should never reach this code"))
+        foo_child = greenlet.greenlet(foo).switch()
+        self.assertEqual(None, _test_extension.test_setparent(foo_child))
+
+    def test_getcurrent(self):
+        _test_extension.test_getcurrent()
+
+    def test_new_greenlet(self):
+        self.assertEqual(-15, _test_extension.test_new_greenlet(lambda: -15))
+
+    def test_raise_greenlet_dead(self):
+        self.assertRaises(
+            greenlet.GreenletExit, _test_extension.test_raise_dead_greenlet)
+
+    def test_raise_greenlet_error(self):
+        self.assertRaises(
+            greenlet.error, _test_extension.test_raise_greenlet_error)
+
+    def test_throw(self):
+        seen = []
+
+        def foo():         # pylint:disable=disallowed-name
+    
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_gc.py
+
+```python
+import gc
+
+import weakref
+
+import greenlet
+
+
+from . import TestCase
+from .leakcheck import fails_leakcheck
+# These only work with greenlet gc support
+# which is no longer optional.
+assert greenlet.GREENLET_USE_GC
+
+class TestGC(TestCase):
+    def test_dead_circular_ref(self):
+        o = weakref.ref(greenlet.greenlet(greenlet.getcurrent).switch())
+        gc.collect()
+        if o() is not None:
+            import sys
+            print("O IS NOT NONE.", sys.getrefcount(o()))
+        self.assertIsNone(o())
+        self.assertFalse(gc.garbage, gc.garbage)
+
+    def test_circular_greenlet(self):
+        class circular_greenlet(greenlet.greenlet):
+            self = None
+        o = circular_greenlet()
+        o.self = o
+        o = weakref.ref(o)
+        gc.collect()
+        self.assertIsNone(o())
+        self.assertFalse(gc.garbage, gc.garbage)
+
+    def test_inactive_ref(self):
+        class inactive_greenlet(greenlet.greenlet):
+            def __init__(self):
+                greenlet.greenlet.__init__(self, run=self.run)
+
+            def run(self):
+                pass
+        o = inactive_greenlet()
+        o = weakref.ref(o)
+        gc.collect()
+        self.assertIsNone(o())
+        self.assertFalse(gc.garbage, gc.garbage)
+
+    @fails_leakcheck
+    def test_finalizer_crash(self):
+        # This test is designed to crash when active greenlets
+        # are made garbage collectable, until the underlying
+        # problem is resolved. How does it work:
+        # - order of object creation is important
+        # - array is created first, so it is moved to unreachable first
+        # - we create a cycle between a greenlet and this array
+        # - we create an object that participates in gc, is only
+        #   referenced by a greenlet, and would corrupt gc lists
+        #   on destruction, the easiest is to use an object with
+        #   a finalizer
+        # - because array is the first object in unreachable it is
+        #   cleared first, which causes all references
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_generator.py
+
+```python
+
+from greenlet import greenlet
+
+from . import TestCase
+
+class genlet(greenlet):
+    parent = None
+    def __init__(self, *args, **kwds):
+        self.args = args
+        self.kwds = kwds
+
+    def run(self):
+        fn, = self.fn
+        fn(*self.args, **self.kwds)
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        self.parent = greenlet.getcurrent()
+        result = self.switch()
+        if self:
+            return result
+
+        raise StopIteration
+
+    next = __next__
+
+
+def Yield(value):
+    g = greenlet.getcurrent()
+    while not isinstance(g, genlet):
+        if g is None:
+            raise RuntimeError('yield outside a genlet')
+        g = g.parent
+    g.parent.switch(value)
+
+
+def generator(func):
+    class Generator(genlet):
+        fn = (func,)
+    return Generator
+
+# ____________________________________________________________
+
+
+class GeneratorTests(TestCase):
+    def test_generator(self):
+        seen = []
+
+        def g(n):
+            for i in range(n):
+                seen.append(i)
+                Yield(i)
+        g = generator(g)
+        for _ in range(3):
+            for j in g(5):
+                seen.append(j)
+        self.assertEqual(seen, 3 * [0, 0, 1, 1, 2, 2, 3, 3, 4, 4])
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_generator_nested.py
+
+```python
+
+from greenlet import greenlet
+from . import TestCase
+from .leakcheck import fails_leakcheck
+
+class genlet(greenlet):
+    parent = None
+    def __init__(self, *args, **kwds):
+        self.args = args
+        self.kwds = kwds
+        self.child = None
+
+    def run(self):
+        # Note the function is packed in a tuple
+        # to avoid creating a bound method for it.
+        fn, = self.fn
+        fn(*self.args, **self.kwds)
+
+    def __iter__(self):
+        return self
+
+    def set_child(self, child):
+        self.child = child
+
+    def __next__(self):
+        if self.child:
+            child = self.child
+            while child.child:
+                tmp = child
+                child = child.child
+                tmp.child = None
+
+            result = child.switch()
+        else:
+            self.parent = greenlet.getcurrent()
+            result = self.switch()
+
+        if self:
+            return result
+
+        raise StopIteration
+
+    next = __next__
+
+def Yield(value, level=1):
+    g = greenlet.getcurrent()
+
+    while level != 0:
+        if not isinstance(g, genlet):
+            raise RuntimeError('yield outside a genlet')
+        if level > 1:
+            g.parent.set_child(g)
+        g = g.parent
+        level -= 1
+
+    g.switch(value)
+
+
+def Genlet(func):
+    class TheGenlet(genlet):
+        fn = (func,)
+    return TheGenlet
+
+# ____________________________________________________________
+
+
+def g1(n, seen):
+    for i in range(n):
+        seen.append(i + 1)
+        yield i
+
+
+def g2(n, seen):
+    for i in range(n):
+        seen.append(i + 1)
+        Yield(i)
+
+g2 = Genlet(g2)
+
+
+def nested(i):
+    Yield(i)
+
+
+def g3(n, seen):
+    for i in range(n):
+        seen.append(i + 1)
+        nested(i)
+g3 = Genlet(g3)
+
+
+def a(n):
+    if n == 0:
+        return
+    for ii in ax(n - 1):
+        Yield(ii)
+    Yield(n)
+ax = Genlet(a)
+
+
+def perms(l):
+    if len(l) > 1:
+        for e in l:
+            # No syntactical sugar for generator expressions
+            x = [Yield([e] + p) f
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_greenlet.py
+
+```python
+import gc
+import sys
+import time
+import threading
+import unittest
+
+from abc import ABCMeta
+from abc import abstractmethod
+
+import greenlet
+from greenlet import greenlet as RawGreenlet
+from . import TestCase
+from . import RUNNING_ON_MANYLINUX
+from . import PY313
+from . import PY314
+from . import RUNNING_ON_FREETHREAD_BUILD
+from .leakcheck import fails_leakcheck
+
+
+# We manually manage locks in many tests
+# pylint:disable=consider-using-with
+# pylint:disable=too-many-public-methods
+# This module is quite large.
+# TODO: Refactor into separate test files. For example,
+# put all the regression tests that used to produce
+# crashes in test_greenlet_no_crash; put tests that DO deliberately crash
+# the interpreter into test_greenlet_crash.
+# pylint:disable=too-many-lines
+
+class SomeError(Exception):
+    pass
+
+
+def fmain(seen):
+    try:
+        greenlet.getcurrent().parent.switch()
+    except:
+        seen.append(sys.exc_info()[0])
+        raise
+    raise SomeError
+
+
+def send_exception(g, exc):
+    # note: send_exception(g, exc)  can be now done with  g.throw(exc).
+    # the purpose of this test is to explicitly check the propagation rules.
+    def crasher(exc):
+        raise exc
+    g1 = RawGreenlet(crasher, parent=g)
+    g1.switch(exc)
+
+
+class TestGreenlet(TestCase):
+
+    def _do_simple_test(self):
+        lst = []
+
+        def f():
+            lst.append(1)
+            greenlet.getcurrent().parent.switch()
+            lst.append(3)
+        g = RawGreenlet(f)
+        lst.append(0)
+        g.switch()
+        lst.append(2)
+        g.switch()
+        lst.append(4)
+        self.assertEqual(lst, list(range(5)))
+
+    def test_simple(self):
+        self._do_simple_test()
+
+    def test_switch_no_run_raises_AttributeError(self):
+        g = RawGreenlet()
+        with self.assertRaises(AttributeError) as exc:
+            g.switch()
+
+        self.assertIn("run", str(exc.exception))
+
+    def test_throw_no_run_raises_AttributeError(self):
+        g = RawGreenlet()
+        with self.asser
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_greenlet_trash.py
+
+```python
+# -*- coding: utf-8 -*-
+"""
+Tests for greenlets interacting with the CPython trash can API.
+
+The CPython trash can API is not designed to be re-entered from a
+single thread. But this can happen using greenlets, if something
+during the object deallocation process switches greenlets, and this second
+greenlet then causes the trash can to get entered again. Here, we do this
+very explicitly, but in other cases (like gevent) it could be arbitrarily more
+complicated: for example, a weakref callback might try to acquire a lock that's
+already held by another greenlet; that would allow a greenlet switch to occur.
+
+See https://github.com/gevent/gevent/issues/1909
+
+This test is fragile and relies on details of the CPython
+implementation (like most of the rest of this package):
+
+    - We enter the trashcan and deferred deallocation after
+      ``_PyTrash_UNWIND_LEVEL`` calls. This constant, defined in
+      CPython's object.c, is generally 50. That's basically how many objects are required to
+      get us into the deferred deallocation situation.
+
+    - The test fails by hitting an ``assert()`` in object.c; if the
+      build didn't enable assert, then we don't catch this.
+
+    - If the test fails in that way, the interpreter crashes.
+"""
+from __future__ import print_function, absolute_import, division
+
+import unittest
+
+
+class TestTrashCanReEnter(unittest.TestCase):
+
+    def test_it(self):
+        try:
+            # pylint:disable-next=no-name-in-module
+            from greenlet._greenlet import get_tstate_trash_delete_nesting # pylint:disable=unused-import
+        except ImportError:
+            import sys
+            # Python 3.13 has not "trash delete nesting" anymore (but "delete later")
+            assert sys.version_info[:2] >= (3, 13)
+            self.skipTest("get_tstate_trash_delete_nesting is not available.")
+
+        # Try several times to trigger it, because it isn't 100%
+        # reliable.
+        for _ in range(10):
+            self.check_it()
+
+    def check_it(se
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_interpreter_shutdown.py
+
+```python
+# -*- coding: utf-8 -*-
+"""
+Tests for greenlet behavior during interpreter shutdown (Py_FinalizeEx).
+
+Prior to the safe finalization fix, active greenlets being deallocated
+during interpreter shutdown could trigger SIGSEGV or SIGABRT on Python
+< 3.11, because green_dealloc attempted to throw GreenletExit via
+g_switch() into a partially-torn-down interpreter.
+
+The fix adds _Py_IsFinalizing() guards (on Python < 3.11 only) that
+call murder_in_place() instead of g_switch() when the interpreter is
+shutting down, avoiding the crash at the cost of not running cleanup
+code inside the greenlet.
+
+These tests verify:
+  1. No crashes on ANY Python version (the core safety guarantee).
+  2. GreenletExit cleanup code runs correctly during normal thread exit
+     (the standard production path, e.g. uWSGI worker threads).
+"""
+import sys
+import subprocess
+import unittest
+import textwrap
+
+from greenlet.tests import TestCase
+
+
+class TestInterpreterShutdown(TestCase):
+
+    def _run_shutdown_script(self, script_body):
+        """
+        Run a Python script in a subprocess that exercises greenlet
+        during interpreter shutdown. Returns (returncode, stdout, stderr).
+        """
+        full_script = textwrap.dedent(script_body)
+        result = subprocess.run(
+            [sys.executable, '-c', full_script],
+            capture_output=True,
+            text=True,
+            timeout=30,
+            check=False,
+        )
+        return result.returncode, result.stdout, result.stderr
+
+    # -----------------------------------------------------------------
+    # Core safety tests: no crashes on any Python version
+    # -----------------------------------------------------------------
+
+    def test_active_greenlet_at_shutdown_no_crash(self):
+        """
+        An active (suspended) greenlet that is deallocated during
+        interpreter shutdown should not crash the process.
+
+        Before the fix, this would SIGSEGV on Python < 3.11 because
+        _green_dealloc_kill_started_non_ma
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_leaks.py
+
+```python
+# -*- coding: utf-8 -*-
+"""
+Testing scenarios that may have leaked.
+"""
+from __future__ import print_function, absolute_import, division
+
+import sys
+import gc
+
+import time
+import weakref
+import threading
+
+
+import greenlet
+from . import TestCase
+from . import PY314
+from . import RUNNING_ON_FREETHREAD_BUILD
+from . import WIN
+from .leakcheck import fails_leakcheck
+from .leakcheck import ignores_leakcheck
+from .leakcheck import RUNNING_ON_MANYLINUX
+
+
+# pylint:disable=protected-access
+
+assert greenlet.GREENLET_USE_GC # Option to disable this was removed in 1.0
+
+class HasFinalizerTracksInstances(object):
+    EXTANT_INSTANCES = set()
+    def __init__(self, msg):
+        self.msg = sys.intern(msg)
+        self.EXTANT_INSTANCES.add(id(self))
+    def __del__(self):
+        self.EXTANT_INSTANCES.remove(id(self))
+    def __repr__(self):
+        return "<HasFinalizerTracksInstances at 0x%x %r>" % (
+            id(self), self.msg
+        )
+    @classmethod
+    def reset(cls):
+        cls.EXTANT_INSTANCES.clear()
+
+
+def fails_leakcheck_except_on_free_thraded(func):
+    if RUNNING_ON_FREETHREAD_BUILD:
+        # These all seem to pass on free threading because
+        # of the changes to the garbage collector
+        return func
+    return fails_leakcheck(func)
+
+
+class TestLeaks(TestCase):
+
+    def test_arg_refs(self):
+        args = ('a', 'b', 'c')
+        refcount_before = sys.getrefcount(args)
+        # pylint:disable=unnecessary-lambda
+        g = greenlet.greenlet(
+            lambda *args: greenlet.getcurrent().parent.switch(*args))
+        for _ in range(100):
+            g.switch(*args)
+        self.assertEqual(sys.getrefcount(args), refcount_before)
+
+    def test_kwarg_refs(self):
+        kwargs = {}
+        self.assertEqual(sys.getrefcount(kwargs), 2 if not PY314 else 1)
+        # pylint:disable=unnecessary-lambda
+        g = greenlet.greenlet(
+            lambda **gkwargs: greenlet.getcurrent().parent.switch(**gkwargs))
+        for _ in range(100):
+            g.switch(**k
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_stack_saved.py
+
+```python
+import greenlet
+from . import TestCase
+
+
+class Test(TestCase):
+
+    def test_stack_saved(self):
+        main = greenlet.getcurrent()
+        self.assertEqual(main._stack_saved, 0)
+
+        def func():
+            main.switch(main._stack_saved)
+
+        g = greenlet.greenlet(func)
+        x = g.switch()
+        self.assertGreater(x, 0)
+        self.assertGreater(g._stack_saved, 0)
+        g.switch()
+        self.assertEqual(g._stack_saved, 0)
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_throw.py
+
+```python
+import sys
+
+
+from greenlet import greenlet
+from . import TestCase
+
+def switch(*args):
+    return greenlet.getcurrent().parent.switch(*args)
+
+
+class ThrowTests(TestCase):
+    def test_class(self):
+        def f():
+            try:
+                switch("ok")
+            except RuntimeError:
+                switch("ok")
+                return
+            switch("fail")
+        g = greenlet(f)
+        res = g.switch()
+        self.assertEqual(res, "ok")
+        res = g.throw(RuntimeError)
+        self.assertEqual(res, "ok")
+
+    def test_val(self):
+        def f():
+            try:
+                switch("ok")
+            except RuntimeError:
+                val = sys.exc_info()[1]
+                if str(val) == "ciao":
+                    switch("ok")
+                    return
+            switch("fail")
+
+        g = greenlet(f)
+        res = g.switch()
+        self.assertEqual(res, "ok")
+        res = g.throw(RuntimeError("ciao"))
+        self.assertEqual(res, "ok")
+
+        g = greenlet(f)
+        res = g.switch()
+        self.assertEqual(res, "ok")
+        res = g.throw(RuntimeError, "ciao")
+        self.assertEqual(res, "ok")
+
+    def test_kill(self):
+        def f():
+            switch("ok")
+            switch("fail")
+        g = greenlet(f)
+        res = g.switch()
+        self.assertEqual(res, "ok")
+        res = g.throw()
+        self.assertTrue(isinstance(res, greenlet.GreenletExit))
+        self.assertTrue(g.dead)
+        res = g.throw()    # immediately eaten by the already-dead greenlet
+        self.assertTrue(isinstance(res, greenlet.GreenletExit))
+
+    def test_throw_goes_to_original_parent(self):
+        main = greenlet.getcurrent()
+
+        def f1():
+            try:
+                main.switch("f1 ready to catch")
+            except IndexError:
+                return "caught"
+            return "normal exit"
+
+        def f2():
+            main.switch("from f2")
+
+        g1 = greenlet(f1)
+        g2 = greenlet(f2, parent=g1)
+        with self.assertRa
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_tracing.py
+
+```python
+from __future__ import print_function
+import sys
+import sysconfig
+import greenlet
+import unittest
+
+from . import TestCase
+from . import PY312
+
+# https://discuss.python.org/t/cpython-3-12-greenlet-and-tracing-profiling-how-to-not-crash-and-get-correct-results/33144/2
+# When build variables are available, OPT is the best way of detecting
+# the build with assertions enabled. Otherwise, fallback to detecting PyDEBUG
+# build.
+ASSERTION_BUILD_PY312 = (
+    PY312 and (
+        "-DNDEBUG" not in sysconfig.get_config_var("OPT").split()
+        if sysconfig.get_config_var("OPT") is not None
+        else hasattr(sys, 'gettotalrefcount')
+    ),
+    "Broken on assertion-enabled builds of Python 3.12"
+)
+
+class SomeError(Exception):
+    pass
+
+class GreenletTracer(object):
+    oldtrace = None
+
+    def __init__(self, error_on_trace=False):
+        self.actions = []
+        self.error_on_trace = error_on_trace
+
+    def __call__(self, *args):
+        self.actions.append(args)
+        if self.error_on_trace:
+            raise SomeError
+
+    def __enter__(self):
+        self.oldtrace = greenlet.settrace(self)
+        return self.actions
+
+    def __exit__(self, *args):
+        greenlet.settrace(self.oldtrace)
+
+
+class TestGreenletTracing(TestCase):
+    """
+    Tests of ``greenlet.settrace()``
+    """
+
+    def test_a_greenlet_tracing(self):
+        main = greenlet.getcurrent()
+        def dummy():
+            pass
+        def dummyexc():
+            raise SomeError()
+
+        with GreenletTracer() as actions:
+            g1 = greenlet.greenlet(dummy)
+            g1.switch()
+            g2 = greenlet.greenlet(dummyexc)
+            self.assertRaises(SomeError, g2.switch)
+
+        self.assertEqual(actions, [
+            ('switch', (main, g1)),
+            ('switch', (g1, main)),
+            ('switch', (main, g2)),
+            ('throw', (g2, main)),
+        ])
+
+    def test_b_exception_disables_tracing(self):
+        main = greenlet.getcurrent()
+        def dummy():
+            main.switch()
+ 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_version.py
+
+```python
+#! /usr/bin/env python
+from __future__ import absolute_import
+from __future__ import print_function
+
+import sys
+import os
+from unittest import TestCase as NonLeakingTestCase
+
+import greenlet
+
+# No reason to run this multiple times under leakchecks,
+# it doesn't do anything.
+class VersionTests(NonLeakingTestCase):
+    def test_version(self):
+        def find_dominating_file(name):
+            if os.path.exists(name):
+                return name
+
+            tried = []
+            here = os.path.abspath(os.path.dirname(__file__))
+            for i in range(10):
+                up = ['..'] * i
+                path = [here] + up + [name]
+                fname = os.path.join(*path)
+                fname = os.path.abspath(fname)
+                tried.append(fname)
+                if os.path.exists(fname):
+                    return fname
+            raise AssertionError("Could not find file " + name + "; checked " + str(tried))
+
+        try:
+            setup_py = find_dominating_file('setup.py')
+        except AssertionError as e:
+            self.skipTest("Unable to find setup.py; must be out of tree. " + str(e))
+
+
+        invoke_setup = "%s %s --version" % (sys.executable, setup_py)
+        with os.popen(invoke_setup) as f:
+            sversion = f.read().strip()
+
+        self.assertEqual(sversion, greenlet.__version__)
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/greenlet/tests/test_weakref.py
+
+```python
+import gc
+import weakref
+
+
+import greenlet
+from . import TestCase
+
+class WeakRefTests(TestCase):
+    def test_dead_weakref(self):
+        def _dead_greenlet():
+            g = greenlet.greenlet(lambda: None)
+            g.switch()
+            return g
+        o = weakref.ref(_dead_greenlet())
+        gc.collect()
+        self.assertEqual(o(), None)
+
+    def test_inactive_weakref(self):
+        o = weakref.ref(greenlet.greenlet())
+        gc.collect()
+        self.assertEqual(o(), None)
+
+    def test_dealloc_weakref(self):
+        seen = []
+        def worker():
+            try:
+                greenlet.getcurrent().parent.switch()
+            finally:
+                seen.append(g())
+        g = greenlet.greenlet(worker)
+        g.switch()
+        g2 = greenlet.greenlet(lambda: None, g)
+        g = weakref.ref(g2)
+        g2 = None
+        self.assertEqual(seen, [None])
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/__init__.py
+
+```python
+# __init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Any
+
+from . import util as _util
+from .engine import AdaptedConnection as AdaptedConnection
+from .engine import BaseRow as BaseRow
+from .engine import BindTyping as BindTyping
+from .engine import ChunkedIteratorResult as ChunkedIteratorResult
+from .engine import Compiled as Compiled
+from .engine import Connection as Connection
+from .engine import create_engine as create_engine
+from .engine import create_mock_engine as create_mock_engine
+from .engine import create_pool_from_url as create_pool_from_url
+from .engine import CreateEnginePlugin as CreateEnginePlugin
+from .engine import CursorResult as CursorResult
+from .engine import Dialect as Dialect
+from .engine import Engine as Engine
+from .engine import engine_from_config as engine_from_config
+from .engine import ExceptionContext as ExceptionContext
+from .engine import ExecutionContext as ExecutionContext
+from .engine import FrozenResult as FrozenResult
+from .engine import Inspector as Inspector
+from .engine import IteratorResult as IteratorResult
+from .engine import make_url as make_url
+from .engine import MappingResult as MappingResult
+from .engine import MergedResult as MergedResult
+from .engine import NestedTransaction as NestedTransaction
+from .engine import Result as Result
+from .engine import result_tuple as result_tuple
+from .engine import ResultProxy as ResultProxy
+from .engine import RootTransaction as RootTransaction
+from .engine import Row as Row
+from .engine import RowMapping as RowMapping
+from .engine import ScalarResult as ScalarResult
+from .engine import Transaction as Transaction
+from .engine import TwoPhaseTransaction as TwoPhaseTransaction
+from .engine import TypeCompiler as TypeCompiler
+from .engine import URL as U
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/events.py
+
+```python
+# events.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Core event interfaces."""
+
+from __future__ import annotations
+
+from .engine.events import ConnectionEvents
+from .engine.events import DialectEvents
+from .pool import PoolResetState
+from .pool.events import PoolEvents
+from .sql.base import SchemaEventTarget
+from .sql.events import DDLEvents
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/exc.py
+
+```python
+# exc.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Exceptions used with SQLAlchemy.
+
+The base exception class is :exc:`.SQLAlchemyError`.  Exceptions which are
+raised as a result of DBAPI exceptions are all subclasses of
+:exc:`.DBAPIError`.
+
+"""
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import List
+from typing import Optional
+from typing import overload
+from typing import Tuple
+from typing import Type
+from typing import Union
+
+from .util import compat
+from .util import preloaded as _preloaded
+
+if typing.TYPE_CHECKING:
+    from .engine.interfaces import _AnyExecuteParams
+    from .engine.interfaces import Dialect
+    from .sql.compiler import Compiled
+    from .sql.compiler import TypeCompiler
+    from .sql.elements import ClauseElement
+
+if typing.TYPE_CHECKING:
+    _version_token: str
+else:
+    # set by __init__.py
+    _version_token = None
+
+
+class HasDescriptionCode:
+    """helper which adds 'code' as an attribute and '_code_str' as a method"""
+
+    code: Optional[str] = None
+
+    def __init__(self, *arg: Any, **kw: Any):
+        code = kw.pop("code", None)
+        if code is not None:
+            self.code = code
+        super().__init__(*arg, **kw)
+
+    _what_are_we = "error"
+
+    def _code_str(self) -> str:
+        if not self.code:
+            return ""
+        else:
+            return (
+                f"(Background on this {self._what_are_we} at: "
+                f"https://sqlalche.me/e/{_version_token}/{self.code})"
+            )
+
+    def __str__(self) -> str:
+        message = super().__str__()
+        if self.code:
+            message = "%s %s" % (message, self._code_str())
+        return message
+
+
+class SQLAlchemyError(HasDescriptionCode, Exception):
+    """Generic error class."""
+
+    def _message(self) -> str:
+        # rules:
+      
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/inspection.py
+
+```python
+# inspection.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""The inspection module provides the :func:`_sa.inspect` function,
+which delivers runtime information about a wide variety
+of SQLAlchemy objects, both within the Core as well as the
+ORM.
+
+The :func:`_sa.inspect` function is the entry point to SQLAlchemy's
+public API for viewing the configuration and construction
+of in-memory objects.   Depending on the type of object
+passed to :func:`_sa.inspect`, the return value will either be
+a related object which provides a known interface, or in many
+cases it will return the object itself.
+
+The rationale for :func:`_sa.inspect` is twofold.  One is that
+it replaces the need to be aware of a large variety of "information
+getting" functions in SQLAlchemy, such as
+:meth:`_reflection.Inspector.from_engine` (deprecated in 1.4),
+:func:`.orm.attributes.instance_state`, :func:`_orm.class_mapper`,
+and others.    The other is that the return value of :func:`_sa.inspect`
+is guaranteed to obey a documented API, thus allowing third party
+tools which build on top of SQLAlchemy configurations to be constructed
+in a forwards-compatible way.
+
+"""
+from __future__ import annotations
+
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import Generic
+from typing import Optional
+from typing import overload
+from typing import Type
+from typing import TypeVar
+from typing import Union
+
+from . import exc
+from .util.typing import Literal
+from .util.typing import Protocol
+
+_T = TypeVar("_T", bound=Any)
+_TCov = TypeVar("_TCov", bound=Any, covariant=True)
+_F = TypeVar("_F", bound=Callable[..., Any])
+
+_IN = TypeVar("_IN", bound=Any)
+
+_registrars: Dict[type, Union[Literal[True], Callable[[Any], Any]]] = {}
+
+
+class Inspectable(Generic[_T]):
+    """define a class as inspectable.
+
+    This allows
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/log.py
+
+```python
+# log.py
+# Copyright (C) 2006-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+# Includes alterations by Vinay Sajip vinay_sajip@yahoo.co.uk
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Logging control and utilities.
+
+Control of logging for SA can be performed from the regular python logging
+module.  The regular dotted module namespace is used, starting at
+'sqlalchemy'.  For class-level logging, the class name is appended.
+
+The "echo" keyword parameter, available on SQLA :class:`_engine.Engine`
+and :class:`_pool.Pool` objects, corresponds to a logger specific to that
+instance only.
+
+"""
+from __future__ import annotations
+
+import logging
+import sys
+from typing import Any
+from typing import Optional
+from typing import overload
+from typing import Set
+from typing import Type
+from typing import TypeVar
+from typing import Union
+
+from .util import py311
+from .util import py38
+from .util.typing import Literal
+
+
+if py38:
+    STACKLEVEL = True
+    # needed as of py3.11.0b1
+    # #8019
+    STACKLEVEL_OFFSET = 2 if py311 else 1
+else:
+    STACKLEVEL = False
+    STACKLEVEL_OFFSET = 0
+
+_IT = TypeVar("_IT", bound="Identified")
+
+_EchoFlagType = Union[None, bool, Literal["debug"]]
+
+# set initial level to WARN.  This so that
+# log statements don't occur in the absence of explicit
+# logging being enabled for 'sqlalchemy'.
+rootlogger = logging.getLogger("sqlalchemy")
+if rootlogger.level == logging.NOTSET:
+    rootlogger.setLevel(logging.WARN)
+
+
+def _add_default_handler(logger: logging.Logger) -> None:
+    handler = logging.StreamHandler(sys.stdout)
+    handler.setFormatter(
+        logging.Formatter("%(asctime)s %(levelname)s %(name)s %(message)s")
+    )
+    logger.addHandler(handler)
+
+
+_logged_classes: Set[Type[Identified]] = set()
+
+
+def _qual_logger_name_for_cls(cls: Type[Identified]) -> str:
+    return (
+        getattr(cls, "_sqla_logger_namespace", None)
+        or cls.__modul
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/schema.py
+
+```python
+# schema.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Compatibility namespace for sqlalchemy.sql.schema and related."""
+
+from __future__ import annotations
+
+from .sql.base import SchemaVisitor as SchemaVisitor
+from .sql.ddl import _CreateDropBase as _CreateDropBase
+from .sql.ddl import _DropView as _DropView
+from .sql.ddl import AddConstraint as AddConstraint
+from .sql.ddl import BaseDDLElement as BaseDDLElement
+from .sql.ddl import CreateColumn as CreateColumn
+from .sql.ddl import CreateIndex as CreateIndex
+from .sql.ddl import CreateSchema as CreateSchema
+from .sql.ddl import CreateSequence as CreateSequence
+from .sql.ddl import CreateTable as CreateTable
+from .sql.ddl import DDL as DDL
+from .sql.ddl import DDLElement as DDLElement
+from .sql.ddl import DropColumnComment as DropColumnComment
+from .sql.ddl import DropConstraint as DropConstraint
+from .sql.ddl import DropConstraintComment as DropConstraintComment
+from .sql.ddl import DropIndex as DropIndex
+from .sql.ddl import DropSchema as DropSchema
+from .sql.ddl import DropSequence as DropSequence
+from .sql.ddl import DropTable as DropTable
+from .sql.ddl import DropTableComment as DropTableComment
+from .sql.ddl import ExecutableDDLElement as ExecutableDDLElement
+from .sql.ddl import InvokeDDLBase as InvokeDDLBase
+from .sql.ddl import SetColumnComment as SetColumnComment
+from .sql.ddl import SetConstraintComment as SetConstraintComment
+from .sql.ddl import SetTableComment as SetTableComment
+from .sql.ddl import sort_tables as sort_tables
+from .sql.ddl import (
+    sort_tables_and_constraints as sort_tables_and_constraints,
+)
+from .sql.naming import conv as conv
+from .sql.schema import _get_table_key as _get_table_key
+from .sql.schema import BLANK_SCHEMA as BLANK_SCHEMA
+from .sql.schema import CheckConstraint as CheckConstraint
+from .sql.s
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/types.py
+
+```python
+# types.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Compatibility namespace for sqlalchemy.sql.types."""
+
+
+from __future__ import annotations
+
+from .sql.sqltypes import _Binary as _Binary
+from .sql.sqltypes import ARRAY as ARRAY
+from .sql.sqltypes import BIGINT as BIGINT
+from .sql.sqltypes import BigInteger as BigInteger
+from .sql.sqltypes import BINARY as BINARY
+from .sql.sqltypes import BLOB as BLOB
+from .sql.sqltypes import BOOLEAN as BOOLEAN
+from .sql.sqltypes import Boolean as Boolean
+from .sql.sqltypes import CHAR as CHAR
+from .sql.sqltypes import CLOB as CLOB
+from .sql.sqltypes import Concatenable as Concatenable
+from .sql.sqltypes import DATE as DATE
+from .sql.sqltypes import Date as Date
+from .sql.sqltypes import DATETIME as DATETIME
+from .sql.sqltypes import DateTime as DateTime
+from .sql.sqltypes import DECIMAL as DECIMAL
+from .sql.sqltypes import DOUBLE as DOUBLE
+from .sql.sqltypes import Double as Double
+from .sql.sqltypes import DOUBLE_PRECISION as DOUBLE_PRECISION
+from .sql.sqltypes import Enum as Enum
+from .sql.sqltypes import FLOAT as FLOAT
+from .sql.sqltypes import Float as Float
+from .sql.sqltypes import Indexable as Indexable
+from .sql.sqltypes import INT as INT
+from .sql.sqltypes import INTEGER as INTEGER
+from .sql.sqltypes import Integer as Integer
+from .sql.sqltypes import Interval as Interval
+from .sql.sqltypes import JSON as JSON
+from .sql.sqltypes import LargeBinary as LargeBinary
+from .sql.sqltypes import MatchType as MatchType
+from .sql.sqltypes import NCHAR as NCHAR
+from .sql.sqltypes import NULLTYPE as NULLTYPE
+from .sql.sqltypes import NullType as NullType
+from .sql.sqltypes import NUMERIC as NUMERIC
+from .sql.sqltypes import Numeric as Numeric
+from .sql.sqltypes import NVARCHAR as NVARCHAR
+from .sql.sqltypes import PickleType as PickleType
+from .sql.sqltype
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/connectors/__init__.py
+
+```python
+# connectors/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+from ..engine.interfaces import Dialect
+
+
+class Connector(Dialect):
+    """Base class for dialect mixins, for DBAPIs that work
+    across entirely different database backends.
+
+    Currently the only such mixin is pyodbc.
+
+    """
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/connectors/aioodbc.py
+
+```python
+# connectors/aioodbc.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
+from .asyncio import AsyncAdapt_dbapi_connection
+from .asyncio import AsyncAdapt_dbapi_cursor
+from .asyncio import AsyncAdapt_dbapi_ss_cursor
+from .asyncio import AsyncAdaptFallback_dbapi_connection
+from .pyodbc import PyODBCConnector
+from .. import pool
+from .. import util
+from ..util.concurrency import await_fallback
+from ..util.concurrency import await_only
+
+
+if TYPE_CHECKING:
+    from ..engine.interfaces import ConnectArgsType
+    from ..engine.url import URL
+
+
+class AsyncAdapt_aioodbc_cursor(AsyncAdapt_dbapi_cursor):
+    __slots__ = ()
+
+    def setinputsizes(self, *inputsizes):
+        # see https://github.com/aio-libs/aioodbc/issues/451
+        return self._cursor._impl.setinputsizes(*inputsizes)
+
+        # how it's supposed to work
+        # return self.await_(self._cursor.setinputsizes(*inputsizes))
+
+
+class AsyncAdapt_aioodbc_ss_cursor(
+    AsyncAdapt_aioodbc_cursor, AsyncAdapt_dbapi_ss_cursor
+):
+    __slots__ = ()
+
+
+class AsyncAdapt_aioodbc_connection(AsyncAdapt_dbapi_connection):
+    _cursor_cls = AsyncAdapt_aioodbc_cursor
+    _ss_cursor_cls = AsyncAdapt_aioodbc_ss_cursor
+    __slots__ = ()
+
+    @property
+    def autocommit(self):
+        return self._connection.autocommit
+
+    @autocommit.setter
+    def autocommit(self, value):
+        # https://github.com/aio-libs/aioodbc/issues/448
+        # self._connection.autocommit = value
+
+        self._connection._conn.autocommit = value
+
+    def ping(self, reconnect):
+        return self.await_(self._connection.ping(reconnect))
+
+    def add_output_converter(self, *arg, **kw):
+        self._connection.add_output_converter(*arg, **kw)
+
+    def character_set_name(self):
+        return se
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/connectors/asyncio.py
+
+```python
+# connectors/asyncio.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""generic asyncio-adapted versions of DBAPI connection and cursor"""
+
+from __future__ import annotations
+
+import asyncio
+import collections
+import sys
+from typing import Any
+from typing import AsyncIterator
+from typing import Deque
+from typing import Iterator
+from typing import NoReturn
+from typing import Optional
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+
+from ..engine import AdaptedConnection
+from ..util import EMPTY_DICT
+from ..util.concurrency import await_fallback
+from ..util.concurrency import await_only
+from ..util.concurrency import in_greenlet
+from ..util.typing import Protocol
+
+if TYPE_CHECKING:
+    from ..engine.interfaces import _DBAPICursorDescription
+    from ..engine.interfaces import _DBAPIMultiExecuteParams
+    from ..engine.interfaces import _DBAPISingleExecuteParams
+    from ..engine.interfaces import DBAPIModule
+    from ..util.typing import Self
+
+
+class AsyncIODBAPIConnection(Protocol):
+    """protocol representing an async adapted version of a
+    :pep:`249` database connection.
+
+
+    """
+
+    # note that async DBAPIs dont agree if close() should be awaitable,
+    # so it is omitted here and picked up by the __getattr__ hook below
+
+    async def commit(self) -> None: ...
+
+    def cursor(self, *args: Any, **kwargs: Any) -> AsyncIODBAPICursor: ...
+
+    async def rollback(self) -> None: ...
+
+    def __getattr__(self, key: str) -> Any: ...
+
+    def __setattr__(self, key: str, value: Any) -> None: ...
+
+
+class AsyncIODBAPICursor(Protocol):
+    """protocol representing an async adapted version
+    of a :pep:`249` database cursor.
+
+
+    """
+
+    def __aenter__(self) -> Any: ...
+
+    @property
+    def description(
+        self,
+    ) -> _DBAPICurs
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/connectors/pyodbc.py
+
+```python
+# connectors/pyodbc.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import re
+import typing
+from typing import Any
+from typing import Dict
+from typing import List
+from typing import Optional
+from typing import Tuple
+from typing import Union
+from urllib.parse import unquote_plus
+
+from . import Connector
+from .. import ExecutionContext
+from .. import pool
+from .. import util
+from ..engine import ConnectArgsType
+from ..engine import Connection
+from ..engine import interfaces
+from ..engine import URL
+from ..sql.type_api import TypeEngine
+
+if typing.TYPE_CHECKING:
+    from ..engine.interfaces import DBAPIModule
+    from ..engine.interfaces import IsolationLevel
+
+
+class PyODBCConnector(Connector):
+    driver = "pyodbc"
+
+    # this is no longer False for pyodbc in general
+    supports_sane_rowcount_returning = True
+    supports_sane_multi_rowcount = False
+
+    supports_native_decimal = True
+    default_paramstyle = "named"
+
+    fast_executemany = False
+
+    # for non-DSN connections, this *may* be used to
+    # hold the desired driver name
+    pyodbc_driver_name: Optional[str] = None
+
+    def __init__(self, use_setinputsizes: bool = False, **kw: Any):
+        super().__init__(**kw)
+        if use_setinputsizes:
+            self.bind_typing = interfaces.BindTyping.SETINPUTSIZES
+
+    @classmethod
+    def import_dbapi(cls) -> DBAPIModule:
+        return __import__("pyodbc")
+
+    def create_connect_args(self, url: URL) -> ConnectArgsType:
+        opts = url.translate_connect_args(username="user")
+        opts.update(url.query)
+
+        keys = opts
+
+        query = url.query
+
+        connect_args: Dict[str, Any] = {}
+        connectors: List[str]
+
+        for param in ("ansi", "unicode_results", "autocommit"):
+            if param in keys:
+                connect_args[par
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/cyextension/__init__.py
+
+```python
+# cyextension/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/__init__.py
+
+```python
+# dialects/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Callable
+from typing import Optional
+from typing import Type
+from typing import TYPE_CHECKING
+
+from .. import util
+
+if TYPE_CHECKING:
+    from ..engine.interfaces import Dialect
+
+__all__ = ("mssql", "mysql", "oracle", "postgresql", "sqlite")
+
+
+def _auto_fn(name: str) -> Optional[Callable[[], Type[Dialect]]]:
+    """default dialect importer.
+
+    plugs into the :class:`.PluginLoader`
+    as a first-hit system.
+
+    """
+    if "." in name:
+        dialect, driver = name.split(".")
+    else:
+        dialect = name
+        driver = "base"
+
+    try:
+        if dialect == "mariadb":
+            # it's "OK" for us to hardcode here since _auto_fn is already
+            # hardcoded.   if mysql / mariadb etc were third party dialects
+            # they would just publish all the entrypoints, which would actually
+            # look much nicer.
+            module: Any = __import__(
+                "sqlalchemy.dialects.mysql.mariadb"
+            ).dialects.mysql.mariadb
+            return module.loader(driver)  # type: ignore
+        else:
+            module = __import__("sqlalchemy.dialects.%s" % (dialect,)).dialects
+            module = getattr(module, dialect)
+    except ImportError:
+        return None
+
+    if hasattr(module, driver):
+        module = getattr(module, driver)
+        return lambda: module.dialect
+    else:
+        return None
+
+
+registry = util.PluginLoader("sqlalchemy.dialects", auto_fn=_auto_fn)
+
+plugins = util.PluginLoader("sqlalchemy.plugins")
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/_typing.py
+
+```python
+# dialects/_typing.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+from typing import Any
+from typing import Iterable
+from typing import Mapping
+from typing import Optional
+from typing import Union
+
+from ..sql import roles
+from ..sql.base import ColumnCollection
+from ..sql.schema import Column
+from ..sql.schema import ColumnCollectionConstraint
+from ..sql.schema import Index
+
+
+_OnConflictConstraintT = Union[str, ColumnCollectionConstraint, Index, None]
+_OnConflictIndexElementsT = Optional[
+    Iterable[Union[Column[Any], str, roles.DDLConstraintColumnRole]]
+]
+_OnConflictIndexWhereT = Optional[roles.WhereHavingRole]
+_OnConflictSetT = Optional[
+    Union[Mapping[Any, Any], ColumnCollection[Any, Any]]
+]
+_OnConflictWhereT = Optional[roles.WhereHavingRole]
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mssql/__init__.py
+
+```python
+# dialects/mssql/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from . import aioodbc  # noqa
+from . import base  # noqa
+from . import pymssql  # noqa
+from . import pyodbc  # noqa
+from .base import BIGINT
+from .base import BINARY
+from .base import BIT
+from .base import CHAR
+from .base import DATE
+from .base import DATETIME
+from .base import DATETIME2
+from .base import DATETIMEOFFSET
+from .base import DECIMAL
+from .base import DOUBLE_PRECISION
+from .base import FLOAT
+from .base import IMAGE
+from .base import INTEGER
+from .base import JSON
+from .base import MONEY
+from .base import NCHAR
+from .base import NTEXT
+from .base import NUMERIC
+from .base import NVARCHAR
+from .base import REAL
+from .base import ROWVERSION
+from .base import SMALLDATETIME
+from .base import SMALLINT
+from .base import SMALLMONEY
+from .base import SQL_VARIANT
+from .base import TEXT
+from .base import TIME
+from .base import TIMESTAMP
+from .base import TINYINT
+from .base import UNIQUEIDENTIFIER
+from .base import VARBINARY
+from .base import VARCHAR
+from .base import XML
+from ...sql import try_cast
+
+
+base.dialect = dialect = pyodbc.dialect
+
+
+__all__ = (
+    "JSON",
+    "INTEGER",
+    "BIGINT",
+    "SMALLINT",
+    "TINYINT",
+    "VARCHAR",
+    "NVARCHAR",
+    "CHAR",
+    "NCHAR",
+    "TEXT",
+    "NTEXT",
+    "DECIMAL",
+    "NUMERIC",
+    "FLOAT",
+    "DATETIME",
+    "DATETIME2",
+    "DATETIMEOFFSET",
+    "DATE",
+    "DOUBLE_PRECISION",
+    "TIME",
+    "SMALLDATETIME",
+    "BINARY",
+    "VARBINARY",
+    "BIT",
+    "REAL",
+    "IMAGE",
+    "TIMESTAMP",
+    "ROWVERSION",
+    "MONEY",
+    "SMALLMONEY",
+    "UNIQUEIDENTIFIER",
+    "SQL_VARIANT",
+    "XML",
+    "dialect",
+    "try_cast",
+)
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mssql/aioodbc.py
+
+```python
+# dialects/mssql/aioodbc.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+r"""
+.. dialect:: mssql+aioodbc
+    :name: aioodbc
+    :dbapi: aioodbc
+    :connectstring: mssql+aioodbc://<username>:<password>@<dsnname>
+    :url: https://pypi.org/project/aioodbc/
+
+
+Support for the SQL Server database in asyncio style, using the aioodbc
+driver which itself is a thread-wrapper around pyodbc.
+
+.. versionadded:: 2.0.23  Added the mssql+aioodbc dialect which builds
+   on top of the pyodbc and general aio* dialect architecture.
+
+Using a special asyncio mediation layer, the aioodbc dialect is usable
+as the backend for the :ref:`SQLAlchemy asyncio <asyncio_toplevel>`
+extension package.
+
+Most behaviors and caveats for this driver are the same as that of the
+pyodbc dialect used on SQL Server; see :ref:`mssql_pyodbc` for general
+background.
+
+This dialect should normally be used only with the
+:func:`_asyncio.create_async_engine` engine creation function; connection
+styles are otherwise equivalent to those documented in the pyodbc section::
+
+    from sqlalchemy.ext.asyncio import create_async_engine
+
+    engine = create_async_engine(
+        "mssql+aioodbc://scott:tiger@mssql2017:1433/test?"
+        "driver=ODBC+Driver+18+for+SQL+Server&TrustServerCertificate=yes"
+    )
+
+"""
+
+from __future__ import annotations
+
+from .pyodbc import MSDialect_pyodbc
+from .pyodbc import MSExecutionContext_pyodbc
+from ...connectors.aioodbc import aiodbcConnector
+
+
+class MSExecutionContext_aioodbc(MSExecutionContext_pyodbc):
+    def create_server_side_cursor(self):
+        return self._dbapi_connection.cursor(server_side=True)
+
+
+class MSDialectAsync_aioodbc(aiodbcConnector, MSDialect_pyodbc):
+    driver = "aioodbc"
+
+    supports_statement_cache = True
+
+    execution_ctx_cls = MSExecutionContext_aioodbc
+
+
+dialect = MS
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mssql/base.py
+
+```python
+# dialects/mssql/base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+"""
+.. dialect:: mssql
+    :name: Microsoft SQL Server
+    :normal_support: 2012+
+    :best_effort: 2005+
+
+.. _mssql_external_dialects:
+
+External Dialects
+-----------------
+
+In addition to the above DBAPI layers with native SQLAlchemy support, there
+are third-party dialects for other DBAPI layers that are compatible
+with SQL Server. See the "External Dialects" list on the
+:ref:`dialect_toplevel` page.
+
+.. _mssql_identity:
+
+Auto Increment Behavior / IDENTITY Columns
+------------------------------------------
+
+SQL Server provides so-called "auto incrementing" behavior using the
+``IDENTITY`` construct, which can be placed on any single integer column in a
+table. SQLAlchemy considers ``IDENTITY`` within its default "autoincrement"
+behavior for an integer primary key column, described at
+:paramref:`_schema.Column.autoincrement`.  This means that by default,
+the first integer primary key column in a :class:`_schema.Table` will be
+considered to be the identity column - unless it is associated with a
+:class:`.Sequence` - and will generate DDL as such::
+
+    from sqlalchemy import Table, MetaData, Column, Integer
+
+    m = MetaData()
+    t = Table(
+        "t",
+        m,
+        Column("id", Integer, primary_key=True),
+        Column("x", Integer),
+    )
+    m.create_all(engine)
+
+The above example will generate DDL as:
+
+.. sourcecode:: sql
+
+    CREATE TABLE t (
+        id INTEGER NOT NULL IDENTITY,
+        x INTEGER NULL,
+        PRIMARY KEY (id)
+    )
+
+For the case where this default generation of ``IDENTITY`` is not desired,
+specify ``False`` for the :paramref:`_schema.Column.autoincrement` flag,
+on the first integer primary key column::
+
+    m = MetaData()
+    t = Table(
+        "t",
+        m,
+        Column("
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mssql/information_schema.py
+
+```python
+# dialects/mssql/information_schema.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from ... import cast
+from ... import Column
+from ... import MetaData
+from ... import Table
+from ...ext.compiler import compiles
+from ...sql import expression
+from ...types import Boolean
+from ...types import Integer
+from ...types import Numeric
+from ...types import NVARCHAR
+from ...types import String
+from ...types import TypeDecorator
+from ...types import Unicode
+
+
+ischema = MetaData()
+
+
+class CoerceUnicode(TypeDecorator):
+    impl = Unicode
+    cache_ok = True
+
+    def bind_expression(self, bindvalue):
+        return _cast_on_2005(bindvalue)
+
+
+class _cast_on_2005(expression.ColumnElement):
+    def __init__(self, bindvalue):
+        self.bindvalue = bindvalue
+
+
+@compiles(_cast_on_2005)
+def _compile(element, compiler, **kw):
+    from . import base
+
+    if (
+        compiler.dialect.server_version_info is None
+        or compiler.dialect.server_version_info < base.MS_2005_VERSION
+    ):
+        return compiler.process(element.bindvalue, **kw)
+    else:
+        return compiler.process(cast(element.bindvalue, Unicode), **kw)
+
+
+schemata = Table(
+    "SCHEMATA",
+    ischema,
+    Column("CATALOG_NAME", CoerceUnicode, key="catalog_name"),
+    Column("SCHEMA_NAME", CoerceUnicode, key="schema_name"),
+    Column("SCHEMA_OWNER", CoerceUnicode, key="schema_owner"),
+    schema="INFORMATION_SCHEMA",
+)
+
+tables = Table(
+    "TABLES",
+    ischema,
+    Column("TABLE_CATALOG", CoerceUnicode, key="table_catalog"),
+    Column("TABLE_SCHEMA", CoerceUnicode, key="table_schema"),
+    Column("TABLE_NAME", CoerceUnicode, key="table_name"),
+    Column("TABLE_TYPE", CoerceUnicode, key="table_type"),
+    schema="INFORMATION_SCHEMA",
+)
+
+columns = Table(
+    "COLUMNS",
+    ischema,
+    Column("TABLE_SCHEMA", CoerceUnicode
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mssql/json.py
+
+```python
+# dialects/mssql/json.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from ... import types as sqltypes
+
+# technically, all the dialect-specific datatypes that don't have any special
+# behaviors would be private with names like _MSJson. However, we haven't been
+# doing this for mysql.JSON or sqlite.JSON which both have JSON / JSONIndexType
+# / JSONPathType in their json.py files, so keep consistent with that
+# sub-convention for now.  A future change can update them all to be
+# package-private at once.
+
+
+class JSON(sqltypes.JSON):
+    """MSSQL JSON type.
+
+    MSSQL supports JSON-formatted data as of SQL Server 2016.
+
+    The :class:`_mssql.JSON` datatype at the DDL level will represent the
+    datatype as ``NVARCHAR(max)``, but provides for JSON-level comparison
+    functions as well as Python coercion behavior.
+
+    :class:`_mssql.JSON` is used automatically whenever the base
+    :class:`_types.JSON` datatype is used against a SQL Server backend.
+
+    .. seealso::
+
+        :class:`_types.JSON` - main documentation for the generic
+        cross-platform JSON datatype.
+
+    The :class:`_mssql.JSON` type supports persistence of JSON values
+    as well as the core index operations provided by :class:`_types.JSON`
+    datatype, by adapting the operations to render the ``JSON_VALUE``
+    or ``JSON_QUERY`` functions at the database level.
+
+    The SQL Server :class:`_mssql.JSON` type necessarily makes use of the
+    ``JSON_QUERY`` and ``JSON_VALUE`` functions when querying for elements
+    of a JSON object.   These two functions have a major restriction in that
+    they are **mutually exclusive** based on the type of object to be returned.
+    The ``JSON_QUERY`` function **only** returns a JSON dictionary or list,
+    but not an individual string, numeric, or boolean element; the
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mssql/provision.py
+
+```python
+# dialects/mssql/provision.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from sqlalchemy import inspect
+from sqlalchemy import Integer
+from ... import create_engine
+from ... import exc
+from ...schema import Column
+from ...schema import DropConstraint
+from ...schema import ForeignKeyConstraint
+from ...schema import MetaData
+from ...schema import Table
+from ...testing.provision import create_db
+from ...testing.provision import drop_all_schema_objects_pre_tables
+from ...testing.provision import drop_db
+from ...testing.provision import generate_driver_url
+from ...testing.provision import get_temp_table_name
+from ...testing.provision import log
+from ...testing.provision import normalize_sequence
+from ...testing.provision import post_configure_engine
+from ...testing.provision import run_reap_dbs
+from ...testing.provision import temp_table_keyword_args
+
+
+@post_configure_engine.for_db("mssql")
+def post_configure_engine(url, engine, follower_ident):
+    if engine.driver == "pyodbc":
+        engine.dialect.dbapi.pooling = False
+
+
+@generate_driver_url.for_db("mssql")
+def generate_driver_url(url, driver, query_str):
+    backend = url.get_backend_name()
+
+    new_url = url.set(drivername="%s+%s" % (backend, driver))
+
+    if driver not in ("pyodbc", "aioodbc"):
+        new_url = new_url.set(query="")
+
+    if driver == "aioodbc":
+        new_url = new_url.update_query_dict({"MARS_Connection": "Yes"})
+
+    if query_str:
+        new_url = new_url.update_query_string(query_str)
+
+    try:
+        new_url.get_dialect()
+    except exc.NoSuchModuleError:
+        return None
+    else:
+        return new_url
+
+
+@create_db.for_db("mssql")
+def _mssql_create_db(cfg, eng, ident):
+    with eng.connect().execution_options(isolation_level="AUTOCOMMIT") as conn:
+        conn.exec_driver_sql("create databa
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mssql/pymssql.py
+
+```python
+# dialects/mssql/pymssql.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""
+.. dialect:: mssql+pymssql
+    :name: pymssql
+    :dbapi: pymssql
+    :connectstring: mssql+pymssql://<username>:<password>@<freetds_name>/?charset=utf8
+
+pymssql is a Python module that provides a Python DBAPI interface around
+`FreeTDS <https://www.freetds.org/>`_.
+
+.. versionchanged:: 2.0.5
+
+    pymssql was restored to SQLAlchemy's continuous integration testing
+
+
+"""  # noqa
+import re
+
+from .base import MSDialect
+from .base import MSIdentifierPreparer
+from ... import types as sqltypes
+from ... import util
+from ...engine import processors
+
+
+class _MSNumeric_pymssql(sqltypes.Numeric):
+    def result_processor(self, dialect, type_):
+        if not self.asdecimal:
+            return processors.to_float
+        else:
+            return sqltypes.Numeric.result_processor(self, dialect, type_)
+
+
+class MSIdentifierPreparer_pymssql(MSIdentifierPreparer):
+    def __init__(self, dialect):
+        super().__init__(dialect)
+        # pymssql has the very unusual behavior that it uses pyformat
+        # yet does not require that percent signs be doubled
+        self._double_percents = False
+
+
+class MSDialect_pymssql(MSDialect):
+    supports_statement_cache = True
+    supports_native_decimal = True
+    supports_native_uuid = True
+    driver = "pymssql"
+
+    preparer = MSIdentifierPreparer_pymssql
+
+    colspecs = util.update_copy(
+        MSDialect.colspecs,
+        {sqltypes.Numeric: _MSNumeric_pymssql, sqltypes.Float: sqltypes.Float},
+    )
+
+    @classmethod
+    def import_dbapi(cls):
+        module = __import__("pymssql")
+        # pymmsql < 2.1.1 doesn't have a Binary method.  we use string
+        client_ver = tuple(int(x) for x in module.__version__.split("."))
+        if client_ver < (2, 1, 1):
+          
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mssql/pyodbc.py
+
+```python
+# dialects/mssql/pyodbc.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+r"""
+.. dialect:: mssql+pyodbc
+    :name: PyODBC
+    :dbapi: pyodbc
+    :connectstring: mssql+pyodbc://<username>:<password>@<dsnname>
+    :url: https://pypi.org/project/pyodbc/
+
+Connecting to PyODBC
+--------------------
+
+The URL here is to be translated to PyODBC connection strings, as
+detailed in `ConnectionStrings <https://code.google.com/p/pyodbc/wiki/ConnectionStrings>`_.
+
+DSN Connections
+^^^^^^^^^^^^^^^
+
+A DSN connection in ODBC means that a pre-existing ODBC datasource is
+configured on the client machine.   The application then specifies the name
+of this datasource, which encompasses details such as the specific ODBC driver
+in use as well as the network address of the database.   Assuming a datasource
+is configured on the client, a basic DSN-based connection looks like::
+
+    engine = create_engine("mssql+pyodbc://scott:tiger@some_dsn")
+
+Which above, will pass the following connection string to PyODBC:
+
+.. sourcecode:: text
+
+    DSN=some_dsn;UID=scott;PWD=tiger
+
+If the username and password are omitted, the DSN form will also add
+the ``Trusted_Connection=yes`` directive to the ODBC string.
+
+Hostname Connections
+^^^^^^^^^^^^^^^^^^^^
+
+Hostname-based connections are also supported by pyodbc.  These are often
+easier to use than a DSN and have the additional advantage that the specific
+database name to connect towards may be specified locally in the URL, rather
+than it being fixed as part of a datasource configuration.
+
+When using a hostname connection, the driver name must also be specified in the
+query parameters of the URL.  As these names usually have spaces in them, the
+name must be URL encoded which means using plus signs for spaces::
+
+    engine = create_engine(
+        "mssql+pyodbc://scott:ti
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/__init__.py
+
+```python
+# dialects/mysql/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from . import aiomysql  # noqa
+from . import asyncmy  # noqa
+from . import base  # noqa
+from . import cymysql  # noqa
+from . import mariadbconnector  # noqa
+from . import mysqlconnector  # noqa
+from . import mysqldb  # noqa
+from . import pymysql  # noqa
+from . import pyodbc  # noqa
+from .base import BIGINT
+from .base import BINARY
+from .base import BIT
+from .base import BLOB
+from .base import BOOLEAN
+from .base import CHAR
+from .base import DATE
+from .base import DATETIME
+from .base import DECIMAL
+from .base import DOUBLE
+from .base import ENUM
+from .base import FLOAT
+from .base import INTEGER
+from .base import JSON
+from .base import LONGBLOB
+from .base import LONGTEXT
+from .base import MEDIUMBLOB
+from .base import MEDIUMINT
+from .base import MEDIUMTEXT
+from .base import NCHAR
+from .base import NUMERIC
+from .base import NVARCHAR
+from .base import REAL
+from .base import SET
+from .base import SMALLINT
+from .base import TEXT
+from .base import TIME
+from .base import TIMESTAMP
+from .base import TINYBLOB
+from .base import TINYINT
+from .base import TINYTEXT
+from .base import VARBINARY
+from .base import VARCHAR
+from .base import YEAR
+from .dml import Insert
+from .dml import insert
+from .expression import match
+from .mariadb import INET4
+from .mariadb import INET6
+
+# default dialect
+base.dialect = dialect = mysqldb.dialect
+
+__all__ = (
+    "BIGINT",
+    "BINARY",
+    "BIT",
+    "BLOB",
+    "BOOLEAN",
+    "CHAR",
+    "DATE",
+    "DATETIME",
+    "DECIMAL",
+    "DOUBLE",
+    "ENUM",
+    "FLOAT",
+    "INET4",
+    "INET6",
+    "INTEGER",
+    "INTEGER",
+    "JSON",
+    "LONGBLOB",
+    "LONGTEXT",
+    "MEDIUMBLOB",
+    "MEDIUMINT",
+    "MEDIUMTEXT",
+    "NCHAR",
+    "NVARCHAR",
+    "NUMERIC",
+    "SET",
+    "SMALLIN
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/aiomysql.py
+
+```python
+# dialects/mysql/aiomysql.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors <see AUTHORS
+# file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+r"""
+.. dialect:: mysql+aiomysql
+    :name: aiomysql
+    :dbapi: aiomysql
+    :connectstring: mysql+aiomysql://user:password@host:port/dbname[?key=value&key=value...]
+    :url: https://github.com/aio-libs/aiomysql
+
+The aiomysql dialect is SQLAlchemy's second Python asyncio dialect.
+
+Using a special asyncio mediation layer, the aiomysql dialect is usable
+as the backend for the :ref:`SQLAlchemy asyncio <asyncio_toplevel>`
+extension package.
+
+This dialect should normally be used only with the
+:func:`_asyncio.create_async_engine` engine creation function::
+
+    from sqlalchemy.ext.asyncio import create_async_engine
+
+    engine = create_async_engine(
+        "mysql+aiomysql://user:pass@hostname/dbname?charset=utf8mb4"
+    )
+
+"""  # noqa
+from __future__ import annotations
+
+from types import ModuleType
+from typing import Any
+from typing import Dict
+from typing import Optional
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import Union
+
+from .pymysql import MySQLDialect_pymysql
+from ... import pool
+from ... import util
+from ...connectors.asyncio import AsyncAdapt_dbapi_connection
+from ...connectors.asyncio import AsyncAdapt_dbapi_cursor
+from ...connectors.asyncio import AsyncAdapt_dbapi_module
+from ...connectors.asyncio import AsyncAdapt_dbapi_ss_cursor
+from ...connectors.asyncio import AsyncAdapt_terminate
+from ...util.concurrency import await_fallback
+from ...util.concurrency import await_only
+
+if TYPE_CHECKING:
+
+    from ...connectors.asyncio import AsyncIODBAPIConnection
+    from ...connectors.asyncio import AsyncIODBAPICursor
+    from ...engine.interfaces import ConnectArgsType
+    from ...engine.interfaces import DBAPIConnection
+    from ...engine.interfaces import DBAPICursor
+    from ...engine.interf
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/asyncmy.py
+
+```python
+# dialects/mysql/asyncmy.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors <see AUTHORS
+# file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+r"""
+.. dialect:: mysql+asyncmy
+    :name: asyncmy
+    :dbapi: asyncmy
+    :connectstring: mysql+asyncmy://user:password@host:port/dbname[?key=value&key=value...]
+    :url: https://github.com/long2ice/asyncmy
+
+Using a special asyncio mediation layer, the asyncmy dialect is usable
+as the backend for the :ref:`SQLAlchemy asyncio <asyncio_toplevel>`
+extension package.
+
+This dialect should normally be used only with the
+:func:`_asyncio.create_async_engine` engine creation function::
+
+    from sqlalchemy.ext.asyncio import create_async_engine
+
+    engine = create_async_engine(
+        "mysql+asyncmy://user:pass@hostname/dbname?charset=utf8mb4"
+    )
+
+"""  # noqa
+from __future__ import annotations
+
+from types import ModuleType
+from typing import Any
+from typing import NoReturn
+from typing import Optional
+from typing import TYPE_CHECKING
+from typing import Union
+
+from .pymysql import MySQLDialect_pymysql
+from ... import pool
+from ... import util
+from ...connectors.asyncio import AsyncAdapt_dbapi_connection
+from ...connectors.asyncio import AsyncAdapt_dbapi_cursor
+from ...connectors.asyncio import AsyncAdapt_dbapi_module
+from ...connectors.asyncio import AsyncAdapt_dbapi_ss_cursor
+from ...connectors.asyncio import AsyncAdapt_terminate
+from ...util.concurrency import await_fallback
+from ...util.concurrency import await_only
+
+if TYPE_CHECKING:
+    from ...connectors.asyncio import AsyncIODBAPIConnection
+    from ...connectors.asyncio import AsyncIODBAPICursor
+    from ...engine.interfaces import ConnectArgsType
+    from ...engine.interfaces import DBAPIConnection
+    from ...engine.interfaces import DBAPICursor
+    from ...engine.interfaces import DBAPIModule
+    from ...engine.interfaces import PoolProxiedConnection
+    from ...engi
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/base.py
+
+```python
+# dialects/mysql/base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+r"""
+
+.. dialect:: mysql
+    :name: MySQL / MariaDB
+    :normal_support: 5.6+ / 10+
+    :best_effort: 5.0.2+ / 5.0.2+
+
+Supported Versions and Features
+-------------------------------
+
+SQLAlchemy supports MySQL starting with version 5.0.2 through modern releases,
+as well as all modern versions of MariaDB.   See the official MySQL
+documentation for detailed information about features supported in any given
+server release.
+
+.. versionchanged:: 1.4  minimum MySQL version supported is now 5.0.2.
+
+MariaDB Support
+~~~~~~~~~~~~~~~
+
+The MariaDB variant of MySQL retains fundamental compatibility with MySQL's
+protocols however the development of these two products continues to diverge.
+Within the realm of SQLAlchemy, the two databases have a small number of
+syntactical and behavioral differences that SQLAlchemy accommodates automatically.
+To connect to a MariaDB database, no changes to the database URL are required::
+
+
+    engine = create_engine(
+        "mysql+pymysql://user:pass@some_mariadb/dbname?charset=utf8mb4"
+    )
+
+Upon first connect, the SQLAlchemy dialect employs a
+server version detection scheme that determines if the
+backing database reports as MariaDB.  Based on this flag, the dialect
+can make different choices in those of areas where its behavior
+must be different.
+
+.. _mysql_mariadb_only_mode:
+
+MariaDB-Only Mode
+~~~~~~~~~~~~~~~~~
+
+The dialect also supports an **optional** "MariaDB-only" mode of connection, which may be
+useful for the case where an application makes use of MariaDB-specific features
+and is not compatible with a MySQL database.    To use this mode of operation,
+replace the "mysql" token in the above URL with "mariadb"::
+
+    engine = create_engine(
+        "mariadb+pymysql://user:pass@some_mariadb/dbname?ch
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/cymysql.py
+
+```python
+# dialects/mysql/cymysql.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+r"""
+
+.. dialect:: mysql+cymysql
+    :name: CyMySQL
+    :dbapi: cymysql
+    :connectstring: mysql+cymysql://<username>:<password>@<host>/<dbname>[?<options>]
+    :url: https://github.com/nakagami/CyMySQL
+
+.. note::
+
+    The CyMySQL dialect is **not tested as part of SQLAlchemy's continuous
+    integration** and may have unresolved issues.  The recommended MySQL
+    dialects are mysqlclient and PyMySQL.
+
+"""  # noqa
+from __future__ import annotations
+
+from typing import Any
+from typing import Iterable
+from typing import Optional
+from typing import TYPE_CHECKING
+from typing import Union
+
+from .base import MySQLDialect
+from .mysqldb import MySQLDialect_mysqldb
+from .types import BIT
+from ... import util
+
+if TYPE_CHECKING:
+    from ...engine.base import Connection
+    from ...engine.interfaces import DBAPIConnection
+    from ...engine.interfaces import DBAPICursor
+    from ...engine.interfaces import DBAPIModule
+    from ...engine.interfaces import Dialect
+    from ...engine.interfaces import PoolProxiedConnection
+    from ...sql.type_api import _ResultProcessorType
+
+
+class _cymysqlBIT(BIT):
+    def result_processor(
+        self, dialect: Dialect, coltype: object
+    ) -> Optional[_ResultProcessorType[Any]]:
+        """Convert MySQL's 64 bit, variable length binary string to a long."""
+
+        def process(value: Optional[Iterable[int]]) -> Optional[int]:
+            if value is not None:
+                v = 0
+                for i in iter(value):
+                    v = v << 8 | i
+                return v
+            return value
+
+        return process
+
+
+class MySQLDialect_cymysql(MySQLDialect_mysqldb):
+    driver = "cymysql"
+    supports_statement_cache = True
+
+    description_encoding = None
+    supports_sane_rowcount = Tr
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/dml.py
+
+```python
+# dialects/mysql/dml.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+from typing import Any
+from typing import Dict
+from typing import List
+from typing import Mapping
+from typing import Optional
+from typing import Tuple
+from typing import Union
+
+from ... import exc
+from ... import util
+from ...sql._typing import _DMLTableArgument
+from ...sql.base import _exclusive_against
+from ...sql.base import _generative
+from ...sql.base import ColumnCollection
+from ...sql.base import ReadOnlyColumnCollection
+from ...sql.dml import Insert as StandardInsert
+from ...sql.elements import ClauseElement
+from ...sql.elements import KeyedColumnElement
+from ...sql.expression import alias
+from ...sql.selectable import NamedFromClause
+from ...util.typing import Self
+
+
+__all__ = ("Insert", "insert")
+
+
+def insert(table: _DMLTableArgument) -> Insert:
+    """Construct a MySQL/MariaDB-specific variant :class:`_mysql.Insert`
+    construct.
+
+    .. container:: inherited_member
+
+        The :func:`sqlalchemy.dialects.mysql.insert` function creates
+        a :class:`sqlalchemy.dialects.mysql.Insert`.  This class is based
+        on the dialect-agnostic :class:`_sql.Insert` construct which may
+        be constructed using the :func:`_sql.insert` function in
+        SQLAlchemy Core.
+
+    The :class:`_mysql.Insert` construct includes additional methods
+    :meth:`_mysql.Insert.on_duplicate_key_update`.
+
+    """
+    return Insert(table)
+
+
+class Insert(StandardInsert):
+    """MySQL-specific implementation of INSERT.
+
+    Adds methods for MySQL-specific syntaxes such as ON DUPLICATE KEY UPDATE.
+
+    The :class:`~.mysql.Insert` object is created using the
+    :func:`sqlalchemy.dialects.mysql.insert` function.
+
+    .. versionadded:: 1.2
+
+    """
+
+    stringify_dialect = "mysql"
+    inherit_cache = Fals
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/enumerated.py
+
+```python
+# dialects/mysql/enumerated.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import enum
+import re
+from typing import Any
+from typing import Dict
+from typing import Optional
+from typing import Set
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import Union
+
+from .types import _StringType
+from ... import exc
+from ... import sql
+from ... import util
+from ...sql import sqltypes
+from ...sql import type_api
+
+if TYPE_CHECKING:
+    from ...engine.interfaces import Dialect
+    from ...sql.elements import ColumnElement
+    from ...sql.type_api import _BindProcessorType
+    from ...sql.type_api import _ResultProcessorType
+    from ...sql.type_api import TypeEngine
+    from ...sql.type_api import TypeEngineMixin
+
+
+class ENUM(type_api.NativeForEmulated, sqltypes.Enum, _StringType):
+    """MySQL ENUM type."""
+
+    __visit_name__ = "ENUM"
+
+    native_enum = True
+
+    def __init__(self, *enums: Union[str, Type[enum.Enum]], **kw: Any) -> None:
+        """Construct an ENUM.
+
+        E.g.::
+
+          Column("myenum", ENUM("foo", "bar", "baz"))
+
+        :param enums: The range of valid values for this ENUM.  Values in
+          enums are not quoted, they will be escaped and surrounded by single
+          quotes when generating the schema.  This object may also be a
+          PEP-435-compliant enumerated type.
+
+          .. versionadded: 1.1 added support for PEP-435-compliant enumerated
+             types.
+
+        :param strict: This flag has no effect.
+
+         .. versionchanged:: The MySQL ENUM type as well as the base Enum
+            type now validates all Python data values.
+
+        :param charset: Optional, a column-level character set for this string
+          value.  Takes precedence to 'ascii' or 'unicode' short-hand.
+
+        :param collation: 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/expression.py
+
+```python
+# dialects/mysql/expression.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Any
+
+from ... import exc
+from ... import util
+from ...sql import coercions
+from ...sql import elements
+from ...sql import operators
+from ...sql import roles
+from ...sql.base import _generative
+from ...sql.base import Generative
+from ...util.typing import Self
+
+
+class match(Generative, elements.BinaryExpression[Any]):
+    """Produce a ``MATCH (X, Y) AGAINST ('TEXT')`` clause.
+
+    E.g.::
+
+        from sqlalchemy import desc
+        from sqlalchemy.dialects.mysql import match
+
+        match_expr = match(
+            users_table.c.firstname,
+            users_table.c.lastname,
+            against="Firstname Lastname",
+        )
+
+        stmt = (
+            select(users_table)
+            .where(match_expr.in_boolean_mode())
+            .order_by(desc(match_expr))
+        )
+
+    Would produce SQL resembling:
+
+    .. sourcecode:: sql
+
+        SELECT id, firstname, lastname
+        FROM user
+        WHERE MATCH(firstname, lastname) AGAINST (:param_1 IN BOOLEAN MODE)
+        ORDER BY MATCH(firstname, lastname) AGAINST (:param_2) DESC
+
+    The :func:`_mysql.match` function is a standalone version of the
+    :meth:`_sql.ColumnElement.match` method available on all
+    SQL expressions, as when :meth:`_expression.ColumnElement.match` is
+    used, but allows to pass multiple columns
+
+    :param cols: column expressions to match against
+
+    :param against: expression to be compared towards
+
+    :param in_boolean_mode: boolean, set "boolean mode" to true
+
+    :param in_natural_language_mode: boolean , set "natural language" to true
+
+    :param with_query_expansion: boolean, set "query expansion" to true
+
+    .. versionadded:: 1.4.19
+
+    .. seealso::
+
+        :meth:`_expression.
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/json.py
+
+```python
+# dialects/mysql/json.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+from typing import Any
+from typing import TYPE_CHECKING
+
+from ... import types as sqltypes
+
+if TYPE_CHECKING:
+    from ...engine.interfaces import Dialect
+    from ...sql.type_api import _BindProcessorType
+    from ...sql.type_api import _LiteralProcessorType
+
+
+class JSON(sqltypes.JSON):
+    """MySQL JSON type.
+
+    MySQL supports JSON as of version 5.7.
+    MariaDB supports JSON (as an alias for LONGTEXT) as of version 10.2.
+
+    :class:`_mysql.JSON` is used automatically whenever the base
+    :class:`_types.JSON` datatype is used against a MySQL or MariaDB backend.
+
+    .. seealso::
+
+        :class:`_types.JSON` - main documentation for the generic
+        cross-platform JSON datatype.
+
+    The :class:`.mysql.JSON` type supports persistence of JSON values
+    as well as the core index operations provided by :class:`_types.JSON`
+    datatype, by adapting the operations to render the ``JSON_EXTRACT``
+    function at the database level.
+
+    """
+
+    pass
+
+
+class _FormatTypeMixin:
+    def _format_value(self, value: Any) -> str:
+        raise NotImplementedError()
+
+    def bind_processor(self, dialect: Dialect) -> _BindProcessorType[Any]:
+        super_proc = self.string_bind_processor(dialect)  # type: ignore[attr-defined]  # noqa: E501
+
+        def process(value: Any) -> Any:
+            value = self._format_value(value)
+            if super_proc:
+                value = super_proc(value)
+            return value
+
+        return process
+
+    def literal_processor(
+        self, dialect: Dialect
+    ) -> _LiteralProcessorType[Any]:
+        super_proc = self.string_literal_processor(dialect)  # type: ignore[attr-defined]  # noqa: E501
+
+        def process(value: Any) -> str:
+            value =
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/mariadb.py
+
+```python
+# dialects/mysql/mariadb.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Any
+
+from .base import MariaDBIdentifierPreparer
+from .base import MySQLDialect
+from .base import MySQLIdentifierPreparer
+from .base import MySQLTypeCompiler
+from ...sql import sqltypes
+
+
+class INET4(sqltypes.TypeEngine[str]):
+    """INET4 column type for MariaDB
+
+    .. versionadded:: 2.0.37
+    """
+
+    __visit_name__ = "INET4"
+
+
+class INET6(sqltypes.TypeEngine[str]):
+    """INET6 column type for MariaDB
+
+    .. versionadded:: 2.0.37
+    """
+
+    __visit_name__ = "INET6"
+
+
+class MariaDBTypeCompiler(MySQLTypeCompiler):
+    def visit_INET4(self, type_: INET4, **kwargs: Any) -> str:
+        return "INET4"
+
+    def visit_INET6(self, type_: INET6, **kwargs: Any) -> str:
+        return "INET6"
+
+
+class MariaDBDialect(MySQLDialect):
+    is_mariadb = True
+    supports_statement_cache = True
+    name = "mariadb"
+    preparer: type[MySQLIdentifierPreparer] = MariaDBIdentifierPreparer
+    type_compiler_cls = MariaDBTypeCompiler
+
+
+def loader(driver: str) -> type[MariaDBDialect]:
+    dialect_mod = __import__(
+        "sqlalchemy.dialects.mysql.%s" % driver
+    ).dialects.mysql
+
+    driver_mod = getattr(dialect_mod, driver)
+    if hasattr(driver_mod, "mariadb_dialect"):
+        driver_cls = driver_mod.mariadb_dialect
+        return driver_cls  # type: ignore[no-any-return]
+    else:
+        driver_cls = driver_mod.dialect
+
+        return type(
+            "MariaDBDialect_%s" % driver,
+            (
+                MariaDBDialect,
+                driver_cls,
+            ),
+            {"supports_statement_cache": True},
+        )
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/mariadbconnector.py
+
+```python
+# dialects/mysql/mariadbconnector.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""
+
+.. dialect:: mysql+mariadbconnector
+    :name: MariaDB Connector/Python
+    :dbapi: mariadb
+    :connectstring: mariadb+mariadbconnector://<user>:<password>@<host>[:<port>]/<dbname>
+    :url: https://pypi.org/project/mariadb/
+
+Driver Status
+-------------
+
+MariaDB Connector/Python enables Python programs to access MariaDB and MySQL
+databases using an API which is compliant with the Python DB API 2.0 (PEP-249).
+It is written in C and uses MariaDB Connector/C client library for client server
+communication.
+
+Note that the default driver for a ``mariadb://`` connection URI continues to
+be ``mysqldb``. ``mariadb+mariadbconnector://`` is required to use this driver.
+
+.. mariadb: https://github.com/mariadb-corporation/mariadb-connector-python
+
+"""  # noqa
+from __future__ import annotations
+
+import re
+from typing import Any
+from typing import Optional
+from typing import Sequence
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import Union
+from uuid import UUID as _python_UUID
+
+from .base import MySQLCompiler
+from .base import MySQLDialect
+from .base import MySQLExecutionContext
+from ... import sql
+from ... import util
+from ...sql import sqltypes
+
+if TYPE_CHECKING:
+    from ...engine.base import Connection
+    from ...engine.interfaces import ConnectArgsType
+    from ...engine.interfaces import DBAPIConnection
+    from ...engine.interfaces import DBAPICursor
+    from ...engine.interfaces import DBAPIModule
+    from ...engine.interfaces import Dialect
+    from ...engine.interfaces import IsolationLevel
+    from ...engine.interfaces import PoolProxiedConnection
+    from ...engine.url import URL
+    from ...sql.compiler import SQLCompiler
+    from ...sql.type_api import _ResultProcessorType
+
+
+mariadb_
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/mysqlconnector.py
+
+```python
+# dialects/mysql/mysqlconnector.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+r"""
+.. dialect:: mysql+mysqlconnector
+    :name: MySQL Connector/Python
+    :dbapi: myconnpy
+    :connectstring: mysql+mysqlconnector://<user>:<password>@<host>[:<port>]/<dbname>
+    :url: https://pypi.org/project/mysql-connector-python/
+
+Driver Status
+-------------
+
+MySQL Connector/Python is supported as of SQLAlchemy 2.0.39 to the
+degree which the driver is functional.   There are still ongoing issues
+with features such as server side cursors which remain disabled until
+upstream issues are repaired.
+
+.. warning:: The MySQL Connector/Python driver published by Oracle is subject
+   to frequent, major regressions of essential functionality such as being able
+   to correctly persist simple binary strings which indicate it is not well
+   tested.  The SQLAlchemy project is not able to maintain this dialect fully as
+   regressions in the driver prevent it from being included in continuous
+   integration.
+
+.. versionchanged:: 2.0.39
+
+    The MySQL Connector/Python dialect has been updated to support the
+    latest version of this DBAPI.   Previously, MySQL Connector/Python
+    was not fully supported.  However, support remains limited due to ongoing
+    regressions introduced in this driver.
+
+Connecting to MariaDB with MySQL Connector/Python
+--------------------------------------------------
+
+MySQL Connector/Python may attempt to pass an incompatible collation to the
+database when connecting to MariaDB.  Experimentation has shown that using
+``?charset=utf8mb4&collation=utfmb4_general_ci`` or similar MariaDB-compatible
+charset/collation will allow connectivity.
+
+
+"""  # noqa
+from __future__ import annotations
+
+import re
+from typing import Any
+from typing import cast
+from typing import Optional
+from typing import Sequence
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/mysqldb.py
+
+```python
+# dialects/mysql/mysqldb.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""
+
+.. dialect:: mysql+mysqldb
+    :name: mysqlclient (maintained fork of MySQL-Python)
+    :dbapi: mysqldb
+    :connectstring: mysql+mysqldb://<user>:<password>@<host>[:<port>]/<dbname>
+    :url: https://pypi.org/project/mysqlclient/
+
+Driver Status
+-------------
+
+The mysqlclient DBAPI is a maintained fork of the
+`MySQL-Python <https://sourceforge.net/projects/mysql-python>`_ DBAPI
+that is no longer maintained.  `mysqlclient`_ supports Python 2 and Python 3
+and is very stable.
+
+.. _mysqlclient: https://github.com/PyMySQL/mysqlclient-python
+
+.. _mysqldb_unicode:
+
+Unicode
+-------
+
+Please see :ref:`mysql_unicode` for current recommendations on unicode
+handling.
+
+.. _mysqldb_ssl:
+
+SSL Connections
+----------------
+
+The mysqlclient and PyMySQL DBAPIs accept an additional dictionary under the
+key "ssl", which may be specified using the
+:paramref:`_sa.create_engine.connect_args` dictionary::
+
+    engine = create_engine(
+        "mysql+mysqldb://scott:tiger@192.168.0.134/test",
+        connect_args={
+            "ssl": {
+                "ca": "/home/gord/client-ssl/ca.pem",
+                "cert": "/home/gord/client-ssl/client-cert.pem",
+                "key": "/home/gord/client-ssl/client-key.pem",
+            }
+        },
+    )
+
+For convenience, the following keys may also be specified inline within the URL
+where they will be interpreted into the "ssl" dictionary automatically:
+"ssl_ca", "ssl_cert", "ssl_key", "ssl_capath", "ssl_cipher",
+"ssl_check_hostname". An example is as follows::
+
+    connection_uri = (
+        "mysql+mysqldb://scott:tiger@192.168.0.134/test"
+        "?ssl_ca=/home/gord/client-ssl/ca.pem"
+        "&ssl_cert=/home/gord/client-ssl/client-cert.pem"
+        "&ssl_key=/home/gord/client-ssl/client-key.pem"
+    )
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/provision.py
+
+```python
+# dialects/mysql/provision.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+import contextlib
+
+from ... import event
+from ... import exc
+from ...testing.provision import allow_stale_update_impl
+from ...testing.provision import configure_follower
+from ...testing.provision import create_db
+from ...testing.provision import delete_from_all_tables
+from ...testing.provision import drop_db
+from ...testing.provision import generate_driver_url
+from ...testing.provision import temp_table_keyword_args
+from ...testing.provision import upsert
+
+
+@generate_driver_url.for_db("mysql", "mariadb")
+def generate_driver_url(url, driver, query_str):
+    backend = url.get_backend_name()
+
+    # NOTE: at the moment, tests are running mariadbconnector
+    # against both mariadb and mysql backends.   if we want this to be
+    # limited, do the decision making here to reject a "mysql+mariadbconnector"
+    # URL.  Optionally also re-enable the module level
+    # MySQLDialect_mariadbconnector.is_mysql flag as well, which must include
+    # a unit and/or functional test.
+
+    # all the Jenkins tests have been running mysqlclient Python library
+    # built against mariadb client drivers for years against all MySQL /
+    # MariaDB versions going back to MySQL 5.6, currently they can talk
+    # to MySQL databases without problems.
+
+    if backend == "mysql":
+        dialect_cls = url.get_dialect()
+        if dialect_cls._is_mariadb_from_url(url):
+            backend = "mariadb"
+
+    new_url = url.set(
+        drivername="%s+%s" % (backend, driver)
+    ).update_query_string(query_str)
+
+    if driver == "mariadbconnector":
+        new_url = new_url.difference_update_query(["charset"])
+    elif driver == "mysqlconnector":
+        new_url = new_url.update_query_pairs(
+            [("collation", "utf8mb4_general_ci
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/pymysql.py
+
+```python
+# dialects/mysql/pymysql.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+r"""
+
+.. dialect:: mysql+pymysql
+    :name: PyMySQL
+    :dbapi: pymysql
+    :connectstring: mysql+pymysql://<username>:<password>@<host>/<dbname>[?<options>]
+    :url: https://pymysql.readthedocs.io/
+
+Unicode
+-------
+
+Please see :ref:`mysql_unicode` for current recommendations on unicode
+handling.
+
+.. _pymysql_ssl:
+
+SSL Connections
+------------------
+
+The PyMySQL DBAPI accepts the same SSL arguments as that of MySQLdb,
+described at :ref:`mysqldb_ssl`.   See that section for additional examples.
+
+If the server uses an automatically-generated certificate that is self-signed
+or does not match the host name (as seen from the client), it may also be
+necessary to indicate ``ssl_check_hostname=false`` in PyMySQL::
+
+    connection_uri = (
+        "mysql+pymysql://scott:tiger@192.168.0.134/test"
+        "?ssl_ca=/home/gord/client-ssl/ca.pem"
+        "&ssl_cert=/home/gord/client-ssl/client-cert.pem"
+        "&ssl_key=/home/gord/client-ssl/client-key.pem"
+        "&ssl_check_hostname=false"
+    )
+
+MySQL-Python Compatibility
+--------------------------
+
+The pymysql DBAPI is a pure Python port of the MySQL-python (MySQLdb) driver,
+and targets 100% compatibility.   Most behavioral notes for MySQL-python apply
+to the pymysql driver as well.
+
+"""  # noqa
+from __future__ import annotations
+
+from typing import Any
+from typing import Dict
+from typing import Optional
+from typing import TYPE_CHECKING
+from typing import Union
+
+from .mysqldb import MySQLDialect_mysqldb
+from ...util import langhelpers
+from ...util.typing import Literal
+
+if TYPE_CHECKING:
+
+    from ...engine.interfaces import ConnectArgsType
+    from ...engine.interfaces import DBAPIConnection
+    from ...engine.interfaces import DBAPICursor
+    from ...engine.interfaces import DBAP
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/pyodbc.py
+
+```python
+# dialects/mysql/pyodbc.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+r"""
+
+.. dialect:: mysql+pyodbc
+    :name: PyODBC
+    :dbapi: pyodbc
+    :connectstring: mysql+pyodbc://<username>:<password>@<dsnname>
+    :url: https://pypi.org/project/pyodbc/
+
+.. note::
+
+    The PyODBC for MySQL dialect is **not tested as part of
+    SQLAlchemy's continuous integration**.
+    The recommended MySQL dialects are mysqlclient and PyMySQL.
+    However, if you want to use the mysql+pyodbc dialect and require
+    full support for ``utf8mb4`` characters (including supplementary
+    characters like emoji) be sure to use a current release of
+    MySQL Connector/ODBC and specify the "ANSI" (**not** "Unicode")
+    version of the driver in your DSN or connection string.
+
+Pass through exact pyodbc connection string::
+
+    import urllib
+
+    connection_string = (
+        "DRIVER=MySQL ODBC 8.0 ANSI Driver;"
+        "SERVER=localhost;"
+        "PORT=3307;"
+        "DATABASE=mydb;"
+        "UID=root;"
+        "PWD=(whatever);"
+        "charset=utf8mb4;"
+    )
+    params = urllib.parse.quote_plus(connection_string)
+    connection_uri = "mysql+pyodbc:///?odbc_connect=%s" % params
+
+"""  # noqa
+from __future__ import annotations
+
+import datetime
+import re
+from typing import Any
+from typing import Callable
+from typing import Optional
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import Union
+
+from .base import MySQLDialect
+from .base import MySQLExecutionContext
+from .types import TIME
+from ... import exc
+from ... import util
+from ...connectors.pyodbc import PyODBCConnector
+from ...sql.sqltypes import Time
+
+if TYPE_CHECKING:
+    from ...engine import Connection
+    from ...engine.interfaces import DBAPIConnection
+    from ...engine.interfaces import Dialect
+    from ...sql.type_api import _ResultProce
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/reflection.py
+
+```python
+# dialects/mysql/reflection.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+import re
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import List
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import Union
+
+from .enumerated import ENUM
+from .enumerated import SET
+from .types import DATETIME
+from .types import TIME
+from .types import TIMESTAMP
+from ... import types as sqltypes
+from ... import util
+from ...util.typing import Literal
+
+if TYPE_CHECKING:
+    from .base import MySQLDialect
+    from .base import MySQLIdentifierPreparer
+    from ...engine.interfaces import ReflectedColumn
+
+
+class ReflectedState:
+    """Stores raw information about a SHOW CREATE TABLE statement."""
+
+    charset: Optional[str]
+
+    def __init__(self) -> None:
+        self.columns: List[ReflectedColumn] = []
+        self.table_options: Dict[str, str] = {}
+        self.table_name: Optional[str] = None
+        self.keys: List[Dict[str, Any]] = []
+        self.fk_constraints: List[Dict[str, Any]] = []
+        self.ck_constraints: List[Dict[str, Any]] = []
+
+
+class MySQLTableDefinitionParser:
+    """Parses the results of a SHOW CREATE TABLE statement."""
+
+    def __init__(
+        self, dialect: MySQLDialect, preparer: MySQLIdentifierPreparer
+    ):
+        self.dialect = dialect
+        self.preparer = preparer
+        self._prep_regexes()
+
+    def parse(
+        self, show_create: str, charset: Optional[str]
+    ) -> ReflectedState:
+        state = ReflectedState()
+        state.charset = charset
+        for line in re.split(r"\r?\n", show_create):
+            if line.startswith("  " + self.preparer.initial_quote):
+                self._parse_colum
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/reserved_words.py
+
+```python
+# dialects/mysql/reserved_words.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+# generated using:
+# https://gist.github.com/kkirsche/4f31f2153ed7a3248be1ec44ca6ddbc9
+#
+# https://mariadb.com/kb/en/reserved-words/
+# includes: Reserved Words, Oracle Mode (separate set unioned)
+# excludes: Exceptions, Function Names
+
+RESERVED_WORDS_MARIADB = {
+    "accessible",
+    "add",
+    "all",
+    "alter",
+    "analyze",
+    "and",
+    "as",
+    "asc",
+    "asensitive",
+    "before",
+    "between",
+    "bigint",
+    "binary",
+    "blob",
+    "both",
+    "by",
+    "call",
+    "cascade",
+    "case",
+    "change",
+    "char",
+    "character",
+    "check",
+    "collate",
+    "column",
+    "condition",
+    "constraint",
+    "continue",
+    "convert",
+    "create",
+    "cross",
+    "current_date",
+    "current_role",
+    "current_time",
+    "current_timestamp",
+    "current_user",
+    "cursor",
+    "database",
+    "databases",
+    "day_hour",
+    "day_microsecond",
+    "day_minute",
+    "day_second",
+    "dec",
+    "decimal",
+    "declare",
+    "default",
+    "delayed",
+    "delete",
+    "desc",
+    "describe",
+    "deterministic",
+    "distinct",
+    "distinctrow",
+    "div",
+    "do_domain_ids",
+    "double",
+    "drop",
+    "dual",
+    "each",
+    "else",
+    "elseif",
+    "enclosed",
+    "escaped",
+    "except",
+    "exists",
+    "exit",
+    "explain",
+    "false",
+    "fetch",
+    "float",
+    "float4",
+    "float8",
+    "for",
+    "force",
+    "foreign",
+    "from",
+    "fulltext",
+    "general",
+    "grant",
+    "group",
+    "having",
+    "high_priority",
+    "hour_microsecond",
+    "hour_minute",
+    "hour_second",
+    "if",
+    "ignore",
+    "ignore_domain_ids",
+    "ignore_server_ids",
+    "in",
+    "index",
+    "infile",
+    "inner",
+    "inout",
+    "insensitive",
+    "insert",
+    "int",
+    "int1",
+  
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/mysql/types.py
+
+```python
+# dialects/mysql/types.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+import datetime
+import decimal
+from typing import Any
+from typing import Iterable
+from typing import Optional
+from typing import TYPE_CHECKING
+from typing import Union
+
+from ... import exc
+from ... import util
+from ...sql import sqltypes
+
+if TYPE_CHECKING:
+    from .base import MySQLDialect
+    from ...engine.interfaces import Dialect
+    from ...sql.type_api import _BindProcessorType
+    from ...sql.type_api import _ResultProcessorType
+    from ...sql.type_api import TypeEngine
+
+
+class _NumericType:
+    """Base for MySQL numeric types.
+
+    This is the base both for NUMERIC as well as INTEGER, hence
+    it's a mixin.
+
+    """
+
+    def __init__(
+        self, unsigned: bool = False, zerofill: bool = False, **kw: Any
+    ):
+        self.unsigned = unsigned
+        self.zerofill = zerofill
+        super().__init__(**kw)
+
+    def __repr__(self) -> str:
+        return util.generic_repr(
+            self, to_inspect=[_NumericType, sqltypes.Numeric]
+        )
+
+
+class _FloatType(_NumericType, sqltypes.Float[Union[decimal.Decimal, float]]):
+    def __init__(
+        self,
+        precision: Optional[int] = None,
+        scale: Optional[int] = None,
+        asdecimal: bool = True,
+        **kw: Any,
+    ):
+        if isinstance(self, (REAL, DOUBLE)) and (
+            (precision is None and scale is not None)
+            or (precision is not None and scale is None)
+        ):
+            raise exc.ArgumentError(
+                "You must specify both precision and scale or omit "
+                "both altogether."
+            )
+        super().__init__(precision=precision, asdecimal=asdecimal, **kw)
+        self.scale = scale
+
+    def __repr__(self) -> str:
+        return util.generic_repr(
+          
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/oracle/__init__.py
+
+```python
+# dialects/oracle/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+from types import ModuleType
+
+from . import base  # noqa
+from . import cx_oracle  # noqa
+from . import oracledb  # noqa
+from .base import BFILE
+from .base import BINARY_DOUBLE
+from .base import BINARY_FLOAT
+from .base import BLOB
+from .base import CHAR
+from .base import CLOB
+from .base import DATE
+from .base import DOUBLE_PRECISION
+from .base import FLOAT
+from .base import INTERVAL
+from .base import LONG
+from .base import NCHAR
+from .base import NCLOB
+from .base import NUMBER
+from .base import NVARCHAR
+from .base import NVARCHAR2
+from .base import RAW
+from .base import REAL
+from .base import ROWID
+from .base import TIMESTAMP
+from .base import VARCHAR
+from .base import VARCHAR2
+from .base import VECTOR
+from .base import VectorIndexConfig
+from .base import VectorIndexType
+from .vector import SparseVector
+from .vector import VectorDistanceType
+from .vector import VectorStorageFormat
+from .vector import VectorStorageType
+
+# Alias oracledb also as oracledb_async
+oracledb_async = type(
+    "oracledb_async", (ModuleType,), {"dialect": oracledb.dialect_async}
+)
+
+base.dialect = dialect = cx_oracle.dialect
+
+__all__ = (
+    "VARCHAR",
+    "NVARCHAR",
+    "CHAR",
+    "NCHAR",
+    "DATE",
+    "NUMBER",
+    "BLOB",
+    "BFILE",
+    "CLOB",
+    "NCLOB",
+    "TIMESTAMP",
+    "RAW",
+    "FLOAT",
+    "DOUBLE_PRECISION",
+    "BINARY_DOUBLE",
+    "BINARY_FLOAT",
+    "LONG",
+    "dialect",
+    "INTERVAL",
+    "VARCHAR2",
+    "NVARCHAR2",
+    "ROWID",
+    "REAL",
+    "VECTOR",
+    "VectorDistanceType",
+    "VectorIndexType",
+    "VectorIndexConfig",
+    "VectorStorageFormat",
+    "VectorStorageType",
+    "SparseVector",
+)
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/oracle/base.py
+
+```python
+# dialects/oracle/base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+r"""
+.. dialect:: oracle
+    :name: Oracle Database
+    :normal_support: 11+
+    :best_effort: 9+
+
+
+Auto Increment Behavior
+-----------------------
+
+SQLAlchemy Table objects which include integer primary keys are usually assumed
+to have "autoincrementing" behavior, meaning they can generate their own
+primary key values upon INSERT. For use within Oracle Database, two options are
+available, which are the use of IDENTITY columns (Oracle Database 12 and above
+only) or the association of a SEQUENCE with the column.
+
+Specifying GENERATED AS IDENTITY (Oracle Database 12 and above)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Starting from version 12, Oracle Database can make use of identity columns
+using the :class:`_sql.Identity` to specify the autoincrementing behavior::
+
+    t = Table(
+        "mytable",
+        metadata,
+        Column("id", Integer, Identity(start=3), primary_key=True),
+        Column(...),
+        ...,
+    )
+
+The CREATE TABLE for the above :class:`_schema.Table` object would be:
+
+.. sourcecode:: sql
+
+    CREATE TABLE mytable (
+        id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 3),
+        ...,
+        PRIMARY KEY (id)
+    )
+
+The :class:`_schema.Identity` object support many options to control the
+"autoincrementing" behavior of the column, like the starting value, the
+incrementing value, etc.  In addition to the standard options, Oracle Database
+supports setting :paramref:`_schema.Identity.always` to ``None`` to use the
+default generated mode, rendering GENERATED AS IDENTITY in the DDL. It also supports
+setting :paramref:`_schema.Identity.on_null` to ``True`` to specify ON NULL
+in conjunction with a 'BY DEFAULT' identity column.
+
+Using a SEQUENCE (all Ora
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/oracle/cx_oracle.py
+
+```python
+# dialects/oracle/cx_oracle.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+r""".. dialect:: oracle+cx_oracle
+    :name: cx-Oracle
+    :dbapi: cx_oracle
+    :connectstring: oracle+cx_oracle://user:pass@hostname:port[/dbname][?service_name=<service>[&key=value&key=value...]]
+    :url: https://oracle.github.io/python-cx_Oracle/
+
+Description
+-----------
+
+cx_Oracle was the original driver for Oracle Database. It was superseded by
+python-oracledb which should be used instead.
+
+DSN vs. Hostname connections
+-----------------------------
+
+cx_Oracle provides several methods of indicating the target database.  The
+dialect translates from a series of different URL forms.
+
+Hostname Connections with Easy Connect Syntax
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Given a hostname, port and service name of the target database, for example
+from Oracle Database's Easy Connect syntax then connect in SQLAlchemy using the
+``service_name`` query string parameter::
+
+    engine = create_engine(
+        "oracle+cx_oracle://scott:tiger@hostname:port?service_name=myservice&encoding=UTF-8&nencoding=UTF-8"
+    )
+
+Note that the default driver value for encoding and nencoding was changed to
+“UTF-8” in cx_Oracle 8.0 so these parameters can be omitted when using that
+version, or later.
+
+To use a full Easy Connect string, pass it as the ``dsn`` key value in a
+:paramref:`_sa.create_engine.connect_args` dictionary::
+
+    import cx_Oracle
+
+    e = create_engine(
+        "oracle+cx_oracle://@",
+        connect_args={
+            "user": "scott",
+            "password": "tiger",
+            "dsn": "hostname:port/myservice?transport_connect_timeout=30&expire_time=60",
+        },
+    )
+
+Connections with tnsnames.ora or to Oracle Autonomous Database
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/oracle/dictionary.py
+
+```python
+# dialects/oracle/dictionary.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from .types import DATE
+from .types import LONG
+from .types import NUMBER
+from .types import RAW
+from .types import VARCHAR2
+from ... import Column
+from ... import MetaData
+from ... import Table
+from ... import table
+from ...sql.sqltypes import CHAR
+
+# constants
+DB_LINK_PLACEHOLDER = "__$sa_dblink$__"
+# tables
+dual = table("dual")
+dictionary_meta = MetaData()
+
+# NOTE: all the dictionary_meta are aliases because oracle does not like
+# using the full table@dblink for every column in query, and complains with
+# ORA-00960: ambiguous column naming in select list
+all_tables = Table(
+    "all_tables" + DB_LINK_PLACEHOLDER,
+    dictionary_meta,
+    Column("owner", VARCHAR2(128), nullable=False),
+    Column("table_name", VARCHAR2(128), nullable=False),
+    Column("tablespace_name", VARCHAR2(30)),
+    Column("cluster_name", VARCHAR2(128)),
+    Column("iot_name", VARCHAR2(128)),
+    Column("status", VARCHAR2(8)),
+    Column("pct_free", NUMBER),
+    Column("pct_used", NUMBER),
+    Column("ini_trans", NUMBER),
+    Column("max_trans", NUMBER),
+    Column("initial_extent", NUMBER),
+    Column("next_extent", NUMBER),
+    Column("min_extents", NUMBER),
+    Column("max_extents", NUMBER),
+    Column("pct_increase", NUMBER),
+    Column("freelists", NUMBER),
+    Column("freelist_groups", NUMBER),
+    Column("logging", VARCHAR2(3)),
+    Column("backed_up", VARCHAR2(1)),
+    Column("num_rows", NUMBER),
+    Column("blocks", NUMBER),
+    Column("empty_blocks", NUMBER),
+    Column("avg_space", NUMBER),
+    Column("chain_cnt", NUMBER),
+    Column("avg_row_len", NUMBER),
+    Column("avg_space_freelist_blocks", NUMBER),
+    Column("num_freelist_blocks", NUMBER),
+    Column("degree", VARCHAR2(10)),
+    Column("instances", VARCH
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/oracle/oracledb.py
+
+```python
+# dialects/oracle/oracledb.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+r""".. dialect:: oracle+oracledb
+    :name: python-oracledb
+    :dbapi: oracledb
+    :connectstring: oracle+oracledb://user:pass@hostname:port[/dbname][?service_name=<service>[&key=value&key=value...]]
+    :url: https://oracle.github.io/python-oracledb/
+
+Description
+-----------
+
+Python-oracledb is the Oracle Database driver for Python. It features a default
+"thin" client mode that requires no dependencies, and an optional "thick" mode
+that uses Oracle Client libraries.  It supports SQLAlchemy features including
+two phase transactions and Asyncio.
+
+Python-oracle is the renamed, updated cx_Oracle driver. Oracle is no longer
+doing any releases in the cx_Oracle namespace.
+
+The SQLAlchemy ``oracledb`` dialect provides both a sync and an async
+implementation under the same dialect name. The proper version is
+selected depending on how the engine is created:
+
+* calling :func:`_sa.create_engine` with ``oracle+oracledb://...`` will
+  automatically select the sync version::
+
+    from sqlalchemy import create_engine
+
+    sync_engine = create_engine(
+        "oracle+oracledb://scott:tiger@localhost?service_name=FREEPDB1"
+    )
+
+* calling :func:`_asyncio.create_async_engine` with ``oracle+oracledb://...``
+  will automatically select the async version::
+
+    from sqlalchemy.ext.asyncio import create_async_engine
+
+    asyncio_engine = create_async_engine(
+        "oracle+oracledb://scott:tiger@localhost?service_name=FREEPDB1"
+    )
+
+  The asyncio version of the dialect may also be specified explicitly using the
+  ``oracledb_async`` suffix::
+
+      from sqlalchemy.ext.asyncio import create_async_engine
+
+      asyncio_engine = create_async_engine(
+          "oracle+oracledb_async://scott:tiger@localhost?service_name=F
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/oracle/provision.py
+
+```python
+# dialects/oracle/provision.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+import time
+
+from ... import create_engine
+from ... import exc
+from ... import inspect
+from ...engine import url as sa_url
+from ...testing.provision import configure_follower
+from ...testing.provision import create_db
+from ...testing.provision import drop_all_schema_objects_post_tables
+from ...testing.provision import drop_all_schema_objects_pre_tables
+from ...testing.provision import drop_db
+from ...testing.provision import follower_url_from_main
+from ...testing.provision import generate_driver_url
+from ...testing.provision import is_preferred_driver
+from ...testing.provision import log
+from ...testing.provision import post_configure_engine
+from ...testing.provision import post_configure_testing_engine
+from ...testing.provision import run_reap_dbs
+from ...testing.provision import set_default_schema_on_connection
+from ...testing.provision import stop_test_class_outside_fixtures
+from ...testing.provision import temp_table_keyword_args
+from ...testing.provision import update_db_opts
+from ...testing.warnings import warn_test_suite
+
+
+@generate_driver_url.for_db("oracle")
+def _oracle_generate_driver_url(url, driver, query_str):
+
+    backend = url.get_backend_name()
+
+    new_url = url.set(
+        drivername="%s+%s" % (backend, driver),
+    )
+
+    # use oracledb's retry feature, which is essential for oracle 23c
+    # which otherwise frequently rejects connections under load
+    # for cx_oracle we have a connect event instead
+    if driver in ("oracledb", "oracledb_async"):
+        # oracledb is even nice enough to convert from string to int
+        # for these opts, apparently
+        new_url = new_url.update_query_pairs(
+            [("retry_count", "5"), ("retry_delay", "2")]
+        )
+    else:
+      
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/oracle/types.py
+
+```python
+# dialects/oracle/types.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+from __future__ import annotations
+
+import datetime as dt
+from typing import Optional
+from typing import Type
+from typing import TYPE_CHECKING
+
+from ... import exc
+from ...sql import sqltypes
+from ...types import NVARCHAR
+from ...types import VARCHAR
+
+if TYPE_CHECKING:
+    from ...engine.interfaces import Dialect
+    from ...sql.type_api import _LiteralProcessorType
+
+
+class RAW(sqltypes._Binary):
+    __visit_name__ = "RAW"
+
+
+OracleRaw = RAW
+
+
+class NCLOB(sqltypes.Text):
+    __visit_name__ = "NCLOB"
+
+
+class VARCHAR2(VARCHAR):
+    __visit_name__ = "VARCHAR2"
+
+
+NVARCHAR2 = NVARCHAR
+
+
+class NUMBER(sqltypes.Numeric, sqltypes.Integer):
+    __visit_name__ = "NUMBER"
+
+    def __init__(self, precision=None, scale=None, asdecimal=None):
+        if asdecimal is None:
+            asdecimal = bool(scale and scale > 0)
+
+        super().__init__(precision=precision, scale=scale, asdecimal=asdecimal)
+
+    def adapt(self, impltype):
+        ret = super().adapt(impltype)
+        # leave a hint for the DBAPI handler
+        ret._is_oracle_number = True
+        return ret
+
+    @property
+    def _type_affinity(self):
+        if bool(self.scale and self.scale > 0):
+            return sqltypes.Numeric
+        else:
+            return sqltypes.Integer
+
+
+class FLOAT(sqltypes.FLOAT):
+    """Oracle Database FLOAT.
+
+    This is the same as :class:`_sqltypes.FLOAT` except that
+    an Oracle Database -specific :paramref:`_oracle.FLOAT.binary_precision`
+    parameter is accepted, and
+    the :paramref:`_sqltypes.Float.precision` parameter is not accepted.
+
+    Oracle Database FLOAT types indicate precision in terms of "binary
+    precision", which defaults to 126. For a REAL type, the value is 63. This
+    parameter does not cleanly m
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/oracle/vector.py
+
+```python
+# dialects/oracle/vector.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from __future__ import annotations
+
+import array
+from dataclasses import dataclass
+from enum import Enum
+from typing import Optional
+from typing import Union
+
+from ... import types
+from ...types import Float
+
+
+class VectorIndexType(Enum):
+    """Enum representing different types of VECTOR index structures.
+
+    See :ref:`oracle_vector_datatype` for background.
+
+    .. versionadded:: 2.0.41
+
+    """
+
+    HNSW = "HNSW"
+    """
+    The HNSW (Hierarchical Navigable Small World) index type.
+    """
+    IVF = "IVF"
+    """
+    The IVF (Inverted File Index) index type
+    """
+
+
+class VectorDistanceType(Enum):
+    """Enum representing different types of vector distance metrics.
+
+    See :ref:`oracle_vector_datatype` for background.
+
+    .. versionadded:: 2.0.41
+
+    """
+
+    EUCLIDEAN = "EUCLIDEAN"
+    """Euclidean distance (L2 norm).
+
+    Measures the straight-line distance between two vectors in space.
+    """
+    DOT = "DOT"
+    """Dot product similarity.
+
+    Measures the algebraic similarity between two vectors.
+    """
+    COSINE = "COSINE"
+    """Cosine similarity.
+
+    Measures the cosine of the angle between two vectors.
+    """
+    MANHATTAN = "MANHATTAN"
+    """Manhattan distance (L1 norm).
+
+    Calculates the sum of absolute differences across dimensions.
+    """
+
+
+class VectorStorageFormat(Enum):
+    """Enum representing the data format used to store vector components.
+
+    See :ref:`oracle_vector_datatype` for background.
+
+    .. versionadded:: 2.0.41
+
+    """
+
+    INT8 = "INT8"
+    """
+    8-bit integer format.
+    """
+    BINARY = "BINARY"
+    """
+    Binary format.
+    """
+    FLOAT32 = "FLOAT32"
+    """
+    32-bit floating-point format.
+    """
+    FLOAT64 = "FLOAT64"
+    """
+    64-bit floa
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/__init__.py
+
+```python
+# dialects/postgresql/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from types import ModuleType
+
+from . import array as arraylib  # noqa # keep above base and other dialects
+from . import asyncpg  # noqa
+from . import base
+from . import pg8000  # noqa
+from . import psycopg  # noqa
+from . import psycopg2  # noqa
+from . import psycopg2cffi  # noqa
+from .array import All
+from .array import Any
+from .array import ARRAY
+from .array import array
+from .base import BIGINT
+from .base import BOOLEAN
+from .base import CHAR
+from .base import DATE
+from .base import DOMAIN
+from .base import DOUBLE_PRECISION
+from .base import FLOAT
+from .base import INTEGER
+from .base import NUMERIC
+from .base import REAL
+from .base import SMALLINT
+from .base import TEXT
+from .base import UUID
+from .base import VARCHAR
+from .dml import Insert
+from .dml import insert
+from .ext import aggregate_order_by
+from .ext import array_agg
+from .ext import ExcludeConstraint
+from .ext import phraseto_tsquery
+from .ext import plainto_tsquery
+from .ext import to_tsquery
+from .ext import to_tsvector
+from .ext import ts_headline
+from .ext import websearch_to_tsquery
+from .hstore import HSTORE
+from .hstore import hstore
+from .json import JSON
+from .json import JSONB
+from .json import JSONPATH
+from .named_types import CreateDomainType
+from .named_types import CreateEnumType
+from .named_types import DropDomainType
+from .named_types import DropEnumType
+from .named_types import ENUM
+from .named_types import NamedType
+from .ranges import AbstractMultiRange
+from .ranges import AbstractRange
+from .ranges import AbstractSingleRange
+from .ranges import DATEMULTIRANGE
+from .ranges import DATERANGE
+from .ranges import INT4MULTIRANGE
+from .ranges import INT4RANGE
+from .ranges import INT8MULTIRANGE
+from .ranges import INT8R
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/_psycopg_common.py
+
+```python
+# dialects/postgresql/_psycopg_common.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+from __future__ import annotations
+
+import decimal
+
+from .array import ARRAY as PGARRAY
+from .base import _DECIMAL_TYPES
+from .base import _FLOAT_TYPES
+from .base import _INT_TYPES
+from .base import PGDialect
+from .base import PGExecutionContext
+from .hstore import HSTORE
+from .pg_catalog import _SpaceVector
+from .pg_catalog import INT2VECTOR
+from .pg_catalog import OIDVECTOR
+from ... import exc
+from ... import types as sqltypes
+from ... import util
+from ...engine import processors
+
+_server_side_id = util.counter()
+
+
+class _PsycopgNumeric(sqltypes.Numeric):
+    def bind_processor(self, dialect):
+        return None
+
+    def result_processor(self, dialect, coltype):
+        if self.asdecimal:
+            if coltype in _FLOAT_TYPES:
+                return processors.to_decimal_processor_factory(
+                    decimal.Decimal, self._effective_decimal_return_scale
+                )
+            elif coltype in _DECIMAL_TYPES or coltype in _INT_TYPES:
+                # psycopg returns Decimal natively for 1700
+                return None
+            else:
+                raise exc.InvalidRequestError(
+                    "Unknown PG numeric type: %d" % coltype
+                )
+        else:
+            if coltype in _FLOAT_TYPES:
+                # psycopg returns float natively for 701
+                return None
+            elif coltype in _DECIMAL_TYPES or coltype in _INT_TYPES:
+                return processors.to_float
+            else:
+                raise exc.InvalidRequestError(
+                    "Unknown PG numeric type: %d" % coltype
+                )
+
+
+class _PsycopgFloat(_PsycopgNumeric):
+    __visit_name__ = "float"
+
+
+class _PsycopgHStore(HSTORE):
+    def bind_processor(self
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/array.py
+
+```python
+# dialects/postgresql/array.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+from __future__ import annotations
+
+import re
+from typing import Any as typing_Any
+from typing import Iterable
+from typing import Optional
+from typing import Sequence
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .operators import CONTAINED_BY
+from .operators import CONTAINS
+from .operators import OVERLAP
+from ... import types as sqltypes
+from ... import util
+from ...sql import expression
+from ...sql import operators
+from ...sql.visitors import InternalTraversal
+
+if TYPE_CHECKING:
+    from ...engine.interfaces import Dialect
+    from ...sql._typing import _ColumnExpressionArgument
+    from ...sql._typing import _TypeEngineArgument
+    from ...sql.elements import ColumnElement
+    from ...sql.elements import Grouping
+    from ...sql.expression import BindParameter
+    from ...sql.operators import OperatorType
+    from ...sql.selectable import _SelectIterable
+    from ...sql.type_api import _BindProcessorType
+    from ...sql.type_api import _LiteralProcessorType
+    from ...sql.type_api import _ResultProcessorType
+    from ...sql.type_api import TypeEngine
+    from ...sql.visitors import _TraverseInternalsType
+    from ...util.typing import Self
+
+
+_T = TypeVar("_T", bound=typing_Any)
+_CT = TypeVar("_CT", bound=typing_Any)
+
+
+def Any(
+    other: typing_Any,
+    arrexpr: _ColumnExpressionArgument[_T],
+    operator: OperatorType = operators.eq,
+) -> ColumnElement[bool]:
+    """A synonym for the ARRAY-level :meth:`.ARRAY.Comparator.any` method.
+    See that method for details.
+
+    """
+
+    return arrexpr.any(other, operator)  # type: ignore[no-any-return, union-attr]  # noqa: E501
+
+
+def All(
+    other: typing_Any,
+    arrexpr: _ColumnExpressionArgument[_T],
+    operator: OperatorTy
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py
+
+```python
+# dialects/postgresql/asyncpg.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors <see AUTHORS
+# file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+r"""
+.. dialect:: postgresql+asyncpg
+    :name: asyncpg
+    :dbapi: asyncpg
+    :connectstring: postgresql+asyncpg://user:password@host:port/dbname[?key=value&key=value...]
+    :url: https://magicstack.github.io/asyncpg/
+
+The asyncpg dialect is SQLAlchemy's first Python asyncio dialect.
+
+Using a special asyncio mediation layer, the asyncpg dialect is usable
+as the backend for the :ref:`SQLAlchemy asyncio <asyncio_toplevel>`
+extension package.
+
+This dialect should normally be used only with the
+:func:`_asyncio.create_async_engine` engine creation function::
+
+    from sqlalchemy.ext.asyncio import create_async_engine
+
+    engine = create_async_engine(
+        "postgresql+asyncpg://user:pass@hostname/dbname"
+    )
+
+.. versionadded:: 1.4
+
+.. note::
+
+    By default asyncpg does not decode the ``json`` and ``jsonb`` types and
+    returns them as strings. SQLAlchemy sets default type decoder for ``json``
+    and ``jsonb`` types using the python builtin ``json.loads`` function.
+    The json implementation used can be changed by setting the attribute
+    ``json_deserializer`` when creating the engine with
+    :func:`create_engine` or :func:`create_async_engine`.
+
+.. _asyncpg_multihost:
+
+Multihost Connections
+--------------------------
+
+The asyncpg dialect features support for multiple fallback hosts in the
+same way as that of the psycopg2 and psycopg dialects.  The
+syntax is the same,
+using ``host=<host>:<port>`` combinations as additional query string arguments;
+however, there is no default port, so all hosts must have a complete port number
+present, otherwise an exception is raised::
+
+    engine = create_async_engine(
+        "postgresql+asyncpg://user:password@/dbname?host=HostA:5432&host=HostB:5432&hos
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/base.py
+
+```python
+# dialects/postgresql/base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+r"""
+.. dialect:: postgresql
+    :name: PostgreSQL
+    :normal_support: 9.6+
+    :best_effort: 9+
+
+.. _postgresql_sequences:
+
+Sequences/SERIAL/IDENTITY
+-------------------------
+
+PostgreSQL supports sequences, and SQLAlchemy uses these as the default means
+of creating new primary key values for integer-based primary key columns. When
+creating tables, SQLAlchemy will issue the ``SERIAL`` datatype for
+integer-based primary key columns, which generates a sequence and server side
+default corresponding to the column.
+
+To specify a specific named sequence to be used for primary key generation,
+use the :func:`~sqlalchemy.schema.Sequence` construct::
+
+    Table(
+        "sometable",
+        metadata,
+        Column(
+            "id", Integer, Sequence("some_id_seq", start=1), primary_key=True
+        ),
+    )
+
+When SQLAlchemy issues a single INSERT statement, to fulfill the contract of
+having the "last insert identifier" available, a RETURNING clause is added to
+the INSERT statement which specifies the primary key columns should be
+returned after the statement completes. The RETURNING functionality only takes
+place if PostgreSQL 8.2 or later is in use. As a fallback approach, the
+sequence, whether specified explicitly or implicitly via ``SERIAL``, is
+executed independently beforehand, the returned value to be used in the
+subsequent insert. Note that when an
+:func:`~sqlalchemy.sql.expression.insert()` construct is executed using
+"executemany" semantics, the "last inserted identifier" functionality does not
+apply; no RETURNING clause is emitted nor is the sequence pre-executed in this
+case.
+
+
+PostgreSQL 10 and above IDENTITY columns
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+PostgreSQL 10 and above have a new I
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/dml.py
+
+```python
+# dialects/postgresql/dml.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+from typing import Any
+from typing import List
+from typing import Optional
+from typing import Tuple
+from typing import Union
+
+from . import ext
+from .._typing import _OnConflictConstraintT
+from .._typing import _OnConflictIndexElementsT
+from .._typing import _OnConflictIndexWhereT
+from .._typing import _OnConflictSetT
+from .._typing import _OnConflictWhereT
+from ... import util
+from ...sql import coercions
+from ...sql import roles
+from ...sql import schema
+from ...sql._typing import _DMLTableArgument
+from ...sql.base import _exclusive_against
+from ...sql.base import _generative
+from ...sql.base import ColumnCollection
+from ...sql.base import ReadOnlyColumnCollection
+from ...sql.dml import Insert as StandardInsert
+from ...sql.elements import ClauseElement
+from ...sql.elements import ColumnElement
+from ...sql.elements import KeyedColumnElement
+from ...sql.elements import TextClause
+from ...sql.expression import alias
+from ...util.typing import Self
+
+
+__all__ = ("Insert", "insert")
+
+
+def insert(table: _DMLTableArgument) -> Insert:
+    """Construct a PostgreSQL-specific variant :class:`_postgresql.Insert`
+    construct.
+
+    .. container:: inherited_member
+
+        The :func:`sqlalchemy.dialects.postgresql.insert` function creates
+        a :class:`sqlalchemy.dialects.postgresql.Insert`.  This class is based
+        on the dialect-agnostic :class:`_sql.Insert` construct which may
+        be constructed using the :func:`_sql.insert` function in
+        SQLAlchemy Core.
+
+    The :class:`_postgresql.Insert` construct includes additional methods
+    :meth:`_postgresql.Insert.on_conflict_do_update`,
+    :meth:`_postgresql.Insert.on_conflict_do_nothing`.
+
+    """
+    return Insert(table)
+
+
+class In
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/ext.py
+
+```python
+# dialects/postgresql/ext.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+from __future__ import annotations
+
+from typing import Any
+from typing import Iterable
+from typing import List
+from typing import Optional
+from typing import overload
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+
+from . import types
+from .array import ARRAY
+from ...sql import coercions
+from ...sql import elements
+from ...sql import expression
+from ...sql import functions
+from ...sql import roles
+from ...sql import schema
+from ...sql.schema import ColumnCollectionConstraint
+from ...sql.sqltypes import TEXT
+from ...sql.visitors import InternalTraversal
+
+if TYPE_CHECKING:
+    from ...sql._typing import _ColumnExpressionArgument
+    from ...sql._typing import _DDLColumnArgument
+    from ...sql.elements import ClauseElement
+    from ...sql.elements import ColumnElement
+    from ...sql.operators import OperatorType
+    from ...sql.selectable import FromClause
+    from ...sql.visitors import _CloneCallableType
+    from ...sql.visitors import _TraverseInternalsType
+
+_T = TypeVar("_T", bound=Any)
+
+
+class aggregate_order_by(expression.ColumnElement[_T]):
+    """Represent a PostgreSQL aggregate order by expression.
+
+    E.g.::
+
+        from sqlalchemy.dialects.postgresql import aggregate_order_by
+
+        expr = func.array_agg(aggregate_order_by(table.c.a, table.c.b.desc()))
+        stmt = select(expr)
+
+    would represent the expression:
+
+    .. sourcecode:: sql
+
+        SELECT array_agg(a ORDER BY b DESC) FROM table;
+
+    Similarly::
+
+        expr = func.string_agg(
+            table.c.a, aggregate_order_by(literal_column("','"), table.c.a)
+        )
+        stmt = select(expr)
+
+    Would represent:
+
+    .. sourcecode:: sql
+
+        SELECT string_agg(a, ',' ORDER BY a) FR
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/hstore.py
+
+```python
+# dialects/postgresql/hstore.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+import re
+
+from .array import ARRAY
+from .operators import CONTAINED_BY
+from .operators import CONTAINS
+from .operators import GETITEM
+from .operators import HAS_ALL
+from .operators import HAS_ANY
+from .operators import HAS_KEY
+from ... import types as sqltypes
+from ...sql import functions as sqlfunc
+
+
+__all__ = ("HSTORE", "hstore")
+
+
+class HSTORE(sqltypes.Indexable, sqltypes.Concatenable, sqltypes.TypeEngine):
+    """Represent the PostgreSQL HSTORE type.
+
+    The :class:`.HSTORE` type stores dictionaries containing strings, e.g.::
+
+        data_table = Table(
+            "data_table",
+            metadata,
+            Column("id", Integer, primary_key=True),
+            Column("data", HSTORE),
+        )
+
+        with engine.connect() as conn:
+            conn.execute(
+                data_table.insert(), data={"key1": "value1", "key2": "value2"}
+            )
+
+    :class:`.HSTORE` provides for a wide range of operations, including:
+
+    * Index operations::
+
+        data_table.c.data["some key"] == "some value"
+
+    * Containment operations::
+
+        data_table.c.data.has_key("some key")
+
+        data_table.c.data.has_all(["one", "two", "three"])
+
+    * Concatenation::
+
+        data_table.c.data + {"k1": "v1"}
+
+    For a full list of special methods see
+    :class:`.HSTORE.comparator_factory`.
+
+    .. container:: topic
+
+        **Detecting Changes in HSTORE columns when using the ORM**
+
+        For usage with the SQLAlchemy ORM, it may be desirable to combine the
+        usage of :class:`.HSTORE` with :class:`.MutableDict` dictionary now
+        part of the :mod:`sqlalchemy.ext.mutable` extension. This extension
+        will allow "in-place" changes to the dictionary, e.g. addition of new
+      
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/json.py
+
+```python
+# dialects/postgresql/json.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Callable
+from typing import List
+from typing import Optional
+from typing import TYPE_CHECKING
+from typing import Union
+
+from .array import ARRAY
+from .array import array as _pg_array
+from .operators import ASTEXT
+from .operators import CONTAINED_BY
+from .operators import CONTAINS
+from .operators import DELETE_PATH
+from .operators import HAS_ALL
+from .operators import HAS_ANY
+from .operators import HAS_KEY
+from .operators import JSONPATH_ASTEXT
+from .operators import PATH_EXISTS
+from .operators import PATH_MATCH
+from ... import types as sqltypes
+from ...sql import cast
+from ...sql._typing import _T
+
+if TYPE_CHECKING:
+    from ...engine.interfaces import Dialect
+    from ...sql.elements import ColumnElement
+    from ...sql.operators import OperatorType
+    from ...sql.type_api import _BindProcessorType
+    from ...sql.type_api import _LiteralProcessorType
+    from ...sql.type_api import TypeEngine
+
+__all__ = ("JSON", "JSONB")
+
+
+class JSONPathType(sqltypes.JSON.JSONPathType):
+    def _processor(
+        self, dialect: Dialect, super_proc: Optional[Callable[[Any], Any]]
+    ) -> Callable[[Any], Any]:
+        def process(value: Any) -> Any:
+            if isinstance(value, str):
+                # If it's already a string assume that it's in json path
+                # format. This allows using cast with json paths literals
+                return value
+            elif value:
+                # If it's already a string assume that it's in json path
+                # format. This allows using cast with json paths literals
+                value = "{%s}" % (", ".join(map(str, value)))
+            else:
+                value = "{}"
+            if super_pro
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/named_types.py
+
+```python
+# dialects/postgresql/named_types.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+from __future__ import annotations
+
+from types import ModuleType
+from typing import Any
+from typing import Dict
+from typing import Optional
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import Union
+
+from ... import schema
+from ... import util
+from ...sql import coercions
+from ...sql import elements
+from ...sql import roles
+from ...sql import sqltypes
+from ...sql import type_api
+from ...sql.base import _NoArg
+from ...sql.ddl import InvokeCreateDDLBase
+from ...sql.ddl import InvokeDropDDLBase
+
+if TYPE_CHECKING:
+    from ...sql._typing import _CreateDropBind
+    from ...sql._typing import _TypeEngineArgument
+
+
+class NamedType(schema.SchemaVisitable, sqltypes.TypeEngine):
+    """Base for named types."""
+
+    __abstract__ = True
+    DDLGenerator: Type[NamedTypeGenerator]
+    DDLDropper: Type[NamedTypeDropper]
+    create_type: bool
+
+    def create(
+        self, bind: _CreateDropBind, checkfirst: bool = True, **kw: Any
+    ) -> None:
+        """Emit ``CREATE`` DDL for this type.
+
+        :param bind: a connectable :class:`_engine.Engine`,
+         :class:`_engine.Connection`, or similar object to emit
+         SQL.
+        :param checkfirst: if ``True``, a query against
+         the PG catalog will be first performed to see
+         if the type does not exist already before
+         creating.
+
+        """
+        bind._run_ddl_visitor(self.DDLGenerator, self, checkfirst=checkfirst)
+
+    def drop(
+        self, bind: _CreateDropBind, checkfirst: bool = True, **kw: Any
+    ) -> None:
+        """Emit ``DROP`` DDL for this type.
+
+        :param bind: a connectable :class:`_engine.Engine`,
+         :class:`_engine.Connection`, or similar object to emit
+         SQL.
+        :param 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/operators.py
+
+```python
+# dialects/postgresql/operators.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+from ...sql import operators
+
+
+_getitem_precedence = operators._PRECEDENCE[operators.json_getitem_op]
+_eq_precedence = operators._PRECEDENCE[operators.eq]
+
+# JSON + JSONB
+ASTEXT = operators.custom_op(
+    "->>",
+    precedence=_getitem_precedence,
+    natural_self_precedent=True,
+    eager_grouping=True,
+)
+
+JSONPATH_ASTEXT = operators.custom_op(
+    "#>>",
+    precedence=_getitem_precedence,
+    natural_self_precedent=True,
+    eager_grouping=True,
+)
+
+# JSONB + HSTORE
+HAS_KEY = operators.custom_op(
+    "?",
+    precedence=_eq_precedence,
+    natural_self_precedent=True,
+    eager_grouping=True,
+    is_comparison=True,
+)
+
+HAS_ALL = operators.custom_op(
+    "?&",
+    precedence=_eq_precedence,
+    natural_self_precedent=True,
+    eager_grouping=True,
+    is_comparison=True,
+)
+
+HAS_ANY = operators.custom_op(
+    "?|",
+    precedence=_eq_precedence,
+    natural_self_precedent=True,
+    eager_grouping=True,
+    is_comparison=True,
+)
+
+# JSONB
+DELETE_PATH = operators.custom_op(
+    "#-",
+    precedence=_getitem_precedence,
+    natural_self_precedent=True,
+    eager_grouping=True,
+)
+
+PATH_EXISTS = operators.custom_op(
+    "@?",
+    precedence=_eq_precedence,
+    natural_self_precedent=True,
+    eager_grouping=True,
+    is_comparison=True,
+)
+
+PATH_MATCH = operators.custom_op(
+    "@@",
+    precedence=_eq_precedence,
+    natural_self_precedent=True,
+    eager_grouping=True,
+    is_comparison=True,
+)
+
+# JSONB + ARRAY + HSTORE + RANGE
+CONTAINS = operators.custom_op(
+    "@>",
+    precedence=_eq_precedence,
+    natural_self_precedent=True,
+    eager_grouping=True,
+    is_comparison=True,
+)
+
+CONTAINED_BY = operators.custom_op(
+    "<@",
+    precedence=_eq_precedence,
+    natural_self_precedent=True,
+    eager_
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/pg8000.py
+
+```python
+# dialects/postgresql/pg8000.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors <see AUTHORS
+# file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+r"""
+.. dialect:: postgresql+pg8000
+    :name: pg8000
+    :dbapi: pg8000
+    :connectstring: postgresql+pg8000://user:password@host:port/dbname[?key=value&key=value...]
+    :url: https://pypi.org/project/pg8000/
+
+.. versionchanged:: 1.4  The pg8000 dialect has been updated for version
+   1.16.6 and higher, and is again part of SQLAlchemy's continuous integration
+   with full feature support.
+
+.. _pg8000_unicode:
+
+Unicode
+-------
+
+pg8000 will encode / decode string values between it and the server using the
+PostgreSQL ``client_encoding`` parameter; by default this is the value in
+the ``postgresql.conf`` file, which often defaults to ``SQL_ASCII``.
+Typically, this can be changed to ``utf-8``, as a more useful default::
+
+    # client_encoding = sql_ascii # actually, defaults to database encoding
+    client_encoding = utf8
+
+The ``client_encoding`` can be overridden for a session by executing the SQL:
+
+.. sourcecode:: sql
+
+    SET CLIENT_ENCODING TO 'utf8';
+
+SQLAlchemy will execute this SQL on all new connections based on the value
+passed to :func:`_sa.create_engine` using the ``client_encoding`` parameter::
+
+    engine = create_engine(
+        "postgresql+pg8000://user:pass@host/dbname", client_encoding="utf8"
+    )
+
+.. _pg8000_ssl:
+
+SSL Connections
+---------------
+
+pg8000 accepts a Python ``SSLContext`` object which may be specified using the
+:paramref:`_sa.create_engine.connect_args` dictionary::
+
+    import ssl
+
+    ssl_context = ssl.create_default_context()
+    engine = sa.create_engine(
+        "postgresql+pg8000://scott:tiger@192.168.0.199/test",
+        connect_args={"ssl_context": ssl_context},
+    )
+
+If the server uses an automatically-generated certificate that is self-signed
+or does not matc
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/pg_catalog.py
+
+```python
+# dialects/postgresql/pg_catalog.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Optional
+from typing import Sequence
+from typing import TYPE_CHECKING
+
+from .array import ARRAY
+from .types import OID
+from .types import REGCLASS
+from ... import Column
+from ... import func
+from ... import MetaData
+from ... import Table
+from ...types import BigInteger
+from ...types import Boolean
+from ...types import CHAR
+from ...types import Float
+from ...types import Integer
+from ...types import SmallInteger
+from ...types import String
+from ...types import Text
+from ...types import TypeDecorator
+
+if TYPE_CHECKING:
+    from ...engine.interfaces import Dialect
+    from ...sql.type_api import _ResultProcessorType
+
+
+# types
+class NAME(TypeDecorator[str]):
+    impl = String(64, collation="C")
+    cache_ok = True
+
+
+class PG_NODE_TREE(TypeDecorator[str]):
+    impl = Text(collation="C")
+    cache_ok = True
+
+
+class INT2VECTOR(TypeDecorator[Sequence[int]]):
+    impl = ARRAY(SmallInteger)
+    cache_ok = True
+
+
+class OIDVECTOR(TypeDecorator[Sequence[int]]):
+    impl = ARRAY(OID)
+    cache_ok = True
+
+
+class _SpaceVector:
+    def result_processor(
+        self, dialect: Dialect, coltype: object
+    ) -> _ResultProcessorType[list[int]]:
+        def process(value: Any) -> Optional[list[int]]:
+            if value is None:
+                return value
+            return [int(p) for p in value.split(" ")]
+
+        return process
+
+
+REGPROC = REGCLASS  # seems an alias
+
+# functions
+_pg_cat = func.pg_catalog
+quote_ident = _pg_cat.quote_ident
+pg_table_is_visible = _pg_cat.pg_table_is_visible
+pg_type_is_visible = _pg_cat.pg_type_is_visible
+pg_get_viewdef = _pg_cat.pg_get_viewdef
+pg_get_serial_sequence = _pg_cat.pg_get_serial_sequence
+format_type = _pg_cat.for
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/provision.py
+
+```python
+# dialects/postgresql/provision.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+import time
+
+from ... import exc
+from ... import inspect
+from ... import text
+from ...testing import warn_test_suite
+from ...testing.provision import create_db
+from ...testing.provision import drop_all_schema_objects_post_tables
+from ...testing.provision import drop_all_schema_objects_pre_tables
+from ...testing.provision import drop_db
+from ...testing.provision import log
+from ...testing.provision import post_configure_engine
+from ...testing.provision import prepare_for_drop_tables
+from ...testing.provision import set_default_schema_on_connection
+from ...testing.provision import temp_table_keyword_args
+from ...testing.provision import upsert
+
+
+@create_db.for_db("postgresql")
+def _pg_create_db(cfg, eng, ident):
+    template_db = cfg.options.postgresql_templatedb
+
+    with eng.execution_options(isolation_level="AUTOCOMMIT").begin() as conn:
+        if not template_db:
+            template_db = conn.exec_driver_sql(
+                "select current_database()"
+            ).scalar()
+
+        attempt = 0
+        while True:
+            try:
+                conn.exec_driver_sql(
+                    "CREATE DATABASE %s TEMPLATE %s" % (ident, template_db)
+                )
+            except exc.OperationalError as err:
+                attempt += 1
+                if attempt >= 3:
+                    raise
+                if "accessed by other users" in str(err):
+                    log.info(
+                        "Waiting to create %s, URI %r, "
+                        "template DB %s is in use sleeping for .5",
+                        ident,
+                        eng.url,
+                        template_db,
+                    )
+                    time.sleep(0.5)
+            except:
+            
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/psycopg.py
+
+```python
+# dialects/postgresql/psycopg.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+r"""
+.. dialect:: postgresql+psycopg
+    :name: psycopg (a.k.a. psycopg 3)
+    :dbapi: psycopg
+    :connectstring: postgresql+psycopg://user:password@host:port/dbname[?key=value&key=value...]
+    :url: https://pypi.org/project/psycopg/
+
+``psycopg`` is the package and module name for version 3 of the ``psycopg``
+database driver, formerly known as ``psycopg2``.  This driver is different
+enough from its ``psycopg2`` predecessor that SQLAlchemy supports it
+via a totally separate dialect; support for ``psycopg2`` is expected to remain
+for as long as that package continues to function for modern Python versions,
+and also remains the default dialect for the ``postgresql://`` dialect
+series.
+
+The SQLAlchemy ``psycopg`` dialect provides both a sync and an async
+implementation under the same dialect name. The proper version is
+selected depending on how the engine is created:
+
+* calling :func:`_sa.create_engine` with ``postgresql+psycopg://...`` will
+  automatically select the sync version, e.g.::
+
+    from sqlalchemy import create_engine
+
+    sync_engine = create_engine(
+        "postgresql+psycopg://scott:tiger@localhost/test"
+    )
+
+* calling :func:`_asyncio.create_async_engine` with
+  ``postgresql+psycopg://...`` will automatically select the async version,
+  e.g.::
+
+    from sqlalchemy.ext.asyncio import create_async_engine
+
+    asyncio_engine = create_async_engine(
+        "postgresql+psycopg://scott:tiger@localhost/test"
+    )
+
+The asyncio version of the dialect may also be specified explicitly using the
+``psycopg_async`` suffix, as::
+
+    from sqlalchemy.ext.asyncio import create_async_engine
+
+    asyncio_engine = create_async_engine(
+        "postgresql+psycopg_async://scott:tiger@localhost/test"
+  
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py
+
+```python
+# dialects/postgresql/psycopg2.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+r"""
+.. dialect:: postgresql+psycopg2
+    :name: psycopg2
+    :dbapi: psycopg2
+    :connectstring: postgresql+psycopg2://user:password@host:port/dbname[?key=value&key=value...]
+    :url: https://pypi.org/project/psycopg2/
+
+.. _psycopg2_toplevel:
+
+psycopg2 Connect Arguments
+--------------------------
+
+Keyword arguments that are specific to the SQLAlchemy psycopg2 dialect
+may be passed to :func:`_sa.create_engine()`, and include the following:
+
+
+* ``isolation_level``: This option, available for all PostgreSQL dialects,
+  includes the ``AUTOCOMMIT`` isolation level when using the psycopg2
+  dialect.   This option sets the **default** isolation level for the
+  connection that is set immediately upon connection to the database before
+  the connection is pooled.  This option is generally superseded by the more
+  modern :paramref:`_engine.Connection.execution_options.isolation_level`
+  execution option, detailed at :ref:`dbapi_autocommit`.
+
+  .. seealso::
+
+    :ref:`psycopg2_isolation_level`
+
+    :ref:`dbapi_autocommit`
+
+
+* ``client_encoding``: sets the client encoding in a libpq-agnostic way,
+  using psycopg2's ``set_client_encoding()`` method.
+
+  .. seealso::
+
+    :ref:`psycopg2_unicode`
+
+
+* ``executemany_mode``, ``executemany_batch_page_size``,
+  ``executemany_values_page_size``: Allows use of psycopg2
+  extensions for optimizing "executemany"-style queries.  See the referenced
+  section below for details.
+
+  .. seealso::
+
+    :ref:`psycopg2_executemany_mode`
+
+.. tip::
+
+    The above keyword arguments are **dialect** keyword arguments, meaning
+    that they are passed as explicit keyword arguments to :func:`_sa.create_engine()`::
+
+        engine = create_engine(
+            "postgresql+psycopg2://sco
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/psycopg2cffi.py
+
+```python
+# dialects/postgresql/psycopg2cffi.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+r"""
+.. dialect:: postgresql+psycopg2cffi
+    :name: psycopg2cffi
+    :dbapi: psycopg2cffi
+    :connectstring: postgresql+psycopg2cffi://user:password@host:port/dbname[?key=value&key=value...]
+    :url: https://pypi.org/project/psycopg2cffi/
+
+``psycopg2cffi`` is an adaptation of ``psycopg2``, using CFFI for the C
+layer. This makes it suitable for use in e.g. PyPy. Documentation
+is as per ``psycopg2``.
+
+.. seealso::
+
+    :mod:`sqlalchemy.dialects.postgresql.psycopg2`
+
+"""  # noqa
+from .psycopg2 import PGDialect_psycopg2
+from ... import util
+
+
+class PGDialect_psycopg2cffi(PGDialect_psycopg2):
+    driver = "psycopg2cffi"
+    supports_unicode_statements = True
+    supports_statement_cache = True
+
+    # psycopg2cffi's first release is 2.5.0, but reports
+    # __version__ as 2.4.4.  Subsequent releases seem to have
+    # fixed this.
+
+    FEATURE_VERSION_MAP = dict(
+        native_json=(2, 4, 4),
+        native_jsonb=(2, 7, 1),
+        sane_multi_rowcount=(2, 4, 4),
+        array_oid=(2, 4, 4),
+        hstore_adapter=(2, 4, 4),
+    )
+
+    @classmethod
+    def import_dbapi(cls):
+        return __import__("psycopg2cffi")
+
+    @util.memoized_property
+    def _psycopg2_extensions(cls):
+        root = __import__("psycopg2cffi", fromlist=["extensions"])
+        return root.extensions
+
+    @util.memoized_property
+    def _psycopg2_extras(cls):
+        root = __import__("psycopg2cffi", fromlist=["extras"])
+        return root.extras
+
+
+dialect = PGDialect_psycopg2cffi
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/ranges.py
+
+```python
+# dialects/postgresql/ranges.py
+# Copyright (C) 2013-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import dataclasses
+from datetime import date
+from datetime import datetime
+from datetime import timedelta
+from decimal import Decimal
+from typing import Any
+from typing import cast
+from typing import Generic
+from typing import List
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .operators import ADJACENT_TO
+from .operators import CONTAINED_BY
+from .operators import CONTAINS
+from .operators import NOT_EXTEND_LEFT_OF
+from .operators import NOT_EXTEND_RIGHT_OF
+from .operators import OVERLAP
+from .operators import STRICTLY_LEFT_OF
+from .operators import STRICTLY_RIGHT_OF
+from ... import types as sqltypes
+from ...sql import operators
+from ...sql.type_api import TypeEngine
+from ...util import py310
+from ...util.typing import Literal
+
+if TYPE_CHECKING:
+    from ...sql.elements import ColumnElement
+    from ...sql.type_api import _TE
+    from ...sql.type_api import TypeEngineMixin
+
+_T = TypeVar("_T", bound=Any)
+
+_BoundsType = Literal["()", "[)", "(]", "[]"]
+
+if py310:
+    dc_slots = {"slots": True}
+    dc_kwonly = {"kw_only": True}
+else:
+    dc_slots = {}
+    dc_kwonly = {}
+
+
+@dataclasses.dataclass(frozen=True, **dc_slots)
+class Range(Generic[_T]):
+    """Represent a PostgreSQL range.
+
+    E.g.::
+
+        r = Range(10, 50, bounds="()")
+
+    The calling style is similar to that of psycopg and psycopg2, in part
+    to allow easier migration from previous SQLAlchemy versions that used
+    these objects directly.
+
+    :param lower: Lower bound value, or None
+    :param upper: Upper bound value, or None
+    :param bounds: k
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/types.py
+
+```python
+# dialects/postgresql/types.py
+# Copyright (C) 2013-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+import datetime as dt
+from typing import Any
+from typing import Optional
+from typing import overload
+from typing import Type
+from typing import TYPE_CHECKING
+from uuid import UUID as _python_UUID
+
+from ...sql import sqltypes
+from ...sql import type_api
+from ...util.typing import Literal
+
+if TYPE_CHECKING:
+    from ...engine.interfaces import Dialect
+    from ...sql.operators import OperatorType
+    from ...sql.type_api import _LiteralProcessorType
+    from ...sql.type_api import TypeEngine
+
+_DECIMAL_TYPES = (1231, 1700)
+_FLOAT_TYPES = (700, 701, 1021, 1022)
+_INT_TYPES = (20, 21, 23, 26, 1005, 1007, 1016)
+
+
+class PGUuid(sqltypes.UUID[sqltypes._UUID_RETURN]):
+    render_bind_cast = True
+    render_literal_cast = True
+
+    if TYPE_CHECKING:
+
+        @overload
+        def __init__(
+            self: PGUuid[_python_UUID], as_uuid: Literal[True] = ...
+        ) -> None: ...
+
+        @overload
+        def __init__(
+            self: PGUuid[str], as_uuid: Literal[False] = ...
+        ) -> None: ...
+
+        def __init__(self, as_uuid: bool = True) -> None: ...
+
+
+class BYTEA(sqltypes.LargeBinary):
+    __visit_name__ = "BYTEA"
+
+
+class _NetworkAddressTypeMixin:
+
+    def coerce_compared_value(
+        self, op: Optional[OperatorType], value: Any
+    ) -> TypeEngine[Any]:
+        if TYPE_CHECKING:
+            assert isinstance(self, TypeEngine)
+        return self
+
+
+class INET(_NetworkAddressTypeMixin, sqltypes.TypeEngine[str]):
+    __visit_name__ = "INET"
+
+
+PGInet = INET
+
+
+class CIDR(_NetworkAddressTypeMixin, sqltypes.TypeEngine[str]):
+    __visit_name__ = "CIDR"
+
+
+PGCidr = CIDR
+
+
+class MACADDR(_NetworkAddressTypeMixin, sqltypes.TypeEngine[str]):
+    __visit_name__ = "MACADDR"
+
+
+PGMacAddr = MACADDR
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/__init__.py
+
+```python
+# dialects/sqlite/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from . import aiosqlite  # noqa
+from . import base  # noqa
+from . import pysqlcipher  # noqa
+from . import pysqlite  # noqa
+from .base import BLOB
+from .base import BOOLEAN
+from .base import CHAR
+from .base import DATE
+from .base import DATETIME
+from .base import DECIMAL
+from .base import FLOAT
+from .base import INTEGER
+from .base import JSON
+from .base import NUMERIC
+from .base import REAL
+from .base import SMALLINT
+from .base import TEXT
+from .base import TIME
+from .base import TIMESTAMP
+from .base import VARCHAR
+from .dml import Insert
+from .dml import insert
+
+# default dialect
+base.dialect = dialect = pysqlite.dialect
+
+
+__all__ = (
+    "BLOB",
+    "BOOLEAN",
+    "CHAR",
+    "DATE",
+    "DATETIME",
+    "DECIMAL",
+    "FLOAT",
+    "INTEGER",
+    "JSON",
+    "NUMERIC",
+    "SMALLINT",
+    "TEXT",
+    "TIME",
+    "TIMESTAMP",
+    "VARCHAR",
+    "REAL",
+    "Insert",
+    "insert",
+    "dialect",
+)
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/aiosqlite.py
+
+```python
+# dialects/sqlite/aiosqlite.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+r"""
+
+.. dialect:: sqlite+aiosqlite
+    :name: aiosqlite
+    :dbapi: aiosqlite
+    :connectstring: sqlite+aiosqlite:///file_path
+    :url: https://pypi.org/project/aiosqlite/
+
+The aiosqlite dialect provides support for the SQLAlchemy asyncio interface
+running on top of pysqlite.
+
+aiosqlite is a wrapper around pysqlite that uses a background thread for
+each connection.   It does not actually use non-blocking IO, as SQLite
+databases are not socket-based.  However it does provide a working asyncio
+interface that's useful for testing and prototyping purposes.
+
+Using a special asyncio mediation layer, the aiosqlite dialect is usable
+as the backend for the :ref:`SQLAlchemy asyncio <asyncio_toplevel>`
+extension package.
+
+This dialect should normally be used only with the
+:func:`_asyncio.create_async_engine` engine creation function::
+
+    from sqlalchemy.ext.asyncio import create_async_engine
+
+    engine = create_async_engine("sqlite+aiosqlite:///filename")
+
+The URL passes through all arguments to the ``pysqlite`` driver, so all
+connection arguments are the same as they are for that of :ref:`pysqlite`.
+
+.. _aiosqlite_udfs:
+
+User-Defined Functions
+----------------------
+
+aiosqlite extends pysqlite to support async, so we can create our own user-defined functions (UDFs)
+in Python and use them directly in SQLite queries as described here: :ref:`pysqlite_udfs`.
+
+.. _aiosqlite_serializable:
+
+Serializable isolation / Savepoints / Transactional DDL (asyncio version)
+-------------------------------------------------------------------------
+
+A newly revised version of this important section is now available
+at the top level of the SQLAlchemy SQLite documentation, in the section
+:ref:`sqlite_transactions`.
+
+
+.. _aiosqlite_pooling:
+
+Pool
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/base.py
+
+```python
+# dialects/sqlite/base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+r'''
+.. dialect:: sqlite
+    :name: SQLite
+    :normal_support: 3.12+
+    :best_effort: 3.7.16+
+
+.. _sqlite_datetime:
+
+Date and Time Types
+-------------------
+
+SQLite does not have built-in DATE, TIME, or DATETIME types, and pysqlite does
+not provide out of the box functionality for translating values between Python
+`datetime` objects and a SQLite-supported format. SQLAlchemy's own
+:class:`~sqlalchemy.types.DateTime` and related types provide date formatting
+and parsing functionality when SQLite is used. The implementation classes are
+:class:`_sqlite.DATETIME`, :class:`_sqlite.DATE` and :class:`_sqlite.TIME`.
+These types represent dates and times as ISO formatted strings, which also
+nicely support ordering. There's no reliance on typical "libc" internals for
+these functions so historical dates are fully supported.
+
+Ensuring Text affinity
+^^^^^^^^^^^^^^^^^^^^^^
+
+The DDL rendered for these types is the standard ``DATE``, ``TIME``
+and ``DATETIME`` indicators.    However, custom storage formats can also be
+applied to these types.   When the
+storage format is detected as containing no alpha characters, the DDL for
+these types is rendered as ``DATE_CHAR``, ``TIME_CHAR``, and ``DATETIME_CHAR``,
+so that the column continues to have textual affinity.
+
+.. seealso::
+
+    `Type Affinity <https://www.sqlite.org/datatype3.html#affinity>`_ -
+    in the SQLite documentation
+
+.. _sqlite_autoincrement:
+
+SQLite Auto Incrementing Behavior
+----------------------------------
+
+Background on SQLite's autoincrement is at: https://sqlite.org/autoinc.html
+
+Key concepts:
+
+* SQLite has an implicit "auto increment" feature that takes place for any
+  non-composite primary-key column that is specifically created using
+  "INTEGER PRIMA
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/dml.py
+
+```python
+# dialects/sqlite/dml.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+from typing import Any
+from typing import List
+from typing import Optional
+from typing import Tuple
+from typing import Union
+
+from .._typing import _OnConflictIndexElementsT
+from .._typing import _OnConflictIndexWhereT
+from .._typing import _OnConflictSetT
+from .._typing import _OnConflictWhereT
+from ... import util
+from ...sql import coercions
+from ...sql import roles
+from ...sql import schema
+from ...sql._typing import _DMLTableArgument
+from ...sql.base import _exclusive_against
+from ...sql.base import _generative
+from ...sql.base import ColumnCollection
+from ...sql.base import ReadOnlyColumnCollection
+from ...sql.dml import Insert as StandardInsert
+from ...sql.elements import ClauseElement
+from ...sql.elements import ColumnElement
+from ...sql.elements import KeyedColumnElement
+from ...sql.elements import TextClause
+from ...sql.expression import alias
+from ...util.typing import Self
+
+__all__ = ("Insert", "insert")
+
+
+def insert(table: _DMLTableArgument) -> Insert:
+    """Construct a sqlite-specific variant :class:`_sqlite.Insert`
+    construct.
+
+    .. container:: inherited_member
+
+        The :func:`sqlalchemy.dialects.sqlite.insert` function creates
+        a :class:`sqlalchemy.dialects.sqlite.Insert`.  This class is based
+        on the dialect-agnostic :class:`_sql.Insert` construct which may
+        be constructed using the :func:`_sql.insert` function in
+        SQLAlchemy Core.
+
+    The :class:`_sqlite.Insert` construct includes additional methods
+    :meth:`_sqlite.Insert.on_conflict_do_update`,
+    :meth:`_sqlite.Insert.on_conflict_do_nothing`.
+
+    """
+    return Insert(table)
+
+
+class Insert(StandardInsert):
+    """SQLite-specific implementation of INSERT.
+
+    Adds methods for SQL
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/json.py
+
+```python
+# dialects/sqlite/json.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from ... import types as sqltypes
+
+
+class JSON(sqltypes.JSON):
+    """SQLite JSON type.
+
+    SQLite supports JSON as of version 3.9 through its JSON1_ extension. Note
+    that JSON1_ is a
+    `loadable extension <https://www.sqlite.org/loadext.html>`_ and as such
+    may not be available, or may require run-time loading.
+
+    :class:`_sqlite.JSON` is used automatically whenever the base
+    :class:`_types.JSON` datatype is used against a SQLite backend.
+
+    .. seealso::
+
+        :class:`_types.JSON` - main documentation for the generic
+        cross-platform JSON datatype.
+
+    The :class:`_sqlite.JSON` type supports persistence of JSON values
+    as well as the core index operations provided by :class:`_types.JSON`
+    datatype, by adapting the operations to render the ``JSON_EXTRACT``
+    function wrapped in the ``JSON_QUOTE`` function at the database level.
+    Extracted values are quoted in order to ensure that the results are
+    always JSON string values.
+
+
+    .. versionadded:: 1.3
+
+
+    .. _JSON1: https://www.sqlite.org/json1.html
+
+    """
+
+
+# Note: these objects currently match exactly those of MySQL, however since
+# these are not generalizable to all JSON implementations, remain separately
+# implemented for each dialect.
+class _FormatTypeMixin:
+    def _format_value(self, value):
+        raise NotImplementedError()
+
+    def bind_processor(self, dialect):
+        super_proc = self.string_bind_processor(dialect)
+
+        def process(value):
+            value = self._format_value(value)
+            if super_proc:
+                value = super_proc(value)
+            return value
+
+        return process
+
+    def literal_processor(self, dialect):
+        super_proc = self.string_literal_processor(d
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/provision.py
+
+```python
+# dialects/sqlite/provision.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+import os
+import re
+
+from ... import event
+from ... import exc
+from ...engine import url as sa_url
+from ...testing import config
+from ...testing.provision import create_db
+from ...testing.provision import drop_db
+from ...testing.provision import follower_url_from_main
+from ...testing.provision import generate_driver_url
+from ...testing.provision import log
+from ...testing.provision import post_configure_engine
+from ...testing.provision import post_configure_testing_engine
+from ...testing.provision import run_reap_dbs
+from ...testing.provision import stop_test_class_outside_fixtures
+from ...testing.provision import temp_table_keyword_args
+from ...testing.provision import upsert
+
+# TODO: I can't get this to build dynamically with pytest-xdist procs
+_drivernames = {
+    "pysqlite",
+    "aiosqlite",
+    "pysqlcipher",
+    "pysqlite_numeric",
+    "pysqlite_dollar",
+}
+
+
+def _format_url(url, driver, ident):
+    """given a sqlite url + desired driver + ident, make a canonical
+    URL out of it
+
+    """
+    url = sa_url.make_url(url)
+
+    if driver is None:
+        driver = url.get_driver_name()
+
+    filename = url.database
+
+    needs_enc = driver == "pysqlcipher"
+    name_token = None
+
+    if filename and filename != ":memory:":
+        assert "test_schema" not in filename
+        tokens = re.split(r"[_\.]", filename)
+
+        for token in tokens:
+            if token in _drivernames:
+                if driver is None:
+                    driver = token
+                continue
+            elif token in ("db", "enc"):
+                continue
+            elif name_token is None:
+                name_token = token.strip("_")
+
+        assert name_token, f"sqlite filename has no name token: {url.database}"
+
+  
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/pysqlcipher.py
+
+```python
+# dialects/sqlite/pysqlcipher.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""
+.. dialect:: sqlite+pysqlcipher
+    :name: pysqlcipher
+    :dbapi: sqlcipher 3 or pysqlcipher
+    :connectstring: sqlite+pysqlcipher://:passphrase@/file_path[?kdf_iter=<iter>]
+
+    Dialect for support of DBAPIs that make use of the
+    `SQLCipher <https://www.zetetic.net/sqlcipher>`_ backend.
+
+
+Driver
+------
+
+Current dialect selection logic is:
+
+* If the :paramref:`_sa.create_engine.module` parameter supplies a DBAPI module,
+  that module is used.
+* Otherwise for Python 3, choose https://pypi.org/project/sqlcipher3/
+* If not available, fall back to https://pypi.org/project/pysqlcipher3/
+* For Python 2, https://pypi.org/project/pysqlcipher/ is used.
+
+.. warning:: The ``pysqlcipher3`` and ``pysqlcipher`` DBAPI drivers are no
+   longer maintained; the ``sqlcipher3`` driver as of this writing appears
+   to be current.  For future compatibility, any pysqlcipher-compatible DBAPI
+   may be used as follows::
+
+        import sqlcipher_compatible_driver
+
+        from sqlalchemy import create_engine
+
+        e = create_engine(
+            "sqlite+pysqlcipher://:password@/dbname.db",
+            module=sqlcipher_compatible_driver,
+        )
+
+These drivers make use of the SQLCipher engine. This system essentially
+introduces new PRAGMA commands to SQLite which allows the setting of a
+passphrase and other encryption parameters, allowing the database file to be
+encrypted.
+
+
+Connect Strings
+---------------
+
+The format of the connect string is in every way the same as that
+of the :mod:`~sqlalchemy.dialects.sqlite.pysqlite` driver, except that the
+"password" field is now accepted, which should contain a passphrase::
+
+    e = create_engine("sqlite+pysqlcipher://:testing@/foo.db")
+
+For an absolute file path, two 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/pysqlite.py
+
+```python
+# dialects/sqlite/pysqlite.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+r"""
+.. dialect:: sqlite+pysqlite
+    :name: pysqlite
+    :dbapi: sqlite3
+    :connectstring: sqlite+pysqlite:///file_path
+    :url: https://docs.python.org/library/sqlite3.html
+
+    Note that ``pysqlite`` is the same driver as the ``sqlite3``
+    module included with the Python distribution.
+
+Driver
+------
+
+The ``sqlite3`` Python DBAPI is standard on all modern Python versions;
+for cPython and Pypy, no additional installation is necessary.
+
+
+Connect Strings
+---------------
+
+The file specification for the SQLite database is taken as the "database"
+portion of the URL.  Note that the format of a SQLAlchemy url is:
+
+.. sourcecode:: text
+
+    driver://user:pass@host/database
+
+This means that the actual filename to be used starts with the characters to
+the **right** of the third slash.   So connecting to a relative filepath
+looks like::
+
+    # relative path
+    e = create_engine("sqlite:///path/to/database.db")
+
+An absolute path, which is denoted by starting with a slash, means you
+need **four** slashes::
+
+    # absolute path
+    e = create_engine("sqlite:////path/to/database.db")
+
+To use a Windows path, regular drive specifications and backslashes can be
+used. Double backslashes are probably needed::
+
+    # absolute path on Windows
+    e = create_engine("sqlite:///C:\\path\\to\\database.db")
+
+To use sqlite ``:memory:`` database specify it as the filename using
+``sqlite:///:memory:``. It's also the default if no filepath is
+present, specifying only ``sqlite://`` and nothing else::
+
+    # in-memory database (note three slashes)
+    e = create_engine("sqlite:///:memory:")
+    # also in-memory database
+    e2 = create_engine("sqlite://")
+
+.. _pysqlite_uri_connections:
+
+URI Connections
+^^^^^^^^^^^^^^^
+
+Modern versions of SQLite s
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/__init__.py
+
+```python
+# engine/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""SQL connections, SQL execution and high-level DB-API interface.
+
+The engine package defines the basic components used to interface
+DB-API modules with higher-level statement construction,
+connection-management, execution and result contexts.  The primary
+"entry point" class into this package is the Engine and its public
+constructor ``create_engine()``.
+
+"""
+
+from . import events as events
+from . import util as util
+from .base import Connection as Connection
+from .base import Engine as Engine
+from .base import NestedTransaction as NestedTransaction
+from .base import RootTransaction as RootTransaction
+from .base import Transaction as Transaction
+from .base import TwoPhaseTransaction as TwoPhaseTransaction
+from .create import create_engine as create_engine
+from .create import create_pool_from_url as create_pool_from_url
+from .create import engine_from_config as engine_from_config
+from .cursor import CursorResult as CursorResult
+from .cursor import ResultProxy as ResultProxy
+from .interfaces import AdaptedConnection as AdaptedConnection
+from .interfaces import BindTyping as BindTyping
+from .interfaces import Compiled as Compiled
+from .interfaces import Connectable as Connectable
+from .interfaces import ConnectArgsType as ConnectArgsType
+from .interfaces import ConnectionEventsTarget as ConnectionEventsTarget
+from .interfaces import CreateEnginePlugin as CreateEnginePlugin
+from .interfaces import Dialect as Dialect
+from .interfaces import ExceptionContext as ExceptionContext
+from .interfaces import ExecutionContext as ExecutionContext
+from .interfaces import TypeCompiler as TypeCompiler
+from .mock import create_mock_engine as create_mock_engine
+from .reflection import Inspector as Inspector
+from .reflection import ObjectKind as Obje
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/_py_processors.py
+
+```python
+# engine/_py_processors.py
+# Copyright (C) 2010-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+# Copyright (C) 2010 Gaetan de Menten gdementen@gmail.com
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""defines generic type conversion functions, as used in bind and result
+processors.
+
+They all share one common characteristic: None is passed through unchanged.
+
+"""
+
+from __future__ import annotations
+
+import datetime
+from datetime import date as date_cls
+from datetime import datetime as datetime_cls
+from datetime import time as time_cls
+from decimal import Decimal
+import typing
+from typing import Any
+from typing import Callable
+from typing import Optional
+from typing import Type
+from typing import TypeVar
+from typing import Union
+
+
+_DT = TypeVar(
+    "_DT", bound=Union[datetime.datetime, datetime.time, datetime.date]
+)
+
+
+def str_to_datetime_processor_factory(
+    regexp: typing.Pattern[str], type_: Callable[..., _DT]
+) -> Callable[[Optional[str]], Optional[_DT]]:
+    rmatch = regexp.match
+    # Even on python2.6 datetime.strptime is both slower than this code
+    # and it does not support microseconds.
+    has_named_groups = bool(regexp.groupindex)
+
+    def process(value: Optional[str]) -> Optional[_DT]:
+        if value is None:
+            return None
+        else:
+            try:
+                m = rmatch(value)
+            except TypeError as err:
+                raise ValueError(
+                    "Couldn't parse %s string '%r' "
+                    "- value is not a string." % (type_.__name__, value)
+                ) from err
+
+            if m is None:
+                raise ValueError(
+                    "Couldn't parse %s string: "
+                    "'%s'" % (type_.__name__, value)
+                )
+            if has_named_groups:
+                groups = m.groupdict(0)
+                return type_(
+                    **dict(
+                      
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/_py_row.py
+
+```python
+# engine/_py_row.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+import operator
+import typing
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import Optional
+from typing import Tuple
+from typing import Type
+
+if typing.TYPE_CHECKING:
+    from .result import _KeyType
+    from .result import _ProcessorsType
+    from .result import _RawRowType
+    from .result import _TupleGetterType
+    from .result import ResultMetaData
+
+MD_INDEX = 0  # integer index in cursor.description
+
+
+class BaseRow:
+    __slots__ = ("_parent", "_data", "_key_to_index")
+
+    _parent: ResultMetaData
+    _key_to_index: Mapping[_KeyType, int]
+    _data: _RawRowType
+
+    def __init__(
+        self,
+        parent: ResultMetaData,
+        processors: Optional[_ProcessorsType],
+        key_to_index: Mapping[_KeyType, int],
+        data: _RawRowType,
+    ):
+        """Row objects are constructed by CursorResult objects."""
+        object.__setattr__(self, "_parent", parent)
+
+        object.__setattr__(self, "_key_to_index", key_to_index)
+
+        if processors:
+            object.__setattr__(
+                self,
+                "_data",
+                tuple(
+                    [
+                        proc(value) if proc else value
+                        for proc, value in zip(processors, data)
+                    ]
+                ),
+            )
+        else:
+            object.__setattr__(self, "_data", tuple(data))
+
+    def __reduce__(self) -> Tuple[Callable[..., BaseRow], Tuple[Any, ...]]:
+        return (
+            rowproxy_reconstructor,
+            (self.__class__, self.__getstate__()),
+        )
+
+    def __getstate__(self) -> Dict[str, Any]:
+        return {"_pare
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/_py_util.py
+
+```python
+# engine/_py_util.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import Mapping
+from typing import Optional
+from typing import Tuple
+
+from .. import exc
+
+if typing.TYPE_CHECKING:
+    from .interfaces import _CoreAnyExecuteParams
+    from .interfaces import _CoreMultiExecuteParams
+    from .interfaces import _DBAPIAnyExecuteParams
+    from .interfaces import _DBAPIMultiExecuteParams
+
+
+_no_tuple: Tuple[Any, ...] = ()
+
+
+def _distill_params_20(
+    params: Optional[_CoreAnyExecuteParams],
+) -> _CoreMultiExecuteParams:
+    if params is None:
+        return _no_tuple
+    # Assume list is more likely than tuple
+    elif isinstance(params, list) or isinstance(params, tuple):
+        # collections_abc.MutableSequence): # avoid abc.__instancecheck__
+        if params and not isinstance(params[0], Mapping):
+            raise exc.ArgumentError(
+                "List argument must consist only of dictionaries"
+            )
+
+        return params
+    elif isinstance(params, dict) or isinstance(
+        # only do immutabledict or abc.__instancecheck__ for Mapping after
+        # we've checked for plain dictionaries and would otherwise raise
+        params,
+        Mapping,
+    ):
+        return [params]
+    else:
+        raise exc.ArgumentError("mapping or list expected for parameters")
+
+
+def _distill_raw_params(
+    params: Optional[_DBAPIAnyExecuteParams],
+) -> _DBAPIMultiExecuteParams:
+    if params is None:
+        return _no_tuple
+    elif isinstance(params, list):
+        # collections_abc.MutableSequence): # avoid abc.__instancecheck__
+        if params and not isinstance(params[0], (tuple, Mapping)):
+            raise exc.ArgumentError(
+                "List argument must consist only of tuples or dictionaries"
+      
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/base.py
+
+```python
+# engine/base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+"""Defines :class:`_engine.Connection` and :class:`_engine.Engine`."""
+from __future__ import annotations
+
+import contextlib
+import sys
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Tuple
+from typing import Type
+from typing import TypeVar
+from typing import Union
+
+from .interfaces import BindTyping
+from .interfaces import ConnectionEventsTarget
+from .interfaces import DBAPICursor
+from .interfaces import ExceptionContext
+from .interfaces import ExecuteStyle
+from .interfaces import ExecutionContext
+from .interfaces import IsolationLevel
+from .util import _distill_params_20
+from .util import _distill_raw_params
+from .util import TransactionalContext
+from .. import exc
+from .. import inspection
+from .. import log
+from .. import util
+from ..sql import compiler
+from ..sql import util as sql_util
+
+if typing.TYPE_CHECKING:
+    from . import CursorResult
+    from . import ScalarResult
+    from .interfaces import _AnyExecuteParams
+    from .interfaces import _AnyMultiExecuteParams
+    from .interfaces import _CoreAnyExecuteParams
+    from .interfaces import _CoreMultiExecuteParams
+    from .interfaces import _CoreSingleExecuteParams
+    from .interfaces import _DBAPIAnyExecuteParams
+    from .interfaces import _DBAPISingleExecuteParams
+    from .interfaces import _ExecuteOptions
+    from .interfaces import CompiledCacheType
+    from .interfaces import CoreExecuteOptionsParameter
+    from .interfaces import Dialect
+    from .interfaces import SchemaTranslateMapType
+    from .reflection import Inspe
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/characteristics.py
+
+```python
+# engine/characteristics.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+import abc
+import typing
+from typing import Any
+from typing import ClassVar
+
+if typing.TYPE_CHECKING:
+    from .base import Connection
+    from .interfaces import DBAPIConnection
+    from .interfaces import Dialect
+
+
+class ConnectionCharacteristic(abc.ABC):
+    """An abstract base for an object that can set, get and reset a
+    per-connection characteristic, typically one that gets reset when the
+    connection is returned to the connection pool.
+
+    transaction isolation is the canonical example, and the
+    ``IsolationLevelCharacteristic`` implementation provides this for the
+    ``DefaultDialect``.
+
+    The ``ConnectionCharacteristic`` class should call upon the ``Dialect`` for
+    the implementation of each method.   The object exists strictly to serve as
+    a dialect visitor that can be placed into the
+    ``DefaultDialect.connection_characteristics`` dictionary where it will take
+    effect for calls to :meth:`_engine.Connection.execution_options` and
+    related APIs.
+
+    .. versionadded:: 1.4
+
+    """
+
+    __slots__ = ()
+
+    transactional: ClassVar[bool] = False
+
+    @abc.abstractmethod
+    def reset_characteristic(
+        self, dialect: Dialect, dbapi_conn: DBAPIConnection
+    ) -> None:
+        """Reset the characteristic on the DBAPI connection to its default
+        value."""
+
+    @abc.abstractmethod
+    def set_characteristic(
+        self, dialect: Dialect, dbapi_conn: DBAPIConnection, value: Any
+    ) -> None:
+        """set characteristic on the DBAPI connection to a given value."""
+
+    def set_connection_characteristic(
+        self,
+        dialect: Dialect,
+        conn: Connection,
+        dbapi_conn: DBAPIConnection,
+        value: Any,
+    ) -> None:
+        """
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/create.py
+
+```python
+# engine/create.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import inspect
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import List
+from typing import Optional
+from typing import overload
+from typing import Type
+from typing import Union
+
+from . import base
+from . import url as _url
+from .interfaces import DBAPIConnection
+from .mock import create_mock_engine
+from .. import event
+from .. import exc
+from .. import util
+from ..pool import _AdhocProxiedConnection
+from ..pool import ConnectionPoolEntry
+from ..sql import compiler
+from ..util import immutabledict
+
+if typing.TYPE_CHECKING:
+    from .base import Engine
+    from .interfaces import _ExecuteOptions
+    from .interfaces import _ParamStyle
+    from .interfaces import IsolationLevel
+    from .url import URL
+    from ..log import _EchoFlagType
+    from ..pool import _CreatorFnType
+    from ..pool import _CreatorWRecFnType
+    from ..pool import _ResetStyleArgType
+    from ..pool import Pool
+    from ..util.typing import Literal
+
+
+@overload
+def create_engine(
+    url: Union[str, URL],
+    *,
+    connect_args: Dict[Any, Any] = ...,
+    convert_unicode: bool = ...,
+    creator: Union[_CreatorFnType, _CreatorWRecFnType] = ...,
+    echo: _EchoFlagType = ...,
+    echo_pool: _EchoFlagType = ...,
+    enable_from_linting: bool = ...,
+    execution_options: _ExecuteOptions = ...,
+    future: Literal[True],
+    hide_parameters: bool = ...,
+    implicit_returning: Literal[True] = ...,
+    insertmanyvalues_page_size: int = ...,
+    isolation_level: IsolationLevel = ...,
+    json_deserializer: Callable[..., Any] = ...,
+    json_serializer: Callable[..., Any] = ...,
+    label_length: Optional[int] = ...,
+    logging_name: str = ...,
+    max_i
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/cursor.py
+
+```python
+# engine/cursor.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Define cursor-specific result set constructs including
+:class:`.CursorResult`."""
+
+
+from __future__ import annotations
+
+import collections
+import functools
+import operator
+import typing
+from typing import Any
+from typing import cast
+from typing import ClassVar
+from typing import Deque
+from typing import Dict
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import NoReturn
+from typing import Optional
+from typing import Sequence
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .result import IteratorResult
+from .result import MergedResult
+from .result import Result
+from .result import ResultMetaData
+from .result import SimpleResultMetaData
+from .result import tuplegetter
+from .row import Row
+from .. import exc
+from .. import util
+from ..sql import elements
+from ..sql import sqltypes
+from ..sql import util as sql_util
+from ..sql.base import _generative
+from ..sql.compiler import ResultColumnsEntry
+from ..sql.compiler import RM_NAME
+from ..sql.compiler import RM_OBJECTS
+from ..sql.compiler import RM_RENDERED_NAME
+from ..sql.compiler import RM_TYPE
+from ..sql.type_api import TypeEngine
+from ..util import compat
+from ..util.typing import Final
+from ..util.typing import Literal
+from ..util.typing import Self
+
+
+if typing.TYPE_CHECKING:
+    from .base import Connection
+    from .default import DefaultExecutionContext
+    from .interfaces import _DBAPICursorDescription
+    from .interfaces import _MutableCoreSingleExecuteParams
+    from .interfaces import CoreExecuteOptionsParameter
+    from .interfaces import DBAPICursor
+    from .interfaces import DBAPIType
+    from .interfaces import Dialect
+    from .
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/default.py
+
+```python
+# engine/default.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Default implementations of per-dialect sqlalchemy.engine classes.
+
+These are semi-private implementation classes which are only of importance
+to database dialect authors; dialects will usually use the classes here
+as the base class for their own corresponding classes.
+
+"""
+
+from __future__ import annotations
+
+import functools
+import operator
+import random
+import re
+from time import perf_counter
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import List
+from typing import Mapping
+from typing import MutableMapping
+from typing import MutableSequence
+from typing import Optional
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import Union
+import weakref
+
+from . import characteristics
+from . import cursor as _cursor
+from . import interfaces
+from .base import Connection
+from .interfaces import CacheStats
+from .interfaces import DBAPICursor
+from .interfaces import Dialect
+from .interfaces import ExecuteStyle
+from .interfaces import ExecutionContext
+from .reflection import ObjectKind
+from .reflection import ObjectScope
+from .. import event
+from .. import exc
+from .. import pool
+from .. import util
+from ..sql import compiler
+from ..sql import dml
+from ..sql import expression
+from ..sql import type_api
+from ..sql import util as sql_util
+from ..sql._typing import is_tuple_type
+from ..sql.base import _NoArg
+from ..sql.compiler import DDLCompiler
+from ..sql.compiler import InsertmanyvaluesSentinelOpts
+from ..sql.compiler import SQLCompiler
+from ..sql.elements import quoted_name
+from ..util.typing import Final
+from ..util.ty
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/events.py
+
+```python
+# engine/events.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import Dict
+from typing import Optional
+from typing import Tuple
+from typing import Type
+from typing import Union
+
+from .base import Connection
+from .base import Engine
+from .interfaces import ConnectionEventsTarget
+from .interfaces import DBAPIConnection
+from .interfaces import DBAPICursor
+from .interfaces import Dialect
+from .. import event
+from .. import exc
+from ..util.typing import Literal
+
+if typing.TYPE_CHECKING:
+    from .interfaces import _CoreMultiExecuteParams
+    from .interfaces import _CoreSingleExecuteParams
+    from .interfaces import _DBAPIAnyExecuteParams
+    from .interfaces import _DBAPIMultiExecuteParams
+    from .interfaces import _DBAPISingleExecuteParams
+    from .interfaces import _ExecuteOptions
+    from .interfaces import ExceptionContext
+    from .interfaces import ExecutionContext
+    from .result import Result
+    from ..pool import ConnectionPoolEntry
+    from ..sql import Executable
+    from ..sql.elements import BindParameter
+
+
+class ConnectionEvents(event.Events[ConnectionEventsTarget]):
+    """Available events for
+    :class:`_engine.Connection` and :class:`_engine.Engine`.
+
+    The methods here define the name of an event as well as the names of
+    members that are passed to listener functions.
+
+    An event listener can be associated with any
+    :class:`_engine.Connection` or :class:`_engine.Engine`
+    class or instance, such as an :class:`_engine.Engine`, e.g.::
+
+        from sqlalchemy import event, create_engine
+
+
+        def before_cursor_execute(
+            conn, cursor, statement, parameters, context, executemany
+        ):
+            log.info("Received statement: %s", statement)
+
+
+        engine = cr
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/interfaces.py
+
+```python
+# engine/interfaces.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Define core interfaces used by the engine system."""
+
+from __future__ import annotations
+
+from enum import Enum
+from typing import Any
+from typing import Awaitable
+from typing import Callable
+from typing import ClassVar
+from typing import Collection
+from typing import Dict
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import MutableMapping
+from typing import Optional
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .. import util
+from ..event import EventTarget
+from ..pool import Pool
+from ..pool import PoolProxiedConnection as PoolProxiedConnection
+from ..sql.compiler import Compiled as Compiled
+from ..sql.compiler import Compiled  # noqa
+from ..sql.compiler import TypeCompiler as TypeCompiler
+from ..sql.compiler import TypeCompiler  # noqa
+from ..util import immutabledict
+from ..util.concurrency import await_only
+from ..util.typing import Literal
+from ..util.typing import NotRequired
+from ..util.typing import Protocol
+from ..util.typing import TypedDict
+
+if TYPE_CHECKING:
+    from .base import Connection
+    from .base import Engine
+    from .cursor import CursorResult
+    from .url import URL
+    from ..connectors.asyncio import AsyncIODBAPIConnection
+    from ..event import _ListenerFnType
+    from ..event import dispatcher
+    from ..exc import StatementError
+    from ..sql import Executable
+    from ..sql.compiler import _InsertManyValuesBatch
+    from ..sql.compiler import DDLCompiler
+    from ..sql.compiler import IdentifierPreparer
+    from ..sql.compiler import InsertmanyvaluesSentinelOpts
+    from ..sql.
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/mock.py
+
+```python
+# engine/mock.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from operator import attrgetter
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Optional
+from typing import Type
+from typing import Union
+
+from . import url as _url
+from .. import util
+
+
+if typing.TYPE_CHECKING:
+    from .base import Engine
+    from .interfaces import _CoreAnyExecuteParams
+    from .interfaces import CoreExecuteOptionsParameter
+    from .interfaces import Dialect
+    from .url import URL
+    from ..sql.base import Executable
+    from ..sql.ddl import InvokeDDLBase
+    from ..sql.schema import HasSchemaAttr
+    from ..sql.visitors import Visitable
+
+
+class MockConnection:
+    def __init__(self, dialect: Dialect, execute: Callable[..., Any]):
+        self._dialect = dialect
+        self._execute_impl = execute
+
+    engine: Engine = cast(Any, property(lambda s: s))
+    dialect: Dialect = cast(Any, property(attrgetter("_dialect")))
+    name: str = cast(Any, property(lambda s: s._dialect.name))
+
+    def connect(self, **kwargs: Any) -> MockConnection:
+        return self
+
+    def schema_for_object(self, obj: HasSchemaAttr) -> Optional[str]:
+        return obj.schema
+
+    def execution_options(self, **kw: Any) -> MockConnection:
+        return self
+
+    def _run_ddl_visitor(
+        self,
+        visitorcallable: Type[InvokeDDLBase],
+        element: Visitable,
+        **kwargs: Any,
+    ) -> None:
+        kwargs["checkfirst"] = False
+        visitorcallable(
+            dialect=self.dialect, connection=self, **kwargs
+        ).traverse_single(element)
+
+    def execute(
+        self,
+        obj: Executable,
+        parameters: Optional[_CoreAnyExecuteParams] = None,
+        execution_options: Optional[CoreExecuteOptionsParameter] 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/processors.py
+
+```python
+# engine/processors.py
+# Copyright (C) 2010-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+# Copyright (C) 2010 Gaetan de Menten gdementen@gmail.com
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""defines generic type conversion functions, as used in bind and result
+processors.
+
+They all share one common characteristic: None is passed through unchanged.
+
+"""
+from __future__ import annotations
+
+import typing
+
+from ._py_processors import str_to_datetime_processor_factory  # noqa
+from ..util._has_cy import HAS_CYEXTENSION
+
+if typing.TYPE_CHECKING or not HAS_CYEXTENSION:
+    from ._py_processors import int_to_boolean as int_to_boolean
+    from ._py_processors import str_to_date as str_to_date
+    from ._py_processors import str_to_datetime as str_to_datetime
+    from ._py_processors import str_to_time as str_to_time
+    from ._py_processors import (
+        to_decimal_processor_factory as to_decimal_processor_factory,
+    )
+    from ._py_processors import to_float as to_float
+    from ._py_processors import to_str as to_str
+else:
+    from sqlalchemy.cyextension.processors import (
+        DecimalResultProcessor,
+    )
+    from sqlalchemy.cyextension.processors import (  # noqa: F401
+        int_to_boolean as int_to_boolean,
+    )
+    from sqlalchemy.cyextension.processors import (  # noqa: F401,E501
+        str_to_date as str_to_date,
+    )
+    from sqlalchemy.cyextension.processors import (  # noqa: F401
+        str_to_datetime as str_to_datetime,
+    )
+    from sqlalchemy.cyextension.processors import (  # noqa: F401,E501
+        str_to_time as str_to_time,
+    )
+    from sqlalchemy.cyextension.processors import (  # noqa: F401,E501
+        to_float as to_float,
+    )
+    from sqlalchemy.cyextension.processors import (  # noqa: F401,E501
+        to_str as to_str,
+    )
+
+    def to_decimal_processor_factory(target_class, scale):
+        # Note that the scale argume
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/reflection.py
+
+```python
+# engine/reflection.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Provides an abstraction for obtaining database schema information.
+
+Usage Notes:
+
+Here are some general conventions when accessing the low level inspector
+methods such as get_table_names, get_columns, etc.
+
+1. Inspector methods return lists of dicts in most cases for the following
+   reasons:
+
+   * They're both standard types that can be serialized.
+   * Using a dict instead of a tuple allows easy expansion of attributes.
+   * Using a list for the outer structure maintains order and is easy to work
+     with (e.g. list comprehension [d['name'] for d in cols]).
+
+2. Records that contain a name, such as the column name in a column record
+   use the key 'name'. So for most return values, each record will have a
+   'name' attribute..
+"""
+from __future__ import annotations
+
+import contextlib
+from dataclasses import dataclass
+from enum import auto
+from enum import Flag
+from enum import unique
+from typing import Any
+from typing import Callable
+from typing import Collection
+from typing import Dict
+from typing import Generator
+from typing import Iterable
+from typing import List
+from typing import Optional
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .base import Connection
+from .base import Engine
+from .. import exc
+from .. import inspection
+from .. import sql
+from .. import util
+from ..sql import operators
+from ..sql import schema as sa_schema
+from ..sql.cache_key import _ad_hoc_cache_key_from_args
+from ..sql.elements import quoted_name
+from ..sql.elements import TextClause
+from ..sql.type_api import TypeEngine
+from ..sql.visitors import InternalTraversal
+from ..util import topological
+from ..util.typing import fin
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/result.py
+
+```python
+# engine/result.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Define generic result set constructs."""
+
+from __future__ import annotations
+
+from enum import Enum
+import functools
+import itertools
+import operator
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .row import Row
+from .row import RowMapping
+from .. import exc
+from .. import util
+from ..sql.base import _generative
+from ..sql.base import HasMemoized
+from ..sql.base import InPlaceGenerative
+from ..util import HasMemoized_ro_memoized_attribute
+from ..util import NONE_SET
+from ..util._has_cy import HAS_CYEXTENSION
+from ..util.typing import Literal
+from ..util.typing import Self
+
+if typing.TYPE_CHECKING or not HAS_CYEXTENSION:
+    from ._py_row import tuplegetter as tuplegetter
+else:
+    from sqlalchemy.cyextension.resultproxy import tuplegetter as tuplegetter
+
+if typing.TYPE_CHECKING:
+    from typing import Type
+
+    from .. import inspection
+    from ..sql import roles
+    from ..sql._typing import _HasClauseElement
+    from ..sql.elements import SQLCoreOperations
+    from ..sql.type_api import _ResultProcessorType
+
+_KeyType = Union[
+    str,
+    "SQLCoreOperations[Any]",
+    "roles.TypedColumnsClauseRole[Any]",
+    "roles.ColumnsClauseRole",
+    "Type[Any]",
+    "inspection.Inspectable[_HasClauseElement[Any]]",
+]
+_KeyIndexType = Union[_KeyType, int]
+
+# is overridden in cursor using _CursorK
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/row.py
+
+```python
+# engine/row.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Define row constructs including :class:`.Row`."""
+
+from __future__ import annotations
+
+from abc import ABC
+import collections.abc as collections_abc
+import operator
+import typing
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import Generic
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from ..sql import util as sql_util
+from ..util import deprecated
+from ..util._has_cy import HAS_CYEXTENSION
+
+if TYPE_CHECKING or not HAS_CYEXTENSION:
+    from ._py_row import BaseRow as BaseRow
+else:
+    from sqlalchemy.cyextension.resultproxy import BaseRow as BaseRow
+
+if TYPE_CHECKING:
+    from .result import _KeyType
+    from .result import _ProcessorsType
+    from .result import RMKeyView
+
+_T = TypeVar("_T", bound=Any)
+_TP = TypeVar("_TP", bound=Tuple[Any, ...])
+
+
+class Row(BaseRow, Sequence[Any], Generic[_TP]):
+    """Represent a single result row.
+
+    The :class:`.Row` object represents a row of a database result.  It is
+    typically associated in the 1.x series of SQLAlchemy with the
+    :class:`_engine.CursorResult` object, however is also used by the ORM for
+    tuple-like results as of SQLAlchemy 1.4.
+
+    The :class:`.Row` object seeks to act as much like a Python named
+    tuple as possible.   For mapping (i.e. dictionary) behavior on a row,
+    such as testing for containment of keys, refer to the :attr:`.Row._mapping`
+    attribute.
+
+    .. seealso::
+
+        :ref:`tutorial_selecting_data` - includes examples of selecting
+        rows from SELEC
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/strategies.py
+
+```python
+# engine/strategies.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Deprecated mock engine strategy used by Alembic."""
+
+from __future__ import annotations
+
+from .mock import MockConnection  # noqa
+
+
+class MockEngineStrategy:
+    MockConnection = MockConnection
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/url.py
+
+```python
+# engine/url.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Provides the :class:`~sqlalchemy.engine.url.URL` class which encapsulates
+information about a database connection specification.
+
+The URL object is created automatically when
+:func:`~sqlalchemy.engine.create_engine` is called with a string
+argument; alternatively, the URL is a public-facing construct which can
+be used directly and is also accepted directly by ``create_engine()``.
+"""
+
+from __future__ import annotations
+
+import collections.abc as collections_abc
+import re
+from typing import Any
+from typing import cast
+from typing import Dict
+from typing import Iterable
+from typing import List
+from typing import Mapping
+from typing import NamedTuple
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import Union
+from urllib.parse import parse_qsl
+from urllib.parse import quote
+from urllib.parse import quote_plus
+from urllib.parse import unquote
+
+from .interfaces import Dialect
+from .. import exc
+from .. import util
+from ..dialects import plugins
+from ..dialects import registry
+
+
+class URL(NamedTuple):
+    """
+    Represent the components of a URL used to connect to a database.
+
+    URLs are typically constructed from a fully formatted URL string, where the
+    :func:`.make_url` function is used internally by the
+    :func:`_sa.create_engine` function in order to parse the URL string into
+    its individual components, which are then used to construct a new
+    :class:`.URL` object. When parsing from a formatted URL string, the parsing
+    format generally follows
+    `RFC-1738 <https://www.ietf.org/rfc/rfc1738.txt>`_, with some exceptions.
+
+    A :class:`_engine.URL` object may also be produced directly, either by
+    using the :func:`.make_u
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/engine/util.py
+
+```python
+# engine/util.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import Callable
+from typing import Optional
+from typing import TypeVar
+
+from .. import exc
+from .. import util
+from ..util._has_cy import HAS_CYEXTENSION
+from ..util.typing import Protocol
+from ..util.typing import Self
+
+if typing.TYPE_CHECKING or not HAS_CYEXTENSION:
+    from ._py_util import _distill_params_20 as _distill_params_20
+    from ._py_util import _distill_raw_params as _distill_raw_params
+else:
+    from sqlalchemy.cyextension.util import (  # noqa: F401
+        _distill_params_20 as _distill_params_20,
+    )
+    from sqlalchemy.cyextension.util import (  # noqa: F401
+        _distill_raw_params as _distill_raw_params,
+    )
+
+_C = TypeVar("_C", bound=Callable[[], Any])
+
+
+def connection_memoize(key: str) -> Callable[[_C], _C]:
+    """Decorator, memoize a function in a connection.info stash.
+
+    Only applicable to functions which take no arguments other than a
+    connection.  The memo will be stored in ``connection.info[key]``.
+    """
+
+    @util.decorator
+    def decorated(fn, self, connection):  # type: ignore
+        connection = connection.connect()
+        try:
+            return connection.info[key]
+        except KeyError:
+            connection.info[key] = val = fn(self, connection)
+            return val
+
+    return decorated
+
+
+class _TConsSubject(Protocol):
+    _trans_context_manager: Optional[TransactionalContext]
+
+
+class TransactionalContext:
+    """Apply Python context manager behavior to transaction objects.
+
+    Performs validation to ensure the subject of the transaction is not
+    used if the transaction were ended prematurely.
+
+    """
+
+    __slots__ = ("_outer_trans_ctx", "_trans_subject", "__weakref__")
+
+    _trans_subj
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/event/__init__.py
+
+```python
+# event/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from .api import CANCEL as CANCEL
+from .api import contains as contains
+from .api import listen as listen
+from .api import listens_for as listens_for
+from .api import NO_RETVAL as NO_RETVAL
+from .api import remove as remove
+from .attr import _InstanceLevelDispatch as _InstanceLevelDispatch
+from .attr import RefCollection as RefCollection
+from .base import _Dispatch as _Dispatch
+from .base import _DispatchCommon as _DispatchCommon
+from .base import dispatcher as dispatcher
+from .base import Events as Events
+from .legacy import _legacy_signature as _legacy_signature
+from .legacy import _omit_standard_example as _omit_standard_example
+from .registry import _EventKey as _EventKey
+from .registry import _ListenerFnType as _ListenerFnType
+from .registry import EventTarget as EventTarget
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/event/api.py
+
+```python
+# event/api.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Public API functions for the event system."""
+from __future__ import annotations
+
+from typing import Any
+from typing import Callable
+
+from .base import _registrars
+from .registry import _ET
+from .registry import _EventKey
+from .registry import _ListenerFnType
+from .. import exc
+from .. import util
+
+
+CANCEL = util.symbol("CANCEL")
+NO_RETVAL = util.symbol("NO_RETVAL")
+
+
+def _event_key(
+    target: _ET, identifier: str, fn: _ListenerFnType
+) -> _EventKey[_ET]:
+    for evt_cls in _registrars[identifier]:
+        tgt = evt_cls._accept_with(target, identifier)
+        if tgt is not None:
+            return _EventKey(target, identifier, fn, tgt)
+    else:
+        raise exc.InvalidRequestError(
+            "No such event '%s' for target '%s'" % (identifier, target)
+        )
+
+
+def listen(
+    target: Any, identifier: str, fn: Callable[..., Any], *args: Any, **kw: Any
+) -> None:
+    """Register a listener function for the given target.
+
+    The :func:`.listen` function is part of the primary interface for the
+    SQLAlchemy event system, documented at :ref:`event_toplevel`.
+
+    e.g.::
+
+        from sqlalchemy import event
+        from sqlalchemy.schema import UniqueConstraint
+
+
+        def unique_constraint_name(const, table):
+            const.name = "uq_%s_%s" % (table.name, list(const.columns)[0].name)
+
+
+        event.listen(
+            UniqueConstraint, "after_parent_attach", unique_constraint_name
+        )
+
+    :param bool insert: The default behavior for event handlers is to append
+      the decorated user defined function to an internal list of registered
+      event listeners upon discovery. If a user registers a function with
+      ``insert=True``, SQLAlchemy will insert (prepend) the function to the
+      internal list upon disco
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/event/attr.py
+
+```python
+# event/attr.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Attribute implementation for _Dispatch classes.
+
+The various listener targets for a particular event class are represented
+as attributes, which refer to collections of listeners to be fired off.
+These collections can exist at the class level as well as at the instance
+level.  An event is fired off using code like this::
+
+    some_object.dispatch.first_connect(arg1, arg2)
+
+Above, ``some_object.dispatch`` would be an instance of ``_Dispatch`` and
+``first_connect`` is typically an instance of ``_ListenerCollection``
+if event listeners are present, or ``_EmptyListener`` if none are present.
+
+The attribute mechanics here spend effort trying to ensure listener functions
+are available with a minimum of function call overhead, that unnecessary
+objects aren't created (i.e. many empty per-instance listener collections),
+as well as that everything is garbage collectable when owning references are
+lost.  Other features such as "propagation" of listener functions across
+many ``_Dispatch`` instances, "joining" of multiple ``_Dispatch`` instances,
+as well as support for subclass propagation (e.g. events assigned to
+``Pool`` vs. ``QueuePool``) are all implemented here.
+
+"""
+from __future__ import annotations
+
+import collections
+from itertools import chain
+import threading
+from types import TracebackType
+import typing
+from typing import Any
+from typing import cast
+from typing import Collection
+from typing import Deque
+from typing import FrozenSet
+from typing import Generic
+from typing import Iterator
+from typing import MutableMapping
+from typing import MutableSequence
+from typing import NoReturn
+from typing import Optional
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TypeVar
+f
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/event/base.py
+
+```python
+# event/base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Base implementation classes.
+
+The public-facing ``Events`` serves as the base class for an event interface;
+its public attributes represent different kinds of events.   These attributes
+are mirrored onto a ``_Dispatch`` class, which serves as a container for
+collections of listener functions.   These collections are represented both
+at the class level of a particular ``_Dispatch`` class as well as within
+instances of ``_Dispatch``.
+
+"""
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import cast
+from typing import Dict
+from typing import Generic
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import MutableMapping
+from typing import Optional
+from typing import overload
+from typing import Tuple
+from typing import Type
+from typing import Union
+import weakref
+
+from .attr import _ClsLevelDispatch
+from .attr import _EmptyListener
+from .attr import _InstanceLevelDispatch
+from .attr import _JoinedListener
+from .registry import _ET
+from .registry import _EventKey
+from .. import util
+from ..util.typing import Literal
+
+_registrars: MutableMapping[str, List[Type[_HasEventsDispatch[Any]]]] = (
+    util.defaultdict(list)
+)
+
+
+def _is_event_name(name: str) -> bool:
+    # _sa_event prefix is special to support internal-only event names.
+    # most event names are just plain method names that aren't
+    # underscored.
+
+    return (
+        not name.startswith("_") and name != "dispatch"
+    ) or name.startswith("_sa_event")
+
+
+class _UnpickleDispatch:
+    """Serializable callable that re-generates an instance of
+    :class:`_Dispatch` given a particular :class:`.Events` subclass.
+
+    """
+
+    def __call__(self, _instance_cls: Type[_ET]) -> _Dispatch[_ET]:
+        for cls
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/event/legacy.py
+
+```python
+# event/legacy.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Routines to handle adaption of legacy call signatures,
+generation of deprecation notes and docstrings.
+
+"""
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import Callable
+from typing import List
+from typing import Optional
+from typing import Tuple
+from typing import Type
+from typing import TypeVar
+
+from .registry import _ET
+from .registry import _ListenerFnType
+from .. import util
+from ..util.compat import FullArgSpec
+
+if typing.TYPE_CHECKING:
+    from .attr import _ClsLevelDispatch
+    from .base import _HasEventsDispatch
+
+
+_F = TypeVar("_F", bound=Callable[..., Any])
+
+_LegacySignatureType = Tuple[str, List[str], Callable[..., Any]]
+
+
+def _legacy_signature(
+    since: str,
+    argnames: List[str],
+    converter: Optional[Callable[..., Any]] = None,
+) -> Callable[[_F], _F]:
+    """legacy sig decorator
+
+
+    :param since: string version for deprecation warning
+    :param argnames: list of strings, which is *all* arguments that the legacy
+     version accepted, including arguments that are still there
+    :param converter: lambda that will accept tuple of this full arg signature
+     and return tuple of new arg signature.
+
+    """
+
+    def leg(fn: _F) -> _F:
+        if not hasattr(fn, "_legacy_signatures"):
+            fn._legacy_signatures = []  # type: ignore[attr-defined]
+        fn._legacy_signatures.append((since, argnames, converter))  # type: ignore[attr-defined] # noqa: E501
+        return fn
+
+    return leg
+
+
+def _omit_standard_example(fn: _F) -> _F:
+    fn._omit_standard_example = True  # type: ignore[attr-defined]
+    return fn
+
+
+def _wrap_fn_for_legacy(
+    dispatch_collection: _ClsLevelDispatch[_ET],
+    fn: _ListenerFnType,
+    argspec: FullArgSpec,
+) -> _ListenerFnType:
+    for si
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/event/registry.py
+
+```python
+# event/registry.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Provides managed registration services on behalf of :func:`.listen`
+arguments.
+
+By "managed registration", we mean that event listening functions and
+other objects can be added to various collections in such a way that their
+membership in all those collections can be revoked at once, based on
+an equivalent :class:`._EventKey`.
+
+"""
+from __future__ import annotations
+
+import collections
+import types
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Deque
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import Optional
+from typing import Tuple
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from .. import exc
+from .. import util
+
+if typing.TYPE_CHECKING:
+    from .attr import RefCollection
+    from .base import dispatcher
+
+_ListenerFnType = Callable[..., Any]
+_ListenerFnKeyType = Union[int, Tuple[int, int]]
+_EventKeyTupleType = Tuple[int, str, _ListenerFnKeyType]
+
+
+_ET = TypeVar("_ET", bound="EventTarget")
+
+
+class EventTarget:
+    """represents an event target, that is, something we can listen on
+    either with that target as a class or as an instance.
+
+    Examples include:  Connection, Mapper, Table, Session,
+    InstrumentedAttribute, Engine, Pool, Dialect.
+
+    """
+
+    __slots__ = ()
+
+    dispatch: dispatcher[Any]
+
+
+_RefCollectionToListenerType = Dict[
+    "weakref.ref[RefCollection[Any]]",
+    "weakref.ref[_ListenerFnType]",
+]
+
+_key_to_collection: Dict[_EventKeyTupleType, _RefCollectionToListenerType] = (
+    collections.defaultdict(dict)
+)
+"""
+Given an original listen() argument, can locate all
+listener collections and the listener fn contained
+
+(target, identifier, fn) -> {
+                            re
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/__init__.py
+
+```python
+# ext/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from .. import util as _sa_util
+
+
+_sa_util.preloaded.import_prefix("sqlalchemy.ext")
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/associationproxy.py
+
+```python
+# ext/associationproxy.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Contain the ``AssociationProxy`` class.
+
+The ``AssociationProxy`` is a Python property object which provides
+transparent proxied access to the endpoint of an association object.
+
+See the example ``examples/association/proxied_association.py``.
+
+"""
+from __future__ import annotations
+
+import operator
+import typing
+from typing import AbstractSet
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Collection
+from typing import Dict
+from typing import Generic
+from typing import ItemsView
+from typing import Iterable
+from typing import Iterator
+from typing import KeysView
+from typing import List
+from typing import Mapping
+from typing import MutableMapping
+from typing import MutableSequence
+from typing import MutableSet
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TypeVar
+from typing import Union
+from typing import ValuesView
+
+from .. import ColumnElement
+from .. import exc
+from .. import inspect
+from .. import orm
+from .. import util
+from ..orm import collections
+from ..orm import InspectionAttrExtensionType
+from ..orm import interfaces
+from ..orm import ORMDescriptor
+from ..orm.base import SQLORMOperations
+from ..orm.interfaces import _AttributeOptions
+from ..orm.interfaces import _DCAttributeOptions
+from ..orm.interfaces import _DEFAULT_ATTRIBUTE_OPTIONS
+from ..sql import operators
+from ..sql import or_
+from ..sql.base import _NoArg
+from ..util.typing import Literal
+from ..util.typing import Protocol
+from ..util.typing import Self
+from ..util.typing import SupportsIndex
+from ..util.typing import SupportsKeysAndGetItem
+
+if typing.TYPE_CHECKING:
+    from ..orm
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/automap.py
+
+```python
+# ext/automap.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+r"""Define an extension to the :mod:`sqlalchemy.ext.declarative` system
+which automatically generates mapped classes and relationships from a database
+schema, typically though not necessarily one which is reflected.
+
+It is hoped that the :class:`.AutomapBase` system provides a quick
+and modernized solution to the problem that the very famous
+`SQLSoup <https://pypi.org/project/sqlsoup/>`_
+also tries to solve, that of generating a quick and rudimentary object
+model from an existing database on the fly.  By addressing the issue strictly
+at the mapper configuration level, and integrating fully with existing
+Declarative class techniques, :class:`.AutomapBase` seeks to provide
+a well-integrated approach to the issue of expediently auto-generating ad-hoc
+mappings.
+
+.. tip:: The :ref:`automap_toplevel` extension is geared towards a
+   "zero declaration" approach, where a complete ORM model including classes
+   and pre-named relationships can be generated on the fly from a database
+   schema. For applications that still want to use explicit class declarations
+   including explicit relationship definitions in conjunction with reflection
+   of tables, the :class:`.DeferredReflection` class, described at
+   :ref:`orm_declarative_reflected_deferred_reflection`, is a better choice.
+
+.. _automap_basic_use:
+
+Basic Use
+=========
+
+The simplest usage is to reflect an existing database into a new model.
+We create a new :class:`.AutomapBase` class in a similar manner as to how
+we create a declarative base class, using :func:`.automap_base`.
+We then call :meth:`.AutomapBase.prepare` on the resulting base class,
+asking it to reflect the schema and produce mappings::
+
+    from sqlalchemy.ext.automap import automap_base
+    from sqlalchemy.orm import Session
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/baked.py
+
+```python
+# ext/baked.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""Baked query extension.
+
+Provides a creational pattern for the :class:`.query.Query` object which
+allows the fully constructed object, Core select statement, and string
+compiled result to be fully cached.
+
+
+"""
+
+import collections.abc as collections_abc
+import logging
+
+from .. import exc as sa_exc
+from .. import util
+from ..orm import exc as orm_exc
+from ..orm.query import Query
+from ..orm.session import Session
+from ..sql import func
+from ..sql import literal_column
+from ..sql import util as sql_util
+
+
+log = logging.getLogger(__name__)
+
+
+class Bakery:
+    """Callable which returns a :class:`.BakedQuery`.
+
+    This object is returned by the class method
+    :meth:`.BakedQuery.bakery`.  It exists as an object
+    so that the "cache" can be easily inspected.
+
+    .. versionadded:: 1.2
+
+
+    """
+
+    __slots__ = "cls", "cache"
+
+    def __init__(self, cls_, cache):
+        self.cls = cls_
+        self.cache = cache
+
+    def __call__(self, initial_fn, *args):
+        return self.cls(self.cache, initial_fn, args)
+
+
+class BakedQuery:
+    """A builder object for :class:`.query.Query` objects."""
+
+    __slots__ = "steps", "_bakery", "_cache_key", "_spoiled"
+
+    def __init__(self, bakery, initial_fn, args=()):
+        self._cache_key = ()
+        self._update_cache_key(initial_fn, args)
+        self.steps = [initial_fn]
+        self._spoiled = False
+        self._bakery = bakery
+
+    @classmethod
+    def bakery(cls, size=200, _size_alert=None):
+        """Construct a new bakery.
+
+        :return: an instance of :class:`.Bakery`
+
+        """
+
+        return Bakery(cls, util.LRUCache(size, size_alert=_size_alert))
+
+    def _clone(self):
+        b1 = BakedQuery.__new__(BakedQuery)
+        b1._cache_key = self._cache_key
+   
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/compiler.py
+
+```python
+# ext/compiler.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+r"""Provides an API for creation of custom ClauseElements and compilers.
+
+Synopsis
+========
+
+Usage involves the creation of one or more
+:class:`~sqlalchemy.sql.expression.ClauseElement` subclasses and one or
+more callables defining its compilation::
+
+    from sqlalchemy.ext.compiler import compiles
+    from sqlalchemy.sql.expression import ColumnClause
+
+
+    class MyColumn(ColumnClause):
+        inherit_cache = True
+
+
+    @compiles(MyColumn)
+    def compile_mycolumn(element, compiler, **kw):
+        return "[%s]" % element.name
+
+Above, ``MyColumn`` extends :class:`~sqlalchemy.sql.expression.ColumnClause`,
+the base expression element for named column objects. The ``compiles``
+decorator registers itself with the ``MyColumn`` class so that it is invoked
+when the object is compiled to a string::
+
+    from sqlalchemy import select
+
+    s = select(MyColumn("x"), MyColumn("y"))
+    print(str(s))
+
+Produces:
+
+.. sourcecode:: sql
+
+    SELECT [x], [y]
+
+Dialect-specific compilation rules
+==================================
+
+Compilers can also be made dialect-specific. The appropriate compiler will be
+invoked for the dialect in use::
+
+    from sqlalchemy.schema import DDLElement
+
+
+    class AlterColumn(DDLElement):
+        inherit_cache = False
+
+        def __init__(self, column, cmd):
+            self.column = column
+            self.cmd = cmd
+
+
+    @compiles(AlterColumn)
+    def visit_alter_column(element, compiler, **kw):
+        return "ALTER COLUMN %s ..." % element.column.name
+
+
+    @compiles(AlterColumn, "postgresql")
+    def visit_alter_column(element, compiler, **kw):
+        return "ALTER TABLE %s ALTER COLUMN %s ..." % (
+            element.table.name,
+            element.column.name,
+        )
+
+The second ``visit_alter_table`` will be 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/horizontal_shard.py
+
+```python
+# ext/horizontal_shard.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Horizontal sharding support.
+
+Defines a rudimental 'horizontal sharding' system which allows a Session to
+distribute queries and persistence operations across multiple databases.
+
+For a usage example, see the :ref:`examples_sharding` example included in
+the source distribution.
+
+.. deepalchemy:: The horizontal sharding extension is an advanced feature,
+   involving a complex statement -> database interaction as well as
+   use of semi-public APIs for non-trivial cases.   Simpler approaches to
+   referring to multiple database "shards", most commonly using a distinct
+   :class:`_orm.Session` per "shard", should always be considered first
+   before using this more complex and less-production-tested system.
+
+
+
+"""
+from __future__ import annotations
+
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import Iterable
+from typing import Optional
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .. import event
+from .. import exc
+from .. import inspect
+from .. import util
+from ..orm import PassiveFlag
+from ..orm._typing import OrmExecuteOptionsParameter
+from ..orm.interfaces import ORMOption
+from ..orm.mapper import Mapper
+from ..orm.query import Query
+from ..orm.session import _BindArguments
+from ..orm.session import _PKIdentityArgument
+from ..orm.session import Session
+from ..util.typing import Protocol
+from ..util.typing import Self
+
+if TYPE_CHECKING:
+    from ..engine.base import Connection
+    from ..engine.base import Engine
+    from ..engine.base import OptionEngine
+    from ..engine.result import IteratorResult
+    from ..engine.result import Result
+    from ..orm import LoaderCallableStatus
+    fro
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/hybrid.py
+
+```python
+# ext/hybrid.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+r"""Define attributes on ORM-mapped classes that have "hybrid" behavior.
+
+"hybrid" means the attribute has distinct behaviors defined at the
+class level and at the instance level.
+
+The :mod:`~sqlalchemy.ext.hybrid` extension provides a special form of
+method decorator and has minimal dependencies on the rest of SQLAlchemy.
+Its basic theory of operation can work with any descriptor-based expression
+system.
+
+Consider a mapping ``Interval``, representing integer ``start`` and ``end``
+values. We can define higher level functions on mapped classes that produce SQL
+expressions at the class level, and Python expression evaluation at the
+instance level.  Below, each function decorated with :class:`.hybrid_method` or
+:class:`.hybrid_property` may receive ``self`` as an instance of the class, or
+may receive the class directly, depending on context::
+
+    from __future__ import annotations
+
+    from sqlalchemy.ext.hybrid import hybrid_method
+    from sqlalchemy.ext.hybrid import hybrid_property
+    from sqlalchemy.orm import DeclarativeBase
+    from sqlalchemy.orm import Mapped
+    from sqlalchemy.orm import mapped_column
+
+
+    class Base(DeclarativeBase):
+        pass
+
+
+    class Interval(Base):
+        __tablename__ = "interval"
+
+        id: Mapped[int] = mapped_column(primary_key=True)
+        start: Mapped[int]
+        end: Mapped[int]
+
+        def __init__(self, start: int, end: int):
+            self.start = start
+            self.end = end
+
+        @hybrid_property
+        def length(self) -> int:
+            return self.end - self.start
+
+        @hybrid_method
+        def contains(self, point: int) -> bool:
+            return (self.start <= point) & (point <= self.end)
+
+        @hybrid_method
+        def intersects(self, other: Interval) 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/indexable.py
+
+```python
+# ext/indexable.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Define attributes on ORM-mapped classes that have "index" attributes for
+columns with :class:`_types.Indexable` types.
+
+"index" means the attribute is associated with an element of an
+:class:`_types.Indexable` column with the predefined index to access it.
+The :class:`_types.Indexable` types include types such as
+:class:`_types.ARRAY`, :class:`_types.JSON` and
+:class:`_postgresql.HSTORE`.
+
+
+
+The :mod:`~sqlalchemy.ext.indexable` extension provides
+:class:`_schema.Column`-like interface for any element of an
+:class:`_types.Indexable` typed column. In simple cases, it can be
+treated as a :class:`_schema.Column` - mapped attribute.
+
+Synopsis
+========
+
+Given ``Person`` as a model with a primary key and JSON data field.
+While this field may have any number of elements encoded within it,
+we would like to refer to the element called ``name`` individually
+as a dedicated attribute which behaves like a standalone column::
+
+    from sqlalchemy import Column, JSON, Integer
+    from sqlalchemy.ext.declarative import declarative_base
+    from sqlalchemy.ext.indexable import index_property
+
+    Base = declarative_base()
+
+
+    class Person(Base):
+        __tablename__ = "person"
+
+        id = Column(Integer, primary_key=True)
+        data = Column(JSON)
+
+        name = index_property("data", "name")
+
+Above, the ``name`` attribute now behaves like a mapped column.   We
+can compose a new ``Person`` and set the value of ``name``::
+
+    >>> person = Person(name="Alchemist")
+
+The value is now accessible::
+
+    >>> person.name
+    'Alchemist'
+
+Behind the scenes, the JSON field was initialized to a new blank dictionary
+and the field was set::
+
+    >>> person.data
+    {'name': 'Alchemist'}
+
+The field is mutable in place::
+
+    >>> person.name = "Renamed"
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/instrumentation.py
+
+```python
+# ext/instrumentation.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+"""Extensible class instrumentation.
+
+The :mod:`sqlalchemy.ext.instrumentation` package provides for alternate
+systems of class instrumentation within the ORM.  Class instrumentation
+refers to how the ORM places attributes on the class which maintain
+data and track changes to that data, as well as event hooks installed
+on the class.
+
+.. note::
+    The extension package is provided for the benefit of integration
+    with other object management packages, which already perform
+    their own instrumentation.  It is not intended for general use.
+
+For examples of how the instrumentation extension is used,
+see the example :ref:`examples_instrumentation`.
+
+"""
+import weakref
+
+from .. import util
+from ..orm import attributes
+from ..orm import base as orm_base
+from ..orm import collections
+from ..orm import exc as orm_exc
+from ..orm import instrumentation as orm_instrumentation
+from ..orm import util as orm_util
+from ..orm.instrumentation import _default_dict_getter
+from ..orm.instrumentation import _default_manager_getter
+from ..orm.instrumentation import _default_opt_manager_getter
+from ..orm.instrumentation import _default_state_getter
+from ..orm.instrumentation import ClassManager
+from ..orm.instrumentation import InstrumentationFactory
+
+
+INSTRUMENTATION_MANAGER = "__sa_instrumentation_manager__"
+"""Attribute, elects custom instrumentation when present on a mapped class.
+
+Allows a class to specify a slightly or wildly different technique for
+tracking changes made to mapped attributes and collections.
+
+Only one instrumentation implementation is allowed in a given object
+inheritance hierarchy.
+
+The value of this attribute must be a callable and will be passed a class
+object.  The callable must return one of:
+
+  
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/mutable.py
+
+```python
+# ext/mutable.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+r"""Provide support for tracking of in-place changes to scalar values,
+which are propagated into ORM change events on owning parent objects.
+
+.. _mutable_scalars:
+
+Establishing Mutability on Scalar Column Values
+===============================================
+
+A typical example of a "mutable" structure is a Python dictionary.
+Following the example introduced in :ref:`types_toplevel`, we
+begin with a custom type that marshals Python dictionaries into
+JSON strings before being persisted::
+
+    from sqlalchemy.types import TypeDecorator, VARCHAR
+    import json
+
+
+    class JSONEncodedDict(TypeDecorator):
+        "Represents an immutable structure as a json-encoded string."
+
+        impl = VARCHAR
+
+        def process_bind_param(self, value, dialect):
+            if value is not None:
+                value = json.dumps(value)
+            return value
+
+        def process_result_value(self, value, dialect):
+            if value is not None:
+                value = json.loads(value)
+            return value
+
+The usage of ``json`` is only for the purposes of example. The
+:mod:`sqlalchemy.ext.mutable` extension can be used
+with any type whose target Python type may be mutable, including
+:class:`.PickleType`, :class:`_postgresql.ARRAY`, etc.
+
+When using the :mod:`sqlalchemy.ext.mutable` extension, the value itself
+tracks all parents which reference it.  Below, we illustrate a simple
+version of the :class:`.MutableDict` dictionary object, which applies
+the :class:`.Mutable` mixin to a plain Python dictionary::
+
+    from sqlalchemy.ext.mutable import Mutable
+
+
+    class MutableDict(Mutable, dict):
+        @classmethod
+        def coerce(cls, key, value):
+            "Convert plain dictionaries to MutableDict."
+
+            if not isinstance(valu
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/orderinglist.py
+
+```python
+# ext/orderinglist.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""A custom list that manages index/position information for contained
+elements.
+
+:author: Jason Kirtland
+
+``orderinglist`` is a helper for mutable ordered relationships.  It will
+intercept list operations performed on a :func:`_orm.relationship`-managed
+collection and
+automatically synchronize changes in list position onto a target scalar
+attribute.
+
+Example: A ``slide`` table, where each row refers to zero or more entries
+in a related ``bullet`` table.   The bullets within a slide are
+displayed in order based on the value of the ``position`` column in the
+``bullet`` table.   As entries are reordered in memory, the value of the
+``position`` attribute should be updated to reflect the new sort order::
+
+
+    Base = declarative_base()
+
+
+    class Slide(Base):
+        __tablename__ = "slide"
+
+        id = Column(Integer, primary_key=True)
+        name = Column(String)
+
+        bullets = relationship("Bullet", order_by="Bullet.position")
+
+
+    class Bullet(Base):
+        __tablename__ = "bullet"
+        id = Column(Integer, primary_key=True)
+        slide_id = Column(Integer, ForeignKey("slide.id"))
+        position = Column(Integer)
+        text = Column(String)
+
+The standard relationship mapping will produce a list-like attribute on each
+``Slide`` containing all related ``Bullet`` objects,
+but coping with changes in ordering is not handled automatically.
+When appending a ``Bullet`` into ``Slide.bullets``, the ``Bullet.position``
+attribute will remain unset until manually assigned.   When the ``Bullet``
+is inserted into the middle of the list, the following ``Bullet`` objects
+will also need to be renumbered.
+
+The :class:`.OrderingList` object automates this task, managing the
+``position`` attribute on all ``Bullet`` objects in the co
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/serializer.py
+
+```python
+# ext/serializer.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+"""Serializer/Deserializer objects for usage with SQLAlchemy query structures,
+allowing "contextual" deserialization.
+
+.. legacy::
+
+    The serializer extension is **legacy** and should not be used for
+    new development.
+
+Any SQLAlchemy query structure, either based on sqlalchemy.sql.*
+or sqlalchemy.orm.* can be used.  The mappers, Tables, Columns, Session
+etc. which are referenced by the structure are not persisted in serialized
+form, but are instead re-associated with the query structure
+when it is deserialized.
+
+.. warning:: The serializer extension uses pickle to serialize and
+   deserialize objects, so the same security consideration mentioned
+   in the `python documentation
+   <https://docs.python.org/3/library/pickle.html>`_ apply.
+
+Usage is nearly the same as that of the standard Python pickle module::
+
+    from sqlalchemy.ext.serializer import loads, dumps
+
+    metadata = MetaData(bind=some_engine)
+    Session = scoped_session(sessionmaker())
+
+    # ... define mappers
+
+    query = (
+        Session.query(MyClass)
+        .filter(MyClass.somedata == "foo")
+        .order_by(MyClass.sortkey)
+    )
+
+    # pickle the query
+    serialized = dumps(query)
+
+    # unpickle.  Pass in metadata + scoped_session
+    query2 = loads(serialized, metadata, Session)
+
+    print(query2.all())
+
+Similar restrictions as when using raw pickle apply; mapped classes must be
+themselves be pickleable, meaning they are importable from a module-level
+namespace.
+
+The serializer module is only appropriate for query structures.  It is not
+needed for:
+
+* instances of user-defined classes.   These contain no references to engines,
+  sessions or expression constructs in the typical case and can be serialized
+  directly.
+
+* Table metad
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/__init__.py
+
+```python
+# ext/asyncio/__init__.py
+# Copyright (C) 2020-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from .engine import async_engine_from_config as async_engine_from_config
+from .engine import AsyncConnection as AsyncConnection
+from .engine import AsyncEngine as AsyncEngine
+from .engine import AsyncTransaction as AsyncTransaction
+from .engine import create_async_engine as create_async_engine
+from .engine import create_async_pool_from_url as create_async_pool_from_url
+from .result import AsyncMappingResult as AsyncMappingResult
+from .result import AsyncResult as AsyncResult
+from .result import AsyncScalarResult as AsyncScalarResult
+from .result import AsyncTupleResult as AsyncTupleResult
+from .scoping import async_scoped_session as async_scoped_session
+from .session import async_object_session as async_object_session
+from .session import async_session as async_session
+from .session import async_sessionmaker as async_sessionmaker
+from .session import AsyncAttrs as AsyncAttrs
+from .session import AsyncSession as AsyncSession
+from .session import AsyncSessionTransaction as AsyncSessionTransaction
+from .session import close_all_sessions as close_all_sessions
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/base.py
+
+```python
+# ext/asyncio/base.py
+# Copyright (C) 2020-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import abc
+import functools
+from typing import Any
+from typing import AsyncGenerator
+from typing import AsyncIterator
+from typing import Awaitable
+from typing import Callable
+from typing import ClassVar
+from typing import Dict
+from typing import Generator
+from typing import Generic
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Tuple
+from typing import TypeVar
+import weakref
+
+from . import exc as async_exc
+from ... import util
+from ...util.typing import Literal
+from ...util.typing import Self
+
+_T = TypeVar("_T", bound=Any)
+_T_co = TypeVar("_T_co", bound=Any, covariant=True)
+
+
+_PT = TypeVar("_PT", bound=Any)
+
+
+class ReversibleProxy(Generic[_PT]):
+    _proxy_objects: ClassVar[
+        Dict[weakref.ref[Any], weakref.ref[ReversibleProxy[Any]]]
+    ] = {}
+    __slots__ = ("__weakref__",)
+
+    @overload
+    def _assign_proxied(self, target: _PT) -> _PT: ...
+
+    @overload
+    def _assign_proxied(self, target: None) -> None: ...
+
+    def _assign_proxied(self, target: Optional[_PT]) -> Optional[_PT]:
+        if target is not None:
+            target_ref: weakref.ref[_PT] = weakref.ref(
+                target, ReversibleProxy._target_gced
+            )
+            proxy_ref = weakref.ref(
+                self,
+                functools.partial(ReversibleProxy._target_gced, target_ref),
+            )
+            ReversibleProxy._proxy_objects[target_ref] = proxy_ref
+
+        return target
+
+    @classmethod
+    def _target_gced(
+        cls,
+        ref: weakref.ref[_PT],
+        proxy_ref: Optional[weakref.ref[Self]] = None,  # noqa: U100
+    ) -> None:
+        cls._proxy_objects.pop(ref, None)
+
+    @classmethod
+    def _regenerate_proxy_for_target(
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/engine.py
+
+```python
+# ext/asyncio/engine.py
+# Copyright (C) 2020-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+import asyncio
+import contextlib
+from typing import Any
+from typing import AsyncIterator
+from typing import Callable
+from typing import Dict
+from typing import Generator
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import exc as async_exc
+from .base import asyncstartablecontext
+from .base import GeneratorStartableContext
+from .base import ProxyComparable
+from .base import StartableContext
+from .result import _ensure_sync_result
+from .result import AsyncResult
+from .result import AsyncScalarResult
+from ... import exc
+from ... import inspection
+from ... import util
+from ...engine import Connection
+from ...engine import create_engine as _create_engine
+from ...engine import create_pool_from_url as _create_pool_from_url
+from ...engine import Engine
+from ...engine.base import NestedTransaction
+from ...engine.base import Transaction
+from ...exc import ArgumentError
+from ...util.concurrency import greenlet_spawn
+from ...util.typing import Concatenate
+from ...util.typing import ParamSpec
+
+if TYPE_CHECKING:
+    from ...engine.cursor import CursorResult
+    from ...engine.interfaces import _CoreAnyExecuteParams
+    from ...engine.interfaces import _CoreSingleExecuteParams
+    from ...engine.interfaces import _DBAPIAnyExecuteParams
+    from ...engine.interfaces import _ExecuteOptions
+    from ...engine.interfaces import CompiledCacheType
+    from ...engine.interfaces import CoreExecuteOptionsParameter
+    from ...engine.interfaces import Dialect
+    from ...engine.interfaces import IsolationLevel
+    from ...engine.interfaces i
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/exc.py
+
+```python
+# ext/asyncio/exc.py
+# Copyright (C) 2020-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from ... import exc
+
+
+class AsyncMethodRequired(exc.InvalidRequestError):
+    """an API can't be used because its result would not be
+    compatible with async"""
+
+
+class AsyncContextNotStarted(exc.InvalidRequestError):
+    """a startable context manager has not been started."""
+
+
+class AsyncContextAlreadyStarted(exc.InvalidRequestError):
+    """a startable context manager is already started."""
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/result.py
+
+```python
+# ext/asyncio/result.py
+# Copyright (C) 2020-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+import operator
+from typing import Any
+from typing import AsyncIterator
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+
+from . import exc as async_exc
+from ... import util
+from ...engine import Result
+from ...engine.result import _NO_ROW
+from ...engine.result import _R
+from ...engine.result import _WithKeys
+from ...engine.result import FilterResult
+from ...engine.result import FrozenResult
+from ...engine.result import ResultMetaData
+from ...engine.row import Row
+from ...engine.row import RowMapping
+from ...sql.base import _generative
+from ...util.concurrency import greenlet_spawn
+from ...util.typing import Literal
+from ...util.typing import Self
+
+if TYPE_CHECKING:
+    from ...engine import CursorResult
+    from ...engine.result import _KeyIndexType
+    from ...engine.result import _UniqueFilterType
+
+_T = TypeVar("_T", bound=Any)
+_TP = TypeVar("_TP", bound=Tuple[Any, ...])
+
+
+class AsyncCommon(FilterResult[_R]):
+    __slots__ = ()
+
+    _real_result: Result[Any]
+    _metadata: ResultMetaData
+
+    async def close(self) -> None:  # type: ignore[override]
+        """Close this result."""
+
+        await greenlet_spawn(self._real_result.close)
+
+    @property
+    def closed(self) -> bool:
+        """proxies the .closed attribute of the underlying result object,
+        if any, else raises ``AttributeError``.
+
+        .. versionadded:: 2.0.0b3
+
+        """
+        return self._real_result.closed
+
+
+class AsyncResult(_WithKeys, AsyncCommon[Row[_TP]]):
+    """An asyncio wrapper around a :class:`_result.Result` object.
+
+    The :class:`_asyncio.AsyncResult` only applies to statement exec
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/scoping.py
+
+```python
+# ext/asyncio/scoping.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Callable
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .session import _AS
+from .session import async_sessionmaker
+from .session import AsyncSession
+from ... import exc as sa_exc
+from ... import util
+from ...orm.session import Session
+from ...util import create_proxy_methods
+from ...util import ScopedRegistry
+from ...util import warn
+from ...util import warn_deprecated
+
+if TYPE_CHECKING:
+    from .engine import AsyncConnection
+    from .result import AsyncResult
+    from .result import AsyncScalarResult
+    from .session import AsyncSessionTransaction
+    from ...engine import Connection
+    from ...engine import Engine
+    from ...engine import Result
+    from ...engine import Row
+    from ...engine import RowMapping
+    from ...engine.interfaces import _CoreAnyExecuteParams
+    from ...engine.interfaces import CoreExecuteOptionsParameter
+    from ...engine.result import ScalarResult
+    from ...orm._typing import _IdentityKeyType
+    from ...orm._typing import _O
+    from ...orm._typing import OrmExecuteOptionsParameter
+    from ...orm.interfaces import ORMOption
+    from ...orm.session import _BindArguments
+    from ...orm.session import _EntityBindKey
+    from ...orm.session import _PKIdentityArgument
+    from ...orm.session import _SessionBind
+    from ...sql.base import Executable
+    from ...sql.elements import ClauseElement
+    from ...sql.selectable import ForUpdateParameter
+    from .
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/session.py
+
+```python
+# ext/asyncio/session.py
+# Copyright (C) 2020-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+import asyncio
+from typing import Any
+from typing import Awaitable
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import engine
+from .base import ReversibleProxy
+from .base import StartableContext
+from .result import _ensure_sync_result
+from .result import AsyncResult
+from .result import AsyncScalarResult
+from ... import util
+from ...orm import close_all_sessions as _sync_close_all_sessions
+from ...orm import object_session
+from ...orm import Session
+from ...orm import SessionTransaction
+from ...orm import state as _instance_state
+from ...util.concurrency import greenlet_spawn
+from ...util.typing import Concatenate
+from ...util.typing import ParamSpec
+
+
+if TYPE_CHECKING:
+    from .engine import AsyncConnection
+    from .engine import AsyncEngine
+    from ...engine import Connection
+    from ...engine import Engine
+    from ...engine import Result
+    from ...engine import Row
+    from ...engine import RowMapping
+    from ...engine import ScalarResult
+    from ...engine.interfaces import _CoreAnyExecuteParams
+    from ...engine.interfaces import CoreExecuteOptionsParameter
+    from ...event import dispatcher
+    from ...orm._typing import _IdentityKeyType
+    from ...orm._typing import _O
+    from ...orm._typing import OrmExecuteOptionsParameter
+    from ...orm.identity import IdentityMap
+    from ...orm.interfaces import ORMOption
+  
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/declarative/__init__.py
+
+```python
+# ext/declarative/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from .extensions import AbstractConcreteBase
+from .extensions import ConcreteBase
+from .extensions import DeferredReflection
+from ... import util
+from ...orm.decl_api import as_declarative as _as_declarative
+from ...orm.decl_api import declarative_base as _declarative_base
+from ...orm.decl_api import DeclarativeMeta
+from ...orm.decl_api import declared_attr
+from ...orm.decl_api import has_inherited_table as _has_inherited_table
+from ...orm.decl_api import synonym_for as _synonym_for
+
+
+@util.moved_20(
+    "The ``declarative_base()`` function is now available as "
+    ":func:`sqlalchemy.orm.declarative_base`."
+)
+def declarative_base(*arg, **kw):
+    return _declarative_base(*arg, **kw)
+
+
+@util.moved_20(
+    "The ``as_declarative()`` function is now available as "
+    ":func:`sqlalchemy.orm.as_declarative`"
+)
+def as_declarative(*arg, **kw):
+    return _as_declarative(*arg, **kw)
+
+
+@util.moved_20(
+    "The ``has_inherited_table()`` function is now available as "
+    ":func:`sqlalchemy.orm.has_inherited_table`."
+)
+def has_inherited_table(*arg, **kw):
+    return _has_inherited_table(*arg, **kw)
+
+
+@util.moved_20(
+    "The ``synonym_for()`` function is now available as "
+    ":func:`sqlalchemy.orm.synonym_for`"
+)
+def synonym_for(*arg, **kw):
+    return _synonym_for(*arg, **kw)
+
+
+__all__ = [
+    "declarative_base",
+    "synonym_for",
+    "has_inherited_table",
+    "instrument_declarative",
+    "declared_attr",
+    "as_declarative",
+    "ConcreteBase",
+    "AbstractConcreteBase",
+    "DeclarativeMeta",
+    "DeferredReflection",
+]
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/declarative/extensions.py
+
+```python
+# ext/declarative/extensions.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""Public API functions and helpers for declarative."""
+from __future__ import annotations
+
+import collections
+import contextlib
+from typing import Any
+from typing import Callable
+from typing import TYPE_CHECKING
+from typing import Union
+
+from ... import exc as sa_exc
+from ...engine import Connection
+from ...engine import Engine
+from ...orm import exc as orm_exc
+from ...orm import relationships
+from ...orm.base import _mapper_or_none
+from ...orm.clsregistry import _resolver
+from ...orm.decl_base import _DeferredMapperConfig
+from ...orm.util import polymorphic_union
+from ...schema import Table
+from ...util import OrderedDict
+
+if TYPE_CHECKING:
+    from ...sql.schema import MetaData
+
+
+class ConcreteBase:
+    """A helper class for 'concrete' declarative mappings.
+
+    :class:`.ConcreteBase` will use the :func:`.polymorphic_union`
+    function automatically, against all tables mapped as a subclass
+    to this class.   The function is called via the
+    ``__declare_last__()`` function, which is essentially
+    a hook for the :meth:`.after_configured` event.
+
+    :class:`.ConcreteBase` produces a mapped
+    table for the class itself.  Compare to :class:`.AbstractConcreteBase`,
+    which does not.
+
+    Example::
+
+        from sqlalchemy.ext.declarative import ConcreteBase
+
+
+        class Employee(ConcreteBase, Base):
+            __tablename__ = "employee"
+            employee_id = Column(Integer, primary_key=True)
+            name = Column(String(50))
+            __mapper_args__ = {
+                "polymorphic_identity": "employee",
+                "concrete": True,
+            }
+
+
+        class Manager(Employee):
+            __tablename__ = "manager"
+            employee_id = Column(Integer, primary_k
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/mypy/__init__.py
+
+```python
+# ext/mypy/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/mypy/apply.py
+
+```python
+# ext/mypy/apply.py
+# Copyright (C) 2021-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import List
+from typing import Optional
+from typing import Union
+
+from mypy.nodes import ARG_NAMED_OPT
+from mypy.nodes import Argument
+from mypy.nodes import AssignmentStmt
+from mypy.nodes import CallExpr
+from mypy.nodes import ClassDef
+from mypy.nodes import MDEF
+from mypy.nodes import MemberExpr
+from mypy.nodes import NameExpr
+from mypy.nodes import RefExpr
+from mypy.nodes import StrExpr
+from mypy.nodes import SymbolTableNode
+from mypy.nodes import TempNode
+from mypy.nodes import TypeInfo
+from mypy.nodes import Var
+from mypy.plugin import SemanticAnalyzerPluginInterface
+from mypy.plugins.common import add_method_to_class
+from mypy.types import AnyType
+from mypy.types import get_proper_type
+from mypy.types import Instance
+from mypy.types import NoneTyp
+from mypy.types import ProperType
+from mypy.types import TypeOfAny
+from mypy.types import UnboundType
+from mypy.types import UnionType
+
+from . import infer
+from . import util
+from .names import expr_to_mapped_constructor
+from .names import NAMED_TYPE_SQLA_MAPPED
+
+
+def apply_mypy_mapped_attr(
+    cls: ClassDef,
+    api: SemanticAnalyzerPluginInterface,
+    item: Union[NameExpr, StrExpr],
+    attributes: List[util.SQLAlchemyAttribute],
+) -> None:
+    if isinstance(item, NameExpr):
+        name = item.name
+    elif isinstance(item, StrExpr):
+        name = item.value
+    else:
+        return None
+
+    for stmt in cls.defs.body:
+        if (
+            isinstance(stmt, AssignmentStmt)
+            and isinstance(stmt.lvalues[0], NameExpr)
+            and stmt.lvalues[0].name == name
+        ):
+            break
+    else:
+        util.fail(api, f"Can't find mapped attribute {name}", cls)
+        return None
+
+    if stmt.type is None:
+      
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/mypy/decl_class.py
+
+```python
+# ext/mypy/decl_class.py
+# Copyright (C) 2021-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import List
+from typing import Optional
+from typing import Union
+
+from mypy.nodes import AssignmentStmt
+from mypy.nodes import CallExpr
+from mypy.nodes import ClassDef
+from mypy.nodes import Decorator
+from mypy.nodes import LambdaExpr
+from mypy.nodes import ListExpr
+from mypy.nodes import MemberExpr
+from mypy.nodes import NameExpr
+from mypy.nodes import PlaceholderNode
+from mypy.nodes import RefExpr
+from mypy.nodes import StrExpr
+from mypy.nodes import SymbolNode
+from mypy.nodes import SymbolTableNode
+from mypy.nodes import TempNode
+from mypy.nodes import TypeInfo
+from mypy.nodes import Var
+from mypy.plugin import SemanticAnalyzerPluginInterface
+from mypy.types import AnyType
+from mypy.types import CallableType
+from mypy.types import get_proper_type
+from mypy.types import Instance
+from mypy.types import NoneType
+from mypy.types import ProperType
+from mypy.types import Type
+from mypy.types import TypeOfAny
+from mypy.types import UnboundType
+from mypy.types import UnionType
+
+from . import apply
+from . import infer
+from . import names
+from . import util
+
+
+def scan_declarative_assignments_and_apply_types(
+    cls: ClassDef,
+    api: SemanticAnalyzerPluginInterface,
+    is_mixin_scan: bool = False,
+) -> Optional[List[util.SQLAlchemyAttribute]]:
+    info = util.info_for_cls(cls, api)
+
+    if info is None:
+        # this can occur during cached passes
+        return None
+    elif cls.fullname.startswith("builtins"):
+        return None
+
+    mapped_attributes: Optional[List[util.SQLAlchemyAttribute]] = (
+        util.get_mapped_attributes(info, api)
+    )
+
+    # used by assign.add_additional_orm_attributes among others
+    util.establish_as_sqlalchemy(info)
+
+    if mapped_attributes is n
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/mypy/infer.py
+
+```python
+# ext/mypy/infer.py
+# Copyright (C) 2021-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Optional
+from typing import Sequence
+
+from mypy.maptype import map_instance_to_supertype
+from mypy.nodes import AssignmentStmt
+from mypy.nodes import CallExpr
+from mypy.nodes import Expression
+from mypy.nodes import FuncDef
+from mypy.nodes import LambdaExpr
+from mypy.nodes import MemberExpr
+from mypy.nodes import NameExpr
+from mypy.nodes import RefExpr
+from mypy.nodes import StrExpr
+from mypy.nodes import TypeInfo
+from mypy.nodes import Var
+from mypy.plugin import SemanticAnalyzerPluginInterface
+from mypy.subtypes import is_subtype
+from mypy.types import AnyType
+from mypy.types import CallableType
+from mypy.types import get_proper_type
+from mypy.types import Instance
+from mypy.types import NoneType
+from mypy.types import ProperType
+from mypy.types import TypeOfAny
+from mypy.types import UnionType
+
+from . import names
+from . import util
+
+
+def infer_type_from_right_hand_nameexpr(
+    api: SemanticAnalyzerPluginInterface,
+    stmt: AssignmentStmt,
+    node: Var,
+    left_hand_explicit_type: Optional[ProperType],
+    infer_from_right_side: RefExpr,
+) -> Optional[ProperType]:
+    type_id = names.type_id_for_callee(infer_from_right_side)
+    if type_id is None:
+        return None
+    elif type_id is names.MAPPED:
+        python_type_for_type = _infer_type_from_mapped(
+            api, stmt, node, left_hand_explicit_type, infer_from_right_side
+        )
+    elif type_id is names.COLUMN:
+        python_type_for_type = _infer_type_from_decl_column(
+            api, stmt, node, left_hand_explicit_type
+        )
+    elif type_id is names.RELATIONSHIP:
+        python_type_for_type = _infer_type_from_relationship(
+            api, stmt, node, left_hand_explicit_type
+        )
+    elif type
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/mypy/names.py
+
+```python
+# ext/mypy/names.py
+# Copyright (C) 2021-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Dict
+from typing import List
+from typing import Optional
+from typing import Set
+from typing import Tuple
+from typing import Union
+
+from mypy.nodes import ARG_POS
+from mypy.nodes import CallExpr
+from mypy.nodes import ClassDef
+from mypy.nodes import Decorator
+from mypy.nodes import Expression
+from mypy.nodes import FuncDef
+from mypy.nodes import MemberExpr
+from mypy.nodes import NameExpr
+from mypy.nodes import OverloadedFuncDef
+from mypy.nodes import SymbolNode
+from mypy.nodes import TypeAlias
+from mypy.nodes import TypeInfo
+from mypy.plugin import SemanticAnalyzerPluginInterface
+from mypy.types import CallableType
+from mypy.types import get_proper_type
+from mypy.types import Instance
+from mypy.types import UnboundType
+
+from ... import util
+
+COLUMN: int = util.symbol("COLUMN")
+RELATIONSHIP: int = util.symbol("RELATIONSHIP")
+REGISTRY: int = util.symbol("REGISTRY")
+COLUMN_PROPERTY: int = util.symbol("COLUMN_PROPERTY")
+TYPEENGINE: int = util.symbol("TYPEENGNE")
+MAPPED: int = util.symbol("MAPPED")
+DECLARATIVE_BASE: int = util.symbol("DECLARATIVE_BASE")
+DECLARATIVE_META: int = util.symbol("DECLARATIVE_META")
+MAPPED_DECORATOR: int = util.symbol("MAPPED_DECORATOR")
+SYNONYM_PROPERTY: int = util.symbol("SYNONYM_PROPERTY")
+COMPOSITE_PROPERTY: int = util.symbol("COMPOSITE_PROPERTY")
+DECLARED_ATTR: int = util.symbol("DECLARED_ATTR")
+MAPPER_PROPERTY: int = util.symbol("MAPPER_PROPERTY")
+AS_DECLARATIVE: int = util.symbol("AS_DECLARATIVE")
+AS_DECLARATIVE_BASE: int = util.symbol("AS_DECLARATIVE_BASE")
+DECLARATIVE_MIXIN: int = util.symbol("DECLARATIVE_MIXIN")
+QUERY_EXPRESSION: int = util.symbol("QUERY_EXPRESSION")
+
+# names that must succeed with mypy.api.named_type
+NAMED_TYPE_BUILTINS_OBJECT = "
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/mypy/plugin.py
+
+```python
+# ext/mypy/plugin.py
+# Copyright (C) 2021-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""
+Mypy plugin for SQLAlchemy ORM.
+
+"""
+from __future__ import annotations
+
+from typing import Callable
+from typing import List
+from typing import Optional
+from typing import Tuple
+from typing import Type as TypingType
+from typing import Union
+
+from mypy import nodes
+from mypy.mro import calculate_mro
+from mypy.mro import MroError
+from mypy.nodes import Block
+from mypy.nodes import ClassDef
+from mypy.nodes import GDEF
+from mypy.nodes import MypyFile
+from mypy.nodes import NameExpr
+from mypy.nodes import SymbolTable
+from mypy.nodes import SymbolTableNode
+from mypy.nodes import TypeInfo
+from mypy.plugin import AttributeContext
+from mypy.plugin import ClassDefContext
+from mypy.plugin import DynamicClassDefContext
+from mypy.plugin import Plugin
+from mypy.plugin import SemanticAnalyzerPluginInterface
+from mypy.types import get_proper_type
+from mypy.types import Instance
+from mypy.types import Type
+
+from . import decl_class
+from . import names
+from . import util
+
+try:
+    __import__("sqlalchemy-stubs")
+except ImportError:
+    pass
+else:
+    raise ImportError(
+        "The SQLAlchemy mypy plugin in SQLAlchemy "
+        "2.0 does not work with sqlalchemy-stubs or "
+        "sqlalchemy2-stubs installed, as well as with any other third party "
+        "SQLAlchemy stubs.  Please uninstall all SQLAlchemy stubs "
+        "packages."
+    )
+
+
+class SQLAlchemyPlugin(Plugin):
+    def get_dynamic_class_hook(
+        self, fullname: str
+    ) -> Optional[Callable[[DynamicClassDefContext], None]]:
+        if names.type_id_for_fullname(fullname) is names.DECLARATIVE_BASE:
+            return _dynamic_class_hook
+        return None
+
+    def get_customize_class_mro_hook(
+        self, fullname: str
+    ) -> Optional[Callable[[ClassDefContext], None]]:
+ 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/ext/mypy/util.py
+
+```python
+# ext/mypy/util.py
+# Copyright (C) 2021-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import re
+from typing import Any
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Optional
+from typing import overload
+from typing import Tuple
+from typing import Type as TypingType
+from typing import TypeVar
+from typing import Union
+
+from mypy import version
+from mypy.messages import format_type as _mypy_format_type
+from mypy.nodes import CallExpr
+from mypy.nodes import ClassDef
+from mypy.nodes import CLASSDEF_NO_INFO
+from mypy.nodes import Context
+from mypy.nodes import Expression
+from mypy.nodes import FuncDef
+from mypy.nodes import IfStmt
+from mypy.nodes import JsonDict
+from mypy.nodes import MemberExpr
+from mypy.nodes import NameExpr
+from mypy.nodes import Statement
+from mypy.nodes import SymbolTableNode
+from mypy.nodes import TypeAlias
+from mypy.nodes import TypeInfo
+from mypy.options import Options
+from mypy.plugin import ClassDefContext
+from mypy.plugin import DynamicClassDefContext
+from mypy.plugin import SemanticAnalyzerPluginInterface
+from mypy.plugins.common import deserialize_and_fixup_type
+from mypy.typeops import map_type_from_supertype
+from mypy.types import CallableType
+from mypy.types import get_proper_type
+from mypy.types import Instance
+from mypy.types import NoneType
+from mypy.types import Type
+from mypy.types import TypeVarType
+from mypy.types import UnboundType
+from mypy.types import UnionType
+
+_vers = tuple(
+    [int(x) for x in version.__version__.split(".") if re.match(r"^\d+$", x)]
+)
+mypy_14 = _vers >= (1, 4)
+
+
+_TArgType = TypeVar("_TArgType", bound=Union[CallExpr, NameExpr])
+
+
+class SQLAlchemyAttribute:
+    def __init__(
+        self,
+        name: str,
+        line: int,
+        column: int,
+        typ: Optional[Type],
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/future/__init__.py
+
+```python
+# future/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""2.0 API features.
+
+this module is legacy as 2.0 APIs are now standard.
+
+"""
+from .engine import Connection as Connection
+from .engine import create_engine as create_engine
+from .engine import Engine as Engine
+from ..sql._selectable_constructors import select as select
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/future/engine.py
+
+```python
+# future/engine.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+"""2.0 API features.
+
+this module is legacy as 2.0 APIs are now standard.
+
+"""
+
+from ..engine import Connection as Connection  # noqa: F401
+from ..engine import create_engine as create_engine  # noqa: F401
+from ..engine import Engine as Engine  # noqa: F401
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/__init__.py
+
+```python
+# orm/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""
+Functional constructs for ORM configuration.
+
+See the SQLAlchemy object relational tutorial and mapper configuration
+documentation for an overview of how this module is used.
+
+"""
+
+from __future__ import annotations
+
+from typing import Any
+
+from . import exc as exc
+from . import mapper as mapperlib
+from . import strategy_options as strategy_options
+from ._orm_constructors import _mapper_fn as mapper
+from ._orm_constructors import aliased as aliased
+from ._orm_constructors import backref as backref
+from ._orm_constructors import clear_mappers as clear_mappers
+from ._orm_constructors import column_property as column_property
+from ._orm_constructors import composite as composite
+from ._orm_constructors import contains_alias as contains_alias
+from ._orm_constructors import create_session as create_session
+from ._orm_constructors import deferred as deferred
+from ._orm_constructors import dynamic_loader as dynamic_loader
+from ._orm_constructors import join as join
+from ._orm_constructors import mapped_column as mapped_column
+from ._orm_constructors import orm_insert_sentinel as orm_insert_sentinel
+from ._orm_constructors import outerjoin as outerjoin
+from ._orm_constructors import query_expression as query_expression
+from ._orm_constructors import relationship as relationship
+from ._orm_constructors import synonym as synonym
+from ._orm_constructors import with_loader_criteria as with_loader_criteria
+from ._orm_constructors import with_polymorphic as with_polymorphic
+from .attributes import AttributeEventToken as AttributeEventToken
+from .attributes import InstrumentedAttribute as InstrumentedAttribute
+from .attributes import QueryableAttribute as QueryableAttribute
+from .base import class_mapper as class_mapper
+from .base import Dynami
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/_orm_constructors.py
+
+```python
+# orm/_orm_constructors.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import Callable
+from typing import Collection
+from typing import Iterable
+from typing import Mapping
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import Union
+
+from . import mapperlib as mapperlib
+from ._typing import _O
+from .descriptor_props import Composite
+from .descriptor_props import Synonym
+from .interfaces import _AttributeOptions
+from .properties import MappedColumn
+from .properties import MappedSQLExpression
+from .query import AliasOption
+from .relationships import _RelationshipArgumentType
+from .relationships import _RelationshipDeclared
+from .relationships import _RelationshipSecondaryArgument
+from .relationships import RelationshipProperty
+from .session import Session
+from .util import _ORMJoin
+from .util import AliasedClass
+from .util import AliasedInsp
+from .util import LoaderCriteriaOption
+from .. import sql
+from .. import util
+from ..exc import InvalidRequestError
+from ..sql._typing import _no_kw
+from ..sql.base import _NoArg
+from ..sql.base import SchemaEventTarget
+from ..sql.schema import _InsertSentinelColumnDefault
+from ..sql.schema import SchemaConst
+from ..sql.selectable import FromClause
+from ..util.typing import Annotated
+from ..util.typing import Literal
+
+if TYPE_CHECKING:
+    from ._typing import _EntityType
+    from ._typing import _ORMColumnExprArgument
+    from .descriptor_props import _CC
+    from .descriptor_props import _CompositeAttrType
+    from .interfaces import PropComparator
+    from .mapper import Mapper
+    from .query import Query
+    from .relationships import _LazyLoadArgumentType
+    from .r
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/_typing.py
+
+```python
+# orm/_typing.py
+# Copyright (C) 2022-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import operator
+from typing import Any
+from typing import Dict
+from typing import Mapping
+from typing import Optional
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from ..engine.interfaces import _CoreKnownExecutionOptions
+from ..sql import roles
+from ..sql._orm_types import DMLStrategyArgument as DMLStrategyArgument
+from ..sql._orm_types import (
+    SynchronizeSessionArgument as SynchronizeSessionArgument,
+)
+from ..sql._typing import _HasClauseElement
+from ..sql.elements import ColumnElement
+from ..util.typing import Protocol
+from ..util.typing import TypeGuard
+
+if TYPE_CHECKING:
+    from .attributes import AttributeImpl
+    from .attributes import CollectionAttributeImpl
+    from .attributes import HasCollectionAdapter
+    from .attributes import QueryableAttribute
+    from .base import PassiveFlag
+    from .decl_api import registry as _registry_type
+    from .interfaces import InspectionAttr
+    from .interfaces import MapperProperty
+    from .interfaces import ORMOption
+    from .interfaces import UserDefinedOption
+    from .mapper import Mapper
+    from .relationships import RelationshipProperty
+    from .state import InstanceState
+    from .util import AliasedClass
+    from .util import AliasedInsp
+    from ..sql._typing import _CE
+    from ..sql.base import ExecutableOption
+
+_T = TypeVar("_T", bound=Any)
+
+
+_T_co = TypeVar("_T_co", bound=Any, covariant=True)
+
+_O = TypeVar("_O", bound=object)
+"""The 'ORM mapped object' type.
+
+"""
+
+
+if TYPE_CHECKING:
+    _RegistryType = _registry_type
+
+_InternalEntityType = Union["Mapper[_T]", "AliasedInsp[_T]"]
+
+_ExternalEntityType = Union[Type[_T], "AliasedClass[_T]"]
+
+_E
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/attributes.py
+
+```python
+# orm/attributes.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Defines instrumentation for class attributes and their interaction
+with instances.
+
+This module is usually not directly visible to user applications, but
+defines a large part of the ORM's interactivity.
+
+
+"""
+
+from __future__ import annotations
+
+import dataclasses
+import operator
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import ClassVar
+from typing import Dict
+from typing import Iterable
+from typing import List
+from typing import NamedTuple
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import collections
+from . import exc as orm_exc
+from . import interfaces
+from ._typing import insp_is_aliased_class
+from .base import _DeclarativeMapped
+from .base import ATTR_EMPTY
+from .base import ATTR_WAS_SET
+from .base import CALLABLES_OK
+from .base import DEFERRED_HISTORY_LOAD
+from .base import INCLUDE_PENDING_MUTATIONS  # noqa
+from .base import INIT_OK
+from .base import instance_dict as instance_dict
+from .base import instance_state as instance_state
+from .base import instance_str
+from .base import LOAD_AGAINST_COMMITTED
+from .base import LoaderCallableStatus
+from .base import manager_of_class as manager_of_class
+from .base import Mapped as Mapped  # noqa
+from .base import NEVER_SET  # noqa
+from .base import NO_AUTOFLUSH
+from .base import NO_CHANGE  # noqa
+from .base import NO_KEY
+from .base import NO_RAISE
+from .base import NO_VALUE
+from .base import NON_PERSISTENT_OK  # noqa
+from .base import opt_manager_of_class as opt_manager_of_class
+from .base import PASSIVE_CLASS_MI
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/base.py
+
+```python
+# orm/base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Constants and rudimental functions used throughout the ORM."""
+
+from __future__ import annotations
+
+from enum import Enum
+import operator
+import typing
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import Generic
+from typing import no_type_check
+from typing import Optional
+from typing import overload
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import exc
+from ._typing import insp_is_mapper
+from .. import exc as sa_exc
+from .. import inspection
+from .. import util
+from ..sql import roles
+from ..sql.elements import SQLColumnExpression
+from ..sql.elements import SQLCoreOperations
+from ..util import FastIntFlag
+from ..util.langhelpers import TypingOnly
+from ..util.typing import Literal
+
+if typing.TYPE_CHECKING:
+    from ._typing import _EntityType
+    from ._typing import _ExternalEntityType
+    from ._typing import _InternalEntityType
+    from .attributes import InstrumentedAttribute
+    from .dynamic import AppenderQuery
+    from .instrumentation import ClassManager
+    from .interfaces import PropComparator
+    from .mapper import Mapper
+    from .state import InstanceState
+    from .util import AliasedClass
+    from .writeonly import WriteOnlyCollection
+    from ..sql._typing import _ColumnExpressionArgument
+    from ..sql._typing import _InfoType
+    from ..sql.elements import ColumnElement
+    from ..sql.operators import OperatorType
+
+_T = TypeVar("_T", bound=Any)
+_T_co = TypeVar("_T_co", bound=Any, covariant=True)
+
+_O = TypeVar("_O", bound=object)
+
+
+class LoaderCallableStatus(Enum):
+    PASSIVE_NO_RESULT = 0
+    """Symbol returned by a loader callable or other attribute/history
+    retrieval ope
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/bulk_persistence.py
+
+```python
+# orm/bulk_persistence.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""additional ORM persistence classes related to "bulk" operations,
+specifically outside of the flush() process.
+
+"""
+
+from __future__ import annotations
+
+from typing import Any
+from typing import cast
+from typing import Dict
+from typing import Iterable
+from typing import Optional
+from typing import overload
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import attributes
+from . import context
+from . import evaluator
+from . import exc as orm_exc
+from . import loading
+from . import persistence
+from .base import NO_VALUE
+from .context import AbstractORMCompileState
+from .context import FromStatement
+from .context import ORMFromStatementCompileState
+from .context import QueryContext
+from .. import exc as sa_exc
+from .. import util
+from ..engine import Dialect
+from ..engine import result as _result
+from ..sql import coercions
+from ..sql import dml
+from ..sql import expression
+from ..sql import roles
+from ..sql import select
+from ..sql import sqltypes
+from ..sql.base import _entity_namespace_key
+from ..sql.base import CompileState
+from ..sql.base import Options
+from ..sql.dml import DeleteDMLState
+from ..sql.dml import InsertDMLState
+from ..sql.dml import UpdateDMLState
+from ..util import EMPTY_DICT
+from ..util.typing import Literal
+
+if TYPE_CHECKING:
+    from ._typing import DMLStrategyArgument
+    from ._typing import OrmExecuteOptionsParameter
+    from ._typing import SynchronizeSessionArgument
+    from .mapper import Mapper
+    from .session import _BindArguments
+    from .session import ORMExecuteState
+    from .session import Session
+    from .session import SessionTransaction
+    from .state import InstanceState
+    from ..engine import Connection
+    from
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/clsregistry.py
+
+```python
+# orm/clsregistry.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Routines to handle the string class registry used by declarative.
+
+This system allows specification of classes and expressions used in
+:func:`_orm.relationship` using strings.
+
+"""
+
+from __future__ import annotations
+
+import re
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Generator
+from typing import Iterable
+from typing import List
+from typing import Mapping
+from typing import MutableMapping
+from typing import NoReturn
+from typing import Optional
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from . import attributes
+from . import interfaces
+from .descriptor_props import SynonymProperty
+from .properties import ColumnProperty
+from .util import class_mapper
+from .. import exc
+from .. import inspection
+from .. import util
+from ..sql.schema import _get_table_key
+from ..util.typing import CallableReference
+
+if TYPE_CHECKING:
+    from .relationships import RelationshipProperty
+    from ..sql.schema import MetaData
+    from ..sql.schema import Table
+
+_T = TypeVar("_T", bound=Any)
+
+_ClsRegistryType = MutableMapping[str, Union[type, "ClsRegistryToken"]]
+
+# strong references to registries which we place in
+# the _decl_class_registry, which is usually weak referencing.
+# the internal registries here link to classes with weakrefs and remove
+# themselves when all references to contained classes are removed.
+_registries: Set[ClsRegistryToken] = set()
+
+
+def add_class(
+    classname: str, cls: Type[_T], decl_class_registry: _ClsRegistryType
+) -> None:
+    """Add a class to the _decl_class_registry associated with the
+    given declarative class.
+
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/collections.py
+
+```python
+# orm/collections.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Support for collections of mapped entities.
+
+The collections package supplies the machinery used to inform the ORM of
+collection membership changes.  An instrumentation via decoration approach is
+used, allowing arbitrary types (including built-ins) to be used as entity
+collections without requiring inheritance from a base class.
+
+Instrumentation decoration relays membership change events to the
+:class:`.CollectionAttributeImpl` that is currently managing the collection.
+The decorators observe function call arguments and return values, tracking
+entities entering or leaving the collection.  Two decorator approaches are
+provided.  One is a bundle of generic decorators that map function arguments
+and return values to events::
+
+  from sqlalchemy.orm.collections import collection
+
+
+  class MyClass:
+      # ...
+
+      @collection.adds(1)
+      def store(self, item):
+          self.data.append(item)
+
+      @collection.removes_return()
+      def pop(self):
+          return self.data.pop()
+
+The second approach is a bundle of targeted decorators that wrap appropriate
+append and remove notifiers around the mutation methods present in the
+standard Python ``list``, ``set`` and ``dict`` interfaces.  These could be
+specified in terms of generic decorator recipes, but are instead hand-tooled
+for increased efficiency.  The targeted decorators occasionally implement
+adapter-like behavior, such as mapping bulk-set methods (``extend``,
+``update``, ``__setslice__``, etc.) into the series of atomic mutation events
+that the ORM requires.
+
+The targeted decorators are used internally for automatic instrumentation of
+entity collection classes.  Every collection class goes through a
+transformation process ro
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/context.py
+
+```python
+# orm/context.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from __future__ import annotations
+
+import itertools
+from typing import Any
+from typing import cast
+from typing import Dict
+from typing import Iterable
+from typing import List
+from typing import Optional
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import attributes
+from . import interfaces
+from . import loading
+from .base import _is_aliased_class
+from .interfaces import ORMColumnDescription
+from .interfaces import ORMColumnsClauseRole
+from .path_registry import PathRegistry
+from .util import _entity_corresponds_to
+from .util import _ORMJoin
+from .util import _TraceAdaptRole
+from .util import AliasedClass
+from .util import Bundle
+from .util import ORMAdapter
+from .util import ORMStatementAdapter
+from .. import exc as sa_exc
+from .. import future
+from .. import inspect
+from .. import sql
+from .. import util
+from ..sql import coercions
+from ..sql import expression
+from ..sql import roles
+from ..sql import util as sql_util
+from ..sql import visitors
+from ..sql._typing import _TP
+from ..sql._typing import is_dml
+from ..sql._typing import is_insert_update
+from ..sql._typing import is_select_base
+from ..sql.base import _select_iterables
+from ..sql.base import CacheableOptions
+from ..sql.base import CompileState
+from ..sql.base import Executable
+from ..sql.base import Generative
+from ..sql.base import Options
+from ..sql.dml import UpdateBase
+from ..sql.elements import GroupedElement
+from ..sql.elements import TextClause
+from ..sql.selectable import CompoundSelectState
+from ..sql.selectable import LABEL_STYLE_DISAMBIGUATE_ONLY
+from ..sql.selectable import LABEL_STYLE_NONE
+from ..sql.selectable import LA
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/decl_api.py
+
+```python
+# orm/decl_api.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Public API functions and helpers for declarative."""
+
+from __future__ import annotations
+
+import itertools
+import re
+import typing
+from typing import Any
+from typing import Callable
+from typing import ClassVar
+from typing import Dict
+from typing import FrozenSet
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import Mapping
+from typing import Optional
+from typing import overload
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from . import attributes
+from . import clsregistry
+from . import instrumentation
+from . import interfaces
+from . import mapperlib
+from ._orm_constructors import composite
+from ._orm_constructors import deferred
+from ._orm_constructors import mapped_column
+from ._orm_constructors import relationship
+from ._orm_constructors import synonym
+from .attributes import InstrumentedAttribute
+from .base import _inspect_mapped_class
+from .base import _is_mapped_class
+from .base import Mapped
+from .base import ORMDescriptor
+from .decl_base import _add_attribute
+from .decl_base import _as_declarative
+from .decl_base import _ClassScanMapperConfig
+from .decl_base import _declarative_constructor
+from .decl_base import _DeferredMapperConfig
+from .decl_base import _del_attribute
+from .decl_base import _mapper
+from .descriptor_props import Composite
+from .descriptor_props import Synonym
+from .descriptor_props import Synonym as _orm_synonym
+from .mapper import Mapper
+from .properties import MappedColumn
+from .relationships import RelationshipProperty
+from .state import InstanceState
+from .. import exc
+from .. import inspection
+from .. import util
+from ..sql imp
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/decl_base.py
+
+```python
+# orm/decl_base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Internal implementation for declarative."""
+
+from __future__ import annotations
+
+import collections
+import dataclasses
+import re
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Iterable
+from typing import List
+from typing import Mapping
+from typing import NamedTuple
+from typing import NoReturn
+from typing import Optional
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from . import attributes
+from . import clsregistry
+from . import exc as orm_exc
+from . import instrumentation
+from . import mapperlib
+from ._typing import _O
+from ._typing import attr_is_internal_proxy
+from .attributes import InstrumentedAttribute
+from .attributes import QueryableAttribute
+from .base import _is_mapped_class
+from .base import InspectionAttr
+from .descriptor_props import CompositeProperty
+from .descriptor_props import SynonymProperty
+from .interfaces import _AttributeOptions
+from .interfaces import _DCAttributeOptions
+from .interfaces import _IntrospectsAnnotations
+from .interfaces import _MappedAttribute
+from .interfaces import _MapsColumns
+from .interfaces import MapperProperty
+from .mapper import Mapper
+from .properties import ColumnProperty
+from .properties import MappedColumn
+from .util import _extract_mapped_subtype
+from .util import _is_mapped_annotation
+from .util import class_mapper
+from .util import de_stringify_annotation
+from .. import event
+from .. import exc
+from .. import util
+from ..sql import expression
+from ..sql.base import _NoArg
+from ..sql.schema import Column
+from ..sql.schema import Table
+from ..util import topological
+from ..util.t
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/dependency.py
+
+```python
+# orm/dependency.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""Relationship dependencies."""
+
+from __future__ import annotations
+
+from . import attributes
+from . import exc
+from . import sync
+from . import unitofwork
+from . import util as mapperutil
+from .interfaces import MANYTOMANY
+from .interfaces import MANYTOONE
+from .interfaces import ONETOMANY
+from .. import exc as sa_exc
+from .. import sql
+from .. import util
+
+
+class DependencyProcessor:
+    def __init__(self, prop):
+        self.prop = prop
+        self.cascade = prop.cascade
+        self.mapper = prop.mapper
+        self.parent = prop.parent
+        self.secondary = prop.secondary
+        self.direction = prop.direction
+        self.post_update = prop.post_update
+        self.passive_deletes = prop.passive_deletes
+        self.passive_updates = prop.passive_updates
+        self.enable_typechecks = prop.enable_typechecks
+        if self.passive_deletes:
+            self._passive_delete_flag = attributes.PASSIVE_NO_INITIALIZE
+        else:
+            self._passive_delete_flag = attributes.PASSIVE_OFF
+        if self.passive_updates:
+            self._passive_update_flag = attributes.PASSIVE_NO_INITIALIZE
+        else:
+            self._passive_update_flag = attributes.PASSIVE_OFF
+
+        self.sort_key = "%s_%s" % (self.parent._sort_key, prop.key)
+        self.key = prop.key
+        if not self.prop.synchronize_pairs:
+            raise sa_exc.ArgumentError(
+                "Can't build a DependencyProcessor for relationship %s. "
+                "No target attributes to populate between parent and "
+                "child are present" % self.prop
+            )
+
+    @classmethod
+    def from_relationship(cls, prop):
+        return _direction_to_processor[prop.direction](prop)
+
+    def hasparent(self, state):
+ 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/descriptor_props.py
+
+```python
+# orm/descriptor_props.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Descriptor properties are more "auxiliary" properties
+that exist as configurational elements, but don't participate
+as actively in the load/persist ORM loop.
+
+"""
+from __future__ import annotations
+
+from dataclasses import is_dataclass
+import inspect
+import itertools
+import operator
+import typing
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import List
+from typing import NoReturn
+from typing import Optional
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from . import attributes
+from . import util as orm_util
+from .base import _DeclarativeMapped
+from .base import LoaderCallableStatus
+from .base import Mapped
+from .base import PassiveFlag
+from .base import SQLORMOperations
+from .interfaces import _AttributeOptions
+from .interfaces import _IntrospectsAnnotations
+from .interfaces import _MapsColumns
+from .interfaces import MapperProperty
+from .interfaces import PropComparator
+from .util import _none_set
+from .util import de_stringify_annotation
+from .. import event
+from .. import exc as sa_exc
+from .. import schema
+from .. import sql
+from .. import util
+from ..sql import expression
+from ..sql import operators
+from ..sql.elements import BindParameter
+from ..util.typing import get_args
+from ..util.typing import is_fwd_ref
+from ..util.typing import is_pep593
+
+
+if typing.TYPE_CHECKING:
+    from ._typing import _InstanceDict
+    from ._typing import _RegistryType
+    from .attributes import History
+    from .attributes import InstrumentedAttribute
+    from .attributes import QueryableAttribute
+    from .context import ORMCompileState
+    from .decl_base import _
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/dynamic.py
+
+```python
+# orm/dynamic.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+"""Dynamic collection API.
+
+Dynamic collections act like Query() objects for read operations and support
+basic add/delete mutation.
+
+.. legacy:: the "dynamic" loader is a legacy feature, superseded by the
+ "write_only" loader.
+
+
+"""
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Optional
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import attributes
+from . import exc as orm_exc
+from . import relationships
+from . import util as orm_util
+from .base import PassiveFlag
+from .query import Query
+from .session import object_session
+from .writeonly import AbstractCollectionWriter
+from .writeonly import WriteOnlyAttributeImpl
+from .writeonly import WriteOnlyHistory
+from .writeonly import WriteOnlyLoader
+from .. import util
+from ..engine import result
+
+
+if TYPE_CHECKING:
+    from . import QueryableAttribute
+    from .mapper import Mapper
+    from .relationships import _RelationshipOrderByArg
+    from .session import Session
+    from .state import InstanceState
+    from .util import AliasedClass
+    from ..event import _Dispatch
+    from ..sql.elements import ColumnElement
+
+_T = TypeVar("_T", bound=Any)
+
+
+class DynamicCollectionHistory(WriteOnlyHistory[_T]):
+    def __init__(
+        self,
+        attr: DynamicAttributeImpl,
+        state: InstanceState[_T],
+        passive: PassiveFlag,
+        apply_to: Optional[DynamicCollectionHistory[_T]] = None,
+    ) -> None:
+        if apply_to:
+            coll = AppenderQuery(attr, state).autoflush(False)
+            self.unchanged_items = util.OrderedIdentitySet(coll)
+            self.added_item
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/evaluator.py
+
+```python
+# orm/evaluator.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+"""Evaluation functions used **INTERNALLY** by ORM DML use cases.
+
+
+This module is **private, for internal use by SQLAlchemy**.
+
+.. versionchanged:: 2.0.4 renamed ``EvaluatorCompiler`` to
+   ``_EvaluatorCompiler``.
+
+"""
+
+
+from __future__ import annotations
+
+from typing import Type
+
+from . import exc as orm_exc
+from .base import LoaderCallableStatus
+from .base import PassiveFlag
+from .. import exc
+from .. import inspect
+from ..sql import and_
+from ..sql import operators
+from ..sql.sqltypes import Concatenable
+from ..sql.sqltypes import Integer
+from ..sql.sqltypes import Numeric
+from ..util import warn_deprecated
+
+
+class UnevaluatableError(exc.InvalidRequestError):
+    pass
+
+
+class _NoObject(operators.ColumnOperators):
+    def operate(self, *arg, **kw):
+        return None
+
+    def reverse_operate(self, *arg, **kw):
+        return None
+
+
+class _ExpiredObject(operators.ColumnOperators):
+    def operate(self, *arg, **kw):
+        return self
+
+    def reverse_operate(self, *arg, **kw):
+        return self
+
+
+_NO_OBJECT = _NoObject()
+_EXPIRED_OBJECT = _ExpiredObject()
+
+
+class _EvaluatorCompiler:
+    def __init__(self, target_cls=None):
+        self.target_cls = target_cls
+
+    def process(self, clause, *clauses):
+        if clauses:
+            clause = and_(clause, *clauses)
+
+        meth = getattr(self, f"visit_{clause.__visit_name__}", None)
+        if not meth:
+            raise UnevaluatableError(
+                f"Cannot evaluate {type(clause).__name__}"
+            )
+        return meth(clause)
+
+    def visit_grouping(self, clause):
+        return self.process(clause.element)
+
+    def visit_null(self, clause):
+        return lambda obj: None
+
+    def visit_false(self, clause):
+        return lambda obj: False
+
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/events.py
+
+```python
+# orm/events.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""ORM event interfaces."""
+from __future__ import annotations
+
+from typing import Any
+from typing import Callable
+from typing import Collection
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import Optional
+from typing import Sequence
+from typing import Set
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from . import instrumentation
+from . import interfaces
+from . import mapperlib
+from .attributes import QueryableAttribute
+from .base import _mapper_or_none
+from .base import NO_KEY
+from .instrumentation import ClassManager
+from .instrumentation import InstrumentationFactory
+from .query import BulkDelete
+from .query import BulkUpdate
+from .query import Query
+from .scoping import scoped_session
+from .session import Session
+from .session import sessionmaker
+from .. import event
+from .. import exc
+from .. import util
+from ..event import EventTarget
+from ..event.registry import _ET
+from ..util.compat import inspect_getfullargspec
+
+if TYPE_CHECKING:
+    from weakref import ReferenceType
+
+    from ._typing import _InstanceDict
+    from ._typing import _InternalEntityType
+    from ._typing import _O
+    from ._typing import _T
+    from .attributes import Event
+    from .base import EventConstants
+    from .session import ORMExecuteState
+    from .session import SessionTransaction
+    from .unitofwork import UOWTransaction
+    from ..engine import Connection
+    from ..event.base import _Dispatch
+    from ..event.base import _HasEventsDispatch
+    from ..event.registry import _EventKey
+    from ..orm.collections import CollectionAdapter
+    from ..orm.context import QueryContext
+    from ..orm.decl_api import DeclarativeAttr
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/exc.py
+
+```python
+# orm/exc.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""SQLAlchemy ORM exceptions."""
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Optional
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+
+from .util import _mapper_property_as_plain_name
+from .. import exc as sa_exc
+from .. import util
+from ..exc import MultipleResultsFound  # noqa
+from ..exc import NoResultFound  # noqa
+
+if TYPE_CHECKING:
+    from .interfaces import LoaderStrategy
+    from .interfaces import MapperProperty
+    from .state import InstanceState
+
+_T = TypeVar("_T", bound=Any)
+
+NO_STATE = (AttributeError, KeyError)
+"""Exception types that may be raised by instrumentation implementations."""
+
+
+class StaleDataError(sa_exc.SQLAlchemyError):
+    """An operation encountered database state that is unaccounted for.
+
+    Conditions which cause this to happen include:
+
+    * A flush may have attempted to update or delete rows
+      and an unexpected number of rows were matched during
+      the UPDATE or DELETE statement.   Note that when
+      version_id_col is used, rows in UPDATE or DELETE statements
+      are also matched against the current known version
+      identifier.
+
+    * A mapped object with version_id_col was refreshed,
+      and the version number coming back from the database does
+      not match that of the object itself.
+
+    * A object is detached from its parent object, however
+      the object was previously attached to a different parent
+      identity which was garbage collected, and a decision
+      cannot be made if the new parent was really the most
+      recent "parent".
+
+    """
+
+
+ConcurrentModificationError = StaleDataError
+
+
+class FlushError(sa_exc.SQLAlchemyError):
+    """A invalid condition was detected during f
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/identity.py
+
+```python
+# orm/identity.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Any
+from typing import cast
+from typing import Dict
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import NoReturn
+from typing import Optional
+from typing import Set
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+import weakref
+
+from . import util as orm_util
+from .. import exc as sa_exc
+
+if TYPE_CHECKING:
+    from ._typing import _IdentityKeyType
+    from .state import InstanceState
+
+
+_T = TypeVar("_T", bound=Any)
+
+_O = TypeVar("_O", bound=object)
+
+
+class IdentityMap:
+    _wr: weakref.ref[IdentityMap]
+
+    _dict: Dict[_IdentityKeyType[Any], Any]
+    _modified: Set[InstanceState[Any]]
+
+    def __init__(self) -> None:
+        self._dict = {}
+        self._modified = set()
+        self._wr = weakref.ref(self)
+
+    def _kill(self) -> None:
+        self._add_unpresent = _killed  # type: ignore
+
+    def all_states(self) -> List[InstanceState[Any]]:
+        raise NotImplementedError()
+
+    def contains_state(self, state: InstanceState[Any]) -> bool:
+        raise NotImplementedError()
+
+    def __contains__(self, key: _IdentityKeyType[Any]) -> bool:
+        raise NotImplementedError()
+
+    def safe_discard(self, state: InstanceState[Any]) -> None:
+        raise NotImplementedError()
+
+    def __getitem__(self, key: _IdentityKeyType[_O]) -> _O:
+        raise NotImplementedError()
+
+    def get(
+        self, key: _IdentityKeyType[_O], default: Optional[_O] = None
+    ) -> Optional[_O]:
+        raise NotImplementedError()
+
+    def fast_get_state(
+        self, key: _IdentityKeyType[_O]
+    ) -> Optional[InstanceState[_O]]:
+        raise NotImplementedError()
+
+    def keys(self) -> Iterable[_IdentityKeyType[An
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/instrumentation.py
+
+```python
+# orm/instrumentation.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Defines SQLAlchemy's system of class instrumentation.
+
+This module is usually not directly visible to user applications, but
+defines a large part of the ORM's interactivity.
+
+instrumentation.py deals with registration of end-user classes
+for state tracking.   It interacts closely with state.py
+and attributes.py which establish per-instance and per-class-attribute
+instrumentation, respectively.
+
+The class instrumentation system can be customized on a per-class
+or global basis using the :mod:`sqlalchemy.ext.instrumentation`
+module, which provides the means to build and specify
+alternate instrumentation forms.
+
+.. versionchanged: 0.8
+   The instrumentation extension system was moved out of the
+   ORM and into the external :mod:`sqlalchemy.ext.instrumentation`
+   package.  When that package is imported, it installs
+   itself within sqlalchemy.orm so that its more comprehensive
+   resolution mechanics take effect.
+
+"""
+
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Collection
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import List
+from typing import Optional
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from . import base
+from . import collections
+from . import exc
+from . import interfaces
+from . import state
+from ._typing import _O
+from .attributes import _is_collection_attribute_impl
+from .. import util
+from ..event import EventTarget
+from ..util import HasMemoized
+from ..util.typing import Literal
+from ..util.typing import P
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/interfaces.py
+
+```python
+# orm/interfaces.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""
+
+Contains various base classes used throughout the ORM.
+
+Defines some key base classes prominent within the internals.
+
+This module and the classes within are mostly private, though some attributes
+are exposed when inspecting mappings.
+
+"""
+
+from __future__ import annotations
+
+import collections
+import dataclasses
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import ClassVar
+from typing import Dict
+from typing import Generic
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import NamedTuple
+from typing import NoReturn
+from typing import Optional
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import exc as orm_exc
+from . import path_registry
+from .base import _MappedAttribute as _MappedAttribute
+from .base import EXT_CONTINUE as EXT_CONTINUE  # noqa: F401
+from .base import EXT_SKIP as EXT_SKIP  # noqa: F401
+from .base import EXT_STOP as EXT_STOP  # noqa: F401
+from .base import InspectionAttr as InspectionAttr  # noqa: F401
+from .base import InspectionAttrInfo as InspectionAttrInfo
+from .base import MANYTOMANY as MANYTOMANY  # noqa: F401
+from .base import MANYTOONE as MANYTOONE  # noqa: F401
+from .base import NO_KEY as NO_KEY  # noqa: F401
+from .base import NO_VALUE as NO_VALUE  # noqa: F401
+from .base import NotExtension as NotExtension  # noqa: F401
+from .base import ONETOMANY as ONETOMANY  # noqa: F401
+from .base import RelationshipDirection as RelationshipDirection  # noqa: F401
+from .base import SQLORMOperations
+from .. import ColumnElement
+from .. import exc as sa_exc
+from .. import in
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/loading.py
+
+```python
+# orm/loading.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""private module containing functions used to convert database
+rows into object instances and associated state.
+
+the functions here are called primarily by Query, Mapper,
+as well as some of the attribute loading strategies.
+
+"""
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Dict
+from typing import Iterable
+from typing import List
+from typing import Mapping
+from typing import Optional
+from typing import Sequence
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import attributes
+from . import exc as orm_exc
+from . import path_registry
+from .base import _DEFER_FOR_STATE
+from .base import _RAISE_FOR_STATE
+from .base import _SET_DEFERRED_EXPIRED
+from .base import PassiveFlag
+from .context import FromStatement
+from .context import ORMCompileState
+from .context import QueryContext
+from .strategies import SelectInLoader
+from .util import _none_set
+from .util import state_str
+from .. import exc as sa_exc
+from .. import util
+from ..engine import result_tuple
+from ..engine.result import ChunkedIteratorResult
+from ..engine.result import FrozenResult
+from ..engine.result import SimpleResultMetaData
+from ..sql import select
+from ..sql import util as sql_util
+from ..sql.selectable import ForUpdateArg
+from ..sql.selectable import LABEL_STYLE_TABLENAME_PLUS_COL
+from ..sql.selectable import SelectState
+from ..util import EMPTY_DICT
+
+if TYPE_CHECKING:
+    from ._typing import _IdentityKeyType
+    from .base import LoaderCallableStatus
+    from .interfaces import ORMOption
+    from .mapper import Mapper
+    from .query import Query
+    from .session import Session
+    from .state import InstanceState
+    from ..engine.cursor impor
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/mapped_collection.py
+
+```python
+# orm/mapped_collection.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import operator
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import Generic
+from typing import List
+from typing import Optional
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import base
+from .collections import collection
+from .collections import collection_adapter
+from .. import exc as sa_exc
+from .. import util
+from ..sql import coercions
+from ..sql import expression
+from ..sql import roles
+from ..util.langhelpers import Missing
+from ..util.langhelpers import MissingOr
+from ..util.typing import Literal
+
+if TYPE_CHECKING:
+    from . import AttributeEventToken
+    from . import Mapper
+    from .collections import CollectionAdapter
+    from ..sql.elements import ColumnElement
+
+_KT = TypeVar("_KT", bound=Any)
+_VT = TypeVar("_VT", bound=Any)
+
+
+class _PlainColumnGetter(Generic[_KT]):
+    """Plain column getter, stores collection of Column objects
+    directly.
+
+    Serializes to a :class:`._SerializableColumnGetterV2`
+    which has more expensive __call__() performance
+    and some rare caveats.
+
+    """
+
+    __slots__ = ("cols", "composite")
+
+    def __init__(self, cols: Sequence[ColumnElement[_KT]]) -> None:
+        self.cols = cols
+        self.composite = len(cols) > 1
+
+    def __reduce__(
+        self,
+    ) -> Tuple[
+        Type[_SerializableColumnGetterV2[_KT]],
+        Tuple[Sequence[Tuple[Optional[str], Optional[str]]]],
+    ]:
+        return _SerializableColumnGetterV2._reduce_from_cols(self.cols)
+
+    def _cols(self, mapper: Mapper[_KT]) -> Sequence[ColumnElement[_KT]]:
+        return self.cols
+
+    def __call__(self, 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/mapper.py
+
+```python
+# orm/mapper.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Logic to map Python classes to and from selectables.
+
+Defines the :class:`~sqlalchemy.orm.mapper.Mapper` class, the central
+configurational unit which associates a class with a database table.
+
+This is a semi-private module; the main configurational API of the ORM is
+available in :class:`~sqlalchemy.orm.`.
+
+"""
+from __future__ import annotations
+
+from collections import deque
+from functools import reduce
+from itertools import chain
+import sys
+import threading
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Collection
+from typing import Deque
+from typing import Dict
+from typing import FrozenSet
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import Optional
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from . import attributes
+from . import exc as orm_exc
+from . import instrumentation
+from . import loading
+from . import properties
+from . import util as orm_util
+from ._typing import _O
+from .base import _class_to_mapper
+from .base import _parse_mapper_argument
+from .base import _state_mapper
+from .base import PassiveFlag
+from .base import state_str
+from .interfaces import _MappedAttribute
+from .interfaces import EXT_SKIP
+from .interfaces import InspectionAttr
+from .interfaces import MapperProperty
+from .interfaces import ORMEntityColumnsClauseRole
+from .interfaces import ORMFromClauseRole
+from .interfaces import StrategizedProperty
+from .path_registry import PathRegistry
+from .. import event
+fr
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/path_registry.py
+
+```python
+# orm/path_registry.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+"""Path tracking utilities, representing mapper graph traversals."""
+
+from __future__ import annotations
+
+from functools import reduce
+from itertools import chain
+import logging
+import operator
+from typing import Any
+from typing import cast
+from typing import Dict
+from typing import Iterator
+from typing import List
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import Union
+
+from . import base as orm_base
+from ._typing import insp_is_mapper_property
+from .. import exc
+from .. import util
+from ..sql import visitors
+from ..sql.cache_key import HasCacheKey
+
+if TYPE_CHECKING:
+    from ._typing import _InternalEntityType
+    from .interfaces import StrategizedProperty
+    from .mapper import Mapper
+    from .relationships import RelationshipProperty
+    from .util import AliasedInsp
+    from ..sql.cache_key import _CacheKeyTraversalType
+    from ..sql.elements import BindParameter
+    from ..sql.visitors import anon_map
+    from ..util.typing import _LiteralStar
+    from ..util.typing import TypeGuard
+
+    def is_root(path: PathRegistry) -> TypeGuard[RootRegistry]: ...
+
+    def is_entity(path: PathRegistry) -> TypeGuard[AbstractEntityRegistry]: ...
+
+else:
+    is_root = operator.attrgetter("is_root")
+    is_entity = operator.attrgetter("is_entity")
+
+
+_SerializedPath = List[Any]
+_StrPathToken = str
+_PathElementType = Union[
+    _StrPathToken, "_InternalEntityType[Any]", "StrategizedProperty[Any]"
+]
+
+# the representation is in fact
+# a tuple with alternating:
+# [_InternalEntityType[Any], Union[str, StrategizedProperty[Any]],
+# _InternalEntityType[Any], Union[str, StrategizedProperty[Any]], ...]
+# this might someday be a tuple of 2-t
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py
+
+```python
+# orm/persistence.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""private module containing functions used to emit INSERT, UPDATE
+and DELETE statements on behalf of a :class:`_orm.Mapper` and its descending
+mappers.
+
+The functions here are called only by the unit of work functions
+in unitofwork.py.
+
+"""
+from __future__ import annotations
+
+from itertools import chain
+from itertools import groupby
+from itertools import zip_longest
+import operator
+
+from . import attributes
+from . import exc as orm_exc
+from . import loading
+from . import sync
+from .base import state_str
+from .. import exc as sa_exc
+from .. import future
+from .. import sql
+from .. import util
+from ..engine import cursor as _cursor
+from ..sql import operators
+from ..sql.elements import BooleanClauseList
+from ..sql.selectable import LABEL_STYLE_TABLENAME_PLUS_COL
+
+
+def save_obj(base_mapper, states, uowtransaction, single=False):
+    """Issue ``INSERT`` and/or ``UPDATE`` statements for a list
+    of objects.
+
+    This is called within the context of a UOWTransaction during a
+    flush operation, given a list of states to be flushed.  The
+    base mapper in an inheritance hierarchy handles the inserts/
+    updates for all descendant mappers.
+
+    """
+
+    # if batch=false, call _save_obj separately for each object
+    if not single and not base_mapper.batch:
+        for state in _sort_states(base_mapper, states):
+            save_obj(base_mapper, [state], uowtransaction, single=True)
+        return
+
+    states_to_update = []
+    states_to_insert = []
+
+    for (
+        state,
+        dict_,
+        mapper,
+        connection,
+        has_identity,
+        row_switch,
+        update_version_id,
+    ) in _organize_states_for_save(base_mapper, states, uowtransaction):
+        if has_identity or row_switch:
+        
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/properties.py
+
+```python
+# orm/properties.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""MapperProperty implementations.
+
+This is a private module which defines the behavior of individual ORM-
+mapped attributes.
+
+"""
+
+from __future__ import annotations
+
+from typing import Any
+from typing import cast
+from typing import Dict
+from typing import List
+from typing import Optional
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import attributes
+from . import exc as orm_exc
+from . import strategy_options
+from .base import _DeclarativeMapped
+from .base import class_mapper
+from .descriptor_props import CompositeProperty
+from .descriptor_props import ConcreteInheritedProperty
+from .descriptor_props import SynonymProperty
+from .interfaces import _AttributeOptions
+from .interfaces import _DEFAULT_ATTRIBUTE_OPTIONS
+from .interfaces import _IntrospectsAnnotations
+from .interfaces import _MapsColumns
+from .interfaces import MapperProperty
+from .interfaces import PropComparator
+from .interfaces import StrategizedProperty
+from .relationships import RelationshipProperty
+from .util import de_stringify_annotation
+from .. import exc as sa_exc
+from .. import ForeignKey
+from .. import log
+from .. import util
+from ..sql import coercions
+from ..sql import roles
+from ..sql.base import _NoArg
+from ..sql.schema import Column
+from ..sql.schema import SchemaConst
+from ..sql.type_api import TypeEngine
+from ..util.typing import de_optionalize_union_types
+from ..util.typing import get_args
+from ..util.typing import includes_none
+from ..util.typing import is_a_type
+from ..util.typing import is_fwd_ref
+from ..util.typing import is_pep593
+from ..util.typing import is_pep695
+from ..util.typing import Self
+
+if 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/query.py
+
+```python
+# orm/query.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""The Query class and support.
+
+Defines the :class:`_query.Query` class, the central
+construct used by the ORM to construct database queries.
+
+The :class:`_query.Query` class should not be confused with the
+:class:`_expression.Select` class, which defines database
+SELECT operations at the SQL (non-ORM) level.  ``Query`` differs from
+``Select`` in that it returns ORM-mapped objects and interacts with an
+ORM session, whereas the ``Select`` construct interacts directly with the
+database to return iterable result sets.
+
+"""
+from __future__ import annotations
+
+import collections.abc as collections_abc
+import operator
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import attributes
+from . import interfaces
+from . import loading
+from . import util as orm_util
+from ._typing import _O
+from .base import _assertions
+from .context import _column_descriptions
+from .context import _determine_last_joined_entity
+from .context import _legacy_filter_by_entity_zero
+from .context import FromStatement
+from .context import ORMCompileState
+from .context import QueryContext
+from .interfaces import ORMColumnDescription
+from .interfaces import ORMColumnsClauseRole
+from .util import AliasedClass
+from .util import object_mapper
+from .util import with_parent
+from .. import exc as sa_exc
+from .. import inspect
+from .. import inspection
+from .. import log
+from .
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/relationships.py
+
+```python
+# orm/relationships.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Heuristics related to join conditions as used in
+:func:`_orm.relationship`.
+
+Provides the :class:`.JoinCondition` object, which encapsulates
+SQL annotation and aliasing behavior focused on the `primaryjoin`
+and `secondaryjoin` aspects of :func:`_orm.relationship`.
+
+"""
+from __future__ import annotations
+
+import collections
+from collections import abc
+import dataclasses
+import inspect as _py_inspect
+import itertools
+import re
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Collection
+from typing import Dict
+from typing import FrozenSet
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import NamedTuple
+from typing import NoReturn
+from typing import Optional
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from . import attributes
+from . import strategy_options
+from ._typing import insp_is_aliased_class
+from ._typing import is_has_collection_adapter
+from .base import _DeclarativeMapped
+from .base import _is_mapped_class
+from .base import class_mapper
+from .base import DynamicMapped
+from .base import LoaderCallableStatus
+from .base import PassiveFlag
+from .base import state_str
+from .base import WriteOnlyMapped
+from .interfaces import _AttributeOptions
+from .interfaces import _IntrospectsAnnotations
+from .interfaces import MANYTOMANY
+from .interfaces import MANYTOONE
+from .interfaces import ONETOMANY
+from .interfaces import PropComparator
+from .interfaces import RelationshipDirection
+from .interfaces import StrategizedProperty
+from .util import _orm_annotate
+from .util import _orm_dean
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/scoping.py
+
+```python
+# orm/scoping.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .session import _S
+from .session import Session
+from .. import exc as sa_exc
+from .. import util
+from ..util import create_proxy_methods
+from ..util import ScopedRegistry
+from ..util import ThreadLocalRegistry
+from ..util import warn
+from ..util import warn_deprecated
+from ..util.typing import Protocol
+
+if TYPE_CHECKING:
+    from ._typing import _EntityType
+    from ._typing import _IdentityKeyType
+    from ._typing import OrmExecuteOptionsParameter
+    from .identity import IdentityMap
+    from .interfaces import ORMOption
+    from .mapper import Mapper
+    from .query import Query
+    from .query import RowReturningQuery
+    from .session import _BindArguments
+    from .session import _EntityBindKey
+    from .session import _PKIdentityArgument
+    from .session import _SessionBind
+    from .session import sessionmaker
+    from .session import SessionTransaction
+    from ..engine import Connection
+    from ..engine import Engine
+    from ..engine import Result
+    from ..engine import Row
+    from ..engine import RowMapping
+    from ..engine.interfaces import _CoreAnyExecuteParams
+    from ..engine.interfaces import _CoreSingleExecuteParams
+    from ..engine.interfaces import CoreExecuteOptionsParameter
+    from ..engine.result import ScalarResult
+    from ..sql._typing import _ColumnsClauseArgument
+    from ..sql._typing i
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/session.py
+
+```python
+# orm/session.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Provides the Session class and related utilities."""
+
+from __future__ import annotations
+
+import contextlib
+from enum import Enum
+import itertools
+import sys
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from . import attributes
+from . import bulk_persistence
+from . import context
+from . import descriptor_props
+from . import exc
+from . import identity
+from . import loading
+from . import query
+from . import state as statelib
+from ._typing import _O
+from ._typing import insp_is_mapper
+from ._typing import is_composite_class
+from ._typing import is_orm_option
+from ._typing import is_user_defined_option
+from .base import _class_to_mapper
+from .base import _none_set
+from .base import _state_mapper
+from .base import instance_str
+from .base import LoaderCallableStatus
+from .base import object_mapper
+from .base import object_state
+from .base import PassiveFlag
+from .base import state_str
+from .context import FromStatement
+from .context import ORMCompileState
+from .identity import IdentityMap
+from .query import Query
+from .state import InstanceState
+from .state_changes import _StateChange
+from .state_changes import _StateChangeState
+from .state_changes import _StateChangeStates
+from .unitofwork import UOWTransaction
+from .. import engine
+from .. import exc as sa_exc
+from .. import sql
+from 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/state.py
+
+```python
+# orm/state.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Defines instrumentation of instances.
+
+This module is usually not directly visible to user applications, but
+defines a large part of the ORM's interactivity.
+
+"""
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import Optional
+from typing import Set
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import Union
+import weakref
+
+from . import base
+from . import exc as orm_exc
+from . import interfaces
+from ._typing import _O
+from ._typing import is_collection_impl
+from .base import ATTR_WAS_SET
+from .base import INIT_OK
+from .base import LoaderCallableStatus
+from .base import NEVER_SET
+from .base import NO_VALUE
+from .base import PASSIVE_NO_INITIALIZE
+from .base import PASSIVE_NO_RESULT
+from .base import PASSIVE_OFF
+from .base import SQL_OK
+from .path_registry import PathRegistry
+from .. import exc as sa_exc
+from .. import inspection
+from .. import util
+from ..util.typing import Literal
+from ..util.typing import Protocol
+
+if TYPE_CHECKING:
+    from ._typing import _IdentityKeyType
+    from ._typing import _InstanceDict
+    from ._typing import _LoaderCallable
+    from .attributes import AttributeImpl
+    from .attributes import History
+    from .base import PassiveFlag
+    from .collections import _AdaptedCollectionProtocol
+    from .identity import IdentityMap
+    from .instrumentation import ClassManager
+    from .interfaces import ORMOption
+    from .mapper import Mapper
+    from .session import Session
+    from ..engine import Row
+    from ..ext.asyncio.session import async_session as _async_provider
+    from ..ext.asyncio.session import AsyncSession
+
+if TYPE_CHECKING:
+    _sessions: 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py
+
+```python
+# orm/state_changes.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""State tracking utilities used by :class:`_orm.Session`."""
+
+from __future__ import annotations
+
+import contextlib
+from enum import Enum
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Iterator
+from typing import NoReturn
+from typing import Optional
+from typing import Tuple
+from typing import TypeVar
+from typing import Union
+
+from .. import exc as sa_exc
+from .. import util
+from ..util.typing import Literal
+
+_F = TypeVar("_F", bound=Callable[..., Any])
+
+
+class _StateChangeState(Enum):
+    pass
+
+
+class _StateChangeStates(_StateChangeState):
+    ANY = 1
+    NO_CHANGE = 2
+    CHANGE_IN_PROGRESS = 3
+
+
+class _StateChange:
+    """Supplies state assertion decorators.
+
+    The current use case is for the :class:`_orm.SessionTransaction` class. The
+    :class:`_StateChange` class itself is agnostic of the
+    :class:`_orm.SessionTransaction` class so could in theory be generalized
+    for other systems as well.
+
+    """
+
+    _next_state: _StateChangeState = _StateChangeStates.ANY
+    _state: _StateChangeState = _StateChangeStates.NO_CHANGE
+    _current_fn: Optional[Callable[..., Any]] = None
+
+    def _raise_for_prerequisite_state(
+        self, operation_name: str, state: _StateChangeState
+    ) -> NoReturn:
+        raise sa_exc.IllegalStateChangeError(
+            f"Can't run operation '{operation_name}()' when Session "
+            f"is in state {state!r}",
+            code="isce",
+        )
+
+    @classmethod
+    def declare_states(
+        cls,
+        prerequisite_states: Union[
+            Literal[_StateChangeStates.ANY], Tuple[_StateChangeState, ...]
+        ],
+        moves_to: _StateChangeState,
+    ) -> Callable[[_F], _F]:
+        """Method decorator declaring valid states.
+
+      
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/strategies.py
+
+```python
+# orm/strategies.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""sqlalchemy.orm.interfaces.LoaderStrategy
+implementations, and related MapperOptions."""
+
+from __future__ import annotations
+
+import collections
+import itertools
+from typing import Any
+from typing import Dict
+from typing import Optional
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import Union
+
+from . import attributes
+from . import exc as orm_exc
+from . import interfaces
+from . import loading
+from . import path_registry
+from . import properties
+from . import query
+from . import relationships
+from . import unitofwork
+from . import util as orm_util
+from .base import _DEFER_FOR_STATE
+from .base import _RAISE_FOR_STATE
+from .base import _SET_DEFERRED_EXPIRED
+from .base import ATTR_WAS_SET
+from .base import LoaderCallableStatus
+from .base import PASSIVE_OFF
+from .base import PassiveFlag
+from .context import _column_descriptions
+from .context import ORMCompileState
+from .context import ORMSelectCompileState
+from .context import QueryContext
+from .interfaces import LoaderStrategy
+from .interfaces import StrategizedProperty
+from .session import _state_session
+from .state import InstanceState
+from .strategy_options import Load
+from .util import _none_only_set
+from .util import AliasedClass
+from .. import event
+from .. import exc as sa_exc
+from .. import inspect
+from .. import log
+from .. import sql
+from .. import util
+from ..sql import util as sql_util
+from ..sql import visitors
+from ..sql.selectable import LABEL_STYLE_TABLENAME_PLUS_COL
+from ..sql.selectable import Select
+from ..util.typing import Literal
+
+if TYPE_CHECKING:
+    from .mapper import Mapper
+    from .relationships import RelationshipProperty
+    from ..sql.elements import ColumnElement
+
+
+def _register_attribute(
+    prop,
+   
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/strategy_options.py
+
+```python
+# orm/strategy_options.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+""" """
+
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Iterable
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TypeVar
+from typing import Union
+
+from . import util as orm_util
+from ._typing import insp_is_aliased_class
+from ._typing import insp_is_attribute
+from ._typing import insp_is_mapper
+from ._typing import insp_is_mapper_property
+from .attributes import QueryableAttribute
+from .base import InspectionAttr
+from .interfaces import LoaderOption
+from .path_registry import _DEFAULT_TOKEN
+from .path_registry import _StrPathToken
+from .path_registry import _WILDCARD_TOKEN
+from .path_registry import AbstractEntityRegistry
+from .path_registry import path_is_property
+from .path_registry import PathRegistry
+from .path_registry import TokenRegistry
+from .util import _orm_full_deannotate
+from .util import AliasedInsp
+from .. import exc as sa_exc
+from .. import inspect
+from .. import util
+from ..sql import and_
+from ..sql import cache_key
+from ..sql import coercions
+from ..sql import roles
+from ..sql import traversals
+from ..sql import visitors
+from ..sql.base import _generative
+from ..util.typing import Final
+from ..util.typing import Literal
+from ..util.typing import Self
+
+_RELATIONSHIP_TOKEN: Final[Literal["relationship"]] = "relationship"
+_COLUMN_TOKEN: Final[Literal["column"]] = "column"
+
+_FN = TypeVar("_FN", bound="Callable[..., Any]")
+
+if typing.TYPE_CHECKING:
+    from ._typing import _EntityType
+    from ._typing import _InternalEntityType
+    from .contex
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/sync.py
+
+```python
+# orm/sync.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+
+"""private module containing functions used for copying data
+between instances based on join conditions.
+
+"""
+
+from __future__ import annotations
+
+from . import exc
+from . import util as orm_util
+from .base import PassiveFlag
+
+
+def populate(
+    source,
+    source_mapper,
+    dest,
+    dest_mapper,
+    synchronize_pairs,
+    uowcommit,
+    flag_cascaded_pks,
+):
+    source_dict = source.dict
+    dest_dict = dest.dict
+
+    for l, r in synchronize_pairs:
+        try:
+            # inline of source_mapper._get_state_attr_by_column
+            prop = source_mapper._columntoproperty[l]
+            value = source.manager[prop.key].impl.get(
+                source, source_dict, PassiveFlag.PASSIVE_OFF
+            )
+        except exc.UnmappedColumnError as err:
+            _raise_col_to_prop(False, source_mapper, l, dest_mapper, r, err)
+
+        try:
+            # inline of dest_mapper._set_state_attr_by_column
+            prop = dest_mapper._columntoproperty[r]
+            dest.manager[prop.key].impl.set(dest, dest_dict, value, None)
+        except exc.UnmappedColumnError as err:
+            _raise_col_to_prop(True, source_mapper, l, dest_mapper, r, err)
+
+        # technically the "r.primary_key" check isn't
+        # needed here, but we check for this condition to limit
+        # how often this logic is invoked for memory/performance
+        # reasons, since we only need this info for a primary key
+        # destination.
+        if (
+            flag_cascaded_pks
+            and l.primary_key
+            and r.primary_key
+            and r.references(l)
+        ):
+            uowcommit.attributes[("pk_cascaded", dest, r)] = True
+
+
+def bulk_populate_inherit_keys(source_dict, source_mapper, synchr
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py
+
+```python
+# orm/unitofwork.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""The internals for the unit of work system.
+
+The session's flush() process passes objects to a contextual object
+here, which assembles flush tasks based on mappers and their properties,
+organizes them in order of dependency, and executes.
+
+"""
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Dict
+from typing import Optional
+from typing import Set
+from typing import TYPE_CHECKING
+
+from . import attributes
+from . import exc as orm_exc
+from . import util as orm_util
+from .. import event
+from .. import util
+from ..util import topological
+
+
+if TYPE_CHECKING:
+    from .dependency import DependencyProcessor
+    from .interfaces import MapperProperty
+    from .mapper import Mapper
+    from .session import Session
+    from .session import SessionTransaction
+    from .state import InstanceState
+
+
+def track_cascade_events(descriptor, prop):
+    """Establish event listeners on object attributes which handle
+    cascade-on-set/append.
+
+    """
+    key = prop.key
+
+    def append(state, item, initiator, **kw):
+        # process "save_update" cascade rules for when
+        # an instance is appended to the list of another instance
+
+        if item is None:
+            return
+
+        sess = state.session
+        if sess:
+            if sess._warn_on_events:
+                sess._flush_warning("collection append")
+
+            prop = state.manager.mapper._props[key]
+            item_state = attributes.instance_state(item)
+
+            if (
+                prop._cascade.save_update
+                and (key == initiator.key)
+                and not sess._contains_state(item_state)
+            ):
+                sess._save_or_update_state(item_state)
+        return item
+
+    def remove(state, item,
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/util.py
+
+```python
+# orm/util.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+from __future__ import annotations
+
+import enum
+import functools
+import re
+import types
+import typing
+from typing import AbstractSet
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import FrozenSet
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Match
+from typing import Optional
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from . import attributes  # noqa
+from . import exc
+from . import exc as orm_exc
+from ._typing import _O
+from ._typing import insp_is_aliased_class
+from ._typing import insp_is_mapper
+from ._typing import prop_is_relationship
+from .base import _class_to_mapper as _class_to_mapper
+from .base import _MappedAnnotationBase
+from .base import _never_set as _never_set  # noqa: F401
+from .base import _none_only_set as _none_only_set  # noqa: F401
+from .base import _none_set as _none_set  # noqa: F401
+from .base import attribute_str as attribute_str  # noqa: F401
+from .base import class_mapper as class_mapper
+from .base import DynamicMapped
+from .base import InspectionAttr as InspectionAttr
+from .base import instance_str as instance_str  # noqa: F401
+from .base import Mapped
+from .base import object_mapper as object_mapper
+from .base import object_state as object_state  # noqa: F401
+from .base import opt_manager_of_class
+from .base import ORMDescriptor
+from .base import state_attribute_str as state_attribute_str  # noqa: F401
+from .base import state_class_str as state_class_str  # noqa: F401
+from .base import sta
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/orm/writeonly.py
+
+```python
+# orm/writeonly.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Write-only collection API.
+
+This is an alternate mapped attribute style that only supports single-item
+collection mutation operations.   To read the collection, a select()
+object must be executed each time.
+
+.. versionadded:: 2.0
+
+
+"""
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Collection
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from sqlalchemy.sql import bindparam
+from . import attributes
+from . import interfaces
+from . import relationships
+from . import strategies
+from .base import NEVER_SET
+from .base import object_mapper
+from .base import PassiveFlag
+from .base import RelationshipDirection
+from .. import exc
+from .. import inspect
+from .. import log
+from .. import util
+from ..sql import delete
+from ..sql import insert
+from ..sql import select
+from ..sql import update
+from ..sql.dml import Delete
+from ..sql.dml import Insert
+from ..sql.dml import Update
+from ..util.typing import Literal
+
+if TYPE_CHECKING:
+    from . import QueryableAttribute
+    from ._typing import _InstanceDict
+    from .attributes import AttributeEventToken
+    from .base import LoaderCallableStatus
+    from .collections import _AdaptedCollectionProtocol
+    from .collections import CollectionAdapter
+    from .mapper import Mapper
+    from .relationships import _RelationshipOrderByArg
+    from .state import InstanceState
+    from .util import AliasedClass
+    from ..event import _Dispatch
+    from ..sql.selectable impo
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/pool/__init__.py
+
+```python
+# pool/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+"""Connection pooling for DB-API connections.
+
+Provides a number of connection pool implementations for a variety of
+usage scenarios and thread behavior requirements imposed by the
+application, DB-API or database itself.
+
+Also provides a DB-API 2.0 connection proxying mechanism allowing
+regular DB-API connect() methods to be transparently managed by a
+SQLAlchemy connection pool.
+"""
+
+from . import events
+from .base import _AdhocProxiedConnection as _AdhocProxiedConnection
+from .base import _ConnectionFairy as _ConnectionFairy
+from .base import _ConnectionRecord
+from .base import _CreatorFnType as _CreatorFnType
+from .base import _CreatorWRecFnType as _CreatorWRecFnType
+from .base import _finalize_fairy
+from .base import _ResetStyleArgType as _ResetStyleArgType
+from .base import ConnectionPoolEntry as ConnectionPoolEntry
+from .base import ManagesConnection as ManagesConnection
+from .base import Pool as Pool
+from .base import PoolProxiedConnection as PoolProxiedConnection
+from .base import PoolResetState as PoolResetState
+from .base import reset_commit as reset_commit
+from .base import reset_none as reset_none
+from .base import reset_rollback as reset_rollback
+from .impl import AssertionPool as AssertionPool
+from .impl import AsyncAdaptedQueuePool as AsyncAdaptedQueuePool
+from .impl import (
+    FallbackAsyncAdaptedQueuePool as FallbackAsyncAdaptedQueuePool,
+)
+from .impl import NullPool as NullPool
+from .impl import QueuePool as QueuePool
+from .impl import SingletonThreadPool as SingletonThreadPool
+from .impl import StaticPool as StaticPool
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/pool/base.py
+
+```python
+# pool/base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+"""Base constructs for connection pools."""
+
+from __future__ import annotations
+
+from collections import deque
+import dataclasses
+from enum import Enum
+import threading
+import time
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Deque
+from typing import Dict
+from typing import List
+from typing import Optional
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import Union
+import weakref
+
+from .. import event
+from .. import exc
+from .. import log
+from .. import util
+from ..util.typing import Literal
+from ..util.typing import Protocol
+from ..util.typing import Self
+
+if TYPE_CHECKING:
+    from ..engine.interfaces import DBAPIConnection
+    from ..engine.interfaces import DBAPICursor
+    from ..engine.interfaces import Dialect
+    from ..event import _DispatchCommon
+    from ..event import _ListenerFnType
+    from ..event import dispatcher
+    from ..sql._typing import _InfoType
+
+
+@dataclasses.dataclass(frozen=True)
+class PoolResetState:
+    """describes the state of a DBAPI connection as it is being passed to
+    the :meth:`.PoolEvents.reset` connection pool event.
+
+    .. versionadded:: 2.0.0b3
+
+    """
+
+    __slots__ = ("transaction_was_reset", "terminate_only", "asyncio_safe")
+
+    transaction_was_reset: bool
+    """Indicates if the transaction on the DBAPI connection was already
+    essentially "reset" back by the :class:`.Connection` object.
+
+    This boolean is True if the :class:`.Connection` had transactional
+    state present upon it, which was then not closed using the
+    :meth:`.Connection.rollback` or :meth:`.Connection.commit` method;
+    instead, the transaction was closed inline within the
+    :meth:`.Connection.close` method so is guaranteed to
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/pool/events.py
+
+```python
+# pool/events.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import Optional
+from typing import Type
+from typing import Union
+
+from .base import ConnectionPoolEntry
+from .base import Pool
+from .base import PoolProxiedConnection
+from .base import PoolResetState
+from .. import event
+from .. import util
+
+if typing.TYPE_CHECKING:
+    from ..engine import Engine
+    from ..engine.interfaces import DBAPIConnection
+
+
+class PoolEvents(event.Events[Pool]):
+    """Available events for :class:`_pool.Pool`.
+
+    The methods here define the name of an event as well
+    as the names of members that are passed to listener
+    functions.
+
+    When using an :class:`.Engine` object created via :func:`_sa.create_engine`
+    (or indirectly via :func:`.create_async_engine`), :class:`.PoolEvents`
+    listeners are expected to be registered in terms of the :class:`.Engine`,
+    which will direct the listeners to the :class:`.Pool` contained within::
+
+        from sqlalchemy import create_engine
+        from sqlalchemy import event
+
+        engine = create_engine("postgresql+psycopg2://scott:tiger@localhost/test")
+
+
+        @event.listens_for(engine, "checkout")
+        def my_on_checkout(dbapi_conn, connection_rec, connection_proxy):
+            "handle an on checkout event"
+
+    :class:`.PoolEvents` may also be registered with the :class:`_pool.Pool`
+    class, with the :class:`.Engine` class, as well as with instances of
+    :class:`_pool.Pool`.
+
+    .. tip::
+
+        Registering :class:`.PoolEvents` with the :class:`.Engine`, if present,
+        is recommended since the :meth:`.Engine.dispose` method will carry
+        along event listeners from the old pool to the new pool.
+
+    """  # noqa: E501
+
+    _target_class_doc = "SomeEngi
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/pool/impl.py
+
+```python
+# pool/impl.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+"""Pool implementation classes."""
+from __future__ import annotations
+
+import threading
+import traceback
+import typing
+from typing import Any
+from typing import cast
+from typing import List
+from typing import Optional
+from typing import Set
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import Union
+import weakref
+
+from .base import _AsyncConnDialect
+from .base import _ConnectionFairy
+from .base import _ConnectionRecord
+from .base import _CreatorFnType
+from .base import _CreatorWRecFnType
+from .base import ConnectionPoolEntry
+from .base import Pool
+from .base import PoolProxiedConnection
+from .. import exc
+from .. import util
+from ..util import chop_traceback
+from ..util import queue as sqla_queue
+from ..util.typing import Literal
+
+if typing.TYPE_CHECKING:
+    from ..engine.interfaces import DBAPIConnection
+
+
+class QueuePool(Pool):
+    """A :class:`_pool.Pool`
+    that imposes a limit on the number of open connections.
+
+    :class:`.QueuePool` is the default pooling implementation used for
+    all :class:`_engine.Engine` objects other than SQLite with a ``:memory:``
+    database.
+
+    The :class:`.QueuePool` class **is not compatible** with asyncio and
+    :func:`_asyncio.create_async_engine`.  The
+    :class:`.AsyncAdaptedQueuePool` class is used automatically when
+    using :func:`_asyncio.create_async_engine`, if no other kind of pool
+    is specified.
+
+    .. seealso::
+
+        :class:`.AsyncAdaptedQueuePool`
+
+    """
+
+    _is_asyncio = False
+
+    _queue_class: Type[sqla_queue.QueueCommon[ConnectionPoolEntry]] = (
+        sqla_queue.Queue
+    )
+
+    _pool: sqla_queue.QueueCommon[ConnectionPoolEntry]
+
+    def __init__(
+        self,
+        creator: Union[_CreatorFnType, _CreatorWRecFnType],
+        pool_size: 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/__init__.py
+
+```python
+# sql/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from typing import Any
+from typing import TYPE_CHECKING
+
+from ._typing import ColumnExpressionArgument as ColumnExpressionArgument
+from ._typing import NotNullable as NotNullable
+from ._typing import Nullable as Nullable
+from .base import Executable as Executable
+from .compiler import COLLECT_CARTESIAN_PRODUCTS as COLLECT_CARTESIAN_PRODUCTS
+from .compiler import FROM_LINTING as FROM_LINTING
+from .compiler import NO_LINTING as NO_LINTING
+from .compiler import WARN_LINTING as WARN_LINTING
+from .ddl import BaseDDLElement as BaseDDLElement
+from .ddl import DDL as DDL
+from .ddl import DDLElement as DDLElement
+from .ddl import ExecutableDDLElement as ExecutableDDLElement
+from .expression import Alias as Alias
+from .expression import alias as alias
+from .expression import all_ as all_
+from .expression import and_ as and_
+from .expression import any_ as any_
+from .expression import asc as asc
+from .expression import between as between
+from .expression import bindparam as bindparam
+from .expression import case as case
+from .expression import cast as cast
+from .expression import ClauseElement as ClauseElement
+from .expression import collate as collate
+from .expression import column as column
+from .expression import ColumnCollection as ColumnCollection
+from .expression import ColumnElement as ColumnElement
+from .expression import CompoundSelect as CompoundSelect
+from .expression import cte as cte
+from .expression import Delete as Delete
+from .expression import delete as delete
+from .expression import desc as desc
+from .expression import distinct as distinct
+from .expression import except_ as except_
+from .expression import except_all as except_all
+from .expression import exists as exists
+from .expression import extract as extract
+from .expressio
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/_dml_constructors.py
+
+```python
+# sql/_dml_constructors.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
+from .dml import Delete
+from .dml import Insert
+from .dml import Update
+
+if TYPE_CHECKING:
+    from ._typing import _DMLTableArgument
+
+
+def insert(table: _DMLTableArgument) -> Insert:
+    """Construct an :class:`_expression.Insert` object.
+
+    E.g.::
+
+        from sqlalchemy import insert
+
+        stmt = insert(user_table).values(name="username", fullname="Full Username")
+
+    Similar functionality is available via the
+    :meth:`_expression.TableClause.insert` method on
+    :class:`_schema.Table`.
+
+    .. seealso::
+
+        :ref:`tutorial_core_insert` - in the :ref:`unified_tutorial`
+
+
+    :param table: :class:`_expression.TableClause`
+     which is the subject of the
+     insert.
+
+    :param values: collection of values to be inserted; see
+     :meth:`_expression.Insert.values`
+     for a description of allowed formats here.
+     Can be omitted entirely; a :class:`_expression.Insert` construct
+     will also dynamically render the VALUES clause at execution time
+     based on the parameters passed to :meth:`_engine.Connection.execute`.
+
+    :param inline: if True, no attempt will be made to retrieve the
+     SQL-generated default values to be provided within the statement;
+     in particular,
+     this allows SQL expressions to be rendered 'inline' within the
+     statement without the need to pre-execute them beforehand; for
+     backends that support "returning", this turns off the "implicit
+     returning" feature for the statement.
+
+    If both :paramref:`_expression.insert.values` and compile-time bind
+    parameters are present, the compile-time bind parameters override the
+    information specified within :paramref:`_expression.insert.values` on 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/_elements_constructors.py
+
+```python
+# sql/_elements_constructors.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import Callable
+from typing import Mapping
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple as typing_Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import coercions
+from . import roles
+from .base import _NoArg
+from .coercions import _document_text_coercion
+from .elements import BindParameter
+from .elements import BooleanClauseList
+from .elements import Case
+from .elements import Cast
+from .elements import CollationClause
+from .elements import CollectionAggregate
+from .elements import ColumnClause
+from .elements import ColumnElement
+from .elements import Extract
+from .elements import False_
+from .elements import FunctionFilter
+from .elements import Label
+from .elements import Null
+from .elements import Over
+from .elements import TextClause
+from .elements import True_
+from .elements import TryCast
+from .elements import Tuple
+from .elements import TypeCoerce
+from .elements import UnaryExpression
+from .elements import WithinGroup
+from .functions import FunctionElement
+from ..util.typing import Literal
+
+if typing.TYPE_CHECKING:
+    from ._typing import _ByArgument
+    from ._typing import _ColumnExpressionArgument
+    from ._typing import _ColumnExpressionOrLiteralArgument
+    from ._typing import _ColumnExpressionOrStrLabelArgument
+    from ._typing import _TypeEngineArgument
+    from .elements import BinaryExpression
+    from .selectable import FromClause
+    from .type_api import TypeEngine
+
+_T = TypeVar("_T")
+
+
+def all_(expr: _ColumnExpressionArgument[_T]) -> CollectionAggregate[bool]:
+    """Produce an ALL expression.
+
+    Fo
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/_orm_types.py
+
+```python
+# sql/_orm_types.py
+# Copyright (C) 2022-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""ORM types that need to present specifically for **documentation only** of
+the Executable.execution_options() method, which includes options that
+are meaningful to the ORM.
+
+"""
+
+
+from __future__ import annotations
+
+from ..util.typing import Literal
+
+SynchronizeSessionArgument = Literal[False, "auto", "evaluate", "fetch"]
+DMLStrategyArgument = Literal["bulk", "raw", "orm", "auto"]
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/_py_util.py
+
+```python
+# sql/_py_util.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import Dict
+from typing import Tuple
+from typing import Union
+
+from ..util.typing import Literal
+
+if typing.TYPE_CHECKING:
+    from .cache_key import CacheConst
+
+
+class prefix_anon_map(Dict[str, str]):
+    """A map that creates new keys for missing key access.
+
+    Considers keys of the form "<ident> <name>" to produce
+    new symbols "<name>_<index>", where "index" is an incrementing integer
+    corresponding to <name>.
+
+    Inlines the approach taken by :class:`sqlalchemy.util.PopulateDict` which
+    is otherwise usually used for this type of operation.
+
+    """
+
+    def __missing__(self, key: str) -> str:
+        (ident, derived) = key.split(" ", 1)
+        anonymous_counter = self.get(derived, 1)
+        self[derived] = anonymous_counter + 1  # type: ignore
+        value = f"{derived}_{anonymous_counter}"
+        self[key] = value
+        return value
+
+
+class cache_anon_map(
+    Dict[Union[int, "Literal[CacheConst.NO_CACHE]"], Union[Literal[True], str]]
+):
+    """A map that creates new keys for missing key access.
+
+    Produces an incrementing sequence given a series of unique keys.
+
+    This is similar to the compiler prefix_anon_map class although simpler.
+
+    Inlines the approach taken by :class:`sqlalchemy.util.PopulateDict` which
+    is otherwise usually used for this type of operation.
+
+    """
+
+    _index = 0
+
+    def get_anon(self, object_: Any) -> Tuple[str, bool]:
+        idself = id(object_)
+        if idself in self:
+            s_val = self[idself]
+            assert s_val is not True
+            return s_val, True
+        else:
+            # inline of __missing__
+            self[idself] = id_ = str(self._index)
+            self._i
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/_selectable_constructors.py
+
+```python
+# sql/_selectable_constructors.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Optional
+from typing import overload
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import Union
+
+from . import coercions
+from . import roles
+from ._typing import _ColumnsClauseArgument
+from ._typing import _no_kw
+from .elements import ColumnClause
+from .selectable import Alias
+from .selectable import CompoundSelect
+from .selectable import Exists
+from .selectable import FromClause
+from .selectable import Join
+from .selectable import Lateral
+from .selectable import LateralFromClause
+from .selectable import NamedFromClause
+from .selectable import Select
+from .selectable import TableClause
+from .selectable import TableSample
+from .selectable import Values
+
+if TYPE_CHECKING:
+    from ._typing import _FromClauseArgument
+    from ._typing import _OnClauseArgument
+    from ._typing import _OnlyColumnArgument
+    from ._typing import _SelectStatementForCompoundArgument
+    from ._typing import _T0
+    from ._typing import _T1
+    from ._typing import _T2
+    from ._typing import _T3
+    from ._typing import _T4
+    from ._typing import _T5
+    from ._typing import _T6
+    from ._typing import _T7
+    from ._typing import _T8
+    from ._typing import _T9
+    from ._typing import _TP
+    from ._typing import _TypedColumnClauseArgument as _TCCA
+    from .functions import Function
+    from .selectable import CTE
+    from .selectable import HasCTE
+    from .selectable import ScalarSelect
+    from .selectable import SelectBase
+
+
+def alias(
+    selectable: FromClause, name: Optional[str] = None, flat: bool = False
+) -> NamedFromClause:
+    """Return a named alias of the given :class:`.FromClause`.
+
+    For :class:`.Table` and :class:
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/_typing.py
+
+```python
+# sql/_typing.py
+# Copyright (C) 2022-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import operator
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import Mapping
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import roles
+from .. import exc
+from .. import util
+from ..inspection import Inspectable
+from ..util.typing import Literal
+from ..util.typing import Protocol
+from ..util.typing import TypeAlias
+
+if TYPE_CHECKING:
+    from datetime import date
+    from datetime import datetime
+    from datetime import time
+    from datetime import timedelta
+    from decimal import Decimal
+    from uuid import UUID
+
+    from .base import Executable
+    from .compiler import Compiled
+    from .compiler import DDLCompiler
+    from .compiler import SQLCompiler
+    from .dml import UpdateBase
+    from .dml import ValuesBase
+    from .elements import ClauseElement
+    from .elements import ColumnElement
+    from .elements import KeyedColumnElement
+    from .elements import quoted_name
+    from .elements import SQLCoreOperations
+    from .elements import TextClause
+    from .lambdas import LambdaElement
+    from .roles import FromClauseRole
+    from .schema import Column
+    from .selectable import Alias
+    from .selectable import CompoundSelect
+    from .selectable import CTE
+    from .selectable import FromClause
+    from .selectable import Join
+    from .selectable import NamedFromClause
+    from .selectable import ReturnsRows
+    from .selectable import Select
+    from .selectable import Selectable
+    fr
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/annotation.py
+
+```python
+# sql/annotation.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""The :class:`.Annotated` class and related routines; creates hash-equivalent
+copies of SQL constructs which contain context-specific markers and
+associations.
+
+Note that the :class:`.Annotated` concept as implemented in this module is not
+related in any way to the pep-593 concept of "Annotated".
+
+
+"""
+
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import FrozenSet
+from typing import Mapping
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+
+from . import operators
+from .cache_key import HasCacheKey
+from .visitors import anon_map
+from .visitors import ExternallyTraversible
+from .visitors import InternalTraversal
+from .. import util
+from ..util.typing import Literal
+from ..util.typing import Self
+
+if TYPE_CHECKING:
+    from .base import _EntityNamespace
+    from .visitors import _TraverseInternalsType
+
+_AnnotationDict = Mapping[str, Any]
+
+EMPTY_ANNOTATIONS: util.immutabledict[str, Any] = util.EMPTY_DICT
+
+
+class SupportsAnnotations(ExternallyTraversible):
+    __slots__ = ()
+
+    _annotations: util.immutabledict[str, Any] = EMPTY_ANNOTATIONS
+
+    proxy_set: util.generic_fn_descriptor[FrozenSet[Any]]
+
+    _is_immutable: bool
+
+    def _annotate(self, values: _AnnotationDict) -> Self:
+        raise NotImplementedError()
+
+    @overload
+    def _deannotate(
+        self,
+        values: Literal[None] = ...,
+        clone: bool = ...,
+    ) -> Self: ...
+
+    @overload
+    def _deannotate(
+        self,
+        values: Sequence[str] = ...,
+        clone: bool = ...,
+    ) -> SupportsAnno
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/base.py
+
+```python
+# sql/base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Foundational utilities common to many sql modules."""
+
+
+from __future__ import annotations
+
+import collections
+from enum import Enum
+import itertools
+from itertools import zip_longest
+import operator
+import re
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import FrozenSet
+from typing import Generator
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import MutableMapping
+from typing import NamedTuple
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import roles
+from . import visitors
+from .cache_key import HasCacheKey  # noqa
+from .cache_key import MemoizedHasCacheKey  # noqa
+from .traversals import HasCopyInternals  # noqa
+from .visitors import ClauseVisitor
+from .visitors import ExtendedInternalTraversal
+from .visitors import ExternallyTraversible
+from .visitors import InternalTraversal
+from .. import event
+from .. import exc
+from .. import util
+from ..util import HasMemoized as HasMemoized
+from ..util import hybridmethod
+from ..util import typing as compat_typing
+from ..util import warn_deprecated
+from ..util.typing import Final
+from ..util.typing import Protocol
+from ..util.typing import Self
+from ..util.typing import TypeGuard
+
+if TYPE_CHECKING:
+    from . import coercions
+    from . import elements
+    from . import type_api
+    from ._orm_types import DMLStrategyArgument
+    from ._orm_types import 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/cache_key.py
+
+```python
+# sql/cache_key.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+import enum
+from itertools import zip_longest
+import typing
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import MutableMapping
+from typing import NamedTuple
+from typing import Optional
+from typing import Sequence
+from typing import Tuple
+from typing import Union
+
+from .visitors import anon_map
+from .visitors import HasTraversalDispatch
+from .visitors import HasTraverseInternals
+from .visitors import InternalTraversal
+from .visitors import prefix_anon_map
+from .. import util
+from ..inspection import inspect
+from ..util import HasMemoized
+from ..util.typing import Literal
+from ..util.typing import Protocol
+
+if typing.TYPE_CHECKING:
+    from .elements import BindParameter
+    from .elements import ClauseElement
+    from .elements import ColumnElement
+    from .visitors import _TraverseInternalsType
+    from ..engine.interfaces import _CoreSingleExecuteParams
+
+
+class _CacheKeyTraversalDispatchType(Protocol):
+    def __call__(
+        s, self: HasCacheKey, visitor: _CacheKeyTraversal
+    ) -> _CacheKeyTraversalDispatchTypeReturn: ...
+
+
+class CacheConst(enum.Enum):
+    NO_CACHE = 0
+
+
+NO_CACHE = CacheConst.NO_CACHE
+
+
+_CacheKeyTraversalType = Union[
+    "_TraverseInternalsType", Literal[CacheConst.NO_CACHE], Literal[None]
+]
+
+
+class CacheTraverseTarget(enum.Enum):
+    CACHE_IN_PLACE = 0
+    CALL_GEN_CACHE_KEY = 1
+    STATIC_CACHE_KEY = 2
+    PROPAGATE_ATTRS = 3
+    ANON_NAME = 4
+
+
+(
+    CACHE_IN_PLACE,
+    CALL_GEN_CACHE_KEY,
+    STATIC_CACHE_KEY,
+    PROPAGATE_ATTRS,
+    ANON_NAME,
+) = tuple(CacheTraverseTarget)
+
+_CacheKeyTraversalDispatchTypeReturn = Sequence[
+    Tuple[
+        str,
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/coercions.py
+
+```python
+# sql/coercions.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+from __future__ import annotations
+
+import collections.abc as collections_abc
+import numbers
+import re
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import roles
+from . import visitors
+from ._typing import is_from_clause
+from .base import ExecutableOption
+from .base import Options
+from .cache_key import HasCacheKey
+from .visitors import Visitable
+from .. import exc
+from .. import inspection
+from .. import util
+from ..util.typing import Literal
+
+if typing.TYPE_CHECKING:
+    # elements lambdas schema selectable are set by __init__
+    from . import elements
+    from . import lambdas
+    from . import schema
+    from . import selectable
+    from ._typing import _ColumnExpressionArgument
+    from ._typing import _ColumnsClauseArgument
+    from ._typing import _DDLColumnArgument
+    from ._typing import _DMLTableArgument
+    from ._typing import _FromClauseArgument
+    from ._typing import _OnlyColumnArgument
+    from .dml import _DMLTableElement
+    from .elements import BindParameter
+    from .elements import ClauseElement
+    from .elements import ColumnClause
+    from .elements import ColumnElement
+    from .elements import NamedColumn
+    from .elements import SQLCoreOperations
+    from .elements import TextClause
+    from .schema import Column
+    from .selectable import _ColumnsClauseElemen
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py
+
+```python
+# sql/compiler.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Base SQL and DDL compiler implementations.
+
+Classes provided include:
+
+:class:`.compiler.SQLCompiler` - renders SQL
+strings
+
+:class:`.compiler.DDLCompiler` - renders DDL
+(data definition language) strings
+
+:class:`.compiler.GenericTypeCompiler` - renders
+type specification strings.
+
+To generate user-defined SQL strings, see
+:doc:`/ext/compiler`.
+
+"""
+from __future__ import annotations
+
+import collections
+import collections.abc as collections_abc
+import contextlib
+from enum import IntEnum
+import functools
+import itertools
+import operator
+import re
+from time import perf_counter
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import ClassVar
+from typing import Dict
+from typing import FrozenSet
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import MutableMapping
+from typing import NamedTuple
+from typing import NoReturn
+from typing import Optional
+from typing import Pattern
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import Union
+
+from . import base
+from . import coercions
+from . import crud
+from . import elements
+from . import functions
+from . import operators
+from . import roles
+from . import schema
+from . import selectable
+from . import sqltypes
+from . import util as sql_util
+from ._typing import is_column_element
+from ._typing import is_dml
+from .base import _de_clone
+from .base import _from_objects
+from .base import _NONE_NAME
+from .base import _SentinelDefaultCharacterization
+from .base import NO_ARG
+from .elements import quoted_name
+from .sqltypes import Tuple
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/crud.py
+
+```python
+# sql/crud.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Functions used by compiler.py to determine the parameters rendered
+within INSERT and UPDATE statements.
+
+"""
+from __future__ import annotations
+
+import functools
+import operator
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Iterable
+from typing import List
+from typing import MutableMapping
+from typing import NamedTuple
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import Union
+
+from . import coercions
+from . import dml
+from . import elements
+from . import roles
+from .base import _DefaultDescriptionTuple
+from .dml import isinsert as _compile_state_isinsert
+from .elements import ColumnClause
+from .schema import default_is_clause_element
+from .schema import default_is_sequence
+from .selectable import Select
+from .selectable import TableClause
+from .. import exc
+from .. import util
+from ..util.typing import Literal
+
+if TYPE_CHECKING:
+    from .compiler import _BindNameForColProtocol
+    from .compiler import SQLCompiler
+    from .dml import _DMLColumnElement
+    from .dml import DMLState
+    from .dml import ValuesBase
+    from .elements import ColumnElement
+    from .elements import KeyedColumnElement
+    from .schema import _SQLExprDefault
+    from .schema import Column
+
+REQUIRED = util.symbol(
+    "REQUIRED",
+    """
+Placeholder for the value within a :class:`.BindParameter`
+which is required to be present when the statement is passed
+to :meth:`_engine.Connection.execute`.
+
+This symbol is typically used when a :func:`_expression.insert`
+or :func:`_expression.update` statement is compiled w
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py
+
+```python
+# sql/ddl.py
+# Copyright (C) 2009-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""
+Provides the hierarchy of DDL-defining schema items as well as routines
+to invoke them for a create/drop call.
+
+"""
+from __future__ import annotations
+
+import contextlib
+import typing
+from typing import Any
+from typing import Callable
+from typing import Generic
+from typing import Iterable
+from typing import List
+from typing import Optional
+from typing import Sequence as typing_Sequence
+from typing import Tuple
+from typing import TypeVar
+from typing import Union
+
+from . import roles
+from .base import _generative
+from .base import Executable
+from .base import SchemaVisitor
+from .elements import ClauseElement
+from .. import exc
+from .. import util
+from ..util import topological
+from ..util.typing import Protocol
+from ..util.typing import Self
+
+if typing.TYPE_CHECKING:
+    from .compiler import Compiled
+    from .compiler import DDLCompiler
+    from .elements import BindParameter
+    from .schema import Column
+    from .schema import Constraint
+    from .schema import ForeignKeyConstraint
+    from .schema import Index
+    from .schema import SchemaItem
+    from .schema import Sequence as Sequence  # noqa: F401
+    from .schema import Table
+    from .selectable import TableClause
+    from ..engine.base import Connection
+    from ..engine.interfaces import CacheStats
+    from ..engine.interfaces import CompiledCacheType
+    from ..engine.interfaces import Dialect
+    from ..engine.interfaces import SchemaTranslateMapType
+
+_SI = TypeVar("_SI", bound=Union["SchemaItem", str])
+
+
+class BaseDDLElement(ClauseElement):
+    """The root of DDL constructs, including those that are sub-elements
+    within the "create table" and other processes.
+
+    .. versionadded:: 2.0
+
+    """
+
+    _hierarchy_supports
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/default_comparator.py
+
+```python
+# sql/default_comparator.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Default implementation of SQL comparison operations."""
+
+from __future__ import annotations
+
+import typing
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import NoReturn
+from typing import Optional
+from typing import Tuple
+from typing import Type
+from typing import Union
+
+from . import coercions
+from . import operators
+from . import roles
+from . import type_api
+from .elements import and_
+from .elements import BinaryExpression
+from .elements import ClauseElement
+from .elements import CollationClause
+from .elements import CollectionAggregate
+from .elements import ExpressionClauseList
+from .elements import False_
+from .elements import Null
+from .elements import OperatorExpression
+from .elements import or_
+from .elements import True_
+from .elements import UnaryExpression
+from .operators import OperatorType
+from .. import exc
+from .. import util
+
+_T = typing.TypeVar("_T", bound=Any)
+
+if typing.TYPE_CHECKING:
+    from .elements import ColumnElement
+    from .operators import custom_op
+    from .type_api import TypeEngine
+
+
+def _boolean_compare(
+    expr: ColumnElement[Any],
+    op: OperatorType,
+    obj: Any,
+    *,
+    negate_op: Optional[OperatorType] = None,
+    reverse: bool = False,
+    _python_is_types: Tuple[Type[Any], ...] = (type(None), bool),
+    result_type: Optional[TypeEngine[bool]] = None,
+    **kwargs: Any,
+) -> OperatorExpression[bool]:
+    if result_type is None:
+        result_type = type_api.BOOLEANTYPE
+
+    if isinstance(obj, _python_is_types + (Null, True_, False_)):
+        # allow x ==/!= True/False to be treated as a literal.
+        # this comes out to "== / != true/false" or "1/0" if those
+        # constants aren't supported and works on all platforms
+        i
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/dml.py
+
+```python
+# sql/dml.py
+# Copyright (C) 2009-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+"""
+Provide :class:`_expression.Insert`, :class:`_expression.Update` and
+:class:`_expression.Delete`.
+
+"""
+from __future__ import annotations
+
+import collections.abc as collections_abc
+import operator
+from typing import Any
+from typing import cast
+from typing import Dict
+from typing import Iterable
+from typing import List
+from typing import MutableMapping
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import coercions
+from . import roles
+from . import util as sql_util
+from ._typing import _TP
+from ._typing import _unexpected_kw
+from ._typing import is_column_element
+from ._typing import is_named_from_clause
+from .base import _entity_namespace_key
+from .base import _exclusive_against
+from .base import _from_objects
+from .base import _generative
+from .base import _select_iterables
+from .base import ColumnCollection
+from .base import ColumnSet
+from .base import CompileState
+from .base import DialectKWArgs
+from .base import Executable
+from .base import Generative
+from .base import HasCompileState
+from .elements import BooleanClauseList
+from .elements import ClauseElement
+from .elements import ColumnClause
+from .elements import ColumnElement
+from .elements import Null
+from .selectable import Alias
+from .selectable import ExecutableReturnsRows
+from .selectable import FromClause
+from .selectable import HasCTE
+from .selectable import HasPrefixes
+from .selectable import Join
+from .selectable import SelectLabelStyle
+from .selectable import TableClause
+from .selectable import TypedReturnsRows
+from .sqltypes import NullType
+f
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/elements.py
+
+```python
+# sql/elements.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Core SQL expression elements, including :class:`_expression.ClauseElement`,
+:class:`_expression.ColumnElement`, and derived classes.
+
+"""
+
+from __future__ import annotations
+
+from decimal import Decimal
+from enum import Enum
+import itertools
+import operator
+import re
+import typing
+from typing import AbstractSet
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import FrozenSet
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Set
+from typing import Tuple as typing_Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import coercions
+from . import operators
+from . import roles
+from . import traversals
+from . import type_api
+from ._typing import has_schema_attr
+from ._typing import is_named_from_clause
+from ._typing import is_quoted_name
+from ._typing import is_tuple_type
+from .annotation import Annotated
+from .annotation import SupportsWrappingAnnotations
+from .base import _clone
+from .base import _expand_cloned
+from .base import _generative
+from .base import _NoArg
+from .base import Executable
+from .base import Generative
+from .base import HasMemoized
+from .base import Immutable
+from .base import NO_ARG
+from .base import SingletonConstant
+from .cache_key import MemoizedHasCacheKey
+from .cache_key import NO_CACHE
+from .coercions import _document_text_coercion  # noqa
+from .operators import ColumnOperators
+from .traversals import HasCopyInternals
+from .visitors import clone
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/events.py
+
+```python
+# sql/events.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+from __future__ import annotations
+
+from typing import Any
+from typing import TYPE_CHECKING
+
+from .base import SchemaEventTarget
+from .. import event
+
+if TYPE_CHECKING:
+    from .schema import Column
+    from .schema import Constraint
+    from .schema import SchemaItem
+    from .schema import Table
+    from ..engine.base import Connection
+    from ..engine.interfaces import ReflectedColumn
+    from ..engine.reflection import Inspector
+
+
+class DDLEvents(event.Events[SchemaEventTarget]):
+    """
+    Define event listeners for schema objects,
+    that is, :class:`.SchemaItem` and other :class:`.SchemaEventTarget`
+    subclasses, including :class:`_schema.MetaData`, :class:`_schema.Table`,
+    :class:`_schema.Column`, etc.
+
+    **Create / Drop Events**
+
+    Events emitted when CREATE and DROP commands are emitted to the database.
+    The event hooks in this category include :meth:`.DDLEvents.before_create`,
+    :meth:`.DDLEvents.after_create`, :meth:`.DDLEvents.before_drop`, and
+    :meth:`.DDLEvents.after_drop`.
+
+    These events are emitted when using schema-level methods such as
+    :meth:`.MetaData.create_all` and :meth:`.MetaData.drop_all`. Per-object
+    create/drop methods such as :meth:`.Table.create`, :meth:`.Table.drop`,
+    :meth:`.Index.create` are also included, as well as dialect-specific
+    methods such as :meth:`_postgresql.ENUM.create`.
+
+    .. versionadded:: 2.0 :class:`.DDLEvents` event hooks now take place
+       for non-table objects including constraints, indexes, and
+       dialect-specific schema types.
+
+    Event hooks may be attached directly to a :class:`_schema.Table` object or
+    to a :class:`_schema.MetaData` collection, as well as to any
+    :class:`.SchemaItem` class or object that can be individually crea
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/expression.py
+
+```python
+# sql/expression.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Defines the public namespace for SQL expression constructs."""
+
+
+from __future__ import annotations
+
+from ._dml_constructors import delete as delete
+from ._dml_constructors import insert as insert
+from ._dml_constructors import update as update
+from ._elements_constructors import all_ as all_
+from ._elements_constructors import and_ as and_
+from ._elements_constructors import any_ as any_
+from ._elements_constructors import asc as asc
+from ._elements_constructors import between as between
+from ._elements_constructors import bindparam as bindparam
+from ._elements_constructors import bitwise_not as bitwise_not
+from ._elements_constructors import case as case
+from ._elements_constructors import cast as cast
+from ._elements_constructors import collate as collate
+from ._elements_constructors import column as column
+from ._elements_constructors import desc as desc
+from ._elements_constructors import distinct as distinct
+from ._elements_constructors import extract as extract
+from ._elements_constructors import false as false
+from ._elements_constructors import funcfilter as funcfilter
+from ._elements_constructors import label as label
+from ._elements_constructors import not_ as not_
+from ._elements_constructors import null as null
+from ._elements_constructors import nulls_first as nulls_first
+from ._elements_constructors import nulls_last as nulls_last
+from ._elements_constructors import or_ as or_
+from ._elements_constructors import outparam as outparam
+from ._elements_constructors import over as over
+from ._elements_constructors import text as text
+from ._elements_constructors import true as true
+from ._elements_constructors import try_cast as try_cast
+from ._elements_constructors import tuple_ as tuple_
+from ._elements_constructors 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/functions.py
+
+```python
+# sql/functions.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""SQL function API, factories, and built-in functions."""
+
+from __future__ import annotations
+
+import datetime
+import decimal
+from typing import Any
+from typing import cast
+from typing import Dict
+from typing import List
+from typing import Mapping
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import annotation
+from . import coercions
+from . import operators
+from . import roles
+from . import schema
+from . import sqltypes
+from . import type_api
+from . import util as sqlutil
+from ._typing import is_table_value_type
+from .base import _entity_namespace
+from .base import ColumnCollection
+from .base import Executable
+from .base import Generative
+from .base import HasMemoized
+from .elements import _type_from_args
+from .elements import BinaryExpression
+from .elements import BindParameter
+from .elements import Cast
+from .elements import ClauseList
+from .elements import ColumnElement
+from .elements import Extract
+from .elements import FunctionFilter
+from .elements import Grouping
+from .elements import literal_column
+from .elements import NamedColumn
+from .elements import Over
+from .elements import WithinGroup
+from .selectable import FromClause
+from .selectable import Select
+from .selectable import TableValuedAlias
+from .sqltypes import TableValueType
+from .type_api import TypeEngine
+from .visitors import InternalTraversal
+from .. import util
+
+
+if TYPE_CHECKING:
+    from ._typing import _ByArgument
+    from ._typing import _ColumnExpressionArgument
+    from ._typing import _ColumnExpressionOrLiteralArgument
+    from ._typing import _ColumnExpressionOrStrLabelArgument
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/lambdas.py
+
+```python
+# sql/lambdas.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+from __future__ import annotations
+
+import collections.abc as collections_abc
+import inspect
+import itertools
+import operator
+import threading
+import types
+from types import CodeType
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import List
+from typing import MutableMapping
+from typing import Optional
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+import weakref
+
+from . import cache_key as _cache_key
+from . import coercions
+from . import elements
+from . import roles
+from . import schema
+from . import visitors
+from .base import _clone
+from .base import Executable
+from .base import Options
+from .cache_key import CacheConst
+from .operators import ColumnOperators
+from .. import exc
+from .. import inspection
+from .. import util
+from ..util.typing import Literal
+
+
+if TYPE_CHECKING:
+    from .elements import BindParameter
+    from .elements import ClauseElement
+    from .roles import SQLRole
+    from .visitors import _CloneCallableType
+
+_LambdaCacheType = MutableMapping[
+    Tuple[Any, ...], Union["NonAnalyzedFunction", "AnalyzedFunction"]
+]
+_BoundParameterGetter = Callable[..., Any]
+
+_closure_per_cache_key: _LambdaCacheType = util.LRUCache(1000)
+
+
+_LambdaType = Callable[[], Any]
+
+_AnyLambdaType = Callable[..., Any]
+
+_StmtLambdaType = Callable[[], Any]
+
+_E = TypeVar("_E", bound=Executable)
+_StmtLambdaElementType = Callable[[_E], Any]
+
+
+class LambdaOptions(Options):
+    enable_tracking = True
+    track_closure_variables = True
+    track_on: Optional[object] = None
+    global_track_bound_values = True
+    track_bound_values = True
+    lambda_cache: Optional[_LambdaCacheT
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/naming.py
+
+```python
+# sql/naming.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Establish constraint and index naming conventions."""
+
+from __future__ import annotations
+
+import re
+
+from . import events  # noqa
+from .base import _NONE_NAME
+from .elements import conv as conv
+from .schema import CheckConstraint
+from .schema import Column
+from .schema import Constraint
+from .schema import ForeignKeyConstraint
+from .schema import Index
+from .schema import PrimaryKeyConstraint
+from .schema import Table
+from .schema import UniqueConstraint
+from .. import event
+from .. import exc
+
+
+class ConventionDict:
+    def __init__(self, const, table, convention):
+        self.const = const
+        self._is_fk = isinstance(const, ForeignKeyConstraint)
+        self.table = table
+        self.convention = convention
+        self._const_name = const.name
+
+    def _key_table_name(self):
+        return self.table.name
+
+    def _column_X(self, idx, attrname):
+        if self._is_fk:
+            try:
+                fk = self.const.elements[idx]
+            except IndexError:
+                return ""
+            else:
+                return getattr(fk.parent, attrname)
+        else:
+            cols = list(self.const.columns)
+            try:
+                col = cols[idx]
+            except IndexError:
+                return ""
+            else:
+                return getattr(col, attrname)
+
+    def _key_constraint_name(self):
+        if self._const_name in (None, _NONE_NAME):
+            raise exc.InvalidRequestError(
+                "Naming convention including "
+                "%(constraint_name)s token requires that "
+                "constraint is explicitly named."
+            )
+        if not isinstance(self._const_name, conv):
+            self.const.name = None
+        return s
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/operators.py
+
+```python
+# sql/operators.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Defines operators used in SQL expressions."""
+
+from __future__ import annotations
+
+from enum import IntEnum
+from operator import add as _uncast_add
+from operator import and_ as _uncast_and_
+from operator import contains as _uncast_contains
+from operator import eq as _uncast_eq
+from operator import floordiv as _uncast_floordiv
+from operator import ge as _uncast_ge
+from operator import getitem as _uncast_getitem
+from operator import gt as _uncast_gt
+from operator import inv as _uncast_inv
+from operator import le as _uncast_le
+from operator import lshift as _uncast_lshift
+from operator import lt as _uncast_lt
+from operator import mod as _uncast_mod
+from operator import mul as _uncast_mul
+from operator import ne as _uncast_ne
+from operator import neg as _uncast_neg
+from operator import or_ as _uncast_or_
+from operator import rshift as _uncast_rshift
+from operator import sub as _uncast_sub
+from operator import truediv as _uncast_truediv
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Generic
+from typing import Optional
+from typing import overload
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .. import exc
+from .. import util
+from ..util.typing import Literal
+from ..util.typing import Protocol
+
+if typing.TYPE_CHECKING:
+    from ._typing import ColumnExpressionArgument
+    from .cache_key import CacheConst
+    from .elements import ColumnElement
+    from .type_api import TypeEngine
+
+_T = TypeVar("_T", bound=Any)
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/roles.py
+
+```python
+# sql/roles.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from __future__ import annotations
+
+from typing import Any
+from typing import Generic
+from typing import Optional
+from typing import TYPE_CHECKING
+from typing import TypeVar
+
+from .. import util
+from ..util.typing import Literal
+
+if TYPE_CHECKING:
+    from ._typing import _PropagateAttrsType
+    from .elements import Label
+    from .selectable import _SelectIterable
+    from .selectable import FromClause
+    from .selectable import Subquery
+
+_T = TypeVar("_T", bound=Any)
+_T_co = TypeVar("_T_co", bound=Any, covariant=True)
+
+
+class SQLRole:
+    """Define a "role" within a SQL statement structure.
+
+    Classes within SQL Core participate within SQLRole hierarchies in order
+    to more accurately indicate where they may be used within SQL statements
+    of all types.
+
+    .. versionadded:: 1.4
+
+    """
+
+    __slots__ = ()
+    allows_lambda = False
+    uses_inspection = False
+
+
+class UsesInspection:
+    __slots__ = ()
+    _post_inspect: Literal[None] = None
+    uses_inspection = True
+
+
+class AllowsLambdaRole:
+    __slots__ = ()
+    allows_lambda = True
+
+
+class HasCacheKeyRole(SQLRole):
+    __slots__ = ()
+    _role_name = "Cacheable Core or ORM object"
+
+
+class ExecutableOptionRole(SQLRole):
+    __slots__ = ()
+    _role_name = "ExecutionOption Core or ORM object"
+
+
+class LiteralValueRole(SQLRole):
+    __slots__ = ()
+    _role_name = "Literal Python value"
+
+
+class ColumnArgumentRole(SQLRole):
+    __slots__ = ()
+    _role_name = "Column expression"
+
+
+class ColumnArgumentOrKeyRole(ColumnArgumentRole):
+    __slots__ = ()
+    _role_name = "Column expression or string key"
+
+
+class StrAsPlainColumnRole(ColumnArgumentRole):
+    __slots__ = ()
+    _role_name = "Column expression or string key"
+
+
+class ColumnListRole(SQLRole):
+    """Elements suitable fo
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/schema.py
+
+```python
+# sql/schema.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""The schema module provides the building blocks for database metadata.
+
+Each element within this module describes a database entity which can be
+created and dropped, or is otherwise part of such an entity.  Examples include
+tables, columns, sequences, and indexes.
+
+All entities are subclasses of :class:`~sqlalchemy.schema.SchemaItem`, and as
+defined in this module they are intended to be agnostic of any vendor-specific
+constructs.
+
+A collection of entities are grouped into a unit called
+:class:`~sqlalchemy.schema.MetaData`. MetaData serves as a logical grouping of
+schema elements, and can also be associated with an actual database connection
+such that operations involving the contained elements can contact the database
+as needed.
+
+Two of the elements here also build upon their "syntactic" counterparts, which
+are defined in :class:`~sqlalchemy.sql.expression.`, specifically
+:class:`~sqlalchemy.schema.Table` and :class:`~sqlalchemy.schema.Column`.
+Since these objects are part of the SQL expression language, they are usable
+as components in SQL expressions.
+
+"""
+from __future__ import annotations
+
+from abc import ABC
+import collections
+from enum import Enum
+import operator
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Collection
+from typing import Dict
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Sequence as _typing_Sequence
+from typing import Set
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import coercions
+from . import ddl
+from . import ro
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py
+
+```python
+# sql/selectable.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""The :class:`_expression.FromClause` class of SQL expression elements,
+representing
+SQL tables and derived rowsets.
+
+"""
+
+from __future__ import annotations
+
+import collections
+from enum import Enum
+import itertools
+from typing import AbstractSet
+from typing import Any as TODO_Any
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import NamedTuple
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import cache_key
+from . import coercions
+from . import operators
+from . import roles
+from . import traversals
+from . import type_api
+from . import visitors
+from ._typing import _ColumnsClauseArgument
+from ._typing import _no_kw
+from ._typing import _T
+from ._typing import _TP
+from ._typing import is_column_element
+from ._typing import is_select_statement
+from ._typing import is_subquery
+from ._typing import is_table
+from ._typing import is_text_clause
+from .annotation import Annotated
+from .annotation import SupportsCloneAnnotations
+from .base import _clone
+from .base import _cloned_difference
+from .base import _cloned_intersection
+from .base import _entity_namespace_key
+from .base import _EntityNamespace
+from .base import _expand_cloned
+from .base import _from_objects
+from .base import _generative
+from .base import _never_select_column
+from .base import _NoArg
+from .base import _select_iterables
+from .base import CacheableOptions
+from .base import C
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/sqltypes.py
+
+```python
+# sql/sqltypes.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""SQL specific types."""
+from __future__ import annotations
+
+import collections.abc as collections_abc
+import datetime as dt
+import decimal
+import enum
+import json
+import pickle
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Iterable
+from typing import List
+from typing import Mapping
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+from uuid import UUID as _python_UUID
+
+from . import coercions
+from . import elements
+from . import operators
+from . import roles
+from . import type_api
+from .base import _NONE_NAME
+from .base import NO_ARG
+from .base import SchemaEventTarget
+from .cache_key import HasCacheKey
+from .elements import quoted_name
+from .elements import Slice
+from .elements import TypeCoerce as type_coerce  # noqa
+from .type_api import Emulated
+from .type_api import NativeForEmulated  # noqa
+from .type_api import to_instance as to_instance
+from .type_api import TypeDecorator as TypeDecorator
+from .type_api import TypeEngine as TypeEngine
+from .type_api import TypeEngineMixin
+from .type_api import Variant  # noqa
+from .visitors import InternalTraversal
+from .. import event
+from .. import exc
+from .. import inspection
+from .. import util
+from ..engine import processors
+from ..util import langhelpers
+from ..util import OrderedDict
+from ..util import warn_deprecated
+from ..util.typing import get_args
+from ..util.typing import is_literal
+from ..util.typing import is_pep695
+from ..util.typing import Literal
+
+if TYPE_CHECKING:
+    from ._typing import
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/traversals.py
+
+```python
+# sql/traversals.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+from __future__ import annotations
+
+from collections import deque
+import collections.abc as collections_abc
+import itertools
+from itertools import zip_longest
+import operator
+import typing
+from typing import Any
+from typing import Callable
+from typing import Deque
+from typing import Dict
+from typing import Iterable
+from typing import Optional
+from typing import Set
+from typing import Tuple
+from typing import Type
+
+from . import operators
+from .cache_key import HasCacheKey
+from .visitors import _TraverseInternalsType
+from .visitors import anon_map
+from .visitors import ExternallyTraversible
+from .visitors import HasTraversalDispatch
+from .visitors import HasTraverseInternals
+from .. import util
+from ..util import langhelpers
+from ..util.typing import Self
+
+
+SKIP_TRAVERSE = util.symbol("skip_traverse")
+COMPARE_FAILED = False
+COMPARE_SUCCEEDED = True
+
+
+def compare(obj1: Any, obj2: Any, **kw: Any) -> bool:
+    strategy: TraversalComparatorStrategy
+    if kw.get("use_proxies", False):
+        strategy = ColIdentityComparatorStrategy()
+    else:
+        strategy = TraversalComparatorStrategy()
+
+    return strategy.compare(obj1, obj2, **kw)
+
+
+def _preconfigure_traversals(target_hierarchy: Type[Any]) -> None:
+    for cls in util.walk_subclasses(target_hierarchy):
+        if hasattr(cls, "_generate_cache_attrs") and hasattr(
+            cls, "_traverse_internals"
+        ):
+            cls._generate_cache_attrs()
+            _copy_internals.generate_dispatch(
+                cls,
+                cls._traverse_internals,
+                "_generated_copy_internals_traversal",
+            )
+            _get_children.generate_dispatch(
+                cls,
+                cls._traverse_internals,
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/type_api.py
+
+```python
+# sql/type_api.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Base types API."""
+
+from __future__ import annotations
+
+from enum import Enum
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Generic
+from typing import Mapping
+from typing import NewType
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .base import SchemaEventTarget
+from .cache_key import CacheConst
+from .cache_key import NO_CACHE
+from .operators import ColumnOperators
+from .visitors import Visitable
+from .. import exc
+from .. import util
+from ..util.typing import Protocol
+from ..util.typing import Self
+from ..util.typing import TypeAliasType
+from ..util.typing import TypedDict
+from ..util.typing import TypeGuard
+
+# these are back-assigned by sqltypes.
+if typing.TYPE_CHECKING:
+    from ._typing import _TypeEngineArgument
+    from .elements import BindParameter
+    from .elements import ColumnElement
+    from .operators import OperatorType
+    from .sqltypes import _resolve_value_to_type as _resolve_value_to_type
+    from .sqltypes import BOOLEANTYPE as BOOLEANTYPE  # noqa: F401
+    from .sqltypes import INDEXABLE as INDEXABLE  # noqa: F401
+    from .sqltypes import INTEGERTYPE as INTEGERTYPE  # noqa: F401
+    from .sqltypes import MATCHTYPE as MATCHTYPE  # noqa: F401
+    from .sqltypes import NULLTYPE as NULLTYPE
+    from .sqltypes import NUMERICTYPE as NUMERICTYPE  # noqa: F401
+    from .sqltypes import STRINGTYPE as STRINGTYPE  # noqa: F401
+    from .sqltypes import TABLEVALUE as TABLEVALUE  # noqa: F401
+    from ..engine.interfaces import DBAPIModule
+    from ..engine.inte
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/util.py
+
+```python
+# sql/util.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""High level utilities which build upon other modules here."""
+from __future__ import annotations
+
+from collections import deque
+import copy
+from itertools import chain
+import typing
+from typing import AbstractSet
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Collection
+from typing import Dict
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from . import coercions
+from . import operators
+from . import roles
+from . import visitors
+from ._typing import is_text_clause
+from .annotation import _deep_annotate as _deep_annotate  # noqa: F401
+from .annotation import _deep_deannotate as _deep_deannotate  # noqa: F401
+from .annotation import _shallow_annotate as _shallow_annotate  # noqa: F401
+from .base import _expand_cloned
+from .base import _from_objects
+from .cache_key import HasCacheKey as HasCacheKey  # noqa: F401
+from .ddl import sort_tables as sort_tables  # noqa: F401
+from .elements import _find_columns as _find_columns
+from .elements import _label_reference
+from .elements import _textual_label_reference
+from .elements import BindParameter
+from .elements import ClauseElement
+from .elements import ColumnClause
+from .elements import ColumnElement
+from .elements import Grouping
+from .elements import KeyedColumnElement
+from .elements import Label
+from .elements import NamedColumn
+from .elements import Null
+from .elements import UnaryExpression
+from .schema import Column
+from .selectable import Alias
+from .selectable import F
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py
+
+```python
+# sql/visitors.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Visitor/traversal interface and library functions."""
+
+from __future__ import annotations
+
+from collections import deque
+from enum import Enum
+import itertools
+import operator
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import ClassVar
+from typing import Dict
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import Optional
+from typing import overload
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .. import exc
+from .. import util
+from ..util import langhelpers
+from ..util._has_cy import HAS_CYEXTENSION
+from ..util.typing import Literal
+from ..util.typing import Protocol
+from ..util.typing import Self
+
+if TYPE_CHECKING:
+    from .annotation import _AnnotationDict
+    from .elements import ColumnElement
+
+if typing.TYPE_CHECKING or not HAS_CYEXTENSION:
+    from ._py_util import prefix_anon_map as prefix_anon_map
+    from ._py_util import cache_anon_map as anon_map
+else:
+    from sqlalchemy.cyextension.util import (  # noqa: F401,E501
+        prefix_anon_map as prefix_anon_map,
+    )
+    from sqlalchemy.cyextension.util import (  # noqa: F401,E501
+        cache_anon_map as anon_map,
+    )
+
+
+__all__ = [
+    "iterate",
+    "traverse_using",
+    "traverse",
+    "cloned_traverse",
+    "replacement_traverse",
+    "Visitable",
+    "ExternalTraversal",
+    "InternalTraversal",
+    "anon_map",
+]
+
+
+class _CompilerDispatchType(Protocol):
+    def __call__(_self, self: Visitable, visitor: Any, **kw: Any) -> Any: ...
+
+
+class Visitable:
+    """Base class for visitable objects.
+
+    :class:`.Visitable` is used to implement the SQL co
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/__init__.py
+
+```python
+# testing/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from unittest import mock
+
+from . import config
+from .assertions import assert_raises
+from .assertions import assert_raises_context_ok
+from .assertions import assert_raises_message
+from .assertions import assert_raises_message_context_ok
+from .assertions import assert_warns
+from .assertions import assert_warns_message
+from .assertions import AssertsCompiledSQL
+from .assertions import AssertsExecutionResults
+from .assertions import ComparesIndexes
+from .assertions import ComparesTables
+from .assertions import emits_warning
+from .assertions import emits_warning_on
+from .assertions import eq_
+from .assertions import eq_ignore_whitespace
+from .assertions import eq_regex
+from .assertions import expect_deprecated
+from .assertions import expect_deprecated_20
+from .assertions import expect_raises
+from .assertions import expect_raises_message
+from .assertions import expect_warnings
+from .assertions import in_
+from .assertions import int_within_variance
+from .assertions import is_
+from .assertions import is_false
+from .assertions import is_instance_of
+from .assertions import is_none
+from .assertions import is_not
+from .assertions import is_not_
+from .assertions import is_not_none
+from .assertions import is_true
+from .assertions import le_
+from .assertions import ne_
+from .assertions import not_in
+from .assertions import not_in_
+from .assertions import startswith_
+from .assertions import uses_deprecated
+from .config import add_to_marker
+from .config import async_test
+from .config import combinations
+from .config import combinations_list
+from .config import db
+from .config import fixture
+from .config import requirements as requires
+from .config import skip_test
+from .config import Variation
+from .config import variatio
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/assertions.py
+
+```python
+# testing/assertions.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from __future__ import annotations
+
+from collections import defaultdict
+import contextlib
+from copy import copy
+from itertools import filterfalse
+import re
+import sys
+import warnings
+
+from . import assertsql
+from . import config
+from . import engines
+from . import mock
+from .exclusions import db_spec
+from .util import fail
+from .. import exc as sa_exc
+from .. import schema
+from .. import sql
+from .. import types as sqltypes
+from .. import util
+from ..engine import default
+from ..engine import url
+from ..sql.selectable import LABEL_STYLE_TABLENAME_PLUS_COL
+from ..util import decorator
+
+
+def expect_warnings(*messages, **kw):
+    """Context manager which expects one or more warnings.
+
+    With no arguments, squelches all SAWarning emitted via
+    sqlalchemy.util.warn and sqlalchemy.util.warn_limited.   Otherwise
+    pass string expressions that will match selected warnings via regex;
+    all non-matching warnings are sent through.
+
+    The expect version **asserts** that the warnings were in fact seen.
+
+    Note that the test suite sets SAWarning warnings to raise exceptions.
+
+    """  # noqa
+    return _expect_warnings_sqla_only(sa_exc.SAWarning, messages, **kw)
+
+
+@contextlib.contextmanager
+def expect_warnings_on(db, *messages, **kw):
+    """Context manager which expects one or more warnings on specific
+    dialects.
+
+    The expect version **asserts** that the warnings were in fact seen.
+
+    """
+    spec = db_spec(db)
+
+    if isinstance(db, str) and not spec(config._current):
+        yield
+    else:
+        with expect_warnings(*messages, **kw):
+            yield
+
+
+def emits_warning(*messages):
+    """Decorator form of expect_warnings().
+
+    Note that emits_warning does **not** assert that the warnings
+ 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/assertsql.py
+
+```python
+# testing/assertsql.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from __future__ import annotations
+
+import collections
+import contextlib
+import itertools
+import re
+
+from .. import event
+from ..engine import url
+from ..engine.default import DefaultDialect
+from ..schema import BaseDDLElement
+
+
+class AssertRule:
+    is_consumed = False
+    errormessage = None
+    consume_statement = True
+
+    def process_statement(self, execute_observed):
+        pass
+
+    def no_more_statements(self):
+        assert False, (
+            "All statements are complete, but pending "
+            "assertion rules remain"
+        )
+
+
+class SQLMatchRule(AssertRule):
+    pass
+
+
+class CursorSQL(SQLMatchRule):
+    def __init__(self, statement, params=None, consume_statement=True):
+        self.statement = statement
+        self.params = params
+        self.consume_statement = consume_statement
+
+    def process_statement(self, execute_observed):
+        stmt = execute_observed.statements[0]
+        if self.statement != stmt.statement or (
+            self.params is not None and self.params != stmt.parameters
+        ):
+            self.consume_statement = True
+            self.errormessage = (
+                "Testing for exact SQL %s parameters %s received %s %s"
+                % (
+                    self.statement,
+                    self.params,
+                    stmt.statement,
+                    stmt.parameters,
+                )
+            )
+        else:
+            execute_observed.statements.pop(0)
+            self.is_consumed = True
+            if not execute_observed.statements:
+                self.consume_statement = True
+
+
+class CompiledSQL(SQLMatchRule):
+    def __init__(
+        self, statement, params=None, dialect="default", enable_returning=True
+    ):
+        self.stateme
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/asyncio.py
+
+```python
+# testing/asyncio.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+# functions and wrappers to run tests, fixtures, provisioning and
+# setup/teardown in an asyncio event loop, conditionally based on the
+# current DB driver being used for a test.
+
+# note that SQLAlchemy's asyncio integration also supports a method
+# of running individual asyncio functions inside of separate event loops
+# using "async_fallback" mode; however running whole functions in the event
+# loop is a more accurate test for how SQLAlchemy's asyncio features
+# would run in the real world.
+
+
+from __future__ import annotations
+
+from functools import wraps
+import inspect
+
+from . import config
+from ..util.concurrency import _AsyncUtil
+
+# may be set to False if the
+# --disable-asyncio flag is passed to the test runner.
+ENABLE_ASYNCIO = True
+_async_util = _AsyncUtil()  # it has lazy init so just always create one
+
+
+def _shutdown():
+    """called when the test finishes"""
+    _async_util.close()
+
+
+def _run_coroutine_function(fn, *args, **kwargs):
+    return _async_util.run(fn, *args, **kwargs)
+
+
+def _assume_async(fn, *args, **kwargs):
+    """Run a function in an asyncio loop unconditionally.
+
+    This function is used for provisioning features like
+    testing a database connection for server info.
+
+    Note that for blocking IO database drivers, this means they block the
+    event loop.
+
+    """
+
+    if not ENABLE_ASYNCIO:
+        return fn(*args, **kwargs)
+
+    return _async_util.run_in_greenlet(fn, *args, **kwargs)
+
+
+def _maybe_async_provisioning(fn, *args, **kwargs):
+    """Run a function in an asyncio loop if any current drivers might need it.
+
+    This function is used for provisioning features that take
+    place outside of a specific database driver being selected, so if the
+    current driver that happe
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/config.py
+
+```python
+# testing/config.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from __future__ import annotations
+
+from argparse import Namespace
+import collections
+import inspect
+import typing
+from typing import Any
+from typing import Callable
+from typing import Iterable
+from typing import NoReturn
+from typing import Optional
+from typing import Tuple
+from typing import TypeVar
+from typing import Union
+
+from . import mock
+from . import requirements as _requirements
+from .util import fail
+from .. import util
+
+# default requirements; this is replaced by plugin_base when pytest
+# is run
+requirements = _requirements.SuiteRequirements()
+
+db = None
+db_url = None
+db_opts = None
+file_config = None
+test_schema = None
+test_schema_2 = None
+any_async = False
+_current = None
+ident = "main"
+options: Namespace = None  # type: ignore
+
+if typing.TYPE_CHECKING:
+    from .plugin.plugin_base import FixtureFunctions
+
+    _fixture_functions: FixtureFunctions
+else:
+
+    class _NullFixtureFunctions:
+        def _null_decorator(self):
+            def go(fn):
+                return fn
+
+            return go
+
+        def skip_test_exception(self, *arg, **kw):
+            return Exception()
+
+        @property
+        def add_to_marker(self):
+            return mock.Mock()
+
+        def mark_base_test_class(self):
+            return self._null_decorator()
+
+        def combinations(self, *arg_sets, **kw):
+            return self._null_decorator()
+
+        def param_ident(self, *parameters):
+            return self._null_decorator()
+
+        def fixture(self, *arg, **kw):
+            return self._null_decorator()
+
+        def get_current_test_name(self):
+            return None
+
+        def async_test(self, fn):
+            return fn
+
+    # default fixture functions; these are replaced by plugin_base when
+    # pytest
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/engines.py
+
+```python
+# testing/engines.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from __future__ import annotations
+
+import collections
+import re
+import typing
+from typing import Any
+from typing import Dict
+from typing import Optional
+from typing import Union
+import warnings
+import weakref
+
+from . import config
+from .util import decorator
+from .util import gc_collect
+from .. import event
+from .. import pool
+from ..util import await_only
+from ..util.typing import Literal
+
+
+if typing.TYPE_CHECKING:
+    from ..engine import Engine
+    from ..engine.url import URL
+    from ..ext.asyncio import AsyncEngine
+
+
+class ConnectionKiller:
+    def __init__(self):
+        self.proxy_refs = weakref.WeakKeyDictionary()
+        self.testing_engines = collections.defaultdict(set)
+        self.dbapi_connections = set()
+
+    def add_pool(self, pool):
+        event.listen(pool, "checkout", self._add_conn)
+        event.listen(pool, "checkin", self._remove_conn)
+        event.listen(pool, "close", self._remove_conn)
+        event.listen(pool, "close_detached", self._remove_conn)
+        # note we are keeping "invalidated" here, as those are still
+        # opened connections we would like to roll back
+
+    def _add_conn(self, dbapi_con, con_record, con_proxy):
+        self.dbapi_connections.add(dbapi_con)
+        self.proxy_refs[con_proxy] = True
+
+    def _remove_conn(self, dbapi_conn, *arg):
+        self.dbapi_connections.discard(dbapi_conn)
+
+    def add_engine(self, engine, scope):
+        self.add_pool(engine.pool)
+
+        assert scope in ("class", "global", "function", "fixture")
+        self.testing_engines[scope].add(engine)
+
+    def _safe(self, fn):
+        try:
+            fn()
+        except Exception as e:
+            warnings.warn(
+                "testing_reaper couldn't rollback/close connection
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/entities.py
+
+```python
+# testing/entities.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from __future__ import annotations
+
+import sqlalchemy as sa
+from .. import exc as sa_exc
+from ..orm.writeonly import WriteOnlyCollection
+
+_repr_stack = set()
+
+
+class BasicEntity:
+    def __init__(self, **kw):
+        for key, value in kw.items():
+            setattr(self, key, value)
+
+    def __repr__(self):
+        if id(self) in _repr_stack:
+            return object.__repr__(self)
+        _repr_stack.add(id(self))
+        try:
+            return "%s(%s)" % (
+                (self.__class__.__name__),
+                ", ".join(
+                    [
+                        "%s=%r" % (key, getattr(self, key))
+                        for key in sorted(self.__dict__.keys())
+                        if not key.startswith("_")
+                    ]
+                ),
+            )
+        finally:
+            _repr_stack.remove(id(self))
+
+
+_recursion_stack = set()
+
+
+class ComparableMixin:
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+    def __eq__(self, other):
+        """'Deep, sparse compare.
+
+        Deeply compare two entities, following the non-None attributes of the
+        non-persisted object, if possible.
+
+        """
+        if other is self:
+            return True
+        elif not self.__class__ == other.__class__:
+            return False
+
+        if id(self) in _recursion_stack:
+            return True
+        _recursion_stack.add(id(self))
+
+        try:
+            # pick the entity that's not SA persisted as the source
+            try:
+                self_key = sa.orm.attributes.instance_state(self).key
+            except sa.orm.exc.NO_STATE:
+                self_key = None
+
+            if other is None:
+                a = self
+                b = other
+            elif 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/exclusions.py
+
+```python
+# testing/exclusions.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+import contextlib
+import operator
+import re
+import sys
+
+from . import config
+from .. import util
+from ..util import decorator
+from ..util.compat import inspect_getfullargspec
+
+
+def skip_if(predicate, reason=None):
+    rule = compound()
+    pred = _as_predicate(predicate, reason)
+    rule.skips.add(pred)
+    return rule
+
+
+def fails_if(predicate, reason=None):
+    rule = compound()
+    pred = _as_predicate(predicate, reason)
+    rule.fails.add(pred)
+    return rule
+
+
+def warns_if(predicate, expression, assert_):
+    rule = compound()
+    pred = _as_predicate(predicate)
+    rule.warns[pred] = (expression, assert_)
+    return rule
+
+
+class compound:
+    def __init__(self):
+        self.fails = set()
+        self.skips = set()
+        self.warns = {}
+
+    def __add__(self, other):
+        return self.add(other)
+
+    def as_skips(self):
+        rule = compound()
+        rule.skips.update(self.skips)
+        rule.skips.update(self.fails)
+        return rule
+
+    def add(self, *others):
+        copy = compound()
+        copy.fails.update(self.fails)
+        copy.skips.update(self.skips)
+        copy.warns.update(self.warns)
+
+        for other in others:
+            copy.fails.update(other.fails)
+            copy.skips.update(other.skips)
+            copy.warns.update(other.warns)
+        return copy
+
+    def not_(self):
+        copy = compound()
+        copy.fails.update(NotPredicate(fail) for fail in self.fails)
+        copy.skips.update(NotPredicate(skip) for skip in self.skips)
+        copy.warns.update(
+            {
+                NotPredicate(warn): element
+                for warn, element in self.warns.items()
+            }
+        )
+        return copy
+
+    @property
+    def enabled(self):
+        return 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/pickleable.py
+
+```python
+# testing/pickleable.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""Classes used in pickling tests, need to be at the module level for
+unpickling.
+"""
+
+from __future__ import annotations
+
+from .entities import ComparableEntity
+from ..schema import Column
+from ..types import String
+
+
+class User(ComparableEntity):
+    pass
+
+
+class Order(ComparableEntity):
+    pass
+
+
+class Dingaling(ComparableEntity):
+    pass
+
+
+class EmailUser(User):
+    pass
+
+
+class Address(ComparableEntity):
+    pass
+
+
+# TODO: these are kind of arbitrary....
+class Child1(ComparableEntity):
+    pass
+
+
+class Child2(ComparableEntity):
+    pass
+
+
+class Parent(ComparableEntity):
+    pass
+
+
+class Screen:
+    def __init__(self, obj, parent=None):
+        self.obj = obj
+        self.parent = parent
+
+
+class Mixin:
+    email_address = Column(String)
+
+
+class AddressWMixin(Mixin, ComparableEntity):
+    pass
+
+
+class Foo:
+    def __init__(self, moredata, stuff="im stuff"):
+        self.data = "im data"
+        self.stuff = stuff
+        self.moredata = moredata
+
+    __hash__ = object.__hash__
+
+    def __eq__(self, other):
+        return (
+            other.data == self.data
+            and other.stuff == self.stuff
+            and other.moredata == self.moredata
+        )
+
+
+class Bar:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    __hash__ = object.__hash__
+
+    def __eq__(self, other):
+        return (
+            other.__class__ is self.__class__
+            and other.x == self.x
+            and other.y == self.y
+        )
+
+    def __str__(self):
+        return "Bar(%d, %d)" % (self.x, self.y)
+
+
+class OldSchool:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __eq__(self, other):
+        return (
+            other.__class__ is self.__class__
+            and ot
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/profiling.py
+
+```python
+# testing/profiling.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""Profiling support for unit and performance tests.
+
+These are special purpose profiling methods which operate
+in a more fine-grained way than nose's profiling plugin.
+
+"""
+
+from __future__ import annotations
+
+import collections
+import contextlib
+import os
+import platform
+import pstats
+import re
+import sys
+
+from . import config
+from .util import gc_collect
+from ..util import freethreading
+from ..util import has_compiled_ext
+
+
+try:
+    import cProfile
+except ImportError:
+    cProfile = None
+
+_profile_stats = None
+"""global ProfileStatsFileInstance.
+
+plugin_base assigns this at the start of all tests.
+
+"""
+
+
+_current_test = None
+"""String id of current test.
+
+plugin_base assigns this at the start of each test using
+_start_current_test.
+
+"""
+
+
+def _start_current_test(id_):
+    global _current_test
+    _current_test = id_
+
+    if _profile_stats.force_write:
+        _profile_stats.reset_count()
+
+
+class ProfileStatsFile:
+    """Store per-platform/fn profiling results in a file.
+
+    There was no json module available when this was written, but now
+    the file format which is very deterministically line oriented is kind of
+    handy in any case for diffs and merges.
+
+    """
+
+    def __init__(self, filename, sort="cumulative", dump=None):
+        self.force_write = (
+            config.options is not None and config.options.force_write_profiles
+        )
+        self.write = self.force_write or (
+            config.options is not None and config.options.write_profiles
+        )
+        self.fname = os.path.abspath(filename)
+        self.short_fname = os.path.split(self.fname)[-1]
+        self.data = collections.defaultdict(
+            lambda: collections.defaultdict(dict)
+        )
+        self.dump = dump
+   
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/provision.py
+
+```python
+# testing/provision.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from __future__ import annotations
+
+import collections
+import contextlib
+import logging
+
+from . import config
+from . import engines
+from . import util
+from .. import exc
+from .. import inspect
+from ..engine import Connection
+from ..engine import Engine
+from ..engine import url as sa_url
+from ..schema import sort_tables_and_constraints
+from ..sql import ddl
+from ..sql import schema
+from ..util import decorator
+
+
+log = logging.getLogger(__name__)
+
+FOLLOWER_IDENT = None
+
+
+class register:
+    def __init__(self, decorator=None):
+        self.fns = {}
+        self.decorator = decorator
+
+    @classmethod
+    def init(cls, fn):
+        return register().for_db("*")(fn)
+
+    @classmethod
+    def init_decorator(cls, decorator):
+        return register(decorator).for_db("*")
+
+    def for_db(self, *dbnames):
+        def decorate(fn):
+            if self.decorator:
+                fn = self.decorator(fn)
+            for dbname in dbnames:
+                self.fns[dbname] = fn
+            return self
+
+        return decorate
+
+    def call_original(self, cfg, *arg, **kw):
+        return self.fns["*"](cfg, *arg, **kw)
+
+    def __call__(self, cfg, *arg, **kw):
+        if isinstance(cfg, str):
+            url = sa_url.make_url(cfg)
+        elif isinstance(cfg, sa_url.URL):
+            url = cfg
+        elif isinstance(cfg, (Engine, Connection)):
+            url = cfg.engine.url
+        else:
+            url = cfg.db.url
+        backend = url.get_backend_name()
+        if backend in self.fns:
+            return self.fns[backend](cfg, *arg, **kw)
+        else:
+            return self.fns["*"](cfg, *arg, **kw)
+
+
+def create_follower_db(follower_ident):
+    for cfg in _configs_for_db_operation():
+        log.info("CREATE database
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/requirements.py
+
+```python
+# testing/requirements.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+"""Global database feature support policy.
+
+Provides decorators to mark tests requiring specific feature support from the
+target database.
+
+External dialect test suites should subclass SuiteRequirements
+to provide specific inclusion/exclusions.
+
+"""
+
+from __future__ import annotations
+
+import os
+import platform
+
+from . import asyncio as _test_asyncio
+from . import exclusions
+from .exclusions import only_on
+from .. import create_engine
+from .. import util
+from ..pool import QueuePool
+
+
+class Requirements:
+    pass
+
+
+class SuiteRequirements(Requirements):
+    @property
+    def create_table(self):
+        """target platform can emit basic CreateTable DDL."""
+
+        return exclusions.open()
+
+    @property
+    def drop_table(self):
+        """target platform can emit basic DropTable DDL."""
+
+        return exclusions.open()
+
+    @property
+    def table_ddl_if_exists(self):
+        """target platform supports IF NOT EXISTS / IF EXISTS for tables."""
+
+        return exclusions.closed()
+
+    @property
+    def index_ddl_if_exists(self):
+        """target platform supports IF NOT EXISTS / IF EXISTS for indexes."""
+
+        return exclusions.closed()
+
+    @property
+    def uuid_data_type(self):
+        """Return databases that support the UUID datatype."""
+
+        return exclusions.closed()
+
+    @property
+    def foreign_keys(self):
+        """Target database must support foreign keys."""
+
+        return exclusions.open()
+
+    @property
+    def foreign_keys_reflect_as_index(self):
+        """Target database creates an index that's reflected for
+        foreign keys."""
+
+        return exclusions.closed()
+
+    @property
+    def unique_index_reflect_as_unique_constraints(self):
+        """Target database reflects
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/schema.py
+
+```python
+# testing/schema.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from __future__ import annotations
+
+import sys
+
+from . import config
+from . import exclusions
+from .. import event
+from .. import schema
+from .. import types as sqltypes
+from ..orm import mapped_column as _orm_mapped_column
+from ..util import OrderedDict
+
+__all__ = ["Table", "Column"]
+
+table_options = {}
+
+
+def Table(*args, **kw) -> schema.Table:
+    """A schema.Table wrapper/hook for dialect-specific tweaks."""
+
+    # pop out local options; these are not used at the moment
+    _ = {k: kw.pop(k) for k in list(kw) if k.startswith("test_")}
+
+    kw.update(table_options)
+
+    return schema.Table(*args, **kw)
+
+
+def mapped_column(*args, **kw):
+    """An orm.mapped_column wrapper/hook for dialect-specific tweaks."""
+
+    return _schema_column(_orm_mapped_column, args, kw)
+
+
+def Column(*args, **kw):
+    """A schema.Column wrapper/hook for dialect-specific tweaks."""
+
+    return _schema_column(schema.Column, args, kw)
+
+
+def _schema_column(factory, args, kw):
+    test_opts = {k: kw.pop(k) for k in list(kw) if k.startswith("test_")}
+
+    if not config.requirements.foreign_key_ddl.enabled_for_config(config):
+        args = [arg for arg in args if not isinstance(arg, schema.ForeignKey)]
+
+    construct = factory(*args, **kw)
+
+    if factory is schema.Column:
+        col = construct
+    else:
+        col = construct.column
+
+    if test_opts.get("test_needs_autoincrement", False) and kw.get(
+        "primary_key", False
+    ):
+        if col.default is None and col.server_default is None:
+            col.autoincrement = True
+
+        # allow any test suite to pick up on this
+        col.info["test_needs_autoincrement"] = True
+
+        # hardcoded rule for oracle; this should
+        # be moved out
+        if exclusions.agains
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/util.py
+
+```python
+# testing/util.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from __future__ import annotations
+
+from collections import deque
+from collections import namedtuple
+import contextlib
+import decimal
+import gc
+from itertools import chain
+import pickle
+import random
+import sys
+from sys import getsizeof
+import time
+import types
+from typing import Any
+
+from . import config
+from . import mock
+from .. import inspect
+from ..engine import Connection
+from ..schema import Column
+from ..schema import DropConstraint
+from ..schema import DropTable
+from ..schema import ForeignKeyConstraint
+from ..schema import MetaData
+from ..schema import Table
+from ..sql import schema
+from ..sql.sqltypes import Integer
+from ..util import decorator
+from ..util import defaultdict
+from ..util import has_refcount_gc
+from ..util import inspect_getfullargspec
+
+
+if not has_refcount_gc:
+
+    def non_refcount_gc_collect(*args):
+        gc.collect()
+        gc.collect()
+
+    gc_collect = lazy_gc = non_refcount_gc_collect
+else:
+    # assume CPython - straight gc.collect, lazy_gc() is a pass
+    gc_collect = gc.collect
+
+    def lazy_gc():
+        pass
+
+
+def picklers():
+    nt = namedtuple("picklers", ["loads", "dumps"])
+
+    for protocol in range(-2, pickle.HIGHEST_PROTOCOL + 1):
+        yield nt(pickle.loads, lambda d: pickle.dumps(d, protocol))
+
+
+def random_choices(population, k=1):
+    return random.choices(population, k=k)
+
+
+def round_decimal(value, prec):
+    if isinstance(value, float):
+        return round(value, prec)
+
+    # can also use shift() here but that is 2.6 only
+    return (value * decimal.Decimal("1" + "0" * prec)).to_integral(
+        decimal.ROUND_FLOOR
+    ) / pow(10, prec)
+
+
+class RandomSet(set):
+    def __iter__(self):
+        l = list(set.__iter__(self))
+        random.shuffle(l)
+        ret
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/warnings.py
+
+```python
+# testing/warnings.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from __future__ import annotations
+
+import warnings
+
+from . import assertions
+from .. import exc
+from .. import exc as sa_exc
+from ..exc import SATestSuiteWarning
+from ..util.langhelpers import _warnings_warn
+
+
+def warn_test_suite(message):
+    _warnings_warn(message, category=SATestSuiteWarning)
+
+
+def setup_filters():
+    """hook for setting up warnings filters.
+
+    SQLAlchemy-specific classes must only be here and not in pytest config,
+    as we need to delay importing SQLAlchemy until conftest.py has been
+    processed.
+
+    NOTE: filters on subclasses of DeprecationWarning or
+    PendingDeprecationWarning have no effect if added here, since pytest
+    will add at each test the following filters
+    ``always::PendingDeprecationWarning`` and ``always::DeprecationWarning``
+    that will take precedence over any added here.
+
+    """
+    warnings.filterwarnings("error", category=exc.SAWarning)
+    warnings.filterwarnings("always", category=exc.SATestSuiteWarning)
+
+
+def assert_warnings(fn, warning_msgs, regex=False):
+    """Assert that each of the given warnings are emitted by fn.
+
+    Deprecated.  Please use assertions.expect_warnings().
+
+    """
+
+    with assertions._expect_warnings(
+        sa_exc.SAWarning, warning_msgs, regex=regex
+    ):
+        return fn()
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/fixtures/__init__.py
+
+```python
+# testing/fixtures/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+from .base import FutureEngineMixin as FutureEngineMixin
+from .base import TestBase as TestBase
+from .mypy import MypyTest as MypyTest
+from .orm import after_test as after_test
+from .orm import close_all_sessions as close_all_sessions
+from .orm import DeclarativeMappedTest as DeclarativeMappedTest
+from .orm import fixture_session as fixture_session
+from .orm import MappedTest as MappedTest
+from .orm import ORMTest as ORMTest
+from .orm import RemoveORMEventsGlobally as RemoveORMEventsGlobally
+from .orm import (
+    stop_test_class_inside_fixtures as stop_test_class_inside_fixtures,
+)
+from .sql import CacheKeyFixture as CacheKeyFixture
+from .sql import (
+    ComputedReflectionFixtureTest as ComputedReflectionFixtureTest,
+)
+from .sql import insertmanyvalues_fixture as insertmanyvalues_fixture
+from .sql import NoCache as NoCache
+from .sql import RemovesEvents as RemovesEvents
+from .sql import TablesTest as TablesTest
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/fixtures/base.py
+
+```python
+# testing/fixtures/base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from __future__ import annotations
+
+import sqlalchemy as sa
+from .. import assertions
+from .. import config
+from ..assertions import eq_
+from ..util import drop_all_tables_from_metadata
+from ..util import picklers
+from ... import Column
+from ... import func
+from ... import Integer
+from ... import select
+from ... import Table
+from ...orm import DeclarativeBase
+from ...orm import MappedAsDataclass
+from ...orm import registry
+
+
+@config.mark_base_test_class()
+class TestBase:
+    # A sequence of requirement names matching testing.requires decorators
+    __requires__ = ()
+
+    # A sequence of dialect names to exclude from the test class.
+    __unsupported_on__ = ()
+
+    # If present, test class is only runnable for the *single* specified
+    # dialect.  If you need multiple, use __unsupported_on__ and invert.
+    __only_on__ = None
+
+    # A sequence of no-arg callables. If any are True, the entire testcase is
+    # skipped.
+    __skip_if__ = None
+
+    # if True, the testing reaper will not attempt to touch connection
+    # state after a test is completed and before the outer teardown
+    # starts
+    __leave_connections_for_teardown__ = False
+
+    def assert_(self, val, msg=None):
+        assert val, msg
+
+    @config.fixture()
+    def nocache(self):
+        _cache = config.db._compiled_cache
+        config.db._compiled_cache = None
+        yield
+        config.db._compiled_cache = _cache
+
+    @config.fixture()
+    def connection_no_trans(self):
+        eng = getattr(self, "bind", None) or config.db
+
+        with eng.connect() as conn:
+            yield conn
+
+    @config.fixture()
+    def connection(self):
+        global _connection_fixture_connection
+
+        eng = getattr(self, "bind", None) or config.db
+
+ 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/fixtures/mypy.py
+
+```python
+# testing/fixtures/mypy.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from __future__ import annotations
+
+import inspect
+import os
+from pathlib import Path
+import re
+import shutil
+import sys
+import tempfile
+
+from .base import TestBase
+from .. import config
+from ..assertions import eq_
+from ... import util
+
+
+@config.add_to_marker.mypy
+class MypyTest(TestBase):
+    __requires__ = ("no_sqlalchemy2_stubs",)
+
+    @config.fixture(scope="function")
+    def per_func_cachedir(self):
+        yield from self._cachedir()
+
+    @config.fixture(scope="class")
+    def cachedir(self):
+        yield from self._cachedir()
+
+    def _cachedir(self):
+        # as of mypy 0.971 i think we need to keep mypy_path empty
+        mypy_path = ""
+
+        with tempfile.TemporaryDirectory() as cachedir:
+            with open(
+                Path(cachedir) / "sqla_mypy_config.cfg", "w"
+            ) as config_file:
+                config_file.write(
+                    f"""
+                    [mypy]\n
+                    plugins = sqlalchemy.ext.mypy.plugin\n
+                    show_error_codes = True\n
+                    {mypy_path}
+                    disable_error_code = no-untyped-call
+
+                    [mypy-sqlalchemy.*]
+                    ignore_errors = True
+
+                    """
+                )
+            with open(
+                Path(cachedir) / "plain_mypy_config.cfg", "w"
+            ) as config_file:
+                config_file.write(
+                    f"""
+                    [mypy]\n
+                    show_error_codes = True\n
+                    {mypy_path}
+                    disable_error_code = var-annotated,no-untyped-call
+                    [mypy-sqlalchemy.*]
+                    ignore_errors = True
+
+                    """
+                )
+            yield c
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/fixtures/orm.py
+
+```python
+# testing/fixtures/orm.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+from __future__ import annotations
+
+from typing import Any
+
+import sqlalchemy as sa
+from .base import TestBase
+from .sql import TablesTest
+from .. import assertions
+from .. import config
+from .. import schema
+from ..entities import BasicEntity
+from ..entities import ComparableEntity
+from ..util import adict
+from ... import orm
+from ...orm import DeclarativeBase
+from ...orm import events as orm_events
+from ...orm import registry
+
+
+class ORMTest(TestBase):
+    @config.fixture
+    def fixture_session(self):
+        return fixture_session()
+
+
+class MappedTest(ORMTest, TablesTest, assertions.AssertsExecutionResults):
+    # 'once', 'each', None
+    run_setup_classes = "once"
+
+    # 'once', 'each', None
+    run_setup_mappers = "each"
+
+    classes: Any = None
+
+    @config.fixture(autouse=True, scope="class")
+    def _setup_tables_test_class(self):
+        cls = self.__class__
+        cls._init_class()
+
+        if cls.classes is None:
+            cls.classes = adict()
+
+        cls._setup_once_tables()
+        cls._setup_once_classes()
+        cls._setup_once_mappers()
+        cls._setup_once_inserts()
+
+        yield
+
+        cls._teardown_once_class()
+        cls._teardown_once_metadata_bind()
+
+    @config.fixture(autouse=True, scope="function")
+    def _setup_tables_test_instance(self):
+        self._setup_each_tables()
+        self._setup_each_classes()
+        self._setup_each_mappers()
+        self._setup_each_inserts()
+
+        yield
+
+        orm.session.close_all_sessions()
+        self._teardown_each_mappers()
+        self._teardown_each_classes()
+        self._teardown_each_tables()
+
+    @classmethod
+    def _teardown_once_class(cls):
+        cls.classes.clear()
+
+    @classmethod
+    def _setup_once_classe
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/fixtures/sql.py
+
+```python
+# testing/fixtures/sql.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+from __future__ import annotations
+
+import itertools
+import random
+import re
+
+import sqlalchemy as sa
+from .base import TestBase
+from .. import config
+from .. import mock
+from .. import provision
+from ..assertions import eq_
+from ..assertions import ne_
+from ..util import adict
+from ..util import drop_all_tables_from_metadata
+from ... import event
+from ... import util
+from ...schema import sort_tables_and_constraints
+from ...sql import visitors
+from ...sql.elements import ClauseElement
+
+
+class TablesTest(TestBase):
+    # 'once', None
+    run_setup_bind = "once"
+
+    # 'once', 'each', None
+    run_define_tables = "once"
+
+    # 'once', 'each', None
+    run_create_tables = "once"
+
+    # 'once', 'each', None
+    run_inserts = "each"
+
+    # 'each', None
+    run_deletes = "each"
+
+    # 'once', None
+    run_dispose_bind = None
+
+    bind = None
+    _tables_metadata = None
+    tables = None
+    other = None
+    sequences = None
+
+    @config.fixture(autouse=True, scope="class")
+    def _setup_tables_test_class(self):
+        cls = self.__class__
+        cls._init_class()
+
+        cls._setup_once_tables()
+
+        cls._setup_once_inserts()
+
+        yield
+
+        cls._teardown_once_metadata_bind()
+
+    @config.fixture(autouse=True, scope="function")
+    def _setup_tables_test_instance(self):
+        self._setup_each_tables()
+        self._setup_each_inserts()
+
+        yield
+
+        self._teardown_each_tables()
+
+    @property
+    def tables_test_metadata(self):
+        return self._tables_metadata
+
+    @classmethod
+    def _init_class(cls):
+        if cls.run_define_tables == "each":
+            if cls.run_create_tables == "once":
+                cls.run_create_tables = "each"
+            assert cls.run_inserts in (
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/plugin/__init__.py
+
+```python
+# testing/plugin/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/plugin/bootstrap.py
+
+```python
+# testing/plugin/bootstrap.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+"""
+Bootstrapper for test framework plugins.
+
+The entire rationale for this system is to get the modules in plugin/
+imported without importing all of the supporting library, so that we can
+set up things for testing before coverage starts.
+
+The rationale for all of plugin/ being *in* the supporting library in the
+first place is so that the testing and plugin suite is available to other
+libraries, mainly external SQLAlchemy and Alembic dialects, to make use
+of the same test environment and standard suites available to
+SQLAlchemy/Alembic themselves without the need to ship/install a separate
+package outside of SQLAlchemy.
+
+
+"""
+
+import importlib.util
+import os
+import sys
+
+
+bootstrap_file = locals()["bootstrap_file"]
+to_bootstrap = locals()["to_bootstrap"]
+
+
+def load_file_as_module(name):
+    path = os.path.join(os.path.dirname(bootstrap_file), "%s.py" % name)
+
+    spec = importlib.util.spec_from_file_location(name, path)
+    assert spec is not None
+    assert spec.loader is not None
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+if to_bootstrap == "pytest":
+    sys.modules["sqla_plugin_base"] = load_file_as_module("plugin_base")
+    sys.modules["sqla_plugin_base"].bootstrapped_as_sqlalchemy = True
+    sys.modules["sqla_pytestplugin"] = load_file_as_module("pytestplugin")
+else:
+    raise Exception("unknown bootstrap: %s" % to_bootstrap)  # noqa
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/plugin/plugin_base.py
+
+```python
+# testing/plugin/plugin_base.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from __future__ import annotations
+
+import abc
+from argparse import Namespace
+import configparser
+import logging
+import os
+from pathlib import Path
+import re
+import sys
+from typing import Any
+
+from sqlalchemy.testing import asyncio
+
+"""Testing extensions.
+
+this module is designed to work as a testing-framework-agnostic library,
+created so that multiple test frameworks can be supported at once
+(mostly so that we can migrate to new ones). The current target
+is pytest.
+
+"""
+
+# flag which indicates we are in the SQLAlchemy testing suite,
+# and not that of Alembic or a third party dialect.
+bootstrapped_as_sqlalchemy = False
+
+log = logging.getLogger("sqlalchemy.testing.plugin_base")
+
+# late imports
+fixtures = None
+engines = None
+exclusions = None
+warnings = None
+profiling = None
+provision = None
+assertions = None
+requirements = None
+config = None
+testing = None
+util = None
+file_config = None
+
+logging = None
+include_tags = set()
+exclude_tags = set()
+options: Namespace = None  # type: ignore
+
+
+def setup_options(make_option):
+    make_option(
+        "--log-info",
+        action="callback",
+        type=str,
+        callback=_log,
+        help="turn on info logging for <LOG> (multiple OK)",
+    )
+    make_option(
+        "--log-debug",
+        action="callback",
+        type=str,
+        callback=_log,
+        help="turn on debug logging for <LOG> (multiple OK)",
+    )
+    make_option(
+        "--db",
+        action="append",
+        type=str,
+        dest="db",
+        help="Use prefab database uri. Multiple OK, "
+        "first one is run by default.",
+    )
+    make_option(
+        "--dbs",
+        action="callback",
+        zeroarg_callback=_list_dbs,
+        help="List available prefab dbs",
+    )
+   
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/plugin/pytestplugin.py
+
+```python
+# testing/plugin/pytestplugin.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from __future__ import annotations
+
+import argparse
+import collections
+from functools import update_wrapper
+import inspect
+import itertools
+import operator
+import os
+import re
+import sys
+from typing import TYPE_CHECKING
+import uuid
+
+import pytest
+
+try:
+    # installed by bootstrap.py
+    if not TYPE_CHECKING:
+        import sqla_plugin_base as plugin_base
+except ImportError:
+    # assume we're a package, use traditional import
+    from . import plugin_base
+
+
+def pytest_addoption(parser):
+    group = parser.getgroup("sqlalchemy")
+
+    def make_option(name, **kw):
+        callback_ = kw.pop("callback", None)
+        if callback_:
+
+            class CallableAction(argparse.Action):
+                def __call__(
+                    self, parser, namespace, values, option_string=None
+                ):
+                    callback_(option_string, values, parser)
+
+            kw["action"] = CallableAction
+
+        zeroarg_callback = kw.pop("zeroarg_callback", None)
+        if zeroarg_callback:
+
+            class CallableAction(argparse.Action):
+                def __init__(
+                    self,
+                    option_strings,
+                    dest,
+                    default=False,
+                    required=False,
+                    help=None,  # noqa
+                ):
+                    super().__init__(
+                        option_strings=option_strings,
+                        dest=dest,
+                        nargs=0,
+                        const=True,
+                        default=default,
+                        required=required,
+                        help=help,
+                    )
+
+                def __call__(
+                    self, parser, namespace, values, op
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/__init__.py
+
+```python
+# testing/suite/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+from .test_cte import *  # noqa
+from .test_ddl import *  # noqa
+from .test_deprecations import *  # noqa
+from .test_dialect import *  # noqa
+from .test_insert import *  # noqa
+from .test_reflection import *  # noqa
+from .test_results import *  # noqa
+from .test_rowcount import *  # noqa
+from .test_select import *  # noqa
+from .test_sequence import *  # noqa
+from .test_types import *  # noqa
+from .test_unicode_ddl import *  # noqa
+from .test_update_delete import *  # noqa
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_cte.py
+
+```python
+# testing/suite/test_cte.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from .. import fixtures
+from ..assertions import eq_
+from ..schema import Column
+from ..schema import Table
+from ... import column
+from ... import ForeignKey
+from ... import Integer
+from ... import select
+from ... import String
+from ... import testing
+from ... import values
+
+
+class CTETest(fixtures.TablesTest):
+    __sparse_driver_backend__ = True
+    __requires__ = ("ctes",)
+
+    run_inserts = "each"
+    run_deletes = "each"
+
+    @classmethod
+    def define_tables(cls, metadata):
+        Table(
+            "some_table",
+            metadata,
+            Column("id", Integer, primary_key=True),
+            Column("data", String(50)),
+            Column("parent_id", ForeignKey("some_table.id")),
+        )
+
+        Table(
+            "some_other_table",
+            metadata,
+            Column("id", Integer, primary_key=True),
+            Column("data", String(50)),
+            Column("parent_id", Integer),
+        )
+
+    @classmethod
+    def insert_data(cls, connection):
+        connection.execute(
+            cls.tables.some_table.insert(),
+            [
+                {"id": 1, "data": "d1", "parent_id": None},
+                {"id": 2, "data": "d2", "parent_id": 1},
+                {"id": 3, "data": "d3", "parent_id": 1},
+                {"id": 4, "data": "d4", "parent_id": 3},
+                {"id": 5, "data": "d5", "parent_id": 3},
+            ],
+        )
+
+    def test_select_nonrecursive_round_trip(self, connection):
+        some_table = self.tables.some_table
+
+        cte = (
+            select(some_table)
+            .where(some_table.c.data.in_(["d2", "d3", "d4"]))
+            .cte("some_cte")
+        )
+        result = connection.execute(
+            select(cte.c.data).where(cte.c.data.in_([
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_ddl.py
+
+```python
+# testing/suite/test_ddl.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+import random
+
+from . import testing
+from .. import config
+from .. import fixtures
+from .. import util
+from ..assertions import eq_
+from ..assertions import is_false
+from ..assertions import is_true
+from ..config import requirements
+from ..schema import Table
+from ... import CheckConstraint
+from ... import Column
+from ... import ForeignKeyConstraint
+from ... import Index
+from ... import inspect
+from ... import Integer
+from ... import schema
+from ... import String
+from ... import UniqueConstraint
+
+
+class TableDDLTest(fixtures.TestBase):
+    __sparse_driver_backend__ = True
+
+    def _simple_fixture(self, schema=None):
+        return Table(
+            "test_table",
+            self.metadata,
+            Column("id", Integer, primary_key=True, autoincrement=False),
+            Column("data", String(50)),
+            schema=schema,
+        )
+
+    def _underscore_fixture(self):
+        return Table(
+            "_test_table",
+            self.metadata,
+            Column("id", Integer, primary_key=True, autoincrement=False),
+            Column("_data", String(50)),
+        )
+
+    def _table_index_fixture(self, schema=None):
+        table = self._simple_fixture(schema=schema)
+        idx = Index("test_index", table.c.data)
+        return table, idx
+
+    def _simple_roundtrip(self, table):
+        with config.db.begin() as conn:
+            conn.execute(table.insert().values((1, "some data")))
+            result = conn.execute(table.select())
+            eq_(result.first(), (1, "some data"))
+
+    @requirements.create_table
+    @util.provide_metadata
+    def test_create_table(self):
+        table = self._simple_fixture()
+        table.create(config.db, checkfirst=False)
+        self._simple_roundtrip(table)
+
+ 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_deprecations.py
+
+```python
+# testing/suite/test_deprecations.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from .. import fixtures
+from ..assertions import eq_
+from ..schema import Column
+from ..schema import Table
+from ... import Integer
+from ... import select
+from ... import testing
+from ... import union
+
+
+class DeprecatedCompoundSelectTest(fixtures.TablesTest):
+    __backend__ = True
+
+    @classmethod
+    def define_tables(cls, metadata):
+        Table(
+            "some_table",
+            metadata,
+            Column("id", Integer, primary_key=True),
+            Column("x", Integer),
+            Column("y", Integer),
+        )
+
+    @classmethod
+    def insert_data(cls, connection):
+        connection.execute(
+            cls.tables.some_table.insert(),
+            [
+                {"id": 1, "x": 1, "y": 2},
+                {"id": 2, "x": 2, "y": 3},
+                {"id": 3, "x": 3, "y": 4},
+                {"id": 4, "x": 4, "y": 5},
+            ],
+        )
+
+    def _assert_result(self, conn, select, result, params=()):
+        eq_(conn.execute(select, params).fetchall(), result)
+
+    def test_plain_union(self, connection):
+        table = self.tables.some_table
+        s1 = select(table).where(table.c.id == 2)
+        s2 = select(table).where(table.c.id == 3)
+
+        u1 = union(s1, s2)
+        with testing.expect_deprecated(
+            "The SelectBase.c and SelectBase.columns "
+            "attributes are deprecated"
+        ):
+            self._assert_result(
+                connection, u1.order_by(u1.c.id), [(2, 2, 3), (3, 3, 4)]
+            )
+
+    # note we've had to remove one use case entirely, which is this
+    # one.   the Select gets its FROMS from the WHERE clause and the
+    # columns clause, but not the ORDER BY, which means the old ".c" system
+    # allowed you to "order_by(s.
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_dialect.py
+
+```python
+# testing/suite/test_dialect.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+import importlib
+
+from . import testing
+from .. import assert_raises
+from .. import config
+from .. import engines
+from .. import eq_
+from .. import fixtures
+from .. import is_not_none
+from .. import is_true
+from .. import mock
+from .. import ne_
+from .. import provide_metadata
+from ..assertions import expect_raises
+from ..assertions import expect_raises_message
+from ..config import requirements
+from ..provision import set_default_schema_on_connection
+from ..schema import Column
+from ..schema import Table
+from ... import bindparam
+from ... import dialects
+from ... import event
+from ... import exc
+from ... import Integer
+from ... import literal_column
+from ... import select
+from ... import String
+from ...sql.compiler import Compiled
+from ...util import inspect_getfullargspec
+
+
+class PingTest(fixtures.TestBase):
+    __backend__ = True
+
+    def test_do_ping(self):
+        with testing.db.connect() as conn:
+            is_true(
+                testing.db.dialect.do_ping(conn.connection.dbapi_connection)
+            )
+
+
+class ArgSignatureTest(fixtures.TestBase):
+    """test that all visit_XYZ() in :class:`_sql.Compiler` subclasses have
+    ``**kw``, for #8988.
+
+    This test uses runtime code inspection.   Does not need to be a
+    ``__backend__`` test as it only needs to run once provided all target
+    dialects have been imported.
+
+    For third party dialects, the suite would be run with that third
+    party as a "--dburi", which means its compiler classes will have been
+    imported by the time this test runs.
+
+    """
+
+    def _all_subclasses():  # type: ignore  # noqa
+        for d in dialects.__all__:
+            if not d.startswith("_"):
+                importlib.import_module("sqlalchemy.dialec
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_insert.py
+
+```python
+# testing/suite/test_insert.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from decimal import Decimal
+import uuid
+
+from . import testing
+from .. import fixtures
+from ..assertions import eq_
+from ..config import requirements
+from ..schema import Column
+from ..schema import Table
+from ... import Double
+from ... import Float
+from ... import Identity
+from ... import Integer
+from ... import literal
+from ... import literal_column
+from ... import Numeric
+from ... import select
+from ... import String
+from ...types import LargeBinary
+from ...types import UUID
+from ...types import Uuid
+
+
+class LastrowidTest(fixtures.TablesTest):
+    run_deletes = "each"
+
+    __backend__ = True
+
+    __requires__ = "implements_get_lastrowid", "autoincrement_insert"
+
+    @classmethod
+    def define_tables(cls, metadata):
+        Table(
+            "autoinc_pk",
+            metadata,
+            Column(
+                "id", Integer, primary_key=True, test_needs_autoincrement=True
+            ),
+            Column("data", String(50)),
+            implicit_returning=False,
+        )
+
+        Table(
+            "manual_pk",
+            metadata,
+            Column("id", Integer, primary_key=True, autoincrement=False),
+            Column("data", String(50)),
+            implicit_returning=False,
+        )
+
+    def _assert_round_trip(self, table, conn):
+        row = conn.execute(table.select()).first()
+        eq_(
+            row,
+            (
+                conn.dialect.default_sequence_base,
+                "some data",
+            ),
+        )
+
+    def test_autoincrement_on_insert(self, connection):
+        connection.execute(
+            self.tables.autoinc_pk.insert(), dict(data="some data")
+        )
+        self._assert_round_trip(self.tables.autoinc_pk, connection)
+
+    def test_last_inserted_i
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_reflection.py
+
+```python
+# testing/suite/test_reflection.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+import contextlib
+import operator
+import re
+
+import sqlalchemy as sa
+from .. import config
+from .. import engines
+from .. import eq_
+from .. import eq_regex
+from .. import expect_raises
+from .. import expect_raises_message
+from .. import expect_warnings
+from .. import fixtures
+from .. import is_
+from ..provision import get_temp_table_name
+from ..provision import temp_table_keyword_args
+from ..schema import Column
+from ..schema import Table
+from ... import Boolean
+from ... import DateTime
+from ... import event
+from ... import ForeignKey
+from ... import func
+from ... import Identity
+from ... import inspect
+from ... import Integer
+from ... import MetaData
+from ... import String
+from ... import testing
+from ... import types as sql_types
+from ...engine import Inspector
+from ...engine import ObjectKind
+from ...engine import ObjectScope
+from ...exc import NoSuchTableError
+from ...exc import UnreflectableTableError
+from ...schema import DDL
+from ...schema import Index
+from ...sql.elements import quoted_name
+from ...sql.schema import BLANK_SCHEMA
+from ...testing import ComparesIndexes
+from ...testing import ComparesTables
+from ...testing import is_false
+from ...testing import is_none
+from ...testing import is_true
+from ...testing import mock
+
+
+metadata, users = None, None
+
+
+class OneConnectionTablesTest(fixtures.TablesTest):
+    @classmethod
+    def setup_bind(cls):
+        # TODO: when temp tables are subject to server reset,
+        # this will also have to disable that server reset from
+        # happening
+        if config.requirements.independent_connections.enabled:
+            from sqlalchemy import pool
+
+            return engines.testing_engine(
+                options=dict(poolclass=pool.Static
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_results.py
+
+```python
+# testing/suite/test_results.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+import datetime
+import re
+
+from .. import engines
+from .. import fixtures
+from ..assertions import eq_
+from ..config import requirements
+from ..schema import Column
+from ..schema import Table
+from ... import DateTime
+from ... import func
+from ... import Integer
+from ... import select
+from ... import sql
+from ... import String
+from ... import testing
+from ... import text
+
+
+class RowFetchTest(fixtures.TablesTest):
+    __backend__ = True
+
+    @classmethod
+    def define_tables(cls, metadata):
+        Table(
+            "plain_pk",
+            metadata,
+            Column("id", Integer, primary_key=True),
+            Column("data", String(50)),
+        )
+        Table(
+            "has_dates",
+            metadata,
+            Column("id", Integer, primary_key=True),
+            Column("today", DateTime),
+        )
+
+    @classmethod
+    def insert_data(cls, connection):
+        connection.execute(
+            cls.tables.plain_pk.insert(),
+            [
+                {"id": 1, "data": "d1"},
+                {"id": 2, "data": "d2"},
+                {"id": 3, "data": "d3"},
+            ],
+        )
+
+        connection.execute(
+            cls.tables.has_dates.insert(),
+            [{"id": 1, "today": datetime.datetime(2006, 5, 12, 12, 0, 0)}],
+        )
+
+    def test_via_attr(self, connection):
+        row = connection.execute(
+            self.tables.plain_pk.select().order_by(self.tables.plain_pk.c.id)
+        ).first()
+
+        eq_(row.id, 1)
+        eq_(row.data, "d1")
+
+    def test_via_string(self, connection):
+        row = connection.execute(
+            self.tables.plain_pk.select().order_by(self.tables.plain_pk.c.id)
+        ).first()
+
+        eq_(row._mapping["id"], 1)
+        eq_(row._mapping
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_rowcount.py
+
+```python
+# testing/suite/test_rowcount.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from sqlalchemy import bindparam
+from sqlalchemy import Column
+from sqlalchemy import Integer
+from sqlalchemy import MetaData
+from sqlalchemy import select
+from sqlalchemy import String
+from sqlalchemy import Table
+from sqlalchemy import testing
+from sqlalchemy import text
+from sqlalchemy.testing import eq_
+from sqlalchemy.testing import fixtures
+
+
+class RowCountTest(fixtures.TablesTest):
+    """test rowcount functionality"""
+
+    __requires__ = ("sane_rowcount",)
+    __backend__ = True
+
+    @classmethod
+    def define_tables(cls, metadata):
+        Table(
+            "employees",
+            metadata,
+            Column(
+                "employee_id",
+                Integer,
+                autoincrement=False,
+                primary_key=True,
+            ),
+            Column("name", String(50)),
+            Column("department", String(1)),
+        )
+
+    @classmethod
+    def insert_data(cls, connection):
+        cls.data = data = [
+            ("Angela", "A"),
+            ("Andrew", "A"),
+            ("Anand", "A"),
+            ("Bob", "B"),
+            ("Bobette", "B"),
+            ("Buffy", "B"),
+            ("Charlie", "C"),
+            ("Cynthia", "C"),
+            ("Chris", "C"),
+        ]
+
+        employees_table = cls.tables.employees
+        connection.execute(
+            employees_table.insert(),
+            [
+                {"employee_id": i, "name": n, "department": d}
+                for i, (n, d) in enumerate(data)
+            ],
+        )
+
+    def test_basic(self, connection):
+        employees_table = self.tables.employees
+        s = select(
+            employees_table.c.name, employees_table.c.department
+        ).order_by(employees_table.c.employee_id)
+        rows = conne
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_select.py
+
+```python
+# testing/suite/test_select.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+import collections.abc as collections_abc
+import itertools
+
+from .. import AssertsCompiledSQL
+from .. import AssertsExecutionResults
+from .. import config
+from .. import fixtures
+from ..assertions import assert_raises
+from ..assertions import eq_
+from ..assertions import in_
+from ..assertsql import CursorSQL
+from ..schema import Column
+from ..schema import Table
+from ... import bindparam
+from ... import case
+from ... import column
+from ... import Computed
+from ... import exists
+from ... import false
+from ... import ForeignKey
+from ... import func
+from ... import Identity
+from ... import Integer
+from ... import literal
+from ... import literal_column
+from ... import null
+from ... import select
+from ... import String
+from ... import table
+from ... import testing
+from ... import text
+from ... import true
+from ... import tuple_
+from ... import TupleType
+from ... import union
+from ... import values
+from ...exc import DatabaseError
+from ...exc import ProgrammingError
+
+
+class CollateTest(fixtures.TablesTest):
+    __sparse_driver_backend__ = True
+
+    @classmethod
+    def define_tables(cls, metadata):
+        Table(
+            "some_table",
+            metadata,
+            Column("id", Integer, primary_key=True),
+            Column("data", String(100)),
+        )
+
+    @classmethod
+    def insert_data(cls, connection):
+        connection.execute(
+            cls.tables.some_table.insert(),
+            [
+                {"id": 1, "data": "collate data1"},
+                {"id": 2, "data": "collate data2"},
+            ],
+        )
+
+    def _assert_result(self, select, result):
+        with config.db.connect() as conn:
+            eq_(conn.execute(select).fetchall(), result)
+
+    @testing.requires.order_by_co
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_sequence.py
+
+```python
+# testing/suite/test_sequence.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from .. import config
+from .. import fixtures
+from ..assertions import eq_
+from ..assertions import is_true
+from ..config import requirements
+from ..provision import normalize_sequence
+from ..schema import Column
+from ..schema import Table
+from ... import inspect
+from ... import Integer
+from ... import MetaData
+from ... import Sequence
+from ... import String
+from ... import testing
+
+
+class SequenceTest(fixtures.TablesTest):
+    __requires__ = ("sequences",)
+    __sparse_driver_backend__ = True
+
+    run_create_tables = "each"
+
+    @classmethod
+    def define_tables(cls, metadata):
+        Table(
+            "seq_pk",
+            metadata,
+            Column(
+                "id",
+                Integer,
+                normalize_sequence(config, Sequence("tab_id_seq")),
+                primary_key=True,
+            ),
+            Column("data", String(50)),
+        )
+
+        Table(
+            "seq_opt_pk",
+            metadata,
+            Column(
+                "id",
+                Integer,
+                normalize_sequence(
+                    config,
+                    Sequence("tab_id_seq", data_type=Integer, optional=True),
+                ),
+                primary_key=True,
+            ),
+            Column("data", String(50)),
+        )
+
+        Table(
+            "seq_no_returning",
+            metadata,
+            Column(
+                "id",
+                Integer,
+                normalize_sequence(config, Sequence("noret_id_seq")),
+                primary_key=True,
+            ),
+            Column("data", String(50)),
+            implicit_returning=False,
+        )
+
+        if testing.requires.schemas.enabled:
+            Table(
+                "seq_no_returning_sch",
+      
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_types.py
+
+```python
+# testing/suite/test_types.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+import datetime
+import decimal
+import json
+import re
+import uuid
+
+from .. import config
+from .. import engines
+from .. import fixtures
+from .. import mock
+from ..assertions import eq_
+from ..assertions import is_
+from ..assertions import ne_
+from ..config import requirements
+from ..schema import Column
+from ..schema import Table
+from ... import and_
+from ... import ARRAY
+from ... import BigInteger
+from ... import bindparam
+from ... import Boolean
+from ... import case
+from ... import cast
+from ... import Date
+from ... import DateTime
+from ... import Enum
+from ... import Float
+from ... import Integer
+from ... import Interval
+from ... import JSON
+from ... import literal
+from ... import literal_column
+from ... import MetaData
+from ... import null
+from ... import Numeric
+from ... import select
+from ... import String
+from ... import testing
+from ... import Text
+from ... import Time
+from ... import TIMESTAMP
+from ... import type_coerce
+from ... import TypeDecorator
+from ... import Unicode
+from ... import UnicodeText
+from ... import UUID
+from ... import Uuid
+from ...orm import declarative_base
+from ...orm import Session
+from ...sql import sqltypes
+from ...sql.sqltypes import LargeBinary
+from ...sql.sqltypes import PickleType
+
+
+class _LiteralRoundTripFixture:
+    supports_whereclause = True
+
+    @testing.fixture
+    def literal_round_trip(self, metadata, connection):
+        """test literal rendering"""
+
+        # for literal, we test the literal render in an INSERT
+        # into a typed column.  we can then SELECT it back as its
+        # official type; ideally we'd be able to use CAST here
+        # but MySQL in particular can't CAST fully
+
+        def run(
+            type_,
+            input_,
+         
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_unicode_ddl.py
+
+```python
+# testing/suite/test_unicode_ddl.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+
+from sqlalchemy import desc
+from sqlalchemy import ForeignKey
+from sqlalchemy import Integer
+from sqlalchemy import MetaData
+from sqlalchemy import testing
+from sqlalchemy.testing import eq_
+from sqlalchemy.testing import fixtures
+from sqlalchemy.testing.schema import Column
+from sqlalchemy.testing.schema import Table
+
+
+class UnicodeSchemaTest(fixtures.TablesTest):
+    __requires__ = ("unicode_ddl",)
+    __backend__ = True
+
+    @classmethod
+    def define_tables(cls, metadata):
+        global t1, t2, t3
+
+        t1 = Table(
+            "unitable1",
+            metadata,
+            Column("méil", Integer, primary_key=True),
+            Column("\u6e2c\u8a66", Integer),
+            test_needs_fk=True,
+        )
+        t2 = Table(
+            "Unitéble2",
+            metadata,
+            Column("méil", Integer, primary_key=True, key="a"),
+            Column(
+                "\u6e2c\u8a66",
+                Integer,
+                ForeignKey("unitable1.méil"),
+                key="b",
+            ),
+            test_needs_fk=True,
+        )
+
+        # Few DBs support Unicode foreign keys
+        if testing.against("sqlite"):
+            t3 = Table(
+                "\u6e2c\u8a66",
+                metadata,
+                Column(
+                    "\u6e2c\u8a66_id",
+                    Integer,
+                    primary_key=True,
+                    autoincrement=False,
+                ),
+                Column(
+                    "unitable1_\u6e2c\u8a66",
+                    Integer,
+                    ForeignKey("unitable1.\u6e2c\u8a66"),
+                ),
+                Column("Unitéble2_b", Integer, ForeignKey("Unitéble2.b")),
+                Column(
+                    "\u6e2c\u8a66_
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/testing/suite/test_update_delete.py
+
+```python
+# testing/suite/test_update_delete.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+from .. import fixtures
+from ..assertions import eq_
+from ..schema import Column
+from ..schema import Table
+from ... import Integer
+from ... import String
+from ... import testing
+
+
+class SimpleUpdateDeleteTest(fixtures.TablesTest):
+    run_deletes = "each"
+    __requires__ = ("sane_rowcount",)
+    __sparse_driver_backend__ = True
+
+    @classmethod
+    def define_tables(cls, metadata):
+        Table(
+            "plain_pk",
+            metadata,
+            Column("id", Integer, primary_key=True),
+            Column("data", String(50)),
+        )
+
+    @classmethod
+    def insert_data(cls, connection):
+        connection.execute(
+            cls.tables.plain_pk.insert(),
+            [
+                {"id": 1, "data": "d1"},
+                {"id": 2, "data": "d2"},
+                {"id": 3, "data": "d3"},
+            ],
+        )
+
+    def test_update(self, connection):
+        t = self.tables.plain_pk
+        r = connection.execute(
+            t.update().where(t.c.id == 2), dict(data="d2_new")
+        )
+        assert not r.is_insert
+        assert not r.returns_rows
+        assert r.rowcount == 1
+
+        eq_(
+            connection.execute(t.select().order_by(t.c.id)).fetchall(),
+            [(1, "d1"), (2, "d2_new"), (3, "d3")],
+        )
+
+    def test_delete(self, connection):
+        t = self.tables.plain_pk
+        r = connection.execute(t.delete().where(t.c.id == 2))
+        assert not r.is_insert
+        assert not r.returns_rows
+        assert r.rowcount == 1
+        eq_(
+            connection.execute(t.select().order_by(t.c.id)).fetchall(),
+            [(1, "d1"), (3, "d3")],
+        )
+
+    @testing.variation("criteria", ["rows", "norows", "emptyin"])
+    @testing.requires.update_re
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/__init__.py
+
+```python
+# util/__init__.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+
+from collections import defaultdict as defaultdict
+from functools import partial as partial
+from functools import update_wrapper as update_wrapper
+
+from . import preloaded as preloaded
+from ._collections import coerce_generator_arg as coerce_generator_arg
+from ._collections import coerce_to_immutabledict as coerce_to_immutabledict
+from ._collections import column_dict as column_dict
+from ._collections import column_set as column_set
+from ._collections import EMPTY_DICT as EMPTY_DICT
+from ._collections import EMPTY_SET as EMPTY_SET
+from ._collections import FacadeDict as FacadeDict
+from ._collections import flatten_iterator as flatten_iterator
+from ._collections import has_dupes as has_dupes
+from ._collections import has_intersection as has_intersection
+from ._collections import IdentitySet as IdentitySet
+from ._collections import immutabledict as immutabledict
+from ._collections import LRUCache as LRUCache
+from ._collections import merge_lists_w_ordering as merge_lists_w_ordering
+from ._collections import NONE_SET as NONE_SET
+from ._collections import ordered_column_set as ordered_column_set
+from ._collections import OrderedDict as OrderedDict
+from ._collections import OrderedIdentitySet as OrderedIdentitySet
+from ._collections import OrderedProperties as OrderedProperties
+from ._collections import OrderedSet as OrderedSet
+from ._collections import PopulateDict as PopulateDict
+from ._collections import Properties as Properties
+from ._collections import ReadOnlyContainer as ReadOnlyContainer
+from ._collections import ReadOnlyProperties as ReadOnlyProperties
+from ._collections import ScopedRegistry as ScopedRegistry
+from ._collections import sort_dictionary as sort_dictionary
+from ._collections import ThreadLocalRegistry as ThreadLoc
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/_collections.py
+
+```python
+# util/_collections.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Collection classes and helpers."""
+from __future__ import annotations
+
+import operator
+import threading
+import types
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Container
+from typing import Dict
+from typing import FrozenSet
+from typing import Generic
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import TypeVar
+from typing import Union
+from typing import ValuesView
+import weakref
+
+from ._has_cy import HAS_CYEXTENSION
+from .typing import is_non_string_iterable
+from .typing import Literal
+from .typing import Protocol
+
+if typing.TYPE_CHECKING or not HAS_CYEXTENSION:
+    from ._py_collections import immutabledict as immutabledict
+    from ._py_collections import IdentitySet as IdentitySet
+    from ._py_collections import ReadOnlyContainer as ReadOnlyContainer
+    from ._py_collections import ImmutableDictBase as ImmutableDictBase
+    from ._py_collections import OrderedSet as OrderedSet
+    from ._py_collections import unique_list as unique_list
+else:
+    from sqlalchemy.cyextension.immutabledict import (
+        ReadOnlyContainer as ReadOnlyContainer,
+    )
+    from sqlalchemy.cyextension.immutabledict import (
+        ImmutableDictBase as ImmutableDictBase,
+    )
+    from sqlalchemy.cyextension.immutabledict import (
+        immutabledict as immutabledict,
+    )
+    from sqlalchemy.cyextension.collections import IdentitySet as IdentitySet
+    from sqlalchemy.cyextension.collections import O
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/_concurrency_py3k.py
+
+```python
+# util/_concurrency_py3k.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+from __future__ import annotations
+
+import asyncio
+from contextvars import Context
+import sys
+import typing
+from typing import Any
+from typing import Awaitable
+from typing import Callable
+from typing import Coroutine
+from typing import Optional
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from .langhelpers import memoized_property
+from .. import exc
+from ..util import py311
+from ..util.typing import Literal
+from ..util.typing import Protocol
+from ..util.typing import Self
+from ..util.typing import TypeGuard
+
+_T = TypeVar("_T")
+
+if typing.TYPE_CHECKING:
+
+    class greenlet(Protocol):
+        dead: bool
+        gr_context: Optional[Context]
+
+        def __init__(self, fn: Callable[..., Any], driver: greenlet): ...
+
+        def throw(self, *arg: Any) -> Any:
+            return None
+
+        def switch(self, value: Any) -> Any:
+            return None
+
+    def getcurrent() -> greenlet: ...
+
+else:
+    from greenlet import getcurrent
+    from greenlet import greenlet
+
+
+# If greenlet.gr_context is present in current version of greenlet,
+# it will be set with the current context on creation.
+# Refs: https://github.com/python-greenlet/greenlet/pull/198
+_has_gr_context = hasattr(getcurrent(), "gr_context")
+
+
+def is_exit_exception(e: BaseException) -> bool:
+    # note asyncio.CancelledError is already BaseException
+    # so was an exit exception in any case
+    return not isinstance(e, Exception) or isinstance(
+        e, (asyncio.TimeoutError, asyncio.CancelledError)
+    )
+
+
+# implementation based on snaury gist at
+# https://gist.github.com/snaury/202bf4f22c41ca34e56297bae5f33fef
+# Issue for context: https://github.com/python-greenlet/greenlet/is
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/_has_cy.py
+
+```python
+# util/_has_cy.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: ignore-errors
+
+import os
+import typing
+
+
+def _import_cy_extensions():
+    # all cython extension extension modules are treated as optional by the
+    # setup, so to ensure that all are compiled, all should be imported here
+    from ..cyextension import collections
+    from ..cyextension import immutabledict
+    from ..cyextension import processors
+    from ..cyextension import resultproxy
+    from ..cyextension import util
+
+    return (collections, immutabledict, processors, resultproxy, util)
+
+
+_CYEXTENSION_MSG: str
+if not typing.TYPE_CHECKING:
+    if os.environ.get("DISABLE_SQLALCHEMY_CEXT_RUNTIME"):
+        HAS_CYEXTENSION = False
+        _CYEXTENSION_MSG = "DISABLE_SQLALCHEMY_CEXT_RUNTIME is set"
+    else:
+        try:
+            _import_cy_extensions()
+        except ImportError as err:
+            HAS_CYEXTENSION = False
+            _CYEXTENSION_MSG = str(err)
+        else:
+            _CYEXTENSION_MSG = "Loaded"
+            HAS_CYEXTENSION = True
+else:
+    HAS_CYEXTENSION = False
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/_py_collections.py
+
+```python
+# util/_py_collections.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+from __future__ import annotations
+
+from itertools import filterfalse
+from typing import AbstractSet
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Collection
+from typing import Dict
+from typing import Iterable
+from typing import Iterator
+from typing import List
+from typing import Mapping
+from typing import NoReturn
+from typing import Optional
+from typing import Set
+from typing import Tuple
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+from ..util.typing import Self
+
+_T = TypeVar("_T", bound=Any)
+_S = TypeVar("_S", bound=Any)
+_KT = TypeVar("_KT", bound=Any)
+_VT = TypeVar("_VT", bound=Any)
+
+
+class ReadOnlyContainer:
+    __slots__ = ()
+
+    def _readonly(self, *arg: Any, **kw: Any) -> NoReturn:
+        raise TypeError(
+            "%s object is immutable and/or readonly" % self.__class__.__name__
+        )
+
+    def _immutable(self, *arg: Any, **kw: Any) -> NoReturn:
+        raise TypeError("%s object is immutable" % self.__class__.__name__)
+
+    def __delitem__(self, key: Any) -> NoReturn:
+        self._readonly()
+
+    def __setitem__(self, key: Any, value: Any) -> NoReturn:
+        self._readonly()
+
+    def __setattr__(self, key: str, value: Any) -> NoReturn:
+        self._readonly()
+
+
+class ImmutableDictBase(ReadOnlyContainer, Dict[_KT, _VT]):
+    if TYPE_CHECKING:
+
+        def __new__(cls, *args: Any) -> Self: ...
+
+        def __init__(cls, *args: Any): ...
+
+    def _readonly(self, *arg: Any, **kw: Any) -> NoReturn:
+        self._immutable()
+
+    def clear(self) -> NoReturn:
+        self._readonly()
+
+    def pop(self, key: Any, default: Optional[Any] = None) -> NoReturn:
+        self._readonl
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/compat.py
+
+```python
+# util/compat.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Handle Python version/platform incompatibilities."""
+
+from __future__ import annotations
+
+import base64
+import dataclasses
+import hashlib
+import inspect
+import operator
+import platform
+import sys
+import sysconfig
+import typing
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import Iterable
+from typing import List
+from typing import Mapping
+from typing import Optional
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TypeVar
+
+
+py314b1 = sys.version_info >= (3, 14, 0, "beta", 1)
+py314 = sys.version_info >= (3, 14)
+py313 = sys.version_info >= (3, 13)
+py312 = sys.version_info >= (3, 12)
+py311 = sys.version_info >= (3, 11)
+py310 = sys.version_info >= (3, 10)
+py39 = sys.version_info >= (3, 9)
+py38 = sys.version_info >= (3, 8)
+pypy = platform.python_implementation() == "PyPy"
+cpython = platform.python_implementation() == "CPython"
+freethreading = bool(sysconfig.get_config_var("Py_GIL_DISABLED"))
+
+win32 = sys.platform.startswith("win")
+osx = sys.platform.startswith("darwin")
+arm = "aarch" in platform.machine().lower()
+is64bit = sys.maxsize > 2**32
+
+has_refcount_gc = bool(cpython)
+
+dottedgetter = operator.attrgetter
+
+_T_co = TypeVar("_T_co", covariant=True)
+
+
+if py314:
+    # vendor a minimal form of get_annotations per
+    # https://github.com/python/cpython/issues/133684#issuecomment-2863841891
+
+    from annotationlib import call_annotate_function  # type: ignore[import-not-found,unused-ignore]  # noqa: E501
+    from annotationlib import Format
+
+    def _get_and_call_annotate(obj, format):  # noqa: A002
+        annotate = getattr(obj, "__annotate__", None)
+      
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/concurrency.py
+
+```python
+# util/concurrency.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""asyncio-related concurrency functions."""
+
+from __future__ import annotations
+
+import asyncio  # noqa
+import typing
+from typing import Any
+from typing import Callable
+from typing import Coroutine
+from typing import TypeVar
+
+have_greenlet = False
+greenlet_error = None
+try:
+    import greenlet  # type: ignore[import-untyped,unused-ignore]  # noqa: F401,E501
+except ImportError as e:
+    greenlet_error = str(e)
+    pass
+else:
+    have_greenlet = True
+    from ._concurrency_py3k import await_only as await_only
+    from ._concurrency_py3k import await_fallback as await_fallback
+    from ._concurrency_py3k import in_greenlet as in_greenlet
+    from ._concurrency_py3k import greenlet_spawn as greenlet_spawn
+    from ._concurrency_py3k import is_exit_exception as is_exit_exception
+    from ._concurrency_py3k import AsyncAdaptedLock as AsyncAdaptedLock
+    from ._concurrency_py3k import _Runner
+
+_T = TypeVar("_T")
+
+
+class _AsyncUtil:
+    """Asyncio util for test suite/ util only"""
+
+    def __init__(self) -> None:
+        if have_greenlet:
+            self.runner = _Runner()
+
+    def run(
+        self,
+        fn: Callable[..., Coroutine[Any, Any, _T]],
+        *args: Any,
+        **kwargs: Any,
+    ) -> _T:
+        """Run coroutine on the loop"""
+        return self.runner.run(fn(*args, **kwargs))
+
+    def run_in_greenlet(
+        self, fn: Callable[..., _T], *args: Any, **kwargs: Any
+    ) -> _T:
+        """Run sync function in greenlet. Support nested calls"""
+        if have_greenlet:
+            if self.runner.get_loop().is_running():
+                return fn(*args, **kwargs)
+            else:
+                return self.runner.run(greenlet_spawn(fn, *args, **kwargs))
+        else:
+ 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/deprecations.py
+
+```python
+# util/deprecations.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Helpers related to deprecation of functions, methods, classes, other
+functionality."""
+
+from __future__ import annotations
+
+import re
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import Match
+from typing import Optional
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TypeVar
+from typing import Union
+
+from . import compat
+from .langhelpers import _hash_limit_string
+from .langhelpers import _warnings_warn
+from .langhelpers import decorator
+from .langhelpers import inject_docstring_text
+from .langhelpers import inject_param_text
+from .. import exc
+
+_T = TypeVar("_T", bound=Any)
+
+
+# https://mypy.readthedocs.io/en/stable/generics.html#declaring-decorators
+_F = TypeVar("_F", bound="Callable[..., Any]")
+
+
+def _warn_with_version(
+    msg: str,
+    version: str,
+    type_: Type[exc.SADeprecationWarning],
+    stacklevel: int,
+    code: Optional[str] = None,
+) -> None:
+    warn = type_(msg, code=code)
+    warn.deprecated_since = version
+
+    _warnings_warn(warn, stacklevel=stacklevel + 1)
+
+
+def warn_deprecated(
+    msg: str, version: str, stacklevel: int = 3, code: Optional[str] = None
+) -> None:
+    _warn_with_version(
+        msg, version, exc.SADeprecationWarning, stacklevel, code=code
+    )
+
+
+def warn_deprecated_limited(
+    msg: str,
+    args: Sequence[Any],
+    version: str,
+    stacklevel: int = 3,
+    code: Optional[str] = None,
+) -> None:
+    """Issue a deprecation warning with a parameterized string,
+    limiting the number of registrations.
+
+    """
+    if args:
+        msg = _hash_limit_string(msg, 10, args)
+    _warn_with_version(
+        msg, version, exc.SADepreca
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py
+
+```python
+# util/langhelpers.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""Routines to help with the creation, loading and introspection of
+modules, classes, hierarchies, attributes, functions, and methods.
+
+"""
+from __future__ import annotations
+
+import collections
+import enum
+from functools import update_wrapper
+import inspect
+import itertools
+import operator
+import re
+import sys
+import textwrap
+import threading
+import types
+from types import CodeType
+from typing import Any
+from typing import Callable
+from typing import cast
+from typing import Dict
+from typing import FrozenSet
+from typing import Generic
+from typing import Iterator
+from typing import List
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+import warnings
+
+from . import _collections
+from . import compat
+from ._has_cy import HAS_CYEXTENSION
+from .typing import Literal
+from .. import exc
+
+_T = TypeVar("_T")
+_T_co = TypeVar("_T_co", covariant=True)
+_F = TypeVar("_F", bound=Callable[..., Any])
+_MP = TypeVar("_MP", bound="memoized_property[Any]")
+_MA = TypeVar("_MA", bound="HasMemoized.memoized_attribute[Any]")
+_HP = TypeVar("_HP", bound="hybridproperty[Any]")
+_HM = TypeVar("_HM", bound="hybridmethod[Any]")
+
+
+def md5_hex(x: Any) -> str:
+    x = x.encode("utf-8")
+    m = compat.md5_not_for_security()
+    m.update(x)
+    return cast(str, m.hexdigest())
+
+
+class safe_reraise:
+    """Reraise an exception after invoking some
+    handler code.
+
+    Stores the existing exception info before
+    invoking so that it is maintained across a potential
+    coroutine context switch.
+
+    e.g.
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/preloaded.py
+
+```python
+# util/preloaded.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""supplies the "preloaded" registry to resolve circular module imports at
+runtime.
+
+"""
+from __future__ import annotations
+
+import sys
+from typing import Any
+from typing import Callable
+from typing import TYPE_CHECKING
+from typing import TypeVar
+
+_FN = TypeVar("_FN", bound=Callable[..., Any])
+
+
+if TYPE_CHECKING:
+    from sqlalchemy import dialects as _dialects
+    from sqlalchemy import orm as _orm
+    from sqlalchemy.engine import cursor as _engine_cursor
+    from sqlalchemy.engine import default as _engine_default
+    from sqlalchemy.engine import reflection as _engine_reflection
+    from sqlalchemy.engine import result as _engine_result
+    from sqlalchemy.engine import url as _engine_url
+    from sqlalchemy.orm import attributes as _orm_attributes
+    from sqlalchemy.orm import base as _orm_base
+    from sqlalchemy.orm import clsregistry as _orm_clsregistry
+    from sqlalchemy.orm import decl_api as _orm_decl_api
+    from sqlalchemy.orm import decl_base as _orm_decl_base
+    from sqlalchemy.orm import dependency as _orm_dependency
+    from sqlalchemy.orm import descriptor_props as _orm_descriptor_props
+    from sqlalchemy.orm import mapperlib as _orm_mapper
+    from sqlalchemy.orm import properties as _orm_properties
+    from sqlalchemy.orm import relationships as _orm_relationships
+    from sqlalchemy.orm import session as _orm_session
+    from sqlalchemy.orm import state as _orm_state
+    from sqlalchemy.orm import strategies as _orm_strategies
+    from sqlalchemy.orm import strategy_options as _orm_strategy_options
+    from sqlalchemy.orm import util as _orm_util
+    from sqlalchemy.sql import default_comparator as _sql_default_comparator
+    from sqlalchemy.sql import dml as 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/queue.py
+
+```python
+# util/queue.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+"""An adaptation of Py2.3/2.4's Queue module which supports reentrant
+behavior, using RLock instead of Lock for its mutex object.  The
+Queue object is used exclusively by the sqlalchemy.pool.QueuePool
+class.
+
+This is to support the connection pool's usage of weakref callbacks to return
+connections to the underlying Queue, which can in extremely
+rare cases be invoked within the ``get()`` method of the Queue itself,
+producing a ``put()`` inside the ``get()`` and therefore a reentrant
+condition.
+
+"""
+from __future__ import annotations
+
+import asyncio
+from collections import deque
+import threading
+from time import time as _time
+import typing
+from typing import Any
+from typing import Awaitable
+from typing import Deque
+from typing import Generic
+from typing import Optional
+from typing import TypeVar
+
+from .concurrency import await_fallback
+from .concurrency import await_only
+from .langhelpers import memoized_property
+
+
+_T = TypeVar("_T", bound=Any)
+__all__ = ["Empty", "Full", "Queue"]
+
+
+class Empty(Exception):
+    "Exception raised by Queue.get(block=0)/get_nowait()."
+
+    pass
+
+
+class Full(Exception):
+    "Exception raised by Queue.put(block=0)/put_nowait()."
+
+    pass
+
+
+class QueueCommon(Generic[_T]):
+    maxsize: int
+    use_lifo: bool
+
+    def __init__(self, maxsize: int = 0, use_lifo: bool = False): ...
+
+    def empty(self) -> bool:
+        raise NotImplementedError()
+
+    def full(self) -> bool:
+        raise NotImplementedError()
+
+    def qsize(self) -> int:
+        raise NotImplementedError()
+
+    def put_nowait(self, item: _T) -> None:
+        raise NotImplementedError()
+
+    def put(
+        self, item: _T, block: bool = True, timeout: Optional[float] = None
+    ) -> None:
+        rai
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/tool_support.py
+
+```python
+# util/tool_support.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+"""support routines for the helpers in tools/.
+
+These aren't imported by the enclosing util package as the are not
+needed for normal library use.
+
+"""
+from __future__ import annotations
+
+from argparse import ArgumentParser
+from argparse import Namespace
+import contextlib
+import difflib
+import os
+from pathlib import Path
+import shlex
+import shutil
+import subprocess
+import sys
+from typing import Any
+from typing import Dict
+from typing import Iterator
+from typing import Optional
+from typing import Union
+
+from . import compat
+
+
+class code_writer_cmd:
+    parser: ArgumentParser
+    args: Namespace
+    suppress_output: bool
+    diffs_detected: bool
+    source_root: Path
+    pyproject_toml_path: Path
+
+    def __init__(self, tool_script: str):
+        self.source_root = Path(tool_script).parent.parent
+        self.pyproject_toml_path = self.source_root / Path("pyproject.toml")
+        assert self.pyproject_toml_path.exists()
+
+        self.parser = ArgumentParser()
+        self.parser.add_argument(
+            "--stdout",
+            action="store_true",
+            help="Write to stdout instead of saving to file",
+        )
+        self.parser.add_argument(
+            "-c",
+            "--check",
+            help="Don't write the files back, just return the "
+            "status. Return code 0 means nothing would change. "
+            "Return code 1 means some files would be reformatted",
+            action="store_true",
+        )
+
+    def run_zimports(self, tempfile: str) -> None:
+        self._run_console_script(
+            str(tempfile),
+            {
+                "entrypoint": "zimports",
+                "options": f"--toml-config {self.pyproject_toml_path}",
+            },
+       
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/topological.py
+
+```python
+# util/topological.py
+# Copyright (C) 2005-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+
+"""Topological sorting algorithms."""
+
+from __future__ import annotations
+
+from typing import Any
+from typing import Collection
+from typing import DefaultDict
+from typing import Iterable
+from typing import Iterator
+from typing import Sequence
+from typing import Set
+from typing import Tuple
+from typing import TypeVar
+
+from .. import util
+from ..exc import CircularDependencyError
+
+_T = TypeVar("_T", bound=Any)
+
+__all__ = ["sort", "sort_as_subsets", "find_cycles"]
+
+
+def sort_as_subsets(
+    tuples: Collection[Tuple[_T, _T]], allitems: Collection[_T]
+) -> Iterator[Sequence[_T]]:
+    edges: DefaultDict[_T, Set[_T]] = util.defaultdict(set)
+    for parent, child in tuples:
+        edges[child].add(parent)
+
+    todo = list(allitems)
+    todo_set = set(allitems)
+
+    while todo_set:
+        output = []
+        for node in todo:
+            if todo_set.isdisjoint(edges[node]):
+                output.append(node)
+
+        if not output:
+            raise CircularDependencyError(
+                "Circular dependency detected.",
+                find_cycles(tuples, allitems),
+                _gen_edges(edges),
+            )
+
+        todo_set.difference_update(output)
+        todo = [t for t in todo if t in todo_set]
+        yield output
+
+
+def sort(
+    tuples: Collection[Tuple[_T, _T]],
+    allitems: Collection[_T],
+    deterministic_order: bool = True,
+) -> Iterator[_T]:
+    """sort the given list of items by dependency.
+
+    'tuples' is a list of tuples representing a partial ordering.
+
+    deterministic_order is no longer used, the order is now always
+    deterministic given the order of "allitems".    the flag is there
+    for backwards compatibility with Alembic.
+
+    """
+
+    for set_ in sort_as_subsets(tuples, allitems):
+        yield f
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/sqlalchemy/util/typing.py
+
+```python
+# util/typing.py
+# Copyright (C) 2022-2026 the SQLAlchemy authors and contributors
+# <see AUTHORS file>
+#
+# This module is part of SQLAlchemy and is released under
+# the MIT License: https://www.opensource.org/licenses/mit-license.php
+# mypy: allow-untyped-defs, allow-untyped-calls
+
+from __future__ import annotations
+
+import builtins
+from collections import deque
+import collections.abc as collections_abc
+import re
+import sys
+import typing
+from typing import Any
+from typing import Callable
+from typing import Dict
+from typing import ForwardRef
+from typing import Generic
+from typing import Iterable
+from typing import Mapping
+from typing import NewType
+from typing import NoReturn
+from typing import Optional
+from typing import overload
+from typing import Set
+from typing import Tuple
+from typing import Type
+from typing import TYPE_CHECKING
+from typing import TypeVar
+from typing import Union
+
+import typing_extensions
+
+from . import compat
+
+if True:  # zimports removes the tailing comments
+    from typing_extensions import Annotated as Annotated  # 3.8
+    from typing_extensions import Concatenate as Concatenate  # 3.10
+    from typing_extensions import (
+        dataclass_transform as dataclass_transform,  # 3.11,
+    )
+    from typing_extensions import Final as Final  # 3.8
+    from typing_extensions import final as final  # 3.8
+    from typing_extensions import get_args as get_args  # 3.10
+    from typing_extensions import get_origin as get_origin  # 3.10
+    from typing_extensions import Literal as Literal  # 3.8
+    from typing_extensions import NotRequired as NotRequired  # 3.11
+    from typing_extensions import ParamSpec as ParamSpec  # 3.10
+    from typing_extensions import Protocol as Protocol  # 3.8
+    from typing_extensions import SupportsIndex as SupportsIndex  # 3.8
+    from typing_extensions import TypeAlias as TypeAlias  # 3.10
+    from typing_extensions import TypedDict as TypedDict  # 3.8
+    from typing_extensions import TypeGuard as TypeGuard  # 3.10
+   
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy/__init__.py
+
+```python
+from __future__ import annotations
+
+import typing as t
+
+from .extension import SQLAlchemy
+
+__all__ = [
+    "SQLAlchemy",
+]
+
+
+def __getattr__(name: str) -> t.Any:
+    if name == "__version__":
+        import importlib.metadata
+        import warnings
+
+        warnings.warn(
+            "The '__version__' attribute is deprecated and will be removed in"
+            " Flask-SQLAlchemy 3.2. Use feature detection or"
+            " 'importlib.metadata.version(\"flask-sqlalchemy\")' instead.",
+            DeprecationWarning,
+            stacklevel=2,
+        )
+        return importlib.metadata.version("flask-sqlalchemy")
+
+    raise AttributeError(name)
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy/cli.py
+
+```python
+from __future__ import annotations
+
+import typing as t
+
+from flask import current_app
+
+
+def add_models_to_shell() -> dict[str, t.Any]:
+    """Registered with :meth:`~flask.Flask.shell_context_processor` if
+    ``add_models_to_shell`` is enabled. Adds the ``db`` instance and all model classes
+    to ``flask shell``.
+    """
+    db = current_app.extensions["sqlalchemy"]
+    out = {m.class_.__name__: m.class_ for m in db.Model._sa_registry.mappers}
+    out["db"] = db
+    return out
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy/extension.py
+
+```python
+from __future__ import annotations
+
+import os
+import types
+import typing as t
+import warnings
+from weakref import WeakKeyDictionary
+
+import sqlalchemy as sa
+import sqlalchemy.event as sa_event
+import sqlalchemy.exc as sa_exc
+import sqlalchemy.orm as sa_orm
+from flask import abort
+from flask import current_app
+from flask import Flask
+from flask import has_app_context
+
+from .model import _QueryProperty
+from .model import BindMixin
+from .model import DefaultMeta
+from .model import DefaultMetaNoName
+from .model import Model
+from .model import NameMixin
+from .pagination import Pagination
+from .pagination import SelectPagination
+from .query import Query
+from .session import _app_ctx_id
+from .session import Session
+from .table import _Table
+
+_O = t.TypeVar("_O", bound=object)  # Based on sqlalchemy.orm._typing.py
+
+
+# Type accepted for model_class argument
+_FSA_MCT = t.TypeVar(
+    "_FSA_MCT",
+    bound=t.Union[
+        t.Type[Model],
+        sa_orm.DeclarativeMeta,
+        t.Type[sa_orm.DeclarativeBase],
+        t.Type[sa_orm.DeclarativeBaseNoMeta],
+    ],
+)
+
+
+# Type returned by make_declarative_base
+class _FSAModel(Model):
+    metadata: sa.MetaData
+
+
+def _get_2x_declarative_bases(
+    model_class: _FSA_MCT,
+) -> list[t.Type[t.Union[sa_orm.DeclarativeBase, sa_orm.DeclarativeBaseNoMeta]]]:
+    return [
+        b
+        for b in model_class.__bases__
+        if issubclass(b, (sa_orm.DeclarativeBase, sa_orm.DeclarativeBaseNoMeta))
+    ]
+
+
+class SQLAlchemy:
+    """Integrates SQLAlchemy with Flask. This handles setting up one or more engines,
+    associating tables and models with specific engines, and cleaning up connections and
+    sessions after each request.
+
+    Only the engine configuration is specific to each application, other things like
+    the model, table, metadata, and session are shared for all applications using that
+    extension instance. Call :meth:`init_app` to configure the extension on an
+    application.
+
+    After creating the extension, create model cla
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy/model.py
+
+```python
+from __future__ import annotations
+
+import re
+import typing as t
+
+import sqlalchemy as sa
+import sqlalchemy.orm as sa_orm
+
+from .query import Query
+
+if t.TYPE_CHECKING:
+    from .extension import SQLAlchemy
+
+
+class _QueryProperty:
+    """A class property that creates a query object for a model.
+
+    :meta private:
+    """
+
+    def __get__(self, obj: Model | None, cls: type[Model]) -> Query:
+        return cls.query_class(
+            cls, session=cls.__fsa__.session()  # type: ignore[arg-type]
+        )
+
+
+class Model:
+    """The base class of the :attr:`.SQLAlchemy.Model` declarative model class.
+
+    To define models, subclass :attr:`db.Model <.SQLAlchemy.Model>`, not this. To
+    customize ``db.Model``, subclass this and pass it as ``model_class`` to
+    :class:`.SQLAlchemy`. To customize ``db.Model`` at the metaclass level, pass an
+    already created declarative model class as ``model_class``.
+    """
+
+    __fsa__: t.ClassVar[SQLAlchemy]
+    """Internal reference to the extension object.
+
+    :meta private:
+    """
+
+    query_class: t.ClassVar[type[Query]] = Query
+    """Query class used by :attr:`query`. Defaults to :attr:`.SQLAlchemy.Query`, which
+    defaults to :class:`.Query`.
+    """
+
+    query: t.ClassVar[Query] = _QueryProperty()  # type: ignore[assignment]
+    """A SQLAlchemy query for a model. Equivalent to ``db.session.query(Model)``. Can be
+    customized per-model by overriding :attr:`query_class`.
+
+    .. warning::
+        The query interface is considered legacy in SQLAlchemy. Prefer using
+        ``session.execute(select())`` instead.
+    """
+
+    def __repr__(self) -> str:
+        state = sa.inspect(self)
+        assert state is not None
+
+        if state.transient:
+            pk = f"(transient {id(self)})"
+        elif state.pending:
+            pk = f"(pending {id(self)})"
+        else:
+            pk = ", ".join(map(str, state.identity))
+
+        return f"<{type(self).__name__} {pk}>"
+
+
+class BindMetaMixin(type):
+    """Metaclass mixin that 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy/pagination.py
+
+```python
+from __future__ import annotations
+
+import typing as t
+from math import ceil
+
+import sqlalchemy as sa
+import sqlalchemy.orm as sa_orm
+from flask import abort
+from flask import request
+
+
+class Pagination:
+    """Apply an offset and limit to the query based on the current page and number of
+    items per page.
+
+    Don't create pagination objects manually. They are created by
+    :meth:`.SQLAlchemy.paginate` and :meth:`.Query.paginate`.
+
+    This is a base class, a subclass must implement :meth:`_query_items` and
+    :meth:`_query_count`. Those methods will use arguments passed as ``kwargs`` to
+    perform the queries.
+
+    :param page: The current page, used to calculate the offset. Defaults to the
+        ``page`` query arg during a request, or 1 otherwise.
+    :param per_page: The maximum number of items on a page, used to calculate the
+        offset and limit. Defaults to the ``per_page`` query arg during a request,
+        or 20 otherwise.
+    :param max_per_page: The maximum allowed value for ``per_page``, to limit a
+        user-provided value. Use ``None`` for no limit. Defaults to 100.
+    :param error_out: Abort with a ``404 Not Found`` error if no items are returned
+        and ``page`` is not 1, or if ``page`` or ``per_page`` is less than 1, or if
+        either are not ints.
+    :param count: Calculate the total number of values by issuing an extra count
+        query. For very complex queries this may be inaccurate or slow, so it can be
+        disabled and set manually if necessary.
+    :param kwargs: Information about the query to paginate. Different subclasses will
+        require different arguments.
+
+    .. versionchanged:: 3.0
+        Iterating over a pagination object iterates over its items.
+
+    .. versionchanged:: 3.0
+        Creating instances manually is not a public API.
+    """
+
+    def __init__(
+        self,
+        page: int | None = None,
+        per_page: int | None = None,
+        max_per_page: int | None = 100,
+        error_out: bo
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy/query.py
+
+```python
+from __future__ import annotations
+
+import typing as t
+
+import sqlalchemy.exc as sa_exc
+import sqlalchemy.orm as sa_orm
+from flask import abort
+
+from .pagination import Pagination
+from .pagination import QueryPagination
+
+
+class Query(sa_orm.Query):  # type: ignore[type-arg]
+    """SQLAlchemy :class:`~sqlalchemy.orm.query.Query` subclass with some extra methods
+    useful for querying in a web application.
+
+    This is the default query class for :attr:`.Model.query`.
+
+    .. versionchanged:: 3.0
+        Renamed to ``Query`` from ``BaseQuery``.
+    """
+
+    def get_or_404(self, ident: t.Any, description: str | None = None) -> t.Any:
+        """Like :meth:`~sqlalchemy.orm.Query.get` but aborts with a ``404 Not Found``
+        error instead of returning ``None``.
+
+        :param ident: The primary key to query.
+        :param description: A custom message to show on the error page.
+        """
+        rv = self.get(ident)
+
+        if rv is None:
+            abort(404, description=description)
+
+        return rv
+
+    def first_or_404(self, description: str | None = None) -> t.Any:
+        """Like :meth:`~sqlalchemy.orm.Query.first` but aborts with a ``404 Not Found``
+        error instead of returning ``None``.
+
+        :param description: A custom message to show on the error page.
+        """
+        rv = self.first()
+
+        if rv is None:
+            abort(404, description=description)
+
+        return rv
+
+    def one_or_404(self, description: str | None = None) -> t.Any:
+        """Like :meth:`~sqlalchemy.orm.Query.one` but aborts with a ``404 Not Found``
+        error instead of raising ``NoResultFound`` or ``MultipleResultsFound``.
+
+        :param description: A custom message to show on the error page.
+
+        .. versionadded:: 3.0
+        """
+        try:
+            return self.one()
+        except (sa_exc.NoResultFound, sa_exc.MultipleResultsFound):
+            abort(404, description=description)
+
+    def paginate(
+        self,
+        *,
+        page: int 
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy/record_queries.py
+
+```python
+from __future__ import annotations
+
+import dataclasses
+import inspect
+import typing as t
+from time import perf_counter
+
+import sqlalchemy as sa
+import sqlalchemy.event as sa_event
+from flask import current_app
+from flask import g
+from flask import has_app_context
+
+
+def get_recorded_queries() -> list[_QueryInfo]:
+    """Get the list of recorded query information for the current session. Queries are
+    recorded if the config :data:`.SQLALCHEMY_RECORD_QUERIES` is enabled.
+
+    Each query info object has the following attributes:
+
+    ``statement``
+        The string of SQL generated by SQLAlchemy with parameter placeholders.
+    ``parameters``
+        The parameters sent with the SQL statement.
+    ``start_time`` / ``end_time``
+        Timing info about when the query started execution and when the results where
+        returned. Accuracy and value depends on the operating system.
+    ``duration``
+        The time the query took in seconds.
+    ``location``
+        A string description of where in your application code the query was executed.
+        This may not be possible to calculate, and the format is not stable.
+
+    .. versionchanged:: 3.0
+        Renamed from ``get_debug_queries``.
+
+    .. versionchanged:: 3.0
+        The info object is a dataclass instead of a tuple.
+
+    .. versionchanged:: 3.0
+        The info object attribute ``context`` is renamed to ``location``.
+
+    .. versionchanged:: 3.0
+        Not enabled automatically in debug or testing mode.
+    """
+    return g.get("_sqlalchemy_queries", [])  # type: ignore[no-any-return]
+
+
+@dataclasses.dataclass
+class _QueryInfo:
+    """Information about an executed query. Returned by :func:`get_recorded_queries`.
+
+    .. versionchanged:: 3.0
+        Renamed from ``_DebugQueryTuple``.
+
+    .. versionchanged:: 3.0
+        Changed to a dataclass instead of a tuple.
+
+    .. versionchanged:: 3.0
+        ``context`` is renamed to ``location``.
+    """
+
+    statement: str | None
+    parameters: t.Any
+    start_time:
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy/session.py
+
+```python
+from __future__ import annotations
+
+import typing as t
+
+import sqlalchemy as sa
+import sqlalchemy.exc as sa_exc
+import sqlalchemy.orm as sa_orm
+from flask.globals import app_ctx
+
+if t.TYPE_CHECKING:
+    from .extension import SQLAlchemy
+
+
+class Session(sa_orm.Session):
+    """A SQLAlchemy :class:`~sqlalchemy.orm.Session` class that chooses what engine to
+    use based on the bind key associated with the metadata associated with the thing
+    being queried.
+
+    To customize ``db.session``, subclass this and pass it as the ``class_`` key in the
+    ``session_options`` to :class:`.SQLAlchemy`.
+
+    .. versionchanged:: 3.0
+        Renamed from ``SignallingSession``.
+    """
+
+    def __init__(self, db: SQLAlchemy, **kwargs: t.Any) -> None:
+        super().__init__(**kwargs)
+        self._db = db
+        self._model_changes: dict[object, tuple[t.Any, str]] = {}
+
+    def get_bind(
+        self,
+        mapper: t.Any | None = None,
+        clause: t.Any | None = None,
+        bind: sa.engine.Engine | sa.engine.Connection | None = None,
+        **kwargs: t.Any,
+    ) -> sa.engine.Engine | sa.engine.Connection:
+        """Select an engine based on the ``bind_key`` of the metadata associated with
+        the model or table being queried. If no bind key is set, uses the default bind.
+
+        .. versionchanged:: 3.0.3
+            Fix finding the bind for a joined inheritance model.
+
+        .. versionchanged:: 3.0
+            The implementation more closely matches the base SQLAlchemy implementation.
+
+        .. versionchanged:: 2.1
+            Support joining an external transaction.
+        """
+        if bind is not None:
+            return bind
+
+        engines = self._db.engines
+
+        if mapper is not None:
+            try:
+                mapper = sa.inspect(mapper)
+            except sa_exc.NoInspectionAvailable as e:
+                if isinstance(mapper, type):
+                    raise sa_orm.exc.UnmappedClassError(mapper) from e
+
+                raise
+
+           
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy/table.py
+
+```python
+from __future__ import annotations
+
+import typing as t
+
+import sqlalchemy as sa
+import sqlalchemy.sql.schema as sa_sql_schema
+
+
+class _Table(sa.Table):
+    @t.overload
+    def __init__(
+        self,
+        name: str,
+        *args: sa_sql_schema.SchemaItem,
+        bind_key: str | None = None,
+        **kwargs: t.Any,
+    ) -> None:
+        ...
+
+    @t.overload
+    def __init__(
+        self,
+        name: str,
+        metadata: sa.MetaData,
+        *args: sa_sql_schema.SchemaItem,
+        **kwargs: t.Any,
+    ) -> None:
+        ...
+
+    @t.overload
+    def __init__(
+        self, name: str, *args: sa_sql_schema.SchemaItem, **kwargs: t.Any
+    ) -> None:
+        ...
+
+    def __init__(
+        self, name: str, *args: sa_sql_schema.SchemaItem, **kwargs: t.Any
+    ) -> None:
+        super().__init__(name, *args, **kwargs)  # type: ignore[arg-type]
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy/track_modifications.py
+
+```python
+from __future__ import annotations
+
+import typing as t
+
+import sqlalchemy as sa
+import sqlalchemy.event as sa_event
+import sqlalchemy.orm as sa_orm
+from flask import current_app
+from flask import has_app_context
+from flask.signals import Namespace  # type: ignore[attr-defined]
+
+if t.TYPE_CHECKING:
+    from .session import Session
+
+_signals = Namespace()
+
+models_committed = _signals.signal("models-committed")
+"""This Blinker signal is sent after the session is committed if there were changed
+models in the session.
+
+The sender is the application that emitted the changes. The receiver is passed the
+``changes`` argument with a list of tuples in the form ``(instance, operation)``.
+The operations are ``"insert"``, ``"update"``, and ``"delete"``.
+"""
+
+before_models_committed = _signals.signal("before-models-committed")
+"""This signal works exactly like :data:`models_committed` but is emitted before the
+commit takes place.
+"""
+
+
+def _listen(session: sa_orm.scoped_session[Session]) -> None:
+    sa_event.listen(session, "before_flush", _record_ops, named=True)
+    sa_event.listen(session, "before_commit", _record_ops, named=True)
+    sa_event.listen(session, "before_commit", _before_commit)
+    sa_event.listen(session, "after_commit", _after_commit)
+    sa_event.listen(session, "after_rollback", _after_rollback)
+
+
+def _record_ops(session: Session, **kwargs: t.Any) -> None:
+    if not has_app_context():
+        return
+
+    if not current_app.config["SQLALCHEMY_TRACK_MODIFICATIONS"]:
+        return
+
+    for targets, operation in (
+        (session.new, "insert"),
+        (session.dirty, "update"),
+        (session.deleted, "delete"),
+    ):
+        for target in targets:
+            state = sa.inspect(target)
+            key = state.identity_key if state.has_identity else id(target)
+            session._model_changes[key] = (target, operation)
+
+
+def _before_commit(session: Session) -> None:
+    if not has_app_context():
+        return
+
+    app = current_app._get_current_object(
 ```
 
 ### ./test_project/models/auth_model.py

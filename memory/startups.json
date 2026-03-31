@@ -194,5 +194,19 @@
     "project_path": "projects/test-startup-7623",
     "status": "deployed",
     "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoMosaic",
+    "description": "AI-powered virtual art studio for non-technical users",
+    "project_path": "projects/echomosaic-62753",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoHive",
+    "description": "AI-powered community platform for creatives to share, collaborate, and monetize their work in a secure, token-based ecosystem.",
+    "project_path": "projects/echohive-82451",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
   }
 ]

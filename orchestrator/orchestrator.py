@@ -14,6 +14,8 @@ import subprocess
 import os
 from tools.code_runner import run_app
 
+print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
+
 
 class Orchestrator:
     def __init__(self):
@@ -53,20 +55,15 @@ class Orchestrator:
         print("STEP 5: After CTO Agent")
 
         print("STEP 6: Before Developer Agent")
-        project_path = self.safe_run("Developer Agent", self.dev.build_mvp, idea, arch)
+        print("\n[Developer Agent] starting...")
+
+        project_path = self.dev.build_mvp(idea, arch)
+
+        print("[Developer Agent] DIRECT RETURN:", project_path)
         print("STEP 7: After Developer Agent → project_path:", project_path)
 
         if not project_path:
-            print("❌ EXIT: project_path is None")
-            return
-
-        print("STEP 8: Before file generation")
-        generate_backend_files(project_path, arch)
-        print("STEP 9: After file generation")
-
-        print("STEP 10: Before auto wire")
-        wire_routes(project_path)
-        print("STEP 11: After auto wire COMPLETED")
+            raise Exception("❌ CRITICAL: DeveloperAgent returned None")
 
         print("PROJECT GENERATED AT:", project_path)
 
@@ -153,6 +150,7 @@ class Orchestrator:
 
         max_attempts = 5
         build_success = False
+        seen_errors = set()
 
         for attempt in range(max_attempts):
             print(f"[DEV LOOP] Attempt {attempt + 1}")
@@ -167,56 +165,57 @@ class Orchestrator:
             print("[DEV LOOP] Error detected:")
             print(output)
 
+            # ✅ STOP if same error repeats (Patrick pattern)
+            if output in seen_errors:
+                print("[DEV LOOP] Same error repeating → stopping early")
+                break
+
+            seen_errors.add(output)
+
             print("[DEV LOOP] Sending error to Developer Agent for fix...")
 
-            fix_prompt = f"""
-The following Flask application produced an error.
+            fix_prompt = f"""The following Flask application produced an error.
 
-            Error log:
-            {output}
+Error log:
+{output}
 
-            Provide corrected Python code for the Flask app file only.
-            Return ONLY valid Python code.
-            """
+The app is part of a SaaS platform.
 
-            fixed_code = self.dev.think(fix_prompt)
+Fix the issue while preserving:
+- existing routes
+- existing structure
 
-            # Remove markdown formatting if present
+Fix ONLY what is necessary in app.py.
+
+Return ONLY valid Python code.
+Do NOT include markdown or explanation.
+"""
+
+            fixed_code = self.dev.think(fix_prompt).strip()
+
+            # ✅ REMOVE markdown if present
             if "```" in fixed_code:
-                fixed_code = fixed_code.replace("```python", "").replace("```", "")
+                fixed_code = fixed_code.split("```")[1]
 
-            # Remove accidental explanations before code
-            lines = fixed_code.splitlines()
-            clean_lines = []
+            # ✅ FIX INDENTATION ISSUE (YOUR BUG)
+            import textwrap
 
-            for line in lines:
-                if (
-                    line.strip().startswith("from ")
-                    or line.strip().startswith("import ")
-                    or line.strip().startswith("app")
-                    or line.strip().startswith("@")
-                    or line.strip().startswith("def")
-                    or line.strip().startswith("if __name__")
-                ):
-                    clean_lines.append(line)
-                elif clean_lines:
-                    clean_lines.append(line)
+            fixed_code = textwrap.dedent(fixed_code)
 
-            fixed_code = "\n".join(clean_lines)
+            app_file = os.path.join(project_path, "app.py")
 
-            if not app_file:
-                print("[DEV LOOP] No app file found, skipping fix")
-            else:
-                print("[DEV LOOP] Writing cleaned code to app file")
+            if not os.path.exists(app_file):
+                print("[DEV LOOP] app.py not found → skipping fix")
+                break
 
-                try:
-                    with open(app_file, "w") as f:
-                        f.write(fixed_code)
+            try:
+                with open(app_file, "w") as f:
+                    f.write(fixed_code)
 
-                    print(f"[DEV LOOP] Updated {os.path.basename(app_file)} with fix")
+                print("[DEV LOOP] Updated app.py with fix")
 
-                except Exception as e:
-                    print("[DEV LOOP] Failed to write fix:", e)
+            except Exception as e:
+                print("[DEV LOOP] Failed to write fix:", e)
 
         if not build_success:
             print("[DEV LOOP] Max attempts reached. Continuing anyway.")
@@ -257,10 +256,10 @@ The following Flask application produced an error.
             )
             print("Deployment URL:", deploy)
 
-        if deploy:
-            print("\n🚀 STARTUP IS LIVE:", deploy)
+        if deploy and "failed" not in str(deploy).lower():
+            print("🚀 STARTUP IS LIVE:", deploy)
         else:
-            print("\n⚠️ Deployment skipped (Replit environment)")
+            print("⚠️ Deployment failed or skipped")
 
         # ---- SAVE DEPLOYMENT TO MEMORY ----
         try:
@@ -303,12 +302,18 @@ The following Flask application produced an error.
 
             print(f"[{agent_name}] completed successfully")
 
+            if result is None:
+                print(f"⚠️ WARNING: {agent_name} returned None")
+
+            else:
+                print(f"[{agent_name}] RETURN VALUE:", result)
+
             return result
 
         except Exception as e:
-            print(f"[{agent_name}] FAILED:", e)
+            print(f"[{agent_name}] FAILED:", str(e))
 
-            return None
+            raise  # 🔥 DO NOT SWALLOW
 
 
 def update_context():

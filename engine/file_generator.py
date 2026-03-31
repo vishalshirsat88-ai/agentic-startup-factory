@@ -27,34 +27,15 @@ class {safe_name.capitalize()}Model:
 
         write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
 
+        from engine.ai_logic import generate_service_logic
+
+        ai_logic = generate_service_logic(safe_name)
+        print("AI LOGIC GENERATED:\n", ai_logic)
+
         service_code = f"""
         from db import get_connection
 
-
-        def get_{safe_name}():
-            try:
-                conn = get_connection()
-                cursor = conn.cursor()
-
-                cursor.execute("SELECT * FROM items")
-                rows = cursor.fetchall()
-
-                data = [dict(row) for row in rows]
-
-                conn.close()
-
-                return {{
-                    "status": "success",
-                    "data": data,
-                    "error": None
-                }}
-
-            except Exception as e:
-                return {{
-                    "status": "error",
-                    "data": None,
-                    "error": str(e)
-                }}
+        {ai_logic}
 
 
         def add_{safe_name}(name):
@@ -62,7 +43,10 @@ class {safe_name.capitalize()}Model:
                 conn = get_connection()
                 cursor = conn.cursor()
 
-                cursor.execute("INSERT INTO items (name) VALUES (?)", (name,))
+                cursor.execute(
+                    "INSERT INTO items (name, module) VALUES (?, ?)",
+                    (name, "{safe_name}")
+                )
                 conn.commit()
                 conn.close()
 

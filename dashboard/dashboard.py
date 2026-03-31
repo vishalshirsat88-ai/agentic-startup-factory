@@ -83,9 +83,13 @@ def approve_idea(idea_id):
         print("DEBUG SELECTED IDEA:", selected_idea)
 
         # ✅ RUN ORCHESTRATOR
-        thread = threading.Thread(
-            target=orch.run_startup_cycle, args=(selected_idea, idea_id)
-        )
+        def run_safe():
+            try:
+                orch.run_startup_cycle(selected_idea, idea_id)
+            except Exception as e:
+                print("❌ THREAD ERROR:", str(e))
+
+        thread = threading.Thread(target=run_safe)
         thread.start()
 
         return f"""
