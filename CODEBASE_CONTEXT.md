@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-03-31 18:40:54.229673+00:00
+Generated: 2026-03-31 21:29:13.794460+00:00
 
 ## Project Structure
 
@@ -906,14 +906,6 @@ Generated: 2026-03-31 18:40:54.229673+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/G8LyuLs42nFBI78d13HSD
-
-### Folder: ./.local/state/workflow-logs/5flSNNS-SuUzFRu-L3EWQ
-
-### Folder: ./.local/state/workflow-logs/HUH5WzLFPi8Sc-cQnBKK6
-
-### Folder: ./.local/state/workflow-logs/6lvVWIeTpDAxloiZiN3eB
-
 ### Folder: ./.local/state/workflow-logs/rxWSEarUpFOdxfGIH8UCl
 
 ### Folder: ./.local/state/workflow-logs/xh-tku49UHJ0Vh_c5KDju
@@ -945,6 +937,14 @@ Generated: 2026-03-31 18:40:54.229673+00:00
 ### Folder: ./.local/state/workflow-logs/ER47w69inMIn2Rg3Ucgnp
 
 ### Folder: ./.local/state/workflow-logs/9XzXmaAy-C5uW97AkL-8l
+
+### Folder: ./.local/state/workflow-logs/dLEwJZVlbRNjTm2kVSwfR
+
+### Folder: ./.local/state/workflow-logs/dIeN4LPUDMMakOL76liHW
+
+### Folder: ./.local/state/workflow-logs/ElvgL0ZkRpVO2aFegOsad
+
+### Folder: ./.local/state/workflow-logs/S8FwbMCaIBtGqeqbvSc-l
 
 ### Folder: ./.local/skills
 
@@ -1338,8 +1338,8 @@ Generated: 2026-03-31 18:40:54.229673+00:00
 ### Folder: ./engine
 - template_renderer.py
 - auto_wire.py
-- ai_logic.py
 - file_generator.py
+- ai_logic.py
 
 ### Folder: ./logs
 
@@ -3885,6 +3885,7 @@ import re
 import json
 import time
 import shutil
+import traceback  # add at top if not already
 
 
 class DeveloperAgent(AgentBase):
@@ -3946,8 +3947,7 @@ class DeveloperAgent(AgentBase):
 
         for file in os.listdir(routes_dir):
             if file.endswith("_routes.py"):
-                service_name = file.replace("_routes.py", "_service.py")
-
+                service_nam
 ```
 
 ### ./dashboard/__init__.py
@@ -4138,55 +4138,6 @@ def wire_routes(project_dir):
         # fallb
 ```
 
-### ./engine/ai_logic.py
-
-```python
-import requests
-import os
-
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-print("GROQ KEY:", GROQ_API_KEY[:5] if GROQ_API_KEY else "NOT FOUND")
-
-
-def generate_service_logic(module_name):
-    prompt = f"""
-You are a backend engineer.
-
-Write a Python function for a Flask service.
-
-Module: {module_name}
-
-Rules:
-- Only return Python function code
-- Function name: get_{module_name}
-- Use realistic business logic
-- No explanations
-- No markdown
-
-Example:
-def get_users():
-    return {{"users": []}}
-"""
-
-    url = "https://api.groq.com/openai/v1/chat/completions"
-
-    headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
-        "Content-Type": "application/json",
-    }
-
-    data = {
-        "model": "llama3-70b-8192",
-        "messages": [{"role": "user", "content": prompt}],
-    }
-
-    response = requests.post(url, headers=headers, json=data)
-    result = response.json()
-
-    return result["choices"][0]["message"]["content"]
-
-```
-
 ### ./engine/file_generator.py
 
 ```python
@@ -4219,9 +4170,16 @@ class {safe_name.capitalize()}Model:
 
         write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
 
+        print(f"\n[DEBUG] Calling AI logic for module: {safe_name}")
+
         from engine.ai_logic import generate_service_logic
 
+        print(f"[DEBUG] Import successful")
+
         ai_logic = generate_service_logic(safe_name)
+
+        print("[DEBUG] AI LOGIC TYPE:", type(ai_logic))
+        print("[DEBUG] AI LOGIC VALUE:\n", ai_logic)
         print("AI LOGIC GENERATED:\n", ai_logic)
 
         service_code = f"""
@@ -4256,13 +4214,91 @@ class {safe_name.capitalize()}Model:
                 }}
         """
 
-        write_file(f"{project_dir}/services/{safe_name}_service.py", service_code)
+        write_file(f"{project_dir}/services/{safe_name}_se
+```
 
-        route_code = f"""
-        from flask import Blueprint, jsonify, request
-        from services.{safe_name}_service import get_{safe_name}, add_{safe_name}
+### ./engine/ai_logic.py
 
-        {safe_name}_bp = Blueprint('
+```python
+print("[DEBUG] About to import ai_logic...")
+import requests
+import os
+
+print("[DEBUG] ai_logic imported successfully")
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+if GROQ_API_KEY:
+    print("GROQ KEY LOADED")
+else:
+    print("❌ GROQ KEY NOT FOUND")
+if not GROQ_API_KEY:
+    raise Exception("GROQ_API_KEY is missing")
+
+
+def generate_service_logic(module_name):
+    print(f"\n[AI LOGIC] Generating logic for module: {module_name}")
+
+    prompt = f"""
+You are a backend engineer.
+
+Write a Python function for a Flask service.
+
+Module: {module_name}
+
+Rules:
+- Only return Python function code
+- Function name: get_{module_name}
+- Use realistic business logic
+- No explanations
+- No markdown
+
+Example:
+def get_users():
+    return {{"users": []}}
+"""
+
+    url = "https://api.groq.com/openai/v1/chat/completions"
+
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json",
+    }
+
+    data = {
+        "model": "llama3-70b-8192",
+        "messages": [{"role": "user", "content": prompt}],
+    }
+
+    print("[AI LOGIC] Sending request to Groq...")
+
+    response = requests.post(url, headers=headers, json=data)
+
+    print("[AI LOGIC] Response status:", response.status_code)
+
+    try:
+        result = response.json()
+        print("[AI LOGIC] Response type:", type(result))
+    except Exception as e:
+        print("❌ Failed to parse JSON:", e)
+        return f"def get_{module_name}():\n    return {{'error': 'invalid response'}}"
+
+    # 🔥 CRITICAL FIX — ALWAYS EXTRACT STRING
+    try:
+        content = result["choices"][0]["message"]["content"]
+        print("[AI LOGIC] Extracted content successfully")
+        return content
+    except Exception as e:
+        print("❌ EXTRACTION FAILED:", e)
+        print("[AI LOGIC] RAW RESPONSE:", result)
+
+        return f"""
+def get_{module_name}():
+    return {{
+        "status": "fallback",
+        "module": "{module_name}"
+    }}
+"""
+
 ```
 
 ### ./orchestrator/__init__.py

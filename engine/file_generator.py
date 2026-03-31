@@ -27,9 +27,16 @@ class {safe_name.capitalize()}Model:
 
         write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
 
+        print(f"\n[DEBUG] Calling AI logic for module: {safe_name}")
+
         from engine.ai_logic import generate_service_logic
 
+        print(f"[DEBUG] Import successful")
+
         ai_logic = generate_service_logic(safe_name)
+
+        print("[DEBUG] AI LOGIC TYPE:", type(ai_logic))
+        print("[DEBUG] AI LOGIC VALUE:\n", ai_logic)
         print("AI LOGIC GENERATED:\n", ai_logic)
 
         service_code = f"""

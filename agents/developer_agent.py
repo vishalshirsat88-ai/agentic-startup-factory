@@ -6,6 +6,7 @@ import re
 import json
 import time
 import shutil
+import traceback  # add at top if not already
 
 
 class DeveloperAgent(AgentBase):
@@ -195,7 +196,9 @@ Werkzeug==2.2.3
                     "[Developer Agent] No architecture provided — skipping backend generation"
                 )
         except Exception as e:
-            print("⚠️ Backend generation failed:", e)
+            print("❌ FULL BACKEND ERROR BELOW:")
+            traceback.print_exc()
+            raise e
 
         # 🔥 VALIDATE BACKEND
 

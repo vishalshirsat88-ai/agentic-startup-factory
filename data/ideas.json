@@ -248,5 +248,117 @@
     "score": 5,
     "status": "approved",
     "processed": true
+  },
+  {
+    "id": 19,
+    "idea": {
+      "name": "EchoPlexa",
+      "description": "AI-powered personalized 3D home decor design and shopping platform",
+      "market": "Homeowners and interior designers",
+      "revenue_model": "Commission-based sales of furniture and decor products"
+    },
+    "name": "EchoPlexa",
+    "description": "AI-powered personalized 3D home decor design and shopping platform",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 20,
+    "idea": {
+      "name": "EchoSpectra",
+      "description": "AI-powered music remix and composition platform",
+      "market": "Professional musicians, music producers, and music enthusiasts",
+      "revenue_model": "Subscription-based model with premium features and in-app purchases"
+    },
+    "name": "EchoSpectra",
+    "description": "AI-powered music remix and composition platform",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 21,
+    "idea": {
+      "name": "EchoVoxa",
+      "description": "AI-powered vocal coach for music artists and singers",
+      "market": "Music industry professionals and enthusiasts",
+      "revenue_model": "Subscription-based service with additional revenue from music lessons and courses"
+    },
+    "name": "EchoVoxa",
+    "description": "AI-powered vocal coach for music artists and singers",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 22,
+    "idea": {
+      "name": "EchoVitalis",
+      "description": "AI-powered health coaching and personalized nutrition planning platform for seniors",
+      "market": "Seniors and caregivers",
+      "revenue_model": "Subscription-based and advertising"
+    },
+    "name": "EchoVitalis",
+    "description": "AI-powered health coaching and personalized nutrition planning platform for seniors",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 23,
+    "idea": {
+      "name": "EchoWise",
+      "description": "AI-powered personalized wellness and nutrition planning based on users' genetic profiles and lifestyle",
+      "market": "Health-conscious individuals and families",
+      "revenue_model": "Subscription-based monthly meal planning and grocery delivery services"
+    },
+    "name": "EchoWise",
+    "description": "AI-powered personalized wellness and nutrition planning based on users' genetic profiles and lifestyle",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 24,
+    "idea": {
+      "name": "EchoSynth",
+      "description": "AI-powered music composition and live performance platform that generates music based on user emotions and moods.",
+      "market": "Musicians, music producers, and music enthusiasts",
+      "revenue_model": "Subscription-based model with premium features and in-app purchases for exclusive music packs"
+    },
+    "name": "EchoSynth",
+    "description": "AI-powered music composition and live performance platform that generates music based on user emotions and moods.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 25,
+    "idea": {
+      "name": "SoundScout",
+      "description": "AI-powered audio discovery platform for visually impaired individuals",
+      "market": "Visually impaired individuals and audiophiles",
+      "revenue_model": "Subscription-based with premium features and sponsored content integration"
+    },
+    "name": "SoundScout",
+    "description": "AI-powered audio discovery platform for visually impaired individuals",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 26,
+    "idea": {
+      "name": "EchoVibra",
+      "description": "AI-powered music recommendation and collaboration platform for creators and producers",
+      "market": "Independent musicians, music producers, and composers",
+      "revenue_model": "Subscription-based model with additional revenue from music licensing and commissions"
+    },
+    "name": "EchoVibra",
+    "description": "AI-powered music recommendation and collaboration platform for creators and producers",
+    "score": 5,
+    "status": "approved",
+    "processed": true
   }
 ]
