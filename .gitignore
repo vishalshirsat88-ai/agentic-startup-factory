@@ -1,4 +1,23 @@
-.git/
-*.git
+# Ignore generated projects
+projects/
+
+# Ignore static assets
+static/
+assets/
+
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignore vendor libraries
+vendor/
+
+# Python
 __pycache__/
 *.pyc
+.env
+
+# OS
+.DS_Store

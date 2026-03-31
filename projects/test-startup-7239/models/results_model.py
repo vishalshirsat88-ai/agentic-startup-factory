@@ -1,4 +1,0 @@
-
-class ResultsModel:
-    def __init__(self):
-        pass
