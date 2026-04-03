@@ -264,5 +264,145 @@
     "project_path": "projects/echovibra-92553",
     "status": "deployed",
     "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoFutura",
+    "description": "AI-powered Smart Furniture Design and Assembly",
+    "project_path": "projects/echofutura-35611",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EcoSustaina",
+    "description": "An AI-powered platform that provides personalized home energy efficiency recommendations and automates smart home device control to reduce energy consumption.",
+    "project_path": "projects/ecosustaina-36429",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoBloom",
+    "description": "AI-powered virtual gardening platform that helps users create and maintain virtual gardens, providing personalized plant recommendations and care tips based on climate, soil type, and user preferences.",
+    "project_path": "projects/echobloom-37054",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoPulse",
+    "description": "Personalized sound healing platform for mental wellness",
+    "project_path": "projects/echopulse-43138",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoTerra",
+    "description": "AI-powered virtual reality platform for experiential real estate exploration",
+    "project_path": "projects/echoterra-45796",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoMentor",
+    "description": "AI-powered mentorship platform that connects professionals with industry experts for personalized guidance and career development.",
+    "project_path": "projects/echomentor-45848",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoSonus",
+    "description": "AI-powered audio restoration and manipulation platform for musicians and sound designers",
+    "project_path": "projects/echosonus-46113",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoVitalis",
+    "description": "A platform to create and sell customized 3D printed prosthetics for individuals in need, using AI-powered design and manufacturing.",
+    "project_path": "projects/echovitalis-46245",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoFusion",
+    "description": "AI-powered virtual event platform for immersive experiences",
+    "project_path": "projects/echofusion-46845",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoCatalyst",
+    "description": "AI-powered music composition assistant for professional musicians and music producers",
+    "project_path": "projects/echocatalyst-47876",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "SynthiFolk",
+    "description": "AI-generated folk music platform that creates personalized music based on users' cultural heritage and preferences",
+    "project_path": "projects/synthifolk-48002",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoPollen",
+    "description": "An AI-powered plant health monitoring system that uses computer vision and machine learning to detect diseases and provide personalized care recommendations to farmers and gardeners.",
+    "project_path": "projects/echopollen-48036",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "DreamSphere",
+    "description": "An AI-powered virtual event planning platform that helps users create immersive and engaging online events",
+    "project_path": "projects/dreamsphere-48096",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoFluxx",
+    "description": "AI-powered mental wellness platform that utilizes virtual reality and AI-driven coaching to help users manage stress and anxiety.",
+    "project_path": "projects/echofluxx-49025",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoBloom",
+    "description": "AI-powered plant care assistant that monitors and provides personalized care recommendations for houseplants.",
+    "project_path": "projects/echobloom-49176",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "SonusVoyager",
+    "description": "An AI-powered music discovery platform that uses spatial audio and personalized recommendations to create immersive experiences.",
+    "project_path": "projects/sonusvoyager-49572",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "SustainabilityScore",
+    "description": "AI-powered sustainability scoring platform for buildings and cities",
+    "project_path": "projects/sustainabilityscore-52651",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "MindSculpt",
+    "description": "AI-powered 3D virtual reality platform for mental wellness and stress relief",
+    "project_path": "projects/mindsculpt-52897",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoMorphosis",
+    "description": "AI-powered, real-time architectural visualization and sustainability analysis for buildings and cities.",
+    "project_path": "projects/echomorphosis-55712",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoLiberi",
+    "description": "AI-powered virtual assistant for people with disabilities, providing personalized accessibility solutions",
+    "project_path": "projects/echoliberi-57433",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
   }
 ]

@@ -1,5 +1,9 @@
 import os
+import engine.ai_logic
+
 from tools.file_writer import write_file
+
+print("AI LOGIC FILE:", engine.ai_logic.__file__)
 
 
 def generate_backend_files(project_dir, architecture):
@@ -33,7 +37,7 @@ class {safe_name.capitalize()}Model:
 
         print(f"[DEBUG] Import successful")
 
-        ai_logic = generate_service_logic(safe_name)
+        ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
 
         print("[DEBUG] AI LOGIC TYPE:", type(ai_logic))
         print("[DEBUG] AI LOGIC VALUE:\n", ai_logic)

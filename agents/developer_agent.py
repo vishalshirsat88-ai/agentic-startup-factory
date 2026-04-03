@@ -188,6 +188,10 @@ Werkzeug==2.2.3
 
         from engine.file_generator import generate_backend_files
 
+        # 🔥 ADD THIS BLOCK BEFORE CALL
+        if architecture and isinstance(architecture, dict):
+            architecture["idea"] = idea
+
         try:
             if architecture:
                 generate_backend_files(project_dir, architecture)

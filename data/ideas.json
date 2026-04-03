@@ -360,5 +360,352 @@
     "score": 5,
     "status": "approved",
     "processed": true
+  },
+  {
+    "id": 27,
+    "idea": {
+      "name": "EchoFutura",
+      "description": "AI-powered Smart Furniture Design and Assembly",
+      "market": "Homeowners and Interior Designers",
+      "revenue_model": "Subscription-based 3D printing services and design software"
+    },
+    "name": "EchoFutura",
+    "description": "AI-powered Smart Furniture Design and Assembly",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 28,
+    "idea": {
+      "name": "EcoSustaina",
+      "description": "An AI-powered platform that provides personalized home energy efficiency recommendations and automates smart home device control to reduce energy consumption.",
+      "market": "Homeowners and smart home device owners",
+      "revenue_model": "Subscription-based service with additional revenue from device integrations"
+    },
+    "name": "EcoSustaina",
+    "description": "An AI-powered platform that provides personalized home energy efficiency recommendations and automates smart home device control to reduce energy consumption.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 29,
+    "idea": {
+      "name": "EchoBloom",
+      "description": "AI-powered virtual gardening platform that helps users create and maintain virtual gardens, providing personalized plant recommendations and care tips based on climate, soil type, and user preferences.",
+      "market": "Individuals and businesses looking to create and maintain virtual gardens, especially those interested in gardening, sustainability, and interior design.",
+      "revenue_model": "Subscription-based model with in-app purchases for premium features and plant packs."
+    },
+    "name": "EchoBloom",
+    "description": "AI-powered virtual gardening platform that helps users create and maintain virtual gardens, providing personalized plant recommendations and care tips based on climate, soil type, and user preferences.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 30,
+    "idea": {
+      "name": "EchoPulse",
+      "description": "Personalized sound healing platform for mental wellness",
+      "market": "Individuals and businesses focused on mental health and wellness",
+      "revenue_model": "Subscription-based model for personalized sound healing sessions and premium content"
+    },
+    "name": "EchoPulse",
+    "description": "Personalized sound healing platform for mental wellness",
+    "score": 4,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 31,
+    "idea": {
+      "name": "EchoTerra",
+      "description": "AI-powered virtual reality platform for experiential real estate exploration",
+      "market": "Real estate developers, homebuyers, and architects",
+      "revenue_model": "Subscription-based and commission-based on real estate sales"
+    },
+    "name": "EchoTerra",
+    "description": "AI-powered virtual reality platform for experiential real estate exploration",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 32,
+    "idea": {
+      "name": "EchoPollen",
+      "description": "An AI-powered plant health monitoring system that uses computer vision and machine learning to detect diseases and provide personalized care recommendations to farmers and gardeners.",
+      "market": "Farmers, gardeners, and agriculture professionals",
+      "revenue_model": "Subscription-based service with additional revenue from plant health consulting and product sales"
+    },
+    "name": "EchoPollen",
+    "description": "An AI-powered plant health monitoring system that uses computer vision and machine learning to detect diseases and provide personalized care recommendations to farmers and gardeners.",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 33,
+    "idea": {
+      "name": "EchoMentor",
+      "description": "AI-powered mentorship platform that connects professionals with industry experts for personalized guidance and career development.",
+      "market": "Working professionals, entrepreneurs, and students",
+      "revenue_model": "Subscription-based model with premium services for exclusive mentorship and career coaching"
+    },
+    "name": "EchoMentor",
+    "description": "AI-powered mentorship platform that connects professionals with industry experts for personalized guidance and career development.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 34,
+    "idea": {
+      "name": "EchoSonus",
+      "description": "AI-powered audio restoration and manipulation platform for musicians and sound designers",
+      "market": "Musicians, sound designers, and music producers",
+      "revenue_model": "Subscription-based access to AI-powered audio tools and plugins, with additional revenue from commission-based sales of AI-generated music and sound effects"
+    },
+    "name": "EchoSonus",
+    "description": "AI-powered audio restoration and manipulation platform for musicians and sound designers",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 35,
+    "idea": {
+      "name": "EchoVitalis",
+      "description": "A platform to create and sell customized 3D printed prosthetics for individuals in need, using AI-powered design and manufacturing.",
+      "market": "Charities, Organizations, and Individuals in need of prosthetics",
+      "revenue_model": "Subscription-based service and sales of customized prosthetics"
+    },
+    "name": "EchoVitalis",
+    "description": "A platform to create and sell customized 3D printed prosthetics for individuals in need, using AI-powered design and manufacturing.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 36,
+    "idea": {
+      "name": "EchoFusion",
+      "description": "AI-powered virtual event platform for immersive experiences",
+      "market": "Event organizers, attendees, and brands looking for unique experiences",
+      "revenue_model": "Commission-based ticket sales and event sponsorships"
+    },
+    "name": "EchoFusion",
+    "description": "AI-powered virtual event platform for immersive experiences",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 37,
+    "idea": {
+      "name": "EchoPolis",
+      "description": "AI-powered urban planning and sustainable city development platform",
+      "market": "City planners, architects, and urban developers",
+      "revenue_model": "Subscription-based services, data analytics sales, and consulting fees"
+    },
+    "name": "EchoPolis",
+    "description": "AI-powered urban planning and sustainable city development platform",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 38,
+    "idea": {
+      "name": "EchoCatalyst",
+      "description": "AI-powered platform that connects impact-driven startups with social impact investors and expert mentors.",
+      "market": "Impact-driven startups, social impact investors, and expert mentors",
+      "revenue_model": "Commission-based matching fees for successful startup-investor partnerships"
+    },
+    "name": "EchoCatalyst",
+    "description": "AI-powered platform that connects impact-driven startups with social impact investors and expert mentors.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 39,
+    "idea": {
+      "name": "EchoCatalyst",
+      "description": "AI-powered music composition assistant for professional musicians and music producers",
+      "market": "Professional musicians and music producers",
+      "revenue_model": "Subscription-based access to AI-generated music tracks and premium features"
+    },
+    "name": "EchoCatalyst",
+    "description": "AI-powered music composition assistant for professional musicians and music producers",
+    "score": 7,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 40,
+    "idea": {
+      "name": "SynthiFolk",
+      "description": "AI-generated folk music platform that creates personalized music based on users' cultural heritage and preferences",
+      "market": "Folk music enthusiasts, cultural heritage preservationists, and music streaming platforms",
+      "revenue_model": "Subscription-based music streaming with a commission-based model for artists"
+    },
+    "name": "SynthiFolk",
+    "description": "AI-generated folk music platform that creates personalized music based on users' cultural heritage and preferences",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 41,
+    "idea": {
+      "name": "DreamSphere",
+      "description": "An AI-powered virtual event planning platform that helps users create immersive and engaging online events",
+      "market": "Event planners, marketers, and businesses",
+      "revenue_model": "Commission-based ticket sales, premium features, and targeted advertising"
+    },
+    "name": "DreamSphere",
+    "description": "An AI-powered virtual event planning platform that helps users create immersive and engaging online events",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 42,
+    "idea": {
+      "name": "EchoFluxx",
+      "description": "AI-powered mental wellness platform that utilizes virtual reality and AI-driven coaching to help users manage stress and anxiety.",
+      "market": "Young adults and professionals with high stress levels",
+      "revenue_model": "Subscription-based model with in-app purchases for premium coaching sessions and VR experiences"
+    },
+    "name": "EchoFluxx",
+    "description": "AI-powered mental wellness platform that utilizes virtual reality and AI-driven coaching to help users manage stress and anxiety.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 43,
+    "idea": {
+      "name": "SustainabilityScore",
+      "description": "AI-powered sustainability scoring platform for buildings and cities",
+      "market": "Real estate developers, city planners, and sustainability enthusiasts",
+      "revenue_model": "Subscription-based, data analytics, and advisory services"
+    },
+    "name": "SustainabilityScore",
+    "description": "AI-powered sustainability scoring platform for buildings and cities",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 44,
+    "idea": {
+      "name": "EchoBloom",
+      "description": "AI-powered plant care assistant that monitors and provides personalized care recommendations for houseplants.",
+      "market": "Urban gardeners, plant enthusiasts, and homeowners with indoor plants",
+      "revenue_model": "Subscription-based service offering premium features and plant care advice"
+    },
+    "name": "EchoBloom",
+    "description": "AI-powered plant care assistant that monitors and provides personalized care recommendations for houseplants.",
+    "score": 7,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 45,
+    "idea": {
+      "name": "SonusVoyager",
+      "description": "An AI-powered music discovery platform that uses spatial audio and personalized recommendations to create immersive experiences.",
+      "market": "Music enthusiasts, audiophiles, and music streaming services",
+      "revenue_model": "Subscription-based, with additional revenue from targeted ads and music licensing"
+    },
+    "name": "SonusVoyager",
+    "description": "An AI-powered music discovery platform that uses spatial audio and personalized recommendations to create immersive experiences.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 46,
+    "idea": {
+      "name": "EchoPioneers",
+      "description": "AI-powered community platform for social impact entrepreneurs",
+      "market": "Social entrepreneurs, non-profit organizations, and impact investors",
+      "revenue_model": "Subscription-based model with commission on successful projects"
+    },
+    "name": "EchoPioneers",
+    "description": "AI-powered community platform for social impact entrepreneurs",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 47,
+    "idea": {
+      "name": "MindSculpt",
+      "description": "AI-powered 3D virtual reality platform for mental wellness and stress relief",
+      "market": "Individuals and businesses looking to improve mental health and well-being",
+      "revenue_model": "Subscription-based with additional revenue from virtual reality hardware sales"
+    },
+    "name": "MindSculpt",
+    "description": "AI-powered 3D virtual reality platform for mental wellness and stress relief",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 48,
+    "idea": {
+      "name": "EchoPlexa's sister - EchoPlexaX",
+      "description": "AI-powered Smart Home Decorator",
+      "market": "Homeowners, Interiors designers, and Real Estate agents",
+      "revenue_model": "Subscription-based and Commission-based sales"
+    },
+    "name": "EchoPlexa's sister - EchoPlexaX",
+    "description": "AI-powered Smart Home Decorator",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 49,
+    "idea": {
+      "name": "Sensio",
+      "description": "A platform that uses AI to analyze and predict the emotional resonance of art, music, and literature across different cultures and time periods.",
+      "market": "Art enthusiasts, music lovers, literature buffs, and cultural institutions",
+      "revenue_model": "Subscription-based service offering personalized art and literature recommendations, as well as premium features for cultural institutions"
+    },
+    "name": "Sensio",
+    "description": "A platform that uses AI to analyze and predict the emotional resonance of art, music, and literature across different cultures and time periods.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 50,
+    "idea": {
+      "name": "EchoMorphosis",
+      "description": "AI-powered, real-time architectural visualization and sustainability analysis for buildings and cities.",
+      "market": "Architects, Urban Planners, City Officials, and Property Developers",
+      "revenue_model": "Subscription-based software as a service (SaaS) for access to advanced analytics and design tools"
+    },
+    "name": "EchoMorphosis",
+    "description": "AI-powered, real-time architectural visualization and sustainability analysis for buildings and cities.",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 51,
+    "idea": {
+      "name": "EchoLiberi",
+      "description": "AI-powered virtual assistant for people with disabilities, providing personalized accessibility solutions",
+      "market": "People with disabilities, caregivers, and healthcare professionals",
+      "revenue_model": "Subscription-based model, offering premium accessibility features and personalized coaching"
+    },
+    "name": "EchoLiberi",
+    "description": "AI-powered virtual assistant for people with disabilities, providing personalized accessibility solutions",
+    "score": 7,
+    "status": "approved",
+    "processed": true
   }
 ]

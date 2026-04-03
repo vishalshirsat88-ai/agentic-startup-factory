@@ -1,18 +1,18 @@
 # Codebase Context Snapshot
-Generated: 2026-03-31 21:29:13.794460+00:00
+Generated: 2026-04-02 19:17:17.121951+00:00
 
 ## Project Structure
 
 
 ### Folder: .
-- CODEBASE_CONTEXT.md
-- PROJECT_CONTEXT.md
 - README.md
 - build_saas_engine.py
 - fill_repo.py
-- generate_context.py
 - replit.md
 - test_engine.py
+- CODEBASE_CONTEXT.md
+- PROJECT_CONTEXT.md
+- generate_context.py
 
 ### Folder: ./.cache
 
@@ -906,45 +906,45 @@ Generated: 2026-03-31 21:29:13.794460+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/rxWSEarUpFOdxfGIH8UCl
+### Folder: ./.local/state/workflow-logs/jiRI0kHDKZ0RwEumXxouO
 
-### Folder: ./.local/state/workflow-logs/xh-tku49UHJ0Vh_c5KDju
+### Folder: ./.local/state/workflow-logs/O7U_J6WebVGK1RRSD3gab
 
-### Folder: ./.local/state/workflow-logs/a892B0mZDXI-D-2SQXFin
+### Folder: ./.local/state/workflow-logs/rIcgebOCNUP6clHpCVez7
 
-### Folder: ./.local/state/workflow-logs/w92_DJ-S3YGp1-0Qhd8Y0
+### Folder: ./.local/state/workflow-logs/T86OFv4zfllnMrgc9aOyM
 
-### Folder: ./.local/state/workflow-logs/h0-djHFof-RK0IhEYVhNE
+### Folder: ./.local/state/workflow-logs/7-0E_xs34wGbEbRel2AbO
 
-### Folder: ./.local/state/workflow-logs/mOD_F2QkVMuyZBwn2Bln4
+### Folder: ./.local/state/workflow-logs/AHoCRkZOh-gtGr6W0EhYZ
 
-### Folder: ./.local/state/workflow-logs/q5El9JetlaFoFLU2V5YIv
+### Folder: ./.local/state/workflow-logs/8b44LIK8Wxzxy-6_RXNcw
 
-### Folder: ./.local/state/workflow-logs/dtsn38eTsWTH67H1HYPED
+### Folder: ./.local/state/workflow-logs/g8GR1yArX71hDLEvcV_mV
 
-### Folder: ./.local/state/workflow-logs/81PjLkzyljgmeKjYmSxpA
+### Folder: ./.local/state/workflow-logs/snryohNTRVi7KFcq2fEsT
 
-### Folder: ./.local/state/workflow-logs/de90bPmu-iB7MIoo40SHj
+### Folder: ./.local/state/workflow-logs/uIJvxQhIK9swugIGCoznr
 
-### Folder: ./.local/state/workflow-logs/M1juA_XNF6keafgyXCg0g
+### Folder: ./.local/state/workflow-logs/KOlcNcexng1u-r4iTrhiQ
 
-### Folder: ./.local/state/workflow-logs/47y1Y2xF9Mfp_x0EMRzGo
+### Folder: ./.local/state/workflow-logs/Btsku4GQZLG92llXM58KG
 
-### Folder: ./.local/state/workflow-logs/YJcb9aJCqFcqwkWiqDVYQ
+### Folder: ./.local/state/workflow-logs/N21mmnO7dD4KRHbzoXCMl
 
-### Folder: ./.local/state/workflow-logs/XYdQrJCyQDJxdXWoNLNXK
+### Folder: ./.local/state/workflow-logs/RbyU9We9nGDmvewOQb2LL
 
-### Folder: ./.local/state/workflow-logs/ER47w69inMIn2Rg3Ucgnp
+### Folder: ./.local/state/workflow-logs/rlgl8gbXom-H1ArAK5dMK
 
-### Folder: ./.local/state/workflow-logs/9XzXmaAy-C5uW97AkL-8l
+### Folder: ./.local/state/workflow-logs/eokxjaAEKHQog4NVINs5g
 
-### Folder: ./.local/state/workflow-logs/dLEwJZVlbRNjTm2kVSwfR
+### Folder: ./.local/state/workflow-logs/805twc1341pfFDWJ9KgxA
 
-### Folder: ./.local/state/workflow-logs/dIeN4LPUDMMakOL76liHW
+### Folder: ./.local/state/workflow-logs/NeOOESeOXcrsslc35gKHu
 
-### Folder: ./.local/state/workflow-logs/ElvgL0ZkRpVO2aFegOsad
+### Folder: ./.local/state/workflow-logs/KSkEMKR61bXhq003MvkqJ
 
-### Folder: ./.local/state/workflow-logs/S8FwbMCaIBtGqeqbvSc-l
+### Folder: ./.local/state/workflow-logs/rkPXsaxvZcZNZejsWB2QK
 
 ### Folder: ./.local/skills
 
@@ -3323,6 +3323,36 @@ class FinanceAgent(AgentBase):
 "age
 ```
 
+### ./test_engine.py
+
+```python
+import sys
+import os
+sys.path.append(os.getcwd())
+
+from agents.product_agent import ProductAgent
+from agents.cto_agent import CTOAgent
+from engine.file_generator import generate_backend_files
+
+idea = {
+    "name": "AI Email Tool",
+    "description": "Personalizes emails"
+}
+
+product = ProductAgent().define_product(idea)
+print("PRODUCT:", product)
+
+arch = CTOAgent().design_architecture({
+    "idea": idea,
+    "product": product
+})
+
+print("ARCH:", arch)
+
+generate_backend_files("test_project", arch)
+
+```
+
 ### ./generate_context.py
 
 ```python
@@ -3411,36 +3441,6 @@ def generate_project_context():
     context.append("## Agents\n")
 
     for a in agent
-```
-
-### ./test_engine.py
-
-```python
-import sys
-import os
-sys.path.append(os.getcwd())
-
-from agents.product_agent import ProductAgent
-from agents.cto_agent import CTOAgent
-from engine.file_generator import generate_backend_files
-
-idea = {
-    "name": "AI Email Tool",
-    "description": "Personalizes emails"
-}
-
-product = ProductAgent().define_product(idea)
-print("PRODUCT:", product)
-
-arch = CTOAgent().design_architecture({
-    "idea": idea,
-    "product": product
-})
-
-print("ARCH:", arch)
-
-generate_backend_files("test_project", arch)
-
 ```
 
 ### ./.local/skills/canvas/__init__.py
@@ -4142,7 +4142,11 @@ def wire_routes(project_dir):
 
 ```python
 import os
+import engine.ai_logic
+
 from tools.file_writer import write_file
+
+print("AI LOGIC FILE:", engine.ai_logic.__file__)
 
 
 def generate_backend_files(project_dir, architecture):
@@ -4176,7 +4180,7 @@ class {safe_name.capitalize()}Model:
 
         print(f"[DEBUG] Import successful")
 
-        ai_logic = generate_service_logic(safe_name)
+        ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
 
         print("[DEBUG] AI LOGIC TYPE:", type(ai_logic))
         print("[DEBUG] AI LOGIC VALUE:\n", ai_logic)
@@ -4210,53 +4214,63 @@ class {safe_name.capitalize()}Model:
                 return {{
                     "status": "error",
                     "data": None,
-                    "error": str(e)
-                }}
-        """
-
-        write_file(f"{project_dir}/services/{safe_name}_se
+                    "
 ```
 
 ### ./engine/ai_logic.py
 
 ```python
-print("[DEBUG] About to import ai_logic...")
 import requests
 import os
 
-print("[DEBUG] ai_logic imported successfully")
-
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-if GROQ_API_KEY:
-    print("GROQ KEY LOADED")
-else:
-    print("❌ GROQ KEY NOT FOUND")
-if not GROQ_API_KEY:
-    raise Exception("GROQ_API_KEY is missing")
+print("🔥🔥 NEW AI_LOGIC FILE LOADED 🔥🔥")
 
 
-def generate_service_logic(module_name):
+def generate_service_logic(module_name, idea):
     print(f"\n[AI LOGIC] Generating logic for module: {module_name}")
 
-    prompt = f"""
-You are a backend engineer.
-
-Write a Python function for a Flask service.
-
-Module: {module_name}
-
-Rules:
-- Only return Python function code
-- Function name: get_{module_name}
-- Use realistic business logic
-- No explanations
-- No markdown
-
-Example:
-def get_users():
-    return {{"users": []}}
+    if not GROQ_API_KEY:
+        print("❌ GROQ KEY NOT FOUND — using fallback")
+        return f"""
+def get_{module_name}():
+    return {{
+        "status": "fallback_no_api_key",
+        "module": "{module_name}"
+    }}
 """
 
+    prompt = f"""
+    You are building a SaaS backend.
+
+    Startup Idea: {idea.get("name")}
+    Description: {idea.get("description")}
+    Target Users: {idea.get("market")}
+    Revenue Model: {idea.get("revenue_model")}
+
+    Module: {module_name}
+
+    Write ONE Python function for this module.
+
+    STRICT RULES:
+    - Function name MUST be: get_{module_name}
+    - Return ONLY ONE function
+    - Do NOT create multiple functions
+    - Do NOT include imports
+    - Do NOT include classes
+    - Do NOT include example usage
+    - Do NOT include explanations
+    - Do NOT include markdown
+    - Use realistic business logic based on the startup idea
+
+    Output format EXACTLY like:
+
+    def get_{module_name}():
+        # logic here
+        return {{"status": "success"}}
+    """
+
+    print("[AI CONTEXT]", idea.get("name"), "| Module:", module_name)
     url = "https://api.groq.com/openai/v1/chat/completions"
 
     headers = {
@@ -4265,40 +4279,21 @@ def get_users():
     }
 
     data = {
-        "model": "llama3-70b-8192",
+        "model": "llama-3.1-8b-instant",
         "messages": [{"role": "user", "content": prompt}],
     }
 
-    print("[AI LOGIC] Sending request to Groq...")
-
-    response = requests.post(url, headers=headers, json=data)
-
-    print("[AI LOGIC] Response status:", response.status_code)
-
     try:
-        result = response.json()
-        print("[AI LOGIC] Response type:", type(result))
-    except Exception as e:
-        print("❌ Failed to parse JSON:", e)
-        return f"def get_{module_name}():\n    return {{'error': 'invalid response'}}"
+        response = requests.post(url, headers=headers, json=data)
+        print("[AI LOGIC] STATUS CODE:", response.status_code)
+        print("[AI LOGIC] RAW TEXT:", response.text[:500])
 
-    # 🔥 CRITICAL FIX — ALWAYS EXTRACT STRING
-    try:
-        content = result["choices"][0]["message"]["content"]
-        print("[AI LOGIC] Extracted content successfully")
-        return content
-    except Exception as e:
-        print("❌ EXTRACTION FAILED:", e)
-        print("[AI LOGIC] RAW RESPONSE:", result)
-
-        return f"""
-def get_{module_name}():
-    return {{
-        "status": "fallback",
-        "module": "{module_name}"
-    }}
-"""
-
+        try:
+            result = response.json()
+        except Exception as e:
+            print("❌ JSON PARSE FAILED:", e)
+            print("RAW TEXT RESPONSE:", response.text)
+            ret
 ```
 
 ### ./orchestrator/__init__.py
