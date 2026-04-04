@@ -14,6 +14,9 @@ import subprocess
 import os
 from tools.code_runner import run_app
 
+# These are checker debugs
+print("🔥 DEBUG: Orchestrator LOADED v1")
+
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
 
@@ -32,6 +35,9 @@ class Orchestrator:
     # 1. Add 'idea_id=None' here. Keep your 'idea' name exactly as is.
 
     def run_startup_cycle(self, idea, idea_id=None):  # New
+        # These are checker debugs
+        print("🚀 DEBUG: run_startup_cycle EXECUTED v1")
+
         print("ORCHESTRATOR RECEIVED IDEA:", idea)
         print("\n==============================")
         print("🚀 STARTUP GENERATION STARTED")

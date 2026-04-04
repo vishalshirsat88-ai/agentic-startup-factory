@@ -1,10 +1,12 @@
 from flask import Flask, jsonify
 from orchestrator.orchestrator import Orchestrator
+from engine.db import init_db
 import json
 import os
 import threading  # <--- Step 1: Add this import
 
 app = Flask(__name__)
+init_db()
 orch = Orchestrator()
 
 

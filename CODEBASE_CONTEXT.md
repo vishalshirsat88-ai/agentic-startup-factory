@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-02 19:17:17.121951+00:00
+Generated: 2026-04-03 19:26:46.323945+00:00
 
 ## Project Structure
 
@@ -10,9 +10,12 @@ Generated: 2026-04-02 19:17:17.121951+00:00
 - fill_repo.py
 - replit.md
 - test_engine.py
+- generate_context.py
+- PROJECT_CONTEXT - Base -  Old.md
+- PROJECT_CONTEXT - Base.md
+- SYSTEM_FLOW.md
 - CODEBASE_CONTEXT.md
 - PROJECT_CONTEXT.md
-- generate_context.py
 
 ### Folder: ./.cache
 
@@ -892,6 +895,8 @@ Generated: 2026-04-02 19:17:17.121951+00:00
 
 ### Folder: ./.cache/ty/vendored/typeshed/843c1fd5a148da85e523c1b4ee680226f89986aa/stdlib/os
 
+### Folder: ./.cache/ty/vendored/typeshed/843c1fd5a148da85e523c1b4ee680226f89986aa/stdlib/json
+
 ### Folder: ./.agents
 
 ### Folder: ./.local
@@ -906,45 +911,45 @@ Generated: 2026-04-02 19:17:17.121951+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/jiRI0kHDKZ0RwEumXxouO
+### Folder: ./.local/state/workflow-logs/W0h4UDx1_BDzm3Zxknvkc
 
-### Folder: ./.local/state/workflow-logs/O7U_J6WebVGK1RRSD3gab
+### Folder: ./.local/state/workflow-logs/p7QGsrKN9p_Ml831hQj8c
 
-### Folder: ./.local/state/workflow-logs/rIcgebOCNUP6clHpCVez7
+### Folder: ./.local/state/workflow-logs/rR5zEj78eKNeKUnW587az
 
-### Folder: ./.local/state/workflow-logs/T86OFv4zfllnMrgc9aOyM
+### Folder: ./.local/state/workflow-logs/-8_3ErNdd3cRMePyrsarL
 
-### Folder: ./.local/state/workflow-logs/7-0E_xs34wGbEbRel2AbO
+### Folder: ./.local/state/workflow-logs/HWoPaCq4K9Q760vBu3Pca
 
-### Folder: ./.local/state/workflow-logs/AHoCRkZOh-gtGr6W0EhYZ
+### Folder: ./.local/state/workflow-logs/nHy2AXsi3hIWrQZRKtU64
 
-### Folder: ./.local/state/workflow-logs/8b44LIK8Wxzxy-6_RXNcw
+### Folder: ./.local/state/workflow-logs/4sQpR83zLk1NuMG0MkvKQ
 
-### Folder: ./.local/state/workflow-logs/g8GR1yArX71hDLEvcV_mV
+### Folder: ./.local/state/workflow-logs/lHPUJKYH0iLMxJbw7G3Fs
 
-### Folder: ./.local/state/workflow-logs/snryohNTRVi7KFcq2fEsT
+### Folder: ./.local/state/workflow-logs/r1FPM8QLlahocqfiakXMU
 
-### Folder: ./.local/state/workflow-logs/uIJvxQhIK9swugIGCoznr
+### Folder: ./.local/state/workflow-logs/Mkp22xh1mY2eRZ6wjKblJ
 
-### Folder: ./.local/state/workflow-logs/KOlcNcexng1u-r4iTrhiQ
+### Folder: ./.local/state/workflow-logs/RdvJDg_0NnY_DSTeVpuNN
 
-### Folder: ./.local/state/workflow-logs/Btsku4GQZLG92llXM58KG
+### Folder: ./.local/state/workflow-logs/x2pk3dtA8KcxcsMpy0K67
 
-### Folder: ./.local/state/workflow-logs/N21mmnO7dD4KRHbzoXCMl
+### Folder: ./.local/state/workflow-logs/E4GYe_N35DwgEz-11--x8
 
-### Folder: ./.local/state/workflow-logs/RbyU9We9nGDmvewOQb2LL
+### Folder: ./.local/state/workflow-logs/IypdtnRsM9zMtZ7-vl_Yw
 
-### Folder: ./.local/state/workflow-logs/rlgl8gbXom-H1ArAK5dMK
+### Folder: ./.local/state/workflow-logs/JjaWdkF4hV3h_RdJ7dc9m
 
-### Folder: ./.local/state/workflow-logs/eokxjaAEKHQog4NVINs5g
+### Folder: ./.local/state/workflow-logs/3ToOOLo2WrPNSIfJovi4F
 
-### Folder: ./.local/state/workflow-logs/805twc1341pfFDWJ9KgxA
+### Folder: ./.local/state/workflow-logs/Bkt9_L_l-E9uc5UiEaKSd
 
-### Folder: ./.local/state/workflow-logs/NeOOESeOXcrsslc35gKHu
+### Folder: ./.local/state/workflow-logs/fy5ND3Ndt0aeS0FeIZTPH
 
-### Folder: ./.local/state/workflow-logs/KSkEMKR61bXhq003MvkqJ
+### Folder: ./.local/state/workflow-logs/5M9xkIEBUHdq1h0gSj4Tq
 
-### Folder: ./.local/state/workflow-logs/rkPXsaxvZcZNZejsWB2QK
+### Folder: ./.local/state/workflow-logs/QUHOA5DwjHLlgMhesi-ce
 
 ### Folder: ./.local/skills
 
@@ -1318,13 +1323,13 @@ Generated: 2026-04-02 19:17:17.121951+00:00
 - agent_base.py
 - finance_agent.py
 - growth_agent.py
-- product_agent.py
 - qa_agent.py
-- cto_agent.py
 - ceo_agent.py
 - deployment_agent.py
 - github_agent.py
+- product_agent.py
 - developer_agent.py
+- cto_agent.py
 
 ### Folder: ./constitution
 - founder-control-room.md
@@ -1338,6 +1343,7 @@ Generated: 2026-04-02 19:17:17.121951+00:00
 ### Folder: ./engine
 - template_renderer.py
 - auto_wire.py
+- db.py
 - file_generator.py
 - ai_logic.py
 
@@ -3542,50 +3548,6 @@ Marketing Plan
 """
 ```
 
-### ./agents/product_agent.py
-
-```python
-from agents.agent_base import AgentBase
-from tools.json_parser import extract_json
-
-class ProductAgent(AgentBase):
-
-    def __init__(self):
-        super().__init__("Product Agent")
-
-    def define_product(self, idea):
-
-        prompt = f"""
-        You are a product manager.
-
-        Convert this startup idea into structured product features.
-
-        Startup Idea:
-        {idea}
-
-        Return ONLY JSON:
-
-        {{
-          "core_features": ["feature1", "feature2"],
-          "user_flows": ["flow1", "flow2"],
-          "edge_cases": ["case1", "case2"]
-        }}
-
-        Do not explain anything.
-        """
-
-        response = self.think(prompt)
-
-        product = extract_json(response)
-
-        if not product:
-            print("[Product Agent] Failed to parse product JSON")
-            return None
-
-        return product
-
-```
-
 ### ./agents/qa_agent.py
 
 ```python
@@ -3609,59 +3571,6 @@ class QAAgent:
         print(output)
 
         return output
-```
-
-### ./agents/cto_agent.py
-
-```python
-from agents.agent_base import AgentBase
-from tools.json_parser import extract_json
-import json
-
-
-class CTOAgent(AgentBase):
-
-    def __init__(self):
-        super().__init__("CTO Agent")
-
-    def design_architecture(self, idea):
-
-        prompt = f"""
-        You are a senior software architect.
-        
-        Design a production-ready SaaS architecture.
-        
-        Startup Context:
-        {idea}
-        
-        IMPORTANT:
-        Use product features to design real APIs and modules.
-        
-        Return ONLY JSON:
-        
-        {{
-          "backend": "Flask",
-          "database": "SQLite",
-          "models": ["User"],
-          "routes": ["/", "/signup", "/login", "/dashboard"],
-          "pages": ["index.html", "dashboard.html"],
-          "features": ["list of features"],
-          "modules": ["auth", "core_logic", "payments"]
-        }}
-        
-        Do NOT explain anything.
-        """
-
-        response = self.think(prompt)
-
-        architecture = extract_json(response)
-
-        if not architecture:
-            print("[CTO Agent] Invalid architecture JSON")
-            return None
-
-        return architecture
-
 ```
 
 ### ./agents/ceo_agent.py
@@ -3874,6 +3783,77 @@ class GitHubAgent:
             ["git", "commit", "-m", f"Add project: {project_name
 ```
 
+### ./agents/product_agent.py
+
+```python
+from agents.agent_base import AgentBase
+from tools.json_parser import extract_json
+
+# These are checker debugs
+print("🔥 DEBUG: ProductAgent LOADED v2")
+
+
+class ProductAgent(AgentBase):
+    def __init__(self):
+        super().__init__("Product Agent")
+
+    def define_product(self, idea):
+        # These are checker debugs
+        print("🚀 DEBUG: ProductAgent EXECUTED v1")
+        prompt = f"""
+        You are a product manager.
+
+        Convert this startup idea into structured product features.
+
+        Startup Idea:
+        {idea}
+        
+        Break the product into 3–6 modules.
+        Each module should represent a backend component (like users, orders, analytics, etc).
+
+        Return ONLY JSON:
+
+        {{
+          "name": "product name",
+          "description": "short description",
+          "modules": [
+            {{
+              "name": "module_name",
+              "description": "what this module does",
+              "features": ["feature1", "feature2"]
+            }}
+          ],
+          "user_flows": ["flow1", "flow2"],
+          "edge_cases": ["case1", "case2"]
+        }}
+
+        Do not explain anything.
+        """
+
+        response = self.think(prompt)
+
+        product = extract_json(response)
+        if product and "modules" not in product:
+            print("[Product Agent] Missing modules — applying fallback structure")
+            product["modules"] = [
+                {
+                    "name": "core",
+                    "description": "Core functionality",
+                    "features": product.get("core_features", ["basic operations"]),
+                }
+            ]
+
+        # 🔥 Ensure modules exist (CRITICAL FOR BACKEND)
+        if product and "modules" not in product:
+            print("[Product Agent] Adding modules fallback")
+
+            product["modules"] = [
+                {
+                    "name": "core",
+                    "description": "Core functionality",
+                    "features": product.get("core_feat
+```
+
 ### ./agents/developer_agent.py
 
 ```python
@@ -3886,6 +3866,9 @@ import json
 import time
 import shutil
 import traceback  # add at top if not already
+
+# These are checker debugs
+print("🔥 DEBUG: DeveloperAgent LOADED v1")
 
 
 class DeveloperAgent(AgentBase):
@@ -3946,8 +3929,81 @@ class DeveloperAgent(AgentBase):
             return False
 
         for file in os.listdir(routes_dir):
-            if file.endswith("_routes.py"):
-                service_nam
+
+```
+
+### ./agents/cto_agent.py
+
+```python
+from agents.agent_base import AgentBase
+from tools.json_parser import extract_json
+import json
+
+# These are checker debugs
+print("🔥 DEBUG: CTOAgent LOADEDv2")
+
+
+class CTOAgent(AgentBase):
+    def __init__(self):
+        super().__init__("CTO Agent")
+
+    def design_architecture(self, input_data):
+        # These are checker debugs
+        print("🚀 DEBUG: CTO design_architecture EXECUTEDv2")
+        # 🔥 Extract idea and product properly
+        if isinstance(input_data, dict):
+            idea = input_data.get("idea", {})
+            product = input_data.get("product", {})
+        else:
+            idea = input_data
+            product = {}
+
+        prompt = f"""
+        You are a senior software architect.
+        
+        Design a production-ready SaaS architecture.
+        
+        Startup Idea:
+        {json.dumps(idea, indent=2)}
+        
+        Product Definition:
+        {json.dumps(product, indent=2)}
+        
+        IMPORTANT:
+        Use product["modules"] and product["core_features"] to design backend modules.
+        Modules must directly map to backend structure (routes, services, models).
+        
+        IMPORTANT:
+        Use product features to design real APIs and modules.
+        
+        Return ONLY JSON:
+        
+        {{
+          "backend": "Flask",
+          "database": "SQLite",
+          "models": ["User"],
+          "routes": ["/", "/signup", "/login", "/dashboard"],
+          "pages": ["index.html", "dashboard.html"],
+          "features": ["list of features"],
+          "modules": [
+                {{
+                    "name": "module_name",
+                    "description": "what it does",
+                    "features": ["feature1", "feature2"]
+                }}
+            ]
+        }}
+        
+        Do NOT explain anything.
+        """
+
+        response = self.think(prompt)
+
+        architecture = extract_json(response)
+
+        if not architecture:
+            print("[CTO Agent] Invalid architecture JSON")
+            retur
 ```
 
 ### ./dashboard/__init__.py
@@ -3961,11 +4017,13 @@ class DeveloperAgent(AgentBase):
 ```python
 from flask import Flask, jsonify
 from orchestrator.orchestrator import Orchestrator
+from engine.db import init_db
 import json
 import os
 import threading  # <--- Step 1: Add this import
 
 app = Flask(__name__)
+init_db()
 orch = Orchestrator()
 
 
@@ -4035,8 +4093,7 @@ def approve_idea(idea_id):
             selected_idea = idea
             break
 
-    if selected_idea:
-        # Save updated i
+    if
 ```
 
 ### ./engine/template_renderer.py
@@ -4138,15 +4195,58 @@ def wire_routes(project_dir):
         # fallb
 ```
 
+### ./engine/db.py
+
+```python
+import sqlite3
+
+print("🔥 DEBUG: DB MODULE LOADED v1")
+
+DB_PATH = "database.db"
+
+
+def get_connection():
+    return sqlite3.connect(DB_PATH)
+
+
+def init_db():
+    print("🚀 Initializing database...")
+
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS items (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        module TEXT
+    )
+    """)
+
+    conn.commit()
+    conn.close()
+
+    print("✅ Database initialized")
+
+```
+
 ### ./engine/file_generator.py
 
 ```python
 import os
+import re
 import engine.ai_logic
+
+# These are checker debugs
+print("🔥 DEBUG: File_generator LOADED v6")
 
 from tools.file_writer import write_file
 
 print("AI LOGIC FILE:", engine.ai_logic.__file__)
+
+
+def indent_code(code, spaces=8):
+    return "\n".join((" " * spaces) + line for line in code.split("\n"))
 
 
 def generate_backend_files(project_dir, architecture):
@@ -4164,7 +4264,15 @@ def generate_backend_files(project_dir, architecture):
         os.makedirs(os.path.join(project_dir, folder), exist_ok=True)
 
     for module in modules:
-        safe_name = module.lower().replace(" ", "_")
+        print(f"🔥 DEBUG: Processing module → {module}")
+        # 🔥 Handle both string and dict modules
+        if isinstance(module, dict):
+            module_name = module.get("name", "core")
+        else:
+            module_name = module
+
+        safe_name = module_name.lower()
+        safe_name = re.sub(r"[^a-z0-9_]", "_", safe_name)
 
         model_code = f"""
 class {safe_name.capitalize()}Model:
@@ -4182,39 +4290,23 @@ class {safe_name.capitalize()}Model:
 
         ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
 
-        print("[DEBUG] AI LOGIC TYPE:", type(ai_logic))
-        print("[DEBUG] AI LOGIC VALUE:\n", ai_logic)
-        print("AI LOGIC GENERATED:\n", ai_logic)
+        # 🔥 SAFETY FILTER (CRITICAL)
+        unsafe_patterns = [
+            "users",
+            "datetime",
+            "timedelta",
+            "user_authenticated",
+            "encrypt_",
+            "verify_",
+            "hash_",
+            "store_data",
+        ]
 
-        service_code = f"""
-        from db import get_connection
+        for pattern in unsafe_patterns:
+            if pattern in ai_logic:
+                print(f"⚠️ Unsafe pattern detected: {pattern} — applying fallback")
 
-        {ai_logic}
-
-
-        def add_{safe_name}(name):
-            try:
-                conn = get_connection()
-                cursor = conn.cursor()
-
-                cursor.execute(
-                    "INSERT INTO items (name, module) VALUES (?, ?)",
-                    (name, "{safe_name}")
-                )
-                conn.commit()
-                conn.close()
-
-                return {{
-                    "status": "success",
-                    "data": {{"message": "{module} added"}},
-                    "error": None
-                }}
-
-            except Exception as e:
-                return {{
-                    "status": "error",
-                    "data": None,
-                    "
+                ai_logic = 
 ```
 
 ### ./engine/ai_logic.py
@@ -4224,7 +4316,7 @@ import requests
 import os
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-print("🔥🔥 NEW AI_LOGIC FILE LOADED 🔥🔥")
+print("🔥🔥 NEW AI_LOGIC FILE LOADED v3🔥🔥")
 
 
 def generate_service_logic(module_name, idea):
@@ -4232,8 +4324,7 @@ def generate_service_logic(module_name, idea):
 
     if not GROQ_API_KEY:
         print("❌ GROQ KEY NOT FOUND — using fallback")
-        return f"""
-def get_{module_name}():
+        return f"""def get_{module_name}():
     return {{
         "status": "fallback_no_api_key",
         "module": "{module_name}"
@@ -4293,7 +4384,7 @@ def get_{module_name}():
         except Exception as e:
             print("❌ JSON PARSE FAILED:", e)
             print("RAW TEXT RESPONSE:", response.text)
-            ret
+            re
 ```
 
 ### ./orchestrator/__init__.py
@@ -4321,6 +4412,9 @@ import subprocess
 import os
 from tools.code_runner import run_app
 
+# These are checker debugs
+print("🔥 DEBUG: Orchestrator LOADED v1")
+
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
 
@@ -4339,6 +4433,9 @@ class Orchestrator:
     # 1. Add 'idea_id=None' here. Keep your 'idea' name exactly as is.
 
     def run_startup_cycle(self, idea, idea_id=None):  # New
+        # These are checker debugs
+        print("🚀 DEBUG: run_startup_cycle EXECUTED v1")
+
         print("ORCHESTRATOR RECEIVED IDEA:", idea)
         print("\n==============================")
         print("🚀 STARTUP GENERATION STARTED")
@@ -4358,13 +4455,7 @@ class Orchestrator:
             "CTO Agent",
             self.cto.design_architecture,
             {"idea": idea, "product": product},
-        )
-        print("STEP 5: After CTO Agent")
-
-        print("STEP 6: Before Developer Agent")
-        print("\n[Developer Agent] starting...")
-
-        project_pa
+       
 ```
 
 ### ./saas_master_template/app.py

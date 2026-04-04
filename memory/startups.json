@@ -404,5 +404,61 @@
     "project_path": "projects/echoliberi-57433",
     "status": "deployed",
     "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoVitalisX2",
+    "description": "AI-powered virtual event planning platform",
+    "project_path": "projects/echovitalisx2-28229",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "DreamCraft",
+    "description": "AI-powered virtual reality world builder for creatives",
+    "project_path": "projects/dreamcraft-30053",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "DreamForge",
+    "description": "AI-powered virtual reality experience creation platform for artists and designers",
+    "project_path": "projects/dreamforge-31681",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoVitaSphere",
+    "description": "AI-powered mental wellness platform for seniors",
+    "project_path": "projects/echovitasphere-33737",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EcoCycleGenie",
+    "description": "AI-powered home waste management system",
+    "project_path": "projects/ecocyclegenie-35081",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "EchoMnemosyne",
+    "description": "An AI-powered, voice-controlled, and wearable device that helps people with dementia or Alzheimer's disease to remember and recall important events, appointments, and tasks.",
+    "project_path": "projects/echomnemosyne-40802",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "MoodMeld",
+    "description": "An AI-powered mental wellness platform that uses emotional intelligence to match users with personalized mindfulness exercises and mental health professionals.",
+    "project_path": "projects/moodmeld-41261",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "DreamWeaverX2",
+    "description": "AI-powered virtual reality experience generator for creatives and artists",
+    "project_path": "projects/dreamweaverx2-44401",
+    "status": "deployed",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
   }
 ]

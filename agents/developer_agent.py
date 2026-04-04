@@ -8,6 +8,9 @@ import time
 import shutil
 import traceback  # add at top if not already
 
+# These are checker debugs
+print("🔥 DEBUG: DeveloperAgent LOADED v1")
+
 
 class DeveloperAgent(AgentBase):
     def __init__(self):
@@ -86,11 +89,19 @@ class DeveloperAgent(AgentBase):
         shutil.copytree(template_path, project_dir, dirs_exist_ok=True)
 
     def build_mvp(self, idea, architecture=None):
+        # These are checker debugs
+        print("🚀 DEBUG: build_mvp EXECUTED v1")
+
         print("DEBUG IDEA TEXT:")
         print(json.dumps(idea, indent=2) if isinstance(idea, dict) else idea)
         print("✅ ENTERED build_mvp")
         project_dir = None  # 🔥 track explicitly
-        project_name = self.extract_project_name(idea)
+        if idea:
+            project_name = self.extract_project_name(idea)
+        elif architecture and isinstance(architecture, dict):
+            project_name = self.extract_project_name(architecture.get("product", {}))
+        else:
+            project_name = "startup"
 
         print("EXTRACTED PROJECT NAME:", project_name)
 
@@ -115,13 +126,25 @@ class DeveloperAgent(AgentBase):
             product_description = "AI powered solution"
             product_features = []
 
-            if isinstance(idea, dict):
-                product_name = idea.get("name", product_name)
-                product_description = idea.get("description", product_description)
-
-            # ✅ NEW: Extract features from architecture
+            # 🔥 Prefer product features over architecture
             if architecture and isinstance(architecture, dict):
-                product_features = architecture.get("features", [])
+                # Try product first
+                product_data = architecture.get("product", {})
+
+                if isinstance(product_data, dict):
+                    modules = product_data.get("modules", [])
+
+                    if modules:
+                        # extract features from modules
+                        product_features = [
+                            feature
+                            for module in modules
+                            for feature in module.get("features", [])
+                        ]
+
+                # fallback to architecture features
+                if not product_features:
+                    product_features = architecture.get("features", [])
 
             # Replace PRODUCT_NAME
             content = content.replace(
@@ -160,7 +183,15 @@ class DeveloperAgent(AgentBase):
 
         if architecture:
             for module in architecture.get("modules", []):
-                print(f"[Developer Agent] Preparing module: {module}")
+                if isinstance(module, dict):
+                    module_name = module.get("name", "core")
+                    module_features = module.get("features", [])
+
+                    print(f"[Developer Agent] Preparing module: {module_name}")
+                    print(f"  Features: {module_features}")
+
+                else:
+                    print(f"[Developer Agent] Preparing module: {module}")
 
         # ✅ Ensure requirements.txt exists
         req_path = f"{project_dir}/requirements.txt"
@@ -191,6 +222,10 @@ Werkzeug==2.2.3
         # 🔥 ADD THIS BLOCK BEFORE CALL
         if architecture and isinstance(architecture, dict):
             architecture["idea"] = idea
+
+            # 🔥 NEW: pass product also if available
+            if isinstance(idea, dict) and "product" in idea:
+                architecture["product"] = idea["product"]
 
         try:
             if architecture:

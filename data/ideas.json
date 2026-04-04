@@ -707,5 +707,172 @@
     "score": 7,
     "status": "approved",
     "processed": true
+  },
+  {
+    "id": 52,
+    "idea": {
+      "name": "BioEcho",
+      "description": "AI-powered virtual reality therapy for patients with dementia and Alzheimer's disease",
+      "market": "Healthcare and eldercare facilities",
+      "revenue_model": "Subscription-based model for access to AI-powered therapy sessions and analytics for caregivers"
+    },
+    "name": "BioEcho",
+    "description": "AI-powered virtual reality therapy for patients with dementia and Alzheimer's disease",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 53,
+    "idea": {
+      "name": "EchoVitalisX",
+      "description": "AI-powered mental wellness platform for seniors using AR and voice assistants",
+      "market": "Seniors (65+ years) and caregivers",
+      "revenue_model": "Subscription-based model with optional in-app purchases for premium content"
+    },
+    "name": "EchoVitalisX",
+    "description": "AI-powered mental wellness platform for seniors using AR and voice assistants",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 54,
+    "idea": {
+      "name": "DreamWeaver X",
+      "description": "AI-powered virtual reality meditation platform for therapists and patients to manage stress and anxiety",
+      "market": "Mental health professionals, patients with anxiety and stress disorders",
+      "revenue_model": "Subscription-based model for therapists, with additional in-app purchases for premium content and features"
+    },
+    "name": "DreamWeaver X",
+    "description": "AI-powered virtual reality meditation platform for therapists and patients to manage stress and anxiety",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 55,
+    "idea": {
+      "name": "EchoCerebra",
+      "description": "AI-powered brain-computer interface for musicians to create music using only their thoughts",
+      "market": "Professional musicians, music producers, and composers",
+      "revenue_model": "Subscription-based music creation software with in-app purchases for premium features"
+    },
+    "name": "EchoCerebra",
+    "description": "AI-powered brain-computer interface for musicians to create music using only their thoughts",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 56,
+    "idea": {
+      "name": "EchoVitalisX2",
+      "description": "AI-powered virtual event planning platform",
+      "market": "Event planners, entrepreneurs, and businesses",
+      "revenue_model": "Transaction fees and premium services"
+    },
+    "name": "EchoVitalisX2",
+    "description": "AI-powered virtual event planning platform",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 57,
+    "idea": {
+      "name": "DreamCraft",
+      "description": "AI-powered virtual reality world builder for creatives",
+      "market": "Graphic designers, architects, and other creatives",
+      "revenue_model": "Subscription-based and commission on sales of user-created content"
+    },
+    "name": "DreamCraft",
+    "description": "AI-powered virtual reality world builder for creatives",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 58,
+    "idea": {
+      "name": "DreamForge",
+      "description": "AI-powered virtual reality experience creation platform for artists and designers",
+      "market": "Creative professionals, entertainment industry",
+      "revenue_model": "Subscription-based, commission on sales of created experiences"
+    },
+    "name": "DreamForge",
+    "description": "AI-powered virtual reality experience creation platform for artists and designers",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 59,
+    "idea": {
+      "name": "EchoVitaSphere",
+      "description": "AI-powered mental wellness platform for seniors",
+      "market": "Seniors and caregivers",
+      "revenue_model": "Subscription-based, with optional in-app purchases"
+    },
+    "name": "EchoVitaSphere",
+    "description": "AI-powered mental wellness platform for seniors",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 60,
+    "idea": {
+      "name": "EcoCycleGenie",
+      "description": "AI-powered home waste management system",
+      "market": "Homeowners and small businesses",
+      "revenue_model": "Subscription-based waste collection and recycling services"
+    },
+    "name": "EcoCycleGenie",
+    "description": "AI-powered home waste management system",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 61,
+    "idea": {
+      "name": "EchoMnemosyne",
+      "description": "An AI-powered, voice-controlled, and wearable device that helps people with dementia or Alzheimer's disease to remember and recall important events, appointments, and tasks.",
+      "market": "Caregivers, families, and individuals living with dementia or Alzheimer's disease",
+      "revenue_model": "Subscription-based service with additional revenue from sales of replacement batteries and accessories"
+    },
+    "name": "EchoMnemosyne",
+    "description": "An AI-powered, voice-controlled, and wearable device that helps people with dementia or Alzheimer's disease to remember and recall important events, appointments, and tasks.",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 62,
+    "idea": {
+      "name": "MoodMeld",
+      "description": "An AI-powered mental wellness platform that uses emotional intelligence to match users with personalized mindfulness exercises and mental health professionals.",
+      "market": "Young adults and professionals experiencing stress and anxiety",
+      "revenue_model": "Subscription-based model with optional one-on-one coaching sessions"
+    },
+    "name": "MoodMeld",
+    "description": "An AI-powered mental wellness platform that uses emotional intelligence to match users with personalized mindfulness exercises and mental health professionals.",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 63,
+    "idea": {
+      "name": "DreamWeaverX2",
+      "description": "AI-powered virtual reality experience generator for creatives and artists",
+      "market": "Artists, designers, and game developers",
+      "revenue_model": "Subscription-based service and commission on sales of generated content"
+    },
+    "name": "DreamWeaverX2",
+    "description": "AI-powered virtual reality experience generator for creatives and artists",
+    "score": 6,
+    "status": "approved",
+    "processed": true
   }
 ]

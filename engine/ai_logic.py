@@ -2,7 +2,7 @@ import requests
 import os
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-print("🔥🔥 NEW AI_LOGIC FILE LOADED 🔥🔥")
+print("🔥🔥 NEW AI_LOGIC FILE LOADED v3🔥🔥")
 
 
 def generate_service_logic(module_name, idea):
@@ -10,8 +10,7 @@ def generate_service_logic(module_name, idea):
 
     if not GROQ_API_KEY:
         print("❌ GROQ KEY NOT FOUND — using fallback")
-        return f"""
-def get_{module_name}():
+        return f"""def get_{module_name}():
     return {{
         "status": "fallback_no_api_key",
         "module": "{module_name}"
@@ -71,7 +70,9 @@ def get_{module_name}():
         except Exception as e:
             print("❌ JSON PARSE FAILED:", e)
             print("RAW TEXT RESPONSE:", response.text)
-            return f"def get_{module_name}(): return {{'error': 'json_parse_failed'}}"
+            return f"""def get_{module_name}():
+                return {{"error": "json_parse_failed"}}
+            """
 
         # 🔥 FORCE PRINT (NO CONDITIONS)
         print("\n================ RAW GROQ RESPONSE - V3 ================")
@@ -98,11 +99,66 @@ def get_{module_name}():
                 if f"def get_{module_name}" not in content:
                     print("❌ INVALID FUNCTION NAME — USING FALLBACK")
                     return f"""def get_{module_name}():
-            return {{"status": "invalid_ai_output"}}
-        """
+    return {{"status": "invalid_ai_output"}}
+"""
 
                 print("[AI LOGIC] SUCCESSFULLY EXTRACTED")
+                # 🔥 REMOVE EXTRA FUNCTIONS (CRITICAL)
+                # 🔥 STRICT FUNCTION EXTRACTION (FINAL FIX)
 
+                start_index = content.find(f"def get_{module_name}")
+                if start_index == -1:
+                    return f"""def get_{module_name}():
+    return {{"status": "invalid_ai_output"}}
+"""
+
+                content = content[start_index:]
+
+                # REMOVE DUPLICATE FUNCTION DEFINITIONS
+                parts = content.split(f"def get_{module_name}")
+                if len(parts) > 1:
+                    content = f"def get_{module_name}" + parts[1]
+
+                # 🔥 REMOVE DUPLICATE LINES
+                lines = content.split("\n")
+                cleaned = []
+
+                for i, line in enumerate(lines):
+                    if i > 0 and line.strip() == lines[i - 1].strip():
+                        continue
+                    cleaned.append(line)
+
+                content = "\n".join(cleaned)
+
+                # 🔥 FINAL VALIDATION
+                if "return" not in content:
+                    print("❌ INVALID FUNCTION — NO RETURN")
+                    return f"""def get_{module_name}():
+    return {{"status": "invalid_no_return"}}
+"""
+
+                # 🔥 BASIC SYNTAX CHECK (ADD HERE)
+                if content.count("(") != content.count(")") or content.count(
+                    "{"
+                ) != content.count("}"):
+                    print("❌ SYNTAX MISMATCH — USING FALLBACK")
+                    return f"""def get_{module_name}():
+    return {{"status": "syntax_error"}}
+"""
+
+                # ✂️ KEEP ONLY FIRST FUNCTION BLOCK (FIXED)
+                lines = content.split("\n")
+                cleaned = []
+
+                for line in lines:
+                    # STOP at second function (safer logic)
+                    if line.strip().startswith("def ") and cleaned:
+                        break
+
+                    cleaned.append(line)
+
+                content = "\n".join(cleaned)
+                print("🔥 FINAL CLEANED AI FUNCTION:\n", content)
                 return content
 
             except Exception as e:
@@ -115,11 +171,11 @@ def get_{module_name}():
         print("❌ UNKNOWN RESPONSE FORMAT")
 
         return f"""def get_{module_name}():
-            return {{
-                "status": "fallback_error",
-                "module": "{module_name}"
-            }}
-        """
+return {{
+    "status": "fallback_error",
+    "module": "{module_name}"
+}}
+"""
 
     except Exception as e:
         print("❌ AI LOGIC ERROR:", e)
