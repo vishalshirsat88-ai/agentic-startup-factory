@@ -9,7 +9,7 @@ import shutil
 import traceback  # add at top if not already
 
 # These are checker debugs
-print("🔥 DEBUG: DeveloperAgent LOADED v1")
+print("🔥 DEBUG: DeveloperAgent LOADED v2")
 
 
 class DeveloperAgent(AgentBase):
@@ -262,4 +262,24 @@ Werkzeug==2.2.3
 
         print("✅ FINAL RETURN:", project_dir)
         print("🔥 RETURN TYPE:", type(project_dir))
+        # 🔥 AUTO FIX INDENTATION FOR ALL FILES
+        import glob
+        import textwrap
+
+        print("[Developer Agent] Cleaning indentation across project...")
+
+        py_files = glob.glob(os.path.join(project_dir, "**/*.py"), recursive=True)
+
+        for file_path in py_files:
+            try:
+                with open(file_path, "r") as f:
+                    code = f.read()
+
+                cleaned_code = textwrap.dedent(code)
+
+                with open(file_path, "w") as f:
+                    f.write(cleaned_code)
+
+            except Exception as e:
+                print(f"[Developer Agent] Failed cleaning {file_path}:", e)
         return project_dir

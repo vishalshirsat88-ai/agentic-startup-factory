@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-03 19:26:46.323945+00:00
+Generated: 2026-04-04 19:07:08.383481+00:00
 
 ## Project Structure
 
@@ -12,10 +12,10 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 - test_engine.py
 - generate_context.py
 - PROJECT_CONTEXT - Base -  Old.md
-- PROJECT_CONTEXT - Base.md
 - SYSTEM_FLOW.md
 - CODEBASE_CONTEXT.md
 - PROJECT_CONTEXT.md
+- PROJECT_CONTEXT - Base.md
 
 ### Folder: ./.cache
 
@@ -897,6 +897,8 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 
 ### Folder: ./.cache/ty/vendored/typeshed/843c1fd5a148da85e523c1b4ee680226f89986aa/stdlib/json
 
+### Folder: ./.cache/ty/vendored/typeshed/843c1fd5a148da85e523c1b4ee680226f89986aa/stdlib/sys
+
 ### Folder: ./.agents
 
 ### Folder: ./.local
@@ -911,64 +913,64 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/W0h4UDx1_BDzm3Zxknvkc
+### Folder: ./.local/state/workflow-logs/zDTQqO8db1u-eTBow6SGj
 
-### Folder: ./.local/state/workflow-logs/p7QGsrKN9p_Ml831hQj8c
+### Folder: ./.local/state/workflow-logs/nDM0KDujBSQvZ4TThlzDq
 
-### Folder: ./.local/state/workflow-logs/rR5zEj78eKNeKUnW587az
+### Folder: ./.local/state/workflow-logs/VaSFASQt9AttgoNwupuBB
 
-### Folder: ./.local/state/workflow-logs/-8_3ErNdd3cRMePyrsarL
+### Folder: ./.local/state/workflow-logs/E2mpR8UdOfAbvcVMWf7Da
 
-### Folder: ./.local/state/workflow-logs/HWoPaCq4K9Q760vBu3Pca
+### Folder: ./.local/state/workflow-logs/1d6ejsHAQ1N3Nqu_mRw5d
 
-### Folder: ./.local/state/workflow-logs/nHy2AXsi3hIWrQZRKtU64
+### Folder: ./.local/state/workflow-logs/ZGetdPmCGXyP1E8Cv4Nur
 
-### Folder: ./.local/state/workflow-logs/4sQpR83zLk1NuMG0MkvKQ
+### Folder: ./.local/state/workflow-logs/aRGw_9HEgFUz8M-O3yY2v
 
-### Folder: ./.local/state/workflow-logs/lHPUJKYH0iLMxJbw7G3Fs
+### Folder: ./.local/state/workflow-logs/bAiRjqrXVI3JABb2nTzu1
 
-### Folder: ./.local/state/workflow-logs/r1FPM8QLlahocqfiakXMU
+### Folder: ./.local/state/workflow-logs/da6fW5fsSt05dqmB9FPjR
 
-### Folder: ./.local/state/workflow-logs/Mkp22xh1mY2eRZ6wjKblJ
+### Folder: ./.local/state/workflow-logs/3ysHMfUrXBSLtnkStvSi1
 
-### Folder: ./.local/state/workflow-logs/RdvJDg_0NnY_DSTeVpuNN
+### Folder: ./.local/state/workflow-logs/qEZG8S9cQ3Yw1cQkFvqnr
 
-### Folder: ./.local/state/workflow-logs/x2pk3dtA8KcxcsMpy0K67
+### Folder: ./.local/state/workflow-logs/1WnHlhJb9vEzGOw_oXBzF
 
-### Folder: ./.local/state/workflow-logs/E4GYe_N35DwgEz-11--x8
+### Folder: ./.local/state/workflow-logs/x1-FWDMOJ67kWcHW1YKw-
 
-### Folder: ./.local/state/workflow-logs/IypdtnRsM9zMtZ7-vl_Yw
+### Folder: ./.local/state/workflow-logs/WeFSzrycqnHRKhdThmBAM
 
-### Folder: ./.local/state/workflow-logs/JjaWdkF4hV3h_RdJ7dc9m
+### Folder: ./.local/state/workflow-logs/GcL5E-lsMQNTkqr2bYmB2
 
-### Folder: ./.local/state/workflow-logs/3ToOOLo2WrPNSIfJovi4F
+### Folder: ./.local/state/workflow-logs/d-XLkjQC_OYuzrCMwYZJ3
 
-### Folder: ./.local/state/workflow-logs/Bkt9_L_l-E9uc5UiEaKSd
+### Folder: ./.local/state/workflow-logs/PUcdnRisLGsZHKYYzPV1H
 
-### Folder: ./.local/state/workflow-logs/fy5ND3Ndt0aeS0FeIZTPH
+### Folder: ./.local/state/workflow-logs/o2hHj_0pcL2Pjb7sc8K7v
 
-### Folder: ./.local/state/workflow-logs/5M9xkIEBUHdq1h0gSj4Tq
+### Folder: ./.local/state/workflow-logs/3_oZZ5sCghah20viCJnaQ
 
-### Folder: ./.local/state/workflow-logs/QUHOA5DwjHLlgMhesi-ce
+### Folder: ./.local/state/workflow-logs/MoI6NFbaEuUbOY3QcuElY
 
 ### Folder: ./.local/skills
 
-### Folder: ./.local/skills/delegation
-- SKILL.md
-
-### Folder: ./.local/skills/agent-inbox
-- SKILL.md
-
 ### Folder: ./.local/skills/database
-- SKILL.md
-
-### Folder: ./.local/skills/environment-secrets
 - SKILL.md
 
 ### Folder: ./.local/skills/diagnostics
 - SKILL.md
 
+### Folder: ./.local/skills/agent-inbox
+- SKILL.md
+
 ### Folder: ./.local/skills/design-exploration
+- SKILL.md
+
+### Folder: ./.local/skills/delegation
+- SKILL.md
+
+### Folder: ./.local/skills/environment-secrets
 - SKILL.md
 
 ### Folder: ./.local/skills/canvas
@@ -990,10 +992,13 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 ### Folder: ./.local/skills/media-generation
 - SKILL.md
 
-### Folder: ./.local/skills/mockup-graduate
+### Folder: ./.local/skills/package-management
 - SKILL.md
 
 ### Folder: ./.local/skills/mockup-extract
+- SKILL.md
+
+### Folder: ./.local/skills/mockup-graduate
 - SKILL.md
 
 ### Folder: ./.local/skills/external_apis
@@ -1001,9 +1006,6 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 
 ### Folder: ./.local/skills/external_apis/references
 - brave.md
-
-### Folder: ./.local/skills/package-management
-- SKILL.md
 
 ### Folder: ./.local/skills/mockup-sandbox
 - SKILL.md
@@ -1080,6 +1082,7 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 
 ### Folder: ./.local/skills/video-js/references
 - finalize_playback.md
+- first_build.md
 
 ### Folder: ./.local/skills/workflows
 - SKILL.md
@@ -1130,6 +1133,8 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 ### Folder: ./.local/skills/artifacts/artifacts/expo/files/components
 
 ### Folder: ./.local/skills/artifacts/artifacts/expo/files/constants
+
+### Folder: ./.local/skills/artifacts/artifacts/expo/files/hooks
 
 ### Folder: ./.local/skills/artifacts/artifacts/expo/files/scripts
 
@@ -1185,10 +1190,6 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 
 ### Folder: ./.local/skills/artifacts/artifacts/slides/files/src/data
 
-### Folder: ./.local/skills/artifacts/artifacts/slides/files/src/pages
-
-### Folder: ./.local/skills/artifacts/artifacts/slides/files/src/pages/slides
-
 ### Folder: ./.local/skills/artifacts/artifacts/video-js
 
 ### Folder: ./.local/skills/artifacts/artifacts/video-js/files
@@ -1214,58 +1215,58 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 
 ### Folder: ./.local/secondary_skills
 
-### Folder: ./.local/secondary_skills/ai-recruiter
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/competitive-analysis
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/ai-secretary
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/branding-generator
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/deep-research
+### Folder: ./.local/secondary_skills/ai-sdr
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/ad-creative
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/design-thinker
+### Folder: ./.local/secondary_skills/ai-secretary
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/ai-recruiter
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/excel-generator
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/file-converter
+### Folder: ./.local/secondary_skills/deep-research
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/branding-generator
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/design-thinker
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/competitive-analysis
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/content-machine
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/find-customers
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/github-solution-finder
+### Folder: ./.local/secondary_skills/file-converter
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/flashcard-generator
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/insurance-optimizer
+### Folder: ./.local/secondary_skills/interview-prep
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/interview-prep
+### Folder: ./.local/secondary_skills/meal-planner
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/invoice-generator
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/legal-contract
+### Folder: ./.local/secondary_skills/insurance-optimizer
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/meal-planner
+### Folder: ./.local/secondary_skills/github-solution-finder
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/legal-contract
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/personal-shopper
@@ -1274,31 +1275,37 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 ### Folder: ./.local/secondary_skills/photo-editor
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/programmatic-seo
-- SKILL.md
-
 ### Folder: ./.local/secondary_skills/podcast-generator
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/product-manager
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/recipe-creator
+### Folder: ./.local/secondary_skills/programmatic-seo
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/real-estate-analyzer
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/repl-seo-optimizer
+### Folder: ./.local/secondary_skills/recreate-screenshot
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/resume-maker
+### Folder: ./.local/secondary_skills/recipe-creator
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/repl-seo-optimizer
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/seo-auditor
 - SKILL.md
 
+### Folder: ./.local/secondary_skills/resume-maker
+- SKILL.md
+
 ### Folder: ./.local/secondary_skills/stock-analyzer
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/supplier-research
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/storyboard
@@ -1308,9 +1315,6 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/website-cloning
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/supplier-research
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/tax-reviewer
@@ -1323,13 +1327,13 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 - agent_base.py
 - finance_agent.py
 - growth_agent.py
-- qa_agent.py
 - ceo_agent.py
 - deployment_agent.py
 - github_agent.py
 - product_agent.py
-- developer_agent.py
 - cto_agent.py
+- developer_agent.py
+- qa_agent.py
 
 ### Folder: ./constitution
 - founder-control-room.md
@@ -1344,8 +1348,8 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 - template_renderer.py
 - auto_wire.py
 - db.py
-- file_generator.py
 - ai_logic.py
+- file_generator.py
 
 ### Folder: ./logs
 
@@ -1475,7 +1479,6 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 
 ### Folder: ./tools
 - __init__.py
-- code_runner.py
 - deployment_tool.py
 - file_writer.py
 - github_tool.py
@@ -1484,6 +1487,8 @@ Generated: 2026-04-03 19:26:46.323945+00:00
 - memory.py
 - research_tool.py
 - web_search.py
+- code_runner.py
+- product_validator.py
 
 ### Folder: ./.pythonlibs
 
@@ -3548,31 +3553,6 @@ Marketing Plan
 """
 ```
 
-### ./agents/qa_agent.py
-
-```python
-from tools.code_runner import run_app
-from tools.llm import generate
-import os
-
-class QAAgent:
-
-    def test_product(self, project_path):
-
-        print("[QA Agent] Running application tests...")
-
-        success, output = run_app(project_path)
-
-        if success:
-            print("[QA Agent] App started successfully")
-            return True
-
-        print("[QA Agent] Error detected:")
-        print(output)
-
-        return output
-```
-
 ### ./agents/ceo_agent.py
 
 ```python
@@ -3854,84 +3834,6 @@ class ProductAgent(AgentBase):
                     "features": product.get("core_feat
 ```
 
-### ./agents/developer_agent.py
-
-```python
-from agents.agent_base import AgentBase
-from tools.file_writer import write_file
-from tools.code_runner import run_app
-import os
-import re
-import json
-import time
-import shutil
-import traceback  # add at top if not already
-
-# These are checker debugs
-print("🔥 DEBUG: DeveloperAgent LOADED v1")
-
-
-class DeveloperAgent(AgentBase):
-    def __init__(self):
-        super().__init__("Developer Agent")
-
-    def extract_project_name(self, idea):
-        # If idea is dictionary (new CEO agent format)
-        if isinstance(idea, dict):
-            name = idea.get("name", "startup")
-
-            # create slug
-            slug = re.sub(r"[^a-zA-Z0-9]+", "-", name.lower()).strip("-")
-
-            # limit length for GitHub repo safety
-            slug = slug[:25]
-
-            return f"{slug}-{int(time.time()) % 100000}"
-
-        # If idea is text (older format)
-        for line in idea.splitlines():
-            if "name" in line.lower():
-                words = re.findall(r"[A-Za-z0-9_-]+", line)
-
-                if len(words) >= 2:
-                    return words[1].lower()
-
-        words = re.findall(r"[A-Za-z]+", idea)
-
-        if words:
-            return words[0].lower()
-
-        return "startup"
-
-    def detect_dependencies(self, code):
-        deps = set()
-
-        if "flask_sqlalchemy" in code.lower():
-            deps.add("Flask-SQLAlchemy==3.0.5")
-
-        if "flask_login" in code.lower():
-            deps.add("Flask-Login==0.6.3")
-
-        if "requests" in code:
-            deps.add("requests==2.31.0")
-
-        if "pandas" in code:
-            deps.add("pandas==2.2.2")
-
-        return deps
-
-    def validate_backend_structure(self, project_dir):
-        services_dir = os.path.join(project_dir, "services")
-        routes_dir = os.path.join(project_dir, "routes")
-
-        if not os.path.exists(services_dir) or not os.path.exists(routes_dir):
-            print("[Developer Agent] Missing backend folders")
-            return False
-
-        for file in os.listdir(routes_dir):
-
-```
-
 ### ./agents/cto_agent.py
 
 ```python
@@ -4004,6 +3906,126 @@ class CTOAgent(AgentBase):
         if not architecture:
             print("[CTO Agent] Invalid architecture JSON")
             retur
+```
+
+### ./agents/developer_agent.py
+
+```python
+from agents.agent_base import AgentBase
+from tools.file_writer import write_file
+from tools.code_runner import run_app
+import os
+import re
+import json
+import time
+import shutil
+import traceback  # add at top if not already
+
+# These are checker debugs
+print("🔥 DEBUG: DeveloperAgent LOADED v2")
+
+
+class DeveloperAgent(AgentBase):
+    def __init__(self):
+        super().__init__("Developer Agent")
+
+    def extract_project_name(self, idea):
+        # If idea is dictionary (new CEO agent format)
+        if isinstance(idea, dict):
+            name = idea.get("name", "startup")
+
+            # create slug
+            slug = re.sub(r"[^a-zA-Z0-9]+", "-", name.lower()).strip("-")
+
+            # limit length for GitHub repo safety
+            slug = slug[:25]
+
+            return f"{slug}-{int(time.time()) % 100000}"
+
+        # If idea is text (older format)
+        for line in idea.splitlines():
+            if "name" in line.lower():
+                words = re.findall(r"[A-Za-z0-9_-]+", line)
+
+                if len(words) >= 2:
+                    return words[1].lower()
+
+        words = re.findall(r"[A-Za-z]+", idea)
+
+        if words:
+            return words[0].lower()
+
+        return "startup"
+
+    def detect_dependencies(self, code):
+        deps = set()
+
+        if "flask_sqlalchemy" in code.lower():
+            deps.add("Flask-SQLAlchemy==3.0.5")
+
+        if "flask_login" in code.lower():
+            deps.add("Flask-Login==0.6.3")
+
+        if "requests" in code:
+            deps.add("requests==2.31.0")
+
+        if "pandas" in code:
+            deps.add("pandas==2.2.2")
+
+        return deps
+
+    def validate_backend_structure(self, project_dir):
+        services_dir = os.path.join(project_dir, "services")
+        routes_dir = os.path.join(project_dir, "routes")
+
+        if not os.path.exists(services_dir) or not os.path.exists(routes_dir):
+            print("[Developer Agent] Missing backend folders")
+            return False
+
+        for file in os.listdir(routes_dir):
+
+```
+
+### ./agents/qa_agent.py
+
+```python
+from tools.code_runner import run_app
+from tools.llm import generate
+from tools.product_validator import test_api, test_endpoint, test_post_endpoint, test_db
+import os
+
+
+# These are checker debugs
+print("🔥 DEBUG: QA_Agent Loaded v2")
+
+
+class QAAgent:
+    def test_product(self, project_path):
+        print("[QA Agent] Running application tests...")
+
+        success, output = run_app(project_path)
+
+        if success:
+            print("[QA Agent] App started successfully")
+
+            # Since run_app no longer returns base_url, skip API tests for now
+            validation_report = {
+                "status": "app_started",
+                "message": output,
+                "db": test_db(),
+            }
+
+            print("\n=== PRODUCT VALIDATION REPORT ===")
+            print(validation_report)
+
+            return validation_report
+
+        print("[QA Agent] Error detected:")
+        print("[QA Agent] App failed to start")
+        print(output)
+
+        return {"status": "fail", "error": output}
+
 ```
 
 ### ./dashboard/__init__.py
@@ -4230,85 +4252,6 @@ def init_db():
 
 ```
 
-### ./engine/file_generator.py
-
-```python
-import os
-import re
-import engine.ai_logic
-
-# These are checker debugs
-print("🔥 DEBUG: File_generator LOADED v6")
-
-from tools.file_writer import write_file
-
-print("AI LOGIC FILE:", engine.ai_logic.__file__)
-
-
-def indent_code(code, spaces=8):
-    return "\n".join((" " * spaces) + line for line in code.split("\n"))
-
-
-def generate_backend_files(project_dir, architecture):
-    if not architecture:
-        print("[File Generator] No architecture provided")
-        return
-
-    modules = architecture.get("modules", [])
-
-    print("[File Generator] Generating backend structure...")
-
-    folders = ["models", "routes", "services"]
-
-    for folder in folders:
-        os.makedirs(os.path.join(project_dir, folder), exist_ok=True)
-
-    for module in modules:
-        print(f"🔥 DEBUG: Processing module → {module}")
-        # 🔥 Handle both string and dict modules
-        if isinstance(module, dict):
-            module_name = module.get("name", "core")
-        else:
-            module_name = module
-
-        safe_name = module_name.lower()
-        safe_name = re.sub(r"[^a-z0-9_]", "_", safe_name)
-
-        model_code = f"""
-class {safe_name.capitalize()}Model:
-    def __init__(self):
-        pass
-"""
-
-        write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
-
-        print(f"\n[DEBUG] Calling AI logic for module: {safe_name}")
-
-        from engine.ai_logic import generate_service_logic
-
-        print(f"[DEBUG] Import successful")
-
-        ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
-
-        # 🔥 SAFETY FILTER (CRITICAL)
-        unsafe_patterns = [
-            "users",
-            "datetime",
-            "timedelta",
-            "user_authenticated",
-            "encrypt_",
-            "verify_",
-            "hash_",
-            "store_data",
-        ]
-
-        for pattern in unsafe_patterns:
-            if pattern in ai_logic:
-                print(f"⚠️ Unsafe pattern detected: {pattern} — applying fallback")
-
-                ai_logic = 
-```
-
 ### ./engine/ai_logic.py
 
 ```python
@@ -4387,6 +4330,85 @@ def generate_service_logic(module_name, idea):
             re
 ```
 
+### ./engine/file_generator.py
+
+```python
+import os
+import re
+import engine.ai_logic
+
+# These are checker debugs
+print("🔥 DEBUG: File_generator LOADED v7")
+
+from tools.file_writer import write_file
+
+print("AI LOGIC FILE:", engine.ai_logic.__file__)
+
+
+def indent_code(code, spaces=8):
+    return "\n".join((" " * spaces) + line for line in code.split("\n"))
+
+
+def generate_backend_files(project_dir, architecture):
+    if not architecture:
+        print("[File Generator] No architecture provided")
+        return
+
+    modules = architecture.get("modules", [])
+
+    print("[File Generator] Generating backend structure...")
+
+    folders = ["models", "routes", "services"]
+
+    for folder in folders:
+        os.makedirs(os.path.join(project_dir, folder), exist_ok=True)
+
+    for module in modules:
+        print(f"🔥 DEBUG: Processing module → {module}")
+        # 🔥 Handle both string and dict modules
+        if isinstance(module, dict):
+            module_name = module.get("name", "core")
+        else:
+            module_name = module
+
+        safe_name = module_name.lower()
+        safe_name = re.sub(r"[^a-z0-9_]", "_", safe_name)
+
+        model_code = f"""
+class {safe_name.capitalize()}Model:
+    def __init__(self):
+        pass
+"""
+
+        write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
+
+        print(f"\n[DEBUG] Calling AI logic for module: {safe_name}")
+
+        from engine.ai_logic import generate_service_logic
+
+        print(f"[DEBUG] Import successful")
+
+        ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
+
+        # 🔥 SAFETY FILTER (CRITICAL)
+        unsafe_patterns = [
+            "users",
+            "datetime",
+            "timedelta",
+            "user_authenticated",
+            "encrypt_",
+            "verify_",
+            "hash_",
+            "store_data",
+        ]
+
+        for pattern in unsafe_patterns:
+            if pattern in ai_logic:
+                print(f"⚠️ Unsafe pattern detected: {pattern} — applying fallback")
+
+                ai_logic = 
+```
+
 ### ./orchestrator/__init__.py
 
 ```python
@@ -4406,14 +4428,13 @@ from agents.growth_agent import GrowthAgent
 from agents.finance_agent import FinanceAgent
 from agents.github_agent import GitHubAgent
 from tools.memory import add_entry
-from engine.file_generator import generate_backend_files
-from engine.auto_wire import wire_routes
 import subprocess
 import os
+import re
 from tools.code_runner import run_app
 
 # These are checker debugs
-print("🔥 DEBUG: Orchestrator LOADED v1")
+print("🔥 DEBUG: Orchestrator LOADED v6")
 
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
@@ -4455,7 +4476,10 @@ class Orchestrator:
             "CTO Agent",
             self.cto.design_architecture,
             {"idea": idea, "product": product},
-       
+        )
+        print("STEP 5: After CTO Agent")
+
+        print("STEP 6: Before Developer Age
 ```
 
 ### ./saas_master_template/app.py
@@ -4478,22 +4502,16 @@ def landing():
         product_tagline="Build ATS-ready resumes instantly",
         product_headline="Create Perfect Resumes With AI",
         product_description="Our AI analyzes job descriptions and builds optimized resumes.",
-
         product_meta_description="AI powered resume builder",
         product_keywords="AI resume, ATS resume builder",
-
         product_about_title="Smart Resume Optimization",
         product_about_description="Our AI improves your resume for recruiters.",
-
         feature_1_title="AI Resume Analysis",
         feature_1_description="Upload resume and get instant feedback",
-
         feature_2_title="ATS Optimization",
         feature_2_description="Ensure recruiters see your resume",
-
         feature_3_title="One Click Export",
         feature_3_description="Download recruiter-ready resumes",
-
         plan_1_name="Free",
         plan_2_name="Starter",
         plan_2_price="9",
@@ -4501,60 +4519,37 @@ def landing():
         plan_3_price="29",
         plan_4_name="Business",
         plan_4_price="49",
-
         testimonial_1_name="Sarah",
         testimonial_1_text="This tool doubled my interview calls!",
-
         testimonial_2_name="David",
         testimonial_2_text="Best AI resume optimizer I’ve used.",
-
-        contact_email="support@example.com"
+        contact_email="support@example.com",
     )
-
 
 
 @app.route("/dashboard")
 def dashboard():
     return render_template("dashboard.html", product_name=PRODUCT_NAME)
 
+
 @app.route("/logout")
 def logout():
     return redirect("/")
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    import sys
+
+    port = int(sys.argv[1]) if len(sys.argv) > 1 else 5000
+
+    app.run(host="0.0.0.0", port=port, debug=True)
+
 ```
 
 ### ./tools/__init__.py
 
 ```python
 
-```
-
-### ./tools/code_runner.py
-
-```python
-import subprocess
-
-def run_app(project_path):
-
-    try:
-        result = subprocess.run(
-            ["python", "app.py"],
-            cwd=project_path,
-            capture_output=True,
-            text=True,
-            timeout=3
-        )
-
-        return True, result.stdout
-
-    except subprocess.TimeoutExpired as e:
-        # Flask app started successfully
-        return True, "App running"
-
-    except Exception as e:
-        return False, str(e)
 ```
 
 ### ./tools/deployment_tool.py
@@ -4701,6 +4696,109 @@ def market_research(topic):
 ```python
 def web_search(query):
     return f"Searching web for {query}"
+```
+
+### ./tools/code_runner.py
+
+```python
+import subprocess
+import time
+import requests
+import socket
+
+print("🔥🔥 NEW CODE_RUNNER v3 Loaded🔥🔥")
+
+
+def get_free_port():
+    s = socket.socket()
+    s.bind(("", 0))
+    port = s.getsockname()[1]
+    s.close()
+    return port
+
+
+def run_app(project_path):
+    try:
+        port = get_free_port()
+
+        process = subprocess.Popen(
+            ["python", "app.py", str(port)],
+            cwd=project_path,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+        )
+
+        time.sleep(5)
+
+        base_url = f"http://127.0.0.1:{port}"
+
+        try:
+            res = requests.get(base_url)
+            return True, f"App running at {base_url}"
+        except:
+            stdout, stderr = process.communicate(timeout=2)
+            error_output = stdout + "\n" + stderr
+            return False, error_output
+
+    except Exception as e:
+        return False, str(e)
+
+```
+
+### ./tools/product_validator.py
+
+```python
+import requests
+import sqlite3
+
+
+def test_api(base_url):
+    results = {}
+
+    try:
+        res = requests.get(f"{base_url}/")
+        results["root_status"] = res.status_code
+    except Exception as e:
+        results["root_error"] = str(e)
+
+    return results
+
+
+def test_endpoint(base_url, endpoint):
+    try:
+        res = requests.get(f"{base_url}{endpoint}")
+        return {
+            "status": res.status_code,
+            "response": res.json() if res.status_code == 200 else None,
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+
+def test_post_endpoint(base_url, endpoint, payload):
+    try:
+        res = requests.post(f"{base_url}{endpoint}", json=payload)
+        return {
+            "status": res.status_code,
+            "response": res.json() if res.status_code in [200, 201] else None,
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+
+def test_db(db_path="database.db"):
+    try:
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+        tables = cursor.fetchall()
+
+        return {"status": "success", "tables": tables}
+    except Exception as e:
+        return {"status": "fail", "error": str(e)}
+
 ```
 
 ### ./.pythonlibs/lib/python3.12/site-packages/typing_extensions.py

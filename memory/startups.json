@@ -460,5 +460,182 @@
     "project_path": "projects/dreamweaverx2-44401",
     "status": "deployed",
     "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-15198",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "api_root": {
+        "root_status": 200
+      },
+      "get_test": {
+        "error": "Expecting value: line 1 column 1 (char 0)"
+      },
+      "post_test": {
+        "status": 404,
+        "response": null
+      },
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-15567",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "api_root": {
+        "root_status": 200
+      },
+      "get_test": {
+        "error": "Expecting value: line 1 column 1 (char 0)"
+      },
+      "post_test": {
+        "status": 404,
+        "response": null
+      },
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-15646",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "api_root": {
+        "root_error": "HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+      },
+      "get_test": {
+        "error": "HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+      },
+      "post_test": {
+        "error": "HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /create (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+      },
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-22327",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": "\nTraceback (most recent call last):\n  File \"/home/runner/workspace/projects/test-startup-22327/app.py\", line 2, in <module>\n    from routes.api_gateway_routes import api_gateway_bp\n  File \"/home/runner/workspace/projects/test-startup-22327/routes/api_gateway_routes.py\", line 3, in <module>\n    from services.api_gateway_service import execute, add_api_gateway\n  File \"/home/runner/workspace/projects/test-startup-22327/services/api_gateway_service.py\", line 4, in <module>\n    import engine.db\nModuleNotFoundError: No module named 'engine'\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-23573",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-25335",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:35209",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-28233",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:34069",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-29592",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:45293",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
   }
 ]

@@ -8,14 +8,13 @@ from agents.growth_agent import GrowthAgent
 from agents.finance_agent import FinanceAgent
 from agents.github_agent import GitHubAgent
 from tools.memory import add_entry
-from engine.file_generator import generate_backend_files
-from engine.auto_wire import wire_routes
 import subprocess
 import os
+import re
 from tools.code_runner import run_app
 
 # These are checker debugs
-print("🔥 DEBUG: Orchestrator LOADED v1")
+print("🔥 DEBUG: Orchestrator LOADED v6")
 
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
@@ -106,20 +105,20 @@ class Orchestrator:
                     )
 
                     fix_prompt = f"""
-            The Flask application below does not render templates.
-    
-            Fix the code so it uses render_template() for pages.
-    
-            Required routes:
-            / -> landing page
-            /login -> login page
-            /dashboard -> dashboard page
-    
-            Return ONLY corrected Python code for the Flask app file.
-    
-            Current code:
-            {app_code}
-            """
+The Flask application below does not render templates.
+
+Fix the code so it uses render_template() for pages.
+
+Required routes:
+/ -> landing page
+/login -> login page
+/dashboard -> dashboard page
+
+Return ONLY corrected Python code for the Flask app file.
+
+Current code:
+{app_code}
+"""
 
                     fixed_code = self.dev.think(fix_prompt)
 
@@ -171,6 +170,11 @@ class Orchestrator:
             print("[DEV LOOP] Error detected:")
             print(output)
 
+            # 🔥 HANDLE TIMEOUT (NOT CODE ISSUE)
+            if "timed out" in output.lower():
+                print("[DEV LOOP] Timeout detected → skipping fix")
+                break
+
             # ✅ STOP if same error repeats (Patrick pattern)
             if output in seen_errors:
                 print("[DEV LOOP] Same error repeating → stopping early")
@@ -180,53 +184,71 @@ class Orchestrator:
 
             print("[DEV LOOP] Sending error to Developer Agent for fix...")
 
-            fix_prompt = f"""The following Flask application produced an error.
+            # 🔥 Extract error file from traceback
+            matches = re.findall(r'File "(.+?\.py)"', output)
 
-Error log:
-{output}
+            if matches:
+                error_file = matches[-1]  # 🔥 take LAST file (actual error source)
 
-The app is part of a SaaS platform.
-
-Fix the issue while preserving:
-- existing routes
-- existing structure
-
-Fix ONLY what is necessary in app.py.
-
-Return ONLY valid Python code.
-Do NOT include markdown or explanation.
-"""
-
-            fixed_code = self.dev.think(fix_prompt).strip()
-
-            # ✅ REMOVE markdown if present
-            if "```" in fixed_code:
-                fixed_code = fixed_code.split("```")[1]
-
-            # ✅ FIX INDENTATION ISSUE (YOUR BUG)
-            import textwrap
-
-            fixed_code = textwrap.dedent(fixed_code)
-
-            app_file = os.path.join(project_path, "app.py")
-
-            if not os.path.exists(app_file):
-                print("[DEV LOOP] app.py not found → skipping fix")
+                # Ensure file exists before fixing
+                if not os.path.exists(error_file):
+                    print(f"[DEV LOOP] File not found: {error_file}")
+                    break
+                print(f"[DEV LOOP] Targeting error file: {error_file}")
+            else:
+                print("[DEV LOOP] Could not detect error file, skipping fix")
                 break
 
             try:
-                with open(app_file, "w") as f:
+                with open(error_file, "r") as f:
+                    code = f.read()
+
+                fix_prompt = f"""Fix syntax and indentation errors in this Python file.
+
+Return ONLY valid Python code.
+
+Code:
+{code}
+"""
+
+                fixed_code = self.dev.think(fix_prompt)
+
+                if not fixed_code or len(fixed_code.strip()) < 10:
+                    print("[DEV LOOP] Skipping overwrite due to invalid fix")
+                    continue
+
+                if "```" in fixed_code:
+                    fixed_code = fixed_code.replace("```python", "").replace("```", "")
+
+                fixed_code = fixed_code.strip()
+
+                if fixed_code.startswith("python"):
+                    fixed_code = fixed_code.replace("python", "", 1).strip()
+
+                import textwrap
+
+                fixed_code = textwrap.dedent(fixed_code)
+
+                with open(error_file, "w") as f:
                     f.write(fixed_code)
 
-                print("[DEV LOOP] Updated app.py with fix")
+                print(f"[DEV LOOP] Fixed: {error_file}")
 
             except Exception as e:
-                print("[DEV LOOP] Failed to write fix:", e)
+                print(f"[DEV LOOP] Failed fixing {error_file}: {e}")
 
         if not build_success:
             print("[DEV LOOP] Max attempts reached. Continuing anyway.")
 
         # -------- END DEV LOOP --------
+        print("\n[QA AGENT] Starting product validation...")
+
+        validation_report = self.qa.test_product(project_path)
+
+        print("\n==============================")
+        print("📊 FINAL VALIDATION REPORT")
+        print("==============================")
+        print(validation_report)
 
         # repo = self.safe_run(
         # "GitHub Agent",
@@ -278,8 +300,9 @@ Do NOT include markdown or explanation.
                     "name": name,
                     "description": description,
                     "project_path": project_path,
-                    "status": "deployed",
+                    "status": "validated",
                     "url": deploy,
+                    "validation": validation_report,
                 },
             )
 
