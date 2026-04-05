@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-05 12:10:18.120839+00:00
+Generated: 2026-04-05 16:34:51.892884+00:00
 
 ## Project Structure
 
@@ -126,6 +126,12 @@ Generated: 2026-04-05 12:10:18.120839+00:00
 ### Folder: ./.cache/pip/http-v2/a/0/3/e
 
 ### Folder: ./.cache/pip/http-v2/a/0/3/e/7
+
+### Folder: ./.cache/pip/http-v2/a/0/9
+
+### Folder: ./.cache/pip/http-v2/a/0/9/d
+
+### Folder: ./.cache/pip/http-v2/a/0/9/d/2
 
 ### Folder: ./.cache/pip/http-v2/a/4
 
@@ -465,6 +471,14 @@ Generated: 2026-04-05 12:10:18.120839+00:00
 
 ### Folder: ./.cache/pip/http-v2/4/4/e/5/b
 
+### Folder: ./.cache/pip/http-v2/4/2
+
+### Folder: ./.cache/pip/http-v2/4/2/f
+
+### Folder: ./.cache/pip/http-v2/4/2/f/a
+
+### Folder: ./.cache/pip/http-v2/4/2/f/a/2
+
 ### Folder: ./.cache/pip/http-v2/5
 
 ### Folder: ./.cache/pip/http-v2/5/b
@@ -580,6 +594,12 @@ Generated: 2026-04-05 12:10:18.120839+00:00
 ### Folder: ./.cache/pip/http-v2/e/b/e/7
 
 ### Folder: ./.cache/pip/http-v2/e/b/e/7/5
+
+### Folder: ./.cache/pip/http-v2/e/b/2
+
+### Folder: ./.cache/pip/http-v2/e/b/2/7
+
+### Folder: ./.cache/pip/http-v2/e/b/2/7/4
 
 ### Folder: ./.cache/pip/http-v2/e/2
 
@@ -913,45 +933,45 @@ Generated: 2026-04-05 12:10:18.120839+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/aRGw_9HEgFUz8M-O3yY2v
-
-### Folder: ./.local/state/workflow-logs/bAiRjqrXVI3JABb2nTzu1
-
-### Folder: ./.local/state/workflow-logs/da6fW5fsSt05dqmB9FPjR
-
-### Folder: ./.local/state/workflow-logs/3ysHMfUrXBSLtnkStvSi1
-
-### Folder: ./.local/state/workflow-logs/qEZG8S9cQ3Yw1cQkFvqnr
-
-### Folder: ./.local/state/workflow-logs/1WnHlhJb9vEzGOw_oXBzF
-
-### Folder: ./.local/state/workflow-logs/x1-FWDMOJ67kWcHW1YKw-
-
-### Folder: ./.local/state/workflow-logs/WeFSzrycqnHRKhdThmBAM
-
-### Folder: ./.local/state/workflow-logs/GcL5E-lsMQNTkqr2bYmB2
-
-### Folder: ./.local/state/workflow-logs/d-XLkjQC_OYuzrCMwYZJ3
-
-### Folder: ./.local/state/workflow-logs/PUcdnRisLGsZHKYYzPV1H
-
-### Folder: ./.local/state/workflow-logs/o2hHj_0pcL2Pjb7sc8K7v
-
-### Folder: ./.local/state/workflow-logs/3_oZZ5sCghah20viCJnaQ
-
-### Folder: ./.local/state/workflow-logs/MoI6NFbaEuUbOY3QcuElY
-
-### Folder: ./.local/state/workflow-logs/9LIeHw5CZQye8RviW4nrm
-
-### Folder: ./.local/state/workflow-logs/_BeGapmUB8z5E-4FX6j90
-
-### Folder: ./.local/state/workflow-logs/l_aHMhJI88xOfz3Bwhjoz
-
-### Folder: ./.local/state/workflow-logs/izz4N752Tysp8LbKzVM9V
-
 ### Folder: ./.local/state/workflow-logs/GEoGgsrgiuiXKQbMNrPs9
 
 ### Folder: ./.local/state/workflow-logs/R0uyjvaq3CvziuEgP4sPC
+
+### Folder: ./.local/state/workflow-logs/IL3jNUK-Cc791ZVuznaqs
+
+### Folder: ./.local/state/workflow-logs/O7O6iIWXPyIjAsZNHG7zu
+
+### Folder: ./.local/state/workflow-logs/RJOdb6FNJPgWXRYFILvqp
+
+### Folder: ./.local/state/workflow-logs/mGa8b8Q7B8tCWdfkrqFAN
+
+### Folder: ./.local/state/workflow-logs/LIYkdE_b71HBwk_fyG3i4
+
+### Folder: ./.local/state/workflow-logs/p4RMU7pMFiUGCA0t9Ymfx
+
+### Folder: ./.local/state/workflow-logs/mOcTvyehK6bBgy1Lsnajv
+
+### Folder: ./.local/state/workflow-logs/5VUTvYk7u7uv8QLVVQPBF
+
+### Folder: ./.local/state/workflow-logs/a6EDd-T_2UWZKDrWheuQ_
+
+### Folder: ./.local/state/workflow-logs/QohEoLjOD1ZKtl-M7AhKB
+
+### Folder: ./.local/state/workflow-logs/8o5t2rN33CS0eUyvADn40
+
+### Folder: ./.local/state/workflow-logs/GTJdPrMsX19w10R3WHEhZ
+
+### Folder: ./.local/state/workflow-logs/VAK41In9aWXtdEBbuAgnP
+
+### Folder: ./.local/state/workflow-logs/ZRd-SMTX152HeEeOpqSC7
+
+### Folder: ./.local/state/workflow-logs/wdCFWCEEY1tJq26H8mVsW
+
+### Folder: ./.local/state/workflow-logs/T9ljwR60uZbBIYvxF6DDp
+
+### Folder: ./.local/state/workflow-logs/JwCjLqha9JcxJ2ku6QK66
+
+### Folder: ./.local/state/workflow-logs/NZFk8a9b4ZG0lOqarIIQ9
 
 ### Folder: ./.local/skills
 
@@ -1330,10 +1350,10 @@ Generated: 2026-04-05 12:10:18.120839+00:00
 - ceo_agent.py
 - deployment_agent.py
 - github_agent.py
-- product_agent.py
 - cto_agent.py
-- developer_agent.py
 - qa_agent.py
+- product_agent.py
+- developer_agent.py
 
 ### Folder: ./constitution
 - founder-control-room.md
@@ -1350,6 +1370,7 @@ Generated: 2026-04-05 12:10:18.120839+00:00
 - db.py
 - ai_logic.py
 - file_generator.py
+- ui_components.py
 
 ### Folder: ./logs
 
@@ -3118,6 +3139,15 @@ Generated: 2026-04-05 12:10:18.120839+00:00
 
 ### Folder: ./.pythonlibs/lib/python3.12/site-packages/flask_sqlalchemy-3.1.1.dist-info
 
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/flask_cors
+- __init__.py
+- core.py
+- decorator.py
+- extension.py
+- version.py
+
+### Folder: ./.pythonlibs/lib/python3.12/site-packages/flask_cors-6.0.2.dist-info
+
 ### Folder: ./.pythonlibs/bin
 
 ### Folder: ./.pythonlibs/include
@@ -3764,77 +3794,6 @@ class GitHubAgent:
             ["git", "commit", "-m", f"Add project: {project_name
 ```
 
-### ./agents/product_agent.py
-
-```python
-from agents.agent_base import AgentBase
-from tools.json_parser import extract_json
-
-# These are checker debugs
-print("🔥 DEBUG: ProductAgent LOADED v2")
-
-
-class ProductAgent(AgentBase):
-    def __init__(self):
-        super().__init__("Product Agent")
-
-    def define_product(self, idea):
-        # These are checker debugs
-        print("🚀 DEBUG: ProductAgent EXECUTED v1")
-        prompt = f"""
-        You are a product manager.
-
-        Convert this startup idea into structured product features.
-
-        Startup Idea:
-        {idea}
-        
-        Break the product into 3–6 modules.
-        Each module should represent a backend component (like users, orders, analytics, etc).
-
-        Return ONLY JSON:
-
-        {{
-          "name": "product name",
-          "description": "short description",
-          "modules": [
-            {{
-              "name": "module_name",
-              "description": "what this module does",
-              "features": ["feature1", "feature2"]
-            }}
-          ],
-          "user_flows": ["flow1", "flow2"],
-          "edge_cases": ["case1", "case2"]
-        }}
-
-        Do not explain anything.
-        """
-
-        response = self.think(prompt)
-
-        product = extract_json(response)
-        if product and "modules" not in product:
-            print("[Product Agent] Missing modules — applying fallback structure")
-            product["modules"] = [
-                {
-                    "name": "core",
-                    "description": "Core functionality",
-                    "features": product.get("core_features", ["basic operations"]),
-                }
-            ]
-
-        # 🔥 Ensure modules exist (CRITICAL FOR BACKEND)
-        if product and "modules" not in product:
-            print("[Product Agent] Adding modules fallback")
-
-            product["modules"] = [
-                {
-                    "name": "core",
-                    "description": "Core functionality",
-                    "features": product.get("core_feat
-```
-
 ### ./agents/cto_agent.py
 
 ```python
@@ -3909,6 +3868,114 @@ class CTOAgent(AgentBase):
             retur
 ```
 
+### ./agents/qa_agent.py
+
+```python
+from tools.code_runner import run_app
+from tools.llm import generate
+from tools.product_validator import test_api, test_endpoint, test_post_endpoint, test_db
+import os
+
+
+# These are checker debugs
+print("🔥 DEBUG: QA_Agent Loaded v2")
+
+
+class QAAgent:
+    def test_product(self, project_path):
+        print("[QA Agent] Running application tests...")
+
+        success, output = run_app(project_path)
+
+        if success:
+            print("[QA Agent] App started successfully")
+
+            # Since run_app no longer returns base_url, skip API tests for now
+            validation_report = {
+                "status": "app_started",
+                "message": output,
+                "db": test_db(),
+            }
+
+            print("\n=== PRODUCT VALIDATION REPORT ===")
+            print(validation_report)
+
+            return validation_report
+
+        print("[QA Agent] Error detected:")
+        print("[QA Agent] App failed to start")
+        print(output)
+
+        return {"status": "fail", "error": output}
+
+```
+
+### ./agents/product_agent.py
+
+```python
+from agents.agent_base import AgentBase
+from tools.json_parser import extract_json
+
+# These are checker debugs
+print("🔥 DEBUG: ProductAgent LOADED v4")
+
+
+class ProductAgent(AgentBase):
+    def __init__(self):
+        super().__init__("Product Agent")
+
+    def define_product(self, idea):
+        # These are checker debugs
+        print("🚀 DEBUG: ProductAgent EXECUTED v1")
+        prompt = f"""
+        You are a Product Manager & Design Architect.
+
+        Convert this startup idea into a structured product definition, Visual Design System, and Landing Page Copy.
+
+        Startup Idea:
+        {idea}
+
+        Return ONLY JSON:
+        {{
+          "name": "product name",
+          "description": "short description",
+          "design_tokens": {{
+            "colors": {{
+              "primary": "#HEX",
+              "secondary": "#HEX",
+              "accent": "#HEX",
+              "background": "#HEX"
+            }},
+            "typography": {{
+              "heading_font": "Inter | Playfair Display | Roboto",
+              "body_font": "Inter | Open Sans"
+            }},
+            "vibe": "minimalist | bold | playful | professional",
+            "border_radius": "none | sm | md | lg | full"
+          }},
+          "marketing_copy": {{
+            "hero_title": "Catchy 5-word headline",
+            "hero_subtitle": "Persuasive 15-word subheadline",
+            "cta_text": "Get Started Now",
+            "pricing": [
+                {{"plan": "Starter", "price": "$0", "features": ["Feature A", "Feature B"]}},
+                {{"plan": "Pro", "price": "$49", "features": ["Unlimited access", "Priority support"]}}
+            ]
+          }},
+          "modules": [
+            {{
+              "name": "module_name",
+              "description": "what this module does",
+              "features": ["feature1", "feature2"]
+            }}
+          ],
+          "user_flows": ["flow1", "flow2"]
+        }}
+
+        Rules:
+        1. Choose colors that match the startup categor
+```
+
 ### ./agents/developer_agent.py
 
 ```python
@@ -3921,9 +3988,10 @@ import json
 import time
 import shutil
 import traceback  # add at top if not already
+from engine.ui_components import COMPONENTS
 
 # These are checker debugs
-print("🔥 DEBUG: DeveloperAgent LOADED v2")
+print("🔥 DEBUG: DeveloperAgent LOADED v4")
 
 
 class DeveloperAgent(AgentBase):
@@ -3983,49 +4051,6 @@ class DeveloperAgent(AgentBase):
             print("[Developer Agent] Missing backend folders")
             return False
 
-        for file in os.listdir(routes_dir):
-
-```
-
-### ./agents/qa_agent.py
-
-```python
-from tools.code_runner import run_app
-from tools.llm import generate
-from tools.product_validator import test_api, test_endpoint, test_post_endpoint, test_db
-import os
-
-
-# These are checker debugs
-print("🔥 DEBUG: QA_Agent Loaded v2")
-
-
-class QAAgent:
-    def test_product(self, project_path):
-        print("[QA Agent] Running application tests...")
-
-        success, output = run_app(project_path)
-
-        if success:
-            print("[QA Agent] App started successfully")
-
-            # Since run_app no longer returns base_url, skip API tests for now
-            validation_report = {
-                "status": "app_started",
-                "message": output,
-                "db": test_db(),
-            }
-
-            print("\n=== PRODUCT VALIDATION REPORT ===")
-            print(validation_report)
-
-            return validation_report
-
-        print("[QA Agent] Error detected:")
-        print("[QA Agent] App failed to start")
-        print(output)
-
-        return {"status": "fail", "error": output}
 
 ```
 
@@ -4340,7 +4365,7 @@ import textwrap
 import engine.ai_logic
 
 # These are checker debugs
-print("🔥 DEBUG: File_generator LOADED v10")
+print("🔥 DEBUG: File_generator LOADED v13")
 
 from tools.file_writer import write_file
 
@@ -4349,6 +4374,18 @@ print("AI LOGIC FILE:", engine.ai_logic.__file__)
 
 def indent_code(code, spaces=8):
     return "\n".join((" " * spaces) + line for line in code.split("\n"))
+
+
+def validate_ai_logic(logic, module_name):
+    """Ensures AI logic is not empty and has proper Python structure."""
+    if not logic or "def" not in logic:
+        return f"def get_{module_name}():\n    return {{'status': 'active', 'info': 'Default logic for {module_name}'}}"
+
+    # Check if the function has a body (prevent IndentationError)
+    if logic.strip().endswith(":"):
+        return logic + "\n    pass"
+
+    return logic
 
 
 def generate_backend_files(project_dir, architecture):
@@ -4390,24 +4427,46 @@ class {safe_name.capitalize()}Model:
 
         print(f"[DEBUG] Import successful")
 
-        ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
-        ai_logic = textwrap.dedent(ai_logic).strip()
+        # 🔥 Dynamic logic generation with integrated validation
+        from engine.ai_logic 
+```
 
-        # 🔥 SAFETY FILTER (CRITICAL)
-        unsafe_patterns = [
-            "users",
-            "datetime",
-            "timedelta",
-            "user_authenticated",
-            "encrypt_",
-            "verify_",
-            "hash_",
-            "store_data",
-        ]
+### ./engine/ui_components.py
 
-        for pattern in unsafe_patterns:
-            if pattern in ai_logic:
-                print(f"⚠️ Unsafe pattern 
+```python
+# engine/ui_components.py
+
+COMPONENTS = {
+    "navbar": """
+    <nav class="fixed w-full z-50 bg-white bg-opacity-90 backdrop-blur-md border-b border-gray-100">
+      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="text-2xl font-bold text-primary">{product_name}</div>
+        <div class="hidden md:flex space-x-8 text-gray-600 font-medium">
+          <a href="#features" class="hover:text-primary transition">Features</a>
+          <a href="#how-it-works" class="hover:text-primary transition">Solutions</a>
+          <a href="/login" class="hover:text-primary transition">Sign In</a>
+        </div>
+        <a href="/signup" class="bg-primary text-white px-6 py-2 rounded-custom font-bold hover:opacity-90 transition">Get Started</a>
+      </div>
+    </nav>
+    """,
+    "hero": """
+    <section class="relative pt-32 pb-20 overflow-hidden bg-app">
+      <div class="container mx-auto px-6 relative z-10">
+        <div class="flex flex-wrap items-center">
+          <div class="w-full lg:w-1/2 mb-12 lg:mb-0">
+            <span class="inline-block py-1 px-3 mb-4 text-xs font-semibold text-primary bg-blue-50 rounded-full uppercase tracking-widest">v1.0 Launch</span>
+            <h1 class="text-5xl lg:text-6xl font-bold mb-6 text-gray-900 leading-tight">{product_name}</h1>
+            <p class="text-xl text-gray-600 mb-8 leading-relaxed">{product_description}</p>
+            <div class="flex flex-wrap gap-4">
+              <a href="/signup" class="bg-primary text-white px-8 py-4 rounded-custom font-bold hover:opacity-90 transition shadow-lg shadow-blue-200">Start Building Now</a>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-4">
+             <div class="rounded-3xl overflow-hidden shadow-2xl border-8 border-white transform lg:rotate-3">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Dashboard Preview">
+             </div>
+     
 ```
 
 ### ./orchestrator/__init__.py
@@ -4436,7 +4495,7 @@ import re
 from tools.code_runner import run_app
 
 # These are checker debugs
-print("🔥 DEBUG: Orchestrator LOADED v7")
+print("🔥 DEBUG: Orchestrator LOADED v9")
 
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
@@ -4479,9 +4538,7 @@ class Orchestrator:
             self.cto.design_architecture,
             {"idea": idea, "product": product},
         )
-        print("STEP 5: After CTO Agent")
-
-
+        # 🔥 CRITICAL: Ensure arch has the 
 ```
 
 ### ./saas_master_template/app.py
@@ -76254,6 +76311,225 @@ def _before_commit(session: Session) -> None:
         return
 
     app = current_app._get_current_object(
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_cors/__init__.py
+
+```python
+from .decorator import cross_origin
+from .extension import CORS
+from .version import __version__
+
+__all__ = ["CORS", "__version__", "cross_origin"]
+
+# Set default logging handler to avoid "No handler found" warnings.
+import logging
+from logging import NullHandler
+
+# Set initial level to WARN. Users must manually enable logging for
+# flask_cors to see our logging.
+rootlogger = logging.getLogger(__name__)
+rootlogger.addHandler(NullHandler())
+
+if rootlogger.level == logging.NOTSET:
+    rootlogger.setLevel(logging.WARN)
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_cors/core.py
+
+```python
+import logging
+import re
+from collections.abc import Iterable
+from datetime import timedelta
+
+from flask import current_app, request
+from werkzeug.datastructures import Headers, MultiDict
+
+LOG = logging.getLogger(__name__)
+
+# Response Headers
+ACL_ORIGIN = "Access-Control-Allow-Origin"
+ACL_METHODS = "Access-Control-Allow-Methods"
+ACL_ALLOW_HEADERS = "Access-Control-Allow-Headers"
+ACL_EXPOSE_HEADERS = "Access-Control-Expose-Headers"
+ACL_CREDENTIALS = "Access-Control-Allow-Credentials"
+ACL_MAX_AGE = "Access-Control-Max-Age"
+ACL_RESPONSE_PRIVATE_NETWORK = "Access-Control-Allow-Private-Network"
+
+# Request Header
+ACL_REQUEST_METHOD = "Access-Control-Request-Method"
+ACL_REQUEST_HEADERS = "Access-Control-Request-Headers"
+ACL_REQUEST_HEADER_PRIVATE_NETWORK = "Access-Control-Request-Private-Network"
+
+ALL_METHODS = ["GET", "HEAD", "POST", "OPTIONS", "PUT", "PATCH", "DELETE"]
+CONFIG_OPTIONS = [
+    "CORS_ORIGINS",
+    "CORS_METHODS",
+    "CORS_ALLOW_HEADERS",
+    "CORS_EXPOSE_HEADERS",
+    "CORS_SUPPORTS_CREDENTIALS",
+    "CORS_MAX_AGE",
+    "CORS_SEND_WILDCARD",
+    "CORS_AUTOMATIC_OPTIONS",
+    "CORS_VARY_HEADER",
+    "CORS_RESOURCES",
+    "CORS_INTERCEPT_EXCEPTIONS",
+    "CORS_ALWAYS_SEND",
+    "CORS_ALLOW_PRIVATE_NETWORK",
+]
+# Attribute added to request object by decorator to indicate that CORS
+# was evaluated, in case the decorator and extension are both applied
+# to a view.
+FLASK_CORS_EVALUATED = "_FLASK_CORS_EVALUATED"
+
+# Strange, but this gets the type of a compiled regex, which is otherwise not
+# exposed in a public API.
+RegexObject = type(re.compile(""))
+DEFAULT_OPTIONS = dict(
+    origins="*",
+    methods=ALL_METHODS,
+    allow_headers="*",
+    expose_headers=None,
+    supports_credentials=False,
+    max_age=None,
+    send_wildcard=False,
+    automatic_options=True,
+    vary_header=True,
+    resources=r"/*",
+    intercept_exceptions=True,
+    always_send=True,
+    allow_private_network=False,
+)
+
+
+def parse_resources(resources):
+    if isinstance(resources, dict):
+   
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_cors/decorator.py
+
+```python
+import logging
+from functools import update_wrapper
+
+from flask import current_app, make_response, request
+
+from .core import FLASK_CORS_EVALUATED, get_cors_options, set_cors_headers
+
+LOG = logging.getLogger(__name__)
+
+
+def cross_origin(*args, **kwargs):
+    """
+    This function is the decorator which is used to wrap a Flask route with.
+    In the simplest case, simply use the default parameters to allow all
+    origins in what is the most permissive configuration. If this method
+    modifies state or performs authentication which may be brute-forced, you
+    should add some degree of protection, such as Cross Site Request Forgery
+    protection.
+
+    :param origins:
+        The origin, or list of origins to allow requests from.
+        The origin(s) may be regular expressions, case-sensitive strings,
+        or else an asterisk
+
+        Default : '*'
+    :type origins: list, string or regex
+
+    :param methods:
+        The method or list of methods which the allowed origins are allowed to
+        access for non-simple requests.
+
+        Default : [GET, HEAD, POST, OPTIONS, PUT, PATCH, DELETE]
+    :type methods: list or string
+
+    :param expose_headers:
+        The header or list which are safe to expose to the API of a CORS API
+        specification.
+
+        Default : None
+    :type expose_headers: list or string
+
+    :param allow_headers:
+        The header or list of header field names which can be used when this
+        resource is accessed by allowed origins. The header(s) may be regular
+        expressions, case-sensitive strings, or else an asterisk.
+
+        Default : '*', allow all headers
+    :type allow_headers: list, string or regex
+
+    :param supports_credentials:
+        Allows users to make authenticated requests. If true, injects the
+        `Access-Control-Allow-Credentials` header in responses. This allows
+        cookies and credentials to be submitted across domains.
+
+        :note: This option cannot be used in conjunction with a '*' origin
+
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_cors/extension.py
+
+```python
+import logging
+from urllib.parse import unquote
+
+from flask import request
+
+from .core import ACL_ORIGIN, get_cors_options, get_regexp_pattern, parse_resources, set_cors_headers, try_match_pattern
+
+LOG = logging.getLogger(__name__)
+
+
+class CORS:
+    """
+    Initializes Cross Origin Resource sharing for the application. The
+    arguments are identical to `cross_origin`, with the addition of a
+    `resources` parameter. The resources parameter defines a series of regular
+    expressions for resource paths to match and optionally, the associated
+    options to be applied to the particular resource. These options are
+    identical to the arguments to `cross_origin`.
+
+    The settings for CORS are determined in the following order
+
+    1. Resource level settings (e.g when passed as a dictionary)
+    2. Keyword argument settings
+    3. App level configuration settings (e.g. CORS_*)
+    4. Default settings
+
+    Note: as it is possible for multiple regular expressions to match a
+    resource path, the regular expressions are first sorted by length,
+    from longest to shortest, in order to attempt to match the most
+    specific regular expression. This allows the definition of a
+    number of specific resource options, with a wildcard fallback
+    for all other resources.
+
+    :param resources:
+        The series of regular expression and (optionally) associated CORS
+        options to be applied to the given resource path.
+
+        If the argument is a dictionary, it's keys must be regular expressions,
+        and the values must be a dictionary of kwargs, identical to the kwargs
+        of this function.
+
+        If the argument is a list, it is expected to be a list of regular
+        expressions, for which the app-wide configured options are applied.
+
+        If the argument is a string, it is expected to be a regular expression
+        for which the app-wide configured options are applied.
+
+        Default : Match all and apply app-level configuration
+
+    :type resour
+```
+
+### ./.pythonlibs/lib/python3.12/site-packages/flask_cors/version.py
+
+```python
+__version__ = "6.0.2"
+
 ```
 
 ### ./test_project/models/auth_model.py
