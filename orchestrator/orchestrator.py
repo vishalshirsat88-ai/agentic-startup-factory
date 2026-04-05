@@ -8,13 +8,14 @@ from agents.growth_agent import GrowthAgent
 from agents.finance_agent import FinanceAgent
 from agents.github_agent import GitHubAgent
 from tools.memory import add_entry
+from tools.product_loop import ProductLoop
 import subprocess
 import os
 import re
 from tools.code_runner import run_app
 
 # These are checker debugs
-print("🔥 DEBUG: Orchestrator LOADED v6")
+print("🔥 DEBUG: Orchestrator LOADED v7")
 
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
@@ -164,6 +165,7 @@ Current code:
 
             if success:
                 print("[DEV LOOP] Application started successfully")
+                # 🧠 PRODUCT INTELLIGENCE LAYER (NEW)
                 build_success = True
                 break
 
@@ -241,6 +243,7 @@ Code:
             print("[DEV LOOP] Max attempts reached. Continuing anyway.")
 
         # -------- END DEV LOOP --------
+
         print("\n[QA AGENT] Starting product validation...")
 
         validation_report = self.qa.test_product(project_path)

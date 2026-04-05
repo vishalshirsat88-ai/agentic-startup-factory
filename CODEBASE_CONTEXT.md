@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-04 19:07:08.383481+00:00
+Generated: 2026-04-05 12:10:18.120839+00:00
 
 ## Project Structure
 
@@ -913,18 +913,6 @@ Generated: 2026-04-04 19:07:08.383481+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/zDTQqO8db1u-eTBow6SGj
-
-### Folder: ./.local/state/workflow-logs/nDM0KDujBSQvZ4TThlzDq
-
-### Folder: ./.local/state/workflow-logs/VaSFASQt9AttgoNwupuBB
-
-### Folder: ./.local/state/workflow-logs/E2mpR8UdOfAbvcVMWf7Da
-
-### Folder: ./.local/state/workflow-logs/1d6ejsHAQ1N3Nqu_mRw5d
-
-### Folder: ./.local/state/workflow-logs/ZGetdPmCGXyP1E8Cv4Nur
-
 ### Folder: ./.local/state/workflow-logs/aRGw_9HEgFUz8M-O3yY2v
 
 ### Folder: ./.local/state/workflow-logs/bAiRjqrXVI3JABb2nTzu1
@@ -952,6 +940,18 @@ Generated: 2026-04-04 19:07:08.383481+00:00
 ### Folder: ./.local/state/workflow-logs/3_oZZ5sCghah20viCJnaQ
 
 ### Folder: ./.local/state/workflow-logs/MoI6NFbaEuUbOY3QcuElY
+
+### Folder: ./.local/state/workflow-logs/9LIeHw5CZQye8RviW4nrm
+
+### Folder: ./.local/state/workflow-logs/_BeGapmUB8z5E-4FX6j90
+
+### Folder: ./.local/state/workflow-logs/l_aHMhJI88xOfz3Bwhjoz
+
+### Folder: ./.local/state/workflow-logs/izz4N752Tysp8LbKzVM9V
+
+### Folder: ./.local/state/workflow-logs/GEoGgsrgiuiXKQbMNrPs9
+
+### Folder: ./.local/state/workflow-logs/R0uyjvaq3CvziuEgP4sPC
 
 ### Folder: ./.local/skills
 
@@ -1489,6 +1489,7 @@ Generated: 2026-04-04 19:07:08.383481+00:00
 - web_search.py
 - code_runner.py
 - product_validator.py
+- product_loop.py
 
 ### Folder: ./.pythonlibs
 
@@ -4335,10 +4336,11 @@ def generate_service_logic(module_name, idea):
 ```python
 import os
 import re
+import textwrap
 import engine.ai_logic
 
 # These are checker debugs
-print("🔥 DEBUG: File_generator LOADED v7")
+print("🔥 DEBUG: File_generator LOADED v10")
 
 from tools.file_writer import write_file
 
@@ -4389,6 +4391,7 @@ class {safe_name.capitalize()}Model:
         print(f"[DEBUG] Import successful")
 
         ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
+        ai_logic = textwrap.dedent(ai_logic).strip()
 
         # 🔥 SAFETY FILTER (CRITICAL)
         unsafe_patterns = [
@@ -4404,9 +4407,7 @@ class {safe_name.capitalize()}Model:
 
         for pattern in unsafe_patterns:
             if pattern in ai_logic:
-                print(f"⚠️ Unsafe pattern detected: {pattern} — applying fallback")
-
-                ai_logic = 
+                print(f"⚠️ Unsafe pattern 
 ```
 
 ### ./orchestrator/__init__.py
@@ -4428,13 +4429,14 @@ from agents.growth_agent import GrowthAgent
 from agents.finance_agent import FinanceAgent
 from agents.github_agent import GitHubAgent
 from tools.memory import add_entry
+from tools.product_loop import ProductLoop
 import subprocess
 import os
 import re
 from tools.code_runner import run_app
 
 # These are checker debugs
-print("🔥 DEBUG: Orchestrator LOADED v6")
+print("🔥 DEBUG: Orchestrator LOADED v7")
 
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
@@ -4479,7 +4481,7 @@ class Orchestrator:
         )
         print("STEP 5: After CTO Agent")
 
-        print("STEP 6: Before Developer Age
+
 ```
 
 ### ./saas_master_template/app.py
@@ -4799,6 +4801,75 @@ def test_db(db_path="database.db"):
     except Exception as e:
         return {"status": "fail", "error": str(e)}
 
+```
+
+### ./tools/product_loop.py
+
+```python
+import os
+
+# These are checker debugs
+print("🔥 DEBUG: Product_loop v3 Loaded")
+
+
+class ProductLoop:
+    def __init__(self, project_path):
+        self.project_path = project_path
+
+    def run(self):
+        issues = []
+
+        issues += self.check_empty_templates()
+        issues += self.check_api_usage()
+
+        # 🔥 AUTO FIX TRIGGER
+        self.auto_fix_templates(issues)
+
+        return {"status": "completed", "issues_found": issues}
+
+    # 🔍 1. Detect empty dashboards/templates
+    def check_empty_templates(self):
+        issues = []
+        templates_path = os.path.join(self.project_path, "templates")
+
+        if not os.path.exists(templates_path):
+            return issues
+
+        for file in os.listdir(templates_path):
+            # Skip layout / static templates
+            if file in ["base.html", "hero.html", "features.html"]:
+                continue
+            if file.endswith(".html"):
+                file_path = os.path.join(templates_path, file)
+
+                with open(file_path, "r") as f:
+                    content = f.read().lower()
+
+                # 🔴 1. No dynamic variables
+                if "{{" not in content:
+                    issues.append(
+                        {
+                            "type": "STATIC_UI",
+                            "file": file,
+                            "message": "No dynamic variables used",
+                        }
+                    )
+
+                # 🔴 2. No loops → no list rendering
+                if "{% for" not in content:
+                    issues.append(
+                        {
+                            "type": "NO_DATA_LOOP",
+                            "file": file,
+                            "message": "No data iteration (no loops found)",
+                        }
+                    )
+
+                # 🔴 3. No fetch / API call
+                if "fetch(" not in content and "axios" not in content:
+                    issues.append(
+                        {
+                    
 ```
 
 ### ./.pythonlibs/lib/python3.12/site-packages/typing_extensions.py

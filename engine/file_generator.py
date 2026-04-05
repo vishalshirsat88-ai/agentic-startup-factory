@@ -1,9 +1,10 @@
 import os
 import re
+import textwrap
 import engine.ai_logic
 
 # These are checker debugs
-print("🔥 DEBUG: File_generator LOADED v7")
+print("🔥 DEBUG: File_generator LOADED v10")
 
 from tools.file_writer import write_file
 
@@ -54,6 +55,7 @@ class {safe_name.capitalize()}Model:
         print(f"[DEBUG] Import successful")
 
         ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
+        ai_logic = textwrap.dedent(ai_logic).strip()
 
         # 🔥 SAFETY FILTER (CRITICAL)
         unsafe_patterns = [
@@ -78,13 +80,14 @@ class {safe_name.capitalize()}Model:
                     }}
                     return result
                 """
+                ai_logic = textwrap.dedent(ai_logic).strip()
                 break
 
         print("[DEBUG] AI LOGIC TYPE:", type(ai_logic))
         print("[DEBUG] AI LOGIC VALUE:\n", ai_logic)
         print("AI LOGIC GENERATED:\n", ai_logic)
 
-        execution_block = indent_code(f"""
+        raw_execution = f"""
         # 🔥 FIRST TRY DB
         data = get_{safe_name}_from_db()
 
@@ -96,86 +99,91 @@ class {safe_name.capitalize()}Model:
                 result = get_{safe_name}()
             else:
                 result = {{"message": "no data available"}}
-        """)
-
-        service_code = f"""
-        # 🔥 DEBUG: SERVICE FILE GENERATED v4
-
-        {ai_logic}
-
-        def get_{safe_name}_from_db():
-            try:
-                from engine.db import get_connection
-        
-                conn = get_connection()
-                cursor = conn.cursor()
-        
-                cursor.execute(
-                    "SELECT name FROM items WHERE module = ?",
-                    ("{safe_name}",)
-                )
-        
-                rows = cursor.fetchall()
-                conn.close()
-        
-                return [row[0] for row in rows]
-        
-            except Exception as e:
-                return []
-        
-        def execute():
-            try:
-        {execution_block}
-        
-                return {{
-                    "status": "success",
-                    "data": result,
-                    "error": None
-                }}
-
-            except Exception as e:
-                return {{
-                    "status": "error",
-                    "data": None,
-                    "error": str(e)
-                }}
-
-
-        def add_{safe_name}(name):
-            try:
-                from engine.db import get_connection
-
-                conn = get_connection()
-                cursor = conn.cursor()
-
-                cursor.execute(
-                    "INSERT INTO items (name, module) VALUES (?, ?)",
-                    (name, "{safe_name}")
-                )
-                conn.commit()
-                conn.close()
-
-                return {{
-                    "status": "success",
-                    "data": {{"message": "{safe_name} added"}},
-                    "error": None
-                }}
-
-            except Exception as e:
-                return {{
-                    "status": "error",
-                    "data": None,
-                    "error": str(e)
-                }}
         """
+
+        execution_block = indent_code(textwrap.dedent(raw_execution).strip(), 8)
+
+        service_code = f"""# 🔥 DEBUG: SERVICE FILE GENERATED v4
+
+{ai_logic}
+
+def get_{safe_name}_from_db():
+    try:
+        from engine.db import get_connection
+
+        conn = get_connection()
+        cursor = conn.cursor()
+
+        cursor.execute(
+            "SELECT name FROM items WHERE module = ?",
+            ("{safe_name}",)
+        )
+
+        rows = cursor.fetchall()
+        conn.close()
+
+        return [row[0] for row in rows]
+
+    except Exception as e:
+        return []
+
+def execute():
+    try:
+{execution_block}
+
+        return {{
+            "status": "success",
+            "data": result,
+            "error": None
+        }}
+
+    except Exception as e:
+        return {{
+            "status": "error",
+            "data": None,
+            "error": str(e)
+        }}
+
+
+def add_{safe_name}(name):
+    try:
+        from engine.db import get_connection
+
+        conn = get_connection()
+        cursor = conn.cursor()
+
+        cursor.execute(
+            "INSERT INTO items (name, module) VALUES (?, ?)",
+            (name, "{safe_name}")
+        )
+        conn.commit()
+        conn.close()
+
+        return {{
+            "status": "success",
+            "data": {{"message": "{safe_name} added"}},
+            "error": None
+        }}
+
+    except Exception as e:
+        return {{
+            "status": "error",
+            "data": None,
+            "error": str(e)
+        }}
+"""
 
         write_file(f"{project_dir}/services/{safe_name}_service.py", service_code)
 
         route_code = f"""
-        from flask import Blueprint, jsonify, request
+        from flask import Blueprint, jsonify, request, render_template
         from services.{safe_name}_service import execute, add_{safe_name}
 
         {safe_name}_bp = Blueprint('{safe_name}', __name__)
+        
+        @{safe_name}_bp.route('/{safe_name}', methods=['GET'])
+        def {safe_name}_page():
+            return render_template("{safe_name}.html")
 
 
         @{safe_name}_bp.route('/api/{safe_name}', methods=['GET'])
