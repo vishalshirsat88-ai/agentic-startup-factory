@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-06 14:46:49.599290+00:00
+Generated: 2026-04-06 18:53:28.754085+00:00
 
 ## Project Structure
 
@@ -913,22 +913,6 @@ Generated: 2026-04-06 14:46:49.599290+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/p6mW_f_h7AfWAksPpKaxa
-
-### Folder: ./.local/state/workflow-logs/Wyq66xmmk2ZMK-5isMXUh
-
-### Folder: ./.local/state/workflow-logs/XyhI_iVZQseAu93mGNLeZ
-
-### Folder: ./.local/state/workflow-logs/zSVJopryj9_h5TGZvpVSQ
-
-### Folder: ./.local/state/workflow-logs/HkACxs-WAcie0kAHSN7q0
-
-### Folder: ./.local/state/workflow-logs/IL2nx93LkSv5YNsRVnYiL
-
-### Folder: ./.local/state/workflow-logs/DKQF4drHXVb7-DzGBaP9a
-
-### Folder: ./.local/state/workflow-logs/ad2e_AtCW2pLFJBlQR89x
-
 ### Folder: ./.local/state/workflow-logs/alq_2UYymyi5QI3KYkoen
 
 ### Folder: ./.local/state/workflow-logs/jn_bThFuT0HN5b0kimHjf
@@ -952,6 +936,22 @@ Generated: 2026-04-06 14:46:49.599290+00:00
 ### Folder: ./.local/state/workflow-logs/Qt1ZxgmFa62LbXAJSPVcu
 
 ### Folder: ./.local/state/workflow-logs/8v8PAsPHnoUPgbA6iFIkK
+
+### Folder: ./.local/state/workflow-logs/HIdsHveYzcz8nkeLRPqYu
+
+### Folder: ./.local/state/workflow-logs/C6huIde_CtFzX3Hu7mh5B
+
+### Folder: ./.local/state/workflow-logs/iB_jFvKS-U77xbuzP1FUy
+
+### Folder: ./.local/state/workflow-logs/fUDDdrJCWj-oAjJfuNsT0
+
+### Folder: ./.local/state/workflow-logs/yzqNX9dCI9330vF_jWtw7
+
+### Folder: ./.local/state/workflow-logs/01yWfPcuvARW3lF1_SjQx
+
+### Folder: ./.local/state/workflow-logs/8uJGLhU45TtErVLqTfwpV
+
+### Folder: ./.local/state/workflow-logs/mUrM0GlyIjIxQiuSbPzxO
 
 ### Folder: ./.local/skills
 
@@ -4340,7 +4340,7 @@ import textwrap
 import engine.ai_logic
 
 # These are checker debugs
-print("🔥 DEBUG: File_generator LOADED v10")
+print("🔥 DEBUG: File_generator LOADED v12")
 
 from tools.file_writer import write_file
 
@@ -4390,23 +4390,21 @@ class {safe_name.capitalize()}Model:
         print(f"[DEBUG] Import successful")
 
         ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
-        ai_logic = textwrap.dedent(ai_logic).strip()
+        # 🔥 VALIDATE AI LOGIC (CRITICAL FIX)
+        if "return" not in ai_logic:
+            print("⚠️ AI LOGIC INVALID → APPLYING SAFE FALLBACK")
+
+            ai_logic = f"""
+        def get_{safe_name}():
+            return {{
+                "status": "fallback",
+                "module": "{safe_name}"
+            }}
+        """
+            ai_logic = textwrap.dedent(ai_logic).strip()
 
         # 🔥 SAFETY FILTER (CRITICAL)
-        unsafe_patterns = [
-            "users",
-            "datetime",
-            "timedelta",
-            "user_authenticated",
-            "encrypt_",
-            "verify_",
-            "hash_",
-            "store_data",
-        ]
-
-        for pattern in unsafe_patterns:
-            if pattern in ai_logic:
-                print(f"⚠️ Unsafe pattern d
+        unsafe_pa
 ```
 
 ### ./orchestrator/__init__.py
@@ -4432,10 +4430,11 @@ from tools.product_loop import ProductLoop
 import subprocess
 import os
 import re
+import sys
 from tools.code_runner import run_app
 
 # These are checker debugs
-print("🔥 DEBUG: Orchestrator LOADED v7")
+print("🔥 DEBUG: Orchestrator LOADED v8")
 
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
@@ -4478,9 +4477,7 @@ class Orchestrator:
             self.cto.design_architecture,
             {"idea": idea, "product": product},
         )
-        print("STEP 5: After CTO Agent")
-
-
+        print("STEP 5: After CT
 ```
 
 ### ./saas_master_template/app.py

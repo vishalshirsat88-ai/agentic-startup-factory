@@ -46,13 +46,16 @@ localPort = 5050
 externalPort = 3002
 
 [[ports]]
+localPort = 8000
+externalPort = 8000
+
+[[ports]]
 localPort = 8080
 externalPort = 8080
 
 [deployment]
 deploymentTarget = "autoscale"
-run = ["gunicorn", "--bind=0.0.0.0:5000", "--reuse-port", "--chdir", "/home/runner/workspace", "dashboard.dashboard:app"]
-
+run = ["python", "-m", "orchestrator.orchestrator"]
 [userenv]
 
 [userenv.shared]

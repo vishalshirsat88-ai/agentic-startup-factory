@@ -4,7 +4,7 @@ import textwrap
 import engine.ai_logic
 
 # These are checker debugs
-print("🔥 DEBUG: File_generator LOADED v10")
+print("🔥 DEBUG: File_generator LOADED v12")
 
 from tools.file_writer import write_file
 
@@ -54,7 +54,18 @@ class {safe_name.capitalize()}Model:
         print(f"[DEBUG] Import successful")
 
         ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
-        ai_logic = textwrap.dedent(ai_logic).strip()
+        # 🔥 VALIDATE AI LOGIC (CRITICAL FIX)
+        if "return" not in ai_logic:
+            print("⚠️ AI LOGIC INVALID → APPLYING SAFE FALLBACK")
+
+            ai_logic = f"""
+        def get_{safe_name}():
+            return {{
+                "status": "fallback",
+                "module": "{safe_name}"
+            }}
+        """
+            ai_logic = textwrap.dedent(ai_logic).strip()
 
         # 🔥 SAFETY FILTER (CRITICAL)
         unsafe_patterns = [
@@ -174,12 +185,12 @@ def add_{safe_name}(name):
 
         write_file(f"{project_dir}/services/{safe_name}_service.py", service_code)
 
-        route_code = f"""
+        route_code = textwrap.dedent(f"""
         from flask import Blueprint, jsonify, request, render_template
         from services.{safe_name}_service import execute, add_{safe_name}
 
         {safe_name}_bp = Blueprint('{safe_name}', __name__)
-        
+
         @{safe_name}_bp.route('/{safe_name}', methods=['GET'])
         def {safe_name}_page():
             return render_template("{safe_name}.html")
@@ -198,7 +209,7 @@ def add_{safe_name}(name):
 
             result = add_{safe_name}(name)
             return jsonify(result), 200
-        """
+        """).strip()
 
         write_file(f"{project_dir}/routes/{safe_name}_routes.py", route_code)
 
@@ -216,12 +227,12 @@ def add_{safe_name}(name):
         with open(app_file, "r") as f:
             code = f.read()
 
-        if "/api/run-feature" not in code:
-            print("[File Generator] Injecting global API route")
+        print("[File Generator] Injecting global API route (SAFE INSERT)")
 
-            api_code = """
+        api_code = textwrap.dedent("""
 @app.route("/api/run-feature")
 def run_feature():
+    print("🔥 API HIT: /api/run-feature")
     return {
         "status": "success",
         "data": [
@@ -230,12 +241,22 @@ def run_feature():
             {"name": "Status", "value": "Running"}
         ]
     }
-"""
+""").strip()
 
-            code += api_code
+        # 🔥 SAFE ROUTE INSERTION (FINAL FIX)
 
-            with open(app_file, "w") as f:
-                f.write(code)
+        if 'if __name__ == "__main__":' in code:
+            code = code.replace(
+                'if __name__ == "__main__":',
+                f'\n\n{api_code}\n\nif __name__ == "__main__":',
+            )
+
+        else:
+            print("⚠️ WARNING: __main__ block not found — skipping API injection")
+
+        # 🔥 ALWAYS SAVE (CRITICAL FIX)
+        with open(app_file, "w") as f:
+            f.write(code)
 
 
 def inject_dashboard_ui(project_dir):
@@ -253,55 +274,73 @@ def inject_dashboard_ui(project_dir):
         with open(file_path, "r") as f:
             content = f.read()
 
-        if "app-data" in content:
-            continue  # already injected
-
-        # 🔥 INSERT UI CONTAINER
-        if "<h6>Available Features:</h6>" in content:
+        # 🔥 GUARANTEED WORKING CONTAINER (FROM YOUR WORKING VERSION)
+        if "<h6>Available Features:</h6>" in content and "app-data" not in content:
             content = content.replace(
                 "<h6>Available Features:</h6>",
                 """<h6>Available Features:</h6>
-<div id="app-data" style="margin-top:20px;"></div>
-""",
+        <div id="app-data" style="
+            margin-top:20px;
+            font-size:14px;
+            background:#f9f9f9;
+            padding:10px;
+            border-radius:6px;
+        "></div>
+        """,
             )
 
-        # 🔥 INSERT SCRIPT
-        injection = """
-<script>
-fetch('/api/run-feature')
-  .then(res => res.json())
-  .then(data => {
-      const container = document.getElementById('app-data');
-      if (!container) return;
+        # 🔥 REMOVE ANY OLD SCRIPT BLOCKS COMPLETELY
+        content = re.sub(
+            r"<script>.*?fetch\('/test_execution'.*?</script>",
+            "",
+            content,
+            flags=re.DOTALL,
+        )
 
-      const items = data.data;
+        # 🔥 FORCE INSERT CORRECT SCRIPT
+        script_block = """
+        <!-- 🔥 AUTO-INJECTED-FETCH -->
+        <script>
+        console.log("🔥 API CALL STARTED:", '/api/run-feature');
 
-      let html = '<div style="display:flex; gap:15px;">';
+        fetch('/api/run-feature')
+          .then(res => res.json())
+          .then(data => {
+              const container = document.getElementById('app-data');
+              if (!container) return;
 
-      items.forEach(item => {
-          html += `
-              <div style="
-                  background:white;
-                  padding:15px;
-                  border-radius:8px;
-                  box-shadow:0 2px 6px rgba(0,0,0,0.1);
-              ">
-                  <div>${item.name}</div>
-                  <div><b>${item.value}</b></div>
-              </div>
-          `;
-      });
+              const items = data.data;
 
-      html += '</div>';
-      container.innerHTML = html;
-  });
-</script>
-"""
+              let html = '<div style="display:flex; gap:15px;">';
+
+              items.forEach(item => {
+                  html += `
+                      <div style="
+                          background:white;
+                          padding:15px;
+                          border-radius:8px;
+                          box-shadow:0 2px 6px rgba(0,0,0,0.1);
+                          min-width:120px;
+                          text-align:center;
+                      ">
+                          <div style="font-size:12px; color:#888;">${item.name}</div>
+                          <div style="font-size:20px; font-weight:bold;">${item.value}</div>
+                      </div>
+                  `;
+              });
+
+              html += '</div>';
+
+              container.innerHTML = html;
+          })
+          .catch(err => {
+              console.error("🔥 API ERROR:", err);
+          });
+        </script>
+        """
 
         if "</body>" in content:
-            content = content.replace("</body>", injection + "\n</body>")
-        else:
-            content += injection
+            content = content.replace("</body>", script_block + "\n</body>")
 
         with open(file_path, "w") as f:
             f.write(content)

@@ -879,5 +879,93 @@
         ]
       }
     }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-88480",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:37549",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-89351",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:34453",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-89495",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:51447",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-91104",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:39523",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
   }
 ]

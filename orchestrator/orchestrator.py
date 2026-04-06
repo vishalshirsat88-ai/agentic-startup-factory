@@ -12,10 +12,11 @@ from tools.product_loop import ProductLoop
 import subprocess
 import os
 import re
+import sys
 from tools.code_runner import run_app
 
 # These are checker debugs
-print("🔥 DEBUG: Orchestrator LOADED v7")
+print("🔥 DEBUG: Orchestrator LOADED v8")
 
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
@@ -203,6 +204,24 @@ Current code:
                     continue  # 🔥 DO NOT BREAK
                 else:
                     build_success = True
+
+                    print("🚀 SWITCHING TO GENERATED APP...")
+
+                    app_path = os.path.join(project_path, "app.py")
+
+                    print("🚀 SWITCHING TO:", app_path)
+
+                    if not os.path.exists(app_path):
+                        print("❌ ERROR: app.py not found")
+                        return
+
+                    port = "8000"  # ✅ SAFE PORT
+
+                    if os.path.exists(app_path):
+                        os.execv(sys.executable, [sys.executable, app_path, port])
+                    else:
+                        print("❌ app.py not found in generated project")
+
                     break
 
                 # 🧠 PRODUCT INTELLIGENCE LAYER (NEW)
