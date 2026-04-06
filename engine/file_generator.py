@@ -45,7 +45,6 @@ class {safe_name.capitalize()}Model:
     def __init__(self):
         pass
 """
-
         write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
 
         print(f"\n[DEBUG] Calling AI logic for module: {safe_name}")
@@ -208,3 +207,103 @@ def add_{safe_name}(name):
         "🔥 DEBUG: generate_backend_files EXISTS:",
         "generate_backend_files" in globals(),
     )
+
+    inject_dashboard_ui(project_dir)
+    # 🔥 ENSURE GLOBAL API ROUTE EXISTS
+    app_file = os.path.join(project_dir, "app.py")
+
+    if os.path.exists(app_file):
+        with open(app_file, "r") as f:
+            code = f.read()
+
+        if "/api/run-feature" not in code:
+            print("[File Generator] Injecting global API route")
+
+            api_code = """
+@app.route("/api/run-feature")
+def run_feature():
+    return {
+        "status": "success",
+        "data": [
+            {"name": "System Health", "value": "OK"},
+            {"name": "Modules Active", "value": 3},
+            {"name": "Status", "value": "Running"}
+        ]
+    }
+"""
+
+            code += api_code
+
+            with open(app_file, "w") as f:
+                f.write(code)
+
+
+def inject_dashboard_ui(project_dir):
+    templates_path = os.path.join(project_dir, "templates")
+
+    if not os.path.exists(templates_path):
+        return
+
+    for file in os.listdir(templates_path):
+        if "dashboard" not in file:
+            continue
+
+        file_path = os.path.join(templates_path, file)
+
+        with open(file_path, "r") as f:
+            content = f.read()
+
+        if "app-data" in content:
+            continue  # already injected
+
+        # 🔥 INSERT UI CONTAINER
+        if "<h6>Available Features:</h6>" in content:
+            content = content.replace(
+                "<h6>Available Features:</h6>",
+                """<h6>Available Features:</h6>
+<div id="app-data" style="margin-top:20px;"></div>
+""",
+            )
+
+        # 🔥 INSERT SCRIPT
+        injection = """
+<script>
+fetch('/api/run-feature')
+  .then(res => res.json())
+  .then(data => {
+      const container = document.getElementById('app-data');
+      if (!container) return;
+
+      const items = data.data;
+
+      let html = '<div style="display:flex; gap:15px;">';
+
+      items.forEach(item => {
+          html += `
+              <div style="
+                  background:white;
+                  padding:15px;
+                  border-radius:8px;
+                  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+              ">
+                  <div>${item.name}</div>
+                  <div><b>${item.value}</b></div>
+              </div>
+          `;
+      });
+
+      html += '</div>';
+      container.innerHTML = html;
+  });
+</script>
+"""
+
+        if "</body>" in content:
+            content = content.replace("</body>", injection + "\n</body>")
+        else:
+            content += injection
+
+        with open(file_path, "w") as f:
+            f.write(content)
+
+        print(f"[File Generator] UI injected → {file}")

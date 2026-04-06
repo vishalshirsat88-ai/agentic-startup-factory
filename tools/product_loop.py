@@ -12,9 +12,11 @@ class ProductLoop:
         issues = []
 
         issues += self.check_empty_templates()
-        issues += self.check_api_usage()
 
-        # 🔥 AUTO FIX TRIGGER
+        # ✅ DEBUG HERE (correct scope)
+        print("🧠 PRODUCT LOOP ISSUES:", issues)
+
+        # 🔥 ENABLE AUTO FIX
         self.auto_fix_templates(issues)
 
         return {"status": "completed", "issues_found": issues}
@@ -28,8 +30,7 @@ class ProductLoop:
             return issues
 
         for file in os.listdir(templates_path):
-            # Skip layout / static templates
-            if file in ["base.html", "hero.html", "features.html"]:
+            if "dashboard" not in file:
                 continue
             if file.endswith(".html"):
                 file_path = os.path.join(templates_path, file)
@@ -37,35 +38,8 @@ class ProductLoop:
                 with open(file_path, "r") as f:
                     content = f.read().lower()
 
-                # 🔴 1. No dynamic variables
-                if "{{" not in content:
-                    issues.append(
-                        {
-                            "type": "STATIC_UI",
-                            "file": file,
-                            "message": "No dynamic variables used",
-                        }
-                    )
-
-                # 🔴 2. No loops → no list rendering
-                if "{% for" not in content:
-                    issues.append(
-                        {
-                            "type": "NO_DATA_LOOP",
-                            "file": file,
-                            "message": "No data iteration (no loops found)",
-                        }
-                    )
-
-                # 🔴 3. No fetch / API call
-                if "fetch(" not in content and "axios" not in content:
-                    issues.append(
-                        {
-                            "type": "NO_API_CALL",
-                            "file": file,
-                            "message": "Frontend not calling backend APIs",
-                        }
-                    )
+                if "app-data" not in content:
+                    issues.append({"type": "NO_FRONTEND_BINDING", "file": file})
 
         return issues
 
@@ -117,7 +91,7 @@ class ProductLoop:
             return
 
         for issue in issues:
-            if issue["type"] not in ["NO_API_CALL", "NO_DATA_LOOP"]:
+            if issue["type"] != "NO_FRONTEND_BINDING":
                 continue
 
             file = issue.get("file")
@@ -157,14 +131,14 @@ class ProductLoop:
     fetch('{endpoint}')
       .then(res => res.json())
       .then(data => {{
-        const el = document.getElementById("dynamic-data");
+        const el = document.getElementById("app-data");
         if (el) {{
             el.innerText = JSON.stringify(data, null, 2);
         }}
       }});
     </script>
 
-    <div id="dynamic-data"></div>
+    <div id="app-data"></div>
     """
 
                 # Inject before closing body

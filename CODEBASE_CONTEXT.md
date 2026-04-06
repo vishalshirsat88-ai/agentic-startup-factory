@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-05 12:10:18.120839+00:00
+Generated: 2026-04-06 14:46:49.599290+00:00
 
 ## Project Structure
 
@@ -13,9 +13,9 @@ Generated: 2026-04-05 12:10:18.120839+00:00
 - generate_context.py
 - PROJECT_CONTEXT - Base -  Old.md
 - SYSTEM_FLOW.md
-- CODEBASE_CONTEXT.md
-- PROJECT_CONTEXT.md
 - PROJECT_CONTEXT - Base.md
+- PROJECT_CONTEXT.md
+- CODEBASE_CONTEXT.md
 
 ### Folder: ./.cache
 
@@ -913,45 +913,45 @@ Generated: 2026-04-05 12:10:18.120839+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/aRGw_9HEgFUz8M-O3yY2v
+### Folder: ./.local/state/workflow-logs/p6mW_f_h7AfWAksPpKaxa
 
-### Folder: ./.local/state/workflow-logs/bAiRjqrXVI3JABb2nTzu1
+### Folder: ./.local/state/workflow-logs/Wyq66xmmk2ZMK-5isMXUh
 
-### Folder: ./.local/state/workflow-logs/da6fW5fsSt05dqmB9FPjR
+### Folder: ./.local/state/workflow-logs/XyhI_iVZQseAu93mGNLeZ
 
-### Folder: ./.local/state/workflow-logs/3ysHMfUrXBSLtnkStvSi1
+### Folder: ./.local/state/workflow-logs/zSVJopryj9_h5TGZvpVSQ
 
-### Folder: ./.local/state/workflow-logs/qEZG8S9cQ3Yw1cQkFvqnr
+### Folder: ./.local/state/workflow-logs/HkACxs-WAcie0kAHSN7q0
 
-### Folder: ./.local/state/workflow-logs/1WnHlhJb9vEzGOw_oXBzF
+### Folder: ./.local/state/workflow-logs/IL2nx93LkSv5YNsRVnYiL
 
-### Folder: ./.local/state/workflow-logs/x1-FWDMOJ67kWcHW1YKw-
+### Folder: ./.local/state/workflow-logs/DKQF4drHXVb7-DzGBaP9a
 
-### Folder: ./.local/state/workflow-logs/WeFSzrycqnHRKhdThmBAM
+### Folder: ./.local/state/workflow-logs/ad2e_AtCW2pLFJBlQR89x
 
-### Folder: ./.local/state/workflow-logs/GcL5E-lsMQNTkqr2bYmB2
+### Folder: ./.local/state/workflow-logs/alq_2UYymyi5QI3KYkoen
 
-### Folder: ./.local/state/workflow-logs/d-XLkjQC_OYuzrCMwYZJ3
+### Folder: ./.local/state/workflow-logs/jn_bThFuT0HN5b0kimHjf
 
-### Folder: ./.local/state/workflow-logs/PUcdnRisLGsZHKYYzPV1H
+### Folder: ./.local/state/workflow-logs/O3HKpICZeCW_qvITc-BQ9
 
-### Folder: ./.local/state/workflow-logs/o2hHj_0pcL2Pjb7sc8K7v
+### Folder: ./.local/state/workflow-logs/922ztS5rrDXE3sTVN2bD-
 
-### Folder: ./.local/state/workflow-logs/3_oZZ5sCghah20viCJnaQ
+### Folder: ./.local/state/workflow-logs/xDG6SB6sGHaxmM9dJVIBW
 
-### Folder: ./.local/state/workflow-logs/MoI6NFbaEuUbOY3QcuElY
+### Folder: ./.local/state/workflow-logs/-LM4XBr3P6DbIqVYWceXD
 
-### Folder: ./.local/state/workflow-logs/9LIeHw5CZQye8RviW4nrm
+### Folder: ./.local/state/workflow-logs/E9niXjIbRufKW1hf8Zbvk
 
-### Folder: ./.local/state/workflow-logs/_BeGapmUB8z5E-4FX6j90
+### Folder: ./.local/state/workflow-logs/Lj1t8PLhAKZfK_3lnPaNv
 
-### Folder: ./.local/state/workflow-logs/l_aHMhJI88xOfz3Bwhjoz
+### Folder: ./.local/state/workflow-logs/mh9v5XuYPsaiU-Y7R1cJL
 
-### Folder: ./.local/state/workflow-logs/izz4N752Tysp8LbKzVM9V
+### Folder: ./.local/state/workflow-logs/83Hp1-gJSLiTJMGaj9mx5
 
-### Folder: ./.local/state/workflow-logs/GEoGgsrgiuiXKQbMNrPs9
+### Folder: ./.local/state/workflow-logs/Qt1ZxgmFa62LbXAJSPVcu
 
-### Folder: ./.local/state/workflow-logs/R0uyjvaq3CvziuEgP4sPC
+### Folder: ./.local/state/workflow-logs/8v8PAsPHnoUPgbA6iFIkK
 
 ### Folder: ./.local/skills
 
@@ -4381,7 +4381,6 @@ class {safe_name.capitalize()}Model:
     def __init__(self):
         pass
 """
-
         write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
 
         print(f"\n[DEBUG] Calling AI logic for module: {safe_name}")
@@ -4407,7 +4406,7 @@ class {safe_name.capitalize()}Model:
 
         for pattern in unsafe_patterns:
             if pattern in ai_logic:
-                print(f"⚠️ Unsafe pattern 
+                print(f"⚠️ Unsafe pattern d
 ```
 
 ### ./orchestrator/__init__.py
@@ -4820,9 +4819,11 @@ class ProductLoop:
         issues = []
 
         issues += self.check_empty_templates()
-        issues += self.check_api_usage()
 
-        # 🔥 AUTO FIX TRIGGER
+        # ✅ DEBUG HERE (correct scope)
+        print("🧠 PRODUCT LOOP ISSUES:", issues)
+
+        # 🔥 ENABLE AUTO FIX
         self.auto_fix_templates(issues)
 
         return {"status": "completed", "issues_found": issues}
@@ -4836,8 +4837,7 @@ class ProductLoop:
             return issues
 
         for file in os.listdir(templates_path):
-            # Skip layout / static templates
-            if file in ["base.html", "hero.html", "features.html"]:
+            if "dashboard" not in file:
                 continue
             if file.endswith(".html"):
                 file_path = os.path.join(templates_path, file)
@@ -4845,31 +4845,34 @@ class ProductLoop:
                 with open(file_path, "r") as f:
                     content = f.read().lower()
 
-                # 🔴 1. No dynamic variables
-                if "{{" not in content:
-                    issues.append(
-                        {
-                            "type": "STATIC_UI",
-                            "file": file,
-                            "message": "No dynamic variables used",
-                        }
-                    )
+                if "app-data" not in content:
+                    issues.append({"type": "NO_FRONTEND_BINDING", "file": file})
 
-                # 🔴 2. No loops → no list rendering
-                if "{% for" not in content:
-                    issues.append(
-                        {
-                            "type": "NO_DATA_LOOP",
-                            "file": file,
-                            "message": "No data iteration (no loops found)",
-                        }
-                    )
+        return issues
 
-                # 🔴 3. No fetch / API call
-                if "fetch(" not in content and "axios" not in content:
-                    issues.append(
-                        {
-                    
+    # 🔍 2. Detect APIs not used in UI
+    def check_api_usage(self):
+        issues = []
+
+        routes_path = os.path.join(self.project_path, "routes")
+        templates_path = os.path.join(self.project_path, "templates")
+
+        if not os.path.exists(routes_path) or not os.path.exists(templates_path):
+            return issues
+
+        route_files = os.listdir(routes_path)
+        template_files = os.listdir(templates_path)
+
+        routes_content = []
+        for file in route_files:
+            if file.endswith(".py"):
+                with open(os.path.join(routes_path, file), "r") as f:
+                    routes_content.append(f.read())
+
+        templates_content = []
+        for file in template_files:
+            if file.endswith(".html"):
+                with open(os.path.join(te
 ```
 
 ### ./.pythonlibs/lib/python3.12/site-packages/typing_extensions.py

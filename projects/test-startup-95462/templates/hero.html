@@ -1,0 +1,37 @@
+
+<section class="py-32 text-center">
+    <h1 class="text-5xl font-bold mb-6">
+        {{ data.headline }}
+    </h1>
+    <p class="text-gray-400 mb-8">
+        {{ data.subheadline }}
+    </p>
+    <button class="px-6 py-3 bg-indigo-600 rounded-lg">
+        {{ data.cta_text }} — {{ data.price }}
+    </button>
+</section>
+
+<!-- 🔥 AUTO-INJECTED-FETCH -->
+<script>
+fetch('/api/data')
+  .then(res => res.json())
+  .then(data => {
+      const container = document.getElementById('app-data');
+      if (!container) return;
+
+      container.innerHTML = '';
+
+      if (typeof data === 'object') {
+          Object.keys(data).forEach(key => {
+              const div = document.createElement('div');
+              div.innerText = key + ": " + JSON.stringify(data[key]);
+              container.appendChild(div);
+          });
+      } else {
+          container.innerText = data;
+      }
+  })
+  .catch(err => console.error(err));
+</script>
+
+<div id="app-data" style="padding:20px;"></div>

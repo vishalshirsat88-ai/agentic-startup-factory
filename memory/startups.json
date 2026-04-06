@@ -813,5 +813,71 @@
         ]
       }
     }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-81345",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:56267",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-83829",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:44711",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-86796",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:40829",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
   }
 ]
