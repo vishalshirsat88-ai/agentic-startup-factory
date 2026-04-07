@@ -874,5 +874,102 @@
     "score": 6,
     "status": "approved",
     "processed": true
+  },
+  {
+    "id": 64,
+    "idea": {
+      "name": "EchoVoyager",
+      "description": "AI-powered travel companion that plans and recommends personalized trips based on users' interests and preferences",
+      "market": "Travelers, adventure-seekers, and cultural enthusiasts",
+      "revenue_model": "Commission-based bookings and targeted advertising"
+    },
+    "name": "EchoVoyager",
+    "description": "AI-powered travel companion that plans and recommends personalized trips based on users' interests and preferences",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 65,
+    "idea": {
+      "name": "EchoPolaris",
+      "description": "AI-powered virtual event planning and management platform for remote teams and communities",
+      "market": "Remote workers, event planners, and community organizers",
+      "revenue_model": "Subscription-based with premium features and event hosting services"
+    },
+    "name": "EchoPolaris",
+    "description": "AI-powered virtual event planning and management platform for remote teams and communities",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 66,
+    "idea": {
+      "name": "EchoPulse Pro",
+      "description": "AI-powered audio editing platform for music producers and podcasters",
+      "market": "Music producers, podcasters, and audio engineers",
+      "revenue_model": "Subscription-based model with additional revenue from premium plugins and tutorials"
+    },
+    "name": "EchoPulse Pro",
+    "description": "AI-powered audio editing platform for music producers and podcasters",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 67,
+    "idea": {
+      "name": "EchoNarrativa",
+      "description": "AI-powered virtual storybook creation platform for children with special needs",
+      "market": "Parents, caregivers, and educators of children with special needs",
+      "revenue_model": "Subscription-based model with in-app purchases for additional storybooks and features"
+    },
+    "name": "EchoNarrativa",
+    "description": "AI-powered virtual storybook creation platform for children with special needs",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 68,
+    "idea": {
+      "name": "EchoPlexaXtra",
+      "description": "AI-powered virtual event planner that connects people with shared interests",
+      "market": "Young adults, event planners, and businesses",
+      "revenue_model": "Commission-based event ticket sales and premium event planning services"
+    },
+    "name": "EchoPlexaXtra",
+    "description": "AI-powered virtual event planner that connects people with shared interests",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 69,
+    "idea": {
+      "name": "EcoGenie",
+      "description": "An AI-powered home maintenance and sustainability assistant",
+      "market": "Homeowners and property managers",
+      "revenue_model": "Subscription-based service with optional premium features"
+    },
+    "name": "EcoGenie",
+    "description": "An AI-powered home maintenance and sustainability assistant",
+    "score": 7,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 70,
+    "idea": {
+      "name": "EchoNimble",
+      "description": "AI-powered virtual personal shopping assistant for seniors and people with disabilities",
+      "market": "Seniors and people with disabilities, caregivers, and family members",
+      "revenue_model": "Subscription-based service, commission-based sales, and partnerships with healthcare providers"
+    },
+    "name": "EchoNimble",
+    "description": "AI-powered virtual personal shopping assistant for seniors and people with disabilities",
+    "score": 7,
+    "status": "approved",
+    "processed": true
   }
 ]

@@ -107,6 +107,19 @@ class DeveloperAgent(AgentBase):
 
         project_dir = f"projects/{project_name}"
         print("📁 PROJECT DIR SET:", project_dir)
+        print("\n================ PHASE 1: ARCHITECTURE DEBUG ================")
+        print("PRODUCT NAME:", idea.get("name") if isinstance(idea, dict) else "N/A")
+        print(
+            "DESCRIPTION:", idea.get("description") if isinstance(idea, dict) else "N/A"
+        )
+
+        if architecture:
+            print("MODULE COUNT:", len(architecture.get("modules", [])))
+            for m in architecture.get("modules", []):
+                print("MODULE:", m.get("name"))
+                print("FEATURES:", m.get("features"))
+        print("============================================================\n")
+
         os.makedirs(project_dir, exist_ok=True)
 
         # ✅ NEW: Copy SaaS template
@@ -122,8 +135,14 @@ class DeveloperAgent(AgentBase):
                 content = f.read()
 
             # Extract idea safely
-            product_name = "AI Tool"
-            product_description = "AI powered solution"
+            product_name = (
+                idea.get("name", "AI Tool") if isinstance(idea, dict) else "AI Tool"
+            )
+            product_description = (
+                idea.get("description", "AI powered solution")
+                if isinstance(idea, dict)
+                else "AI powered solution"
+            )
             product_features = []
 
             # 🔥 Prefer product features over architecture
@@ -145,34 +164,86 @@ class DeveloperAgent(AgentBase):
                 # fallback to architecture features
                 if not product_features:
                     product_features = architecture.get("features", [])
-
+            print(
+                "\n================ PHASE 2A: TEMPLATE BEFORE INJECTION ================"
+            )
+            print(content[:500])
+            print("TEMPLATE SOURCE: saas_master_template/app.py")
+            print("============================================================\n")
             # Replace PRODUCT_NAME
+            # 🔥 FULL LANDING PAGE INJECTION
+
             content = content.replace(
                 'PRODUCT_NAME = "AI Resume Builder"', f'PRODUCT_NAME = "{product_name}"'
             )
 
-            # ✅ Inject features into template (basic version)
-            features_text = (
-                ", ".join(product_features)
-                if product_features
-                else "AI-powered features"
+            # Hero section
+            content = content.replace(
+                'product_tagline="Build ATS-ready resumes instantly"',
+                f'product_tagline="{product_description}"',
             )
 
             content = content.replace(
-                'feature_1_title="AI Resume Analysis"',
-                f'feature_1_title="{features_text}"',
+                'product_headline="Create Perfect Resumes With AI"',
+                f'product_headline="{product_name} — AI Powered Platform"',
             )
 
-            # Optional: Inject description if you add it later in template
+            # CTA
+            content = content.replace(
+                'cta_text="Get Started"', f'cta_text="Start using {product_name}"'
+            )
+
+            # ✅ Inject features into template (basic version)
+            # 🔥 FEATURE SPLIT (CLEAN VERSION)
+            feature_1 = (
+                product_features[0] if len(product_features) > 0 else "AI Feature"
+            )
+            feature_2 = (
+                product_features[1] if len(product_features) > 1 else "Automation"
+            )
+            feature_3 = (
+                product_features[2] if len(product_features) > 2 else "Analytics"
+            )
+
+            content = content.replace(
+                'feature_1_title="AI Resume Analysis"', f'feature_1_title="{feature_1}"'
+            )
+
+            content = content.replace(
+                'feature_2_title="ATS Optimization"', f'feature_2_title="{feature_2}"'
+            )
+
+            content = content.replace(
+                'feature_3_title="Export Resume"', f'feature_3_title="{feature_3}"'
+            )
+
+            # Optional: Inject description
             content = content.replace(
                 'product_description="Our AI analyzes job descriptions and builds optimized resumes."',
                 f'product_description="{product_description}"',
             )
 
+            # 🔥 CLEAN TEMPLATE WORDS (VERY IMPORTANT)
+            content = content.replace("resume", product_name.lower())
+            content = content.replace("Resume", product_name)
+
+            print("\n🔥 INJECTION SUMMARY")
+            print("PRODUCT:", product_name)
+            print("DESCRIPTION:", product_description)
+            print("FEATURES:", product_features[:3])
+            print("================================\n")
+
             with open(app_file, "w") as f:
                 f.write(content)
 
             print("[Developer Agent] Injected idea into SaaS template")
+            print(
+                "\n================ PHASE 2B: TEMPLATE AFTER INJECTION ================"
+            )
+            with open(app_file, "r") as f:
+                updated = f.read()
+            print(updated[:500])
+            print("============================================================\n")
         else:
             print("[Developer Agent] app.py not found for injection")
 
@@ -234,6 +305,34 @@ Werkzeug==2.2.3
                 print(
                     "[Developer Agent] No architecture provided — skipping backend generation"
                 )
+
+            index_path = os.path.join(project_dir, "templates", "index.html")
+
+            if os.path.exists(index_path):
+                with open(index_path, "r") as f:
+                    html = f.read()
+
+                print("\n================ PHASE 4A: FINAL INDEX.HTML ================")
+                print(html[:500])
+                print("============================================================\n")
+            else:
+                print("❌ index.html NOT FOUND")
+
+            dashboard_path = os.path.join(project_dir, "templates", "dashboard.html")
+
+            if os.path.exists(dashboard_path):
+                with open(dashboard_path, "r") as f:
+                    html = f.read()
+
+                print(
+                    "\n================ PHASE 4B: FINAL DASHBOARD.HTML ================"
+                )
+                print(html[:500])
+                print("DEBUG PROJECT PATH:", project_dir)
+                print("============================================================\n")
+            else:
+                print("❌ dashboard.html NOT FOUND")
+
         except Exception as e:
             print("❌ FULL BACKEND ERROR BELOW:")
             traceback.print_exc()

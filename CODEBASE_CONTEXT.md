@@ -1,5 +1,22 @@
 # Codebase Context Snapshot
-Generated: 2026-04-06 18:53:28.754085+00:00
+Generated: 2026-04-07 16:30:09.974638+00:00
+
+## UI CONTROL LAYER
+
+Primary UI files:
+
+• templates/index.html
+• templates/dashboard.html
+
+Observed Risk:
+
+• UI may be overridden after injection by File Generator
+• Backend injection (app.py) does NOT affect visible UI
+
+Debug Strategy:
+
+• Always inspect templates directly
+• Do not rely on app.py changes for UI validation
 
 ## Project Structure
 
@@ -913,45 +930,45 @@ Generated: 2026-04-06 18:53:28.754085+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/alq_2UYymyi5QI3KYkoen
+### Folder: ./.local/state/workflow-logs/MEd-tW0DZAzmTB3nbyAfs
 
-### Folder: ./.local/state/workflow-logs/jn_bThFuT0HN5b0kimHjf
+### Folder: ./.local/state/workflow-logs/2L53ezin_jGnpi590xqHt
 
-### Folder: ./.local/state/workflow-logs/O3HKpICZeCW_qvITc-BQ9
+### Folder: ./.local/state/workflow-logs/5m8BPQf5qFTdlie_X-0VF
 
-### Folder: ./.local/state/workflow-logs/922ztS5rrDXE3sTVN2bD-
+### Folder: ./.local/state/workflow-logs/8fQGB3aaenxuQoaNgQwyF
 
-### Folder: ./.local/state/workflow-logs/xDG6SB6sGHaxmM9dJVIBW
+### Folder: ./.local/state/workflow-logs/bP11c39IKferg7tbCM9Ku
 
-### Folder: ./.local/state/workflow-logs/-LM4XBr3P6DbIqVYWceXD
+### Folder: ./.local/state/workflow-logs/7z7w4qhcANcNV86QHVeiL
 
-### Folder: ./.local/state/workflow-logs/E9niXjIbRufKW1hf8Zbvk
+### Folder: ./.local/state/workflow-logs/SBNvg0RyfQF3z4DU6Mggy
 
-### Folder: ./.local/state/workflow-logs/Lj1t8PLhAKZfK_3lnPaNv
+### Folder: ./.local/state/workflow-logs/f_EtOqoldVP_gCrBoxtEJ
 
-### Folder: ./.local/state/workflow-logs/mh9v5XuYPsaiU-Y7R1cJL
+### Folder: ./.local/state/workflow-logs/7xyGFagx9XQIFHkht3xPo
 
-### Folder: ./.local/state/workflow-logs/83Hp1-gJSLiTJMGaj9mx5
+### Folder: ./.local/state/workflow-logs/ujDWLEyVdk2il7P1NprF9
 
-### Folder: ./.local/state/workflow-logs/Qt1ZxgmFa62LbXAJSPVcu
+### Folder: ./.local/state/workflow-logs/0OakvxY-ISKjVE4MHgmOQ
 
-### Folder: ./.local/state/workflow-logs/8v8PAsPHnoUPgbA6iFIkK
+### Folder: ./.local/state/workflow-logs/VXFAGpLu1WNcQg6vhOwrc
 
-### Folder: ./.local/state/workflow-logs/HIdsHveYzcz8nkeLRPqYu
+### Folder: ./.local/state/workflow-logs/_HTnU3ZDmmeAtvbhlcuM-
 
-### Folder: ./.local/state/workflow-logs/C6huIde_CtFzX3Hu7mh5B
+### Folder: ./.local/state/workflow-logs/BL-_E7xwuXI6urXEDelKo
 
-### Folder: ./.local/state/workflow-logs/iB_jFvKS-U77xbuzP1FUy
+### Folder: ./.local/state/workflow-logs/W7bXfAnCCjXuHuZ4xFf_2
 
-### Folder: ./.local/state/workflow-logs/fUDDdrJCWj-oAjJfuNsT0
+### Folder: ./.local/state/workflow-logs/d6WvOCs3ORz5_wKqh9u6m
 
-### Folder: ./.local/state/workflow-logs/yzqNX9dCI9330vF_jWtw7
+### Folder: ./.local/state/workflow-logs/khSMnaIgRa1e9lTNURmo6
 
-### Folder: ./.local/state/workflow-logs/01yWfPcuvARW3lF1_SjQx
+### Folder: ./.local/state/workflow-logs/aw8z0_c__JcokYI3REMYw
 
-### Folder: ./.local/state/workflow-logs/8uJGLhU45TtErVLqTfwpV
+### Folder: ./.local/state/workflow-logs/ft1TN276RaxjgHvTZQFnV
 
-### Folder: ./.local/state/workflow-logs/mUrM0GlyIjIxQiuSbPzxO
+### Folder: ./.local/state/workflow-logs/HfeT937qGFUqEgIC9zS1a
 
 ### Folder: ./.local/skills
 
@@ -1332,8 +1349,8 @@ Generated: 2026-04-06 18:53:28.754085+00:00
 - github_agent.py
 - product_agent.py
 - cto_agent.py
-- developer_agent.py
 - qa_agent.py
+- developer_agent.py
 
 ### Folder: ./constitution
 - founder-control-room.md
@@ -1348,8 +1365,8 @@ Generated: 2026-04-06 18:53:28.754085+00:00
 - template_renderer.py
 - auto_wire.py
 - db.py
-- ai_logic.py
 - file_generator.py
+- ai_logic.py
 
 ### Folder: ./logs
 
@@ -1490,6 +1507,7 @@ Generated: 2026-04-06 18:53:28.754085+00:00
 - code_runner.py
 - product_validator.py
 - product_loop.py
+- domain_prompt_builder.py
 
 ### Folder: ./.pythonlibs
 
@@ -3909,6 +3927,48 @@ class CTOAgent(AgentBase):
             retur
 ```
 
+### ./agents/qa_agent.py
+
+```python
+from tools.code_runner import run_app
+from tools.llm import generate
+from tools.product_validator import test_api, test_endpoint, test_post_endpoint, test_db
+import os
+
+
+# These are checker debugs
+print("🔥 DEBUG: QA_Agent Loaded v2")
+
+
+class QAAgent:
+    def test_product(self, project_path):
+        print("[QA Agent] Running application tests...")
+
+        success, output = run_app(project_path)
+
+        if success:
+            print("[QA Agent] App started successfully")
+
+            # Since run_app no longer returns base_url, skip API tests for now
+            validation_report = {
+                "status": "app_started",
+                "message": output,
+                "db": test_db(),
+            }
+
+            print("\n=== PRODUCT VALIDATION REPORT ===")
+            print(validation_report)
+
+            return validation_report
+
+        print("[QA Agent] Error detected:")
+        print("[QA Agent] App failed to start")
+        print(output)
+
+        return {"status": "fail", "error": output}
+
+```
+
 ### ./agents/developer_agent.py
 
 ```python
@@ -3984,48 +4044,6 @@ class DeveloperAgent(AgentBase):
             return False
 
         for file in os.listdir(routes_dir):
-
-```
-
-### ./agents/qa_agent.py
-
-```python
-from tools.code_runner import run_app
-from tools.llm import generate
-from tools.product_validator import test_api, test_endpoint, test_post_endpoint, test_db
-import os
-
-
-# These are checker debugs
-print("🔥 DEBUG: QA_Agent Loaded v2")
-
-
-class QAAgent:
-    def test_product(self, project_path):
-        print("[QA Agent] Running application tests...")
-
-        success, output = run_app(project_path)
-
-        if success:
-            print("[QA Agent] App started successfully")
-
-            # Since run_app no longer returns base_url, skip API tests for now
-            validation_report = {
-                "status": "app_started",
-                "message": output,
-                "db": test_db(),
-            }
-
-            print("\n=== PRODUCT VALIDATION REPORT ===")
-            print(validation_report)
-
-            return validation_report
-
-        print("[QA Agent] Error detected:")
-        print("[QA Agent] App failed to start")
-        print(output)
-
-        return {"status": "fail", "error": output}
 
 ```
 
@@ -4253,84 +4271,6 @@ def init_db():
 
 ```
 
-### ./engine/ai_logic.py
-
-```python
-import requests
-import os
-
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-print("🔥🔥 NEW AI_LOGIC FILE LOADED v3🔥🔥")
-
-
-def generate_service_logic(module_name, idea):
-    print(f"\n[AI LOGIC] Generating logic for module: {module_name}")
-
-    if not GROQ_API_KEY:
-        print("❌ GROQ KEY NOT FOUND — using fallback")
-        return f"""def get_{module_name}():
-    return {{
-        "status": "fallback_no_api_key",
-        "module": "{module_name}"
-    }}
-"""
-
-    prompt = f"""
-    You are building a SaaS backend.
-
-    Startup Idea: {idea.get("name")}
-    Description: {idea.get("description")}
-    Target Users: {idea.get("market")}
-    Revenue Model: {idea.get("revenue_model")}
-
-    Module: {module_name}
-
-    Write ONE Python function for this module.
-
-    STRICT RULES:
-    - Function name MUST be: get_{module_name}
-    - Return ONLY ONE function
-    - Do NOT create multiple functions
-    - Do NOT include imports
-    - Do NOT include classes
-    - Do NOT include example usage
-    - Do NOT include explanations
-    - Do NOT include markdown
-    - Use realistic business logic based on the startup idea
-
-    Output format EXACTLY like:
-
-    def get_{module_name}():
-        # logic here
-        return {{"status": "success"}}
-    """
-
-    print("[AI CONTEXT]", idea.get("name"), "| Module:", module_name)
-    url = "https://api.groq.com/openai/v1/chat/completions"
-
-    headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
-        "Content-Type": "application/json",
-    }
-
-    data = {
-        "model": "llama-3.1-8b-instant",
-        "messages": [{"role": "user", "content": prompt}],
-    }
-
-    try:
-        response = requests.post(url, headers=headers, json=data)
-        print("[AI LOGIC] STATUS CODE:", response.status_code)
-        print("[AI LOGIC] RAW TEXT:", response.text[:500])
-
-        try:
-            result = response.json()
-        except Exception as e:
-            print("❌ JSON PARSE FAILED:", e)
-            print("RAW TEXT RESPONSE:", response.text)
-            re
-```
-
 ### ./engine/file_generator.py
 
 ```python
@@ -4405,6 +4345,82 @@ class {safe_name.capitalize()}Model:
 
         # 🔥 SAFETY FILTER (CRITICAL)
         unsafe_pa
+```
+
+### ./engine/ai_logic.py
+
+```python
+import requests
+import os
+import textwrap
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+print("🔥🔥 NEW AI_LOGIC FILE LOADED v3🔥🔥")
+
+
+def fallback_function(module_name):
+    return textwrap.dedent(f"""\
+    def get_{module_name}():
+        return {{
+            "status": "success",
+            "data": {{
+                "{module_name}": [
+                    {{
+                        "id": 1,
+                        "name": "Fallback Data",
+                        "status": "active",
+                        "amount": 100
+                    }}
+                ],
+                "total": 1
+            }}
+        }}
+    """)
+
+
+def generate_service_logic(module_name, idea):
+    print(f"\n[AI LOGIC] Generating logic for module: {module_name}")
+
+    if not GROQ_API_KEY:
+        print("❌ GROQ KEY NOT FOUND — using fallback")
+
+        return fallback_function(module_name)
+
+    from tools.domain_prompt_builder import build_domain_prompt
+
+    prompt = build_domain_prompt(module_name, idea)
+
+    # AFTER
+    idea_name = idea.get("name") if isinstance(idea, dict) else "unknown"
+    print("[AI CONTEXT]", idea_name, "| Module:", module_name)
+    url = "https://api.groq.com/openai/v1/chat/completions"
+
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json",
+    }
+
+    data = {
+        "model": "llama-3.1-8b-instant",
+        "messages": [{"role": "user", "content": prompt}],
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        print("[AI LOGIC] STATUS CODE:", response.status_code)
+        print("[AI LOGIC] RAW TEXT:", response.text[:500])
+
+        try:
+            result = response.json()
+        except Exception as e:
+            print("❌ JSON PARSE FAILED:", e)
+            print("RAW TEXT RESPONSE:", response.text)
+
+            return fallback_function(module_name)
+
+        # 🔥 FORCE PRINT (NO CONDITIONS)
+        print("\n================ RAW GROQ RESPONSE - V3 ================")
+        print
 ```
 
 ### ./orchestrator/__init__.py
@@ -4870,6 +4886,82 @@ class ProductLoop:
         for file in template_files:
             if file.endswith(".html"):
                 with open(os.path.join(te
+```
+
+### ./tools/domain_prompt_builder.py
+
+```python
+def build_domain_prompt(module_name, idea):
+    idea_context = ""
+
+    if isinstance(idea, dict):
+        idea_context = f"""
+Startup Name: {idea.get("name", "")}
+Description: {idea.get("description", "")}
+Market: {idea.get("market", "")}
+Revenue Model: {idea.get("revenue_model", "")}
+"""
+
+    return f"""
+You are a senior Python backend engineer.
+
+Generate ONLY clean, executable Python code.
+
+Module: {module_name}
+
+Context:
+{idea_context}
+
+STRICT RULES:
+
+1. Output ONLY valid Python code (NO markdown, NO ```).
+2. DO NOT include explanations.
+3. DO NOT include comments.
+4. Function must be EXACTLY:
+
+def get_{module_name}():
+
+5. ALWAYS return:
+
+{{
+  "status": "success",
+  "data": ...
+}}
+
+6. Code MUST:
+- Have correct indentation
+- Have NO syntax errors
+- Close all brackets
+- Not use undefined variables
+
+7. Keep logic SIMPLE and SAFE:
+- No nested complex conditions
+- No random imports
+- No datetime unless necessary
+
+8. Use STATIC realistic data (not dynamic calculations)
+
+GOOD EXAMPLE:
+
+def get_{module_name}():
+    return {{
+        "status": "success",
+        "data": {{
+            "{module_name}": [
+                {{
+                    "id": 1,
+                    "name": "Sample",
+                    "status": "active",
+                    "amount": 100
+                }}
+            ],
+            "total": 1
+        }}
+    }}
+
+OUTPUT ONLY VALID PYTHON FUNCTION.
+"""
+
 ```
 
 ### ./.pythonlibs/lib/python3.12/site-packages/typing_extensions.py
