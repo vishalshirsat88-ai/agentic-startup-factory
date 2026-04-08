@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-05 16:34:51.892884+00:00
+Generated: 2026-04-07 14:39:44.631962+00:00
 
 ## Project Structure
 
@@ -933,26 +933,6 @@ Generated: 2026-04-05 16:34:51.892884+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/GEoGgsrgiuiXKQbMNrPs9
-
-### Folder: ./.local/state/workflow-logs/R0uyjvaq3CvziuEgP4sPC
-
-### Folder: ./.local/state/workflow-logs/IL3jNUK-Cc791ZVuznaqs
-
-### Folder: ./.local/state/workflow-logs/O7O6iIWXPyIjAsZNHG7zu
-
-### Folder: ./.local/state/workflow-logs/RJOdb6FNJPgWXRYFILvqp
-
-### Folder: ./.local/state/workflow-logs/mGa8b8Q7B8tCWdfkrqFAN
-
-### Folder: ./.local/state/workflow-logs/LIYkdE_b71HBwk_fyG3i4
-
-### Folder: ./.local/state/workflow-logs/p4RMU7pMFiUGCA0t9Ymfx
-
-### Folder: ./.local/state/workflow-logs/mOcTvyehK6bBgy1Lsnajv
-
-### Folder: ./.local/state/workflow-logs/5VUTvYk7u7uv8QLVVQPBF
-
 ### Folder: ./.local/state/workflow-logs/a6EDd-T_2UWZKDrWheuQ_
 
 ### Folder: ./.local/state/workflow-logs/QohEoLjOD1ZKtl-M7AhKB
@@ -972,6 +952,26 @@ Generated: 2026-04-05 16:34:51.892884+00:00
 ### Folder: ./.local/state/workflow-logs/JwCjLqha9JcxJ2ku6QK66
 
 ### Folder: ./.local/state/workflow-logs/NZFk8a9b4ZG0lOqarIIQ9
+
+### Folder: ./.local/state/workflow-logs/NlSCLQnsMBGWG-OPHqW9n
+
+### Folder: ./.local/state/workflow-logs/Vkl-11LEGGt_oXtMvfIFZ
+
+### Folder: ./.local/state/workflow-logs/QRaYbQVd-1tKhnuQoMwqP
+
+### Folder: ./.local/state/workflow-logs/zJmCk0pPfos7bW5IxiSDp
+
+### Folder: ./.local/state/workflow-logs/ZrHnbJ7EGUGzHf4cf2xg6
+
+### Folder: ./.local/state/workflow-logs/CTokPk90vHDjO1Zi5Nj1h
+
+### Folder: ./.local/state/workflow-logs/cx-Kt7Z1okOtL5jQbt3Qe
+
+### Folder: ./.local/state/workflow-logs/7C808-Gx4GcwIiRZsadtK
+
+### Folder: ./.local/state/workflow-logs/lZXoeOTpEm1nNUBVGFEd7
+
+### Folder: ./.local/state/workflow-logs/fkF3f9uzyruzSjFkzlWJG
 
 ### Folder: ./.local/skills
 
@@ -1369,8 +1369,8 @@ Generated: 2026-04-05 16:34:51.892884+00:00
 - auto_wire.py
 - db.py
 - ai_logic.py
-- file_generator.py
 - ui_components.py
+- file_generator.py
 
 ### Folder: ./logs
 
@@ -3987,11 +3987,10 @@ import re
 import json
 import time
 import shutil
-import traceback  # add at top if not already
+import traceback
 from engine.ui_components import COMPONENTS
 
-# These are checker debugs
-print("🔥 DEBUG: DeveloperAgent LOADED v4")
+print("🔥 DEBUG: DeveloperAgent LOADED v5 - Full Logic Restored")
 
 
 class DeveloperAgent(AgentBase):
@@ -3999,59 +3998,44 @@ class DeveloperAgent(AgentBase):
         super().__init__("Developer Agent")
 
     def extract_project_name(self, idea):
-        # If idea is dictionary (new CEO agent format)
         if isinstance(idea, dict):
             name = idea.get("name", "startup")
-
-            # create slug
             slug = re.sub(r"[^a-zA-Z0-9]+", "-", name.lower()).strip("-")
-
-            # limit length for GitHub repo safety
-            slug = slug[:25]
-
-            return f"{slug}-{int(time.time()) % 100000}"
-
-        # If idea is text (older format)
-        for line in idea.splitlines():
+            return f"{slug[:25]}-{int(time.time()) % 100000}"
+        for line in str(idea).splitlines():
             if "name" in line.lower():
                 words = re.findall(r"[A-Za-z0-9_-]+", line)
-
                 if len(words) >= 2:
                     return words[1].lower()
-
-        words = re.findall(r"[A-Za-z]+", idea)
-
-        if words:
-            return words[0].lower()
-
-        return "startup"
+        words = re.findall(r"[A-Za-z]+", str(idea))
+        return words[0].lower() if words else "startup"
 
     def detect_dependencies(self, code):
         deps = set()
-
-        if "flask_sqlalchemy" in code.lower():
+        low_code = code.lower()
+        if "flask_sqlalchemy" in low_code:
             deps.add("Flask-SQLAlchemy==3.0.5")
-
-        if "flask_login" in code.lower():
+        if "flask_login" in low_code:
             deps.add("Flask-Login==0.6.3")
-
-        if "requests" in code:
+        if "requests" in low_code:
             deps.add("requests==2.31.0")
-
-        if "pandas" in code:
+        if "pandas" in low_code:
             deps.add("pandas==2.2.2")
-
         return deps
 
     def validate_backend_structure(self, project_dir):
         services_dir = os.path.join(project_dir, "services")
         routes_dir = os.path.join(project_dir, "routes")
-
         if not os.path.exists(services_dir) or not os.path.exists(routes_dir):
-            print("[Developer Agent] Missing backend folders")
             return False
+        for file in os.listdir(routes_dir):
+            if file.endswith("_routes.py"):
+                svc = file.replace("_routes.py", "_service.py")
+                if not os.path.exists(os.path.join(services_dir, svc)):
+                    return False
+        return True
 
-
+    def cop
 ```
 
 ### ./dashboard/__init__.py
@@ -4356,6 +4340,44 @@ def generate_service_logic(module_name, idea):
             re
 ```
 
+### ./engine/ui_components.py
+
+```python
+# engine/ui_components.py
+
+COMPONENTS = {
+    "navbar": """
+    <nav class="fixed w-full z-50 bg-white bg-opacity-90 backdrop-blur-md border-b border-gray-100">
+      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="text-2xl font-bold text-primary">{product_name}</div>
+        <div class="hidden md:flex space-x-8 text-gray-600 font-medium">
+          <a href="#features" class="hover:text-primary transition">Features</a>
+          <a href="#how-it-works" class="hover:text-primary transition">Solutions</a>
+          <a href="/login" class="hover:text-primary transition">Sign In</a>
+        </div>
+        <a href="/signup" class="bg-primary text-white px-6 py-2 rounded-custom font-bold hover:opacity-90 transition">Get Started</a>
+      </div>
+    </nav>
+    """,
+    "hero": """
+    <section class="relative pt-32 pb-20 overflow-hidden bg-app">
+      <div class="container mx-auto px-6 relative z-10">
+        <div class="flex flex-wrap items-center">
+          <div class="w-full lg:w-1/2 mb-12 lg:mb-0">
+            <span class="inline-block py-1 px-3 mb-4 text-xs font-semibold text-primary bg-blue-50 rounded-full uppercase tracking-widest">v1.0 Launch</span>
+            <h1 class="text-5xl lg:text-6xl font-bold mb-6 text-gray-900 leading-tight">{product_name}</h1>
+            <p class="text-xl text-gray-600 mb-8 leading-relaxed">{product_description}</p>
+            <div class="flex flex-wrap gap-4">
+              <a href="/signup" class="bg-primary text-white px-8 py-4 rounded-custom font-bold hover:opacity-90 transition shadow-lg shadow-blue-200">Start Building Now</a>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-4">
+             <div class="rounded-3xl overflow-hidden shadow-2xl border-8 border-white transform lg:rotate-3">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Dashboard Preview">
+             </div>
+     
+```
+
 ### ./engine/file_generator.py
 
 ```python
@@ -4431,44 +4453,6 @@ class {safe_name.capitalize()}Model:
         from engine.ai_logic 
 ```
 
-### ./engine/ui_components.py
-
-```python
-# engine/ui_components.py
-
-COMPONENTS = {
-    "navbar": """
-    <nav class="fixed w-full z-50 bg-white bg-opacity-90 backdrop-blur-md border-b border-gray-100">
-      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div class="text-2xl font-bold text-primary">{product_name}</div>
-        <div class="hidden md:flex space-x-8 text-gray-600 font-medium">
-          <a href="#features" class="hover:text-primary transition">Features</a>
-          <a href="#how-it-works" class="hover:text-primary transition">Solutions</a>
-          <a href="/login" class="hover:text-primary transition">Sign In</a>
-        </div>
-        <a href="/signup" class="bg-primary text-white px-6 py-2 rounded-custom font-bold hover:opacity-90 transition">Get Started</a>
-      </div>
-    </nav>
-    """,
-    "hero": """
-    <section class="relative pt-32 pb-20 overflow-hidden bg-app">
-      <div class="container mx-auto px-6 relative z-10">
-        <div class="flex flex-wrap items-center">
-          <div class="w-full lg:w-1/2 mb-12 lg:mb-0">
-            <span class="inline-block py-1 px-3 mb-4 text-xs font-semibold text-primary bg-blue-50 rounded-full uppercase tracking-widest">v1.0 Launch</span>
-            <h1 class="text-5xl lg:text-6xl font-bold mb-6 text-gray-900 leading-tight">{product_name}</h1>
-            <p class="text-xl text-gray-600 mb-8 leading-relaxed">{product_description}</p>
-            <div class="flex flex-wrap gap-4">
-              <a href="/signup" class="bg-primary text-white px-8 py-4 rounded-custom font-bold hover:opacity-90 transition shadow-lg shadow-blue-200">Start Building Now</a>
-            </div>
-          </div>
-          <div class="w-full lg:w-1/2 px-4">
-             <div class="rounded-3xl overflow-hidden shadow-2xl border-8 border-white transform lg:rotate-3">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Dashboard Preview">
-             </div>
-     
-```
-
 ### ./orchestrator/__init__.py
 
 ```python
@@ -4489,13 +4473,16 @@ from agents.finance_agent import FinanceAgent
 from agents.github_agent import GitHubAgent
 from tools.memory import add_entry
 from tools.product_loop import ProductLoop
+import signal
 import subprocess
 import os
 import re
+import sys
+
 from tools.code_runner import run_app
 
 # These are checker debugs
-print("🔥 DEBUG: Orchestrator LOADED v9")
+print("🔥 DEBUG: Orchestrator LOADED v11")
 
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
@@ -4530,15 +4517,14 @@ class Orchestrator:
 
         print("STEP 2: Before Product Agent")
         product = self.safe_run("Product Agent", self.product.define_product, idea)
-        print("STEP 3: After Product Agent")
 
-        print("STEP 4: Before CTO Agent")
-        arch = self.safe_run(
-            "CTO Agent",
-            self.cto.design_architecture,
-            {"idea": idea, "product": product},
-        )
-        # 🔥 CRITICAL: Ensure arch has the 
+        # 🔥 CRITICAL FIX: Ensure product is NEVER None
+        if not product or not isinstance(product, dict):
+            print("⚠️ Product Agent failed → using fallback")
+
+            product = {
+                "name": idea.get("name", "Startup")
+      
 ```
 
 ### ./saas_master_template/app.py

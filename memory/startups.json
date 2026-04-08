@@ -813,5 +813,269 @@
         ]
       }
     }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-96145",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:34459",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-97184",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:59589",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-99871",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:53339",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-1971",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:42061",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-3613",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:53067",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-4144",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:35321",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-6257",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:45633",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-6889",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:58279",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-2813",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "app_started",
+      "message": "App running at http://127.0.0.1:37305",
+      "db": {
+        "status": "success",
+        "tables": [
+          [
+            "items"
+          ],
+          [
+            "sqlite_sequence"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-7228",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-7472",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-57458",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-63150",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-71315",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-72762",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
   }
 ]

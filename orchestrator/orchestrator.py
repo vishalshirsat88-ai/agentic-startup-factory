@@ -9,13 +9,16 @@ from agents.finance_agent import FinanceAgent
 from agents.github_agent import GitHubAgent
 from tools.memory import add_entry
 from tools.product_loop import ProductLoop
+import signal
 import subprocess
 import os
 import re
+import sys
+
 from tools.code_runner import run_app
 
 # These are checker debugs
-print("🔥 DEBUG: Orchestrator LOADED v7")
+print("🔥 DEBUG: Orchestrator LOADED v11")
 
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
@@ -50,6 +53,20 @@ class Orchestrator:
 
         print("STEP 2: Before Product Agent")
         product = self.safe_run("Product Agent", self.product.define_product, idea)
+
+        # 🔥 CRITICAL FIX: Ensure product is NEVER None
+        if not product or not isinstance(product, dict):
+            print("⚠️ Product Agent failed → using fallback")
+
+            product = {
+                "name": idea.get("name", "Startup")
+                if isinstance(idea, dict)
+                else "Startup",
+                "description": idea.get("description", "Auto-generated"),
+                "design_tokens": {},
+                "marketing_copy": {},
+                "modules": [],
+            }
         print("STEP 3: After Product Agent")
 
         print("STEP 4: Before CTO Agent")
@@ -58,7 +75,11 @@ class Orchestrator:
             self.cto.design_architecture,
             {"idea": idea, "product": product},
         )
+        # 🔥 CRITICAL: Ensure arch has the full product context for the Developer
+        if arch and isinstance(arch, dict):
+            arch["product"] = product
         print("STEP 5: After CTO Agent")
+        # 🔥 CRITICAL: Bridge the Product Agent tokens into the Architecture for the Developer
 
         print("STEP 6: Before Developer Agent")
         print("\n[Developer Agent] starting...")
@@ -165,8 +186,42 @@ Current code:
 
             if success:
                 print("[DEV LOOP] Application started successfully")
-                # 🧠 PRODUCT INTELLIGENCE LAYER (NEW)
+
                 build_success = True
+
+                print("🚀 SWITCHING TO GENERATED APP...")
+
+                # --- START AUTO-DETECT LOGIC ---
+                possible_files = ["app.py", "main.py", "server.py", "run.py"]
+                app_path = None
+
+                # 1. Try preferred filenames first
+                for f in possible_files:
+                    path = os.path.join(project_path, f)
+                    if os.path.exists(path):
+                        app_path = path
+                        break
+
+                # 2. Fallback: If no preferred file, find any .py file in the root
+                if not app_path:
+                    all_py_files = [
+                        f for f in os.listdir(project_path) if f.endswith(".py")
+                    ]
+                    if all_py_files:
+                        app_path = os.path.join(project_path, all_py_files[0])
+
+                if app_path:
+                    import sys
+
+                    print(f"🚀 [AUTO-DETECT] Running entry point: {app_path}")
+
+                    os.environ["PORT"] = "3000"
+
+                    os.execv(sys.executable, [sys.executable, app_path])
+                else:
+                    print(f"❌ ERROR: No runnable python files found in {project_path}")
+                # --- END AUTO-DETECT LOGIC ---
+
                 break
 
             print("[DEV LOOP] Error detected:")

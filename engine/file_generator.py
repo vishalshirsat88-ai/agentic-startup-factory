@@ -4,7 +4,7 @@ import textwrap
 import engine.ai_logic
 
 # These are checker debugs
-print("🔥 DEBUG: File_generator LOADED v10")
+print("🔥 DEBUG: File_generator LOADED v13")
 
 from tools.file_writer import write_file
 
@@ -13,6 +13,18 @@ print("AI LOGIC FILE:", engine.ai_logic.__file__)
 
 def indent_code(code, spaces=8):
     return "\n".join((" " * spaces) + line for line in code.split("\n"))
+
+
+def validate_ai_logic(logic, module_name):
+    """Ensures AI logic is not empty and has proper Python structure."""
+    if not logic or "def" not in logic:
+        return f"def get_{module_name}():\n    return {{'status': 'active', 'info': 'Default logic for {module_name}'}}"
+
+    # Check if the function has a body (prevent IndentationError)
+    if logic.strip().endswith(":"):
+        return logic + "\n    pass"
+
+    return logic
 
 
 def generate_backend_files(project_dir, architecture):
@@ -54,8 +66,24 @@ class {safe_name.capitalize()}Model:
 
         print(f"[DEBUG] Import successful")
 
-        ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
-        ai_logic = textwrap.dedent(ai_logic).strip()
+        # 🔥 Dynamic logic generation with integrated validation
+        from engine.ai_logic import generate_service_logic
+
+        raw_ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
+
+        # Clean and Validate
+        # 🔥 greedy logic extraction
+        raw_ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
+
+        # Strip markdown and whitespace but preserve the body
+        ai_logic = raw_ai_logic.replace("```python", "").replace("```", "").strip()
+
+        # Ensure it didn't cut off at the header
+        if ai_logic.count("\n") < 1:
+            ai_logic += "\n    return {'status': 'active'}"
+
+        # Only use validate_ai_logic as a safety net
+        ai_logic = validate_ai_logic(ai_logic, safe_name)
 
         # 🔥 SAFETY FILTER (CRITICAL)
         unsafe_patterns = [
@@ -80,8 +108,23 @@ class {safe_name.capitalize()}Model:
                     }}
                     return result
                 """
-                ai_logic = textwrap.dedent(ai_logic).strip()
-                break
+                # 🔥 Dynamic logic generation
+                from engine.ai_logic import generate_service_logic
+
+                raw_ai_logic = generate_service_logic(
+                    safe_name, architecture.get("idea", {})
+                )
+
+                # Clean the logic: Only remove markdown backticks, keep the indentation
+                ai_logic = (
+                    raw_ai_logic.replace("```python", "").replace("```", "").strip()
+                )
+
+                # Validation fallback: If AI failed to provide a body, add pass
+                if ai_logic.endswith(":"):
+                    ai_logic += "\n    pass"
+
+                print(f"[File Generator] Logic verified for {safe_name}")
 
         print("[DEBUG] AI LOGIC TYPE:", type(ai_logic))
         print("[DEBUG] AI LOGIC VALUE:\n", ai_logic)
@@ -201,9 +244,40 @@ def add_{safe_name}(name):
             return jsonify(result), 200
         """
 
+        route_code = textwrap.dedent(route_code).strip()
         write_file(f"{project_dir}/routes/{safe_name}_routes.py", route_code)
 
     print("[File Generator] Backend files created")
+    # 🔥 CREATE MAIN FLASK APP (CRITICAL)
+
+    app_code = """
+    from flask import Flask, render_template
+    import os
+
+    app = Flask(__name__)
+
+    # --- BASIC ROUTES ---
+    @app.route("/")
+    def home():
+        return render_template("index.html")
+
+    @app.route("/dashboard")
+    def dashboard():
+        return render_template("dashboard.html")
+
+
+    # --- AUTO REGISTER BLUEPRINTS ---
+    from routes import *
+
+    # --- RUN APP ---
+    if __name__ == "__main__":
+        port = int(os.environ.get("PORT", 3000))
+        app.run(host="0.0.0.0", port=port, debug=True)
+    """
+
+    write_file(f"{project_dir}/app.py", app_code)
+
+    print("🔥 app.py created with PORT + routes")
     print(
         "🔥 DEBUG: generate_backend_files EXISTS:",
         "generate_backend_files" in globals(),

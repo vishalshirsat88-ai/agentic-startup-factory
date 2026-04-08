@@ -11,10 +11,10 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - ceo_agent
 - deployment_agent
 - github_agent
-- product_agent
 - cto_agent
-- developer_agent
 - qa_agent
+- product_agent
+- developer_agent
 - user_agent
 
 ## Main Folders
@@ -28,26 +28,29 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - .pythonlibs
 - 0
 - 1
-- 1WnHlhJb9vEzGOw_oXBzF
 - 2
 - 3
-- 3_oZZ5sCghah20viCJnaQ
-- 3ysHMfUrXBSLtnkStvSi1
 - 4
 - 5
 - 6
 - 7
+- 7C808-Gx4GcwIiRZsadtK
 - 8
 - 843c1fd5a148da85e523c1b4ee680226f89986aa
+- 8o5t2rN33CS0eUyvADn40
 - 9
-- 9LIeHw5CZQye8RviW4nrm
-- GEoGgsrgiuiXKQbMNrPs9
-- GcL5E-lsMQNTkqr2bYmB2
-- MoI6NFbaEuUbOY3QcuElY
-- PUcdnRisLGsZHKYYzPV1H
-- R0uyjvaq3CvziuEgP4sPC
-- WeFSzrycqnHRKhdThmBAM
-- _BeGapmUB8z5E-4FX6j90
+- CTokPk90vHDjO1Zi5Nj1h
+- GTJdPrMsX19w10R3WHEhZ
+- JwCjLqha9JcxJ2ku6QK66
+- NZFk8a9b4ZG0lOqarIIQ9
+- NlSCLQnsMBGWG-OPHqW9n
+- QRaYbQVd-1tKhnuQoMwqP
+- QohEoLjOD1ZKtl-M7AhKB
+- T9ljwR60uZbBIYvxF6DDp
+- VAK41In9aWXtdEBbuAgnP
+- Vkl-11LEGGt_oXtMvfIFZ
+- ZRd-SMTX152HeEeOpqSC7
+- ZrHnbJ7EGUGzHf4cf2xg6
 - __pycache__
 - _async
 - _backends
@@ -59,7 +62,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - _transports
 - _utils
 - a
-- aRGw_9HEgFUz8M-O3yY2v
+- a6EDd-T_2UWZKDrWheuQ_
 - abc
 - ad-creative
 - agent
@@ -86,7 +89,6 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - automation
 - avatars
 - b
-- bAiRjqrXVI3JABb2nTzu1
 - backends
 - backgrounds
 - bin
@@ -124,10 +126,9 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - cryptography-46.0.5.dist-info
 - css
 - ctl
+- cx-Kt7Z1okOtL5jQbt3Qe
 - cyextension
 - d
-- d-XLkjQC_OYuzrCMwYZJ3
-- da6fW5fsSt05dqmB9FPjR
 - dashboard
 - data
 - data-visualization
@@ -166,9 +167,12 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - file-converter
 - files
 - fixtures
+- fkF3f9uzyruzSjFkzlWJG
 - flashcard-generator
 - flask
 - flask-3.1.3.dist-info
+- flask_cors
+- flask_cors-6.0.2.dist-info
 - flask_sqlalchemy
 - flask_sqlalchemy-3.1.1.dist-info
 - fonts
@@ -211,7 +215,6 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - isotope-layout
 - itsdangerous
 - itsdangerous-2.2.0.dist-info
-- izz4N752Tysp8LbKzVM9V
 - jinja2
 - jinja2-3.1.6.dist-info
 - jquery
@@ -219,7 +222,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - json
 - jwt
 - kdf
-- l_aHMhJI88xOfz3Bwhjoz
+- lZXoeOTpEm1nNUBVGFEd7
 - layouts
 - legal-contract
 - lib
@@ -244,7 +247,6 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - mysql
 - nacl
 - nix
-- o2hHj_0pcL2Pjb7sc8K7v
 - openssl
 - oracle
 - orchestrator
@@ -286,7 +288,6 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - pynacl-1.6.2.dist-info
 - python3.12
 - python_dotenv-1.2.2.dist-info
-- qEZG8S9cQ3Yw1cQkFvqnr
 - query-integration-data
 - react-vite
 - real-estate-analyzer
@@ -371,6 +372,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - vendored
 - video
 - video-js
+- wdCFWCEEY1tJq26H8mVsW
 - web-search
 - website-cloning
 - werkzeug
@@ -379,9 +381,9 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - workflow-logs
 - workflows
 - wrappers
-- x1-FWDMOJ67kWcHW1YKw-
 - x509
+- zJmCk0pPfos7bW5IxiSDp
 
 ## Generated
 
-2026-04-05 12:10:18.292838+00:00
+2026-04-07 14:39:44.868528+00:00
