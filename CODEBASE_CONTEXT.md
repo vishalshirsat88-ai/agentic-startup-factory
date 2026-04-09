@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-07 14:39:44.631962+00:00
+Generated: 2026-04-09 15:21:57.700444+00:00
 
 ## Project Structure
 
@@ -933,45 +933,45 @@ Generated: 2026-04-07 14:39:44.631962+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/a6EDd-T_2UWZKDrWheuQ_
-
-### Folder: ./.local/state/workflow-logs/QohEoLjOD1ZKtl-M7AhKB
-
-### Folder: ./.local/state/workflow-logs/8o5t2rN33CS0eUyvADn40
-
-### Folder: ./.local/state/workflow-logs/GTJdPrMsX19w10R3WHEhZ
-
-### Folder: ./.local/state/workflow-logs/VAK41In9aWXtdEBbuAgnP
-
-### Folder: ./.local/state/workflow-logs/ZRd-SMTX152HeEeOpqSC7
-
-### Folder: ./.local/state/workflow-logs/wdCFWCEEY1tJq26H8mVsW
-
-### Folder: ./.local/state/workflow-logs/T9ljwR60uZbBIYvxF6DDp
-
-### Folder: ./.local/state/workflow-logs/JwCjLqha9JcxJ2ku6QK66
-
-### Folder: ./.local/state/workflow-logs/NZFk8a9b4ZG0lOqarIIQ9
-
-### Folder: ./.local/state/workflow-logs/NlSCLQnsMBGWG-OPHqW9n
-
-### Folder: ./.local/state/workflow-logs/Vkl-11LEGGt_oXtMvfIFZ
-
-### Folder: ./.local/state/workflow-logs/QRaYbQVd-1tKhnuQoMwqP
-
-### Folder: ./.local/state/workflow-logs/zJmCk0pPfos7bW5IxiSDp
-
-### Folder: ./.local/state/workflow-logs/ZrHnbJ7EGUGzHf4cf2xg6
-
-### Folder: ./.local/state/workflow-logs/CTokPk90vHDjO1Zi5Nj1h
-
-### Folder: ./.local/state/workflow-logs/cx-Kt7Z1okOtL5jQbt3Qe
-
-### Folder: ./.local/state/workflow-logs/7C808-Gx4GcwIiRZsadtK
-
 ### Folder: ./.local/state/workflow-logs/lZXoeOTpEm1nNUBVGFEd7
 
 ### Folder: ./.local/state/workflow-logs/fkF3f9uzyruzSjFkzlWJG
+
+### Folder: ./.local/state/workflow-logs/cKa5Cpz4CqDjkE2mdgQ6N
+
+### Folder: ./.local/state/workflow-logs/sDkF8VorQnrSbwqX5fIWj
+
+### Folder: ./.local/state/workflow-logs/jh_7dgaVU6YE7brQxc3SX
+
+### Folder: ./.local/state/workflow-logs/PNcaLUH-XgTuL_8ObiK1G
+
+### Folder: ./.local/state/workflow-logs/dLGUvckiFXRiU_uWt1utl
+
+### Folder: ./.local/state/workflow-logs/D1VzeutfmTZNv5yfRwob0
+
+### Folder: ./.local/state/workflow-logs/ibFtxdeN-mQr3FmYVtTPo
+
+### Folder: ./.local/state/workflow-logs/ZfqKZKBDnJgpeEqQrwhc3
+
+### Folder: ./.local/state/workflow-logs/zmknTGKoIbtL1UU4gagQy
+
+### Folder: ./.local/state/workflow-logs/cGjMxlqzvsqAQ6Ombkfla
+
+### Folder: ./.local/state/workflow-logs/cYKmVQv-4x48s3cpgMQUY
+
+### Folder: ./.local/state/workflow-logs/ZecNoCNsZ4mvLB-9qKlLd
+
+### Folder: ./.local/state/workflow-logs/ZG0vksZsF9BJQqMyzA7U0
+
+### Folder: ./.local/state/workflow-logs/haOAG_NCGBdNfOJEWmDHs
+
+### Folder: ./.local/state/workflow-logs/smxiCKuariQ7k6WLJOifb
+
+### Folder: ./.local/state/workflow-logs/gFmlzkKENTRtr7Ze1eqLf
+
+### Folder: ./.local/state/workflow-logs/9XHsicv9yBaRwiofh-hFq
+
+### Folder: ./.local/state/workflow-logs/GXcGaB_y-E9kQaTYhqpkM
 
 ### Folder: ./.local/skills
 
@@ -1369,8 +1369,8 @@ Generated: 2026-04-07 14:39:44.631962+00:00
 - auto_wire.py
 - db.py
 - ai_logic.py
-- ui_components.py
 - file_generator.py
+- ui_components.py
 
 ### Folder: ./logs
 
@@ -3927,14 +3927,22 @@ class ProductAgent(AgentBase):
     def define_product(self, idea):
         # These are checker debugs
         print("🚀 DEBUG: ProductAgent EXECUTED v1")
+        # --- [REPLACE PROMPT BLOCK START] ---
         prompt = f"""
-        You are a Product Manager & Design Architect.
+        You are a Senior Product Architect & Vibe-Coder.
 
-        Convert this startup idea into a structured product definition, Visual Design System, and Landing Page Copy.
+        TASK: Convert this idea into a structured product definition and a 'Lovable' Visual Design System.
 
-        Startup Idea:
-        {idea}
+        Startup Idea: {idea}
 
+        PHASE 1: DESIGN EVALUATION (Mandatory Internal Monologue)
+        Before generating JSON, provide a 3-sentence critique:
+        1. Rating: Grade the idea clarity (A-F).
+        2. Premium Vibe: Identify what specific 'Glassmorphism' or 'Glow' elements are needed.
+        3. Generic Risk: What standard 'cheap' design patterns must we avoid?
+        4. CRITICAL: Always provide at least 4 unique modules in the "modules" list to ensure a rich dashboard layout.
+
+        PHASE 2: DEFINITION
         Return ONLY JSON:
         {{
           "name": "product name",
@@ -3942,38 +3950,25 @@ class ProductAgent(AgentBase):
           "design_tokens": {{
             "colors": {{
               "primary": "#HEX",
-              "secondary": "#HEX",
-              "accent": "#HEX",
-              "background": "#HEX"
+              "background": "#030712",
+              "surface": "rgba(255,255,255,0.03)",
+              "accent": "#HEX"
             }},
             "typography": {{
-              "heading_font": "Inter | Playfair Display | Roboto",
-              "body_font": "Inter | Open Sans"
+              "heading_font": "Inter | Playfair Display",
+              "body_font": "Inter"
             }},
-            "vibe": "minimalist | bold | playful | professional",
-            "border_radius": "none | sm | md | lg | full"
+            "vibe": "Cyber-Premium | Minimalist-Glass",
+            "animations": "framer-motion-standard",
+            "component_style": "shadcn-inspired"
           }},
           "marketing_copy": {{
-            "hero_title": "Catchy 5-word headline",
-            "hero_subtitle": "Persuasive 15-word subheadline",
-            "cta_text": "Get Started Now",
-            "pricing": [
-                {{"plan": "Starter", "price": "$0", "features": ["Feature A", "Feature B"]}},
-                {{"plan": "Pro", "price": "$49", "features": ["Unlimited access", "Priority support"]}}
-            ]
+            "hero_title": "...",
+            "hero_subtitle": "...",
+            "cta_text": "..."
           }},
-          "modules": [
-            {{
-              "name": "module_name",
-              "description": "what this module does",
-              "features": ["feature1", "feature2"]
-            }}
-          ],
-          "user_flows": ["flow1", "flow2"]
-        }}
-
-        Rules:
-        1. Choose colors that match the startup categor
+          "modules": [ ... ],
+          "scores": {{ "clarity": "A"
 ```
 
 ### ./agents/developer_agent.py
@@ -4340,44 +4335,6 @@ def generate_service_logic(module_name, idea):
             re
 ```
 
-### ./engine/ui_components.py
-
-```python
-# engine/ui_components.py
-
-COMPONENTS = {
-    "navbar": """
-    <nav class="fixed w-full z-50 bg-white bg-opacity-90 backdrop-blur-md border-b border-gray-100">
-      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div class="text-2xl font-bold text-primary">{product_name}</div>
-        <div class="hidden md:flex space-x-8 text-gray-600 font-medium">
-          <a href="#features" class="hover:text-primary transition">Features</a>
-          <a href="#how-it-works" class="hover:text-primary transition">Solutions</a>
-          <a href="/login" class="hover:text-primary transition">Sign In</a>
-        </div>
-        <a href="/signup" class="bg-primary text-white px-6 py-2 rounded-custom font-bold hover:opacity-90 transition">Get Started</a>
-      </div>
-    </nav>
-    """,
-    "hero": """
-    <section class="relative pt-32 pb-20 overflow-hidden bg-app">
-      <div class="container mx-auto px-6 relative z-10">
-        <div class="flex flex-wrap items-center">
-          <div class="w-full lg:w-1/2 mb-12 lg:mb-0">
-            <span class="inline-block py-1 px-3 mb-4 text-xs font-semibold text-primary bg-blue-50 rounded-full uppercase tracking-widest">v1.0 Launch</span>
-            <h1 class="text-5xl lg:text-6xl font-bold mb-6 text-gray-900 leading-tight">{product_name}</h1>
-            <p class="text-xl text-gray-600 mb-8 leading-relaxed">{product_description}</p>
-            <div class="flex flex-wrap gap-4">
-              <a href="/signup" class="bg-primary text-white px-8 py-4 rounded-custom font-bold hover:opacity-90 transition shadow-lg shadow-blue-200">Start Building Now</a>
-            </div>
-          </div>
-          <div class="w-full lg:w-1/2 px-4">
-             <div class="rounded-3xl overflow-hidden shadow-2xl border-8 border-white transform lg:rotate-3">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Dashboard Preview">
-             </div>
-     
-```
-
 ### ./engine/file_generator.py
 
 ```python
@@ -4453,6 +4410,50 @@ class {safe_name.capitalize()}Model:
         from engine.ai_logic 
 ```
 
+### ./engine/ui_components.py
+
+```python
+# engine/ui_components.py
+
+COMPONENTS = {
+    # --- [REPLACE NAVBAR] ---
+    "navbar": """
+    <nav class="fixed w-full z-50 border-b border-white/5 bg-[#030014]/50 backdrop-blur-xl">
+      <div class="container mx-auto px-8 py-5 flex justify-between items-center">
+        <div class="text-2xl font-black tracking-tighter text-white uppercase italic">{product_name}</div>
+        <div class="hidden md:flex space-x-10 text-sm font-medium text-gray-400">
+          <a href="#" class="hover:text-white transition">Platform</a>
+          <a href="#" class="hover:text-white transition">Solutions</a>
+          <a href="/login" class="hover:text-white transition">Sign In</a>
+        </div>
+        <a href="/signup" class="bg-white text-black px-6 py-2.5 rounded-full font-bold text-sm hover:bg-gray-200 transition shadow-xl shadow-blue-500/10">Start Building</a>
+      </div>
+    </nav>
+    """,
+    # --- [REPLACE Line 34 approx] ---
+    "hero": """
+    <section class="relative pt-48 pb-32 text-center" data-aos="zoom-out-up">
+      <div class="container mx-auto px-6">
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-10 tracking-widest uppercase animate-pulse">
+            <span>Live System Active</span>
+        </div>
+        <h1 class="text-7xl md:text-9xl font-black tracking-tighter mb-8 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/40 leading-none hero-glow">
+          {product_name}
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
+          {hero_subtitle}
+        </p>
+        <a href="/signup" class="bg-blue-600 hover:bg-blue-500 text-white px-12 py-5 rounded-2xl font-bold text-lg transition-all shadow-[0_0_40px_rgba(37,99,235,0.3)] inline-block">
+          {cta_text}
+        </a>
+      </div>
+    </section>
+    """,
+    # --- [REPLACE features] ---
+    "features": """
+    <section 
+```
+
 ### ./orchestrator/__init__.py
 
 ```python
@@ -4478,6 +4479,7 @@ import subprocess
 import os
 import re
 import sys
+import time
 
 from tools.code_runner import run_app
 
@@ -4502,29 +4504,27 @@ class Orchestrator:
     # 1. Add 'idea_id=None' here. Keep your 'idea' name exactly as is.
 
     def run_startup_cycle(self, idea, idea_id=None):  # New
+        # --- ADD THIS HERE ---
+        print("🧹 Smart Cleanup on Port 5009...")
+        import os, subprocess, time
+
+        # 1. Kill anything specifically on port 5009
+        os.system("fuser -k 5009/tcp > /dev/null 2>&1")
+
+        # 2. Kill old app processes but NOT this orchestrator
+        # We look for 'app.py' specifically to avoid killing ourselves
+        os.system("pkill -9 -f 'python.*app.py' > /dev/null 2>&1")
+
+        time.sleep(2)
+        print("🔥 Port 5009 Ready.")  # Essential pause for OS to release the socket
+        # ----------------------
+
         # These are checker debugs
         print("🚀 DEBUG: run_startup_cycle EXECUTED v1")
 
         print("ORCHESTRATOR RECEIVED IDEA:", idea)
         print("\n==============================")
-        print("🚀 STARTUP GENERATION STARTED")
-        print("==============================")
-
-        print(idea)
-        print("[Product Agent] defining product features...")
-
-        print("STEP 1: Entered run_startup_cycle")
-
-        print("STEP 2: Before Product Agent")
-        product = self.safe_run("Product Agent", self.product.define_product, idea)
-
-        # 🔥 CRITICAL FIX: Ensure product is NEVER None
-        if not product or not isinstance(product, dict):
-            print("⚠️ Product Agent failed → using fallback")
-
-            product = {
-                "name": idea.get("name", "Startup")
-      
+        print("🚀 STARTUP GENERATION S
 ```
 
 ### ./saas_master_template/app.py

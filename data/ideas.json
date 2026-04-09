@@ -874,5 +874,98 @@
     "score": 6,
     "status": "approved",
     "processed": true
+  },
+  {
+    "id": 64,
+    "idea": {
+      "name": "EchoVitalisX",
+      "description": "AI-powered virtual event planner that creates immersive experiences for businesses and individuals.",
+      "market": "Event planners, businesses, and individuals",
+      "revenue_model": "Subscription-based model with revenue generated from event planning services and commission-based ticket sales"
+    },
+    "name": "EchoVitalisX",
+    "description": "AI-powered virtual event planner that creates immersive experiences for businesses and individuals.",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 65,
+    "idea": {
+      "name": "EchoVitalisX3",
+      "description": "AI-powered virtual event planning and management platform",
+      "market": "Event planners, conference organizers, and corporate event teams",
+      "revenue_model": "Subscription-based service fees and commission on event bookings"
+    },
+    "name": "EchoVitalisX3",
+    "description": "AI-powered virtual event planning and management platform",
+    "score": 5,
+    "status": "pending"
+  },
+  {
+    "id": 66,
+    "idea": {
+      "name": "EchoGuardian",
+      "description": "AI-powered smart home security system that learns and adapts to the user's behavior and preferences",
+      "market": "Homeowners and renters aged 25-55",
+      "revenue_model": "Subscription-based service with additional revenue from security monitoring and alert services"
+    },
+    "name": "EchoGuardian",
+    "description": "AI-powered smart home security system that learns and adapts to the user's behavior and preferences",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 67,
+    "idea": {
+      "name": "EchoHabitat",
+      "description": "AI-powered virtual reality home design and decoration platform",
+      "market": "Homeowners, Interior designers, and Architects",
+      "revenue_model": "Subscription-based service, Commission on sales of virtual furniture and decor"
+    },
+    "name": "EchoHabitat",
+    "description": "AI-powered virtual reality home design and decoration platform",
+    "score": 5,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 68,
+    "idea": {
+      "name": "EchoPlexa",
+      "description": "AI-powered 3D virtual event planner",
+      "market": "Event planners, venues, and customers",
+      "revenue_model": "Commission-based booking fees"
+    },
+    "name": "EchoPlexa",
+    "description": "AI-powered 3D virtual event planner",
+    "score": 6,
+    "status": "pending"
+  },
+  {
+    "id": 69,
+    "idea": {
+      "name": "EchoVista",
+      "description": "AI-powered interior design and home decor visualizer",
+      "market": "Homeowners and interior designers",
+      "revenue_model": "Subscription-based, with premium features and commission on sales"
+    },
+    "name": "EchoVista",
+    "description": "AI-powered interior design and home decor visualizer",
+    "score": 6,
+    "status": "approved",
+    "processed": true
+  },
+  {
+    "id": 70,
+    "idea": {
+      "name": "EchoMentora",
+      "description": "AI-powered mentorship platform for underserved communities",
+      "market": "Non-profit organizations, community centers, and local governments",
+      "revenue_model": "Subscription-based model with additional revenue from grants and partnerships"
+    },
+    "name": "EchoMentora",
+    "description": "AI-powered mentorship platform for underserved communities",
+    "score": 5,
+    "status": "pending"
   }
 ]

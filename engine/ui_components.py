@@ -1,107 +1,97 @@
 # engine/ui_components.py
 
 COMPONENTS = {
+    # --- [REPLACE NAVBAR] ---
     "navbar": """
-    <nav class="fixed w-full z-50 bg-white bg-opacity-90 backdrop-blur-md border-b border-gray-100">
-      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div class="text-2xl font-bold text-primary">{product_name}</div>
-        <div class="hidden md:flex space-x-8 text-gray-600 font-medium">
-          <a href="#features" class="hover:text-primary transition">Features</a>
-          <a href="#how-it-works" class="hover:text-primary transition">Solutions</a>
-          <a href="/login" class="hover:text-primary transition">Sign In</a>
+    <nav class="fixed w-full z-50 border-b border-white/5 bg-[#030014]/50 backdrop-blur-xl">
+      <div class="container mx-auto px-8 py-5 flex justify-between items-center">
+        <div class="text-2xl font-black tracking-tighter text-white uppercase italic">{product_name}</div>
+        <div class="hidden md:flex space-x-10 text-sm font-medium text-gray-400">
+          <a href="#" class="hover:text-white transition">Platform</a>
+          <a href="#" class="hover:text-white transition">Solutions</a>
+          <a href="/login" class="hover:text-white transition">Sign In</a>
         </div>
-        <a href="/signup" class="bg-primary text-white px-6 py-2 rounded-custom font-bold hover:opacity-90 transition">Get Started</a>
+        <a href="/signup" class="bg-white text-black px-6 py-2.5 rounded-full font-bold text-sm hover:bg-gray-200 transition shadow-xl shadow-blue-500/10">Start Building</a>
       </div>
     </nav>
     """,
+    # --- [REPLACE Line 34 approx] ---
     "hero": """
-    <section class="relative pt-32 pb-20 overflow-hidden bg-app">
-      <div class="container mx-auto px-6 relative z-10">
-        <div class="flex flex-wrap items-center">
-          <div class="w-full lg:w-1/2 mb-12 lg:mb-0">
-            <span class="inline-block py-1 px-3 mb-4 text-xs font-semibold text-primary bg-blue-50 rounded-full uppercase tracking-widest">v1.0 Launch</span>
-            <h1 class="text-5xl lg:text-6xl font-bold mb-6 text-gray-900 leading-tight">{product_name}</h1>
-            <p class="text-xl text-gray-600 mb-8 leading-relaxed">{product_description}</p>
-            <div class="flex flex-wrap gap-4">
-              <a href="/signup" class="bg-primary text-white px-8 py-4 rounded-custom font-bold hover:opacity-90 transition shadow-lg shadow-blue-200">Start Building Now</a>
-            </div>
-          </div>
-          <div class="w-full lg:w-1/2 px-4">
-             <div class="rounded-3xl overflow-hidden shadow-2xl border-8 border-white transform lg:rotate-3">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Dashboard Preview">
-             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    """,
-    "features": """
-    <section id="features" class="py-24 bg-white">
+    <section class="relative pt-48 pb-32 text-center" data-aos="zoom-out-up">
       <div class="container mx-auto px-6">
-        <div class="text-center max-w-2xl mx-auto mb-16">
-          <h2 class="text-3xl font-bold mb-4 text-gray-900">Everything you need</h2>
-          <p class="text-gray-600">Built for scale, designed for speed.</p>
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-10 tracking-widest uppercase animate-pulse">
+            <span>Live System Active</span>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-          {feature_items}
-        </div>
+        <h1 class="text-7xl md:text-9xl font-black tracking-tighter mb-8 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/40 leading-none hero-glow">
+          {product_name}
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
+          {hero_subtitle}
+        </p>
+        <a href="/signup" class="bg-blue-600 hover:bg-blue-500 text-white px-12 py-5 rounded-2xl font-bold text-lg transition-all shadow-[0_0_40px_rgba(37,99,235,0.3)] inline-block">
+          {cta_text}
+        </a>
       </div>
     </section>
     """,
+    # --- [REPLACE features] ---
+    "features": """
+    <section id="features" class="py-24 bg-transparent">
+      <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">{feature_items}</div>
+      </div>
+    </section>
+    """,
+    # --- [REPLACE feature_item] ---
     "feature_item": """
-    <div class="p-8 border border-gray-100 rounded-2xl hover:border-primary transition group">
-      <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mb-6 text-primary">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+    <div class="p-10 glass-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="w-14 h-14 bg-blue-500/10 rounded-2xl flex items-center justify-center mb-8 text-blue-400 border border-blue-500/20 group-hover:scale-110 transition-transform">
+        <i data-lucide="shield-check"></i>
       </div>
-      <h3 class="text-xl font-bold mb-3">{title}</h3>
-      <p class="text-gray-600">{description}</p>
+      <h3 class="text-2xl font-bold mb-4 text-white tracking-tight">{title}</h3>
+      <p class="text-gray-400 text-lg leading-relaxed font-light">{description}</p>
     </div>
     """,
+    # --- [REPLACE cta_section] ---
     "cta_section": """
-  <section class="py-20 bg-primary">
-    <div class="container mx-auto px-6 text-center">
-      <h2 class="text-4xl font-bold mb-8 text-white">Ready to transform your workflow?</h2>
-      <p class="text-blue-100 mb-10 text-xl max-w-2xl mx-auto">Join hundreds of teams using {product_name} to scale their operations.</p>
-      <a href="/signup" class="bg-white text-primary px-10 py-4 rounded-custom font-bold hover:bg-gray-100 transition shadow-xl">Get Started for Free</a>
-    </div>
-  </section>
-  """,
+    <section class="py-20 bg-[#030712] relative">
+      <div class="absolute inset-0 bg-primary/5 blur-[120px] rounded-full"></div>
+      <div class="container mx-auto px-6 text-center relative z-10">
+        <h2 class="text-4xl md:text-6xl font-black mb-8 text-white tracking-tighter italic">Ready to transform?</h2>
+        <p class="text-gray-400 mb-10 text-xl max-w-2xl mx-auto italic">{product_name} is the last tool you'll ever need.</p>
+        <a href="/signup" class="bg-white text-black px-12 py-5 rounded-full font-black hover:bg-indigo-50 transition-all hover:px-14 shadow-2xl inline-block uppercase tracking-widest text-sm">
+            Launch Your Pipeline
+        </a>
+      </div>
+    </section>
+    """,
     "dashboard_shell": """
-    <div class="flex h-screen bg-gray-50">
-      <div class="w-64 bg-white border-r border-gray-200 hidden md:block">
-        <div class="p-6 text-2xl font-bold text-primary">{product_name}</div>
-        <nav class="mt-6 px-4 space-y-2">
-          <a href="/dashboard" class="flex items-center p-3 text-gray-700 bg-gray-100 rounded-lg">Dashboard</a>
-          {sidebar_links}
-        </nav>
+    <div class="flex h-screen bg-transparent text-white">
+      <div class="w-64 border-r border-white/10 backdrop-blur-3xl p-8 bg-[#030014]/50">
+        <div class="text-2xl font-black mb-10 tracking-tighter italic bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">{product_name}</div>
+        <nav class="space-y-2">{sidebar_links}</nav>
       </div>
-      <div class="flex-1 flex flex-col overflow-hidden">
-        <header class="bg-white border-b border-gray-200 p-4 flex justify-between items-center">
-          <h2 class="text-xl font-semibold text-gray-800">{page_title}</h2>
-          <div class="flex items-center space-x-4">
-            <span class="text-sm text-gray-500">Welcome, User</span>
-            <div class="w-10 h-10 bg-primary rounded-full"></div>
-          </div>
-        </header>
-        <main class="flex-1 overflow-y-auto p-8">
-          {main_content}
-        </main>
-      </div>
+      <main class="flex-1 p-10 overflow-y-auto">
+        <div class="glass-card p-10">{main_content}</div>
+      </main>
     </div>
     """,
+    # --- [REPLACE sidebar_link] ---
     "sidebar_link": """
-    <a href="/{route}" class="flex items-center p-3 text-gray-600 hover:bg-gray-50 rounded-lg transition">{name}</a>
-    """,
+        <a href="/{route}" class="flex items-center px-4 py-3 text-gray-400 hover:text-white hover:bg-white/5 rounded-xl transition-all group">
+          <span class="mr-3 opacity-20 group-hover:opacity-100 group-hover:text-primary transition-all">◇</span> {name}
+        </a>
+        """,
     "pricing_card": """
-  <div class="p-8 bg-white border border-gray-200 rounded-3xl shadow-sm hover:shadow-2xl transition-all transform hover:-translate-y-2">
-    <h3 class="text-lg font-bold mb-2">{plan_name}</h3>
-    <div class="text-4xl font-black mb-6">{price}<span class="text-sm font-normal text-gray-500">/mo</span></div>
-    <ul class="space-y-4 mb-8 text-gray-600">
-      {plan_features}
-    </ul>
-    <a href="/signup" class="block text-center py-3 px-6 rounded-custom border border-primary text-primary font-bold hover:bg-primary hover:text-white transition">Choose Plan</a>
-  </div>
-  """,
+    <div class="p-8 bg-white/[0.02] border border-white/5 rounded-3xl backdrop-blur-md hover:border-primary/30 transition-all">
+      <h3 class="text-lg font-bold mb-2 text-white">{plan_name}</h3>
+      <div class="text-4xl font-black mb-6 text-white">{price}<span class="text-sm font-normal text-gray-400">/mo</span></div>
+      <ul class="space-y-4 mb-8 text-gray-400">
+        {plan_features}
+      </ul>
+      <a href="/signup" class="block text-center py-3 px-6 rounded-xl border border-primary text-primary font-bold hover:bg-primary hover:text-white transition">Choose Plan</a>
+    </div>
+    """,
     "stats_grid": """
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
       {stats_cards}
@@ -126,11 +116,11 @@ COMPONENTS = {
     </div>
     """,
     "footer": """
-      <footer class="py-12 bg-gray-50 border-t border-gray-100">
-        <div class="container mx-auto px-6 text-center">
-          <div class="text-xl font-bold text-primary mb-4">{product_name}</div>
-          <p class="text-gray-500 text-sm">© 2026 {product_name}. Built by Agentic Startup Factory.</p>
-        </div>
-      </footer>
-      """,
+    <footer class="py-12 bg-[#030712] border-t border-white/5">
+      <div class="container mx-auto px-6 text-center">
+        <div class="text-xl font-bold text-white mb-4">{product_name}</div>
+        <p class="text-gray-500 text-sm">© 2026 {product_name}. Built by Agentic Startup Factory.</p>
+      </div>
+    </footer>
+    """,
 }

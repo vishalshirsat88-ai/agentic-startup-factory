@@ -1,152 +1,5 @@
 [
   {
-    "name": "Influencer Discovery Platform",
-    "description": "Find and connect with influencers in specific niches and industries",
-    "project_path": "projects/influencer-discovery-plat-92240",
-    "status": "deployed",
-    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
-  },
-  {
-    "name": "AI-powered Email Writer",
-    "description": "Writes high-quality email responses and templates",
-    "project_path": "projects/ai-powered-email-writer-92406",
-    "status": "deployed",
-    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
-  },
-  {
-    "name": "Email Tracking",
-    "description": "Tracks email opens, clicks, and responses",
-    "project_path": "projects/email-tracking-92843",
-    "status": "deployed",
-    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
-  },
-  {
-    "name": "AI-driven Content Suggestions",
-    "description": "Provide personalized content suggestions for blog posts, social media, and email marketing",
-    "project_path": "projects/ai-driven-content-suggest-93002",
-    "status": "deployed",
-    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
-  },
-  {
-    "name": "AI-driven Content Suggestions",
-    "description": "Provide personalized content suggestions for blog posts, social media, and email marketing",
-    "project_path": "projects/ai-driven-content-suggest-95088",
-    "status": "deployed",
-    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
-  },
-  {
-    "name": "AI-powered Email Personalization",
-    "description": "Automatically personalize email marketing campaigns with AI-driven suggestions",
-    "project_path": "projects/ai-powered-email-personal-96079",
-    "status": "deployed",
-    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'"
-  },
-  {
-    "name": "E-commerce Product Price Tracker",
-    "description": "Track and compare product prices across e-commerce platforms",
-    "project_path": "projects/e-commerce-product-price--69022",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "E-commerce Product Price Tracker",
-    "description": "Track and compare product prices across e-commerce platforms",
-    "project_path": "projects/e-commerce-product-price--69793",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "E-commerce Product Price Tracker",
-    "description": "Track and compare product prices across e-commerce platforms",
-    "project_path": "projects/e-commerce-product-price--70549",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "AI-driven Social Media Monitoring Tool",
-    "description": "Monitor social media conversations and provide data-driven insights for improved brand reputation",
-    "project_path": "projects/ai-driven-social-media-mo-70601",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "AI-driven Social Media Monitoring Tool",
-    "description": "Monitor social media conversations and provide data-driven insights for improved brand reputation",
-    "project_path": "projects/ai-driven-social-media-mo-70733",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "MindMeld",
-    "description": "AI-powered virtual meeting facilitation and note-taking",
-    "project_path": "projects/mindmeld-71565",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "Cerebro",
-    "description": "An AI-powered mental wellness and focus app for gamers",
-    "project_path": "projects/cerebro-72230",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "Cerebro",
-    "description": "An AI-powered mental wellness and focus app for gamers",
-    "project_path": "projects/cerebro-73184",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "Cerebro",
-    "description": "An AI-powered mental wellness and focus app for gamers",
-    "project_path": "projects/cerebro-77910",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "DreamWeaver",
-    "description": "AI-powered lucid dreaming assistant",
-    "project_path": "projects/dreamweaver-77992",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "EchoPlex",
-    "description": "A virtual event planning and management platform that utilizes AI to create immersive and engaging experiences",
-    "project_path": "projects/echoplex-90459",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "EchoNexus",
-    "description": "An AI-powered platform that generates and sells immersive, interactive 3D experiences for museums, galleries, and cultural institutions.",
-    "project_path": "projects/echonexus-86368",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "EchoLumina",
-    "description": "AI-powered personalized emotional wellness and stress management platform for the visually impaired community",
-    "project_path": "projects/echolumina-99540",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "EchoPulse",
-    "description": "AI-powered personalized sound therapy for stress relief and focus enhancement",
-    "project_path": "projects/echopulse-2764",
-    "status": "deployed",
-    "url": null
-  },
-  {
-    "name": "Cerebro",
-    "description": "An AI-powered mental wellness and focus app for gamers",
-    "project_path": "projects/cerebro-3058",
-    "status": "deployed",
-    "url": null
-  },
-  {
     "name": "Test Startup",
     "description": "Testing pipeline",
     "project_path": "projects/test-startup-3172",
@@ -1076,6 +929,270 @@
     "validation": {
       "status": "fail",
       "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "EchoHabitat",
+    "description": "AI-powered virtual reality home design and decoration platform",
+    "project_path": "projects/echohabitat-28759",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "EchoVista",
+    "description": "AI-powered interior design and home decor visualizer",
+    "project_path": "projects/echovista-28935",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-29006",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-42280",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-45989",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 3000 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-47995",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5005 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-51139",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5005 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-52338",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5005 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-53162",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5005 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-53879",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5005 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-55551",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5005 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-56127",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5005 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-63238",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5005 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-64602",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5008 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-65235",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5008 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-66320",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5008 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-66636",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5008 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-67424",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5008 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-68498",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5008 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-70160",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5009 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-70710",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5009 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-71836",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5009 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-74508",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5009 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-48093",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": " * Serving Flask app 'app'\n * Debug mode: on\n\nAddress already in use\nPort 5009 is in use by another program. Either identify and stop that program, or start the server with a different port.\n"
     }
   }
 ]

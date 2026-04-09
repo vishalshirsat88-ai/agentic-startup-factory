@@ -62,50 +62,61 @@ class DeveloperAgent(AgentBase):
 
     def build_mvp(self, idea, architecture=None):
         print("🚀 DEBUG: build_mvp EXECUTED v5")
+
+        # 🛡️ SAFETY GUARD
+        if architecture is None:
+            architecture = {"modules": [], "product": {}, "routes": []}
+
         project_name = self.extract_project_name(idea)
         project_dir = f"projects/{project_name}"
         os.makedirs(project_dir, exist_ok=True)
         self.copy_template(project_dir)
 
         # 🎨 1. SAFE DATA EXTRACTION
-        product_data = (
-            architecture.get("product", {}) if isinstance(architecture, dict) else {}
-        )
-        design = product_data.get("design_tokens", {})
-        copy = product_data.get("marketing_copy", {})
-        colors = design.get("colors", {})
+        arch_safe: dict = architecture if isinstance(architecture, dict) else {}
+        product_raw = arch_safe.get("product", {})
+        p_data: dict = product_raw if isinstance(product_raw, dict) else {}
 
-        p_name = product_data.get("name", "AI Startup")
-        p_desc = product_data.get("description", "Next-gen solution")
-        primary_color = colors.get("primary", "#3498db")
+        design_raw = p_data.get("design_tokens", {})
+        design_safe: dict = design_raw if isinstance(design_raw, dict) else {}
+
+        copy_raw = p_data.get("marketing_copy", {})
+        copy_safe: dict = copy_raw if isinstance(copy_raw, dict) else {}
+
+        colors_raw = design_safe.get("colors", {})
+        colors_safe: dict = colors_raw if isinstance(colors_raw, dict) else {}
+
+        # Safe String Assignments
+        p_name = str(p_data.get("name", "AI Startup"))
+        p_desc = str(p_data.get("description", "Next-gen solution"))
+        primary_color = str(colors_safe.get("primary", "#3498db"))
 
         # 🏗️ 2. PREPARE COMMON UI STRINGS
         navbar_html = COMPONENTS["navbar"].format(product_name=p_name)
         footer_html = COMPONENTS["footer"].format(product_name=p_name)
-        vibe_style = f"""
+
+        vibe_style = """
         <style>
-            :root {{
-                --primary: {primary_color};
-                --secondary: {colors.get("secondary", "#10b981")};
-                --bg-app: {colors.get("background", "#ffffff")};
-                --radius: {"9999px" if "full" in str(design.get("border_radius", "")) else "0.5rem"};
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+            :root {{ 
+                --primary: {primary_color}; 
+                --bg: {colors.get('background', '#030014')}; 
+                --surface: {design.get('theme_config', {}).get('glass_opacity', '0.03')};
             }}
-            .bg-primary {{ background-color: var(--primary) !important; }}
-            .text-primary {{ color: var(--primary) !important; }}
-            .rounded-custom {{ border-radius: var(--radius) !important; }}
-            .fade-in-up {{ animation: fadeInUp 0.8s ease-out forwards; }}
-            @keyframes fadeInUp {{ from {{ opacity: 0; transform: translateY(20px); }} to {{ opacity: 1; transform: translateY(0); }} }}
+            body { background-color: #030014 !important; color: white !important; font-family: 'Inter', sans-serif; margin: 0; }
+            .lovable-bg { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 50% -20%, #1e1b4b, #030014); z-index: -1; }
+            .glass-card { background: rgba(255, 255, 255, 0.03) !important; backdrop-filter: blur(24px) saturate(200%) !important; border: 1px solid rgba(255, 255, 255, 0.1) !important; border-radius: 24px !important; }
+            .bg-white, .bg-gray-50, .bg-slate-50 { background-color: transparent !important; }
         </style>
         """
+        # --- [END REPLACE] ---
 
         # 📂 3. MULTI-PAGE ASSEMBLER
         templates_dir = os.path.join(project_dir, "templates")
         if os.path.exists(templates_dir):
             seen_routes = set()
             final_routes = []
-            arch_routes = (
-                architecture.get("routes", []) if isinstance(architecture, dict) else []
-            )
+            arch_routes = arch_safe.get("routes", [])
             for r in arch_routes:
                 clean_r = str(r).strip("/")
                 if (
@@ -119,7 +130,7 @@ class DeveloperAgent(AgentBase):
             sidebar_links = "".join(
                 [
                     COMPONENTS["sidebar_link"].format(
-                        route=rp, name=rp.replace("-", " ").replace("_", " ").title()
+                        route=rp, name=rp.replace("-", " ").title()
                     )
                     for rp in final_routes
                 ]
@@ -129,97 +140,138 @@ class DeveloperAgent(AgentBase):
                 if not t_name.endswith(".html"):
                     continue
                 t_path = os.path.join(templates_dir, t_name)
-                with open(t_path, "r") as f:
-                    t_content = f.read()
 
                 if t_name == "index.html":
-                    h_title = copy.get("hero_title", "Streamline Your Workflow")
-                    h_sub = copy.get("hero_subtitle", p_desc)
+                    h_sub = copy_safe.get("hero_subtitle", p_desc)
                     hero_sec = COMPONENTS["hero"].format(
-                        product_name=h_title, product_description=h_sub
+                        product_name=p_name,
+                        hero_title=copy_safe.get(
+                            "hero_title", "Streamline Your Workflow"
+                        ),
+                        hero_subtitle=h_sub,
+                        cta_text=copy_safe.get("cta_text", "Get Started Today"),
                     )
+
+                    # Extract modules safely from the dictionary we already validated
+                    raw_modules = p_data.get("modules", [])
+                    modules_for_index = (
+                        raw_modules if isinstance(raw_modules, list) else []
+                    )
+
                     feat_items = "".join(
                         [
                             COMPONENTS["feature_item"].format(
-                                title=m.get("name"), description=m.get("description")
+                                title=str(m.get("name", "Feature"))
+                                if isinstance(m, dict)
+                                else "Feature",
+                                description=str(
+                                    m.get("description", "Innovative Solution")
+                                )
+                                if isinstance(m, dict)
+                                else "Description",
                             )
-                            for m in product_data.get("modules", [])[:3]
+                            for m in modules_for_index[:4]
                         ]
                     )
                     feats_sec = COMPONENTS["features"].format(feature_items=feat_items)
-                    cta_sec = COMPONENTS["cta_section"].format(product_name=p_name)
-                    page_body = f"{navbar_html}\n{hero_sec}\n{feats_sec}\n{cta_sec}\n{footer_html}"
+                    page_body = f"{navbar_html}\n{hero_sec}\n{feats_sec}\n{footer_html}"
+
                 else:
-                    p_title = t_name.replace(".html", "").replace("_", " ").title()
-                    if "dashboard" in t_name.lower():
-                        stats = "".join(
-                            [
-                                COMPONENTS["stat_card"].format(label=l, value=v)
-                                for l, v in [
-                                    ("Active Users", "1,200"),
-                                    ("Revenue", "$4k"),
-                                    ("Uptime", "99%"),
-                                ]
-                            ]
-                        )
-                        m_content = COMPONENTS["stats_grid"].format(stats_cards=stats)
-                    else:
-                        th = "".join(
-                            [
-                                f"<th class='p-4 text-xs font-semibold text-gray-500'>{x}</th>"
-                                for x in ["ID", "Name", "Status"]
-                            ]
-                        )
-                        tr = "".join(
-                            [
-                                f"<tr class='border-b border-gray-50'><td class='p-4 text-sm'>#10{i}</td><td class='p-4 text-sm'>Data Point {i}</td><td class='p-4 text-xs text-green-600 font-bold'>ACTIVE</td></tr>"
-                                for i in range(3)
-                            ]
-                        )
-                        m_content = COMPONENTS["data_table"].format(
-                            table_headers=th, table_rows=tr
-                        )
+                    # DYNAMIC DASHBOARD DATA INJECTION
+                    p_title_str = str(
+                        t_name.replace(".html", "").replace("_", " ").title()
+                    )
+                    module_name_clean = t_name.replace(".html", "").replace("-", " ")
+
+                    raw_modules_list = arch_safe.get("modules", [])
+                    modules_list = (
+                        raw_modules_list if isinstance(raw_modules_list, list) else []
+                    )
+
+                    relevant_module = {
+                        "name": "Overview",
+                        "features": ["System Active", "Cloud Sync", "AI Ready"],
+                    }
+                    for m in modules_list:
+                        if isinstance(m, dict):
+                            m_name = str(m.get("name", "")).lower()
+                            if m_name in module_name_clean.lower():
+                                relevant_module = m
+                                break
+
+                    features_list = (
+                        relevant_module.get("features", [])
+                        if isinstance(relevant_module, dict)
+                        else []
+                    )
+                    grid_items = "".join(
+                        [
+                            COMPONENTS["stat_card"].format(
+                                label=str(feat), value="Active"
+                            )
+                            for feat in (
+                                features_list[:3]
+                                if features_list
+                                else ["Status", "Network", "Uptime"]
+                            )
+                        ]
+                    )
+
                     page_body = COMPONENTS["dashboard_shell"].format(
                         product_name=p_name,
-                        page_title=p_title,
+                        page_title=p_title_str,
                         sidebar_links=sidebar_links,
-                        main_content=m_content,
+                        main_content=f"<div class='grid grid-cols-1 md:grid-cols-3 gap-6'>{grid_items}</div>",
                     )
 
-                if "</head>" in t_content:
-                    t_content = t_content.replace("</head>", f"{vibe_style}\n</head>")
-                b_match = re.search(r"<body[^>]*>", t_content)
-                if b_match and "</body>" in t_content:
-                    t_content = (
-                        t_content[: b_match.end()]
-                        + f"\n<div class='fade-in-up'>{page_body}</div>\n"
-                        + t_content[t_content.find("</body>") :]
+                # LOVABLE HARD-OVERWRITE
+                final_html = f"""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
+        :root {{ --primary: {primary_color}; --bg: {colors_safe.get("background", "#030014")}; --surface: {design_safe.get("surface", "rgba(255, 255, 255, 0.03)")}; }}
+        body {{ background-color: var(--bg); color: white; font-family: 'Inter', sans-serif; margin: 0; overflow-x: hidden; }}
+        .lovable-bg {{ position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 50% -20%, {primary_color}33, var(--bg)); z-index: -1; }}
+        .lovable-orb {{ position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, var(--primary), transparent 70%); filter: blur(140px); opacity: 0.15; pointer-events: none; z-index: 0; }}
+        .glass-card {{ background: var(--surface); backdrop-filter: blur(24px) saturate(200%); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 24px; transition: all 0.5s ease; }}
+        .glass-card:hover {{ transform: translateY(-10px); border-color: var(--primary); background: rgba(255, 255, 255, 0.05); }}
+        .hero-glow {{ filter: drop-shadow(0 0 30px rgba(59, 130, 246, 0.3)); }}
+    </style>
+</head>
+<body>
+    <div class="lovable-bg"></div>
+    <div class="lovable-orb" style="top: -10%; right: -10%;"></div>
+    <div class="lovable-orb" style="bottom: -10%; left: -10%; background: radial-gradient(circle, #818cf8, transparent 70%);"></div>
+    <div class="relative z-10">{page_body}</div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({{ duration: 1000, once: true }}); lucide.createIcons();</script>
+</body>
+</html>
+"""
+                if t_name == "index.html":
+                    print(
+                        "\n"
+                        + "💎" * 20
+                        + "\n🔥 VIBE CHECK: SUCCESSFUL REWRITE\n"
+                        + "💎" * 20
+                        + "\n"
                     )
                 with open(t_path, "w") as f:
-                    f.write(t_content)
+                    f.write(final_html)
 
-        # ⚙️ 4. APP.PY AND BACKEND
-        app_file = os.path.join(project_dir, "app.py")
-        if os.path.exists(app_file):
-            with open(app_file, "r") as f:
-                a_content = f.read()
-            a_content = a_content.replace(
-                'PRODUCT_NAME = "AI Resume Builder"', f'PRODUCT_NAME = "{p_name}"'
-            )
-            if "<title>" in a_content:
-                a_content = re.sub(
-                    r"<title>.*?</title>",
-                    f"<title>{p_name} | {copy.get('hero_title', 'SaaS')}</title>",
-                    a_content,
-                )
-            with open(app_file, "w") as f:
-                f.write(a_content)
-
+        # ⚙️ 4. BACKEND GENERATION
         from engine.file_generator import generate_backend_files
 
-        if architecture:
-            architecture["product"] = product_data
-            generate_backend_files(project_dir, architecture)
+        if arch_safe:
+            arch_safe["product"] = p_data
+            generate_backend_files(project_dir, arch_safe)
 
         from engine.auto_wire import wire_routes
 
@@ -228,7 +280,6 @@ class DeveloperAgent(AgentBase):
         except:
             pass
 
-        # Indentation Cleanup for Python Files
         import glob, textwrap
 
         for py_file in glob.glob(os.path.join(project_dir, "**/*.py"), recursive=True):

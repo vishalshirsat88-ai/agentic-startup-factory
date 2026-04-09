@@ -12,14 +12,22 @@ class ProductAgent(AgentBase):
     def define_product(self, idea):
         # These are checker debugs
         print("🚀 DEBUG: ProductAgent EXECUTED v1")
+        # --- [REPLACE PROMPT BLOCK START] ---
         prompt = f"""
-        You are a Product Manager & Design Architect.
+        You are a Senior Product Architect & Vibe-Coder.
 
-        Convert this startup idea into a structured product definition, Visual Design System, and Landing Page Copy.
+        TASK: Convert this idea into a structured product definition and a 'Lovable' Visual Design System.
 
-        Startup Idea:
-        {idea}
+        Startup Idea: {idea}
 
+        PHASE 1: DESIGN EVALUATION (Mandatory Internal Monologue)
+        Before generating JSON, provide a 3-sentence critique:
+        1. Rating: Grade the idea clarity (A-F).
+        2. Premium Vibe: Identify what specific 'Glassmorphism' or 'Glow' elements are needed.
+        3. Generic Risk: What standard 'cheap' design patterns must we avoid?
+        4. CRITICAL: Always provide at least 4 unique modules in the "modules" list to ensure a rich dashboard layout.
+
+        PHASE 2: DEFINITION
         Return ONLY JSON:
         {{
           "name": "product name",
@@ -27,41 +35,28 @@ class ProductAgent(AgentBase):
           "design_tokens": {{
             "colors": {{
               "primary": "#HEX",
-              "secondary": "#HEX",
-              "accent": "#HEX",
-              "background": "#HEX"
+              "background": "#030712",
+              "surface": "rgba(255,255,255,0.03)",
+              "accent": "#HEX"
             }},
             "typography": {{
-              "heading_font": "Inter | Playfair Display | Roboto",
-              "body_font": "Inter | Open Sans"
+              "heading_font": "Inter | Playfair Display",
+              "body_font": "Inter"
             }},
-            "vibe": "minimalist | bold | playful | professional",
-            "border_radius": "none | sm | md | lg | full"
+            "vibe": "Cyber-Premium | Minimalist-Glass",
+            "animations": "framer-motion-standard",
+            "component_style": "shadcn-inspired"
           }},
           "marketing_copy": {{
-            "hero_title": "Catchy 5-word headline",
-            "hero_subtitle": "Persuasive 15-word subheadline",
-            "cta_text": "Get Started Now",
-            "pricing": [
-                {{"plan": "Starter", "price": "$0", "features": ["Feature A", "Feature B"]}},
-                {{"plan": "Pro", "price": "$49", "features": ["Unlimited access", "Priority support"]}}
-            ]
+            "hero_title": "...",
+            "hero_subtitle": "...",
+            "cta_text": "..."
           }},
-          "modules": [
-            {{
-              "name": "module_name",
-              "description": "what this module does",
-              "features": ["feature1", "feature2"]
-            }}
-          ],
-          "user_flows": ["flow1", "flow2"]
+          "modules": [ ... ],
+          "scores": {{ "clarity": "A", "premium_index": "9/10" }}
         }}
-
-        Rules:
-        1. Choose colors that match the startup category vibe.
-        2. Break product into 3-6 backend modules.
-        3. Do not explain anything.
         """
+        # --- [REPLACE PROMPT BLOCK END] ---
 
         response = self.think(prompt)
 
@@ -90,5 +85,43 @@ class ProductAgent(AgentBase):
         if not product:
             print("[Product Agent] Failed to parse product JSON")
             return None
+
+            # --- [INSERT BEFORE return product] ---
+            # 🧪 LOVABLE.AI BENCHMARK DEBUG EXPORT
+            print("\n" + "=" * 50)
+            print("🚀 LOVABLE.AI COPY-PASTE PROMPT START")
+            print("=" * 50)
+            lovable_prompt = f"""
+            Act as a World-Class Frontend Developer. Build a high-fidelity React component for: {
+                product.get("name")
+            }
+
+            VIBE: {product.get("design_tokens", {}).get("vibe")}
+            COLORS: Primary {
+                product.get("design_tokens", {}).get("colors", {}).get("primary")
+            }, BG #030712
+            DESCRIPTION: {product.get("description")}
+
+            "theme_config": {
+                "vibe_key": "cyber_midnight", // Evaluator chooses from: cyber_midnight, solar_white, emerald_glass
+                "glow_color": "#HEX",
+                "glass_opacity": "0.03"
+              },
+
+            MARKETING COPY:
+            - Title: {product.get("marketing_copy", {}).get("hero_title")}
+            - Subtitle: {product.get("marketing_copy", {}).get("hero_subtitle")}
+            - CTA: {product.get("marketing_copy", {}).get("cta_text")}
+
+            FEATURES TO INCLUDE:
+            {json.dumps(product.get("modules"), indent=2)}
+
+            TECH STACK: Vite, React, Tailwind CSS, Lucide Icons, Framer Motion.
+            STYLE GUIDE: Use glassmorphism, 1px borders (white/10), and neon glow effects.
+            """
+            print(lovable_prompt)
+            print("=" * 50)
+            print("🚀 LOVABLE.AI COPY-PASTE PROMPT END\n")
+        # ---------------------------------------
 
         return product

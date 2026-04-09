@@ -14,6 +14,7 @@ import subprocess
 import os
 import re
 import sys
+import time
 
 from tools.code_runner import run_app
 
@@ -38,6 +39,21 @@ class Orchestrator:
     # 1. Add 'idea_id=None' here. Keep your 'idea' name exactly as is.
 
     def run_startup_cycle(self, idea, idea_id=None):  # New
+        # --- ADD THIS HERE ---
+        print("🧹 Smart Cleanup on Port 5009...")
+        import os, subprocess, time
+
+        # 1. Kill anything specifically on port 5009
+        os.system("fuser -k 5009/tcp > /dev/null 2>&1")
+
+        # 2. Kill old app processes but NOT this orchestrator
+        # We look for 'app.py' specifically to avoid killing ourselves
+        os.system("pkill -9 -f 'python.*app.py' > /dev/null 2>&1")
+
+        time.sleep(2)
+        print("🔥 Port 5009 Ready.")  # Essential pause for OS to release the socket
+        # ----------------------
+
         # These are checker debugs
         print("🚀 DEBUG: run_startup_cycle EXECUTED v1")
 
@@ -53,6 +69,21 @@ class Orchestrator:
 
         print("STEP 2: Before Product Agent")
         product = self.safe_run("Product Agent", self.product.define_product, idea)
+
+        # --- [INSERT AFTER Line 52] ---
+        # Log the build to history (Santifer Pattern)
+        try:
+            build_log = {
+                "name": product.get("name"),
+                "score": product.get("scores", {}).get("clarity", "B"),
+                "vibe": product.get("design_tokens", {}).get("vibe"),
+                "timestamp": os.popen("date").read().strip(),
+            }
+            add_entry("factory_build_history.json", build_log)
+            print(f"✅ Build logged to history: {product.get('name')}")
+        except Exception as e:
+            print(f"⚠️ History log failed: {e}")
+        # --- [END INSERT] ---
 
         # 🔥 CRITICAL FIX: Ensure product is NEVER None
         if not product or not isinstance(product, dict):
@@ -94,6 +125,35 @@ class Orchestrator:
 
         print("PROJECT GENERATED AT:", project_path)
 
+        # --- [INSERT AFTER Line 86] ---
+        # SANTIFER COGNITIVE GATE: Self-Critique of the Build quality
+        print("\n[Brain Agent] Critiquing build quality against Lovable benchmarks...")
+        import json
+
+        critique_prompt = f"""
+        Analyze the following startup metadata: {json.dumps(product)}
+        Rate the 'Market Vibe' and 'Design Clarity' from 1-100.
+        Format your response exactly as: SCORE: <number> | FEEDBACK: <text>
+        """
+        quality_score_raw = self.product.think(critique_prompt)
+        print(f"🧠 BUILD ANALYSIS: {quality_score_raw}")
+
+        # Gate logic: Only proceed if score is elite
+        if "SCORE:" in quality_score_raw:
+            try:
+                score_match = re.findall(r"\d+", quality_score_raw)
+                score = int(score_match[0]) if score_match else 0
+                if score < 85:
+                    print(
+                        f"⚠️ Quality Score {score} is below Elite threshold (85). Optimization suggested."
+                    )
+                else:
+                    print(
+                        f"✅ High Quality Score ({score}) - Build Accepted by Brain Agent."
+                    )
+            except Exception as e:
+                print(f"⚠️ Could not parse quality score: {e}")
+
         project_name = os.path.basename(project_path)
         print("REPO NAME BEING CREATED:", project_name)
 
@@ -129,7 +189,7 @@ class Orchestrator:
                     fix_prompt = f"""
 The Flask application below does not render templates.
 
-Fix the code so it uses render_template() for pages.
+Fix it to use render_template().
 
 Required routes:
 / -> landing page
@@ -137,6 +197,9 @@ Required routes:
 /dashboard -> dashboard page
 
 Return ONLY corrected Python code for the Flask app file.
+CRITICAL: The app MUST run on port 5009.
+
+Flask app file.
 
 Current code:
 {app_code}
@@ -214,9 +277,7 @@ Current code:
                     import sys
 
                     print(f"🚀 [AUTO-DETECT] Running entry point: {app_path}")
-
-                    os.environ["PORT"] = "3000"
-
+                    os.environ["PORT"] = "5009"
                     os.execv(sys.executable, [sys.executable, app_path])
                 else:
                     print(f"❌ ERROR: No runnable python files found in {project_path}")
@@ -262,11 +323,16 @@ Current code:
 
                 fix_prompt = f"""Fix syntax and indentation errors in this Python file.
 
-Return ONLY valid Python code.
+                CRITICAL REQUIREMENTS:
+                1. Return ONLY valid Python code.
+                2. The Flask app MUST run on port=5009.
+                3. Place 'app.run' inside an 'if __name__ == "__main__":' block.
 
-Code:
-{code}
-"""
+                Routes required: /, /login, /dashboard.
+
+                Code:
+                {code}
+                """
 
                 fixed_code = self.dev.think(fix_prompt)
 
