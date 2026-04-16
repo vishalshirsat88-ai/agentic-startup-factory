@@ -1,6 +1,8 @@
 from agents.agent_base import AgentBase
 from tools.file_writer import write_file
 from tools.code_runner import run_app
+from agents.ui.ui_evaluator import UIEvaluator
+from agents.ui.ui_improver import UIImprover
 import os
 import re
 import json
@@ -74,7 +76,55 @@ class DeveloperAgent(AgentBase):
                 service_name = file.replace("_routes.py", "_service.py")
                 service_path = os.path.join(services_dir, service_name)
 
-                if not os.path.exists(service_path):
+                if not os.path.exists(serWe are building an Agentic Startup Factory.
+
+                                      Current system status:
+
+                                      • Multi-agent pipeline working (CEO → Product → CTO → Developer → QA)
+                                      • Backend generation stable (Flask + SQLite + APIs)
+                                      • Developer Agent now uses SaaS template injection (NOT LLM code gen)
+
+                                      Recent critical fixes completed:
+
+                                      1. Module injection stabilized using JSON (no malformed code)
+                                      2. Fixed indentation issues in app.py injection
+                                      3. Disabled textwrap.dedent (was breaking Python structure)
+                                      4. Dev loop stabilized (no QA overwrite loops)
+                                      5. UI rendering now deterministic
+
+                                      Current UI behavior:
+
+                                      • modules → cards
+                                      • features → inside cards
+                                      • cards are NOT clickable (only hover effect)
+
+                                      Important architecture:
+
+                                      • app.py → only data injection
+                                      • UI → controlled via templates + ui_components.py
+
+                                      Current limitation:
+
+                                      • UI is dynamic but not domain-aware
+                                      • No navigation between modules
+                                      • No real SaaS page structure yet
+
+                                      Next goal:
+
+                                      👉 Convert modules into real SaaS pages
+
+                                      Need to implement:
+
+                                      • module → route generation
+                                      • module → page UI
+                                      • clickable cards → navigation
+                                      • full SaaS flow
+
+                                      We are now entering:
+
+                                      👉 SaaS Expansion Layer (Lovable-like system)
+
+                                      Continue from here.vice_path):
                     print(f"[Developer Agent] Missing service for {file}")
                     return False
 
@@ -127,6 +177,15 @@ class DeveloperAgent(AgentBase):
             os.makedirs(project_dir, exist_ok=True)
 
         self.copy_template(project_dir)
+        # 🔥 COPY ENGINE INTO GENERATED PROJECT (CRITICAL FIX)
+        engine_src = "engine"
+        engine_dest = os.path.join(project_dir, "engine")
+
+        if os.path.exists(engine_src):
+            shutil.copytree(engine_src, engine_dest, dirs_exist_ok=True)
+            print("✅ Engine copied into project")
+        else:
+            print("❌ Engine folder missing")
 
         app_file = os.path.join(project_dir, "app.py")
 
@@ -143,89 +202,64 @@ class DeveloperAgent(AgentBase):
                 if isinstance(idea, dict)
                 else "AI powered solution"
             )
+
+            # 🔥 CORRECT FEATURE EXTRACTION (FROM PRODUCT AGENT)
             product_features = []
 
-            # 🔥 Prefer product features over architecture
-            if architecture and isinstance(architecture, dict):
-                # Try product first
-                product_data = architecture.get("product", {})
+            if isinstance(idea, dict):
+                modules = idea.get("modules", [])
 
-                if isinstance(product_data, dict):
-                    modules = product_data.get("modules", [])
+                if modules:
+                    product_features = [
+                        feature
+                        for module in modules
+                        for feature in module.get("features", [])
+                    ]
 
-                    if modules:
-                        # extract features from modules
-                        product_features = [
-                            feature
-                            for module in modules
-                            for feature in module.get("features", [])
-                        ]
+            # 🔥 FALLBACK ONLY IF STILL EMPTY
+            if not product_features and architecture:
+                product_features = architecture.get("features", [])
 
-                # fallback to architecture features
-                if not product_features:
-                    product_features = architecture.get("features", [])
+            # 🔥 FINAL SAFETY FALLBACK
+            if not product_features:
+                product_features = [
+                    "AI Automation",
+                    "Smart Insights",
+                    "Seamless Integration",
+                ]
+
+            print("🔥 FINAL FEATURES USED:", product_features[:3])
+            # 🔥 NEW: MODULE INJECTION (CRITICAL FIX)
+
+            modules_list = []
+
+            if isinstance(idea, dict):
+                modules_list = idea.get("modules", [])
+
+            # fallback to architecture if needed
+            if not modules_list and architecture:
+                modules_list = architecture.get("modules", [])
+
+            # final fallback (safety)
+            if not modules_list:
+                modules_list = [
+                    {
+                        "name": "Core Module",
+                        "features": ["Feature 1", "Feature 2", "Feature 3"],
+                    }
+                ]
+
+            print("🔥 MODULES TO INJECT:", len(modules_list))
+
+            # 🔥 CLEAN + SAFE MODULE GENERATION
+
+            modules_code = "modules = " + json.dumps(modules_list, indent=4)
             print(
                 "\n================ PHASE 2A: TEMPLATE BEFORE INJECTION ================"
             )
             print(content[:500])
             print("TEMPLATE SOURCE: saas_master_template/app.py")
             print("============================================================\n")
-            # Replace PRODUCT_NAME
-            # 🔥 FULL LANDING PAGE INJECTION
-
-            content = content.replace(
-                'PRODUCT_NAME = "AI Resume Builder"', f'PRODUCT_NAME = "{product_name}"'
-            )
-
-            # Hero section
-            content = content.replace(
-                'product_tagline="Build ATS-ready resumes instantly"',
-                f'product_tagline="{product_description}"',
-            )
-
-            content = content.replace(
-                'product_headline="Create Perfect Resumes With AI"',
-                f'product_headline="{product_name} — AI Powered Platform"',
-            )
-
-            # CTA
-            content = content.replace(
-                'cta_text="Get Started"', f'cta_text="Start using {product_name}"'
-            )
-
-            # ✅ Inject features into template (basic version)
-            # 🔥 FEATURE SPLIT (CLEAN VERSION)
-            feature_1 = (
-                product_features[0] if len(product_features) > 0 else "AI Feature"
-            )
-            feature_2 = (
-                product_features[1] if len(product_features) > 1 else "Automation"
-            )
-            feature_3 = (
-                product_features[2] if len(product_features) > 2 else "Analytics"
-            )
-
-            content = content.replace(
-                'feature_1_title="AI Resume Analysis"', f'feature_1_title="{feature_1}"'
-            )
-
-            content = content.replace(
-                'feature_2_title="ATS Optimization"', f'feature_2_title="{feature_2}"'
-            )
-
-            content = content.replace(
-                'feature_3_title="Export Resume"', f'feature_3_title="{feature_3}"'
-            )
-
-            # Optional: Inject description
-            content = content.replace(
-                'product_description="Our AI analyzes job descriptions and builds optimized resumes."',
-                f'product_description="{product_description}"',
-            )
-
-            # 🔥 CLEAN TEMPLATE WORDS (VERY IMPORTANT)
-            content = content.replace("resume", product_name.lower())
-            content = content.replace("Resume", product_name)
 
             print("\n🔥 INJECTION SUMMARY")
             print("PRODUCT:", product_name)
@@ -233,6 +267,43 @@ class DeveloperAgent(AgentBase):
             print("FEATURES:", product_features[:3])
             print("================================\n")
 
+            # 🔥 Inject product_name
+            content = re.sub(
+                r'product_name\s*=\s*".*?"', f'product_name = "{product_name}"', content
+            )
+
+            # 🔥 Inject product_tagline
+            content = re.sub(
+                r'product_tagline\s*=\s*".*?"',
+                f'product_tagline = "{product_description}"',
+                content,
+            )
+
+            # 🔥 Inject features (MOST IMPORTANT FIX)
+            features_list_str = ",\n        ".join(
+                [f'"{f}"' for f in product_features[:3]]
+            )
+
+            content = re.sub(
+                r"features\s*=\s*\[.*?\]",
+                f"features = [\n        {features_list_str}\n    ]",
+                content,
+                flags=re.DOTALL,
+            )
+
+            # 🔥 FIXED INDENTATION INJECTION (VERY IMPORTANT)
+
+            indented_modules = modules_code.replace("\n", "\n    ")
+
+            content = re.sub(
+                r"# <AUTO-GENERATED-MODULES>[\s\S]*?# </AUTO-GENERATED-MODULES>",
+                "# <AUTO-GENERATED-MODULES>\n    "
+                + indented_modules
+                + "\n    # </AUTO-GENERATED-MODULES>",
+                content,
+            )
+
+            # ✅ WRITE UPDATED FILE
             with open(app_file, "w") as f:
                 f.write(content)
 
@@ -349,6 +420,8 @@ Werkzeug==2.2.3
         try:
             wire_routes(project_dir)
             print("[Developer Agent] Backend + Routes successfully wired")
+            # ================= UI EVALUATION + IMPROVEMENT =================
+
         except Exception as e:
             print("⚠️ Auto-wire failed:", e)
 
@@ -374,10 +447,8 @@ Werkzeug==2.2.3
                 with open(file_path, "r") as f:
                     code = f.read()
 
-                cleaned_code = textwrap.dedent(code)
-
-                with open(file_path, "w") as f:
-                    f.write(cleaned_code)
+                # 🔥 DISABLED: dedent was breaking Python structure
+                # keeping original formatting intact
 
             except Exception as e:
                 print(f"[Developer Agent] Failed cleaning {file_path}:", e)

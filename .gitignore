@@ -1,5 +1,7 @@
 # Ignore generated projects
-projects/
+# 🔥 IMPORTANT
+projects/*
+!projects/.keep
 
 # Ignore static assets
 static/

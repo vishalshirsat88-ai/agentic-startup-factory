@@ -1,22 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-07 16:30:09.974638+00:00
-
-## UI CONTROL LAYER
-
-Primary UI files:
-
-• templates/index.html
-• templates/dashboard.html
-
-Observed Risk:
-
-• UI may be overridden after injection by File Generator
-• Backend injection (app.py) does NOT affect visible UI
-
-Debug Strategy:
-
-• Always inspect templates directly
-• Do not rely on app.py changes for UI validation
+Generated: 2026-04-16 12:28:11.994027+00:00
 
 ## Project Structure
 
@@ -930,45 +913,45 @@ Debug Strategy:
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/MEd-tW0DZAzmTB3nbyAfs
+### Folder: ./.local/state/workflow-logs/v3xYVjUm9dgMi4WcVa2wb
 
-### Folder: ./.local/state/workflow-logs/2L53ezin_jGnpi590xqHt
+### Folder: ./.local/state/workflow-logs/X7hX28AvO9EYYBcD8Jzem
 
-### Folder: ./.local/state/workflow-logs/5m8BPQf5qFTdlie_X-0VF
+### Folder: ./.local/state/workflow-logs/WfE-uMlcdVhjnyxDcQ5oI
 
-### Folder: ./.local/state/workflow-logs/8fQGB3aaenxuQoaNgQwyF
+### Folder: ./.local/state/workflow-logs/5D1YBrYES7xkvwwugQAQQ
 
-### Folder: ./.local/state/workflow-logs/bP11c39IKferg7tbCM9Ku
+### Folder: ./.local/state/workflow-logs/q4eg_AWUmHqpQ59fDhHR_
 
-### Folder: ./.local/state/workflow-logs/7z7w4qhcANcNV86QHVeiL
+### Folder: ./.local/state/workflow-logs/DxVZo4lfNK3NtG3K--mmu
 
-### Folder: ./.local/state/workflow-logs/SBNvg0RyfQF3z4DU6Mggy
+### Folder: ./.local/state/workflow-logs/TcaVdZYdciTzq7nSdNLLD
 
-### Folder: ./.local/state/workflow-logs/f_EtOqoldVP_gCrBoxtEJ
+### Folder: ./.local/state/workflow-logs/seGwbfxa8QvNuY2gmXfnI
 
-### Folder: ./.local/state/workflow-logs/7xyGFagx9XQIFHkht3xPo
+### Folder: ./.local/state/workflow-logs/hmjuqbo6IJsz2RO3httNf
 
-### Folder: ./.local/state/workflow-logs/ujDWLEyVdk2il7P1NprF9
+### Folder: ./.local/state/workflow-logs/S6OGAXYwyXB8HHYbUpigb
 
-### Folder: ./.local/state/workflow-logs/0OakvxY-ISKjVE4MHgmOQ
+### Folder: ./.local/state/workflow-logs/-tSdQh7GWq92SabXFhmWK
 
-### Folder: ./.local/state/workflow-logs/VXFAGpLu1WNcQg6vhOwrc
+### Folder: ./.local/state/workflow-logs/HxP1oiyH84lHYOYw3v1Wb
 
-### Folder: ./.local/state/workflow-logs/_HTnU3ZDmmeAtvbhlcuM-
+### Folder: ./.local/state/workflow-logs/c6uH6OjTYIFzRm0SPL3Qv
 
-### Folder: ./.local/state/workflow-logs/BL-_E7xwuXI6urXEDelKo
+### Folder: ./.local/state/workflow-logs/Fxfvn9WZe_o9GID5-_UnA
 
-### Folder: ./.local/state/workflow-logs/W7bXfAnCCjXuHuZ4xFf_2
+### Folder: ./.local/state/workflow-logs/WYlZOI4WMsP_PTf2PBOat
 
-### Folder: ./.local/state/workflow-logs/d6WvOCs3ORz5_wKqh9u6m
+### Folder: ./.local/state/workflow-logs/_jPds_djcC8-yF6hRBHN_
 
-### Folder: ./.local/state/workflow-logs/khSMnaIgRa1e9lTNURmo6
+### Folder: ./.local/state/workflow-logs/56Zop0xdrTpv0y9Aihl3M
 
-### Folder: ./.local/state/workflow-logs/aw8z0_c__JcokYI3REMYw
+### Folder: ./.local/state/workflow-logs/xBwH__JYF8o0HWx47mskn
 
-### Folder: ./.local/state/workflow-logs/ft1TN276RaxjgHvTZQFnV
+### Folder: ./.local/state/workflow-logs/h0pyNLGUHI9ap76ezs6-9
 
-### Folder: ./.local/state/workflow-logs/HfeT937qGFUqEgIC9zS1a
+### Folder: ./.local/state/workflow-logs/QWOp7m0x32OJhLYoqvTYx
 
 ### Folder: ./.local/skills
 
@@ -1341,7 +1324,6 @@ Debug Strategy:
 
 ### Folder: ./agents
 - __init__.py
-- agent_base.py
 - finance_agent.py
 - growth_agent.py
 - ceo_agent.py
@@ -1350,7 +1332,12 @@ Debug Strategy:
 - product_agent.py
 - cto_agent.py
 - qa_agent.py
+- agent_base.py
 - developer_agent.py
+
+### Folder: ./agents/ui
+- ui_evaluator.py
+- ui_improver.py
 
 ### Folder: ./constitution
 - founder-control-room.md
@@ -1367,6 +1354,8 @@ Debug Strategy:
 - db.py
 - file_generator.py
 - ai_logic.py
+- __init__.py
+- ui_components.py
 
 ### Folder: ./logs
 
@@ -1500,7 +1489,6 @@ Debug Strategy:
 - file_writer.py
 - github_tool.py
 - json_parser.py
-- llm.py
 - memory.py
 - research_tool.py
 - web_search.py
@@ -1508,6 +1496,7 @@ Debug Strategy:
 - product_validator.py
 - product_loop.py
 - domain_prompt_builder.py
+- llm.py
 
 ### Folder: ./.pythonlibs
 
@@ -3486,54 +3475,6 @@ def generate_project_context():
 
 ```
 
-### ./agents/agent_base.py
-
-```python
-from tools.llm import generate
-
-class AgentBase:
-
-    def __init__(self, name):
-        self.name = name
-
-    def think(self, task):
-
-        prompt = f"""
-        You are {self.name} in an AI startup factory.
-
-        Task:
-        {task}
-
-        Return ONLY the requested output.
-        Do not include explanations.
-        """
-
-        response = generate(prompt)
-
-        print(f"[{self.name}] AI response:")
-        print(response)
-
-        return response
-
-    def execute(self, task):
-
-        prompt = f"""
-        You are {self.name} responsible for executing tasks.
-
-        Task:
-        {task}
-
-        Explain the execution steps clearly.
-        """
-
-        response = generate(prompt)
-
-        print(f"[{self.name}] execution plan:")
-        print(response)
-
-        return response
-```
-
 ### ./agents/finance_agent.py
 
 ```python
@@ -3969,12 +3910,62 @@ class QAAgent:
 
 ```
 
+### ./agents/agent_base.py
+
+```python
+from tools.llm import generate
+
+class AgentBase:
+
+    def __init__(self, name):
+        self.name = name
+
+    def think(self, task):
+
+        prompt = f"""
+        You are {self.name} in an AI startup factory.
+
+        Task:
+        {task}
+
+        Return ONLY the requested output.
+        Do not include explanations.
+        """
+
+        response = generate(prompt)
+
+        print(f"[{self.name}] AI response:")
+        print(response)
+
+        return response
+
+    def execute(self, task):
+
+        prompt = f"""
+        You are {self.name} responsible for executing tasks.
+
+        Task:
+        {task}
+
+        Explain the execution steps clearly.
+        """
+
+        response = generate(prompt)
+
+        print(f"[{self.name}] execution plan:")
+        print(response)
+
+        return response
+```
+
 ### ./agents/developer_agent.py
 
 ```python
 from agents.agent_base import AgentBase
 from tools.file_writer import write_file
 from tools.code_runner import run_app
+from agents.ui.ui_evaluator import UIEvaluator
+from agents.ui.ui_improver import UIImprover
 import os
 import re
 import json
@@ -4040,10 +4031,175 @@ class DeveloperAgent(AgentBase):
         routes_dir = os.path.join(project_dir, "routes")
 
         if not os.path.exists(services_dir) or not os.path.exists(routes_dir):
-            print("[Developer Agent] Missing backend folders")
-            return False
+            print("[Developer Agent] Miss
+```
 
-        for file in os.listdir(routes_dir):
+### ./agents/ui/ui_evaluator.py
+
+```python
+from tools.llm import generate
+import re
+
+
+class UIEvaluator:
+    def __init__(self):
+        pass
+
+    def evaluate(self, ui_code, idea):
+        trimmed_ui = ui_code[:1200]
+
+        prompt = f"""
+You are a world-class UI/UX critic.
+
+Your job is to evaluate and improve a SaaS landing page UI.
+
+STRICT RULES:
+- DO NOT be generic
+- DO NOT praise unnecessarily
+- Do NOT use line breaks inside JSON values
+- BE brutally honest
+- Focus on premium SaaS quality (like Stripe, Linear, Notion)
+- MUST use Tailwind-style spacing (p-4, p-6 etc.)
+- MUST include visual depth (shadow, gradient, or layered background)
+- MUST include clear CTA (large, high contrast)
+- MUST avoid flat or plain UI
+- MUST include at least one of:
+  • hover effect
+  • animation
+  • gradient
+
+---
+
+PRODUCT CONTEXT:
+{idea}
+
+---
+
+UI CODE (TRIMMED):
+{trimmed_ui}
+
+---
+
+Evaluate based on:
+
+1. Visual Hierarchy
+2. Spacing & Layout
+3. Modern Aesthetic
+4. Conversion Clarity
+5. Micro Polish
+
+---
+
+Return ONLY JSON:
+
+{{
+  "score": <number 1-10>,
+  "issues": ["issue1", "issue2"],
+  "fixes": ["fix1", "fix2"],
+  "improved_code": "<ONLY modified sections, NOT full page>"
+}}
+
+---
+
+CRITICAL BEHAVIOR:
+- If score < 8 → MUST improve aggressively
+- Make SIGNIFICANT visual improvements (not minor tweaks)
+- Improve layout, spacing, CTA visibility
+
+---
+
+CRITICAL OUTPUT RULES:
+- Output MUST be strictly valid JSON
+- NO text before or after JSON
+- NO markdown (```json)
+- Ensure JSON is complete (no truncation)
+
+---
+
+HTML RULES:
+- DO NOT return full HTML
+- ONLY improve key sections (hero, CTA, layout)
+- Keep improved_code under 1200 characters
+- Use SINGLE quotes for HTML attributes (class='hero')
+"""
+
+        response = generate(prompt)
+
+        match = re.search(r"\{.*\}", response, re.DOTALL)
+
+        if match:
+            return match.group(0).strip()
+
+        print("❌ No JSON found. RAW:", response[:300])
+        return response
+
+```
+
+### ./agents/ui/ui_improver.py
+
+```python
+import json
+import re
+
+
+class UIImprover:
+    def __init__(self, evaluator):
+        self.evaluator = evaluator
+
+    def improve(self, ui_code, idea, max_loops=2):
+        current_code = ui_code
+
+        for i in range(max_loops):
+            result = self.evaluator.evaluate(current_code, idea)
+
+            try:
+                match = re.search(r"\{.*\}", result, re.DOTALL)
+
+                if match:
+                    raw_json = match.group(0)
+
+                    # 🔥 STEP 1: Remove invalid control characters
+                    raw_json = raw_json.replace("\n", " ")
+                    raw_json = raw_json.replace("\r", " ")
+                    raw_json = raw_json.replace("\t", " ")
+
+                    # 🔥 STEP 2: Fix escape issues
+                    raw_json = raw_json.replace("\\", "\\\\")
+
+                    # 🔥 STEP 3: Remove broken quotes (optional safety)
+                    raw_json = re.sub(r'(?<!\\)"', '"', raw_json)
+
+                    parsed = json.loads(raw_json)
+
+                else:
+                    print("⚠️ No JSON found — retrying")
+                    continue
+
+            except Exception as e:
+                print("❌ JSON parsing failed — retrying:", e)
+                print("RAW (cleaned):", raw_json[:300])
+                continue
+
+            except Exception as e:
+                print("❌ JSON parsing failed — retrying:", e)
+                continue
+
+            score = parsed.get("score", 0)
+
+            print(f"🎯 UI Score (iteration {i + 1}): {score}")
+
+            improved_code = current_code
+
+            # Only apply small fixes (NOT full replacement)
+            if "fixes" in parsed:
+                print("⚡ Applying UI fixes (non-destructive)")
+
+            if score >= 8:
+                return improved_code
+
+            current_code = improved_code
+
+        return current_code
 
 ```
 
@@ -4423,6 +4579,74 @@ def generate_service_logic(module_name, idea):
         print
 ```
 
+### ./engine/__init__.py
+
+```python
+
+```
+
+### ./engine/ui_components.py
+
+```python
+def get_header_section(product_name, description):
+    return f"""
+  <section class='relative overflow-hidden bg-gradient-to-r from-indigo-500 to-purple-600 text-white min-h-[60vh] flex flex-col justify-center items-center text-center px-6 pt-32 pb-16'>
+
+  <div class='absolute inset-0 bg-gradient-to-br from-white/10 to-transparent backdrop-blur-sm pointer-events-none'></div>
+  <div class='absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,white,transparent)]'></div>
+
+  <div class='relative z-10 max-w-5xl mx-auto'>
+    <h1 class='text-6xl md:text-7xl font-extrabold tracking-tight mb-6'>
+      {product_name} — AI Powered Platform
+    </h1>
+
+    <p class='text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-8'>
+      {description}
+    </p>
+
+    <button class='mt-2 bg-indigo-600 text-white font-semibold px-10 py-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 hover:bg-indigo-700 transition'>
+      Get Started
+    </button>
+  </div>
+
+  </section>
+  """
+
+
+def get_features_section(modules):
+    sections = ""
+
+    for module in modules:
+        feature_items = ""
+
+        for f in module.get("features", [])[:3]:
+            feature_items += f"""
+          <li class='text-gray-600 text-sm leading-relaxed'>• {f}</li>
+          """
+
+        sections += f"""
+      <div onclick="window.location='/module/{module.get("name").lower().replace(" ", "-")}'"
+       class='cursor-pointer p-8 bg-white/80 backdrop-blur border border-gray-200 shadow-lg rounded-2xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] transition duration-300 ease-out'>
+
+          <div class='w-10 h-10 mb-4 rounded-lg bg-indigo-100 flex items-center justify-center'>
+    <span class='text-indigo-600 font-bold'>★</span>
+</div>
+
+<h3 class='text-xl font-bold mb-4 text-indigo-700'>
+              {module.get("name")}
+          </h3>
+
+          <ul class='space-y-2'>
+              {feature_items}
+          </ul>
+
+      </div>
+      """
+
+    return f"""
+  <section class='py-20 px-6 max-w-6xl m
+```
+
 ### ./orchestrator/__init__.py
 
 ```python
@@ -4501,8 +4725,8 @@ class Orchestrator:
 ```python
 from flask import Flask, render_template, redirect
 from flask import url_for
+from engine.ui_components import get_header_section, get_features_section
 
-PRODUCT_NAME = "AI Resume Builder"
 
 app = Flask(__name__)
 app.secret_key = "secret123"
@@ -4510,40 +4734,28 @@ app.secret_key = "secret123"
 
 @app.route("/")
 def landing():
+    # 🔥 DYNAMIC DATA (injected by Developer Agent later)
+    product_name = "Test Startup"
+    product_tagline = "Testing pipeline"
+
+    # <AUTO-GENERATED-MODULES>
+    modules = []
+    # </AUTO-GENERATED-MODULES>
+
     return render_template(
         "index.html",
-        product_name=PRODUCT_NAME,
-        product_tagline="Build ATS-ready resumes instantly",
-        product_headline="Create Perfect Resumes With AI",
-        product_description="Our AI analyzes job descriptions and builds optimized resumes.",
-        product_meta_description="AI powered resume builder",
-        product_keywords="AI resume, ATS resume builder",
-        product_about_title="Smart Resume Optimization",
-        product_about_description="Our AI improves your resume for recruiters.",
-        feature_1_title="AI Resume Analysis",
-        feature_1_description="Upload resume and get instant feedback",
-        feature_2_title="ATS Optimization",
-        feature_2_description="Ensure recruiters see your resume",
-        feature_3_title="One Click Export",
-        feature_3_description="Download recruiter-ready resumes",
-        plan_1_name="Free",
-        plan_2_name="Starter",
-        plan_2_price="9",
-        plan_3_name="Pro",
-        plan_3_price="29",
-        plan_4_name="Business",
-        plan_4_price="49",
-        testimonial_1_name="Sarah",
-        testimonial_1_text="This tool doubled my interview calls!",
-        testimonial_2_name="David",
-        testimonial_2_text="Best AI resume optimizer I’ve used.",
-        contact_email="support@example.com",
+        # BASIC INFO
+        product_name=product_name,
+        product_tagline=product_tagline,
+        # 🔥 GENERATED UI
+        header_section=get_header_section(product_name, product_tagline),
+        features_section=get_features_section(modules),
     )
 
 
 @app.route("/dashboard")
 def dashboard():
-    return render_template("dashboard.html", product_name=PRODUCT_NAME)
+    return render_template("dashboard.html", product_name="Test Startup")
 
 
 @app.route("/logout")
@@ -4619,37 +4831,6 @@ def extract_json(text):
             pass
 
     return None
-```
-
-### ./tools/llm.py
-
-```python
-from dotenv import load_dotenv
-import os
-from groq import Groq
-
-# Load environment variables
-load_dotenv()
-
-# Get API key
-api_key = os.getenv("GROQ_API_KEY")
-
-if not api_key:
-    raise ValueError("GROQ_API_KEY not found. Check your .env file.")
-
-# Initialize Groq client
-client = Groq(api_key=api_key)
-
-
-def generate(prompt):
-
-    chat_completion = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.7
-    )
-
-    return chat_completion.choices[0].message.content
 ```
 
 ### ./tools/memory.py
@@ -4961,6 +5142,48 @@ def get_{module_name}():
 
 OUTPUT ONLY VALID PYTHON FUNCTION.
 """
+
+```
+
+### ./tools/llm.py
+
+```python
+from dotenv import load_dotenv
+import os
+import time
+from groq import Groq
+
+# Load environment variables
+load_dotenv()
+
+# Get API key
+api_key = os.getenv("GROQ_API_KEY")
+
+if not api_key:
+    raise ValueError("GROQ_API_KEY not found. Check your .env file.")
+
+# Initialize Groq client
+client = Groq(api_key=api_key)
+
+
+def generate(prompt):
+    for attempt in range(3):
+        try:
+            chat_completion = client.chat.completions.create(
+                model="llama-3.1-8b-instant",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.7,
+            )
+
+            return chat_completion.choices[0].message.content
+
+        except Exception as e:
+            if "rate_limit" in str(e):
+                print("⏳ Rate limit hit, retrying in 7 sec...")
+                time.sleep(7)
+            else:
+                print("❌ LLM ERROR:", e)
+                raise e
 
 ```
 
