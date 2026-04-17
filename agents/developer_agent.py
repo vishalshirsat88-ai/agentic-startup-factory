@@ -274,6 +274,31 @@ class DeveloperAgent(AgentBase):
 
         print("[Developer Agent] Using SaaS template — skipping LLM generation")
         print("[Developer Agent] Enforcing backend API contract...")
+        # 🔥 LOVABLE UI OVERRIDE (SAFE — UI ONLY)
+        from engine.ui_generator import generate_full_ui
+
+        try:
+            # 🔥 FIX: MERGE MODULES INTO IDEA FOR UI
+            ui_input = {}
+
+            if isinstance(idea, dict):
+                ui_input = idea.copy()
+
+            # Inject modules from architecture
+            if architecture and isinstance(architecture, dict):
+                ui_input["modules"] = architecture.get("modules", [])
+
+            ui_html = generate_full_ui(ui_input)
+
+            index_path = os.path.join(project_dir, "templates", "index.html")
+
+            with open(index_path, "w") as f:
+                f.write(ui_html)
+
+            print("🔥 Lovable UI injected (FULL PAGE OVERRIDE)")
+
+        except Exception as e:
+            print("❌ Lovable UI injection failed:", e)
 
         if architecture:
             for module in architecture.get("modules", []):
