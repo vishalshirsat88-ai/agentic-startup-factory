@@ -11,6 +11,56 @@ from tools.file_writer import write_file
 print("AI LOGIC FILE:", engine.ai_logic.__file__)
 
 
+def validate_and_fix_ai_code(code):
+    try:
+        local_env = {}
+        exec(code, {}, local_env)
+
+        # 🔥 ensure at least one function exists
+        functions = [k for k, v in local_env.items() if callable(v)]
+
+        if not functions:
+            raise Exception("No function found in AI code")
+
+        # 🔥 NEW STRICT CHECK
+        fn = local_env[functions[0]]
+        result = fn()
+
+        if not isinstance(result, dict):
+            raise Exception("Function must return dict")
+
+        if "data" not in result:
+            raise Exception("Missing 'data' key")
+
+        print("✅ AI CODE VALID (STRICT)")
+        return code
+
+    except Exception as e:
+        print("❌ AI CODE BROKEN — FIXING...", str(e))
+
+        # basic structural fixes
+        if code.count("{") > code.count("}"):
+            code += "\n}"
+
+        if code.count("[") > code.count("]"):
+            code += "\n]"
+
+        try:
+            local_env = {}
+            exec(code, {}, local_env)
+
+            functions = [k for k, v in local_env.items() if callable(v)]
+            if not functions:
+                raise Exception("Still no function")
+
+            print("✅ AI CODE FIXED SUCCESSFULLY")
+            return code
+
+        except Exception:
+            print("🚨 AI CODE STILL BROKEN — APPLYING FALLBACK")
+            return None
+
+
 def indent_code(code, spaces=8):
     return "\n".join((" " * spaces) + line for line in code.split("\n"))
 
@@ -37,14 +87,17 @@ def generate_backend_files(project_dir, architecture):
         else:
             module_name = module
 
-        safe_name = module_name.lower()
+        safe_name = str(module_name).lower()
         safe_name = re.sub(r"[^a-z0-9_]", "_", safe_name)
 
+        class_name = "".join(word.capitalize() for word in safe_name.split("_"))
+
         model_code = f"""
-class {safe_name.capitalize()}Model:
-    def __init__(self):
-        pass
-"""
+        class {class_name}Model:
+            def __init__(self):
+                pass
+        """
+        model_code = textwrap.dedent(model_code).strip()
         write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
 
         print(f"\n[DEBUG] Calling AI logic for module: {safe_name}")
@@ -54,18 +107,23 @@ class {safe_name.capitalize()}Model:
         print(f"[DEBUG] Import successful")
 
         ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
-        # 🔥 VALIDATE AI LOGIC (CRITICAL FIX)
-        if "return" not in ai_logic:
-            print("⚠️ AI LOGIC INVALID → APPLYING SAFE FALLBACK")
+
+        # 🔥 NEW: VALIDATE AI CODE
+        validated_code = validate_and_fix_ai_code(ai_logic)
+
+        if not validated_code or "def get_" not in ai_logic:
+            print("⚠️ USING SAFE FALLBACK")
 
             ai_logic = f"""
-        def get_{safe_name}():
-            return {{
-                "status": "fallback",
-                "module": "{safe_name}"
-            }}
-        """
+def get_{safe_name}():
+    return {{
+        "status": "fallback",
+        "module": "{safe_name}"
+}}
+"""
             ai_logic = textwrap.dedent(ai_logic).strip()
+        else:
+            ai_logic = validated_code
 
         # 🔥 SAFETY FILTER (CRITICAL)
         unsafe_patterns = [
@@ -80,7 +138,7 @@ class {safe_name.capitalize()}Model:
         ]
 
         for pattern in unsafe_patterns:
-            if pattern in ai_logic:
+            if re.search(rf"\b{pattern}\b", ai_logic):
                 print(f"⚠️ Unsafe pattern detected: {pattern} — applying fallback")
 
                 ai_logic = f"""def get_{safe_name}():

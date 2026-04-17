@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-16 12:28:11.994027+00:00
+Generated: 2026-04-17 09:51:22.115815+00:00
 
 ## Project Structure
 
@@ -913,14 +913,6 @@ Generated: 2026-04-16 12:28:11.994027+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/v3xYVjUm9dgMi4WcVa2wb
-
-### Folder: ./.local/state/workflow-logs/X7hX28AvO9EYYBcD8Jzem
-
-### Folder: ./.local/state/workflow-logs/WfE-uMlcdVhjnyxDcQ5oI
-
-### Folder: ./.local/state/workflow-logs/5D1YBrYES7xkvwwugQAQQ
-
 ### Folder: ./.local/state/workflow-logs/q4eg_AWUmHqpQ59fDhHR_
 
 ### Folder: ./.local/state/workflow-logs/DxVZo4lfNK3NtG3K--mmu
@@ -952,6 +944,14 @@ Generated: 2026-04-16 12:28:11.994027+00:00
 ### Folder: ./.local/state/workflow-logs/h0pyNLGUHI9ap76ezs6-9
 
 ### Folder: ./.local/state/workflow-logs/QWOp7m0x32OJhLYoqvTYx
+
+### Folder: ./.local/state/workflow-logs/5k6gfCxZA0rS8MlEOCSs4
+
+### Folder: ./.local/state/workflow-logs/Mf4xpxI5cc1CubC9J8CmZ
+
+### Folder: ./.local/state/workflow-logs/exI7lKpuNXB3fZRB244AT
+
+### Folder: ./.local/state/workflow-logs/-qYzv8-vG-El6N0_IUMM6
 
 ### Folder: ./.local/skills
 
@@ -1352,10 +1352,10 @@ Generated: 2026-04-16 12:28:11.994027+00:00
 - template_renderer.py
 - auto_wire.py
 - db.py
-- file_generator.py
-- ai_logic.py
 - __init__.py
+- ai_logic.py
 - ui_components.py
+- file_generator.py
 
 ### Folder: ./logs
 
@@ -4427,80 +4427,10 @@ def init_db():
 
 ```
 
-### ./engine/file_generator.py
+### ./engine/__init__.py
 
 ```python
-import os
-import re
-import textwrap
-import engine.ai_logic
 
-# These are checker debugs
-print("🔥 DEBUG: File_generator LOADED v12")
-
-from tools.file_writer import write_file
-
-print("AI LOGIC FILE:", engine.ai_logic.__file__)
-
-
-def indent_code(code, spaces=8):
-    return "\n".join((" " * spaces) + line for line in code.split("\n"))
-
-
-def generate_backend_files(project_dir, architecture):
-    if not architecture:
-        print("[File Generator] No architecture provided")
-        return
-
-    modules = architecture.get("modules", [])
-
-    print("[File Generator] Generating backend structure...")
-
-    folders = ["models", "routes", "services"]
-
-    for folder in folders:
-        os.makedirs(os.path.join(project_dir, folder), exist_ok=True)
-
-    for module in modules:
-        print(f"🔥 DEBUG: Processing module → {module}")
-        # 🔥 Handle both string and dict modules
-        if isinstance(module, dict):
-            module_name = module.get("name", "core")
-        else:
-            module_name = module
-
-        safe_name = module_name.lower()
-        safe_name = re.sub(r"[^a-z0-9_]", "_", safe_name)
-
-        model_code = f"""
-class {safe_name.capitalize()}Model:
-    def __init__(self):
-        pass
-"""
-        write_file(f"{project_dir}/models/{safe_name}_model.py", model_code)
-
-        print(f"\n[DEBUG] Calling AI logic for module: {safe_name}")
-
-        from engine.ai_logic import generate_service_logic
-
-        print(f"[DEBUG] Import successful")
-
-        ai_logic = generate_service_logic(safe_name, architecture.get("idea", {}))
-        # 🔥 VALIDATE AI LOGIC (CRITICAL FIX)
-        if "return" not in ai_logic:
-            print("⚠️ AI LOGIC INVALID → APPLYING SAFE FALLBACK")
-
-            ai_logic = f"""
-        def get_{safe_name}():
-            return {{
-                "status": "fallback",
-                "module": "{safe_name}"
-            }}
-        """
-            ai_logic = textwrap.dedent(ai_logic).strip()
-
-        # 🔥 SAFETY FILTER (CRITICAL)
-        unsafe_pa
 ```
 
 ### ./engine/ai_logic.py
@@ -4579,38 +4509,35 @@ def generate_service_logic(module_name, idea):
         print
 ```
 
-### ./engine/__init__.py
-
-```python
-
-```
-
 ### ./engine/ui_components.py
 
 ```python
+import re
+
+
 def get_header_section(product_name, description):
     return f"""
-  <section class='relative overflow-hidden bg-gradient-to-r from-indigo-500 to-purple-600 text-white min-h-[60vh] flex flex-col justify-center items-center text-center px-6 pt-32 pb-16'>
+<section class='relative overflow-hidden bg-gradient-to-r from-indigo-500 to-purple-600 text-white min-h-[60vh] flex flex-col justify-center items-center text-center px-6 pt-32 pb-16'>
 
-  <div class='absolute inset-0 bg-gradient-to-br from-white/10 to-transparent backdrop-blur-sm pointer-events-none'></div>
-  <div class='absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,white,transparent)]'></div>
+<div class='absolute inset-0 bg-gradient-to-br from-white/10 to-transparent backdrop-blur-sm pointer-events-none'></div>
+<div class='absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,white,transparent)]'></div>
 
-  <div class='relative z-10 max-w-5xl mx-auto'>
-    <h1 class='text-6xl md:text-7xl font-extrabold tracking-tight mb-6'>
-      {product_name} — AI Powered Platform
-    </h1>
+<div class='relative z-10 max-w-5xl mx-auto'>
+  <h1 class='text-6xl md:text-7xl font-extrabold tracking-tight mb-6'>
+    {product_name} — AI Powered Platform
+  </h1>
 
-    <p class='text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-8'>
-      {description}
-    </p>
+  <p class='text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-8'>
+    {description}
+  </p>
 
-    <button class='mt-2 bg-indigo-600 text-white font-semibold px-10 py-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 hover:bg-indigo-700 transition'>
-      Get Started
-    </button>
-  </div>
+  <button class='mt-2 bg-indigo-600 text-white font-semibold px-10 py-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 hover:bg-indigo-700 transition'>
+    Get Access
+  </button>
+</div>
 
-  </section>
-  """
+</section>
+"""
 
 
 def get_features_section(modules):
@@ -4621,30 +4548,115 @@ def get_features_section(modules):
 
         for f in module.get("features", [])[:3]:
             feature_items += f"""
-          <li class='text-gray-600 text-sm leading-relaxed'>• {f}</li>
-          """
+        <li class='text-gray-600 text-sm leading-relaxed'>• {f}</li>
+        """
 
         sections += f"""
-      <div onclick="window.location='/module/{module.get("name").lower().replace(" ", "-")}'"
-       class='cursor-pointer p-8 bg-white/80 backdrop-blur border border-gray-200 shadow-lg rounded-2xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] transition duration-300 ease-out'>
+    <div class='cursor-pointer p-8 bg-white/80 backdrop-blur border border-gray-200 shadow-lg rounded-2xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] transition duration-300 ease-out'>
 
-          <div class='w-10 h-10 mb-4 rounded-lg bg-indigo-100 flex items-center justify-center'>
-    <span class='text-indigo-600 font-bold'>★</span>
-</div>
+        <div class='w-10 h-10 mb-4 rounded-lg bg-indigo-100 flex items-center justify-center'>
+            <span class='text-indigo-600 font-bold'>★</span>
+        </div>
 
-<h3 class='text-xl font-bold mb-4 text-indigo-700'>
-              {module.get("name")}
-          </h3>
+        <h3 class='text-xl font-bold mb-4 text-indigo-700'>
+            {module.get("name")}
+        </h3>
 
-          <ul class='space-y-2'>
-              {feature_items}
-          </ul>
+        <ul class='space-y-2'>
+            {feature_items}
+        </ul>
 
-      </div>
-      """
+    </div>
+    """
 
     return f"""
-  <section class='py-20 px-6 max-w-6xl m
+<section class='py-20 px-6 max-w-6xl mx-auto bg-gradient-to-b from-gray-50 to-white rounded-3xl'>
+
+    <h2 class='text-3xl font-bold text-center mb-1
+```
+
+### ./engine/file_generator.py
+
+```python
+import os
+import re
+import textwrap
+import engine.ai_logic
+
+# These are checker debugs
+print("🔥 DEBUG: File_generator LOADED v12")
+
+from tools.file_writer import write_file
+
+print("AI LOGIC FILE:", engine.ai_logic.__file__)
+
+
+def validate_and_fix_ai_code(code):
+    try:
+        local_env = {}
+        exec(code, {}, local_env)
+
+        # 🔥 ensure at least one function exists
+        functions = [k for k, v in local_env.items() if callable(v)]
+
+        if not functions:
+            raise Exception("No function found in AI code")
+
+        # 🔥 NEW STRICT CHECK
+        fn = local_env[functions[0]]
+        result = fn()
+
+        if not isinstance(result, dict):
+            raise Exception("Function must return dict")
+
+        if "data" not in result:
+            raise Exception("Missing 'data' key")
+
+        print("✅ AI CODE VALID (STRICT)")
+        return code
+
+    except Exception as e:
+        print("❌ AI CODE BROKEN — FIXING...", str(e))
+
+        # basic structural fixes
+        if code.count("{") > code.count("}"):
+            code += "\n}"
+
+        if code.count("[") > code.count("]"):
+            code += "\n]"
+
+        try:
+            local_env = {}
+            exec(code, {}, local_env)
+
+            functions = [k for k, v in local_env.items() if callable(v)]
+            if not functions:
+                raise Exception("Still no function")
+
+            print("✅ AI CODE FIXED SUCCESSFULLY")
+            return code
+
+        except Exception:
+            print("🚨 AI CODE STILL BROKEN — APPLYING FALLBACK")
+            return None
+
+
+def indent_code(code, spaces=8):
+    return "\n".join((" " * spaces) + line for line in code.split("\n"))
+
+
+def generate_backend_files(project_dir, architecture):
+    if not architecture:
+        print("[File Generator] No architecture provided")
+        return
+
+    modules = architecture.get("modules", [])
+
+    print("[File Generator] Generating backend structure...")
+
+    folders = ["models", "routes", "services"]
+
+    for folder in fold
 ```
 
 ### ./orchestrator/__init__.py
@@ -4725,51 +4737,80 @@ class Orchestrator:
 ```python
 from flask import Flask, render_template, redirect
 from flask import url_for
-from engine.ui_components import get_header_section, get_features_section
+from engine.ui_components import (
+    get_header_section,
+    get_features_section,
+    get_module_page_section,
+)
 
 
 app = Flask(__name__)
 app.secret_key = "secret123"
+# <AUTO-GENERATED-MODULES>
+GLOBAL_MODULES = [
+    {
+        "name": "Pipeline Management",
+        "description": "Manages testing pipeline workflow",
+        "features": ["Pipeline creation", "Test case management", "Execution control"],
+    },
+    {
+        "name": "Test Automation",
+        "description": "Automates testing process",
+        "features": [
+            "API integration",
+            "Test script management",
+            "Test result analysis",
+        ],
+    },
+    {
+        "name": "Reporting and Analytics",
+        "description": "Provides insights on testing performance",
+        "features": [
+            "Test result visualization",
+            "Performance metrics calculation",
+            "Alert system",
+        ],
+    },
+    {
+        "name": "User Management",
+        "description": "Manages user access and permissions",
+        "features": [
+            "User registration",
+            "Role-based access control",
+            "User authentication",
+        ],
+    },
+]
+# </AUTO-GENERATED-MODULES>
+
+
+def slugify(name):
+    return str(name).lower().replace(" ", "_")
 
 
 @app.route("/")
 def landing():
-    # 🔥 DYNAMIC DATA (injected by Developer Agent later)
-    product_name = "Test Startup"
-    product_tagline = "Testing pipeline"
-
-    # <AUTO-GENERATED-MODULES>
-    modules = []
-    # </AUTO-GENERATED-MODULES>
+    product_name = "{{ product_name }}"
+    product_tagline = "{{ product_tagline }}"
 
     return render_template(
         "index.html",
-        # BASIC INFO
         product_name=product_name,
         product_tagline=product_tagline,
-        # 🔥 GENERATED UI
         header_section=get_header_section(product_name, product_tagline),
-        features_section=get_features_section(modules),
+        features_section=get_features_section(GLOBAL_MODULES),
     )
 
 
-@app.route("/dashboard")
-def dashboard():
-    return render_template("dashboard.html", product_name="Test Startup")
+@app.route("/module/<module_name>")
+def module_page(module_name):
+    module_data = next(
+        (m for m in GLOBAL_MODULES if slugify(m["name"]) == module_name),
+        None,
+    )
 
-
-@app.route("/logout")
-def logout():
-    return redirect("/")
-
-
-if __name__ == "__main__":
-    import sys
-
-    port = int(sys.argv[1]) if len(sys.argv) > 1 else 5000
-
-    app.run(host="0.0.0.0", port=port, debug=True)
-
+    if not module_data:
+        return {"error": "Module not found"}, 40
 ```
 
 ### ./tools/__init__.py

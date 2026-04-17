@@ -163,6 +163,14 @@ def generate_service_logic(module_name, idea):
                     print("⚠️ MISSING DATA — PATCHING")
                     return fallback_function(module_name)
 
+                if ",," in content or '"",' in content:
+                    print("⚠️ REAL STRING CORRUPTION DETECTED")
+
+                # 🔒 FINAL SANITIZATION LAYER (NON-DESTRUCTIVE)
+                content = content.replace(",,", ",")
+                content = content.replace('",,', '",')
+                content = content.replace('", "', '", "')
+
                 return content
 
             except Exception as e:
