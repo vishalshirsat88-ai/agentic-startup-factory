@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-17 11:43:23.769489+00:00
+Generated: 2026-04-17 17:16:23.604194+00:00
 
 ## Project Structure
 
@@ -913,10 +913,6 @@ Generated: 2026-04-17 11:43:23.769489+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/TcaVdZYdciTzq7nSdNLLD
-
-### Folder: ./.local/state/workflow-logs/seGwbfxa8QvNuY2gmXfnI
-
 ### Folder: ./.local/state/workflow-logs/hmjuqbo6IJsz2RO3httNf
 
 ### Folder: ./.local/state/workflow-logs/S6OGAXYwyXB8HHYbUpigb
@@ -952,6 +948,10 @@ Generated: 2026-04-17 11:43:23.769489+00:00
 ### Folder: ./.local/state/workflow-logs/twJLSTPI1QoWz5vFA5TiK
 
 ### Folder: ./.local/state/workflow-logs/5utK-uRumNhEMA3rjaUdT
+
+### Folder: ./.local/state/workflow-logs/QfyN_Lp3F7_m3lYTny8qX
+
+### Folder: ./.local/state/workflow-logs/HdeF2FyPN2VoJ_cmpwrD-
 
 ### Folder: ./.local/skills
 
@@ -1399,10 +1399,11 @@ Generated: 2026-04-17 11:43:23.769489+00:00
 - auto_wire.py
 - db.py
 - __init__.py
-- ai_logic.py
-- file_generator.py
 - template_renderer.py
 - ui_components.py
+- section_generator.py
+- ai_logic.py
+- file_generator.py
 - ui_generator.py
 
 ### Folder: ./logs
@@ -4585,166 +4586,6 @@ def init_db():
 
 ```
 
-### ./engine/ai_logic.py
-
-```python
-import requests
-import os
-import textwrap
-
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-print("🔥🔥 NEW AI_LOGIC FILE LOADED v3🔥🔥")
-
-
-def fallback_function(module_name):
-    return textwrap.dedent(f"""\
-    def get_{module_name}():
-        return {{
-            "status": "success",
-            "data": {{
-                "{module_name}": [
-                    {{
-                        "id": 1,
-                        "name": "Fallback Data",
-                        "status": "active",
-                        "amount": 100
-                    }}
-                ],
-                "total": 1
-            }}
-        }}
-    """)
-
-
-def generate_service_logic(module_name, idea):
-    print(f"\n[AI LOGIC] Generating logic for module: {module_name}")
-
-    if not GROQ_API_KEY:
-        print("❌ GROQ KEY NOT FOUND — using fallback")
-
-        return fallback_function(module_name)
-
-    from tools.domain_prompt_builder import build_domain_prompt
-
-    prompt = build_domain_prompt(module_name, idea)
-
-    # AFTER
-    idea_name = idea.get("name") if isinstance(idea, dict) else "unknown"
-    print("[AI CONTEXT]", idea_name, "| Module:", module_name)
-    url = "https://api.groq.com/openai/v1/chat/completions"
-
-    headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
-        "Content-Type": "application/json",
-    }
-
-    data = {
-        "model": "llama-3.1-8b-instant",
-        "messages": [{"role": "user", "content": prompt}],
-    }
-
-    try:
-        response = requests.post(url, headers=headers, json=data)
-        print("[AI LOGIC] STATUS CODE:", response.status_code)
-        print("[AI LOGIC] RAW TEXT:", response.text[:500])
-
-        try:
-            result = response.json()
-        except Exception as e:
-            print("❌ JSON PARSE FAILED:", e)
-            print("RAW TEXT RESPONSE:", response.text)
-
-            return fallback_function(module_name)
-
-        # 🔥 FORCE PRINT (NO CONDITIONS)
-        print("\n================ RAW GROQ RESPONSE - V3 ================")
-        print
-```
-
-### ./engine/file_generator.py
-
-```python
-import os
-import re
-import textwrap
-import engine.ai_logic
-
-# These are checker debugs
-print("🔥 DEBUG: File_generator LOADED v12")
-
-from tools.file_writer import write_file
-
-print("AI LOGIC FILE:", engine.ai_logic.__file__)
-
-
-def validate_and_fix_ai_code(code):
-    try:
-        local_env = {}
-        exec(code, {}, local_env)
-
-        # 🔥 ensure at least one function exists
-        functions = [k for k, v in local_env.items() if callable(v)]
-
-        if not functions:
-            raise Exception("No function found in AI code")
-
-        # 🔥 NEW STRICT CHECK
-        fn = local_env[functions[0]]
-        result = fn()
-
-        if not isinstance(result, dict):
-            raise Exception("Function must return dict")
-
-        if "data" not in result:
-            raise Exception("Missing 'data' key")
-
-        print("✅ AI CODE VALID (STRICT)")
-        return code
-
-    except Exception as e:
-        print("❌ AI CODE BROKEN — FIXING...", str(e))
-
-        # basic structural fixes
-        if code.count("{") > code.count("}"):
-            code += "\n}"
-
-        if code.count("[") > code.count("]"):
-            code += "\n]"
-
-        try:
-            local_env = {}
-            exec(code, {}, local_env)
-
-            functions = [k for k, v in local_env.items() if callable(v)]
-            if not functions:
-                raise Exception("Still no function")
-
-            print("✅ AI CODE FIXED SUCCESSFULLY")
-            return code
-
-        except Exception:
-            print("🚨 AI CODE STILL BROKEN — APPLYING FALLBACK")
-            return None
-
-
-def indent_code(code, spaces=8):
-    return "\n".join((" " * spaces) + line for line in code.split("\n"))
-
-
-def generate_backend_files(project_dir, architecture):
-    if not architecture:
-        print("[File Generator] No architecture provided")
-        return
-
-    modules = architecture.get("modules", [])
-
-    print("[File Generator] Generating backend structure...")
-
-    folders = ["models", "routes", "services"]
-
-    for folder in fold
-```
-
 ### ./engine/template_renderer.py
 
 ```python
@@ -4914,15 +4755,261 @@ Requirements:
        
 ```
 
+### ./engine/section_generator.py
+
+```python
+def detect_domain(product):
+    text = (product.get("name", "") + " " + product.get("description", "")).lower()
+
+    if "ai" in text:
+        return "ai"
+
+    elif "test" in text or "pipeline" in text:
+        return "testing"
+
+    elif "job" in text or "career" in text:
+        return "job"
+
+    elif "marketing" in text:
+        return "marketing"
+
+    else:
+        return "generic"
+
+
+def generate_sections(product):
+    name = product.get("name", "AI Product")
+    description = product.get("description", "")
+    modules = product.get("modules", [])
+
+    domain = detect_domain(product)
+
+    sections = []
+
+    # 🔥 HERO
+    sections.append(
+        {"type": "hero", "title": name, "subtitle": description, "cta": "Get Access"}
+    )
+
+    # 🔥 DOMAIN-SPECIFIC SECTIONS
+
+    if domain == "testing":
+        sections.append(
+            {
+                "type": "pain",
+                "points": [
+                    "Flaky test pipelines",
+                    "Manual debugging takes hours",
+                    "No visibility into failures",
+                    "Slow release cycles",
+                ],
+            }
+        )
+
+        sections.append(
+            {
+                "type": "solution",
+                "text": f"{name} automates testing workflows and debugging",
+            }
+        )
+
+    elif domain == "job":
+        sections.append(
+            {
+                "type": "pain",
+                "points": [
+                    "Applying to hundreds of jobs",
+                    "No response from recruiters",
+                    "Low salary visibility",
+                    "Time-consuming applications",
+                ],
+            }
+        )
+
+        sections.append(
+            {"type": "solution", "text": f"{name} helps you land better jobs faster"}
+        )
+
+    elif domain == "ai":
+        sections.append(
+            {
+                "type": "pain",
+                "points": [
+                    "Too many tools to manage",
+                    "Low p
+```
+
+### ./engine/ai_logic.py
+
+```python
+import requests
+import os
+import textwrap
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+print("🔥🔥 NEW AI_LOGIC FILE LOADED v3🔥🔥")
+
+
+def fallback_function(module_name):
+    return textwrap.dedent(f"""\
+    def get_{module_name}():
+        return {{
+            "status": "success",
+            "data": {{
+                "{module_name}": [
+                    {{
+                        "id": 1,
+                        "name": "Fallback Data",
+                        "status": "active",
+                        "amount": 100
+                    }}
+                ],
+                "total": 1
+            }}
+        }}
+    """)
+
+
+def generate_service_logic(module_name, idea):
+    print(f"\n[AI LOGIC] Generating logic for module: {module_name}")
+
+    if not GROQ_API_KEY:
+        print("❌ GROQ KEY NOT FOUND — using fallback")
+
+        return fallback_function(module_name)
+
+    from tools.domain_prompt_builder import build_domain_prompt
+
+    prompt = build_domain_prompt(module_name, idea)
+
+    # AFTER
+    idea_name = idea.get("name") if isinstance(idea, dict) else "unknown"
+    print("[AI CONTEXT]", idea_name, "| Module:", module_name)
+    url = "https://api.groq.com/openai/v1/chat/completions"
+
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json",
+    }
+
+    data = {
+        "model": "llama-3.1-8b-instant",
+        "messages": [{"role": "user", "content": prompt}],
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        print("[AI LOGIC] STATUS CODE:", response.status_code)
+        print("[AI LOGIC] RAW TEXT:", response.text[:500])
+
+        try:
+            result = response.json()
+        except Exception as e:
+            print("❌ JSON PARSE FAILED:", e)
+            print("RAW TEXT RESPONSE:", response.text)
+
+            return fallback_function(module_name)
+
+        # 🔥 FORCE PRINT (NO CONDITIONS)
+        print("\n================ RAW GROQ RESPONSE - V3 ================")
+        print
+```
+
+### ./engine/file_generator.py
+
+```python
+import os
+import re
+import textwrap
+import engine.ai_logic
+
+# These are checker debugs
+print("🔥 DEBUG: File_generator LOADED v12")
+
+from tools.file_writer import write_file
+
+print("AI LOGIC FILE:", engine.ai_logic.__file__)
+
+
+def validate_and_fix_ai_code(code):
+    try:
+        local_env = {}
+        exec(code, {}, local_env)
+
+        # 🔥 ensure at least one function exists
+        functions = [k for k, v in local_env.items() if callable(v)]
+
+        if not functions:
+            raise Exception("No function found in AI code")
+
+        # 🔥 NEW STRICT CHECK
+        fn = local_env[functions[0]]
+        result = fn()
+
+        if not isinstance(result, dict):
+            raise Exception("Function must return dict")
+
+        if "data" not in result:
+            raise Exception("Missing 'data' key")
+
+        print("✅ AI CODE VALID (STRICT)")
+        return code
+
+    except Exception as e:
+        print("❌ AI CODE BROKEN — FIXING...", str(e))
+
+        # basic structural fixes
+        if code.count("{") > code.count("}"):
+            code += "\n}"
+
+        if code.count("[") > code.count("]"):
+            code += "\n]"
+
+        try:
+            local_env = {}
+            exec(code, {}, local_env)
+
+            functions = [k for k, v in local_env.items() if callable(v)]
+            if not functions:
+                raise Exception("Still no function")
+
+            print("✅ AI CODE FIXED SUCCESSFULLY")
+            return code
+
+        except Exception:
+            print("🚨 AI CODE STILL BROKEN — APPLYING FALLBACK")
+            return None
+
+
+def indent_code(code, spaces=8):
+    return "\n".join((" " * spaces) + line for line in code.split("\n"))
+
+
+def generate_backend_files(project_dir, architecture):
+    if not architecture:
+        print("[File Generator] No architecture provided")
+        return
+
+    modules = architecture.get("modules", [])
+
+    print("[File Generator] Generating backend structure...")
+
+    folders = ["models", "routes", "services"]
+
+    for folder in fold
+```
+
 ### ./engine/ui_generator.py
 
 ```python
-def generate_full_ui(product):
-    name = product.get("name", "AI Product")
-    description = product.get("description", "AI powered platform")
-    modules = product.get("modules", [])
+from engine.section_generator import generate_sections
+import random
+import re
 
-    # 🎨 Dynamic gradient (domain-aware feel)
+
+def generate_full_ui(product):
+    sections = generate_sections(product)
+
     gradients = [
         "from-indigo-500 to-purple-600",
         "from-blue-500 to-cyan-500",
@@ -4930,62 +5017,51 @@ def generate_full_ui(product):
         "from-green-500 to-emerald-600",
     ]
 
-    import random
-
     gradient = random.choice(gradients)
 
-    # 🔥 FEATURES GRID (RESTORE CARDS — BUT SMART)
-    features_html = ""
-    for m in modules:
-        features_html += f"""
-      <div class="group p-6 bg-white rounded-xl shadow hover:shadow-xl transition">
-          <h3 class="text-xl font-semibold mb-2 group-hover:text-indigo-600">
-              {m["name"]}
-          </h3>
-          <p class="text-gray-600 mb-3">{m["description"]}</p>
-          <ul class="text-sm text-gray-500">
-              {"".join([f"<li>• {f}</li>" for f in m.get("features", [])[:3]])}
-          </ul>
-      </div>
-      """
+    html_sections = ""
 
-    return f"""
-<!doctype html>
-<html>
-<head>
-<script src="https://cdn.tailwindcss.com"></script>
-<title>{name}</title>
-</head>
+    for section in sections:
+        # 🔥 HERO
+        if section["type"] == "hero":
+            html_sections += f"""
+            <section class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r {gradient} text-white px-6">
+                <h1 class="text-5xl md:text-6xl font-bold mb-4">{section["title"]}</h1>
+                <p class="text-lg mb-6">{section["subtitle"]}</p>
+                <a href="/dashboard" class="bg-white text-indigo-600 px-6 py-3 rounded-lg shadow hover:scale-105 transition">
+                    {section["cta"]}
+                </a>
+            </section>
+            """
 
-<body class="bg-gray-50">
+        # 🔥 PAIN
+        elif section["type"] == "pain":
+            points = "".join(
+                [f"<li class='mb-2'>❌ {p}</li>" for p in section.get("points", [])]
+            )
 
-<!-- 🔥 HERO -->
-<section class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r {gradient} text-white px-6">
+            html_sections += f"""
+            <section class="py-20 bg-gray-900 text-white text-center">
+                <h2 class="text-3xl font-bold mb-6">Problems You Face</h2>
+                <ul class="max-w-xl mx-auto text-lg">{points}</ul>
+            </section>
+            """
 
-<h1 class="text-5xl md:text-6xl font-bold mb-4">{name}</h1>
-<p class="text-lg md:text-xl mb-6 opacity-90 max-w-xl">{description}</p>
+        # 🔥 SOLUTION
+        elif section["type"] == "solution":
+            html_sections += f"""
+            <section class="py-20 text-center">
+                <h2 class="text-3xl font-bold mb-4">The Solution</h2>
+                <p class="text-lg text-gray-600">{section["text"]}</p>
+            </section>
+            """
 
-<a href="/dashboard" class="bg-white text-indigo-600 px-6 py-3 rounded-lg shadow hover:scale-105 transition">
-  Get Access
-</a>
-
-</section>
-
-<!-- 🔥 FEATURES -->
-<section class="py-20 px-6 max-w-6xl mx-auto">
-<h2 class="text-3xl font-bold text-center mb-12">
-  Product Capabilities
-</h2>
-
-<div class="grid md:grid-cols-3 gap-8">
-  {features_html}
-</div>
-</section>
-
-</body>
-</html>
-"""
-
+        # 🔥 FEATURES
+        elif section["type"] == "features":
+            cards = ""
+            for m in section["modules"]:
+                cards += f"""
+   
 ```
 
 ### ./orchestrator/__init__.py

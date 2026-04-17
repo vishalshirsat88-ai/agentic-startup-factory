@@ -43,11 +43,12 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - 843c1fd5a148da85e523c1b4ee680226f89986aa
 - 9
 - Fxfvn9WZe_o9GID5-_UnA
+- HdeF2FyPN2VoJ_cmpwrD-
 - HxP1oiyH84lHYOYw3v1Wb
 - Mf4xpxI5cc1CubC9J8CmZ
 - QWOp7m0x32OJhLYoqvTYx
+- QfyN_Lp3F7_m3lYTny8qX
 - S6OGAXYwyXB8HHYbUpigb
-- TcaVdZYdciTzq7nSdNLLD
 - WYlZOI4WMsP_PTf2PBOat
 - __pycache__
 - _async
@@ -311,7 +312,6 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - scribe
 - scripts
 - scss
-- seGwbfxa8QvNuY2gmXfnI
 - secondary_skills
 - security_scan
 - seo-auditor
@@ -391,4 +391,4 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 
 ## Generated
 
-2026-04-17 11:43:24.068618+00:00
+2026-04-17 17:16:23.989473+00:00

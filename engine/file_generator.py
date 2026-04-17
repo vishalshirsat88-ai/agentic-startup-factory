@@ -111,7 +111,7 @@ def generate_backend_files(project_dir, architecture):
         # 🔥 NEW: VALIDATE AI CODE
         validated_code = validate_and_fix_ai_code(ai_logic)
 
-        if not validated_code or "def get_" not in ai_logic:
+        if not validated_code:
             print("⚠️ USING SAFE FALLBACK")
 
             ai_logic = f"""
@@ -125,20 +125,17 @@ def get_{safe_name}():
         else:
             ai_logic = validated_code
 
-        # 🔥 SAFETY FILTER (CRITICAL)
+        # 🔥 SAFETY FILTER (FIXED - PRODUCTION SAFE)
         unsafe_patterns = [
-            "users",
-            "datetime",
-            "timedelta",
-            "user_authenticated",
-            "encrypt_",
-            "verify_",
-            "hash_",
-            "store_data",
+            "os.system",
+            "subprocess",
+            "eval(",
+            "exec(",
+            "__import__",
         ]
 
         for pattern in unsafe_patterns:
-            if re.search(rf"\b{pattern}\b", ai_logic):
+            if re.search(rf"\b{re.escape(pattern)}\b", ai_logic):
                 print(f"⚠️ Unsafe pattern detected: {pattern} — applying fallback")
 
                 ai_logic = f"""def get_{safe_name}():

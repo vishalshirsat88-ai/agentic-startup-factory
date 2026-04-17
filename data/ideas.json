@@ -971,5 +971,19 @@
     "score": 7,
     "status": "approved",
     "processed": true
+  },
+  {
+    "id": 71,
+    "idea": {
+      "name": "EchoGuardian",
+      "description": "AI-powered cybersecurity mentor for small businesses",
+      "market": "Small to medium-sized businesses",
+      "revenue_model": "Subscription-based monitoring and threat response service"
+    },
+    "name": "EchoGuardian",
+    "description": "AI-powered cybersecurity mentor for small businesses",
+    "score": 6,
+    "status": "approved",
+    "processed": true
   }
 ]

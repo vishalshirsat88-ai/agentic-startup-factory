@@ -131,7 +131,9 @@ def generate_service_logic(module_name, idea):
                     content += "\n]"
 
                 # 🔥 FINAL VALIDATION
-                if "return" not in content:
+                if "return" not in content or '"status"' not in content:
+                    print("❌ INVALID FUNCTION STRUCTURE")
+                    return fallback_function(module_name)
                     print("❌ INVALID FUNCTION — NO RETURN")
 
                     return fallback_function(module_name)
@@ -162,6 +164,10 @@ def generate_service_logic(module_name, idea):
                 if '"data"' not in content:
                     print("⚠️ MISSING DATA — PATCHING")
                     return fallback_function(module_name)
+
+                # 🔥 NORMALIZE COMMON FIELDS (VERY IMPORTANT)
+                content = content.replace('"users"', f'"{module_name}_list"')
+                content = content.replace("'users'", f"'{module_name}_list'")
 
                 if ",," in content or '"",' in content:
                     print("⚠️ REAL STRING CORRUPTION DETECTED")
