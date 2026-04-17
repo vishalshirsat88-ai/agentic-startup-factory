@@ -1,6 +1,5 @@
 import sqlite3
 
-print("🔥 DEBUG: DB MODULE LOADED v1")
 
 DB_PATH = "database.db"
 

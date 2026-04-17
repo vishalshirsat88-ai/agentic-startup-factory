@@ -89,30 +89,61 @@ Requirements:
     sections = ""
 
     for module in modules:
-        feature_items = ""
+        module_name = module.get("name")
+        module_slug = re.sub(r"[^a-z0-9]+", "_", module_name.lower()).strip("_")
 
+        feature_items = ""
         for f in module.get("features", [])[:3]:
-            feature_items += f"""
-        <li class='text-gray-600 text-sm leading-relaxed'>• {f}</li>
-        """
+            feature_items += f"<li class='text-gray-600 text-sm'>• {f}</li>"
 
         sections += f"""
-    <div class='cursor-pointer p-8 bg-white/80 backdrop-blur border border-gray-200 shadow-lg rounded-2xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] transition duration-300 ease-out'>
+        <div class='p-6 bg-white rounded-2xl shadow-lg'>
 
-        <div class='w-10 h-10 mb-4 rounded-lg bg-indigo-100 flex items-center justify-center'>
-            <span class='text-indigo-600 font-bold'>★</span>
+            <h3 class='text-lg font-bold mb-3 text-indigo-700'>
+                {module_name}
+            </h3>
+
+            <ul class='mb-4'>
+                {feature_items}
+            </ul>
+
+            <div id="insights-{module_slug}" class="text-sm text-gray-500">
+                Loading insights...
+            </div>
+
         </div>
 
-        <h3 class='text-xl font-bold mb-4 text-indigo-700'>
-            {module.get("name")}
-        </h3>
+        <script>
+        fetch("/api/{module_slug}")
+          .then(res => res.json())
+          .then(data => {{
+              const insights = (data && data.insights) ? data.insights : {{}};
 
-        <ul class='space-y-2'>
-            {feature_items}
-        </ul>
+              let html = `
+                  <div class="mt-2 space-y-2 text-sm">
+                      <div><strong>🧠</strong> ${{insights.summary || ""}}</div>
 
-    </div>
-    """
+                      ${{(insights.insights || []).map(i => `
+                          <div>✔ ${{i}}</div>
+                      `).join("")}}
+
+                      ${{(insights.risks || []).map(r => `
+                          <div style="color:red;">⚠ ${{r}}</div>
+                      `).join("")}}
+
+                      ${{(insights.recommendations || []).map(r => `
+                          <div style="color:green;">💡 ${{r}}</div>
+                      `).join("")}}
+                  </div>
+              `;
+
+              document.getElementById("insights-{module_slug}").innerHTML = html;
+          }})
+          .catch(() => {{
+              document.getElementById("insights-{module_slug}").innerHTML = "No insights";
+          }});
+        </script>
+        """
 
     return f"""
 <section class='py-20 px-6 max-w-6xl mx-auto bg-gradient-to-b from-gray-50 to-white rounded-3xl'>
@@ -215,6 +246,8 @@ def get_module_page_section(module):
     fetch("/api/{module_slug}")
       .then(res => res.json())
       .then(data => {{
+      // 🔥 FETCH AI INSIGHTS FROM BACKEND
+      const insights = data.insights || {{}};
           let items = [];
     
           if (data && data.data) {{
@@ -224,19 +257,90 @@ def get_module_page_section(module):
     
           let html = "";
 
+          // 🔥 TEST LINE (ENGINE PROPAGATION CHECK)
+          
+
           if (items.length === 0) {{
-              html = "<p class='text-gray-500'>No data available</p>";
-          }} else {{
-              html = "<ul class='space-y-2'>";
-
-              items.forEach(item => {{
-                  html += `<li class='p-3 bg-gray-50 rounded'>
-                      ${{item.name || "N/A"}} - ${{item.status || "N/A"}} ${{item.amount ? "- ₹" + item.amount : ""}}
-                  </li>`;
-              }});
-
-              html += "</ul>";
-          }}
+                html += "<p class='text-gray-500'>No data available</p>";
+            }} else {{
+                html = "<ul class='space-y-2'>";
+            
+                let active = 0;
+                let inactive = 0;
+                let totalAmount = 0;
+                let hasAmount = false;
+            
+                items.forEach(item => {{
+                    let status = (item.status || "").toLowerCase();
+            
+                    if (status === "active") active++;
+                    if (status === "inactive") inactive++;
+            
+                    if (item.amount) {{
+                        totalAmount += item.amount;
+                        hasAmount = true;
+                    }}
+            
+                    html += `<li class='p-3 bg-gray-50 rounded'>
+                        ${{item.name || "N/A"}} - ${{item.status || "N/A"}} ${{item.amount ? "- ₹" + item.amount : ""}}
+                    </li>`;
+                }});
+            
+                html += "</ul>";
+            
+                // 🔥 AI INSIGHTS (FROM BACKEND)
+                html += `
+                <div class="mt-8 space-y-6">
+                
+                    <div class="p-5 rounded-2xl bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-100 shadow-sm">
+                        <h3 class="text-lg font-semibold text-indigo-700 mb-1">🧠 AI Summary</h3>
+                        <p class="text-sm text-gray-700">
+                            ${{insights.summary || "No summary available"}}
+                        </p>
+                    </div>
+                
+                    <div class="p-5 rounded-2xl bg-white border border-gray-200 shadow-sm">
+                        <h3 class="text-md font-semibold text-gray-800 mb-3">✨ Key Insights</h3>
+                        <div class="space-y-2">
+                            ${{(insights.insights || []).map(i => `
+                                <div class="flex items-start gap-2 text-sm text-gray-700">
+                                    <span class="text-indigo-500">•</span>
+                                    <span>${{i}}</span>
+                                </div>
+                            `).join("")}}
+                        </div>
+                    </div>
+                
+                    ${{(insights.risks && insights.risks.length) ? `
+                    <div class="p-5 rounded-2xl bg-red-50 border border-red-200 shadow-sm">
+                        <h3 class="text-md font-semibold text-red-700 mb-3">⚠️ Risks</h3>
+                        <div class="space-y-2">
+                            ${{insights.risks.map(r => `
+                                <div class="flex items-start gap-2 text-sm text-red-600">
+                                    <span>⚠️</span>
+                                    <span>${{r}}</span>
+                                </div>
+                            `).join("")}}
+                        </div>
+                    </div>
+                    ` : ""}}
+                
+                    ${{(insights.recommendations && insights.recommendations.length) ? `
+                    <div class="p-5 rounded-2xl bg-green-50 border border-green-200 shadow-sm">
+                        <h3 class="text-md font-semibold text-green-700 mb-3">✅ Recommendations</h3>
+                        <div class="space-y-2">
+                            ${{insights.recommendations.map(r => `
+                                <div class="flex items-start gap-2 text-sm text-green-700">
+                                    <span>✔</span>
+                                    <span>${{r}}</span>
+                                </div>
+                            `).join("")}}
+                        </div>
+                    </div>
+                    ` : ""}}
+                
+                </div>
+                `;
           document.getElementById("data-container").innerHTML = html;
       }})
       .catch(() => {{

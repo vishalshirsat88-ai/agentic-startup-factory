@@ -1000,5 +1000,27 @@
       "status": "fail",
       "error": "\nTraceback (most recent call last):\n  File \"/home/runner/workspace/projects/test-startup-24993/app.py\", line 8, in <module>\n    from engine.ui_components import (\n  File \"/home/runner/workspace/projects/test-startup-24993/engine/ui_components.py\", line 2, in <module>\n    from tools.llm import generate\nModuleNotFoundError: No module named 'tools'\n"
     }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-51669",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": "\nTraceback (most recent call last):\n  File \"/home/runner/workspace/projects/test-startup-51669/app.py\", line 8, in <module>\n    from engine.ui_components import (\nModuleNotFoundError: No module named 'engine'\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-51726",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": "\nTraceback (most recent call last):\n  File \"/home/runner/workspace/projects/test-startup-51726/app.py\", line 7, in <module>\n    from engine.ui_components import (\nModuleNotFoundError: No module named 'engine'\n"
+    }
   }
 ]

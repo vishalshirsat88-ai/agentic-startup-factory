@@ -152,6 +152,38 @@ fetch('/api/{endpoint}')
     const payload = response.data || response;
     el.innerHTML = renderData(payload);
 
+    // 🔥 INSIGHTS RENDERING (NEW)
+    if (response.insights) {{
+        const insights = response.insights;
+
+        let insightHTML = "<div style='margin-top:15px;padding:15px;background:#f8fafc;border-radius:10px;border:1px solid #e2e8f0;'>";
+
+        insightHTML += "<h4 style='margin-bottom:8px;'>🧠 Summary</h4>";
+        insightHTML += "<p>" + (insights.summary || "No summary available") + "</p>";
+        
+        insightHTML += "<h4>📊 Insights</h4><ul>";
+        (insights.insights || []).forEach(function(i) {{
+            insightHTML += "<li>" + i + "</li>";
+        }});
+        insightHTML += "</ul>";
+        
+        insightHTML += "<h4>⚠️ Risks</h4><ul>";
+        (insights.risks || []).forEach(function(r) {{
+            insightHTML += "<li>" + r + "</li>";
+        }});
+        insightHTML += "</ul>";
+        
+        insightHTML += "<h4>💡 Recommendations</h4><ul>";
+        (insights.recommendations || []).forEach(function(r) {{
+            insightHTML += "<li>" + r + "</li>";
+        }});
+        insightHTML += "</ul>";
+        
+        insightHTML += "</div>";
+
+        el.innerHTML += insightHTML;
+    }}
+
     GLOBAL_DATA["{endpoint}"] = payload;
     renderKPIs(GLOBAL_DATA);
 }})

@@ -11,7 +11,6 @@ import shutil
 import traceback  # add at top if not already
 
 # These are checker debugs
-print("🔥 DEBUG: DeveloperAgent LOADED v2")
 
 
 class DeveloperAgent(AgentBase):
@@ -108,6 +107,8 @@ class DeveloperAgent(AgentBase):
         print("EXTRACTED PROJECT NAME:", project_name)
 
         project_dir = f"projects/{project_name}"
+        # 🔥 USE SHARED ENGINE (NO COPY)
+
         print("📁 PROJECT DIR SET:", project_dir)
         print("\n================ PHASE 1: ARCHITECTURE DEBUG ================")
         print("PRODUCT NAME:", idea.get("name") if isinstance(idea, dict) else "N/A")
@@ -130,14 +131,6 @@ class DeveloperAgent(AgentBase):
 
         self.copy_template(project_dir)
         # 🔥 COPY ENGINE INTO GENERATED PROJECT (CRITICAL FIX)
-        engine_src = "engine"
-        engine_dest = os.path.join(project_dir, "engine")
-
-        if os.path.exists(engine_src):
-            shutil.copytree(engine_src, engine_dest, dirs_exist_ok=True)
-            print("✅ Engine copied into project")
-        else:
-            print("❌ Engine folder missing")
 
         app_file = os.path.join(project_dir, "app.py")
 

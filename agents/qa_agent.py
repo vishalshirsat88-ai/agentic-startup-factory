@@ -5,7 +5,6 @@ import os
 
 
 # These are checker debugs
-print("🔥 DEBUG: QA_Agent Loaded v2")
 
 
 class QAAgent:

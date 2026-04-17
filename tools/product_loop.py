@@ -1,7 +1,6 @@
 import os
 
 # These are checker debugs
-print("🔥 DEBUG: Product_loop v3 Loaded")
 
 
 class ProductLoop:

@@ -254,6 +254,46 @@ def add_{safe_name}(name):
         @{safe_name}_bp.route('/api/{safe_name}', methods=['GET'])
         def {safe_name}_route():
             result = execute()
+        
+            try:
+
+                
+                from engine.insight_engine import generate_insights
+                
+                if not result or not isinstance(result, dict):
+                    result = {{}}
+                    
+                data_block = result.get("data", {{}})
+
+                # Handle nested AI response safely
+                if isinstance(data_block, dict) and "data" in data_block:
+                    data_block = data_block.get("data", {{}})
+                
+                module_data = data_block.get("{safe_name}", [])
+                
+                print("🔥 MODULE DATA:", module_data)
+                
+
+                insights = generate_insights("{safe_name}", module_data)
+                
+                result["insights"] = insights
+        
+            except Exception as e:
+                print("⚠️ Insight generation failed:", e)
+                result["insights"] = {{
+                    "summary": "Insight unavailable",
+                    "insights": [],
+                    "risks": [],
+                    "recommendations": []
+                }}
+
+      
+            print("🚨 API HIT:", "{safe_name}")
+            print("🚨 FINAL RESULT:", result)
+            print("🚨 INSIGHTS BLOCK:", result.get("insights"))
+
+                
+        
             return jsonify(result), 200
 
 
@@ -269,12 +309,36 @@ def add_{safe_name}(name):
         write_file(f"{project_dir}/routes/{safe_name}_routes.py", route_code)
 
     print("[File Generator] Backend files created")
+
     print(
         "🔥 DEBUG: generate_backend_files EXISTS:",
         "generate_backend_files" in globals(),
     )
 
     inject_dashboard_ui(project_dir)
+    # 🔥 COPY INSIGHT ENGINE INTO PROJECT (CRITICAL FIX)
+
+    import shutil
+
+    engine_src = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "insight_engine.py")
+    )
+    print("🔥 DEBUG: insight_engine source path:", engine_src)
+    print("🔥 DEBUG: file exists?", os.path.exists(engine_src))
+
+    engine_dest_dir = os.path.join(project_dir, "engine")
+
+    os.makedirs(engine_dest_dir, exist_ok=True)
+
+    engine_dest = os.path.join(engine_dest_dir, "insight_engine.py")
+
+    if os.path.exists(engine_src):
+        shutil.copy(engine_src, engine_dest)
+        print("✅ insight_engine.py copied to project")
+        print("📂 DEST:", engine_dest)
+    else:
+        print("❌ CRITICAL: insight_engine.py NOT FOUND")
+        print("LOOKED AT:", engine_src)
     # 🔥 ENSURE GLOBAL API ROUTE EXISTS
     app_file = os.path.join(project_dir, "app.py")
 
@@ -330,7 +394,7 @@ def inject_dashboard_ui(project_dir):
             content = f.read()
 
         # 🔥 GUARANTEED WORKING CONTAINER (FROM YOUR WORKING VERSION)
-        if "<h6>Available Features:</h6>" in content and "app-data" not in content:
+        if "</body>" in content and "INSIGHT_FETCH_V1" not in content:
             content = content.replace(
                 "<h6>Available Features:</h6>",
                 """<h6>Available Features:</h6>
@@ -346,7 +410,7 @@ def inject_dashboard_ui(project_dir):
 
         # 🔥 REMOVE ANY OLD SCRIPT BLOCKS COMPLETELY
         content = re.sub(
-            r"<script>.*?fetch\('/test_execution'.*?</script>",
+            r"<script>.*?</script>",
             "",
             content,
             flags=re.DOTALL,
@@ -354,42 +418,77 @@ def inject_dashboard_ui(project_dir):
 
         # 🔥 FORCE INSERT CORRECT SCRIPT
         script_block = """
-        <!-- 🔥 AUTO-INJECTED-FETCH -->
         <script>
-        console.log("🔥 API CALL STARTED:", '/api/run-feature');
+        alert("STEP 1: SCRIPT LOADED");
+        console.log("STEP 1: SCRIPT LOADED");
 
-        fetch('/api/run-feature')
-          .then(res => res.json())
+        console.log("STEP 2: BEFORE FETCH");
+
+        const module = window.location.pathname.split('/').pop();
+        console.log("STEP 2: MODULE NAME =", module);
+
+        let module = window.location.pathname.split('/').pop();
+
+        if (module === "dashboard" || module === "") {
+            module = "test_suite_management"; // default module
+        }
+        
+        const apiUrl = `/api/${module}`;
+
+        console.log("STEP 3: FETCH URL =", apiUrl);
+
+        fetch(apiUrl)
+          .then(res => {
+              console.log("STEP 4: RAW RESPONSE RECEIVED");
+              return res.json();
+          })
           .then(data => {
-              const container = document.getElementById('app-data');
-              if (!container) return;
+              console.log("STEP 5: PARSED DATA =", data);
 
-              const items = data.data;
+              const container = document.getElementById('app-data') || document.body;
 
-              let html = '<div style="display:flex; gap:15px;">';
+              const insights = data.insights || {};
 
-              items.forEach(item => {
-                  html += `
-                      <div style="
-                          background:white;
-                          padding:15px;
-                          border-radius:8px;
-                          box-shadow:0 2px 6px rgba(0,0,0,0.1);
-                          min-width:120px;
-                          text-align:center;
-                      ">
-                          <div style="font-size:12px; color:#888;">${item.name}</div>
-                          <div style="font-size:20px; font-weight:bold;">${item.value}</div>
-                      </div>
-                  `;
-              });
+              console.log("STEP 6: INSIGHTS =", insights);
 
-              html += '</div>';
+              let html = "<div style='padding:20px;'>";
 
-              container.innerHTML = html;
+              if (insights.summary) {
+                  html += `<h3>Summary</h3><p>${insights.summary}</p>`;
+              }
+
+              if (insights.insights) {
+                  html += "<h3>Insights</h3><ul>";
+                  insights.insights.forEach(i => {
+                      html += `<li>${i}</li>`;
+                  });
+                  html += "</ul>";
+              }
+
+              if (insights.risks) {
+                  html += "<h3>Risks</h3><ul>";
+                  insights.risks.forEach(r => {
+                      html += `<li>${r}</li>`;
+                  });
+                  html += "</ul>";
+              }
+
+              if (insights.recommendations) {
+                  html += "<h3>Recommendations</h3><ul>";
+                  insights.recommendations.forEach(r => {
+                      html += `<li>${r}</li>`;
+                  });
+                  html += "</ul>";
+              }
+
+              html += "</div>";
+
+              container.innerHTML += html;
+
+              console.log("STEP 7: RENDER COMPLETE");
           })
           .catch(err => {
-              console.error("🔥 API ERROR:", err);
+              console.error("STEP ERROR:", err);
           });
         </script>
         """

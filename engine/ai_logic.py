@@ -27,7 +27,6 @@ def fallback_function(module_name):
 
 
 def generate_service_logic(module_name, idea):
-    print(f"\n[AI LOGIC] Generating logic for module: {module_name}")
 
     if not GROQ_API_KEY:
         print("❌ GROQ KEY NOT FOUND — using fallback")
@@ -55,14 +54,11 @@ def generate_service_logic(module_name, idea):
 
     try:
         response = requests.post(url, headers=headers, json=data)
-        print("[AI LOGIC] STATUS CODE:", response.status_code)
-        print("[AI LOGIC] RAW TEXT:", response.text[:500])
 
         try:
             result = response.json()
         except Exception as e:
             print("❌ JSON PARSE FAILED:", e)
-            print("RAW TEXT RESPONSE:", response.text)
 
             return fallback_function(module_name)
 
@@ -72,7 +68,6 @@ def generate_service_logic(module_name, idea):
         print("==================================================\n")
 
         # 🔥 FULL DEBUG
-        print("[AI LOGIC] FULL RESPONSE:", result)
 
         # ✅ SAFE EXTRACTION
         content = None  # 🔥 ADD THIS BEFORE
@@ -97,7 +92,6 @@ def generate_service_logic(module_name, idea):
 
                     return fallback_function(module_name)
 
-                print("[AI LOGIC] SUCCESSFULLY EXTRACTED")
                 # 🔥 REMOVE EXTRA FUNCTIONS (CRITICAL)
                 # 🔥 STRICT FUNCTION EXTRACTION (FINAL FIX)
 
@@ -191,6 +185,5 @@ def generate_service_logic(module_name, idea):
         return fallback_function(module_name)
 
     except Exception as e:
-        print("❌ AI LOGIC ERROR:", e)
-
+        print("⚠️ AI LOGIC ERROR:", e)
     return fallback_function(module_name)

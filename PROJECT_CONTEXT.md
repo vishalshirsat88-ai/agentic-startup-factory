@@ -21,7 +21,6 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 
 - (tabs)
 - -qYzv8-vG-El6N0_IUMM6
-- -tSdQh7GWq92SabXFhmWK
 - .agents
 - .cache
 - .generated
@@ -38,7 +37,9 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - 5k6gfCxZA0rS8MlEOCSs4
 - 5utK-uRumNhEMA3rjaUdT
 - 6
+- 6mYZ-dC9v7ACzF-bUQpn6
 - 7
+- 7j0t8rXmR0znQP5lu34XQ
 - 8
 - 843c1fd5a148da85e523c1b4ee680226f89986aa
 - 9
@@ -46,9 +47,9 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - HdeF2FyPN2VoJ_cmpwrD-
 - HxP1oiyH84lHYOYw3v1Wb
 - Mf4xpxI5cc1CubC9J8CmZ
+- PI2eoHOtCsED4rSsk6eJE
 - QWOp7m0x32OJhLYoqvTYx
 - QfyN_Lp3F7_m3lYTny8qX
-- S6OGAXYwyXB8HHYbUpigb
 - WYlZOI4WMsP_PTf2PBOat
 - __pycache__
 - _async
@@ -101,7 +102,6 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - branding-generator
 - brands
 - c
-- c6uH6OjTYIFzRm0SPL3Qv
 - canvas
 - certifi
 - certifi-2026.2.25.dist-info
@@ -191,7 +191,6 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - h11-0.16.0.dist-info
 - hazmat
 - highlight
-- hmjuqbo6IJsz2RO3httNf
 - hooks
 - http
 - http-v2
@@ -291,6 +290,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - pynacl-1.6.2.dist-info
 - python3.12
 - python_dotenv-1.2.2.dist-info
+- qFrQoVSC7nv2tGsHUfPKi
 - query-integration-data
 - react-vite
 - real-estate-analyzer
@@ -391,4 +391,4 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 
 ## Generated
 
-2026-04-17 17:16:23.989473+00:00
+2026-04-17 21:30:23.702925+00:00

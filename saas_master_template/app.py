@@ -1,3 +1,9 @@
+import sys
+import os
+
+# 🔥 ENGINE LINK FIX (RUNTIME ONLY — SAFE)
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
 from flask import Flask, render_template, redirect
 from flask import url_for
 from engine.ui_components import (

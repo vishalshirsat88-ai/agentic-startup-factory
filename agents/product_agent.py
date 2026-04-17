@@ -2,7 +2,6 @@ from agents.agent_base import AgentBase
 from tools.json_parser import extract_json
 
 # These are checker debugs
-print("🔥 DEBUG: ProductAgent LOADED v2")
 
 
 class ProductAgent(AgentBase):

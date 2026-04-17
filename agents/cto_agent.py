@@ -3,7 +3,6 @@ from tools.json_parser import extract_json
 import json
 
 # These are checker debugs
-print("🔥 DEBUG: CTOAgent LOADEDv2")
 
 
 class CTOAgent(AgentBase):

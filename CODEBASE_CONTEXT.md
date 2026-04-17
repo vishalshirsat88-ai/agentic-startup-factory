@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-17 17:16:23.604194+00:00
+Generated: 2026-04-17 21:30:23.259935+00:00
 
 ## Project Structure
 
@@ -14,8 +14,8 @@ Generated: 2026-04-17 17:16:23.604194+00:00
 - PROJECT_CONTEXT - Base -  Old.md
 - SYSTEM_FLOW.md
 - PROJECT_CONTEXT.md
-- CODEBASE_CONTEXT.md
 - PROJECT_CONTEXT - Base.md
+- CODEBASE_CONTEXT.md
 
 ### Folder: ./.cache
 
@@ -913,15 +913,7 @@ Generated: 2026-04-17 17:16:23.604194+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/hmjuqbo6IJsz2RO3httNf
-
-### Folder: ./.local/state/workflow-logs/S6OGAXYwyXB8HHYbUpigb
-
-### Folder: ./.local/state/workflow-logs/-tSdQh7GWq92SabXFhmWK
-
 ### Folder: ./.local/state/workflow-logs/HxP1oiyH84lHYOYw3v1Wb
-
-### Folder: ./.local/state/workflow-logs/c6uH6OjTYIFzRm0SPL3Qv
 
 ### Folder: ./.local/state/workflow-logs/Fxfvn9WZe_o9GID5-_UnA
 
@@ -952,6 +944,14 @@ Generated: 2026-04-17 17:16:23.604194+00:00
 ### Folder: ./.local/state/workflow-logs/QfyN_Lp3F7_m3lYTny8qX
 
 ### Folder: ./.local/state/workflow-logs/HdeF2FyPN2VoJ_cmpwrD-
+
+### Folder: ./.local/state/workflow-logs/7j0t8rXmR0znQP5lu34XQ
+
+### Folder: ./.local/state/workflow-logs/qFrQoVSC7nv2tGsHUfPKi
+
+### Folder: ./.local/state/workflow-logs/6mYZ-dC9v7ACzF-bUQpn6
+
+### Folder: ./.local/state/workflow-logs/PI2eoHOtCsED4rSsk6eJE
 
 ### Folder: ./.local/skills
 
@@ -1374,10 +1374,10 @@ Generated: 2026-04-17 17:16:23.604194+00:00
 - ceo_agent.py
 - deployment_agent.py
 - github_agent.py
+- agent_base.py
 - product_agent.py
 - cto_agent.py
 - qa_agent.py
-- agent_base.py
 - developer_agent.py
 
 ### Folder: ./agents/ui
@@ -1397,12 +1397,13 @@ Generated: 2026-04-17 17:16:23.604194+00:00
 
 ### Folder: ./engine
 - auto_wire.py
-- db.py
 - __init__.py
 - template_renderer.py
-- ui_components.py
 - section_generator.py
+- ui_components.py
+- db.py
 - ai_logic.py
+- insight_engine.py
 - file_generator.py
 - ui_generator.py
 
@@ -1542,10 +1543,10 @@ Generated: 2026-04-17 17:16:23.604194+00:00
 - research_tool.py
 - web_search.py
 - code_runner.py
-- product_loop.py
 - domain_prompt_builder.py
 - llm.py
 - product_validator.py
+- product_loop.py
 
 ### Folder: ./.pythonlibs
 
@@ -3772,6 +3773,54 @@ class GitHubAgent:
             ["git", "commit", "-m", f"Add project: {project_name
 ```
 
+### ./agents/agent_base.py
+
+```python
+from tools.llm import generate
+
+class AgentBase:
+
+    def __init__(self, name):
+        self.name = name
+
+    def think(self, task):
+
+        prompt = f"""
+        You are {self.name} in an AI startup factory.
+
+        Task:
+        {task}
+
+        Return ONLY the requested output.
+        Do not include explanations.
+        """
+
+        response = generate(prompt)
+
+        print(f"[{self.name}] AI response:")
+        print(response)
+
+        return response
+
+    def execute(self, task):
+
+        prompt = f"""
+        You are {self.name} responsible for executing tasks.
+
+        Task:
+        {task}
+
+        Explain the execution steps clearly.
+        """
+
+        response = generate(prompt)
+
+        print(f"[{self.name}] execution plan:")
+        print(response)
+
+        return response
+```
+
 ### ./agents/product_agent.py
 
 ```python
@@ -3779,7 +3828,6 @@ from agents.agent_base import AgentBase
 from tools.json_parser import extract_json
 
 # These are checker debugs
-print("🔥 DEBUG: ProductAgent LOADED v2")
 
 
 class ProductAgent(AgentBase):
@@ -3840,7 +3888,8 @@ class ProductAgent(AgentBase):
                 {
                     "name": "core",
                     "description": "Core functionality",
-                    "features": product.get("core_feat
+                    "features": product.get("core_features", ["basic operations"]),
+           
 ```
 
 ### ./agents/cto_agent.py
@@ -3851,7 +3900,6 @@ from tools.json_parser import extract_json
 import json
 
 # These are checker debugs
-print("🔥 DEBUG: CTOAgent LOADEDv2")
 
 
 class CTOAgent(AgentBase):
@@ -3914,7 +3962,10 @@ class CTOAgent(AgentBase):
 
         if not architecture:
             print("[CTO Agent] Invalid architecture JSON")
-            retur
+            return None
+
+        return architecture
+
 ```
 
 ### ./agents/qa_agent.py
@@ -3927,7 +3978,6 @@ import os
 
 
 # These are checker debugs
-print("🔥 DEBUG: QA_Agent Loaded v2")
 
 
 class QAAgent:
@@ -3959,54 +4009,6 @@ class QAAgent:
 
 ```
 
-### ./agents/agent_base.py
-
-```python
-from tools.llm import generate
-
-class AgentBase:
-
-    def __init__(self, name):
-        self.name = name
-
-    def think(self, task):
-
-        prompt = f"""
-        You are {self.name} in an AI startup factory.
-
-        Task:
-        {task}
-
-        Return ONLY the requested output.
-        Do not include explanations.
-        """
-
-        response = generate(prompt)
-
-        print(f"[{self.name}] AI response:")
-        print(response)
-
-        return response
-
-    def execute(self, task):
-
-        prompt = f"""
-        You are {self.name} responsible for executing tasks.
-
-        Task:
-        {task}
-
-        Explain the execution steps clearly.
-        """
-
-        response = generate(prompt)
-
-        print(f"[{self.name}] execution plan:")
-        print(response)
-
-        return response
-```
-
 ### ./agents/developer_agent.py
 
 ```python
@@ -4023,7 +4025,6 @@ import shutil
 import traceback  # add at top if not already
 
 # These are checker debugs
-print("🔥 DEBUG: DeveloperAgent LOADED v2")
 
 
 class DeveloperAgent(AgentBase):
@@ -4080,7 +4081,8 @@ class DeveloperAgent(AgentBase):
         routes_dir = os.path.join(project_dir, "routes")
 
         if not os.path.exists(services_dir) or not os.path.exists(routes_dir):
-            print("[Developer Agent] Miss
+            print("[Developer Agent] Missing backend folders")
+            return Fa
 ```
 
 ### ./agents/ui/ui_evaluator.py
@@ -4545,41 +4547,6 @@ def wire_routes(project_dir):
         # fallb
 ```
 
-### ./engine/db.py
-
-```python
-import sqlite3
-
-print("🔥 DEBUG: DB MODULE LOADED v1")
-
-DB_PATH = "database.db"
-
-
-def get_connection():
-    return sqlite3.connect(DB_PATH)
-
-
-def init_db():
-    print("🚀 Initializing database...")
-
-    conn = get_connection()
-    cursor = conn.cursor()
-
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS items (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        name TEXT,
-        module TEXT
-    )
-    """)
-
-    conn.commit()
-    conn.close()
-
-    print("✅ Database initialized")
-
-```
-
 ### ./engine/__init__.py
 
 ```python
@@ -4662,6 +4629,90 @@ def render_startup(config_path, output_dir):
 
     print("🚀 Startup generated:", output_dir)
 
+```
+
+### ./engine/section_generator.py
+
+```python
+def detect_domain(product):
+    text = (product.get("name", "") + " " + product.get("description", "")).lower()
+
+    if "ai" in text:
+        return "ai"
+
+    elif "test" in text or "pipeline" in text:
+        return "testing"
+
+    elif "job" in text or "career" in text:
+        return "job"
+
+    elif "marketing" in text:
+        return "marketing"
+
+    else:
+        return "generic"
+
+
+def generate_sections(product):
+    name = product.get("name", "AI Product")
+    description = product.get("description", "")
+    modules = product.get("modules", [])
+
+    domain = detect_domain(product)
+
+    sections = []
+
+    # 🔥 HERO
+    sections.append(
+        {"type": "hero", "title": name, "subtitle": description, "cta": "Get Access"}
+    )
+
+    # 🔥 DOMAIN-SPECIFIC SECTIONS
+
+    if domain == "testing":
+        sections.append(
+            {
+                "type": "pain",
+                "points": [
+                    "Flaky test pipelines",
+                    "Manual debugging takes hours",
+                    "No visibility into failures",
+                    "Slow release cycles",
+                ],
+            }
+        )
+
+        sections.append(
+            {
+                "type": "solution",
+                "text": f"{name} automates testing workflows and debugging",
+            }
+        )
+
+    elif domain == "job":
+        sections.append(
+            {
+                "type": "pain",
+                "points": [
+                    "Applying to hundreds of jobs",
+                    "No response from recruiters",
+                    "Low salary visibility",
+                    "Time-consuming applications",
+                ],
+            }
+        )
+
+        sections.append(
+            {"type": "solution", "text": f"{name} helps you land better jobs faster"}
+        )
+
+    elif domain == "ai":
+        sections.append(
+            {
+                "type": "pain",
+                "points": [
+                    "Too many tools to manage",
+                    "Low p
 ```
 
 ### ./engine/ui_components.py
@@ -4755,88 +4806,38 @@ Requirements:
        
 ```
 
-### ./engine/section_generator.py
+### ./engine/db.py
 
 ```python
-def detect_domain(product):
-    text = (product.get("name", "") + " " + product.get("description", "")).lower()
-
-    if "ai" in text:
-        return "ai"
-
-    elif "test" in text or "pipeline" in text:
-        return "testing"
-
-    elif "job" in text or "career" in text:
-        return "job"
-
-    elif "marketing" in text:
-        return "marketing"
-
-    else:
-        return "generic"
+import sqlite3
 
 
-def generate_sections(product):
-    name = product.get("name", "AI Product")
-    description = product.get("description", "")
-    modules = product.get("modules", [])
+DB_PATH = "database.db"
 
-    domain = detect_domain(product)
 
-    sections = []
+def get_connection():
+    return sqlite3.connect(DB_PATH)
 
-    # 🔥 HERO
-    sections.append(
-        {"type": "hero", "title": name, "subtitle": description, "cta": "Get Access"}
+
+def init_db():
+    print("🚀 Initializing database...")
+
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS items (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        module TEXT
     )
+    """)
 
-    # 🔥 DOMAIN-SPECIFIC SECTIONS
+    conn.commit()
+    conn.close()
 
-    if domain == "testing":
-        sections.append(
-            {
-                "type": "pain",
-                "points": [
-                    "Flaky test pipelines",
-                    "Manual debugging takes hours",
-                    "No visibility into failures",
-                    "Slow release cycles",
-                ],
-            }
-        )
+    print("✅ Database initialized")
 
-        sections.append(
-            {
-                "type": "solution",
-                "text": f"{name} automates testing workflows and debugging",
-            }
-        )
-
-    elif domain == "job":
-        sections.append(
-            {
-                "type": "pain",
-                "points": [
-                    "Applying to hundreds of jobs",
-                    "No response from recruiters",
-                    "Low salary visibility",
-                    "Time-consuming applications",
-                ],
-            }
-        )
-
-        sections.append(
-            {"type": "solution", "text": f"{name} helps you land better jobs faster"}
-        )
-
-    elif domain == "ai":
-        sections.append(
-            {
-                "type": "pain",
-                "points": [
-                    "Too many tools to manage",
-                    "Low p
 ```
 
 ### ./engine/ai_logic.py
@@ -4871,7 +4872,6 @@ def fallback_function(module_name):
 
 
 def generate_service_logic(module_name, idea):
-    print(f"\n[AI LOGIC] Generating logic for module: {module_name}")
 
     if not GROQ_API_KEY:
         print("❌ GROQ KEY NOT FOUND — using fallback")
@@ -4899,20 +4899,104 @@ def generate_service_logic(module_name, idea):
 
     try:
         response = requests.post(url, headers=headers, json=data)
-        print("[AI LOGIC] STATUS CODE:", response.status_code)
-        print("[AI LOGIC] RAW TEXT:", response.text[:500])
 
         try:
             result = response.json()
         except Exception as e:
             print("❌ JSON PARSE FAILED:", e)
-            print("RAW TEXT RESPONSE:", response.text)
 
             return fallback_function(module_name)
 
         # 🔥 FORCE PRINT (NO CONDITIONS)
         print("\n================ RAW GROQ RESPONSE - V3 ================")
-        print
+        print(result)
+        print("==================================================\n")
+
+        # 🔥 FULL DEBUG
+
+        # ✅ SAFE EXTRACTION
+        content = None  # 🔥 ADD THIS BEFORE
+
+        if "choices" in result:
+            try:
+                conte
+```
+
+### ./engine/insight_engine.py
+
+```python
+from tools.llm import generate
+import json
+
+
+def detect_domain(module_name):
+    name = module_name.lower()
+
+    if any(x in name for x in ["pipeline", "lead", "sales", "crm"]):
+        return "sales"
+
+    if any(x in name for x in ["employee", "hr", "attendance", "recruitment"]):
+        return "hr"
+
+    if any(x in name for x in ["finance", "revenue", "invoice", "payment"]):
+        return "finance"
+
+    if any(x in name for x in ["inventory", "stock", "supply"]):
+        return "operations"
+
+    return "general"
+
+
+def generate_insights(module_name, data):
+    print("🧠 INSIGHT ENGINE CALLED:", module_name)
+    print("🧠 INPUT DATA:", data)
+    # 🧠 TRY AI INSIGHTS FIRST
+    try:
+        if data and isinstance(data, list):
+            sample_data = data[:10]
+
+            domain = detect_domain(module_name)
+
+            prompt = f"""You are a SaaS business analyst specialized in {domain} domain.
+
+            Analyze the module data and provide BUSINESS INSIGHTS.
+
+            Module: {module_name}
+            Domain: {domain}
+
+            Data:
+            {sample_data}
+
+            Return ONLY JSON:
+            {{
+              "summary": "...",
+              "insights": ["...", "..."],
+              "risks": ["...", "..."],
+              "recommendations": ["...", "..."]
+            }}
+
+            Guidelines:
+            - Use domain-specific language
+            - Focus on business impact
+            - Avoid generic statements
+            - Be concise but meaningful
+            """
+
+            response = generate(prompt)
+
+            cleaned = response.strip()
+            cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+
+            try:
+                parsed = json.loads(cleaned)
+            except:
+                raise Exception("Invalid JSON from AI")
+
+            return {
+                "summary": parsed.get("summary", ""),
+                "insights": parsed.get("insights", []),
+                "risks": parsed.get("risks", []),
+          
 ```
 
 ### ./engine/file_generator.py
@@ -5091,7 +5175,6 @@ import sys
 from tools.code_runner import run_app
 
 # These are checker debugs
-print("🔥 DEBUG: Orchestrator LOADED v8")
 
 print("🔥🔥🔥 THIS ORCHESTRATOR IS RUNNING:", __file__)
 
@@ -5134,12 +5217,20 @@ class Orchestrator:
             self.cto.design_architecture,
             {"idea": idea, "product": product},
         )
-        print("STEP 5: After CT
+        print("STEP 5: After CTO Agent")
+
+        print("STEP 6: Before 
 ```
 
 ### ./saas_master_template/app.py
 
 ```python
+import sys
+import os
+
+# 🔥 ENGINE LINK FIX (RUNTIME ONLY — SAFE)
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
 from flask import Flask, render_template, redirect
 from flask import url_for
 from engine.ui_components import (
@@ -5210,12 +5301,7 @@ def landing():
 @app.route("/module/<module_name>")
 def module_page(module_name):
     module_data = next(
-        (m for m in GLOBAL_MODULES if slugify(m["name"]) == module_name),
-        None,
-    )
-
-    if not module_data:
-        return {"error": "Module not found"}, 40
+        (m for m
 ```
 
 ### ./tools/__init__.py
@@ -5385,79 +5471,6 @@ def run_app(project_path):
     except Exception as e:
         return False, str(e)
 
-```
-
-### ./tools/product_loop.py
-
-```python
-import os
-
-# These are checker debugs
-print("🔥 DEBUG: Product_loop v3 Loaded")
-
-
-class ProductLoop:
-    def __init__(self, project_path):
-        self.project_path = project_path
-
-    def run(self):
-        issues = []
-
-        issues += self.check_empty_templates()
-
-        # ✅ DEBUG HERE (correct scope)
-        print("🧠 PRODUCT LOOP ISSUES:", issues)
-
-        # 🔥 ENABLE AUTO FIX
-        self.auto_fix_templates(issues)
-
-        return {"status": "completed", "issues_found": issues}
-
-    # 🔍 1. Detect empty dashboards/templates
-    def check_empty_templates(self):
-        issues = []
-        templates_path = os.path.join(self.project_path, "templates")
-
-        if not os.path.exists(templates_path):
-            return issues
-
-        for file in os.listdir(templates_path):
-            if "dashboard" not in file:
-                continue
-            if file.endswith(".html"):
-                file_path = os.path.join(templates_path, file)
-
-                with open(file_path, "r") as f:
-                    content = f.read().lower()
-
-                if "app-data" not in content:
-                    issues.append({"type": "NO_FRONTEND_BINDING", "file": file})
-
-        return issues
-
-    # 🔍 2. Detect APIs not used in UI
-    def check_api_usage(self):
-        issues = []
-
-        routes_path = os.path.join(self.project_path, "routes")
-        templates_path = os.path.join(self.project_path, "templates")
-
-        if not os.path.exists(routes_path) or not os.path.exists(templates_path):
-            return issues
-
-        route_files = os.listdir(routes_path)
-        template_files = os.listdir(templates_path)
-
-        routes_content = []
-        for file in route_files:
-            if file.endswith(".py"):
-                with open(os.path.join(routes_path, file), "r") as f:
-                    routes_content.append(f.read())
-
-        templates_content = []
-        for file in template_files:
-            if file.endswith(".html"):
-                with open(os.path.join(te
 ```
 
 ### ./tools/domain_prompt_builder.py
@@ -5662,6 +5675,79 @@ def test_endpoint(base_url, path):
 def test_post_endpoint(base_url, path, payload=None):
 
     if requ
+```
+
+### ./tools/product_loop.py
+
+```python
+import os
+
+# These are checker debugs
+
+
+class ProductLoop:
+    def __init__(self, project_path):
+        self.project_path = project_path
+
+    def run(self):
+        issues = []
+
+        issues += self.check_empty_templates()
+
+        # ✅ DEBUG HERE (correct scope)
+        print("🧠 PRODUCT LOOP ISSUES:", issues)
+
+        # 🔥 ENABLE AUTO FIX
+        self.auto_fix_templates(issues)
+
+        return {"status": "completed", "issues_found": issues}
+
+    # 🔍 1. Detect empty dashboards/templates
+    def check_empty_templates(self):
+        issues = []
+        templates_path = os.path.join(self.project_path, "templates")
+
+        if not os.path.exists(templates_path):
+            return issues
+
+        for file in os.listdir(templates_path):
+            if "dashboard" not in file:
+                continue
+            if file.endswith(".html"):
+                file_path = os.path.join(templates_path, file)
+
+                with open(file_path, "r") as f:
+                    content = f.read().lower()
+
+                if "app-data" not in content:
+                    issues.append({"type": "NO_FRONTEND_BINDING", "file": file})
+
+        return issues
+
+    # 🔍 2. Detect APIs not used in UI
+    def check_api_usage(self):
+        issues = []
+
+        routes_path = os.path.join(self.project_path, "routes")
+        templates_path = os.path.join(self.project_path, "templates")
+
+        if not os.path.exists(routes_path) or not os.path.exists(templates_path):
+            return issues
+
+        route_files = os.listdir(routes_path)
+        template_files = os.listdir(templates_path)
+
+        routes_content = []
+        for file in route_files:
+            if file.endswith(".py"):
+                with open(os.path.join(routes_path, file), "r") as f:
+                    routes_content.append(f.read())
+
+        templates_content = []
+        for file in template_files:
+            if file.endswith(".html"):
+                with open(os.path.join(templates_path, file), "r") as f:
+         
 ```
 
 ### ./.pythonlibs/lib/python3.12/site-packages/typing_extensions.py
