@@ -1,5 +1,5 @@
 # Codebase Context Snapshot
-Generated: 2026-04-17 09:51:22.115815+00:00
+Generated: 2026-04-17 11:26:11.551316+00:00
 
 ## Project Structure
 
@@ -13,9 +13,9 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 - generate_context.py
 - PROJECT_CONTEXT - Base -  Old.md
 - SYSTEM_FLOW.md
-- PROJECT_CONTEXT - Base.md
 - PROJECT_CONTEXT.md
 - CODEBASE_CONTEXT.md
+- PROJECT_CONTEXT - Base.md
 
 ### Folder: ./.cache
 
@@ -913,10 +913,6 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 
 ### Folder: ./.local/state/workflow-logs
 
-### Folder: ./.local/state/workflow-logs/q4eg_AWUmHqpQ59fDhHR_
-
-### Folder: ./.local/state/workflow-logs/DxVZo4lfNK3NtG3K--mmu
-
 ### Folder: ./.local/state/workflow-logs/TcaVdZYdciTzq7nSdNLLD
 
 ### Folder: ./.local/state/workflow-logs/seGwbfxa8QvNuY2gmXfnI
@@ -953,24 +949,25 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 
 ### Folder: ./.local/state/workflow-logs/-qYzv8-vG-El6N0_IUMM6
 
+### Folder: ./.local/state/workflow-logs/twJLSTPI1QoWz5vFA5TiK
+
+### Folder: ./.local/state/workflow-logs/5utK-uRumNhEMA3rjaUdT
+
 ### Folder: ./.local/skills
 
-### Folder: ./.local/skills/database
+### Folder: ./.local/skills/code_review
 - SKILL.md
 
-### Folder: ./.local/skills/diagnostics
+### Folder: ./.local/skills/database
 - SKILL.md
 
 ### Folder: ./.local/skills/agent-inbox
 - SKILL.md
 
-### Folder: ./.local/skills/design-exploration
-- SKILL.md
-
 ### Folder: ./.local/skills/delegation
 - SKILL.md
 
-### Folder: ./.local/skills/environment-secrets
+### Folder: ./.local/skills/diagnostics
 - SKILL.md
 
 ### Folder: ./.local/skills/canvas
@@ -980,25 +977,25 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 ### Folder: ./.local/skills/design
 - SKILL.md
 
+### Folder: ./.local/skills/design-exploration
+- SKILL.md
+
+### Folder: ./.local/skills/environment-secrets
+- SKILL.md
+
 ### Folder: ./.local/skills/deployment
 - SKILL.md
 
 ### Folder: ./.local/skills/deployment/references
 - deployment-logs.md
 
+### Folder: ./.local/skills/follow-up-tasks
+- SKILL.md
+
 ### Folder: ./.local/skills/integrations
 - SKILL.md
 
 ### Folder: ./.local/skills/media-generation
-- SKILL.md
-
-### Folder: ./.local/skills/package-management
-- SKILL.md
-
-### Folder: ./.local/skills/mockup-extract
-- SKILL.md
-
-### Folder: ./.local/skills/mockup-graduate
 - SKILL.md
 
 ### Folder: ./.local/skills/external_apis
@@ -1007,16 +1004,25 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 ### Folder: ./.local/skills/external_apis/references
 - brave.md
 
-### Folder: ./.local/skills/mockup-sandbox
+### Folder: ./.local/skills/mockup-extract
 - SKILL.md
 
-### Folder: ./.local/skills/post_merge_setup
+### Folder: ./.local/skills/package-management
 - SKILL.md
 
 ### Folder: ./.local/skills/project_tasks
 - SKILL.md
 
+### Folder: ./.local/skills/post_merge_setup
+- SKILL.md
+
+### Folder: ./.local/skills/mockup-sandbox
+- SKILL.md
+
 ### Folder: ./.local/skills/query-integration-data
+- SKILL.md
+
+### Folder: ./.local/skills/mockup-graduate
 - SKILL.md
 
 ### Folder: ./.local/skills/expo
@@ -1037,11 +1043,11 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 ### Folder: ./.local/skills/skill-authoring
 - SKILL.md
 
-### Folder: ./.local/skills/react-vite
+### Folder: ./.local/skills/slides
 - SKILL.md
 
-### Folder: ./.local/skills/react-vite/references
-- frontend_general_rules.md
+### Folder: ./.local/skills/threat_modeling
+- SKILL.md
 
 ### Folder: ./.local/skills/repl_setup
 - SKILL.md
@@ -1051,14 +1057,18 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 - react_vite.md
 - vue.md
 
-### Folder: ./.local/skills/slides
+### Folder: ./.local/skills/react-vite
 - SKILL.md
 
-### Folder: ./.local/skills/threat_modeling
+### Folder: ./.local/skills/react-vite/references
+- frontend_general_rules.md
+- seo.md
+
+### Folder: ./.local/skills/stripe
 - SKILL.md
 
-### Folder: ./.local/skills/validation
-- SKILL.md
+### Folder: ./.local/skills/stripe/references
+- code-templates.md
 
 ### Folder: ./.local/skills/revenuecat
 - SKILL.md
@@ -1071,11 +1081,11 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 ### Folder: ./.local/skills/web-search
 - SKILL.md
 
-### Folder: ./.local/skills/stripe
+### Folder: ./.local/skills/validation
 - SKILL.md
 
-### Folder: ./.local/skills/stripe/references
-- code-templates.md
+### Folder: ./.local/skills/workflows
+- SKILL.md
 
 ### Folder: ./.local/skills/video-js
 - SKILL.md
@@ -1083,9 +1093,6 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 ### Folder: ./.local/skills/video-js/references
 - finalize_playback.md
 - first_build.md
-
-### Folder: ./.local/skills/workflows
-- SKILL.md
 
 ### Folder: ./.local/skills/artifacts
 - SKILL.md
@@ -1215,22 +1222,13 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 
 ### Folder: ./.local/secondary_skills
 
-### Folder: ./.local/secondary_skills/ai-sdr
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/ad-creative
-- SKILL.md
-
 ### Folder: ./.local/secondary_skills/ai-secretary
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/ai-recruiter
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/excel-generator
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/deep-research
+### Folder: ./.local/secondary_skills/ad-creative
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/branding-generator
@@ -1239,10 +1237,23 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 ### Folder: ./.local/secondary_skills/design-thinker
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/competitive-analysis
+### Folder: ./.local/secondary_skills/ai-sdr
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/content-machine
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/deep-research
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/competitive-analysis
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/excel-generator
+- SKILL.md
+- financial-models.md
+
+### Folder: ./.local/secondary_skills/github-solution-finder
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/file-converter
@@ -1251,23 +1262,34 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 ### Folder: ./.local/secondary_skills/flashcard-generator
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/interview-prep
+### Folder: ./.local/secondary_skills/insurance-optimizer
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/meal-planner
+### Folder: ./.local/secondary_skills/interview-prep
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/invoice-generator
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/insurance-optimizer
-- SKILL.md
-
-### Folder: ./.local/secondary_skills/github-solution-finder
-- SKILL.md
-
 ### Folder: ./.local/secondary_skills/legal-contract
 - SKILL.md
+
+### Folder: ./.local/secondary_skills/meal-planner
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/infographic-builder
+- SKILL.md
+- antv-syntax.md
+- react-fallback.md
+
+### Folder: ./.local/secondary_skills/geo
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/geo/references
+- content-patterns.md
+- platform-notes.md
+- scorecard.md
+- technical-checklist.md
 
 ### Folder: ./.local/secondary_skills/personal-shopper
 - SKILL.md
@@ -1275,13 +1297,16 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 ### Folder: ./.local/secondary_skills/photo-editor
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/podcast-generator
-- SKILL.md
-
 ### Folder: ./.local/secondary_skills/product-manager
 - SKILL.md
 
+### Folder: ./.local/secondary_skills/podcast-generator
+- SKILL.md
+
 ### Folder: ./.local/secondary_skills/programmatic-seo
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/recipe-creator
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/real-estate-analyzer
@@ -1290,35 +1315,55 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 ### Folder: ./.local/secondary_skills/recreate-screenshot
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/recipe-creator
+### Folder: ./.local/secondary_skills/resume-maker
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/repl-seo-optimizer
+### Folder: ./.local/secondary_skills/skill-creator
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/seo-auditor
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/resume-maker
+### Folder: ./.local/secondary_skills/skill-finder
+- SKILL.md
+
+### Folder: ./.local/secondary_skills/storyboard
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/stock-analyzer
 - SKILL.md
 
+### Folder: ./.local/secondary_skills/tax-reviewer
+- SKILL.md
+
 ### Folder: ./.local/secondary_skills/supplier-research
 - SKILL.md
 
-### Folder: ./.local/secondary_skills/storyboard
+### Folder: ./.local/secondary_skills/podcast-marketing
 - SKILL.md
+- audio-processing.md
+- content-atoms.md
+- content-calendar.md
+- content-templates.md
+- quote-cards.md
+- rss-and-batch.md
+- video-clips.md
+- youtube-processing.md
 
 ### Folder: ./.local/secondary_skills/travel-assistant
 - SKILL.md
 
 ### Folder: ./.local/secondary_skills/website-cloning
 - SKILL.md
+- extraction.md
+- pitfalls.md
 
-### Folder: ./.local/secondary_skills/tax-reviewer
+### Folder: ./.local/secondary_skills/video-editing
 - SKILL.md
+- dead-space-and-chunking.md
+- operations.md
+- virality-scoring.md
+- voiceover.md
 
 ### Folder: ./agentic-startup-factory
 
@@ -1338,6 +1383,8 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 ### Folder: ./agents/ui
 - ui_evaluator.py
 - ui_improver.py
+- ui_section_generator.py
+- ui_renderer.py
 
 ### Folder: ./constitution
 - founder-control-room.md
@@ -1349,13 +1396,13 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 ### Folder: ./data
 
 ### Folder: ./engine
-- template_renderer.py
 - auto_wire.py
 - db.py
 - __init__.py
 - ai_logic.py
-- ui_components.py
 - file_generator.py
+- template_renderer.py
+- ui_components.py
 
 ### Folder: ./logs
 
@@ -1493,10 +1540,10 @@ Generated: 2026-04-17 09:51:22.115815+00:00
 - research_tool.py
 - web_search.py
 - code_runner.py
-- product_validator.py
 - product_loop.py
 - domain_prompt_builder.py
 - llm.py
+- product_validator.py
 
 ### Folder: ./.pythonlibs
 
@@ -4203,6 +4250,136 @@ class UIImprover:
 
 ```
 
+### ./agents/ui/ui_section_generator.py
+
+```python
+import json
+from utils.llm import call_llm
+
+
+class UISectionGenerator:
+    def __init__(self, idea, features):
+        self.idea = idea
+        self.features = features
+
+    def generate_sections(self):
+        prompt = f"""
+You are a world-class SaaS UI designer.
+
+Given a startup idea and its features, generate a high-converting landing page structure.
+
+Return STRICT JSON only.
+
+---
+
+IDEA:
+{self.idea}
+
+FEATURES:
+{json.dumps(self.features, indent=2)}
+
+---
+
+OUTPUT FORMAT:
+
+[
+  {{
+    "type": "hero",
+    "headline": "...",
+    "subheadline": "...",
+    "cta": "..."
+  }},
+  {{
+    "type": "features",
+    "items": ["...", "..."]
+  }},
+  {{
+    "type": "workflow",
+    "steps": ["...", "..."]
+  }},
+  {{
+    "type": "cta",
+    "headline": "...",
+    "cta": "..."
+  }}
+]
+
+---
+
+RULES:
+
+• Sections must be relevant to the product
+• Copy must be domain-aware
+• Avoid generic phrases
+• Make it feel like a real SaaS landing page
+"""
+
+        response = call_llm(prompt)
+
+        try:
+            return json.loads(response)
+        except:
+            return []
+
+```
+
+### ./agents/ui/ui_renderer.py
+
+```python
+class UIRenderer:
+    def render(self, sections):
+        html = ""
+
+        for section in sections:
+            if section["type"] == "hero":
+                html += self.render_hero(section)
+
+            elif section["type"] == "features":
+                html += self.render_features(section)
+
+            elif section["type"] == "workflow":
+                html += self.render_workflow(section)
+
+            elif section["type"] == "cta":
+                html += self.render_cta(section)
+
+        return html
+
+    def render_hero(self, data):
+        return f"""
+      <section class="hero">
+          <h1>{data["headline"]}</h1>
+          <p>{data["subheadline"]}</p>
+          <button>{data["cta"]}</button>
+      </section>
+      """
+
+    def render_features(self, data):
+        items = "".join([f"<li>{item}</li>" for item in data["items"]])
+        return f"""
+      <section class="features">
+          <ul>{items}</ul>
+      </section>
+      """
+
+    def render_workflow(self, data):
+        steps = "".join([f"<li>{step}</li>" for step in data["steps"]])
+        return f"""
+      <section class="workflow">
+          <ol>{steps}</ol>
+      </section>
+      """
+
+    def render_cta(self, data):
+        return f"""
+      <section class="cta">
+          <h2>{data["headline"]}</h2>
+          <button>{data["cta"]}</button>
+      </section>
+      """
+
+```
+
 ### ./dashboard/__init__.py
 
 ```python
@@ -4291,32 +4468,6 @@ def approve_idea(idea_id):
             break
 
     if
-```
-
-### ./engine/template_renderer.py
-
-```python
-
-from jinja2 import Environment, FileSystemLoader
-import json
-import os
-
-def render_startup(config_path, output_dir):
-    with open(config_path) as f:
-        data = json.load(f)
-
-    env = Environment(loader=FileSystemLoader("saas_master_template/templates"))
-    template = env.get_template("index.html")
-
-    html = template.render(data=data)
-
-    os.makedirs(output_dir, exist_ok=True)
-
-    with open(f"{output_dir}/index.html", "w") as f:
-        f.write(html)
-
-    print("Startup generated:", output_dir)
-
 ```
 
 ### ./engine/auto_wire.py
@@ -4509,72 +4660,6 @@ def generate_service_logic(module_name, idea):
         print
 ```
 
-### ./engine/ui_components.py
-
-```python
-import re
-
-
-def get_header_section(product_name, description):
-    return f"""
-<section class='relative overflow-hidden bg-gradient-to-r from-indigo-500 to-purple-600 text-white min-h-[60vh] flex flex-col justify-center items-center text-center px-6 pt-32 pb-16'>
-
-<div class='absolute inset-0 bg-gradient-to-br from-white/10 to-transparent backdrop-blur-sm pointer-events-none'></div>
-<div class='absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,white,transparent)]'></div>
-
-<div class='relative z-10 max-w-5xl mx-auto'>
-  <h1 class='text-6xl md:text-7xl font-extrabold tracking-tight mb-6'>
-    {product_name} — AI Powered Platform
-  </h1>
-
-  <p class='text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-8'>
-    {description}
-  </p>
-
-  <button class='mt-2 bg-indigo-600 text-white font-semibold px-10 py-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 hover:bg-indigo-700 transition'>
-    Get Access
-  </button>
-</div>
-
-</section>
-"""
-
-
-def get_features_section(modules):
-    sections = ""
-
-    for module in modules:
-        feature_items = ""
-
-        for f in module.get("features", [])[:3]:
-            feature_items += f"""
-        <li class='text-gray-600 text-sm leading-relaxed'>• {f}</li>
-        """
-
-        sections += f"""
-    <div class='cursor-pointer p-8 bg-white/80 backdrop-blur border border-gray-200 shadow-lg rounded-2xl hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.02] transition duration-300 ease-out'>
-
-        <div class='w-10 h-10 mb-4 rounded-lg bg-indigo-100 flex items-center justify-center'>
-            <span class='text-indigo-600 font-bold'>★</span>
-        </div>
-
-        <h3 class='text-xl font-bold mb-4 text-indigo-700'>
-            {module.get("name")}
-        </h3>
-
-        <ul class='space-y-2'>
-            {feature_items}
-        </ul>
-
-    </div>
-    """
-
-    return f"""
-<section class='py-20 px-6 max-w-6xl mx-auto bg-gradient-to-b from-gray-50 to-white rounded-3xl'>
-
-    <h2 class='text-3xl font-bold text-center mb-1
-```
-
 ### ./engine/file_generator.py
 
 ```python
@@ -4657,6 +4742,175 @@ def generate_backend_files(project_dir, architecture):
     folders = ["models", "routes", "services"]
 
     for folder in fold
+```
+
+### ./engine/template_renderer.py
+
+```python
+from jinja2 import Environment, FileSystemLoader
+import json
+import os
+from tools.llm import generate  # 🔥 NEW
+
+
+def generate_lovable_ui(data):
+    """
+    Generate dynamic SaaS UI using AI (Lovable Layer v1)
+    """
+
+    prompt = f"""
+You are a world-class SaaS UI generator.
+
+Generate a modern SaaS landing page.
+
+STRICT RULES:
+- Return ONLY HTML (no markdown)
+- Use TailwindCSS
+- Must include:
+  • Hero section
+  • Features section
+  • CTA section
+- Must look like Stripe / Notion / Linear
+- Use good spacing, gradients, shadows
+- Keep it clean and premium
+
+PRODUCT DATA:
+{json.dumps(data)}
+
+OUTPUT:
+Return full HTML page
+"""
+
+    try:
+        response = generate(prompt)
+
+        # Basic validation
+        if "<html" in response.lower() and "</html>" in response.lower():
+            return response
+
+    except Exception as e:
+        print("❌ Lovable UI generation failed:", e)
+
+    return None
+
+
+def render_startup(config_path, output_dir):
+    with open(config_path) as f:
+        data = json.load(f)
+
+    html = None
+
+    # 🔥 STEP 1: Try Lovable UI generation
+    print("🧠 Attempting Lovable UI generation...")
+    html = generate_lovable_ui(data)
+
+    # 🔁 STEP 2: Fallback to template if AI fails
+    if not html:
+        print("⚠️ Falling back to template UI")
+
+        env = Environment(loader=FileSystemLoader("saas_master_template/templates"))
+        template = env.get_template("index.html")
+        html = template.render(data=data)
+
+    # ✅ STEP 3: Write output safely
+    os.makedirs(output_dir, exist_ok=True)
+
+    with open(f"{output_dir}/index.html", "w") as f:
+        f.write(html)
+
+    print("🚀 Startup generated:", output_dir)
+
+```
+
+### ./engine/ui_components.py
+
+```python
+import re
+
+
+def generate(prompt):
+    return None  # SAFE FALLBACK (no AI for now)
+
+
+def get_header_section(product_name, description):
+    # 🔥 TRY AI GENERATION (SAFE)
+    try:
+        prompt = f"""
+Generate a modern SaaS hero section.
+
+Return ONLY HTML.
+
+Product:
+Name: {product_name}
+Description: {description}
+
+Requirements:
+- TailwindCSS
+- Premium SaaS look
+- Big headline
+- CTA button
+"""
+
+        ai_html = generate(prompt)
+
+        if ai_html and "<section" in ai_html.lower():
+            print("🧠 AI Hero Generated")
+            return ai_html
+
+    except Exception as e:
+        print("❌ AI Hero failed:", e)
+
+    # 🔁 FALLBACK (UNCHANGED ORIGINAL)
+    return f"""
+<section class='relative overflow-hidden bg-gradient-to-r from-indigo-500 to-purple-600 text-white min-h-[60vh] flex flex-col justify-center items-center text-center px-6 pt-32 pb-16'>
+
+<div class='absolute inset-0 bg-gradient-to-br from-white/10 to-transparent backdrop-blur-sm pointer-events-none'></div>
+<div class='absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,white,transparent)]'></div>
+
+<div class='relative z-10 max-w-5xl mx-auto'>
+  <h1 class='text-6xl md:text-7xl font-extrabold tracking-tight mb-6'>
+    {product_name} — AI Powered Platform
+  </h1>
+
+  <p class='text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-8'>
+    {description}
+  </p>
+
+  <button class='mt-2 bg-indigo-600 text-white font-semibold px-10 py-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 hover:bg-indigo-700 transition'>
+    Get Access
+  </button>
+</div>
+
+</section>
+"""
+
+
+def get_features_section(modules):
+    # 🔥 TRY AI GENERATION
+    try:
+        prompt = f"""
+Generate a SaaS features section.
+
+Return ONLY HTML.
+
+Modules:
+{modules}
+
+Requirements:
+- Grid layout
+- Cards UI
+- Clean SaaS design
+- TailwindCSS
+"""
+
+        ai_html = generate(prompt)
+
+        if ai_html and "<section" in ai_html.lower():
+            print("🧠 AI Features Generated")
+            return ai_html
+
+    except Exception as e:
+       
 ```
 
 ### ./orchestrator/__init__.py
@@ -4982,61 +5236,6 @@ def run_app(project_path):
 
 ```
 
-### ./tools/product_validator.py
-
-```python
-import requests
-import sqlite3
-
-
-def test_api(base_url):
-    results = {}
-
-    try:
-        res = requests.get(f"{base_url}/")
-        results["root_status"] = res.status_code
-    except Exception as e:
-        results["root_error"] = str(e)
-
-    return results
-
-
-def test_endpoint(base_url, endpoint):
-    try:
-        res = requests.get(f"{base_url}{endpoint}")
-        return {
-            "status": res.status_code,
-            "response": res.json() if res.status_code == 200 else None,
-        }
-    except Exception as e:
-        return {"error": str(e)}
-
-
-def test_post_endpoint(base_url, endpoint, payload):
-    try:
-        res = requests.post(f"{base_url}{endpoint}", json=payload)
-        return {
-            "status": res.status_code,
-            "response": res.json() if res.status_code in [200, 201] else None,
-        }
-    except Exception as e:
-        return {"error": str(e)}
-
-
-def test_db(db_path="database.db"):
-    try:
-        conn = sqlite3.connect(db_path)
-        cursor = conn.cursor()
-
-        cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
-        tables = cursor.fetchall()
-
-        return {"status": "success", "tables": tables}
-    except Exception as e:
-        return {"status": "fail", "error": str(e)}
-
-```
-
 ### ./tools/product_loop.py
 
 ```python
@@ -5226,6 +5425,92 @@ def generate(prompt):
                 print("❌ LLM ERROR:", e)
                 raise e
 
+```
+
+### ./tools/product_validator.py
+
+```python
+import os
+import sqlite3
+
+try:
+    import requests
+except ImportError:
+    requests = None
+
+
+REQUIRED_KEYS = ["core_features", "user_flows", "edge_cases"]
+
+
+def validate_product(product):
+
+    if not product:
+        return False, "Product definition is empty"
+
+    if not isinstance(product, dict):
+        return False, "Product must be a dictionary"
+
+    for key in REQUIRED_KEYS:
+        if key not in product:
+            return False, f"Missing required key: {key}"
+
+        value = product[key]
+
+        if not isinstance(value, list):
+            return False, f"Key '{key}' must be a list"
+
+        if len(value) == 0:
+            return False, f"Key '{key}' must not be empty"
+
+        for item in value:
+            if not isinstance(item, str) or not item.strip():
+                return False, f"Items in '{key}' must be non-empty strings"
+
+    return True, "Valid product definition"
+
+
+def is_valid(product):
+    ok, _ = validate_product(product)
+    return ok
+
+
+# ---- QA Agent helpers ----
+
+def test_api(base_url):
+
+    if requests is None:
+        return {"status": "skipped", "reason": "requests not installed"}
+
+    try:
+        response = requests.get(base_url, timeout=5)
+        return {
+            "status": "ok" if response.status_code == 200 else "fail",
+            "code": response.status_code,
+        }
+    except Exception as e:
+        return {"status": "error", "error": str(e)}
+
+
+def test_endpoint(base_url, path):
+
+    if requests is None:
+        return {"status": "skipped", "reason": "requests not installed"}
+
+    try:
+        url = f"{base_url.rstrip('/')}/{path.lstrip('/')}"
+        response = requests.get(url, timeout=5)
+        return {
+            "endpoint": path,
+            "status": "ok" if response.status_code == 200 else "fail",
+            "code": response.status_code,
+        }
+    except Exception as e:
+        return {"endpoint": path, "status": "error", "error": str(e)}
+
+
+def test_post_endpoint(base_url, path, payload=None):
+
+    if requ
 ```
 
 ### ./.pythonlibs/lib/python3.12/site-packages/typing_extensions.py

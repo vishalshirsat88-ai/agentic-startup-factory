@@ -978,5 +978,27 @@
       "status": "fail",
       "error": "\nTraceback (most recent call last):\n  File \"/home/runner/workspace/projects/test-startup-88159/app.py\", line 9, in <module>\n    from engine.ui_components import get_header_section, get_features_section\nModuleNotFoundError: No module named 'engine'\n"
     }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-24565",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": "\nTraceback (most recent call last):\n  File \"/home/runner/workspace/projects/test-startup-24565/app.py\", line 9, in <module>\n    from engine.ui_components import (\n  File \"/home/runner/workspace/projects/test-startup-24565/engine/ui_components.py\", line 152\n    let key = Object.keys(data.data || {})[0];\n                                        ^\nSyntaxError: f-string: valid expression required before '}'\n"
+    }
+  },
+  {
+    "name": "Test Startup",
+    "description": "Testing pipeline",
+    "project_path": "projects/test-startup-24993",
+    "status": "validated",
+    "url": "Deployment failed: [Errno 2] No such file or directory: 'railway'",
+    "validation": {
+      "status": "fail",
+      "error": "\nTraceback (most recent call last):\n  File \"/home/runner/workspace/projects/test-startup-24993/app.py\", line 8, in <module>\n    from engine.ui_components import (\n  File \"/home/runner/workspace/projects/test-startup-24993/engine/ui_components.py\", line 2, in <module>\n    from tools.llm import generate\nModuleNotFoundError: No module named 'tools'\n"
+    }
   }
 ]

@@ -36,12 +36,12 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - 5
 - 56Zop0xdrTpv0y9Aihl3M
 - 5k6gfCxZA0rS8MlEOCSs4
+- 5utK-uRumNhEMA3rjaUdT
 - 6
 - 7
 - 8
 - 843c1fd5a148da85e523c1b4ee680226f89986aa
 - 9
-- DxVZo4lfNK3NtG3K--mmu
 - Fxfvn9WZe_o9GID5-_UnA
 - HxP1oiyH84lHYOYw3v1Wb
 - Mf4xpxI5cc1CubC9J8CmZ
@@ -114,6 +114,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - click
 - click-8.3.1.dist-info
 - clients
+- code_review
 - competitive-analysis
 - components
 - connectors
@@ -171,8 +172,10 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - flask-3.1.3.dist-info
 - flask_sqlalchemy
 - flask_sqlalchemy-3.1.1.dist-info
+- follow-up-tasks
 - fonts
 - future
+- geo
 - github
 - github-solution-finder
 - glightbox
@@ -204,6 +207,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - imagesloaded
 - img
 - include
+- infographic-builder
 - inngest
 - instrument
 - insurance-optimizer
@@ -261,6 +265,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - platform
 - plugin
 - podcast-generator
+- podcast-marketing
 - pool
 - popper
 - portfolio
@@ -285,14 +290,12 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - pynacl-1.6.2.dist-info
 - python3.12
 - python_dotenv-1.2.2.dist-info
-- q4eg_AWUmHqpQ59fDhHR_
 - query-integration-data
 - react-vite
 - real-estate-analyzer
 - recipe-creator
 - recreate-screenshot
 - references
-- repl-seo-optimizer
 - repl_setup
 - replit
 - replit-docs
@@ -319,6 +322,8 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - shared_params
 - site-packages
 - skill-authoring
+- skill-creator
+- skill-finder
 - skills
 - slides
 - sneat
@@ -352,6 +357,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - tools
 - travel-assistant
 - triggers
+- twJLSTPI1QoWz5vFA5TiK
 - twofactor
 - ty
 - types
@@ -370,6 +376,7 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 - vendor
 - vendored
 - video
+- video-editing
 - video-js
 - web-search
 - website-cloning
@@ -384,4 +391,4 @@ Dashboard → Orchestrator → Agents → Tools → Deployment
 
 ## Generated
 
-2026-04-17 09:51:22.877250+00:00
+2026-04-17 11:26:11.830565+00:00

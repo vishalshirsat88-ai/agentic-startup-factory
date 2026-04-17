@@ -1,7 +1,39 @@
 import re
 
 
+def generate(prompt):
+    return None  # SAFE FALLBACK (no AI for now)
+
+
 def get_header_section(product_name, description):
+    # 🔥 TRY AI GENERATION (SAFE)
+    try:
+        prompt = f"""
+Generate a modern SaaS hero section.
+
+Return ONLY HTML.
+
+Product:
+Name: {product_name}
+Description: {description}
+
+Requirements:
+- TailwindCSS
+- Premium SaaS look
+- Big headline
+- CTA button
+"""
+
+        ai_html = generate(prompt)
+
+        if ai_html and "<section" in ai_html.lower():
+            print("🧠 AI Hero Generated")
+            return ai_html
+
+    except Exception as e:
+        print("❌ AI Hero failed:", e)
+
+    # 🔁 FALLBACK (UNCHANGED ORIGINAL)
     return f"""
 <section class='relative overflow-hidden bg-gradient-to-r from-indigo-500 to-purple-600 text-white min-h-[60vh] flex flex-col justify-center items-center text-center px-6 pt-32 pb-16'>
 
@@ -27,6 +59,33 @@ def get_header_section(product_name, description):
 
 
 def get_features_section(modules):
+    # 🔥 TRY AI GENERATION
+    try:
+        prompt = f"""
+Generate a SaaS features section.
+
+Return ONLY HTML.
+
+Modules:
+{modules}
+
+Requirements:
+- Grid layout
+- Cards UI
+- Clean SaaS design
+- TailwindCSS
+"""
+
+        ai_html = generate(prompt)
+
+        if ai_html and "<section" in ai_html.lower():
+            print("🧠 AI Features Generated")
+            return ai_html
+
+    except Exception as e:
+        print("❌ AI Features failed:", e)
+
+    # 🔁 FALLBACK (UNCHANGED ORIGINAL)
     sections = ""
 
     for module in modules:
@@ -160,7 +219,7 @@ def get_module_page_section(module):
     
           if (data && data.data) {{
               let key = Object.keys(data.data || {{}})[0];
-              let items = key ? data.data[key] : [];
+              items = key ? data.data[key] : [];
           }}
     
           let html = "";
